@@ -4,7 +4,7 @@ import Loadable from 'react-loadable';
 import {
   BrowserRouter as Router,
   Route,
-  Link, NavLink, Switch
+  Link, NavLink, Switch, HashRouter
 } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -33,7 +33,7 @@ const Calendar = Loadable({
 });
 
 const Index = () => (
-  <Router>
+  <HashRouter>
     <div>
       <Navbar inverse collapseOnSelect fixedTop>
         <Navbar.Header>
@@ -69,7 +69,7 @@ const Index = () => (
         联系方式： QQ: 452214596 EMAIL: a@neu.la
       </div>
     </div>
-  </Router>
+  </HashRouter>
 );
 
 export default Index;
