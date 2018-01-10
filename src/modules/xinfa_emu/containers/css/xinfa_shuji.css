@@ -1,0 +1,244 @@
+.xinfa-name {
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    background: #1e3f51;
+    border: 3px solid #335b71;
+    border-radius: 5px;
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    padding: 8px 10px 2px 8px;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.xinfa-reinforce {
+    position: absolute;
+    left: 5px;
+    top: -25px;
+    z-index: 99;
+}
+
+.reinforce-title {
+    background: url(../../assets/imgs/ui/reinforce_word_bg.png);
+    display: block;
+    width: 93px;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 3px;
+}
+
+.reinforce-img-wrapper {
+    max-width: 100px;
+    text-align: left;
+}
+
+.reinforce-img {
+    border: 2px solid #465e6d;
+    margin: 2px;
+    width: 44px;
+    height: 44px;
+}
+
+
+.xinfa-level {
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    font-size: 18px;
+    transform: translate(-50%, 0);
+}
+
+.xinfa-skills {
+    /*background: #131e34;*/
+}
+
+
+.shuji {
+    position: relative;
+}
+
+.shuji-div {
+    width: 95%;
+    height: 100%;
+    margin: 30px auto 0;
+    text-align: center;
+    position: relative;
+}
+
+.shuji-bg-svg {
+    width: 100%;
+    padding: 15%;
+}
+
+.shuji-fg {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+.shuji-image {
+    height: 74px;
+    width: 74px;
+    overflow: visible;
+}
+
+.shuji-image-dark {
+    height: 74px;
+    width: 74px;
+    overflow: visible;
+    opacity: 0.4;
+}
+
+.shuji-level-text-green {
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #000;
+    fill: #58b03b;
+}
+
+.shuji-level-text-red {
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #000;
+    fill: #ad2525;
+}
+
+.shuji-circle {
+    stroke: #9cd2fe;
+    stroke-width: 5;
+    filter: url(#glow);
+    fill: black;
+}
+
+.shuji-circle-dark {
+    stroke: #272a33;
+    stroke-width: 5;
+    filter: url(#inset-shadow);
+    fill: black;
+}
+
+.shuji-line {
+    stroke-width: 5;
+    stroke: #9cd2fe;
+    stroke-linecap: round;
+    filter: url(#glow);
+}
+
+.shuji-line-dark {
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke: #272a33;
+    filter: url(#inset-shadow);
+}
+
+.xinfa-skills {
+    position: absolute;
+    padding: 0;
+    bottom: 0;
+    left: -14px;
+    width: 100px;
+}
+
+.xinfa-skills-title {
+    background: url(../../assets/imgs/ui/reinforce_word_bg.png);
+    display: block;
+    width: 93px;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.xinfa-skills-wrapper {
+    width: 100px;
+    text-align: left;
+}
+
+.xinfa-skill {
+    background: #131e34;
+    display: inline-block;
+    width: 44px;
+    margin: 2px;
+    padding: 0;
+    text-align: center;
+}
+
+.xinfa-skill-img {
+    width: 100%;
+    border: 2px solid #465e6d;
+    height: auto;
+}
+
+.xinfa-description {
+    position: absolute;
+    bottom: 0;
+    right: -14px;
+    color: #ffff66;
+    text-shadow: 1px 1px 1px #4e5333;
+    width: 45%;
+    height: 10%;
+    font-size: 16px;
+    /*background: rgba(30, 63, 61, 0.3);*/
+    text-align: right;
+}
+
+
+.level-button-group {
+    text-align: center;
+}
+
+.view-btn-regular {
+    /*background: #175887;*/
+    background: #103f60;
+    border: 1px solid #2d6a93;
+    color: #fff;
+}
+
+.view-btn-light {
+    background: #175887;
+    /*background: #103f60;*/
+    border: 1px solid #2d6a93;
+    color: #fff;
+}
+
+.view-btn-regular-with-hover {
+    background: #103f60;
+    border: 1px solid #2d6a93;
+    color: #fff;
+}
+
+.view-btn-regular-with-hover span:last-child {
+    display: none;
+}
+.view-btn-regular-with-hover:hover span:first-child {
+    display: none;
+}
+.view-btn-regular-with-hover:hover span:last-child {
+    display: inline;
+}
+
+.level-button-group button:hover,
+.level-button-group button:focus,
+.level-button-group button:active,
+.level-button-group button:active:focus,
+.level-button-group button.active
+{
+    background: #1e75b3;
+    color: #fff;
+}
+
+.level-button-group button[disabled]:hover,
+.level-button-group button[disabled]:focus,
+.level-button-group button[disabled]:active,
+.level-button-group button[disabled]:active:focus,
+.level-button-group button[disabled].active
+{
+    border: 1px solid #2d6a93;
+    background: #103f60;
+    color: #fff;
+    cursor: default;
+}

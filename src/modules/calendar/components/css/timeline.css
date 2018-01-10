@@ -1,0 +1,64 @@
+/*:global svg {*/
+    /*width:*/
+/*}*/
+
+:global .background {
+    fill: #eee;
+}
+
+:global .axis path, :global .axis line {
+    fill: none;
+    stroke: #fff;
+}
+
+:global .too-small-hint {
+    fill: #888;
+    text-anchor: middle;
+    font-size: 24px;
+}
+
+:global .jixiong-label {
+    fill: #fff;
+    text-anchor: middle;
+}
+
+:global .shichen-label {
+    fill: #fff;
+    text-anchor: middle;
+}
+
+:global .current-time-text {
+    text-anchor: middle;
+    font-size: 12px;
+}
+
+.timeline-tooltip {
+    position: absolute;
+    transform: translate(-50%,0);
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 9999;
+}
+
+.timeline-tooltip:after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border: 5px solid transparent;
+    border-top-color: black;
+}
+
+.timeline-tooltip p {
+    margin: 0;
+}
+
+.timeline-tooltip hr {
+    margin: 0;
+}

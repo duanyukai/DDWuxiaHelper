@@ -1,0 +1,3 @@
+// 结果筛选
+.brkthruLevels[].shuji[] | select(.isStoneShuji == false )  | select( .types[1])
+

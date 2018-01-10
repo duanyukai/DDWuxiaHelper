@@ -1,0 +1,25 @@
+.tooltip {
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 5px;
+    z-index: 99999;
+    background: rgba(0,0,0,0.7);
+    display: block;
+    position: absolute;
+    transform: translate(0, -100%);
+    border: 1px #eee solid;
+    box-shadow: 1px 1px 1px 2px rgba(255,255,255,0.2);
+}
+
+.tooltip-arrow {
+    position: absolute;
+    border: 10px rgba(0,0,0,0) solid;
+    border-top: 10px rgba(255,255,255,1) solid;
+}
+
+.chongxue-btn {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}

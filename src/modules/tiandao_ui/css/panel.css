@@ -1,0 +1,45 @@
+.panel {
+    border-style: solid;
+    border-width: 21px 115px;
+    -moz-border-image: url(../assets/imgs/panel_border_body.png) 21 115 stretch;
+    -webkit-border-image: url(../assets/imgs/panel_border_body.png) 21 115 stretch;
+    -o-border-image: url(../assets/imgs/panel_border_body.png) 21 115 stretch;
+    border-image: url(../assets/imgs/panel_border_body.png) 21 115 fill stretch;
+
+    position: relative;
+
+    margin-top: 15px;
+}
+
+.panel-title {
+    min-width: 200px;
+    height: 30px;
+
+    border-style: solid;
+    border-width: 0 42px;
+    -moz-border-image: url(../assets/imgs/panel_border_title.png) 0 42 stretch;
+    -webkit-border-image: url(../assets/imgs/panel_border_title.png) 0 42 stretch;
+    -o-border-image: url(../assets/imgs/panel_border_title.png) 0 42 stretch;
+    border-image: url(../assets/imgs/panel_border_title.png) 0 42 fill stretch;
+
+    position: absolute;
+    top: -34px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-size: 16px;
+    color: #FFF;
+    text-shadow: #FFF 1px 1px 1px;
+    padding: 4px 10px 2px 10px;
+    text-align: center;
+}
+
+.panel-body {
+    margin: 0 -90px;
+    color: #FFF;
+}
+
+.panel-body-wrapper{
+    margin: 0;
+    position: relative;
+}

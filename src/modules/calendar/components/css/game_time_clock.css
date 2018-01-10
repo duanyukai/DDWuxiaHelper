@@ -1,0 +1,48 @@
+:global svg.clock {
+    /*stroke-linecap: round;*/
+    stroke-linecap: butt;
+    width: 100%;
+}
+
+:global .face {
+    stroke: #fff;
+    stroke-width: 4;
+}
+
+:global .hour-tick.face {
+}
+
+:global .minute-tick.face {
+    stroke-width: 2;
+}
+
+:global .hand {
+    /*stroke: #336;*/
+    stroke: steelblue;
+    stroke-width: 5;
+}
+
+:global .hour.hand {
+    stroke-width: 12;
+}
+
+:global .minute.hand {
+}
+
+:global .second.hand {
+    stroke: red;
+    stroke-width: 4;
+}
+
+:global .clock-digit {
+    text-anchor: middle;
+    alignment-baseline: central;
+    fill: #fff;
+    font-size: 24px;
+}
+
+:global .pie-label {
+    font-size: 18px;
+    fill: #fff;
+    text-anchor: middle;
+}

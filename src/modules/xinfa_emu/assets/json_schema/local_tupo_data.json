@@ -1,0 +1,40 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "additionalProperties": false,
+    "current": {
+      "type": "integer",
+      "default": 0,
+      "minimum": 0,
+      "maximum": 4
+    },
+    "chongxue": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "additionalProperties": {
+          "type": "object",
+          "properties": {
+            "fulfilledLevel": {
+              "type": "integer",
+              "default": -1,
+              "minimum": -1,
+              "maximum": 10
+            },
+            "curLevelCX": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "integer",
+                "default": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

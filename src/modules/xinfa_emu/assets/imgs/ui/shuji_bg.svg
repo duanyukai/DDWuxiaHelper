@@ -1,0 +1,67 @@
+<svg width="256" height="256" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <radialGradient id="OuterGradient">
+            <stop offset="0%" stop-color="#635f5c"/>
+            <stop offset="100%" stop-color="#2d2e35"/>
+        </radialGradient>
+        <radialGradient id="DecorationGradient">
+            <stop offset="0%" stop-color="#585659"/>
+            <stop offset="100%" stop-color="#3d3c3f"/>
+        </radialGradient>
+
+        <linearGradient id="center-polygon" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color: #433f3e;"/>
+            <stop offset="100%" style="stop-color: #171f29;"/>
+        </linearGradient>
+
+        <g id="reg-polygon">
+            <polygon points="0,-512 362,-362 512,0 362,362 0,512 -362,362 -512,0 -362,-362" style="fill: url(#OuterGradient); stroke: #635f5c; stroke-width: 5;"/>
+        </g>
+        <g id="outer-bezier">
+            <path d="M362,362 Q436,180 385,160 436,180 512,0" style="" transform="translate(512,512)"/>
+        </g>
+
+        <filter id="glow">
+            <feColorMatrix type="matrix"
+                values=
+                        "
+
+                        "
+            />
+        </filter>
+
+    </defs>
+    <!-- 内圈是外圈的9 / 16 -->
+    <use xlink:href="#reg-polygon" x="512" y="512" />
+    <use xlink:href="#reg-polygon" x="512" y="512" transform="translate(224, 224) scale(0.5625)" style="fill: #FFF;" />
+
+    <!--<use xlink:href="#outer-bezier" transform="rotate(0,512,512)" style="fill: url(#DecorationGradient);" />-->
+    <!--<use xlink:href="#outer-bezier" transform="rotate(45,512,512)" style="fill: url(#DecorationGradient);" />-->
+    <!--<use xlink:href="#outer-bezier" transform="rotate(90,512,512)" style="fill: url(#DecorationGradient);" />-->
+    <!--<use xlink:href="#outer-bezier" transform="rotate(135,512,512)" style="fill: url(#DecorationGradient);" />-->
+    <!--<use xlink:href="#outer-bezier" transform="rotate(180,512,512)" style="fill: url(#DecorationGradient);" />-->
+    <!--<use xlink:href="#outer-bezier" transform="rotate(225,512,512)" style="fill: url(#DecorationGradient);" />-->
+    <!--<use xlink:href="#outer-bezier" transform="rotate(270,512,512)" style="fill: url(#DecorationGradient);" />-->
+    <!--<use xlink:href="#outer-bezier" transform="rotate(315,512,512)" style="fill: url(#DecorationGradient);" />-->
+
+    <use xlink:href="#outer-bezier" transform="rotate(  0,512,512)" style="fill: #444146;" />
+    <use xlink:href="#outer-bezier" transform="rotate( 45,512,512)" style="fill: #444146;" />
+    <use xlink:href="#outer-bezier" transform="rotate( 90,512,512)" style="fill: #444146;" />
+    <use xlink:href="#outer-bezier" transform="rotate(135,512,512)" style="fill: #444146;" />
+    <use xlink:href="#outer-bezier" transform="rotate(180,512,512)" style="fill: #444146;" />
+    <use xlink:href="#outer-bezier" transform="rotate(225,512,512)" style="fill: #444146;" />
+    <use xlink:href="#outer-bezier" transform="rotate(270,512,512)" style="fill: #444146;" />
+    <use xlink:href="#outer-bezier" transform="rotate(315,512,512)" style="fill: #444146;" />
+
+    <use xlink:href="#outer-bezier" transform="translate(474,346) scale(0.5)" style="fill: #524e51;"/>
+    <use xlink:href="#outer-bezier" transform="rotate(45, 512,512) translate(474,346) scale(0.5)" style="fill: #524e51;"/>
+    <use xlink:href="#outer-bezier" transform="rotate(90, 512,512) translate(474,346) scale(0.5)" style="fill: #524e51;"/>
+    <use xlink:href="#outer-bezier" transform="rotate(135, 512,512) translate(474,346) scale(0.5)" style="fill: #524e51;"/>
+    <use xlink:href="#outer-bezier" transform="rotate(180, 512,512) translate(474,346) scale(0.5)" style="fill: #524e51;"/>
+    <use xlink:href="#outer-bezier" transform="rotate(225, 512,512) translate(474,346) scale(0.5)" style="fill: #524e51;"/>
+    <use xlink:href="#outer-bezier" transform="rotate(270, 512,512) translate(474,346) scale(0.5)" style="fill: #524e51;"/>
+    <use xlink:href="#outer-bezier" transform="rotate(315, 512,512) translate(474,346) scale(0.5)" style="fill: #524e51;"/>
+
+    <polygon points="288,0 0,288 -288,0 0,-288" style="fill: url(#center-polygon); stroke: #635f5c; stroke-width: 3;" transform="translate(512,512)" />
+    <circle cx="512" cy="512" r="104" style="fill: #17283a;"/>
+</svg>

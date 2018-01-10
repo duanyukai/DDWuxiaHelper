@@ -1,0 +1,136 @@
+<svg width="400" height="400" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="glow" height="300%" width="300%" x="-75%" y="-75%" filterUnits="userSpaceOnUse">
+            <!-- Thicken out the original shape -->
+            <feMorphology operator="dilate" radius="2" in="SourceAlpha" result="thicken" />
+
+            <!-- Use a gaussian blur to create the soft blurriness of the glow -->
+            <feGaussianBlur in="thicken" stdDeviation="5" result="blurred" />
+
+            <!-- Change the colour -->
+            <feFlood flood-color="#3a83b5" result="glowColor" />
+
+            <!-- Color in the glows -->
+            <feComposite in="glowColor" in2="blurred" operator="in" result="softGlow_colored" />
+
+            <!--	Layer the effects together -->
+            <feMerge>
+                <feMergeNode in="softGlow_colored"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+
+        </filter>
+        <style type="text/css">
+            .line-glow {
+                stroke-width: 5;
+                stroke: #9cd2fe;
+                filter: url(#glow);
+            }
+
+            .line-dark {
+                fill: none;
+                stroke-width: 5;
+                stroke: #000;
+            }
+
+            .shuji-glow {
+                fill: none;
+                stroke:#9cd2fe;
+                stroke-width:5;
+                filter:url(#glow);
+            }
+
+            .shuji-dark {
+                fill: none;
+                stroke: #000;
+                stroke-width: 5;
+            }
+        </style>
+    </defs>
+
+    <g id="line-group" transform="translate(512,512)">
+        <line id="line-0-1" x1="0" y1="0" x2="0" y2="-153" class="line-dark" />
+        <line id="line-0-2" x1="0" y1="0" x2="108" y2="-108" class="line-glow" />
+        <line id="line-0-3" x1="0" y1="0" x2="153" y2="0" class="line-glow" />
+        <line id="line-0-4" x1="0" y1="0" x2="108" y2="108" class="line-glow" />
+        <line id="line-0-5" x1="0" y1="0" x2="0" y2="153" class="line-glow" />
+        <line id="line-0-6" x1="0" y1="0" x2="-108" y2="108" class="line-glow" />
+        <line id="line-0-7" x1="0" y1="0" x2="-153" y2="0" class="line-glow" />
+        <line id="line-0-8" x1="0" y1="0" x2="-108" y2="-108" class="line-glow" />
+        <line id="line-1-2" x1="0" y1="-153" x2="108" y2="-108" class="line-glow" />
+        <line id="line-2-3" x1="108" y1="-108" x2="153" y2="0" class="line-glow" />
+        <line id="line-3-4" x1="153" y1="0" x2="108" y2="108" class="line-glow" />
+        <line id="line-4-5" x1="108" y1="108" x2="0" y2="153" class="line-glow" />
+        <line id="line-5-6" x1="0" y1="153" x2="-108" y2="108" class="line-glow" />
+        <line id="line-6-7" x1="-108" y1="108" x2="-153" y2="0" class="line-glow" />
+        <line id="line-7-8" x1="-153" y1="0" x2="-108" y2="-108" class="line-glow" />
+        <line id="line-1-8" x1="0" y1="-153" x2="-108" y2="-108" class="line-glow" />
+        <line id="line-1-9" x1="0" y1="-153" x2="0" y2="-307" class="line-glow" />
+        <line id="line-2-10" x1="108" y1="-108" x2="217" y2="-217" class="line-glow" />
+        <line id="line-3-11" x1="153" y1="0" x2="307" y2="0" class="line-glow" />
+        <line id="line-4-12" x1="108" y1="108" x2="217" y2="217" class="line-glow" />
+        <line id="line-5-13" x1="0" y1="153" x2="0" y2="307" class="line-glow" />
+        <line id="line-6-14" x1="-108" y1="108" x2="-217" y2="217" class="line-glow" />
+        <line id="line-7-15" x1="-153" y1="0" x2="-307" y2="0" class="line-glow" />
+        <line id="line-8-16" x1="-108" y1="-108" x2="-217" y2="-217" class="line-glow" />
+        <line id="line-9-10" x1="0" y1="-307" x2="217" y2="-217" class="line-glow" />
+        <line id="line-10-11" x1="217" y1="-217" x2="307" y2="0" class="line-glow" />
+        <line id="line-11-12" x1="307" y1="0" x2="217" y2="217" class="line-glow" />
+        <line id="line-12-13" x1="217" y1="217" x2="0" y2="307" class="line-glow" />
+        <line id="line-13-14" x1="0" y1="307" x2="-217" y2="217" class="line-glow" />
+        <line id="line-14-15" x1="-217" y1="217" x2="-307" y2="0" class="line-glow" />
+        <line id="line-15-16" x1="-307" y1="0" x2="-217" y2="-217" class="line-glow" />
+        <line id="line-9-16" x1="0" y1="-307" x2="-217" y2="-217" class="line-glow" />
+        <line id="line-9-17" x1="0" y1="-307" x2="0" y2="-460" class="line-glow" />
+        <line id="line-10-18" x1="217" y1="-217" x2="325" y2="-325" class="line-glow" />
+        <line id="line-11-19" x1="307" y1="0" x2="460" y2="0" class="line-glow" />
+        <line id="line-12-20" x1="217" y1="217" x2="325" y2="325" class="line-glow" />
+        <line id="line-13-21" x1="0" y1="307" x2="0" y2="460" class="line-glow" />
+        <line id="line-14-22" x1="-217" y1="217" x2="-325" y2="325" class="line-glow" />
+        <line id="line-15-23" x1="-307" y1="0" x2="-460" y2="0" class="line-glow" />
+        <line id="line-16-24" x1="-217" y1="-217" x2="-325" y2="-325" class="line-glow" />
+        <line id="line-17-18" x1="0" y1="-460" x2="325" y2="-325" class="line-glow" />
+        <line id="line-18-19" x1="325" y1="-325" x2="460" y2="0" class="line-glow" />
+        <line id="line-19-20" x1="460" y1="0" x2="325" y2="325" class="line-glow" />
+        <line id="line-20-21" x1="325" y1="325" x2="0" y2="460" class="line-glow" />
+        <line id="line-21-22" x1="0" y1="460" x2="-325" y2="325" class="line-glow" />
+        <line id="line-22-23" x1="-325" y1="325" x2="-460" y2="0" class="line-glow" />
+        <line id="line-23-24" x1="-460" y1="0" x2="-325" y2="-325" class="line-glow" />
+        <line id="line-17-24" x1="0" y1="-460" x2="-325" y2="-325" class="line-glow" />
+    </g>
+
+    <g id="shuji-group" transform="translate(512,512)">
+        <g id="shuji-0" class="shuji-glow">
+            <circle id="shuji-0" cx="0" cy="0" r="41" class="shuji-glow" />
+            <image id="shuji-0-img" xlink:href="" x="0" y="0" height="164" width="164" />
+        </g>
+        <circle id="shuji-1" cx="0" cy="-153" r="41" class="shuji-glow" />
+        <circle id="shuji-2" cx="108" cy="-108" r="41" class="shuji-glow" />
+        <circle id="shuji-3" cx="153" cy="0" r="41" class="shuji-glow" />
+        <circle id="shuji-4" cx="108" cy="108" r="41" class="shuji-glow" />
+        <circle id="shuji-5" cx="0" cy="153" r="41" class="shuji-glow" />
+        <circle id="shuji-6" cx="-108" cy="108" r="41" class="shuji-glow" />
+        <circle id="shuji-7" cx="-153" cy="0" r="41" class="shuji-glow" />
+        <circle id="shuji-8" cx="-108" cy="-108" r="41" class="shuji-glow" />
+        <circle id="shuji-9" cx="0" cy="-307" r="41" class="shuji-glow" />
+        <circle id="shuji-10" cx="217" cy="-217" r="41" class="shuji-glow" />
+        <circle id="shuji-11" cx="307" cy="0" r="41" class="shuji-glow" />
+        <circle id="shuji-12" cx="217" cy="217" r="41" class="shuji-glow" />
+        <circle id="shuji-13" cx="0" cy="307" r="41" class="shuji-glow" />
+        <circle id="shuji-14" cx="-217" cy="217" r="41" class="shuji-glow" />
+        <circle id="shuji-15" cx="-307" cy="0" r="41" class="shuji-glow" />
+        <circle id="shuji-16" cx="-217" cy="-217" r="41" class="shuji-glow" />
+        <circle id="shuji-17" cx="0" cy="-460" r="41" class="shuji-glow" />
+        <circle id="shuji-18" cx="325" cy="-325" r="41" class="shuji-glow" />
+        <circle id="shuji-19" cx="460" cy="0" r="41" class="shuji-glow" />
+        <circle id="shuji-20" cx="325" cy="325" r="41" class="shuji-glow" />
+        <circle id="shuji-21" cx="0" cy="460" r="41" class="shuji-glow" />
+        <circle id="shuji-22" cx="-325" cy="325" r="41" class="shuji-glow" />
+        <circle id="shuji-23" cx="-460" cy="0" r="41" class="shuji-glow" />
+        <circle id="shuji-24" cx="-325" cy="-325" r="41" class="shuji-glow" />
+    </g>
+
+    <g id="shuji-img-geoup">
+        <image xlink:href="https://www.baidu.com/img/bd_logo1.png" x="0" y="0" height="164" width="164" />
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+.pic-header {
+    background: url(../../assets/imgs/background.png);
+    background-size: cover;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.nav-panel {
+    height: 100%;
+}
+
+.nav-panel :global .panel-body{
+    padding: 3px;
+}
+
+.nav-panel img{
+    width: 100%;
+}
+
+.nav-panel .nav-panel-div {
+    margin: 10px;
+}
+
+.nav-panel img {
+    border: solid #bbb 1px;
+}
+
+.nav-panel hr {
+    margin: 4px;
+}
+
+.nav-panel p {
+    text-align: center;
+}
+
+.nav-panel-div h3 {
+    text-align: center;
+}
+
+.nav-panel-div a {
+    color: black;
+}
+
+.nav-panel-div a:hover {
+    text-decoration: none;
+}

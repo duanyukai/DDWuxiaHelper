@@ -1,0 +1,27 @@
+.switch-button-group {
+    text-align: center;
+}
+
+.view-btn-regular {
+    /*background: #175887;*/
+    background: #103f60;
+    border: 1px solid #2d6a93;
+    color: #fff;
+}
+
+.view-btn-light {
+    background: #175887;
+    /*background: #103f60;*/
+    border: 1px solid #2d6a93;
+    color: #fff;
+}
+
+.switch-button-group button:hover,
+.switch-button-group button:focus,
+.switch-button-group button:active,
+.switch-button-group button:active:focus,
+.switch-button-group button.active
+{
+    background: #1e75b3;
+    color: #fff;
+}
