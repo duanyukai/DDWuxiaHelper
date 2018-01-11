@@ -25,7 +25,8 @@ class CalendarApp extends Component {
       // gameTime: dateToShichenDetail(this.getTimezoneDate()),
       timezoneSign: 1,
       timezoneValue: 8,
-      showSecondHand: true
+      showSecondHand: true,
+      useTransition: true
     };
   }
 
@@ -68,6 +69,7 @@ class CalendarApp extends Component {
                     <RealTimeClock
                       showSecondHand={this.state.showSecondHand}
                       getBeijingDate={this.getTimezoneDate.bind(this)}
+                      useTransition={this.state.useTransition}
                     />
                     <h3>&nbsp;</h3>
                     <h3>{moment(this.state.realTime).format('YYYY-MM-DD HH:mm:ss')}</h3>
@@ -77,6 +79,7 @@ class CalendarApp extends Component {
                     <GameTimeClock
                       showSecondHand={this.state.showSecondHand}
                       getBeijingDate={this.getTimezoneDate.bind(this)}
+                      useTransition={this.state.useTransition}
                     />
                     <h3>{getShichenName(dateToShichenId(this.state.realTime))}时</h3>
                     <h3>{moment(this.state.gameTime).format('YYYY-MM-DD HH:mm:ss')}</h3>
@@ -123,6 +126,15 @@ class CalendarApp extends Component {
                     style={{display: 'inline-block'}}
                   >
                     显示秒针（卡顿时可关闭）
+                  </Checkbox>{' '}
+                  <Checkbox
+                    checked={this.state.useTransition}
+                    onChange={(e) => this.setState({
+                      useTransition: e.target.checked
+                    })}
+                    style={{display: 'inline-block'}}
+                  >
+                    使用动画效果（卡顿时可关闭）
                   </Checkbox>
                 </div>
                 <hr />
@@ -159,6 +171,7 @@ class CalendarApp extends Component {
                   <tr>
                     <th>时辰</th>
                     <th>游戏时间</th>
+                    <th>现实时长</th>
                     <th>现实时间1</th>
                     <th>现实时间2</th>
                     <th>现实时间3</th>
@@ -169,18 +182,18 @@ class CalendarApp extends Component {
                   </tr>
                   </thead>
                   <tbody>
-                  <tr><td>子时</td><td>23:00:00~00:59:59</td><td>02:04:48</td><td>06:04:48</td><td>10:04:48</td><td>14:04:48</td><td>18:04:48</td><td>23:04:48</td><td>黑夜</td></tr>
-                  <tr><td>丑时</td><td>01:00:00~02:59:59</td><td>02:09:36</td><td>06:09:36</td><td>10:09:36</td><td>14:09:36</td><td>18:09:36</td><td>01:09:36</td><td>黑夜</td></tr>
-                  <tr><td>寅时</td><td>03:00:00~04:59:59</td><td>02:16:48</td><td>06:16:48</td><td>10:16:48</td><td>14:16:48</td><td>18:16:48</td><td>03:16:48</td><td>黑夜</td></tr>
-                  <tr><td>卯时</td><td>05:00:00~06:59:59</td><td>02:26:24</td><td>07:26:24</td><td>11:26:24</td><td>15:26:24</td><td>19:26:24</td><td>05:26:24</td><td>日出</td></tr>
-                  <tr><td>辰时</td><td>07:00:00~08:59:59</td><td>02:50:24</td><td>07:50:24</td><td>11:50:24</td><td>15:50:24</td><td>19:50:24</td><td>07:50:24</td><td>白天</td></tr>
-                  <tr><td>巳时</td><td>09:00:00~10:59:59</td><td>03:31:12</td><td>07:31:12</td><td>11:31:12</td><td>15:31:12</td><td>19:31:12</td><td>09:31:12</td><td>白天</td></tr>
-                  <tr><td>午时</td><td>11:00:00~12:59:59</td><td>03:55:12</td><td>08:55:12</td><td>12:55:12</td><td>16:55:12</td><td>20:55:12</td><td>11:55:12</td><td>白天</td></tr>
-                  <tr><td>未时</td><td>13:00:00~14:59:59</td><td>04:02:24</td><td>08:02:24</td><td>12:02:24</td><td>16:02:24</td><td>20:02:24</td><td>13:02:24</td><td>白天</td></tr>
-                  <tr><td>申时</td><td>15:00:00~16:59:59</td><td>04:16:48</td><td>08:16:48</td><td>12:16:48</td><td>16:16:48</td><td>20:16:48</td><td>15:16:48</td><td>白天</td></tr>
-                  <tr><td>酉时</td><td>17:00:00~18:59:59</td><td>05:02:24</td><td>09:02:24</td><td>13:02:24</td><td>17:02:24</td><td>21:02:24</td><td>17:02:24</td><td>日落</td></tr>
-                  <tr><td>戌时</td><td>19:00:00~20:59:59</td><td>05:36:00</td><td>09:36:00</td><td>13:36:00</td><td>17:36:00</td><td>21:36:00</td><td>19:36:00</td><td>黑夜</td></tr>
-                  <tr><td>亥时</td><td>21:00:00~22:59:59</td><td>05:55:12</td><td>09:55:12</td><td>13:55:12</td><td>17:55:12</td><td>21:55:12</td><td>21:55:12</td><td>黑夜</td></tr>
+                  <tr><td>子时</td><td>23:00:00~00:59:59</td><td>04分48秒</td><td>02:04:48</td><td>06:04:48</td><td>10:04:48</td><td>14:04:48</td><td>18:04:48</td><td>23:04:48</td><td>黑夜</td></tr>
+                  <tr><td>丑时</td><td>01:00:00~02:59:59</td><td>07分12秒</td><td>02:09:36</td><td>06:09:36</td><td>10:09:36</td><td>14:09:36</td><td>18:09:36</td><td>01:09:36</td><td>黑夜</td></tr>
+                  <tr><td>寅时</td><td>03:00:00~04:59:59</td><td>09分36秒</td><td>02:16:48</td><td>06:16:48</td><td>10:16:48</td><td>14:16:48</td><td>18:16:48</td><td>03:16:48</td><td>黑夜</td></tr>
+                  <tr><td>卯时</td><td>05:00:00~06:59:59</td><td>24分00秒</td><td>03:26:24</td><td>07:26:24</td><td>11:26:24</td><td>15:26:24</td><td>19:26:24</td><td>05:26:24</td><td>日出</td></tr>
+                  <tr><td>辰时</td><td>07:00:00~08:59:59</td><td>40分48秒</td><td>03:50:24</td><td>07:50:24</td><td>11:50:24</td><td>15:50:24</td><td>19:50:24</td><td>07:50:24</td><td>白天</td></tr>
+                  <tr><td>巳时</td><td>09:00:00~10:59:59</td><td>24分00秒</td><td>03:31:12</td><td>07:31:12</td><td>11:31:12</td><td>15:31:12</td><td>19:31:12</td><td>09:31:12</td><td>白天</td></tr>
+                  <tr><td>午时</td><td>11:00:00~12:59:59</td><td>07分12秒</td><td>04:55:12</td><td>08:55:12</td><td>12:55:12</td><td>16:55:12</td><td>20:55:12</td><td>11:55:12</td><td>白天</td></tr>
+                  <tr><td>未时</td><td>13:00:00~14:59:59</td><td>14分24秒</td><td>04:02:24</td><td>08:02:24</td><td>12:02:24</td><td>16:02:24</td><td>20:02:24</td><td>13:02:24</td><td>白天</td></tr>
+                  <tr><td>申时</td><td>15:00:00~16:59:59</td><td>45分36秒</td><td>04:16:48</td><td>08:16:48</td><td>12:16:48</td><td>16:16:48</td><td>20:16:48</td><td>15:16:48</td><td>白天</td></tr>
+                  <tr><td>酉时</td><td>17:00:00~18:59:59</td><td>33分36秒</td><td>05:02:24</td><td>09:02:24</td><td>13:02:24</td><td>17:02:24</td><td>21:02:24</td><td>17:02:24</td><td>日落</td></tr>
+                  <tr><td>戌时</td><td>19:00:00~20:59:59</td><td>19分12秒</td><td>05:36:00</td><td>09:36:00</td><td>13:36:00</td><td>17:36:00</td><td>21:36:00</td><td>19:36:00</td><td>黑夜</td></tr>
+                  <tr><td>亥时</td><td>21:00:00~22:59:59</td><td>09分36秒</td><td>05:55:12</td><td>09:55:12</td><td>13:55:12</td><td>17:55:12</td><td>21:55:12</td><td>21:55:12</td><td>黑夜</td></tr>
                   </tbody>
                 </Table>
               </Panel>

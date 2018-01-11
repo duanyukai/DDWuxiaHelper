@@ -47,7 +47,6 @@ class GameTimeClock extends Component {
       .outerRadius(donutRadius - 8)
       .innerRadius(donutRadius - 24);
 
-
     let pieLayout = d3.pie()
       .sort(null)
       .value((d) => d.value)
@@ -205,10 +204,15 @@ class GameTimeClock extends Component {
         .attr('y2', (d) => - handLength(d))
         .attr('transform', rotationTransform);
       hands.exit().remove();
-        hands.transition()
+      if(self.props.useTransition) {
+        hands
+        .transition()
         .ease(d3.easeLinear)
         .duration(1000)
-        .attr('transform', rotationTransform)
+          .attr('transform', rotationTransform)
+      } else {
+        hands.attr('transform', rotationTransform)
+      }
     }
   }
 

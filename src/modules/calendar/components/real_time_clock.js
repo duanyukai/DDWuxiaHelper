@@ -37,6 +37,8 @@ class RealTimeClock extends Component {
     let svgPie = svg.append('g')
       .attr('transform', `translate(${cx},${cy})`);
 
+    let data = genDataForRealClock();
+
     let arc = d3.arc()
       .outerRadius(donutRadius)
       .innerRadius(donutRadius - donutWidth);
@@ -44,8 +46,6 @@ class RealTimeClock extends Component {
     let labelArc = d3.arc()
       .outerRadius(donutRadius -8)
       .innerRadius(donutRadius - 24);
-
-    let data = genDataForRealClock();
 
     let pieLayout = d3.pie()
       .sort(null)
@@ -74,16 +74,19 @@ class RealTimeClock extends Component {
     makeClockFace();
 
     // 三种指针，顺序时分秒
-    let hands = svg.selectAll('line.hand').data(getTimeOfDay());
+    let handGroup = svg.append('g');
+    let hands = handGroup
+      .attr('transform', `translate(${cx}, ${cy})`)
+      .selectAll('line.hand')
+      .data(getTimeOfDay());
     hands.enter()
       .append('line')
       .attr('class',  (d) => d[0] + ' hand')
-      .attr('x1', cx)
-      .attr('y1', (d) => cy + handBackLength(d))    // 延长指针尾部一部分
-      .attr('x2', cx)
-      .attr('y2', (d) => cy - handLength(d))
+      .attr('x1', 0)
+      .attr('y1', (d) => handBackLength(d))    // 延长指针尾部一部分
+      .attr('x2', 0)
+      .attr('y2', (d) => - handLength(d))
       .attr('transform', rotationTransform);
-    hands.exit().remove();
 
     // 每秒更新指针位置
     setInterval(updateHands, 1000);
@@ -168,24 +171,29 @@ class RealTimeClock extends Component {
         angle = (d[1] % 12) * 30;
       else
         angle = d[1] * 6;
-      return 'rotate(' + angle + ',' + cx + ',' + cy + ')'
+      return 'rotate(' + angle + ')'
     }
 
     function updateHands() {
-      let hands = svg.selectAll('line.hand').data(getTimeOfDay());
+      let hands = handGroup.selectAll('line.hand').data(getTimeOfDay());
       hands.enter()
         .append('line')
         .attr('class',  (d) => d[0] + ' hand')
-        .attr('x1', cx)
-        .attr('y1', (d) => cy + handBackLength(d))    // 延长指针尾部一部分
-        .attr('x2', cx)
-        .attr('y2', (d) => cy - handLength(d))
+        .attr('x1', 0)
+        .attr('y1', (d) => handBackLength(d))    // 延长指针尾部一部分
+        .attr('x2', 0)
+        .attr('y2', (d) => - handLength(d))
         .attr('transform', rotationTransform);
       hands.exit().remove();
-      hands.transition()
+      if(self.props.useTransition) {
+        hands
+        .transition()
         .ease(d3.easeBounce)
         .duration(500)
-        .attr('transform', rotationTransform)
+          .attr('transform', rotationTransform)
+      } else {
+        hands.attr('transform', rotationTransform)
+      }
     }
   }
 

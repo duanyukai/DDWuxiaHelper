@@ -320,7 +320,7 @@ class Timeline extends Component {
       .on("mouseover", function(d) {
         let xPos = (transFunc(d.start) + transFunc(d.end)) / 2 + self.margin.left;
         let yPos = self.chartHeight - self.margin.top - self.timelineHeight - self.timelineMargin + 14;
-        let totalSeconds = (d.end - d.start) / 1000;
+        let totalSeconds = (d.end - d.start) / 1000 + 1;
         let minutes = Math.floor(totalSeconds / 60);
         let seconds = totalSeconds % 60;
         d3.select("#tooltip")
