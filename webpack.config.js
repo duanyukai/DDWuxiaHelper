@@ -44,12 +44,14 @@ module.exports = {
       template: path.join(paths.SRC, 'index.html'),
     }),
     new ExtractTextPlugin('styles.css'),
+    new BundleAnalyzerPlugin(),
     // 实际发布使用
     new webpack.optimize.CommonsChunkPlugin({
       name: ['vendor', 'manifest'],
     }),
-    new BundleAnalyzerPlugin(),
-    // 实际发布使用
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    }),
     new UglifyJsPlugin()
   ],
   module: {

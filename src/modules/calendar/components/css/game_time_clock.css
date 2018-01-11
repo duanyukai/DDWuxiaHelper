@@ -24,6 +24,7 @@
 
 :global .hour.hand {
     stroke-width: 12;
+    stroke: #000;
 }
 
 :global .minute.hand {

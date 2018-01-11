@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-// import { withFauxDOM } from 'react-faux-dom';
-import {Col, ControlLabel, Form, FormControl, FormGroup, Grid, Panel, Radio, Row, Table} from 'react-bootstrap';
+import _ from 'lodash';
+import {
+  Checkbox,
+  Col, DropdownButton, Grid, MenuItem, Panel, Row,
+  Table
+} from 'react-bootstrap';
 import Timeline from './timeline';
 
 import './css/app.css';
@@ -10,17 +14,18 @@ import {dateToShichenDetail, dateToShichenId, getShichenName} from '../utils/shi
 import moment from 'moment';
 import RadioGroup from "./RadioGroup";
 
-
-
 class CalendarApp extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       realTime: new Date(),
+      // realTime: this.getTimezoneDate(),
       gameTime: dateToShichenDetail(new Date()),
+      // gameTime: dateToShichenDetail(this.getTimezoneDate()),
       timezoneSign: 1,
-      timezoneValue: 8
+      timezoneValue: 8,
+      showSecondHand: true
     };
   }
 
@@ -28,14 +33,25 @@ class CalendarApp extends Component {
     // 更新时间
     this.interval = setInterval(() => {
       this.setState({
-        realTime: new Date(),
-        gameTime: dateToShichenDetail(new Date())
+        // realTime: new Date(),
+        realTime: this.getTimezoneDate(),
+        // gameTime: dateToShichenDetail(new Date())
+        gameTime: dateToShichenDetail(this.getTimezoneDate())
       });
     }, 250);
   }
 
   componentWillUnmount() {
     clearInterval(this.interval);
+  }
+
+  getTimezoneDate() {
+    let date = new Date();
+    let offset = this.state.timezoneSign * this.state.timezoneValue;
+    const oneHour = 1000 * 60 * 60;
+    let utc = date.getTime() - offset * oneHour;
+
+    return new Date(utc + oneHour * 8);
   }
 
   render() {
@@ -49,48 +65,70 @@ class CalendarApp extends Component {
                 <Row>
                   <Col md={6}>
                     <h3>现实时间模拟时钟</h3>
-                    <RealTimeClock />
+                    <RealTimeClock
+                      showSecondHand={this.state.showSecondHand}
+                      getBeijingDate={this.getTimezoneDate.bind(this)}
+                    />
                     <h3>&nbsp;</h3>
                     <h3>{moment(this.state.realTime).format('YYYY-MM-DD HH:mm:ss')}</h3>
                   </Col>
                   <Col md={6}>
                     <h3>游戏时间模拟时钟</h3>
-                    <GameTimeClock />
+                    <GameTimeClock
+                      showSecondHand={this.state.showSecondHand}
+                      getBeijingDate={this.getTimezoneDate.bind(this)}
+                    />
                     <h3>{getShichenName(dateToShichenId(this.state.realTime))}时</h3>
                     <h3>{moment(this.state.gameTime).format('YYYY-MM-DD HH:mm:ss')}</h3>
                   </Col>
                 </Row>
-                <Timeline />
+                <Timeline
+                  getBeijingDate={this.getTimezoneDate.bind(this)}
+                />
+                <hr />
+                <h4>设置</h4>
                 {/*时区控制*/}
                 <div>
-                  <Form inline>
-                    <FormGroup>
-                      <ControlLabel>时区设置</ControlLabel>{' '}
-                      <RadioGroup
-                        name='timezone-radio'
-                        onChange={(e) => this.setState({timezoneSign: e.target.value})}
-                        options={[
-                          ['1', '+'],
-                          ['-1', '-']
-                        ]}
-                        value={this.state.timezoneSign}
-                      />
-                    </FormGroup>{' '}
-                    <FormControl
-                      type='text'
-                      pattern='[0-9]+([\.,][0-9]+)?'
-                      value={this.state.timezoneValue}
-                      placeholder='eg: +8'
-                      onChange={(e) => this.setState({
-                        timezoneValue: parseFloat(e.target.value) ? e.target.value : 0
-                      })}
-                      style={{width: '100px'}}
-                    />
-                  </Form>
+                  <span>时区设置</span>{' '}
+                  <RadioGroup
+                    name='timezone-radio'
+                    onChange={(e) => this.setState({timezoneSign: e.target.value})}
+                    options={[
+                      ['1', '+'],
+                      ['-1', '-']
+                    ]}
+                    value={this.state.timezoneSign}
+                  />{' '}
+                  <DropdownButton
+                    bsStyle='default'
+                    title={this.state.timezoneValue}
+                    id='timezone-dropdown'
+                  >
+                    {
+                      _.range(13).map((i) => (
+                        <MenuItem
+                          eventKey={i}
+                          onSelect={(e) => this.setState({
+                            timezoneValue: e
+                          })}
+                        >{i}</MenuItem>
+                      ))
+                    }
+                  </DropdownButton>{' '}
+                  <Checkbox
+                    checked={this.state.showSecondHand}
+                    onChange={(e) => this.setState({
+                      showSecondHand: e.target.checked
+                    })}
+                    style={{display: 'inline-block'}}
+                  >
+                    显示秒针（卡顿时可关闭）
+                  </Checkbox>
                 </div>
                 <hr />
                 <h4>使用帮助</h4>
-                <p>帮主</p>
+                <p>本工具上方分别为现实时间、游戏时间为主的模拟时钟，刻度圈皆是以游戏内十二时辰为准。通过此工具可方便地得知当前时间。</p>
+                <p>下方时间轴工具分为吉凶预测轴和游戏时间轴，鼠标停留可以显示具体的吉凶信息和游戏时辰的精确到秒的开始与结束时间。</p>
               </Panel>
             </Col>
             <Col md={12} lg={10} lgOffset={1}>

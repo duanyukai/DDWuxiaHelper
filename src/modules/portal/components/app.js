@@ -49,7 +49,6 @@ class PortalApp extends Component {
                       <p><a target='_blank' href='http://wuxia.qq.com/events.shtml'>天刀官网活动中心</a></p>
                       <p><a target='_blank' href='http://wuxia.qq.com/kz'>逍遥客栈</a></p>
                       <p><a target='_blank' href='http://daoju.qq.com/wuxia'>腾讯道聚城</a></p>
-                      <p><a target='_blank' href='https://weibo.com/206667365'>天刀值日团微博</a></p>
                     </div>
                   </Panel>
                 </Col>
@@ -84,6 +83,7 @@ class PortalApp extends Component {
                     <div styleName='nav-panel-div'>
                       <hr />
                       <p><a target='_blank' href='https://tieba.baidu.com/f?kw=%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80ol&ie=utf-8'>天涯明月刀ol贴吧</a></p>
+                      <p><a target='_blank' href='https://weibo.com/206667365'>天刀值日团微博</a></p>
                     </div>
                   </Panel>
                 </Col>
@@ -100,10 +100,8 @@ class PortalApp extends Component {
                         <h3>心法模拟器<br />（完善中）</h3>
                         <hr />
                         <p>
-                          本工具是一个高仿游戏内UI的心法模拟器。相比其他网站的模拟器来说：<br />
-                          数据最新（包含9重数据）；<br />
-                          样式直观（高仿UI）；<br />
-                          操作简便（多种快捷冲穴操作）。<br />
+                          本工具是一个高仿游戏内UI的心法模拟器。<br />
+                          数据最新；样式直观；操作简便。<br />
                           （尚在完善测试中）
                         </p>
                       </Link>
@@ -118,7 +116,7 @@ class PortalApp extends Component {
                         <h3>交互式地图助手<br />（制作中）</h3>
                         <hr />
                         <p>
-                          本工具是一个可交互的天刀地图，包括文士乐伶墨宝创作点、航海图鉴等内容。（尚在制作中）
+                          本工具是一个可交互的天刀地图，包括文士乐伶墨宝创作点、航海图鉴等内容。<br />（尚在制作中）
                         </p>
                       </Link>
                     </div>
@@ -132,7 +130,7 @@ class PortalApp extends Component {
                         <h3>天涯时刻吉凶预测</h3>
                         <hr />
                         <p>
-                          本工具包含现实时间、天涯时刻互相对照的模拟时钟，以及一个显示未来时间内吉凶预测的时间轴，时间数据精确到秒，方便文士乐伶绘画、建房求风水等需求。
+                          本工具包含现实时间、天涯时刻对照的模拟时钟，及未来时间吉凶预测时间轴.时间精确到秒，方便文士乐伶绘画、建房求风水等需求。
                         </p>
                       </Link>
                     </div>
@@ -142,7 +140,6 @@ class PortalApp extends Component {
             </Col>
           </Row>
         </Grid>
-      <hr />
       </div>
     );
   }

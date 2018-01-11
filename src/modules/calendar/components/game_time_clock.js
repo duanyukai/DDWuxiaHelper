@@ -2,15 +2,20 @@ import React, { Component } from 'react';
 import * as d3 from 'd3';
 
 import './css/game_time_clock.css';
-import {dateToShichenDetail, genDataForGameClock, genDataForRealClock} from "../utils/shichen";
+import {dateToShichenDetail, genDataForGameClock} from "../utils/shichen";
 
 class GameTimeClock extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   componentDidMount() {
     // 渲染svg
     this.initD3Clock(this.svgDOM, {});
   }
 
   initD3Clock() {
+    let self = this;
     let totalWidth = 640;
     let totalHeight = 640;
     let outerMargin = 20;
@@ -30,7 +35,7 @@ class GameTimeClock extends Component {
     /************** 环状图 ***************/
       // 外围环状图
     let svgPie = svg.append('g')
-        .attr('transform', `translate(${cx},${cy})`);
+      .attr('transform', `translate(${cx},${cy})`);
 
     let data = genDataForGameClock();
 
@@ -87,17 +92,17 @@ class GameTimeClock extends Component {
     makeClockFace();
 
     // 三种指针，顺序时分秒
-    svg.append('g')
+    let handGroup = svg.append('g');
+    let hands = handGroup
       .attr('transform', `translate(${cx}, ${cy})`)
       .selectAll('line.hand')
-      .data(getTimeOfDay())
-      .enter()
+      .data(getTimeOfDay());
+    hands.enter()
       .append('line')
       .attr('class',  (d) => d[0] + ' hand')
       // .attr('x1', cx)
       .attr('x1', 0)
       .attr('y1', (d) => handBackLength(d))    // 延长指针尾部一部分
-      // .attr('x2', cx)
       .attr('x2', 0)
       .attr('y2', (d) => - handLength(d))
       .attr('transform', rotationTransform);
@@ -150,15 +155,20 @@ class GameTimeClock extends Component {
 
     // 从现实时间到天刀时间做映射，日期无意义，主要是时分秒
     function getTimeOfDay() {
-      let now = dateToShichenDetail(new Date());
+      // let now = dateToShichenDetail(new Date());
+      let now = dateToShichenDetail(self.props.getBeijingDate());
       let hr = now.getHours();
       let min = now.getMinutes();
       let sec = now.getSeconds();
-      return [
+
+      let data = [
         [ 'hour',   hr + (min / 60) + (sec / 3600) ],
-        [ 'minute', min + (sec / 60) ],
-        [ 'second', sec ]
-      ]
+        [ 'minute', min + (sec / 60) ]
+      ];
+      if(self.props.showSecondHand) {
+        data.push([ 'second', sec ]);
+      }
+      return data;
     }
 
     function handLength(d) {
@@ -185,9 +195,17 @@ class GameTimeClock extends Component {
     }
 
     function updateHands() {
-      svg.selectAll('line.hand')
-        .data(getTimeOfDay())
-        .transition()
+      let hands = handGroup.selectAll('line.hand').data(getTimeOfDay());
+      hands.enter()
+        .append('line')
+        .attr('class',  (d) => d[0] + ' hand')
+        .attr('x1', 0)
+        .attr('y1', (d) => handBackLength(d))    // 延长指针尾部一部分
+        .attr('x2', 0)
+        .attr('y2', (d) => - handLength(d))
+        .attr('transform', rotationTransform);
+      hands.exit().remove();
+        hands.transition()
         .ease(d3.easeLinear)
         .duration(1000)
         .attr('transform', rotationTransform)

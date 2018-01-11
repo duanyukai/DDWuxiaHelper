@@ -5,12 +5,17 @@ import './css/real_time_clock.css';
 import {genDataForRealClock} from "../utils/shichen";
 
 class RealTimeClock extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   componentDidMount() {
     // 渲染svg
     this.initD3Clock(this.svgDOM, {});
   }
 
   initD3Clock() {
+    let self = this;
     let totalWidth = 640;
     let totalHeight = 640;
     let outerMargin = 20;
@@ -69,9 +74,8 @@ class RealTimeClock extends Component {
     makeClockFace();
 
     // 三种指针，顺序时分秒
-    svg.selectAll('line.hand')
-      .data(getTimeOfDay())
-      .enter()
+    let hands = svg.selectAll('line.hand').data(getTimeOfDay());
+    hands.enter()
       .append('line')
       .attr('class',  (d) => d[0] + ' hand')
       .attr('x1', cx)
@@ -79,6 +83,7 @@ class RealTimeClock extends Component {
       .attr('x2', cx)
       .attr('y2', (d) => cy - handLength(d))
       .attr('transform', rotationTransform);
+    hands.exit().remove();
 
     // 每秒更新指针位置
     setInterval(updateHands, 1000);
@@ -127,15 +132,20 @@ class RealTimeClock extends Component {
     }
 
     function getTimeOfDay() {
-      let now = new Date();
+      // let now = new Date();
+      let now = self.props.getBeijingDate();
       let hr = now.getHours();
       let min = now.getMinutes();
       let sec = now.getSeconds();
-      return [
+
+      let data = [
         [ 'hour',   hr + (min / 60) + (sec / 3600) ],
-        [ 'minute', min + (sec / 60) ],
-        [ 'second', sec ]
-      ]
+        [ 'minute', min + (sec / 60) ]
+      ];
+      if(self.props.showSecondHand) {
+        data.push([ 'second', sec ]);
+      }
+      return data;
     }
 
     function handLength(d) {
@@ -162,9 +172,17 @@ class RealTimeClock extends Component {
     }
 
     function updateHands() {
-      svg.selectAll('line.hand')
-        .data(getTimeOfDay())
-        .transition()
+      let hands = svg.selectAll('line.hand').data(getTimeOfDay());
+      hands.enter()
+        .append('line')
+        .attr('class',  (d) => d[0] + ' hand')
+        .attr('x1', cx)
+        .attr('y1', (d) => cy + handBackLength(d))    // 延长指针尾部一部分
+        .attr('x2', cx)
+        .attr('y2', (d) => cy - handLength(d))
+        .attr('transform', rotationTransform);
+      hands.exit().remove();
+      hands.transition()
         .ease(d3.easeBounce)
         .duration(500)
         .attr('transform', rotationTransform)

@@ -80,7 +80,8 @@ class Timeline extends Component {
 
     // x轴，当前日期倒退2天，当前日期前推5天
     this.x = d3.scaleTime()
-      .domain([new Date().setDate(new Date().getDate() - 1), new Date().setDate(new Date().getDate() + 2)])
+      // .domain([new Date().setDate(new Date().getDate() - 1), new Date().setDate(new Date().getDate() + 2)])
+      .domain([new Date().setDate(this.props.getBeijingDate().getDate() - 1), new Date().setDate(this.props.getBeijingDate().getDate() + 2)])
       .range([0, this.innerWidth]);
 
     // 临时使用y
@@ -163,7 +164,7 @@ class Timeline extends Component {
 
     // 当前现实时间线
     this.currentTimeline = this.gMain.append('g')
-      .attr('transform', `translate(${this.x(new Date())},0)`);
+      .attr('transform', `translate(${this.x(this.props.getBeijingDate())},0)`);
     this.currentTimeline.append('line')
       .attr('x1', 0)
       .attr('y1', 0)
@@ -201,11 +202,11 @@ class Timeline extends Component {
       self.gX.selectAll('.x .tick text').call(self.reformatAxisLabel);
       // 更新时间线位置
       self.currentTimeline
-        .attr('transform', `translate(${newX(new Date())},0)`);
+        .attr('transform', `translate(${newX(self.props.getBeijingDate())},0)`);
     }
     // 1s更新一次当前时间轴
     setTimeout(() => {
-      self.currentTimeline.attr('transform', `translate(${this.x(new Date())},0)`);
+      self.currentTimeline.attr('transform', `translate(${self.x(self.props.getBeijingDate())},0)`);
     }, 1000);
   }
 
@@ -367,7 +368,7 @@ class Timeline extends Component {
     this.gX.selectAll('.x .tick text').call(this.reformatAxisLabel);
     // 更新当前时间线位置
     this.currentTimeline
-      .attr('transform', `translate(${this.x(new Date())},0)`);
+      .attr('transform', `translate(${this.x(this.props.getBeijingDate())},0)`);
   }
 
   reformatAxisLabel(t) {
