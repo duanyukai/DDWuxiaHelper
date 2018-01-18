@@ -51,6 +51,24 @@
                     "xiuwei": 750000,
                     "xiuweiSum": 1830000,
                     "shayi": null
+                },
+                {
+                    "des": "提升身法15%###提升身法15%",
+                    "xiuwei": 900000,
+                    "xiuweiSum": 2730000,
+                    "shayi": null
+                },
+                {
+                    "des": "提升身法16%###提升身法16%",
+                    "xiuwei": 1020000,
+                    "xiuweiSum": 3750000,
+                    "shayi": null
+                },
+                {
+                    "des": "提升身法17%###提升身法17%",
+                    "xiuwei": -2490000,
+                    "xiuweiSum": 1260000,
+                    "shayi": null
                 }
             ]
         }
