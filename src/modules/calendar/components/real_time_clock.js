@@ -14,6 +14,10 @@ class RealTimeClock extends Component {
     this.initD3Clock(this.svgDOM, {});
   }
 
+  shouldComponentUpdate() {
+    return false;
+  }
+
   initD3Clock() {
     let self = this;
     let totalWidth = 640;

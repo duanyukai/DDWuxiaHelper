@@ -1,20 +1,25 @@
 import React, { Component } from 'react';
-import {connect} from "react-redux";
+import {connect} from 'react-redux';
 import _ from 'lodash';
 
 import WuxiaPanel from '../../tiandao_ui/panel';
 import ShujiTooltip from './shuji_tooltip';
 
 import shujiBg from '../assets/imgs/ui/shuji_bg.svg';
-import {Button, ButtonGroup, OverlayTrigger, Tooltip} from "react-bootstrap";
+import {Button, ButtonGroup, Dropdown, MenuItem, OverlayTrigger, Tooltip} from 'react-bootstrap';
 
-import { fastBrkthruLevels, chongxue } from "../actions/index";
+import { fastFulFillLevels, fastBrkthruShuji, chongxue } from '../actions/index';
 
 import './css/xinfa_shuji.css';
+
 const xinfaPicPath = require.context('../assets/imgs/xinfa_icon', true);
-const shujiPicPath = require.context('../assets/imgs/shuji_icon', true);
+const shujiPicPath = require.context('../assets/imgs/shuji_icon/compressed', true);
 const gemPngPicPath = require.context('../assets/imgs/gem_icon_png', true);
 const skillPicPath = require.context('../assets/imgs/skill_icon', true);
+
+import qianxiuPropsBase from '../assets/json/qianxiu/qianxiu_props_base.json';
+import qianxiuPointList from '../assets/json/qianxiu/qianxiu_123.json';
+import {selectQianxiuLevel, selectSkillLevel} from "../actions";
 
 // 枢机在SVG中的坐标，每一行是一层，中心第0层
 let shujiPos = [
@@ -32,18 +37,27 @@ class XinfaShuji extends Component {
       curLevel: 0,
       selectedShujiId: 0,
       selectedShuji: {},
+      // 枢机弹框
       toolTipLoc: [0, 0],
       toolTipType: 'shuji',
-      toolTipVisibility: false
+      toolTipVisibility: false,
+      // 潜修
+      // qianxiuLevels: {
+      //   'ld': 0,
+      //   'qj': 0,
+      //   'gg': 0,
+      //   'dc': 0,
+      //   'sf': 0
+      // }
     };
 
     this.changeToolTipVisibility = this.changeToolTipVisibility.bind(this);
-    this.fastBrkthruLevels = this.fastBrkthruLevels.bind(this);
+    this.fastBrkthruShuji = this.fastBrkthruShuji.bind(this);
   }
 
-  componentWillUpdate(nextProps) {
+  componentWillReceiveProps(nextProps) {
     if(nextProps.xinfaData.name && this.props.xinfaData.name !== nextProps.xinfaData.name) {
-
+      // 心法改变时，更新当前显示的层
       this.setState({
         curLevel: nextProps.brkthruData.chongxue[nextProps.brkthruData.current][nextProps.xinfaData.name].fulfilledLevel + 1
       });
@@ -51,7 +65,7 @@ class XinfaShuji extends Component {
   }
 
   onShujiClick(shujiId, data) {
-    let svgDOM = this.refs["shuji-svg"];
+    let svgDOM = this.refs['shuji-svg'];
     let left = svgDOM.offsetLeft;
     let top = svgDOM.offsetTop;
     let svgWidth = svgDOM.clientWidth;
@@ -79,9 +93,9 @@ class XinfaShuji extends Component {
     console.log(reinforce);
     if(reinforce) {
       return reinforce.map(({name, des}) => {
-        let tooltip = <Tooltip id="tooltip">{name}：{des}</Tooltip>;
+        let tooltip = <Tooltip id='tooltip'>{name}：{des}</Tooltip>;
         return(
-          <OverlayTrigger key={name} placement="top" overlay={tooltip}>
+          <OverlayTrigger key={name} placement='top' overlay={tooltip}>
             <img
               styleName='reinforce-img'
               src={xinfaPicPath('./' + name + '.png', true)}
@@ -96,7 +110,7 @@ class XinfaShuji extends Component {
 
   // renderLevelName() {
   //   if(this.state.curLevel === 9) {
-  //     return "高阶突破层";
+  //     return '高阶突破层';
   //   } else if(this.state.curLevel < 9) {
   //     return `第${this.state.curLevel}重`;
   //   } else {
@@ -120,6 +134,7 @@ class XinfaShuji extends Component {
     }
 
     const shujis = Object.keys(shujiList).map((shujiId) => {
+      shujiId = parseInt(shujiId);
       let shujiClick = this.onShujiClick.bind(this, shujiId, shujiList[shujiId]);
       // 计算枢机最高等级与当前等级
       let curShujiLevel;
@@ -147,15 +162,15 @@ class XinfaShuji extends Component {
           <circle
             cx={shujiPos[shujiId][0]}
             cy={shujiPos[shujiId][1]}
-            r="41"
+            r='41'
             styleName={glow ? 'shuji-circle' : 'shuji-circle-dark'}
           />
           <image
             xlinkHref={imgHref}
             x={shujiPos[shujiId][0] - 37}
             y={shujiPos[shujiId][1] - 37}
-            width="75"
-            height="75"
+            width='75'
+            height='75'
             styleName='shuji-image'
             style={{
               opacity: allGlow || (halfGLow && curLevelData[shujiId])  ? 1 : 0.4
@@ -206,7 +221,7 @@ class XinfaShuji extends Component {
         let centerId = -1;
         if(shujiId !== 0) {
           let diff = Math.abs(shujiId - childId);
-          console.log("diff", diff);
+          console.log('diff', diff);
           if(diff === 2) {
             centerId = (shujiId + childId) / 2;
           } else if(diff === 6) {
@@ -217,8 +232,8 @@ class XinfaShuji extends Component {
             }
           }
         }
-        console.log("center", centerId);
-        console.log("连接", shujiId, centerId, childId);
+        console.log('center', centerId);
+        console.log('连接', shujiId, centerId, childId);
 
         let glow = false;
         if(allFilled || halfFilled && (curLevelData[shujiId] || curLevelData[childId]))
@@ -226,15 +241,37 @@ class XinfaShuji extends Component {
 
         if(centerId === -1) {
           // 直接连
-          return(
-            <line
-              key={`${shujiId}-${childId}`}
-              x1={shujiPos[shujiId][0]} y1={shujiPos[shujiId][1]}
-              x2={shujiPos[childId][0]} y2={shujiPos[childId][1]}
-              styleName={glow ? 'shuji-line' : 'shuji-line-dark'}
-            />
-          );
-
+          // 当线段垂直或水平时，改用矩形代替
+          if(shujiPos[shujiId][0] === shujiPos[childId][0]) {
+            // 垂直
+            let y = Math.min(shujiPos[shujiId][1], shujiPos[childId][1]);
+            let height = Math.abs(shujiPos[shujiId][1] - shujiPos[childId][1]);
+            return(
+              <rect
+                x={shujiPos[shujiId][0] - 2} y={y} width={4} height={height}
+                styleName={glow ? 'shuji-line' : 'shuji-line-dark'}
+              />
+            );
+          } else if(shujiPos[shujiId][1] === shujiPos[childId][1]) {
+            // 水平
+            let x = Math.min(shujiPos[shujiId][0], shujiPos[childId][0]);
+            let width = Math.abs(shujiPos[shujiId][0] - shujiPos[childId][0]);
+            return(
+              <rect
+                x={x} y={shujiPos[shujiId][1] -2} width={width} height={4}
+                styleName={glow ? 'shuji-line' : 'shuji-line-dark'}
+              />
+            );
+          } else {
+            return(
+              <line
+                key={`${shujiId}-${childId}`}
+                x1={shujiPos[shujiId][0]} y1={shujiPos[shujiId][1]}
+                x2={shujiPos[childId][0]} y2={shujiPos[childId][1]}
+                styleName={glow ? 'shuji-line' : 'shuji-line-dark'}
+              />
+            );
+          }
         } else {
           // 多一个中间节点
           return(
@@ -262,31 +299,32 @@ class XinfaShuji extends Component {
   renderShujiSVG() {
     if(this.props.xinfaData.name) {
       return (
-        <svg width="100%" viewBox="0 0 1024 1024">
+        <svg width='100%' viewBox='0 0 1024 1024'>
           <defs>
-            <filter id="glow" height="300%" width="300%" x="-100%" y="-100%" filterUnits="userSpaceOnUse">
-              <feMorphology operator="dilate" radius="2" in="SourceAlpha" result="thicken" />
-              <feGaussianBlur in="thicken" stdDeviation="5" result="blurred" />
-              <feFlood floodColor="#3a83b5" result="glowColor" />
-              <feComposite in="glowColor" in2="blurred" operator="in" result="softGlow_colored" />
+            <filter id='glow' height='120%' width='120%' x='-10%' y='-10%'>
+              <feMorphology operator='dilate' radius='2' in='SourceAlpha' result='thicken' />
+              <feGaussianBlur in='thicken' stdDeviation='5' result='blurred' />
+              <feFlood floodColor='#3a83b5' result='glowColor' />
+              <feComposite in='glowColor' in2='blurred' operator='in' result='softGlow_colored' />
               <feMerge>
-                <feMergeNode in="softGlow_colored"/>
-                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode in='softGlow_colored'/>
+                <feMergeNode in='SourceGraphic'/>
               </feMerge>
             </filter>
-            <filter id="inset-shadow" x="-50%" y="-50%" width="200%" height="200%" filterUnits="userSpaceOnUse">
-              <feMorphology operator="erode" radius="10" />
-              <feFlood floodColor="black"/>
-              <feComposite operator="out" in2="SourceGraphic"/>
-              <feGaussianBlur stdDeviation="2"/>
-              <feComposite operator="atop" in2="SourceGraphic"/>
+            <filter id='inset-shadow' x='-10%' y='-10%' width='120%' height='120%'>
+              {/* filterUnits='userSpaceOnUse' 不可使用，手机版有负担*/}
+              <feMorphology operator='erode' radius='10' />
+              <feFlood floodColor='black'/>
+              <feComposite operator='out' in2='SourceGraphic'/>
+              <feGaussianBlur stdDeviation='2'/>
+              <feComposite operator='atop' in2='SourceGraphic'/>
             </filter>
           </defs>
 
-          <g id="line-group" transform="translate(512,512)">
+          <g id='line-group' transform='translate(512,512)'>
             {this.renderLines()}
           </g>
-          <g id="shuji-group" transform="translate(512,512)">
+          <g id='shuji-group' transform='translate(512,512)'>
             {this.renderShuji()}
           </g>
         </svg>
@@ -299,12 +337,32 @@ class XinfaShuji extends Component {
   renderSkills() {
     if(this.props.xinfaData.skills) {
       return this.props.xinfaData.skills.map((skill) => {
+        let xinfaName = this.props.xinfaData.name;
+        let skillName = skill.name;
         return(
           <div key={skill.name} styleName='xinfa-skill'>
-            {/*<img src={skillPicPath('./' + skill.name + '.jpg', true)} styleName='xinfa-skill-img'/>*/}
-            <img src={skillPicPath('./调息.jpg', true)} styleName='xinfa-skill-img'/>
-            <br />
+            <img src={skillPicPath('./' + skill.name + '.jpg', true)} styleName='xinfa-skill-img'/>
             <span>{skill.name}</span>
+            <Dropdown bsSize='xsmall' id={`${skill.name}-dropdown`} dropup>
+              <Dropdown.Toggle bsStyle='primary' noCaret>{this.props.skillLevelsData[skillName] || 0}重</Dropdown.Toggle>
+              <Dropdown.Menu styleName='skill-dropdown-menu'>
+                {
+                  skill.levels.map((level, i) => (
+                    <MenuItem eventKey={i} key={i}
+                      onSelect={(e) => this.props.selectSkillLevel(xinfaName, skillName, i)}
+                    >
+                      <div>第{i}重</div>
+                      <div styleName='skill-dropdown-item-des'>
+                        <div>{level.des.split('###')[0]}</div>
+                        <div>当前层修为：{level.xiuwei}</div>
+                        <div>总消耗修为：{level.xiuweiSum}</div>
+                        { level.shayi && <div>消耗杀意：{level.shayi}</div>}
+                      </div>
+                    </MenuItem>
+                  )).reverse()
+                }
+              </Dropdown.Menu>
+            </Dropdown>{' '}
           </div>
         );
       });
@@ -313,30 +371,36 @@ class XinfaShuji extends Component {
     }
   }
 
-  fastBrkthruLevels(level) {
-    if(window.confirm("确认快速点满至此重（含）么？这将覆盖您当前心法已冲穴配置。")) {
-      console.log("快速冲穴", level);
+  fastBrkthruShuji(level) {
+    if(window.confirm('确认快速点满至此重（含）么？这将覆盖您当前心法已冲穴配置。')) {
+      console.log('快速冲穴', level);
       // 判断是否为最高重，最高重特殊处理
-      console.log("ffff",level);
-      console.log("ffff",this.props.xinfaData.brkthruLevels);
       if(level === this.props.xinfaData.brkthruLevels.length - 1) {
-        console.log("全部充满");
+        console.log('全部充满');
         // 先充下层的穴
-        this.props.fastBrkthruLevels(this.props.xinfaData.name, level - 1);
-        // 再充满当前层的穴
-        let curLevelLocs = this.props.xinfaData.brkthruLevels[level].shujiMap;
-        Object.keys(curLevelLocs).forEach((shujiLoc) => {
-          console.log("zzzzzzzz", curLevelLocs[shujiLoc]);
-          this.props.chongxue(
-            this.props.xinfaData.name,
-            level,
-            shujiLoc,
-            curLevelLocs[shujiLoc].levels.length
-          );
-        });
+        this.props.fastFulFillLevels(this.props.xinfaData.name, level - 1);
+        // 再充满当前层的穴，深度优先遍历所有节点
+        let shujiIdLevelList = [];
+        let shujiList = this.props.xinfaData.brkthruLevels[level].shujiMap;
+
+        function dfs(shujiId) {
+          shujiIdLevelList.push({
+            shujiId: shujiId,
+            shujiLevel: shujiList[shujiId].levels.length
+          });
+          shujiList[shujiId].children.forEach((childId) => {
+            dfs(childId);
+          })
+        }
+        dfs(0);
+        this.props.fastBrkthruShuji(
+          this.props.xinfaData.name,
+          level,
+          shujiIdLevelList
+        );
       } else {
         // 正常情况直接快速冲穴
-        this.props.fastBrkthruLevels(this.props.xinfaData.name, level);
+        this.props.fastFulFillLevels(this.props.xinfaData.name, level);
       }
       this.setState({
         curLevel: level
@@ -350,7 +414,7 @@ class XinfaShuji extends Component {
 
     let onClick;
     if(type === 'chongxue') {
-      onClick = this.fastBrkthruLevels;
+      onClick = this.fastBrkthruShuji;
     } else if(type === 'view') {
       onClick = (level) => this.setState({curLevel: level});
     }
@@ -389,7 +453,7 @@ class XinfaShuji extends Component {
           break;
       }
       return (
-        <Button key={level} onClick={theOnClick} styleName="view-btn-regular" style={{
+        <Button key={level} onClick={theOnClick} styleName='view-btn-regular' style={{
           background: color
         }}>{this.props.xinfaData.brkthruLevels[level].shortName}</Button>
       );
@@ -397,11 +461,58 @@ class XinfaShuji extends Component {
     return buttons;
   }
 
+  renderQianxiu() {
+    let maxLevel = 25;
+    if(this.props.xinfaData.name.startsWith('炼武'))  // todo 更优雅的方式
+      maxLevel = 5;
+    return [
+      {name: '力道', id: 'ld'},
+      {name: '气劲', id: 'qj'},
+      {name: '根骨', id: 'gg'},
+      {name: '洞察', id: 'dc'},
+      {name: '身法', id: 'sf'}
+      ].map(({name, id: dimId}, i) => {
+        let curLevel = this.props.qianxiuData[dimId];
+        let xinfaName = this.props.xinfaData.name;
+        let qianxiuBaseProp = qianxiuPropsBase[xinfaName][i];
+        return(
+          <span key={dimId}>
+            <span>{name}</span>{' '}
+            <Dropdown
+              bsSize='xsmall'
+              id={`${dimId}-dropdown`}
+              dropup
+              pullRight
+            >
+              <Dropdown.Toggle bsStyle='primary'>
+                {`lv${curLevel}, +${curLevel * qianxiuBaseProp}`}
+              </Dropdown.Toggle>
+              <Dropdown.Menu styleName='qianxiu-dropdown-menu'>
+                {
+                  _.range(maxLevel + 1).map((level) => (
+                    <MenuItem
+                      eventKey={level}
+                      key={level}
+                      onSelect={(e) => this.props.selectQianxiuLevel(xinfaName, dimId, level)}
+                    >
+                      lv {String('00' + level).slice(-2)},
+                      {name}+{String('000' + qianxiuBaseProp * level).slice(-3)},
+                      累计 {String('00000' + qianxiuPointList[level][1]).slice(-5)} 潜修点
+                    </MenuItem>
+                  )).reverse()
+                }
+              </Dropdown.Menu>
+            </Dropdown>{' '}
+          </span>
+        );
+    });
+  }
+
   render() {
     console.log(this.props.xinfaData);
 
     return (
-      <WuxiaPanel title="心法枢机">
+      <WuxiaPanel title='心法枢机'>
         {
           this.props.xinfaData.name  &&
             <div>
@@ -412,6 +523,7 @@ class XinfaShuji extends Component {
                 </div>
               </div>
               <div styleName='xinfa-level'>
+                {console.log('cur', this.state.curLevel)}
                 <span>{this.props.xinfaData.brkthruLevels[this.state.curLevel].levelName}</span>
               </div>
               <div styleName='xinfa-name'>
@@ -419,7 +531,7 @@ class XinfaShuji extends Component {
               </div>
             </div>
         }
-        <div ref="shuji-svg" styleName='shuji-div'>
+        <div ref='shuji-svg' styleName='shuji-div'>
           <img src={shujiBg} styleName='shuji-bg-svg'/>
           <div styleName='shuji-fg'>
             {this.renderShujiSVG()}
@@ -455,25 +567,31 @@ class XinfaShuji extends Component {
               type={this.state.toolTipType}
               top={this.state.toolTipLoc[1]}
               left={this.state.toolTipLoc[0]}
-              visibility={this.state.toolTipVisibility ? "visible" : "hidden"}
+              visibility={this.state.toolTipVisibility ? 'visible' : 'hidden'}
               changeVisibility={this.changeToolTipVisibility}
             />
-            <div styleName="level-button-group">
+            <div styleName='level-button-group'>
               <ButtonGroup>
-                <Button disabled styleName="view-btn-regular">快速浏览第</Button>
+                <Button disabled styleName='view-btn-regular'>快速浏览第</Button>
                 {this.renderViewButtons('view')}
-                <Button disabled styleName="view-btn-regular">重</Button>
+                <Button disabled styleName='view-btn-regular'>重</Button>
               </ButtonGroup>
             </div>
-            <div styleName="level-button-group">
+            <div styleName='level-button-group'>
               <ButtonGroup>
-                <Button styleName="view-btn-regular-with-hover">
-                  <span className="normal">快速点满前</span>
-                  <span className="hover">清空本心法</span>
+                <Button styleName='view-btn-regular-with-hover'>
+                  <span className='normal'>快速点满前</span>
+                  <span className='hover'>清空本心法</span>
                 </Button>
                 {this.renderViewButtons('chongxue')}
-                <Button disabled styleName="view-btn-regular">重</Button>
+                <Button disabled styleName='view-btn-regular'>重</Button>
               </ButtonGroup>
+            </div>
+            <div>
+              <p>潜修</p>
+              <div styleName='qianxiu-wrapper'>
+                {this.renderQianxiu()}
+              </div>
             </div>
           </div>
         }
@@ -484,28 +602,37 @@ class XinfaShuji extends Component {
 
 function mapStateToProps(state) {
 
+  let fulfilledLevel;
+  let curLevelBrkthruData;
+  let qianxiuData;
+  let skillLevelsData;
   let allXinfaBrkthruData = state.brkthruData.chongxue[state.brkthruData.current];
-  let fulfilledLevel = null;
-  let curLevelBrkthruData = null;
 
   if(state.xinfaData.name){
     // todo
-    console.log("hahahah", state.xinfaData);
+    console.log(state.xinfaData);
     console.log(allXinfaBrkthruData);
     console.log(state.brkthruData);
     fulfilledLevel = allXinfaBrkthruData[state.xinfaData.name].fulfilledLevel;
     curLevelBrkthruData = allXinfaBrkthruData[state.xinfaData.name].curLevelCX;
+    qianxiuData = allXinfaBrkthruData[state.xinfaData.name].qianxiuLevels;
+    skillLevelsData = allXinfaBrkthruData[state.xinfaData.name].skillLevels;
   }
 
   return {
     xinfaData: state.xinfaData,
     brkthruData: state.brkthruData,
     fulfilledLevel,
-    curLevelBrkthruData
+    curLevelBrkthruData,
+    qianxiuData,
+    skillLevelsData
   };
 }
 
 export default connect(mapStateToProps, {
-  fastBrkthruLevels,
-  chongxue
+  fastFulFillLevels,
+  fastBrkthruShuji,
+  chongxue,
+  selectQianxiuLevel,
+  selectSkillLevel
 })(XinfaShuji);

@@ -111,6 +111,7 @@ class CalendarApp extends Component {
                       _.range(13).map((i) => (
                         <MenuItem
                           eventKey={i}
+                          key={i}
                           onSelect={(e) => this.setState({
                             timezoneValue: e
                           })}

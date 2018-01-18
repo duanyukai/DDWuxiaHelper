@@ -168,9 +168,37 @@
 }
 
 .xinfa-skill-img {
-    width: 100%;
+    /*width: 100%;*/
+    width: 44px;
+    height: 44px;
     border: 2px solid #465e6d;
-    height: auto;
+}
+
+.xinfa-skill-btn {
+
+}
+
+.skill-dropdown-menu {
+    background: #0e3049;
+    width: 400px;
+    white-space: normal;
+
+}
+
+.skill-dropdown-menu li a {
+    color: #fff;
+    padding: 2px 20px;
+    white-space: normal;
+}
+
+.skill-dropdown-menu li:hover .skill-dropdown-item-des {
+    display: block;
+    /*flex-flow: wrap;*/
+    /*height: 100%;*/
+}
+
+.skill-dropdown-item-des {
+    display: none;
 }
 
 .xinfa-description {
@@ -241,4 +269,18 @@
     background: #103f60;
     color: #fff;
     cursor: default;
+}
+
+.qianxiu-wrapper {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.qianxiu-dropdown-menu {
+    background: #0e3049;
+}
+
+.qianxiu-dropdown-menu li a {
+    color: #fff;
+    padding: 2px 20px;
 }

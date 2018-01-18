@@ -1,0 +1,31 @@
+.prop-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.prop-table-name {
+    width: 30%;
+}
+
+.prop-table-data {
+    width: 20%;
+}
+
+.prop-table td:nth-child(n) {
+    text-align: center;
+}
+
+.prop-table td:nth-child(n+1) {
+    text-align: right;
+}
+
+.int {
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.frac {
+    font-size: 12px;
+    color: #aaa;
+}

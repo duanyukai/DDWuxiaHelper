@@ -25,3 +25,82 @@
     background: #1e75b3;
     color: #fff;
 }
+
+.xinfa-slots-wrapper {
+    margin: 0 -10px;
+}
+
+.xinfa-slots {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    width: 45px;
+
+}
+
+.xinfa-slot-img {
+    width: 100%;
+    display: block;
+    border: solid #fff 1px;
+    cursor: pointer;
+}
+
+.xinfa-slot-name {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+}
+
+.xinfa-slot-close {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #8f0000;
+    width: 16px;
+    font-size: 9px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.xinfa-slot-close:hover {
+    background: #f00;
+}
+
+.wuxia-modal-wrapper :global .modal-content {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.wuxia-modal {
+    background: transparent;
+}
+
+.remove-data-div {
+    margin: 10px 0;
+}
+
+.site-info {
+    font-size: 18px;
+    text-align: center;
+}
+
+.site-info hr {
+    margin: 8px;
+}
+
+.site-info p {
+    margin: 3px;
+}
+
+.config-selector-menu {
+    background: #0e3049;
+    width: 54px;
+    min-width: auto;
+}
+
+.config-selector-menu li a {
+    color: #fff;
+}

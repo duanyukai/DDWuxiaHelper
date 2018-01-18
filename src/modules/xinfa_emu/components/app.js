@@ -26,6 +26,7 @@ class XinfaEmuApp extends Component {
               <Row>
                 <Col xs={12} md={4}>
                   <XinfaProps />
+
                 </Col>
                 <Col xs={12} md={8}>
                   <XinfaShuji />

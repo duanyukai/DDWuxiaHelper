@@ -4,47 +4,71 @@
     "skillDes": "心法《拜月·冰心》，含心法技能<Font color='#42DB62'>《去病》</Font>，研习《去病》可获得提升被治疗量的效果。\\n心法倾向增强：<Font color='#42DB62'>根骨、气劲</Font>，适用于有气血回复的战斗情境。\\n心法残页可消耗<Font color='#42DB62'>侠义值</Font>兑换，或通过<Font color='#42DB62'>帮派金质礼盒</Font>产出。",
     "skills": [
         {
-            "name": "名称",
+            "name": "去病",
             "levels": [
                 {
-                    "des": "去病",
-                    "xiuwei": "30000"
+                    "des": "增加被治疗效果",
+                    "xiuwei": 0
                 },
                 {
-                    "des": "去病",
-                    "xiuwei": "90000"
+                    "des": "增加被治疗效果6%###增加被治疗效果6%",
+                    "xiuwei": 30000,
+                    "xiuweiSum": 30000,
+                    "shayi": null
                 },
                 {
-                    "des": "去病",
-                    "xiuwei": "150000"
+                    "des": "增加被治疗效果7%###增加被治疗效果7%",
+                    "xiuwei": 90000,
+                    "xiuweiSum": 120000,
+                    "shayi": null
                 },
                 {
-                    "des": "去病",
-                    "xiuwei": "210000"
+                    "des": "增加被治疗效果8%###增加被治疗效果8%",
+                    "xiuwei": 150000,
+                    "xiuweiSum": 270000,
+                    "shayi": null
                 },
                 {
-                    "des": "去病",
-                    "xiuwei": "270000"
+                    "des": "增加被治疗效果9%###增加被治疗效果9%",
+                    "xiuwei": 210000,
+                    "xiuweiSum": 480000,
+                    "shayi": null
                 },
                 {
-                    "des": "去病",
-                    "xiuwei": "330000"
+                    "des": "增加被治疗效果10%###增加被治疗效果10%",
+                    "xiuwei": 270000,
+                    "xiuweiSum": 750000,
+                    "shayi": null
                 },
                 {
-                    "des": "去病",
-                    "xiuwei": "750000"
+                    "des": "增加被治疗效果11%###增加被治疗效果11%",
+                    "xiuwei": 330000,
+                    "xiuweiSum": 1080000,
+                    "shayi": null
                 },
                 {
-                    "des": "去病",
-                    "xiuwei": "900000"
+                    "des": "增加被治疗效果12%###增加被治疗效果12%",
+                    "xiuwei": 750000,
+                    "xiuweiSum": 1830000,
+                    "shayi": null
                 },
                 {
-                    "des": "去病",
-                    "xiuwei": "1020000"
+                    "des": "增加被治疗效果13%###增加被治疗效果13%",
+                    "xiuwei": 900000,
+                    "xiuweiSum": 2730000,
+                    "shayi": null
                 },
                 {
-                    "des": "去病",
-                    "xiuwei": "5010000"
+                    "des": "增加被治疗效果14%###增加被治疗效果14%",
+                    "xiuwei": 1020000,
+                    "xiuweiSum": 3750000,
+                    "shayi": null
+                },
+                {
+                    "des": "增加被治疗效果15%（高阶突破后学习的心法技能更加强力）###增加被治疗效果15%（高阶突破后学习的心法技能更加强力）",
+                    "xiuwei": 1260000,
+                    "xiuweiSum": 5010000,
+                    "shayi": null
                 }
             ]
         }

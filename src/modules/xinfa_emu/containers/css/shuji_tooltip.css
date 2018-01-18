@@ -23,3 +23,20 @@
     height: 100%;
     border-radius: 0;
 }
+
+.tooltip-basic-info {
+    text-align: center;
+}
+
+.shuji-info-img {
+    width: 60px;
+    height: 60px;
+}
+
+.level-table-current {
+    background: rgba(100,100,100,0.7);
+}
+
+.level-table-others {
+    background: rgba(0,0,0,0.7);
+}

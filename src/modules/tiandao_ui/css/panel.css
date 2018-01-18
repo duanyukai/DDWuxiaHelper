@@ -13,7 +13,7 @@
 
 .panel-title {
     min-width: 200px;
-    height: 30px;
+    height: 37px;
 
     border-style: solid;
     border-width: 0 42px;
@@ -23,13 +23,14 @@
     border-image: url(../assets/imgs/panel_border_title.png) 0 42 fill stretch;
 
     position: absolute;
-    top: -34px;
+    top: -40px;
     left: 50%;
     transform: translate(-50%, 0);
 
     font-size: 16px;
+    line-height: 30px;
     color: #FFF;
-    text-shadow: #FFF 1px 1px 1px;
+    text-shadow: #000 1px 1px 1px;
     padding: 4px 10px 2px 10px;
     text-align: center;
 }
@@ -42,4 +43,19 @@
 .panel-body-wrapper{
     margin: 0;
     position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: -18px;
+    right: -110px;
+    color: #fff;
+    width: 24px;
+    cursor: pointer;
+    background: #09191d;
+    border: 2px solid #346d8c;
+    border-radius: 12px;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
 }

@@ -4,47 +4,71 @@
     "skillDes": "心法《炼武·力道》，含心法技能<Font color='#42DB62'>《力明》</Font>，研习《力明》可获得提升力道的效果。\\n心法倾向增强：<Font color='#42DB62'>力道</Font>，适用于各种战斗情境。\\n心法残页可消耗<Font color='#42DB62'>荡剑币</Font>兑换，参加剑荡八荒比武大会可获得荡剑币。",
     "skills": [
         {
-            "name": "名称",
+            "name": "力明",
             "levels": [
                 {
-                    "des": "提升力道8%",
-                    "xiuwei": "30000"
+                    "des": "提升力道百分比\r",
+                    "xiuwei": 0
                 },
                 {
-                    "des": "提升力道9%",
-                    "xiuwei": "90000"
+                    "des": "提升力道8%###提升力道8%",
+                    "xiuwei": 30000,
+                    "xiuweiSum": 30000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升力道10%",
-                    "xiuwei": "150000"
+                    "des": "提升力道9%###提升力道9%",
+                    "xiuwei": 90000,
+                    "xiuweiSum": 120000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升力道11%",
-                    "xiuwei": "210000"
+                    "des": "提升力道10%###提升力道10%",
+                    "xiuwei": 150000,
+                    "xiuweiSum": 270000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升力道12%",
-                    "xiuwei": "270000"
+                    "des": "提升力道11%###提升力道11%",
+                    "xiuwei": 210000,
+                    "xiuweiSum": 480000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升力道13%",
-                    "xiuwei": "330000"
+                    "des": "提升力道12%###提升力道12%",
+                    "xiuwei": 270000,
+                    "xiuweiSum": 750000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升力道14%",
-                    "xiuwei": "750000"
+                    "des": "提升力道13%###提升力道13%",
+                    "xiuwei": 330000,
+                    "xiuweiSum": 1080000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升力道15%",
-                    "xiuwei": "900000"
+                    "des": "提升力道14%###提升力道14%",
+                    "xiuwei": 750000,
+                    "xiuweiSum": 1830000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升力道16%",
-                    "xiuwei": "1020000"
+                    "des": "提升力道15%###提升力道15%",
+                    "xiuwei": 900000,
+                    "xiuweiSum": 2730000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升力道17%",
-                    "xiuwei": "1260000"
+                    "des": "提升力道16%###提升力道16%",
+                    "xiuwei": 1020000,
+                    "xiuweiSum": 3750000,
+                    "shayi": null
+                },
+                {
+                    "des": "提升力道17%###提升力道17%",
+                    "xiuwei": -2490000,
+                    "xiuweiSum": 1260000,
+                    "shayi": null
                 }
             ]
         }

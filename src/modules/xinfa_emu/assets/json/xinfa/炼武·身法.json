@@ -4,47 +4,53 @@
     "skillDes": "心法《炼武·身法》，含心法技能<Font color='#42DB62'>《身明》</Font>，研习《身明》可获得提升身法的效果。\\n心法倾向增强：<Font color='#42DB62'>身法</Font>，适用于各种战斗情境。\\n心法残页可消耗<Font color='#42DB62'>荡剑币</Font>兑换，参加剑荡八荒比武大会可获得荡剑币。",
     "skills": [
         {
-            "name": "名称",
+            "name": "身明",
             "levels": [
                 {
-                    "des": "提升身法8%",
-                    "xiuwei": "30000"
+                    "des": "提升身法百分比\r",
+                    "xiuwei": 0
                 },
                 {
-                    "des": "提升身法9%",
-                    "xiuwei": "90000"
+                    "des": "提升身法8%###提升身法8%",
+                    "xiuwei": 30000,
+                    "xiuweiSum": 30000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升身法10%",
-                    "xiuwei": "150000"
+                    "des": "提升身法9%###提升身法9%",
+                    "xiuwei": 90000,
+                    "xiuweiSum": 120000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升身法11%",
-                    "xiuwei": "210000"
+                    "des": "提升身法10%###提升身法10%",
+                    "xiuwei": 150000,
+                    "xiuweiSum": 270000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升身法12%",
-                    "xiuwei": "270000"
+                    "des": "提升身法11%###提升身法11%",
+                    "xiuwei": 210000,
+                    "xiuweiSum": 480000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升身法13%",
-                    "xiuwei": "330000"
+                    "des": "提升身法12%###提升身法12%",
+                    "xiuwei": 270000,
+                    "xiuweiSum": 750000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升身法14%",
-                    "xiuwei": "750000"
+                    "des": "提升身法13%###提升身法13%",
+                    "xiuwei": 330000,
+                    "xiuweiSum": 1080000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升身法15%",
-                    "xiuwei": "900000"
-                },
-                {
-                    "des": "提升身法16%",
-                    "xiuwei": "1020000"
-                },
-                {
-                    "des": "提升身法17%",
-                    "xiuwei": "1260000"
+                    "des": "提升身法14%###提升身法14%",
+                    "xiuwei": 750000,
+                    "xiuweiSum": 1830000,
+                    "shayi": null
                 }
             ]
         }

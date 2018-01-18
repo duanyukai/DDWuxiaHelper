@@ -22,6 +22,7 @@
     margin: 2px;
     padding: 0;
     border: none;
+    cursor: pointer;
 }
 
 .xinfa-list-item:hover img {
@@ -55,4 +56,24 @@
     text-align: center;
     position: absolute;
     top: 110px;
+}
+
+.xinfa-placement {
+    width: 100%;
+    color: #FFF;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 128px;
+}
+
+.select-slot-dropdown-menu {
+    background: #0e3049;
+    min-width: auto;
+
+}
+
+.select-slot-dropdown-menu li a {
+    color: #fff;
+    padding: 2px 20px;
 }

@@ -1,8 +1,7 @@
 .container {
-    margin: 10px 0;
-    background: url('../../assets/imgs/ui/background.jpg') no-repeat #ececec;
-    background-attachment: fixed;
-    background-position: center bottom;
+    margin: 30px 0;
+    padding: 15px 0 30px 0;
+    background: #ececec url('../../assets/imgs/ui/background.jpg') no-repeat center bottom;
     background-size: cover;
 }
 

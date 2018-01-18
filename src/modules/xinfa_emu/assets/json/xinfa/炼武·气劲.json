@@ -4,47 +4,71 @@
     "skillDes": "心法《炼武·气劲》，含心法技能<Font color='#42DB62'>《气明》</Font>，研习《气明》可获得提升气劲的效果。\\n心法倾向增强：<Font color='#42DB62'>气劲</Font>，适用于各种战斗情境。\\n心法残页可消耗<Font color='#42DB62'>荡剑币</Font>兑换，参加剑荡八荒比武大会可获得荡剑币。",
     "skills": [
         {
-            "name": "名称",
+            "name": "气明",
             "levels": [
                 {
-                    "des": "提升气劲8%",
-                    "xiuwei": "30000"
+                    "des": "提升气劲百分比\r",
+                    "xiuwei": 0
                 },
                 {
-                    "des": "提升气劲9%",
-                    "xiuwei": "90000"
+                    "des": "提升气劲8%###提升气劲8%",
+                    "xiuwei": 30000,
+                    "xiuweiSum": 30000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升气劲10%",
-                    "xiuwei": "150000"
+                    "des": "提升气劲9%###提升气劲9%",
+                    "xiuwei": 90000,
+                    "xiuweiSum": 120000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升气劲11%",
-                    "xiuwei": "210000"
+                    "des": "提升气劲10%###提升气劲10%",
+                    "xiuwei": 150000,
+                    "xiuweiSum": 270000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升气劲12%",
-                    "xiuwei": "270000"
+                    "des": "提升气劲11%###提升气劲11%",
+                    "xiuwei": 210000,
+                    "xiuweiSum": 480000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升气劲13%",
-                    "xiuwei": "330000"
+                    "des": "提升气劲12%###提升气劲12%",
+                    "xiuwei": 270000,
+                    "xiuweiSum": 750000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升气劲14%",
-                    "xiuwei": "750000"
+                    "des": "提升气劲13%###提升气劲13%",
+                    "xiuwei": 330000,
+                    "xiuweiSum": 1080000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升气劲15%",
-                    "xiuwei": "900000"
+                    "des": "提升气劲14%###提升气劲14%",
+                    "xiuwei": 750000,
+                    "xiuweiSum": 1830000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升气劲16%",
-                    "xiuwei": "1020000"
+                    "des": "提升气劲15%###提升气劲15%",
+                    "xiuwei": 900000,
+                    "xiuweiSum": 2730000,
+                    "shayi": null
                 },
                 {
-                    "des": "提升气劲17%",
-                    "xiuwei": "1260000"
+                    "des": "提升气劲16%###提升气劲16%",
+                    "xiuwei": 1020000,
+                    "xiuweiSum": 3750000,
+                    "shayi": null
+                },
+                {
+                    "des": "提升气劲17%###提升气劲17%",
+                    "xiuwei": -2490000,
+                    "xiuweiSum": 1260000,
+                    "shayi": null
                 }
             ]
         }
