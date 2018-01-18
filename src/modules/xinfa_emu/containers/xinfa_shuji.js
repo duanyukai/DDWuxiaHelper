@@ -90,7 +90,7 @@ class XinfaShuji extends Component {
 
   renderReinforce() {
     let reinforce = this.props.xinfaData.reinforce;
-    console.log(reinforce);
+    // console.log(reinforce);
     if(reinforce) {
       return reinforce.map(({name, des}) => {
         let tooltip = <Tooltip id='tooltip'>{name}：{des}</Tooltip>;
@@ -194,7 +194,7 @@ class XinfaShuji extends Component {
       );
       }
     );
-    console.log(shujis);
+    // console.log(shujis);
     return shujis;
   }
 
@@ -221,7 +221,7 @@ class XinfaShuji extends Component {
         let centerId = -1;
         if(shujiId !== 0) {
           let diff = Math.abs(shujiId - childId);
-          console.log('diff', diff);
+          // console.log('diff', diff);
           if(diff === 2) {
             centerId = (shujiId + childId) / 2;
           } else if(diff === 6) {
@@ -232,8 +232,9 @@ class XinfaShuji extends Component {
             }
           }
         }
-        console.log('center', centerId);
-        console.log('连接', shujiId, centerId, childId);
+
+        // console.log('center', centerId);
+        // console.log('连接', shujiId, centerId, childId);
 
         let glow = false;
         if(allFilled || halfFilled && (curLevelData[shujiId] || curLevelData[childId]))
@@ -248,6 +249,7 @@ class XinfaShuji extends Component {
             let height = Math.abs(shujiPos[shujiId][1] - shujiPos[childId][1]);
             return(
               <rect
+                key={`${shujiId}-${childId}`}
                 x={shujiPos[shujiId][0] - 2} y={y} width={4} height={height}
                 styleName={glow ? 'shuji-line' : 'shuji-line-dark'}
               />
@@ -258,6 +260,7 @@ class XinfaShuji extends Component {
             let width = Math.abs(shujiPos[shujiId][0] - shujiPos[childId][0]);
             return(
               <rect
+                key={`${shujiId}-${childId}`}
                 x={x} y={shujiPos[shujiId][1] -2} width={width} height={4}
                 styleName={glow ? 'shuji-line' : 'shuji-line-dark'}
               />
@@ -291,7 +294,7 @@ class XinfaShuji extends Component {
         }
       });
     });
-    console.log([].concat.apply([], lines));
+    // console.log([].concat.apply([], lines));
 
     return [].concat.apply([], lines);
   }
@@ -355,7 +358,7 @@ class XinfaShuji extends Component {
                       <div styleName='skill-dropdown-item-des'>
                         <div>{level.des.split('###')[0]}</div>
                         <div>当前层修为：{level.xiuwei}</div>
-                        <div>总消耗修为：{level.xiuweiSum}</div>
+                        <div>总消耗修为：{level.xiuweiSum || 0}</div>
                         { level.shayi && <div>消耗杀意：{level.shayi}</div>}
                       </div>
                     </MenuItem>
@@ -509,7 +512,7 @@ class XinfaShuji extends Component {
   }
 
   render() {
-    console.log(this.props.xinfaData);
+    // console.log(this.props.xinfaData);
 
     return (
       <WuxiaPanel title='心法枢机'>
@@ -523,7 +526,6 @@ class XinfaShuji extends Component {
                 </div>
               </div>
               <div styleName='xinfa-level'>
-                {console.log('cur', this.state.curLevel)}
                 <span>{this.props.xinfaData.brkthruLevels[this.state.curLevel].levelName}</span>
               </div>
               <div styleName='xinfa-name'>

@@ -42,7 +42,9 @@ class ShujiTooltip extends Component {
       else
         shujiId = newProps.shujiId;
       let shujiData = shujiMap[shujiId];
-      console.log(newProps.xinfaData.brkthruLevels);
+
+      // console.log(newProps.xinfaData.brkthruLevels);
+
       let parentShuji = shujiData.parent;
       let childrenShujis = shujiData.children;
 
@@ -232,7 +234,7 @@ class ShujiTooltip extends Component {
       return a + parseInt(b.xiuwei);
     }, 0);
 
-    console.log(levelList);
+    // console.log(levelList);
     return levelList;
   }
 

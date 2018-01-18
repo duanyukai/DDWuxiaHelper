@@ -1,6 +1,6 @@
 import qianxiuBaseProps from '../assets/json/qianxiu/qianxiu_props_base.json';
 
-export function calcXinfaProps(xinfaData, brkthruData) {
+export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
   // 属性格式
   let xinfaProps = {
     xiuwei: 0,
@@ -25,8 +25,14 @@ export function calcXinfaProps(xinfaData, brkthruData) {
     qx: 0
   };
 
-  let fulfilledLevel, curLevelBrkthruData, qianxiuData, skillLevelsData;
-  let allXinfaBrkthruData = brkthruData.chongxue[brkthruData.current];
+  let fulfilledLevel, curLevelBrkthruData, qianxiuData, skillLevelsData, allXinfaBrkthruData;
+  if(configIndex === 0 || configIndex) {
+    allXinfaBrkthruData = brkthruData.chongxue[configIndex];
+  } else {
+    allXinfaBrkthruData = brkthruData.chongxue[brkthruData.current];
+  }
+
+  // console.log('配置',configIndex, allXinfaBrkthruData);
 
   fulfilledLevel = allXinfaBrkthruData[xinfaData.name].fulfilledLevel;
   curLevelBrkthruData = allXinfaBrkthruData[xinfaData.name].curLevelCX;
@@ -149,7 +155,7 @@ export function calcXinfaProps(xinfaData, brkthruData) {
     if(skillLevelsData.hasOwnProperty(skillName)) {
       xinfaProps.xiuwei += xinfaData.skills
         .filter((skillData) => skillData.name === skillName)[0]
-        .levels[skillLevelsData[skillName]].xiuweiSum;
+        .levels[skillLevelsData[skillName]].xiuweiSum || 0;
     }
   }
 
@@ -193,7 +199,7 @@ export function calcZhanli(props) {
   return sum;
 }
 
-export function calcConfigProps(xinfaDataList, brkthruData) {
+export function calcConfigProps(xinfaDataList, brkthruData, configIndex) {
   // 计算综合属性
   let percentage = [1, 0.6, 0.3, 0.1];
   let typeMap = {
@@ -211,7 +217,11 @@ export function calcConfigProps(xinfaDataList, brkthruData) {
     if(xinfaDataList[i]) {
       let xinfaData = xinfaDataList[i];
       reinforceList[i] = xinfaData.reinforce;
-      xinfaPropsList[i] = xinfaPropsMultiply(calcXinfaProps(xinfaData, brkthruData), percentage[i]);
+      if(configIndex === 0 || configIndex) {
+        xinfaPropsList[i] = xinfaPropsMultiply(calcXinfaProps(xinfaData, brkthruData, configIndex), percentage[i]);
+      } else {
+        xinfaPropsList[i] = xinfaPropsMultiply(calcXinfaProps(xinfaData, brkthruData), percentage[i]);
+      }
     }
   }
 
@@ -244,7 +254,7 @@ export function calcConfigProps(xinfaDataList, brkthruData) {
     xinfaPropsPlus(xinfaPropsList[0], xinfaPropsList[1]),
     xinfaPropsPlus(xinfaPropsList[2], xinfaPropsList[3])
   );
-  console.log(xinfaProps);
+  // console.log(xinfaProps);
   return xinfaProps;
 }
 

@@ -175,8 +175,8 @@ class XinfaConfig extends Component {
     promises[0] = this.getConfigXinfaDataListPromise(this.state.configDiffFrom);
     promises[1] = this.getConfigXinfaDataListPromise(this.state.configDiffTo);
     Promise.all(promises).then((xinfaDataLists) => {
-      let propsFrom = calcConfigProps(xinfaDataLists[0], this.props.brkthruData);
-      let propsTo = calcConfigProps(xinfaDataLists[1], this.props.brkthruData);
+      let propsFrom = calcConfigProps(xinfaDataLists[0], self.props.brkthruData, self.state.configDiffFrom);
+      let propsTo = calcConfigProps(xinfaDataLists[1], self.props.brkthruData, self.state.configDiffTo);
       let propsDiff = xinfaPropsPlus(propsFrom, xinfaPropsMultiply(propsTo, -1));
 
       self.setState({
