@@ -6754,3 +6754,6 @@ button.close {
     display: none !important;
   }
 }
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}

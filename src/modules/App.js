@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.css';
+import './index.css';
 
 import {Button, Glyphicon, MenuItem, Nav, Navbar, NavDropdown, NavItem} from "react-bootstrap";
 import {LinkContainer} from "react-router-bootstrap";

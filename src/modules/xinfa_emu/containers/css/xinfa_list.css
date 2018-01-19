@@ -1,3 +1,8 @@
+.xinfa-list-wrapper {
+    width: 100%;
+}
+
+
 .xinfa-card {
     background: url(../../assets/imgs/ui/xinfa_border.png);
     font-size: 16px;
@@ -9,6 +14,9 @@
 
 .xinfa-list {
     text-align: center;
+    width: 100%;
+    height: 360px;
+    overflow: inherit;
 }
 
 .xinfa-list-item {
@@ -70,7 +78,6 @@
 .select-slot-dropdown-menu {
     background: #0e3049;
     min-width: auto;
-
 }
 
 .select-slot-dropdown-menu li a {

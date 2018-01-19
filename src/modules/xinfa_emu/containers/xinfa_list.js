@@ -80,7 +80,7 @@ class XinfaList extends Component {
           <SearchBar />
         </div>
         <div styleName='xinfa-list'>
-          <Scrollbars style={{ width: "100%", height: 360 }}>
+          <Scrollbars styleName='xinfa-list-wrapper'>
             {this.renderXinfaList()}
           </Scrollbars>
         </div>
