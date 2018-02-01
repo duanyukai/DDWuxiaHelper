@@ -263,8 +263,8 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url(f4769f9bdb7466be65088239c12046d1.eot);
-  src: url(f4769f9bdb7466be65088239c12046d1.eot?#iefix) format('embedded-opentype'), url(448c34a56d699c29117adc64c43affeb.woff2) format('woff2'), url(fa2772327f55d8198301fdb8bcfc8158.woff) format('woff'), url(e18bbf611f2a2e43afc071aa2f4e1512.ttf) format('truetype'), url(89889688147bd7575d6327160d64e760.svg#glyphicons_halflingsregular) format('svg');
+  src: url(/f4769f9bdb7466be65088239c12046d1.eot);
+  src: url(/f4769f9bdb7466be65088239c12046d1.eot?#iefix) format('embedded-opentype'), url(/448c34a56d699c29117adc64c43affeb.woff2) format('woff2'), url(/fa2772327f55d8198301fdb8bcfc8158.woff) format('woff'), url(/e18bbf611f2a2e43afc071aa2f4e1512.ttf) format('truetype'), url(/89889688147bd7575d6327160d64e760.svg#glyphicons_halflingsregular) format('svg');
 }
 .glyphicon {
   position: relative;
@@ -6756,4 +6756,49 @@ button.close {
 }
 * {
     font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}.modules-portal-components-css-___app__pic-header___2vQs_ {
+    background: url(/0628cbc4490417867989d2b6f1564e44.png);
+    background-size: cover;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.modules-portal-components-css-___app__nav-panel___1lEIM {
+    height: 100%;
+}
+
+.modules-portal-components-css-___app__nav-panel___1lEIM .panel-body{
+    padding: 3px;
+}
+
+.modules-portal-components-css-___app__nav-panel___1lEIM img{
+    width: 100%;
+}
+
+.modules-portal-components-css-___app__nav-panel___1lEIM .modules-portal-components-css-___app__nav-panel-div___3nNkS {
+    margin: 10px;
+}
+
+.modules-portal-components-css-___app__nav-panel___1lEIM img {
+    border: solid #bbb 1px;
+}
+
+.modules-portal-components-css-___app__nav-panel___1lEIM hr {
+    margin: 4px;
+}
+
+.modules-portal-components-css-___app__nav-panel___1lEIM p {
+    text-align: center;
+}
+
+.modules-portal-components-css-___app__nav-panel-div___3nNkS h3 {
+    text-align: center;
+}
+
+.modules-portal-components-css-___app__nav-panel-div___3nNkS a {
+    color: black;
+}
+
+.modules-portal-components-css-___app__nav-panel-div___3nNkS a:hover {
+    text-decoration: none;
 }
