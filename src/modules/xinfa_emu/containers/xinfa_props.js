@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from "react-redux";
-import {Button, Table} from "react-bootstrap";
+import {Button, ButtonGroup, Tab, Table, Tabs} from "react-bootstrap";
 
 import PropsTable from '../components/props_table';
 
@@ -35,7 +35,9 @@ class XinfaProps extends Component {
         hx: 0,
         rj: 0,
         hs: 0,
-        qx: 0
+        qx: 0,
+
+        gongliOffset: 0
       }
     };
   }
@@ -55,10 +57,24 @@ class XinfaProps extends Component {
       <WuxiaPanel title='心法概况'>
         <div>
           本心法属性：
-          <div>
-            {/*{JSON.stringify(this.props.curLevelBrkthruData)}*/}
-          </div>
-          <PropsTable xinfaProps={this.state.xinfaProps} />
+          <Tabs defaultActiveKey={1} id='xinfa-props-tabs' styleName='xinfa-props-tabs'>
+            <Tab eventKey={1} title='裸属性'>
+              <PropsTable xinfaProps={this.state.xinfaProps} />
+            </Tab>
+            <Tab eventKey={2} title='门派加成属性'>
+              制作中……
+              <ButtonGroup>
+                <Button>太白</Button>
+                <Button>真武</Button>
+                <Button>天香</Button>
+                <Button>唐门</Button>
+                <Button>神威</Button>
+                <Button>五毒</Button>
+                <Button>丐帮</Button>
+                <Button>神刀</Button>
+              </ButtonGroup>
+            </Tab>
+          </Tabs>
         </div>
 
         <div>

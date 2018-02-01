@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import _ from 'lodash';
+import range from 'lodash/range';
 
 import WuxiaPanel from '../../tiandao_ui/panel';
 import ShujiTooltip from './shuji_tooltip';
@@ -422,7 +422,7 @@ class XinfaShuji extends Component {
       onClick = (level) => this.setState({curLevel: level});
     }
 
-    buttons = _.range(levels).map((level) => {
+    buttons = range(levels).map((level) => {
       let theOnClick = onClick.bind(this, level);
       // 计算高亮显示属性
       let highlight = 0;
@@ -492,7 +492,7 @@ class XinfaShuji extends Component {
               </Dropdown.Toggle>
               <Dropdown.Menu styleName='qianxiu-dropdown-menu'>
                 {
-                  _.range(maxLevel + 1).map((level) => (
+                  range(maxLevel + 1).map((level) => (
                     <MenuItem
                       eventKey={level}
                       key={level}

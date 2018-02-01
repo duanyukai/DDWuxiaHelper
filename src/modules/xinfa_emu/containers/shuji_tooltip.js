@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from "react-redux";
 import onClickOutside from "react-onclickoutside";
-import _ from 'lodash';
+import range from 'lodash/range';
 import {Button, Col, Row, Table} from "react-bootstrap";
 
 import { chongxue, fastBrkthruShuji } from "../actions/index";
@@ -272,7 +272,7 @@ class ShujiTooltip extends Component {
                         <th>单重修为</th>
                         <th>累计修为</th>
                         {/*该枢机的属性*/}
-                        {_.range(this.props.shuji.types.length).map((index) => {
+                        {range(this.props.shuji.types.length).map((index) => {
                           return <th key={index}>{propsMap[this.props.shuji.types[index]]}</th>
                         })}
                         { this.state.canBreak && this.state.canSingleBreak &&

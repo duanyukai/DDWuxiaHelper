@@ -36,6 +36,55 @@ class PortalApp extends Component {
           <Row>
             <Col md={12}>
               <PageHeader>
+                站内功能导航
+              </PageHeader>
+              <Row style={{display: 'flex', flexWrap: 'wrap'}}>
+                <Col md={3} sm={6} xs={12}>
+                  <Panel styleName='nav-panel'>
+                    <Link to='/xinfa'><img src={xinfaPic} /></Link>
+                    <div styleName='nav-panel-div'>
+                      <Link to='/xinfa'>
+                        <h3>心法模拟器<br />（完善中）</h3>
+                        <hr />
+                        <p>
+                          本工具是一个高仿游戏内UI的心法模拟器。<br />
+                          数据最新；样式直观；操作简便。<br />
+                          （尚在完善测试中）
+                        </p>
+                      </Link>
+                    </div>
+                  </Panel>
+                </Col>
+                <Col md={3} sm={6}>
+                  <Panel styleName='nav-panel'>
+                    <Link to='/map'><img src={mapPic} /></Link>
+                    <div styleName='nav-panel-div'>
+                      <Link to='/map'>
+                        <h3>交互式地图助手<br />（制作中）</h3>
+                        <hr />
+                        <p>
+                          本工具是一个可交互的天刀地图，包括文士乐伶墨宝创作点、航海图鉴等内容。<br />（尚在制作中）
+                        </p>
+                      </Link>
+                    </div>
+                  </Panel>
+                </Col>
+                <Col md={3} sm={6}>
+                  <Panel styleName='nav-panel'>
+                    <Link to='/calendar'><img src={calendarPic} /></Link>
+                    <div styleName='nav-panel-div'>
+                      <Link to='/calendar'>
+                        <h3>天涯时刻吉凶预测</h3>
+                        <hr />
+                        <p>
+                          本工具包含现实时间、天涯时刻对照的模拟时钟，及未来时间吉凶预测时间轴.时间精确到秒，方便文士乐伶绘画、建房求风水等需求。
+                        </p>
+                      </Link>
+                    </div>
+                  </Panel>
+                </Col>
+              </Row>
+              <PageHeader>
                 快速站外导航 <small>进错域名不担心，记住我们http://wuxia.tools，一站导航</small>
               </PageHeader>
               <Row style={{display: 'flex', flexWrap: 'wrap'}}>
@@ -84,55 +133,6 @@ class PortalApp extends Component {
                       <hr />
                       <p><a target='_blank' href='https://tieba.baidu.com/f?kw=%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80ol&ie=utf-8'>天涯明月刀ol贴吧</a></p>
                       <p><a target='_blank' href='https://weibo.com/206667365'>天刀值日团微博</a></p>
-                    </div>
-                  </Panel>
-                </Col>
-              </Row>
-              <PageHeader>
-                站内功能导航
-              </PageHeader>
-              <Row style={{display: 'flex', flexWrap: 'wrap'}}>
-                <Col md={3} sm={6} xs={12}>
-                  <Panel styleName='nav-panel'>
-                    <Link to='/xinfa'><img src={xinfaPic} /></Link>
-                    <div styleName='nav-panel-div'>
-                      <Link to='/xinfa'>
-                        <h3>心法模拟器<br />（完善中）</h3>
-                        <hr />
-                        <p>
-                          本工具是一个高仿游戏内UI的心法模拟器。<br />
-                          数据最新；样式直观；操作简便。<br />
-                          （尚在完善测试中）
-                        </p>
-                      </Link>
-                    </div>
-                  </Panel>
-                </Col>
-                <Col md={3} sm={6}>
-                  <Panel styleName='nav-panel'>
-                    <Link to='/map'><img src={mapPic} /></Link>
-                    <div styleName='nav-panel-div'>
-                      <Link to='/map'>
-                        <h3>交互式地图助手<br />（制作中）</h3>
-                        <hr />
-                        <p>
-                          本工具是一个可交互的天刀地图，包括文士乐伶墨宝创作点、航海图鉴等内容。<br />（尚在制作中）
-                        </p>
-                      </Link>
-                    </div>
-                  </Panel>
-                </Col>
-                <Col md={3} sm={6}>
-                  <Panel styleName='nav-panel'>
-                    <Link to='/calendar'><img src={calendarPic} /></Link>
-                    <div styleName='nav-panel-div'>
-                      <Link to='/calendar'>
-                        <h3>天涯时刻吉凶预测</h3>
-                        <hr />
-                        <p>
-                          本工具包含现实时间、天涯时刻对照的模拟时钟，及未来时间吉凶预测时间轴.时间精确到秒，方便文士乐伶绘画、建房求风水等需求。
-                        </p>
-                      </Link>
                     </div>
                   </Panel>
                 </Col>

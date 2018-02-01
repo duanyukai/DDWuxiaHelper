@@ -1,0 +1,62 @@
+:global img {
+    image-rendering: pixelated;
+}
+
+.toolbar-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 0;
+    left: 0;
+    top: 60px;
+}
+
+.toolbar-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(200,200,200,0.8);
+    /*padding: 5px;*/
+    border-radius: 5px;
+
+    margin: 0 10px;
+}
+
+.scroll-wrapper {
+    /*height: auto;*/
+    /*height: 400px;*/
+    overflow-y: scroll;
+    max-height: calc(100vh - 120px);
+    background: #fff;
+}
+
+.map-btn-matrix-1 {
+    
+}
+
+
+/* The heart of the matter */
+.map-btn-matrix-1 > :global.btn:nth-child(3n+4) {
+    clear: left;
+    margin-left: 0;
+}
+.map-btn-matrix-1 > :global.btn:nth-child(n+4) {
+    margin-top: -1px;
+}
+.map-btn-matrix-1 > :global.btn:first-child {
+    border-bottom-left-radius: 0;
+}
+.map-btn-matrix-1 > :global.btn:nth-child(3) {
+    border-top-right-radius: 4px !important;
+}
+.map-btn-matrix-1 > :global.btn:nth-last-child(3) {
+    border-bottom-left-radius: 4px !important;
+}
+.map-btn-matrix-1 > :global.btn:last-child {
+    border-top-right-radius: 0;
+}
+
+/* Decorations */
+.map-btn-matrix-1 {
+    margin: 20px;
+}

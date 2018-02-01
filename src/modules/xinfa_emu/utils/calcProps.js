@@ -22,7 +22,9 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
     hx: 0,
     rj: 0,
     hs: 0,
-    qx: 0
+    qx: 0,
+
+    gongliOffset: 0
   };
 
   let fulfilledLevel, curLevelBrkthruData, qianxiuData, skillLevelsData, allXinfaBrkthruData;
@@ -52,8 +54,12 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
 
       // 计算修为总和
       shujiLevels.forEach((shujiLevel) => {
-        xinfaProps["xiuwei"] += shujiLevel.xiuwei;
+        xinfaProps['xiuwei'] += shujiLevel.xiuwei;
       });
+
+      // 计算功力修正（最高一重的数据）
+      xinfaProps['gongliOffset'] += shujiLevels[shujiLevels.length - 1].gongliOffset;
+      console.log('+', shujiLevels[shujiLevels.length - 1].gongliOffset);
 
       // 计算属性
       shujiTypes.forEach((type, i) => {
@@ -73,6 +79,7 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
             xinfaProps[type] += topLevelProps[i];
         }
       });
+
 
       // 统计石头信息
       if(shujiLevels[0].gem) {
@@ -107,8 +114,14 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
       // 计算修为
       for(let i = 0; i < shujiCurTopLevel; i++) {
         // todo 满级属性？
-        xinfaProps.xiuwei += parseInt(shujiList[shujiId].levels[i].xiuwei);
+        xinfaProps.xiuwei += shujiList[shujiId].levels[i].xiuwei;
       }
+
+      // 计算功力偏移
+      xinfaProps.gongliOffset += shujiList[shujiId].levels[shujiCurTopLevel - 1].gongliOffset;
+      console.log('+', shujiLevels[shujiCurTopLevel - 1].gongliOffset);
+
+
       // 计算属性
       shujiTypes.forEach((type, i) => {
         switch(type) {
@@ -241,6 +254,8 @@ export function calcConfigProps(xinfaDataList, brkthruData, configIndex) {
                 let type = reinforce.reinforce[l].type;
                 type = typeMap[type];
                 let coefficient = reinforce.reinforce[l].coefficient;
+                // todo 心法相生有问题，百分比一起计算
+
                 xinfaPropsList[i][type] *= 1 + coefficient;
               }
             }

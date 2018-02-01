@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Loadable from 'react-loadable';
 
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
   Link, NavLink, Switch, HashRouter
 } from 'react-router-dom';
@@ -15,18 +15,21 @@ import {LinkContainer} from "react-router-bootstrap";
 
 import Loading from './tiandao_ui/components/loading';
 
-const Home = Loadable({
-  loader: () => import('./portal/index'),
-  loading: () => <Loading />
-});
+import Home from './portal/index';
+
+// const Home = Loadable({
+//   loader: () => import('./portal/index'),
+//   loading: () => <Loading />
+// });
+
 
 const XinfaEmu = Loadable({
   loader: () => import('./xinfa_emu/index'),
   loading: () => <Loading />
 });
 
-const FamilySkillEmu = Loadable({
-  loader: () => import('./family_skill_emu/index'),
+const WuxiaMap = Loadable({
+  loader: () => import('./map/index'),
   loading: () => <Loading />
 });
 
@@ -35,8 +38,13 @@ const Calendar = Loadable({
   loading: () => <Loading />
 });
 
+const FamilySkillEmu = Loadable({
+  loader: () => import('./family_skill_emu/index'),
+  loading: () => <Loading />
+});
+
 const Index = () => (
-  <HashRouter>
+  <BrowserRouter>
     <div>
       <Navbar inverse collapseOnSelect fixedTop>
         <Navbar.Header>
@@ -64,7 +72,7 @@ const Index = () => (
           <Route exact path='/' component={Home}/>
           <Route path='/xinfa' component={XinfaEmu}/>
           <Route path='/family-skill' component={FamilySkillEmu}/>
-          <Route path='/map' component={Home}/>
+          <Route path='/map' component={WuxiaMap}/>
           <Route path='/calendar' component={Calendar}/>
         </Switch>
       </div>
@@ -81,7 +89,7 @@ const Index = () => (
         </p>
       </div>
     </div>
-  </HashRouter>
+  </BrowserRouter>
 );
 
 export default Index;

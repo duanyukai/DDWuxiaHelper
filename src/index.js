@@ -12,8 +12,6 @@ import Index from './modules/App';
 //  <Index />
 //</Provider>
 
-render(
-  <Index />
-  ,
-  document.getElementById('app')
-);
+document.addEventListener('DOMContentLoaded', function () {
+  render(<Index />, document.getElementById('app'));
+});

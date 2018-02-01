@@ -18,3 +18,24 @@
 .prop-table td:nth-child(n+1) {
     text-align: right;
 }
+
+.xinfa-props-tabs :global .nav-tabs li a {
+    color: #fff;
+    padding: 5px;
+}
+
+.xinfa-props-tabs li.active a:focus {
+    color: #fff;
+}
+
+.xinfa-props-tabs :global .nav-tabs li.active a,
+.xinfa-props-tabs :global .nav-tabs li.active a:focus,
+.xinfa-props-tabs :global .nav-tabs li.active a:hover
+{
+    color: #fff;
+    background: #2d5271;
+}
+
+.xinfa-props-tabs :global .nav-tabs li a {
+    background: transparent;
+}

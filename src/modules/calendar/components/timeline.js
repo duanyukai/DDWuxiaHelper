@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import * as d3 from "d3";
+import debounce from 'lodash/debounce';
 
 import { jixiong, jixiongToColor } from '../utils/jixiong';
 
@@ -16,7 +17,7 @@ class Timeline extends Component {
     this.state = {
       chartWidth: 0
     };
-    this.debounceResize = _.debounce(() => {
+    this.debounceResize = debounce(() => {
       this.resizeD3();
     }, 100);
   }

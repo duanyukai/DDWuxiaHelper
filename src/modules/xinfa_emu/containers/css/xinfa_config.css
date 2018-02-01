@@ -48,7 +48,9 @@
 .xinfa-slot-name {
     display: block;
     text-align: center;
-    font-size: 10px;
+    font-size: 9px;
+    white-space: nowrap;
+    height: 20px;
 }
 
 .xinfa-slot-close {

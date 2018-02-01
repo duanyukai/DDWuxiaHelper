@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import _ from 'lodash';
+import range from 'lodash/range';
 import {
-  Button, ButtonGroup, Dropdown, DropdownButton, Glyphicon, MenuItem, Modal, Table
+  Button, ButtonGroup, Dropdown, Glyphicon, MenuItem, Modal
 } from 'react-bootstrap';
 
 import { selectXinfa, changeXinfaConfig, placeXinfaSlot } from '../actions/index';
@@ -106,7 +106,7 @@ class XinfaConfig extends Component {
   }
 
   renderSlots() {
-    return _.range(4).map((index) => {
+    return range(4).map((index) => {
       return(
         <div key={index} styleName='xinfa-slots'>
           <img

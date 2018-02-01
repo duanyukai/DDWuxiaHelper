@@ -28,13 +28,13 @@ export default (props) => {
       </colgroup>
       <tbody>
       <tr>
-        <td></td><td></td>
+        <td style={{color: '#f66'}}>裸功力</td><td><DataFormat data={calcGongli(props.xinfaProps)} /></td>
         <td>力道</td><td><DataFormat data={p.ld} /></td></tr>
       <tr>
-        <td>功力</td><td><DataFormat data={calcGongli(props.xinfaProps)} /></td>
+        <td style={{color: '#f66'}}>显功力</td><td><DataFormat data={calcGongli(props.xinfaProps) + p.gongliOffset} /></td>
         <td>根骨</td><td><DataFormat data={p.gg} /></td></tr>
       <tr>
-        <td>战力</td><td><DataFormat data={calcZhanli(props.xinfaProps)} /></td>
+        <td >战力</td><td><DataFormat data={calcZhanli(props.xinfaProps)} /></td>
         <td>气劲</td><td><DataFormat data={p.qj} /></td></tr>
       <tr>
         <td>气血</td><td><DataFormat data={p.qx} /></td>

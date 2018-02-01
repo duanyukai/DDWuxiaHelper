@@ -57,12 +57,6 @@
                     "xiuwei": 900000,
                     "xiuweiSum": 2730000,
                     "shayi": null
-                },
-                {
-                    "des": "当敌方气血低于10%时，暴击伤害提升90%###当敌方气血低于10%时，暴击伤害提升90%",
-                    "xiuwei": 1020000,
-                    "xiuweiSum": 3750000,
-                    "shayi": null
                 }
             ]
         }
@@ -110,7 +104,8 @@
                             "xiuwei": 0,
                             "props": [
                                 1
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -129,7 +124,8 @@
                             "xiuwei": 4000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -146,7 +142,8 @@
                             "xiuwei": 4000,
                             "props": [
                                 0.3
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -165,7 +162,8 @@
                             "xiuwei": 4000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -182,7 +180,8 @@
                             "xiuwei": 4000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -209,7 +208,8 @@
                             "xiuwei": 0,
                             "props": [
                                 1
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -228,7 +228,8 @@
                             "xiuwei": 12000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -247,7 +248,8 @@
                             "xiuwei": 12000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -264,7 +266,8 @@
                             "xiuwei": 12000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -281,7 +284,8 @@
                             "xiuwei": 36000,
                             "props": [
                                 1.6
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -300,7 +304,8 @@
                             "xiuwei": 12000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -319,7 +324,8 @@
                             "xiuwei": 12000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -346,7 +352,8 @@
                             "xiuwei": 0,
                             "props": [
                                 1
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -365,13 +372,15 @@
                             "xiuwei": 20000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 10000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -390,13 +399,15 @@
                             "xiuwei": 20000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 10000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -415,13 +426,15 @@
                             "xiuwei": 20000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 10000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -440,13 +453,15 @@
                             "xiuwei": 20000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 10000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -464,6 +479,7 @@
                             "props": [
                                 1.25
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "会心小石·三",
                                 "level": 1,
@@ -485,13 +501,15 @@
                             "xiuwei": 20000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 10000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -517,7 +535,8 @@
                             "xiuwei": 0,
                             "props": [
                                 1
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -534,13 +553,15 @@
                             "xiuwei": 28000,
                             "props": [
                                 0.3
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 14000,
                             "props": [
                                 0.42
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -557,13 +578,15 @@
                             "xiuwei": 28000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 14000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -583,13 +606,15 @@
                             "xiuwei": 28000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 14000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -608,13 +633,15 @@
                             "xiuwei": 28000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 14000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -633,13 +660,15 @@
                             "xiuwei": 28000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 14000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -658,13 +687,15 @@
                             "xiuwei": 28000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 14000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -684,13 +715,15 @@
                             "xiuwei": 28000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 14000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -709,13 +742,15 @@
                             "xiuwei": 28000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 14000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -735,6 +770,7 @@
                                 1.86,
                                 2.4
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "伤命小石·三",
                                 "level": 4,
@@ -765,7 +801,8 @@
                             "xiuwei": 0,
                             "props": [
                                 1
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -783,6 +820,7 @@
                             "props": [
                                 230
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "长久棱石·三",
                                 "level": 4,
@@ -807,6 +845,7 @@
                                 20,
                                 20
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "慧力圆石·四",
                                 "level": 5,
@@ -830,19 +869,22 @@
                             "xiuwei": 36000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -861,19 +903,22 @@
                             "xiuwei": 36000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -892,19 +937,22 @@
                             "xiuwei": 36000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -923,19 +971,22 @@
                             "xiuwei": 36000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -954,19 +1005,22 @@
                             "xiuwei": 36000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -986,19 +1040,22 @@
                             "xiuwei": 36000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1017,19 +1074,22 @@
                             "xiuwei": 36000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 18000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1055,7 +1115,8 @@
                             "xiuwei": 0,
                             "props": [
                                 1
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1074,19 +1135,22 @@
                             "xiuwei": 44000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1103,19 +1167,22 @@
                             "xiuwei": 44000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1135,19 +1202,22 @@
                             "xiuwei": 44000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1166,19 +1236,22 @@
                             "xiuwei": 44000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1198,6 +1271,7 @@
                                 20,
                                 20
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "恒慧圆石·四",
                                 "level": 5,
@@ -1221,19 +1295,22 @@
                             "xiuwei": 44000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1252,19 +1329,22 @@
                             "xiuwei": 44000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1283,19 +1363,22 @@
                             "xiuwei": 44000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1314,19 +1397,22 @@
                             "xiuwei": 44000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1345,19 +1431,22 @@
                             "xiuwei": 44000,
                             "props": [
                                 0.15
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 0.21
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 0.27
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1377,19 +1466,22 @@
                             "xiuwei": 44000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 22000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1409,6 +1501,7 @@
                                 23,
                                 23
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "敏慧圆石·四",
                                 "level": 6,
@@ -1439,7 +1532,8 @@
                             "xiuwei": 0,
                             "props": [
                                 1
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1458,25 +1552,29 @@
                             "xiuwei": 100000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1496,25 +1594,29 @@
                             "xiuwei": 100000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1536,6 +1638,7 @@
                                 23,
                                 23
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "赋力圆石·四",
                                 "level": 6,
@@ -1559,25 +1662,29 @@
                             "xiuwei": 100000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1596,25 +1703,29 @@
                             "xiuwei": 100000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1634,25 +1745,29 @@
                             "xiuwei": 100000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1671,25 +1786,29 @@
                             "xiuwei": 100000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1709,25 +1828,29 @@
                             "xiuwei": 100000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1747,6 +1870,7 @@
                                 1.44,
                                 3.48
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "会命小石·四",
                                 "level": 6,
@@ -1771,6 +1895,7 @@
                                 2.88,
                                 3.48
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "伤命小石·四",
                                 "level": 6,
@@ -1792,25 +1917,29 @@
                             "xiuwei": 100000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1827,25 +1956,29 @@
                             "xiuwei": 100000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 50000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1873,7 +2006,8 @@
                             "xiuwei": 0,
                             "props": [
                                 1
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -1893,6 +2027,7 @@
                             "props": [
                                 3.4
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "伤心小石·三",
                                 "level": 7,
@@ -1917,6 +2052,7 @@
                             "props": [
                                 1.7
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "会心小石·三",
                                 "level": 7,
@@ -1941,6 +2077,7 @@
                             "props": [
                                 1.7
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "会心小石·三",
                                 "level": 7,
@@ -1965,6 +2102,7 @@
                                 20,
                                 20
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "赋力圆石·四",
                                 "level": 7,
@@ -1989,6 +2127,7 @@
                                 20,
                                 20
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "恒赋圆石·四",
                                 "level": 7,
@@ -2013,6 +2152,7 @@
                                 20,
                                 20
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "恒慧圆石·四",
                                 "level": 7,
@@ -2044,7 +2184,8 @@
                             "xiuwei": 0,
                             "props": [
                                 1
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2064,6 +2205,7 @@
                                 23,
                                 3.48
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "攻命小石·四",
                                 "level": 8,
@@ -2087,31 +2229,36 @@
                             "xiuwei": 360000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2130,31 +2277,36 @@
                             "xiuwei": 360000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2174,6 +2326,7 @@
                                 2.88,
                                 3.48
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "伤命小石·四",
                                 "level": 8,
@@ -2197,31 +2350,36 @@
                             "xiuwei": 360000,
                             "props": [
                                 0.15
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.21
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.27
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.33
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.39
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2240,31 +2398,36 @@
                             "xiuwei": 360000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2283,31 +2446,36 @@
                             "xiuwei": 360000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2329,6 +2497,7 @@
                                 23,
                                 23
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "慧力圆石·四",
                                 "level": 8,
@@ -2352,31 +2521,36 @@
                             "xiuwei": 360000,
                             "props": [
                                 0.375
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.525
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.675
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.825
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.975
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2395,31 +2569,36 @@
                             "xiuwei": 360000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2438,31 +2617,36 @@
                             "xiuwei": 360000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2484,6 +2668,7 @@
                                 23,
                                 23
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "恒敏圆石·四",
                                 "level": 8,
@@ -2507,31 +2692,36 @@
                             "xiuwei": 360000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2550,31 +2740,36 @@
                             "xiuwei": 360000,
                             "props": [
                                 0.3
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.42
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.54
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.66
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 180000,
                             "props": [
                                 0.78
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2601,7 +2796,8 @@
                             "xiuwei": 0,
                             "props": [
                                 1
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2621,31 +2817,36 @@
                             "xiuwei": 720000,
                             "props": [
                                 0.15
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 0.21
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 0.27
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 0.33
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 0.39
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2664,31 +2865,36 @@
                             "xiuwei": 720000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2707,31 +2913,36 @@
                             "xiuwei": 720000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2750,31 +2961,36 @@
                             "xiuwei": 720000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2793,31 +3009,36 @@
                             "xiuwei": 720000,
                             "props": [
                                 0.3
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 0.42
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 0.54
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 0.66
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 0.78
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2836,31 +3057,36 @@
                             "xiuwei": 720000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2879,31 +3105,36 @@
                             "xiuwei": 720000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2922,31 +3153,36 @@
                             "xiuwei": 720000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -2966,6 +3202,7 @@
                                 23,
                                 11
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "双全小石·四",
                                 "level": 8,
@@ -2990,6 +3227,7 @@
                                 2.88,
                                 3.48
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "伤命小石·四",
                                 "level": 8,
@@ -3013,31 +3251,36 @@
                             "xiuwei": 720000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -3057,31 +3300,36 @@
                             "xiuwei": 720000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -3100,31 +3348,36 @@
                             "xiuwei": 720000,
                             "props": [
                                 5
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 7
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 9
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 11
-                            ]
+                            ],
+                            "gongliOffset": 0
                         },
                         {
                             "xiuwei": 360000,
                             "props": [
                                 13
-                            ]
+                            ],
+                            "gongliOffset": 0
                         }
                     ],
                     "isGemShuji": false
@@ -3144,6 +3397,7 @@
                                 23,
                                 23
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "敏慧圆石·四",
                                 "level": 8,
@@ -3168,6 +3422,7 @@
                                 23,
                                 23
                             ],
+                            "gongliOffset": 0,
                             "gem": {
                                 "name": "敏力圆石·四",
                                 "level": 8,

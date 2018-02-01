@@ -1,0 +1,11 @@
+{
+  "HZ": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  }
+}

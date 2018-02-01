@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
+import range from 'lodash/range';
 import {
   Checkbox,
   Col, DropdownButton, Grid, MenuItem, Panel, Row,
@@ -108,7 +108,7 @@ class CalendarApp extends Component {
                     id='timezone-dropdown'
                   >
                     {
-                      _.range(13).map((i) => (
+                      range(13).map((i) => (
                         <MenuItem
                           eventKey={i}
                           key={i}
