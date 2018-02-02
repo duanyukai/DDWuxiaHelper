@@ -290,6 +290,8 @@ class ShujiTooltip extends Component {
                   <Col md={12}>
                     { this.state.canBreak && this.state.canSingleCancelAll &&
                     <Button
+                      bsStyle='primary'
+                      bsSize='xsmall'
                       onClick={this.singleCancel}
                     >
                       清空此枢机

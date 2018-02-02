@@ -1,0 +1,22 @@
+.school-btn-group {
+    text-align: center;
+}
+
+.config-selector-menu {
+    background: #0e3049;
+    min-width: auto;
+}
+
+.config-selector-menu li a {
+    color: #fff;
+}
+
+.chenghao-table thead tr th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.chenghao-table tbody tr td {
+    vertical-align: middle;
+    text-align: center;
+}

@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import range from 'lodash/range';
 import {
-  Button, ButtonGroup, Dropdown, Glyphicon, MenuItem, Modal
+  Button, ButtonGroup, Dropdown, Glyphicon, MenuItem, Modal, Row
 } from 'react-bootstrap';
 
-import { selectXinfa, changeXinfaConfig, placeXinfaSlot } from '../actions/index';
+import './css/xinfa_config.css';
+
+import { selectXinfa, changeXinfaConfig, placeXinfaSlot, copyConfig, removeAllLocalData } from '../actions';
 
 import WuxiaPanel from '../../tiandao_ui/panel';
+import PropsTable from '../components/props_table';
+import AdditionConfig from './addition_config';
 
-import './css/xinfa_config.css';
 
 import xinfaBgBlank from '../assets/imgs/ui/xinfa_bg_blank.png';
 const xinfaPicPath = require.context('../assets/imgs/xinfa_icon', true);
@@ -19,15 +22,12 @@ import {
   xinfaPropsPlus
 } from '../utils/calcProps';
 
-import PropsTable from '../components/props_table';
-import {copyConfig, removeAllLocalData} from "../actions";
-
 const ConfigSelector = (props) => {
   let digits = ['壹', '贰', '叁', '肆', '伍'];
   return(
     <span>
       <Dropdown id='config-selector'>
-        <Dropdown.Toggle bsStyle='primary'>{digits[props.index]}</Dropdown.Toggle>
+        <Dropdown.Toggle bsStyle='primary' bsSize='small'>{digits[props.index]}</Dropdown.Toggle>
         <Dropdown.Menu styleName='config-selector-menu'>
           {
             digits.map((name, i) => (
@@ -55,6 +55,8 @@ class XinfaConfig extends Component {
       showConfigDiffModal: false,
       configDiffFinish: false,
 
+      showSchoolConfigModal: false,
+
       xinfaConfigProps: {},
       configDiffProps: {},
 
@@ -72,6 +74,9 @@ class XinfaConfig extends Component {
     this.handleConfigDiff = this.handleConfigDiff.bind(this);
     this.handleConfigDiffShow = this.handleConfigDiffShow.bind(this);
     this.handleConfigDiffClose = this.handleConfigDiffClose.bind(this);
+
+    this.handleSchoolConfigShow = this.handleSchoolConfigShow.bind(this);
+    this.handleSchoolConfigClose = this.handleSchoolConfigClose.bind(this);
 
     this.handleRemoveAll = this.handleRemoveAll.bind(this);
   }
@@ -225,7 +230,6 @@ class XinfaConfig extends Component {
     this.setState({showConfigDiffModal: true});
     // 计算综合属性
     this.calcCurConfigProps();
-
   }
 
   handleConfigDiffClose() {
@@ -256,6 +260,31 @@ class XinfaConfig extends Component {
     );
   }
 
+  handleSchoolConfigShow() {
+    this.setState({showSchoolConfigModal: true});
+  }
+
+  handleSchoolConfigClose() {
+    this.setState({showSchoolConfigModal: false});
+  }
+
+  renderSchoolConfigModal() {
+    return (
+      <div>
+        <Modal show={this.state.showSchoolConfigModal} onHide={this.handleSchoolConfigClose}
+               styleName='wuxia-modal-wrapper'>
+          <Modal.Body styleName='wuxia-modal'>
+            <WuxiaPanel title='角色加成配置' closeBtn onClose={this.handleSchoolConfigClose}>
+              <div>
+                <AdditionConfig />
+              </div>
+            </WuxiaPanel>
+          </Modal.Body>
+        </Modal>
+      </div>
+    );
+  }
+
   handleRemoveAll() {
     if(confirm('您确认清除本地存储的所有数据吗？（数据出现异常时可使用）')){
       this.props.removeAllLocalData();
@@ -278,14 +307,24 @@ class XinfaConfig extends Component {
             {this.renderSlots()}
           </div>
         </div>
-        <Button
-          bsStyle='primary' block
-          onClick={this.handleCurConfigShow}
-        >
-          查看当前心法配置属性
-        </Button>
+        <div styleName='school-config-btn'>
+          <Button
+            bsStyle='primary' bsSize='small'
+            onClick={this.handleCurConfigShow}
+          >
+            当前心法槽属性
+          </Button>{' '}
+          <Button
+            bsStyle='primary' bsSize='small'
+            onClick={this.handleSchoolConfigShow}
+          >
+            门派等加成设置
+          </Button>
+        </div>
         { this.state.showCurConfigModal && this.renderCurConfigModal() }
         { this.state.showConfigDiffModal && this.renderConfigDiffModal() }
+        { this.state.showSchoolConfigModal && this.renderSchoolConfigModal() }
+
         复制心法冲穴配置：
         <div style={{textAlign: 'center'}}>
           从：
@@ -298,7 +337,7 @@ class XinfaConfig extends Component {
             index={this.state.configCopyTo}
             setIndex={(i) => this.setState({configCopyTo: i})}
           />
-          <Button bsStyle='success' onClick={this.handleConfigCopy}>复制</Button>
+          <Button bsStyle='success' bsSize='small' onClick={this.handleConfigCopy}>复制</Button>
         </div>
         比较心法配置属性：
         <div style={{textAlign: 'center'}}>
@@ -312,11 +351,11 @@ class XinfaConfig extends Component {
             index={this.state.configDiffTo}
             setIndex={(i) => this.setState({configDiffTo: i})}
           />
-          <Button bsStyle='success' onClick={this.handleConfigDiff}>比较</Button>
+          <Button bsStyle='success' bsSize='small' onClick={this.handleConfigDiff}>比较</Button>
         </div>
         <div styleName='remove-data-div'>
           {/*其他功能*/}
-          <Button bsStyle='danger' block
+          <Button bsStyle='danger' bsSize='xsmall'
             onClick={this.handleRemoveAll}
           >
             清空本地所有数据

@@ -6,13 +6,14 @@ import localDataSchema from '../assets/json_schema/local_tupo_data.json';
 import {
   COPY_CONFIG,
   FAST_CHONGXUE, FAST_FULFILL_LEVELS, PLACE_XINFA_SLOT, REMOVE_ALL_LOCAL_DATA, SELECT_QIANXIU_LEVEL,
-  SELECT_SKILL_LEVEL
+  SELECT_SKILL_LEVEL, SET_FIVE_DIM_ADDITION_PROPS
 } from "../actions";
 
 let localDataTemplate = {
   current: 0,
   slots: [[],[],[],[],[]],
-  chongxue: [{}, {}, {}, {} ,{}]
+  chongxue: [{}, {}, {}, {} ,{}],
+  additionConfig: {}
 };
 
 export default function(state = {
@@ -96,6 +97,12 @@ export default function(state = {
 
     case REMOVE_ALL_LOCAL_DATA:
       return localDataTemplate;
+
+    case SET_FIVE_DIM_ADDITION_PROPS:
+      let additionConfig = action.payload;
+      newState.additionConfig = JSON.parse(JSON.stringify(additionConfig));
+      console.log(newState.additionConfig);
+      return newState;
   }
   return state;
 }

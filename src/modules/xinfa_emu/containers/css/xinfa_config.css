@@ -80,8 +80,13 @@
     background: transparent;
 }
 
+.school-config-btn {
+    text-align: center;
+}
+
 .remove-data-div {
     margin: 10px 0;
+    text-align: center;
 }
 
 .site-info {

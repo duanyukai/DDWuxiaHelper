@@ -1,4 +1,5 @@
 import qianxiuBaseProps from '../assets/json/qianxiu/qianxiu_props_base.json';
+import schoolPropsList from '../assets/json/school_props.json';
 
 export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
   // 属性格式
@@ -59,7 +60,6 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
 
       // 计算功力修正（最高一重的数据）
       xinfaProps['gongliOffset'] += shujiLevels[shujiLevels.length - 1].gongliOffset;
-      console.log('+', shujiLevels[shujiLevels.length - 1].gongliOffset);
 
       // 计算属性
       shujiTypes.forEach((type, i) => {
@@ -118,8 +118,8 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
       }
 
       // 计算功力偏移
-      xinfaProps.gongliOffset += shujiList[shujiId].levels[shujiCurTopLevel - 1].gongliOffset;
-      console.log('+', shujiLevels[shujiCurTopLevel - 1].gongliOffset);
+      if(shujiCurTopLevel > 0)
+        xinfaProps.gongliOffset += shujiList[shujiId].levels[shujiCurTopLevel - 1].gongliOffset;
 
 
       // 计算属性
@@ -321,6 +321,17 @@ export function xinfaPropsPlus(a, b) {
     hs: (a.hs || 0) + (b.hs || 0),
     qx: (a.qx || 0) + (b.qx || 0)
   }
+}
+
+export function calcSchoolProps(props, schoolId) {
+  let schoolProps = schoolPropsList[schoolId];
+  let newProps = {... props};
+  ['ld', 'gg', 'qj', 'dc', 'sf'].forEach((dimId) => {
+    Object.keys(schoolProps[dimId]).forEach((fightPropId) => {
+      newProps[fightPropId] += newProps[dimId] * schoolProps[dimId][fightPropId];
+    });
+  });
+  return newProps;
 }
 
 // calcLevelTotalXiuwei(level) {

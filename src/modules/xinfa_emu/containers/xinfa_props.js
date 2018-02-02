@@ -8,7 +8,7 @@ import WuxiaPanel from '../../tiandao_ui/panel';
 
 import './css/xinfa_props.css';
 
-import { calcXinfaProps, calcGongli, calcZhanli } from '../utils/calcProps';
+import {calcXinfaProps, calcGongli, calcZhanli, calcSchoolProps} from '../utils/calcProps';
 
 class XinfaProps extends Component {
   constructor(props) {
@@ -19,24 +19,18 @@ class XinfaProps extends Component {
         xiuwei: 0,
         stones: [],
         stoneExp: 0,
-        ld: 0,
-        gg: 0,
-        qj: 0,
-        dc: 0,
-        sf: 0,
-
-        wg: 0,
-        ng: 0,
-        wf: 0,
-        nf: 0,
-
-        mz: 0,
-        gd: 0,
-        hx: 0,
-        rj: 0,
-        hs: 0,
-        qx: 0,
-
+        ld: 0, gg: 0, qj: 0, dc: 0, sf: 0,
+        wg: 0, ng: 0, wf: 0, nf: 0,
+        mz: 0, gd: 0, hx: 0, rj: 0, hs: 0, qx: 0,
+        gongliOffset: 0
+      },
+      xinfaSchoolProps: {
+        xiuwei: 0,
+        stones: [],
+        stoneExp: 0,
+        ld: 0, gg: 0, qj: 0, dc: 0, sf: 0,
+        wg: 0, ng: 0, wf: 0, nf: 0,
+        mz: 0, gd: 0, hx: 0, rj: 0, hs: 0, qx: 0,
         gongliOffset: 0
       }
     };
@@ -46,8 +40,10 @@ class XinfaProps extends Component {
     if(nextProps.xinfaData.name) {
       // this.calc(nextProps);
       let props = calcXinfaProps(nextProps.xinfaData, nextProps.brkthruData);
+      let schoolProps = calcSchoolProps(props, 'TB');
       this.setState({
-        xinfaProps: props
+        xinfaProps: props,
+        xinfaSchoolProps: schoolProps
       });
     }
   }
@@ -62,7 +58,8 @@ class XinfaProps extends Component {
               <PropsTable xinfaProps={this.state.xinfaProps} />
             </Tab>
             <Tab eventKey={2} title='门派加成属性'>
-              制作中……
+              制作中……（需要有门派、上赛季论剑、本赛季论剑、名望等级、神兵等设置）
+              {/*放在设置里，只标记说明？还是可以选择？ 神兵*/}
               <ButtonGroup>
                 <Button>太白</Button>
                 <Button>真武</Button>
@@ -73,6 +70,8 @@ class XinfaProps extends Component {
                 <Button>丐帮</Button>
                 <Button>神刀</Button>
               </ButtonGroup>
+              太白加成：
+              <PropsTable xinfaProps={this.state.xinfaSchoolProps} />
             </Tab>
           </Tabs>
         </div>

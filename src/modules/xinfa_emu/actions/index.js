@@ -20,6 +20,8 @@ export const REMOVE_ALL_LOCAL_DATA = 'REMOVE_ALL_LOCAL_DATA';
 
 export const HANDLE_ERROR = 'HANDLE_ERROR';
 
+export const SET_FIVE_DIM_ADDITION_PROPS = 'SET_FIVE_DIM_ADDITION_PROPS';
+
 export function fetchXinfaList(keyword) {
   // const url = `${ROOT_URL}&q=${city},us`;
   // const request = axios.get(url);
@@ -125,5 +127,13 @@ export function removeAllLocalData() {
   return {
     type: REMOVE_ALL_LOCAL_DATA,
     payload: null
+  }
+}
+
+// 设置五维加成属性
+export function setFiveDimAdditionProps(data) {
+  return {
+    type: SET_FIVE_DIM_ADDITION_PROPS,
+    payload: data
   }
 }

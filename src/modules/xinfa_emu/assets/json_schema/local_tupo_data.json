@@ -17,6 +17,9 @@
       "minItems": 5,
       "maxItems": 5
     },
+    "additionConfig": {
+      "type": "object"
+    },
     "chongxue": {
       "type": "array",
       "minItems": 5,
