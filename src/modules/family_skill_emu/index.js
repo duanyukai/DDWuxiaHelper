@@ -16,6 +16,10 @@ class Root extends Component {
       ));
   }
 
+  componentDidMount() {
+    alert('本工具尚在制作中');
+  }
+
   render() {
     return (
       <Provider store={this.store}>

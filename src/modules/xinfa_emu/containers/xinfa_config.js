@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import range from 'lodash/range';
 import {
-  Button, ButtonGroup, Dropdown, Glyphicon, MenuItem, Modal, Row
+  Button, ButtonGroup, Dropdown, Glyphicon, MenuItem, Modal, Row, Tab, Tabs
 } from 'react-bootstrap';
 
 import './css/xinfa_config.css';
@@ -18,6 +18,7 @@ import xinfaBgBlank from '../assets/imgs/ui/xinfa_bg_blank.png';
 const xinfaPicPath = require.context('../assets/imgs/xinfa_icon', true);
 
 import {
+  calcAdditionProps,
   calcConfigProps, calcGongli, calcXinfaProps, calcZhanli, xinfaPropsMultiply,
   xinfaPropsPlus
 } from '../utils/calcProps';
@@ -213,12 +214,23 @@ class XinfaConfig extends Component {
                styleName='wuxia-modal-wrapper'>
           <Modal.Body styleName='wuxia-modal'>
             <WuxiaPanel title='心法配置属性' closeBtn onClose={this.handleCurConfigClose}>
-              <div>
-                {
-                  this.state.curConfigFinish ?
-                    <PropsTable xinfaProps={xinfaProps}/> : '加载中'
-                }
-              </div>
+              <Tabs defaultActiveKey={1} id='xinfa-props-tabs' styleName='xinfa-props-tabs'>
+                <Tab eventKey={1} title='裸属性'>
+                  {
+                    this.state.curConfigFinish ?
+                      <PropsTable xinfaProps={xinfaProps}/> : '加载中'
+                  }
+                </Tab>
+                <Tab eventKey={2} title='门派加成属性'>
+                  {
+                    this.state.curConfigFinish ?
+                      <PropsTable
+                        gongliUsedProps={xinfaProps}
+                        xinfaProps={calcAdditionProps(xinfaProps, this.props.brkthruData)}
+                      /> : '加载中'
+                  }
+                </Tab>
+              </Tabs>
             </WuxiaPanel>
           </Modal.Body>
         </Modal>
@@ -247,12 +259,23 @@ class XinfaConfig extends Component {
                styleName='wuxia-modal-wrapper'>
           <Modal.Body styleName='wuxia-modal'>
             <WuxiaPanel title='心法配置比较' closeBtn onClose={this.handleConfigDiffClose}>
-              <div>
-                {
-                  this.state.configDiffFinish ?
-                    <PropsTable xinfaProps={xinfaProps}/> : '加载中'
-                }
-              </div>
+              <Tabs defaultActiveKey={1} id='xinfa-props-tabs' styleName='xinfa-props-tabs'>
+                <Tab eventKey={1} title='裸属性'>
+                  {
+                    this.state.configDiffFinish ?
+                      <PropsTable xinfaProps={xinfaProps}/> : '加载中'
+                  }
+                </Tab>
+                <Tab eventKey={2} title='门派加成属性'>
+                  {
+                    this.state.configDiffFinish ?
+                      <PropsTable
+                        gongliUsedProps={xinfaProps}
+                        xinfaProps={calcAdditionProps(xinfaProps, this.props.brkthruData)}
+                      /> : '加载中'
+                  }
+                </Tab>
+              </Tabs>
             </WuxiaPanel>
           </Modal.Body>
         </Modal>

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Button, ButtonGroup, Dropdown, MenuItem, Table} from "react-bootstrap";
 import range from 'lodash/range';
 import {
-  changeXinfaConfig, copyConfig, placeXinfaSlot, removeAllLocalData, selectXinfa,
   setFiveDimAdditionProps
 } from "../actions";
 import {connect} from "react-redux";
@@ -10,14 +9,7 @@ import {connect} from "react-redux";
 import './css/addition_config.css';
 
 import additionPercentageTable from '../assets/json/addition_percentage_table.json';
-
-let chenghaoList = [
-  {btnTitle: '上赛季论剑称号', dataId: 'lastSeason1v1', stateId: 'lastSeason1v1Level'},
-  {btnTitle: '本赛季论剑段位', dataId: 'currentSeason1v1', stateId: 'currentSeason1v1Level'},
-  {btnTitle: '盟会职位', dataId: 'menghui', stateId: 'menghuiLevel'},
-  {btnTitle: '剑荡八荒排名', dataId: 'jiandang', stateId: 'jiandangLevel'},
-  {btnTitle: '门派排行', dataId: 'dadizi', stateId: 'dadiziLevel'},
-];
+import chenghaoList from '../assets/json/addition_id_list.json';
 
 class AdditionConfig extends Component {
   constructor(props) {
@@ -128,7 +120,6 @@ class AdditionConfig extends Component {
                 } catch(e) {
                   level = 0;
                 }
-                console.log('+++',level);
                 return(
                   <tr key={i}>
                     <td>

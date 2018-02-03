@@ -1,5 +1,7 @@
 import qianxiuBaseProps from '../assets/json/qianxiu/qianxiu_props_base.json';
 import schoolPropsList from '../assets/json/school_props.json';
+import additionPercentageTable from '../assets/json/addition_percentage_table.json';
+import chenghaoList from '../assets/json/addition_id_list.json';
 
 export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
   // 属性格式
@@ -239,10 +241,17 @@ export function calcConfigProps(xinfaDataList, brkthruData, configIndex) {
   }
 
   // 计算相生
-  for(let i = 0; i < 4; i++) {
+  // 四本心法的相生加成百分比表，需先计算总加成的系数，再乘以原数据
+  let additionTable = [
+    {'ld': 0, 'gg': 0, 'qj': 0, 'dc': 0, 'sf': 0},
+    {'ld': 0, 'gg': 0, 'qj': 0, 'dc': 0, 'sf': 0},
+    {'ld': 0, 'gg': 0, 'qj': 0, 'dc': 0, 'sf': 0},
+    {'ld': 0, 'gg': 0, 'qj': 0, 'dc': 0, 'sf': 0}
+  ];
+  for(let i = 0; i < 4; i++) { // 第i本心法
     if(xinfaDataList[i]) {
       // 遍历该心法所有相生心法
-      for (let j = 0; j < reinforceList[i].length; j++) {
+      for (let j = 0; j < reinforceList[i].length; j++) { // 第j本相生心法
         let reinforce = reinforceList[i][j];
         // 遍历是否有该心法
         for (let k = 0; k < 4; k++) {
@@ -251,12 +260,12 @@ export function calcConfigProps(xinfaDataList, brkthruData, configIndex) {
               // 存在该对应心法，为自身提升属性
               // 遍历各五维属性
               for (let l = 0; l < reinforce.reinforce.length; l++) {
-                let type = reinforce.reinforce[l].type;
+                let type = reinforce.reinforce[l].type; // 增加的五维类型
                 type = typeMap[type];
-                let coefficient = reinforce.reinforce[l].coefficient;
-                // todo 心法相生有问题，百分比一起计算
-
-                xinfaPropsList[i][type] *= 1 + coefficient;
+                let coefficient = reinforce.reinforce[l].coefficient; // 相生提升的系数
+                // 心法相生百分比一起计算
+                // xinfaPropsList[i][type] *= 1 + coefficient; // 有误
+                additionTable[i][type] += coefficient;
               }
             }
           }
@@ -264,13 +273,25 @@ export function calcConfigProps(xinfaDataList, brkthruData, configIndex) {
       }
     }
   }
+
+  // 最后乘系数
+  additionTable.forEach(({ld, gg, qj, dc, sf}, i) => {
+    if(xinfaDataList[i]) {
+      xinfaPropsList[i]['ld'] *= 1 + ld;
+      xinfaPropsList[i]['gg'] *= 1 + gg;
+      xinfaPropsList[i]['qj'] *= 1 + qj;
+      xinfaPropsList[i]['dc'] *= 1 + dc;
+      xinfaPropsList[i]['sf'] *= 1 + sf;
+    }
+  });
+
   // 四本心法相生后求和
-  let xinfaProps = xinfaPropsPlus(
+  let fourXinfaProps = xinfaPropsPlus(
     xinfaPropsPlus(xinfaPropsList[0], xinfaPropsList[1]),
     xinfaPropsPlus(xinfaPropsList[2], xinfaPropsList[3])
   );
   // console.log(xinfaProps);
-  return xinfaProps;
+  return fourXinfaProps;
 }
 
 export function xinfaPropsMultiply(p, percentage) {
@@ -294,7 +315,9 @@ export function xinfaPropsMultiply(p, percentage) {
     hx: p.hx * percentage,
     rj: p.rj * percentage,
     hs: p.hs * percentage,
-    qx: p.qx * percentage
+    qx: p.qx * percentage,
+
+    gongliOffset: p.gongliOffset * percentage
   }
 }
 
@@ -319,19 +342,68 @@ export function xinfaPropsPlus(a, b) {
     hx: (a.hx || 0) + (b.hx || 0),
     rj: (a.rj || 0) + (b.rj || 0),
     hs: (a.hs || 0) + (b.hs || 0),
-    qx: (a.qx || 0) + (b.qx || 0)
+    qx: (a.qx || 0) + (b.qx || 0),
+    gongliOffset: (a.gongliOffset || 0) + (b.gongliOffset || 0)
   }
 }
 
-export function calcSchoolProps(props, schoolId) {
+// export function calcSchoolProps(props, schoolId) {
+//   let schoolProps = schoolPropsList[schoolId];
+//   let newProps = {... props};
+//   ['ld', 'gg', 'qj', 'dc', 'sf'].forEach((dimId) => {
+//     Object.keys(schoolProps[dimId]).forEach((fightPropId) => {
+//       newProps[fightPropId] += newProps[dimId] * schoolProps[dimId][fightPropId];
+//     });
+//   });
+//   return newProps;
+// }
+
+export function calcAdditionProps(oldProps, brkthruData) {
+  let props = {... oldProps};
+  let additionConfig = brkthruData.additionConfig || {};
+  let dimList = ['ld', 'gg', 'qj', 'dc', 'sf'];
+  // 计算五维百分比加成
+  let dimAdditionPercentages = dimList.map((dimId) => {
+    let level;
+    try {
+      level = additionConfig.shenbingLevels[dimId] || 0;
+    } catch(e) {
+      level = 0;
+    }
+    // 单独计算神兵属性
+    let sum = additionPercentageTable['shenbing'][dimId][level][dimId];
+    // 计算其他称号属性
+    chenghaoList.forEach(({dataId, stateId}) => {
+      let curLevel;
+      try {
+        curLevel = additionConfig[stateId] || 0;
+      } catch(e) {
+        curLevel = 0;
+      }
+      sum += additionPercentageTable[dataId][curLevel]['all'];
+    });
+    return sum;
+  });
+
+  dimList.forEach((dim, i) => {
+    props[dim] *= 1 + dimAdditionPercentages[i];
+  });
+
+  // 计算门派加成
+  let schoolId;
+  try {
+    schoolId = additionConfig.schoolId || 'TB';
+  } catch(e) {
+    schoolId = 'TB';
+  }
+
   let schoolProps = schoolPropsList[schoolId];
-  let newProps = {... props};
   ['ld', 'gg', 'qj', 'dc', 'sf'].forEach((dimId) => {
     Object.keys(schoolProps[dimId]).forEach((fightPropId) => {
-      newProps[fightPropId] += newProps[dimId] * schoolProps[dimId][fightPropId];
+      props[fightPropId] += props[dimId] * schoolProps[dimId][fightPropId];
     });
   });
-  return newProps;
+  return props;
 }
 
 // calcLevelTotalXiuwei(level) {

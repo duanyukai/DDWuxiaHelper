@@ -39,3 +39,26 @@
 .xinfa-props-tabs :global .nav-tabs li a {
     background: transparent;
 }
+
+.wuxia-modal-wrapper :global .modal-content {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.wuxia-modal {
+    background: transparent;
+}
+
+.gem-panel {
+    text-align: center;
+}
+
+.gem-name {
+    text-shadow: 1px 1px 1px #000;
+}
+
+.gem-des {
+    color: #aaa;
+    text-shadow: 1px 1px 1px #000;
+}

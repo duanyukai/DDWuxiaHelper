@@ -1,0 +1,7 @@
+[
+  {"btnTitle": "上赛季论剑称号", "dataId": "lastSeason1v1", "stateId": "lastSeason1v1Level"},
+  {"btnTitle": "本赛季论剑段位", "dataId": "currentSeason1v1", "stateId": "currentSeason1v1Level"},
+  {"btnTitle": "盟会职位", "dataId": "menghui", "stateId": "menghuiLevel"},
+  {"btnTitle": "剑荡八荒排名", "dataId": "jiandang", "stateId": "jiandangLevel"},
+  {"btnTitle": "门派排行", "dataId": "dadizi", "stateId": "dadiziLevel"}
+]
