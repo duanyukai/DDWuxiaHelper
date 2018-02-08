@@ -72,10 +72,15 @@ module.exports = {
             '/map': '天刀地图助手 | 段段天刀综合助手',
             '/calendar': '天刀吉凶时辰模拟预测 | 段段天刀综合助手'
           };
-          return context.html.replace(
+          let html =  context.html.replace(
             /<title>[^<]*<\/title>/i,
             '<title>' + titles[context.route] + '</title>'
           );
+          // html = html.replace(
+          //   /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/ig,
+          //   ''
+          // );
+          return html;
         }
       }
     )
