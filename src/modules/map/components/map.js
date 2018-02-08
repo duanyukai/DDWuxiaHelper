@@ -5,14 +5,18 @@ import ReactDOM from 'react-dom';
 import L from 'leaflet';
 import './css/map.css';
 
-// todo
-import mobaoData from '../assets/json/positions/mobao.json';
-
 import mapsProps from '../assets/json/mapsProps.json';
 import {gamePosToImgPos} from "../utils/pos_conv";
 
-import mobaoIcon from '../assets/imgs/ui/mobao.png';
 import {Table, Well} from "react-bootstrap";
+import {dataToPosList} from '../utils/data_to_pos';
+import markerTypeList from '../assets/json/marker_types.json';
+
+const mapPosPath = require.context('../assets/json/positions', true);
+const iconPath = require.context('../assets/imgs/icons', true);
+
+// 地图标志json
+import mapPosNameList from '../assets/json/positions/location_name.json';
 
 class WuxiaLeafletMap extends Component {
   constructor(props) {
@@ -31,6 +35,7 @@ class WuxiaLeafletMap extends Component {
   }
 
   componentDidMount() {
+    // 初始化地图
     this.lfMap = L.map(this.lfMapDOM, {
       maxZoom: 2, // todo
       minZoom: 5,
@@ -39,15 +44,16 @@ class WuxiaLeafletMap extends Component {
       attributionControl: false,
       detectRetina: true
     });
-
+    // 初始化地图属性
     let _mapBounds = new L.LatLngBounds([0,0], [0, 0]);
     this.lfMap.setMaxBounds(_mapBounds);
     // 地图中心视角
     let _mapCenter = this.lfMap.unproject([0, 0], 1);
     this.lfMap.setView(_mapCenter, 1);
 
-    this.changeMap(this.props.currentMapId);
 
+    // 初始化第一张地图
+    this.changeMap(this.props.currentMapId);
   }
 
   getPixelRatio(context) {
@@ -68,6 +74,9 @@ class WuxiaLeafletMap extends Component {
     // todo
 
     // 删除旧图层
+    if(this.posNameMarkerLayer) {
+      this.lfMap.removeLayer(this.posNameMarkerLayer);
+    }
     if(this.tileLayer) {
       this.lfMap.removeLayer(this.tileLayer);
     }
@@ -101,9 +110,43 @@ class WuxiaLeafletMap extends Component {
         crs: L.CRS.Simple,
         detectRetina:false
       }).addTo(this.lfMap);
+    // // 更新dom marker
+    // if(mapPosNameList[mapId]) {
+    //   let markers = mapPosNameList[mapId].map(({x, y, name, des, level}) => {
+    //     let icon = L.divIcon({className: 'pos-name-marker', html: name});
+    //     return L.marker(this.lfMap.unproject(gamePosToImgPos(mapId, [x, y]), mapProps.maxZoom),{icon: icon});
+    //   });
+    //   this.posNameMarkerLayer = L.layerGroup(markers);
+    //   this.lfMap.addLayer(this.posNameMarkerLayer);
+    // }
 
-    // 更新坐标图层
+    function updatePosMarker() {
+      let zoomLevel = self.lfMap.getZoom();
+      // 更新dom marker
+      let markers = [];
+      if(mapPosNameList[mapId]) {
+        mapPosNameList[mapId].forEach(({x, y, name, des, level}) => {
+          let icon = L.divIcon({className: 'pos-name-marker', html: name});
+          let levels = level.split(';').map((x) => parseInt(x));
+          console.log(levels);
+          if(levels.includes(zoomLevel - 1)) {
+            markers.push(L.marker(self.lfMap.unproject(gamePosToImgPos(mapId, [x, y]), mapProps.maxZoom),{icon: icon}));
+          }
+        });
+        if(self.posNameMarkerLayer)
+          self.lfMap.removeLayer(self.posNameMarkerLayer);
+        self.posNameMarkerLayer = L.layerGroup(markers);
+        self.lfMap.addLayer(self.posNameMarkerLayer);
+      }
+    }
+
+    this.lfMap.on('zoomend', updatePosMarker);
+
+
+    // 更新坐标canvas图层
     this.markerCanvasLayer = new L.GridLayer({tileSize: 256});
+    this.markerCanvasLayer.on('load', updatePosMarker);
+
     this.markerCanvasLayer.createTile = function(coords, done) {
       let tile = L.DomUtil.create('canvas', 'leaflet-tile');
       let hitTile = L.DomUtil.create('canvas', 'hit-tile');
@@ -131,67 +174,94 @@ class WuxiaLeafletMap extends Component {
       sePoint.x *= factor; sePoint.y *= factor;
 
       // 测试用
-      ctx.strokeStyle = 'red';
-      ctx.beginPath();ctx.moveTo(0, 0);ctx.lineTo(tileSize.x-1, 0);ctx.lineTo(tileSize.x-1, tileSize.y-1);ctx.lineTo(0, tileSize.y-1);ctx.closePath();ctx.stroke();
+      // ctx.strokeStyle = 'rgba(255, 255, 255, 0.3)';
+      // ctx.beginPath();ctx.moveTo(0, 0);ctx.lineTo(tileSize.x-1, 0);ctx.lineTo(tileSize.x-1, tileSize.y-1);ctx.lineTo(0, tileSize.y-1);ctx.closePath();ctx.stroke();
+
+      // 底部水印
+      ctx.save();
+      ctx.translate(128, 128);
+      ctx.rotate(-Math.PI/4);
+      ctx.textAlign = 'center';
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+      ctx.font='14px Microsoft Yahei';
+      ctx.fillText('段段天刀地图助手', 0, -10);
+      ctx.fillText('www.wuxia.tools', 0, 10);
+      ctx.restore();
 
       // 测试墨宝坐标
       let tileData = [];
-      let promiseList = [];
+      let drawPromises = [];
       let markerIndex = 0;
+
       // todo 各种坐标
       // todo 获取坐标方法
-      mobaoData[mapId].forEach((pos) => {
-        let xy = gamePosToImgPos(mapId, [pos.x, pos.y]);
-        // 判断是否在本tile中，四个方向扩大20px（右侧显示标记，左侧检测扩大75px）
-        if(xy.x >= nwPoint.x - 75 && xy.x <= sePoint.x + 20 && xy.y >= nwPoint.y - 20 && xy.y <= sePoint.y + 20) {
-          let relX = (xy.x - nwPoint.x) / factor;
-          let relY = (xy.y - nwPoint.y) / factor;
-
+      markerTypeList.forEach(({id, name, data}) => {
+        // 根据显示情况获取 todo
+        let posData = mapPosPath('./' + data, true);
+        // 获取所有需要的icon
+        let iconPromiseList = [];
+        let iconList = posData['icons'].map(({fileName, x, y, anchorX, anchorY}) => {
           let img = new Image();
-          // 异步绘制防止随机性丢失
-          ((markerIndex) => {
-            promiseList.push(new Promise(function (resolve) {
-              img.addEventListener('load', function() {
-                // 绘制logo
-                let ratio = self.getPixelRatio(ctx);
-                ctx.drawImage(img, (relX - 16) * ratio, (relY - 16) * ratio, 32 * ratio, 32 * ratio); // todo logoSize
+          img.src = iconPath(`./${fileName}`, true);
+          iconPromiseList.push(new Promise(function (resolve) {
+            img.addEventListener('load', function() {
+              resolve();
+            }, false);
+          }));
+          return {
+            img,
+            x, y,
+            anchorX, anchorY
+          };
+        });
 
+        // icon全部加载完毕后执行
+        drawPromises.push(Promise.all(iconPromiseList).then(() => {
+          // 显示所有marker
+          dataToPosList(id, posData, mapId).forEach((pos) => {
+            let xy = gamePosToImgPos(mapId, [pos.x, pos.y]);
+            // 判断是否在本tile中，四个方向扩大20px（右侧显示标记，左侧检测扩大75px）
+            if(xy.x >= nwPoint.x - 75 && xy.x <= sePoint.x + 20 && xy.y >= nwPoint.y - 20 && xy.y <= sePoint.y + 20) {
+              let relX = (xy.x - nwPoint.x) / factor;
+              let relY = (xy.y - nwPoint.y) / factor;
+
+              // 地图放大级别高时，绘制详细信息 //todo zoom, logoSize
+              if(coords.z >= 4) {
+                // 双行数据
+                let text1 = `${pos.des}`;
+                let text2 = `${Math.floor(pos.x)},${Math.floor(pos.y)}`;
+                let textWidth = Math.max(ctx.measureText(text1).width, ctx.measureText(text2).width);
+                textWidth = 70; // todo 检测宽度有bug
+                ctx.fillStyle = 'rgba(0,0,0,0.6)';
+                ctx.fillRect(relX, relY - 16, textWidth + 16, 32);
+                ctx.textBaseline = 'middle';
+                ctx.fillStyle = '#fff';
+                ctx.font='14px Microsoft Yahei';
+                ctx.fillText(text1, relX + 16, relY - 8);
+                ctx.fillText(text2, relX + 16, relY + 8);
+
+                // 增加点击检测
                 hitCtx.fillStyle = `#${('000000' + Number(markerIndex).toString(16)).slice(-6)}`;
-                hitCtx.fillRect(relX - 16, relY - 16, 32, 32);
-                resolve();
-              }, false);
-            }));
-          })(markerIndex);
+                hitCtx.fillRect(relX, relY - 16, textWidth + 16, 32);
+              }
 
-          img.src = mobaoIcon; // todo logo
+              // 绘制logo
+              let ratio = self.getPixelRatio(ctx);
+              let iconData =  iconList[pos.icon];
+              ctx.drawImage(iconData.img, (relX - iconData.anchorX) * ratio, (relY - iconData.anchorY) * ratio, iconData.x * ratio, iconData.y * ratio);
 
-          // 地图放大级别高时，绘制详细信息 //todo zoom, logoSize
-          if(coords.z >= 4) {
-            // 双行数据
-            let text1 = `${pos.des}`;
-            let text2 = `${pos.x},${pos.y}`;
-            let textWidth = Math.max(ctx.measureText(text1).width, ctx.measureText(text2).width);
-            textWidth = 70; // todo 检测宽度有bug
-            ctx.fillStyle = 'rgba(0,0,0,0.6)';
-            ctx.fillRect(relX, relY - 16, textWidth + 16, 32);
-            ctx.textBaseline = 'middle';
-            ctx.fillStyle = '#fff';
-            ctx.font='14px Microsoft Yahei';
-            ctx.fillText(text1, relX + 16, relY - 8);
-            ctx.fillText(text2, relX + 16, relY + 8);
+              hitCtx.fillStyle = `#${('000000' + Number(markerIndex).toString(16)).slice(-6)}`;
+              hitCtx.fillRect(relX - iconData.anchorX, relY - iconData.anchorY, iconData.x, iconData.y);
 
-            // 增加点击检测
-            hitCtx.fillStyle = `#${('000000' + Number(markerIndex).toString(16)).slice(-6)}`;
-            hitCtx.fillRect(relX, relY - 16, textWidth + 16, 32);
-          }
-
-          tileData.push({
-            relX, relY,
-            imgX: xy.x, imgY: xy.y,
-            data: pos
-          });
-          markerIndex++;
-        }
+              tileData.push({
+                relX, relY,
+                imgX: xy.x, imgY: xy.y,
+                data: pos
+              });
+              markerIndex++;
+            }
+          })
+        }));
       });
 
       // 增加点击事件
@@ -212,7 +282,6 @@ class WuxiaLeafletMap extends Component {
             <Well styleName='popup-well'>
               {tileData[index].data.des}
               <Table>
-                <tr><td>23</td><td>23</td><td>23</td><td>23</td></tr>
                 <tr><td>23</td><td>23</td><td>23</td><td>23</td></tr>
               </Table>
             </Well>
@@ -243,7 +312,7 @@ class WuxiaLeafletMap extends Component {
         }
       });
 
-      Promise.all(promiseList).then(() => {
+      Promise.all(drawPromises).then(() => {
         done(null, tile);
       });
       return tile;

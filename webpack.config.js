@@ -53,6 +53,14 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: 'static' }
     ]),
+    // 实际发布使用
+    new webpack.optimize.CommonsChunkPlugin({
+      name: ['vendor', 'manifest'],
+    }),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    }),
+    new UglifyJsPlugin(),
     new PrerenderSpaPlugin(
       path.join(__dirname, '/dist'),
       [ '/', '/xinfa', '/map', '/calendar' ],
@@ -70,15 +78,7 @@ module.exports = {
           );
         }
       }
-    ),
-    // 实际发布使用
-    new webpack.optimize.CommonsChunkPlugin({
-      name: ['vendor', 'manifest'],
-    }),
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('production')
-    }),
-    new UglifyJsPlugin()
+    )
   ],
   module: {
     rules: [

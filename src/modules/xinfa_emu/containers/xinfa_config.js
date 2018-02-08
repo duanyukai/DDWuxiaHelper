@@ -143,7 +143,10 @@ class XinfaConfig extends Component {
       if(slotsData[i]) {
         let xinfaName = slotsData[i];
         let xinfaDataPromise = import(`../assets/json/xinfa/${xinfaName}.json`);
-        xinfaPromises.push(xinfaDataPromise);
+        // xinfaPromises.push(xinfaDataPromise); //
+        xinfaPromises[i] = xinfaDataPromise;
+      } else {
+        xinfaPromises[i] = null;
       }
     }
 
@@ -242,6 +245,7 @@ class XinfaConfig extends Component {
     this.setState({showConfigDiffModal: true});
     // 计算综合属性
     this.calcCurConfigProps();
+    // todo
   }
 
   handleConfigDiffClose() {

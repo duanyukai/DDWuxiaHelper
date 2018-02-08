@@ -25,3 +25,18 @@
     margin: 0;
     padding: 3px;
 }
+
+:global .pos-name-marker {
+    border-style: solid;
+    border-width: 17px 21px 19px;
+    -moz-border-image: url(../../assets/imgs/icons/pos_border.png) 17 21 19 repeat;
+    -webkit-border-image: url(../../assets/imgs/icons/pos_border.png) 17 21 19 repeat;
+    -o-border-image: url(../../assets/imgs/icons/pos_border.png) 17 21 19 repeat;
+    border-image: url(../../assets/imgs/icons/pos_border.png) 17 21 19 fill repeat;
+    width: 56px !important;
+    font-size: 14px !important;
+    line-height: 14px;
+    font-weight: bold;
+    text-orientation: upright;
+    height: auto !important;
+}

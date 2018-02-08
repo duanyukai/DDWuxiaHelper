@@ -9,12 +9,28 @@ import {
   Tabs
 } from 'react-bootstrap';
 
+import markerTypeList from '../assets/json/marker_types.json';
+
 class WuxiaMap extends Component {
   constructor(props) {
     super(props);
     this.state = {
       currentMapId: 'HZ'
     };
+  }
+
+  renderMapButtonGroup(array) {
+    return array.map(({name, id}) => {
+      return(
+        <Button
+          key={id}
+          bsStyle={id === this.state.currentMapId ? 'primary' : 'default'}
+          onClick={() => this.setState({currentMapId: id})}
+        >
+          {name}
+        </Button>
+      );
+    })
   }
 
   render() {
@@ -33,34 +49,77 @@ class WuxiaMap extends Component {
                     <Tab eventKey={1} title='地图'>
                       <div styleName='appCss.scroll-wrapper'>
                         <div>
-                          <ButtonGroup>
-                            <Button>中原</Button>
-                            <Button>东海</Button>
-                            <Button>南海</Button>
-                          </ButtonGroup>
-                          <ButtonGroup styleName="appCss.map-btn-matrix-1">
-                            <Button onClick={() => this.setState({currentMapId: 'HZ'})}>杭州</Button>
-                            <Button>江南</Button>
-                            <Button>东越</Button>
-                            <Button>九华</Button>
-                            <Button>徐海</Button>
-                            <Button>开封</Button>
-                            <Button>秦川</Button>
-                            <Button>燕云</Button>
-                            <Button>巴蜀</Button>
-                            <Button>襄州</Button>
-                            <Button>荆湖</Button>
-                            <Button>云滇</Button>
-                          </ButtonGroup>
+                          <div>
+                            <ButtonGroup styleName='appCss.map-btn-matrix-1'>
+                              {this.renderMapButtonGroup([
+                                {name: '中原', id: 'ZY'},
+                                {name: '东海', id: 'DH'},
+                                {name: '南海', id: 'NH'}
+                              ])}
+                            </ButtonGroup>
+                          </div>
+                          <div>
+                            <ButtonGroup styleName='appCss.map-btn-matrix-1'>
+                              {this.renderMapButtonGroup([
+                                {name: '杭州', id: 'HZ'},
+                                {name: '江南', id: 'JN'},
+                                {name: '东越', id: 'DY'},
+                                {name: '九华', id: 'JH'},
+                                {name: '徐海', id: 'XH'},
+                                {name: '开封', id: 'KF'},
+                                {name: '秦川', id: 'QC'},
+                                {name: '燕云', id: 'YY'},
+                                {name: '巴蜀', id: 'BS'},
+                                {name: '襄州', id: 'XZ'},
+                                {name: '荆湖', id: 'JINGH'},
+                                {name: '云滇', id: 'YD'}
+                              ])}
+                            </ButtonGroup>
+                          </div>
+                          <div>
+                            <ButtonGroup styleName='appCss.map-btn-matrix-1'>
+                              {this.renderMapButtonGroup([
+                                {name: '海河州', id: 'HHZ'},
+                                {name: '极境岛', id: 'JJD'},
+                                {name: '松　林', id: 'SLWZ'},
+                                {name: '长　洲', id: 'CZGY'},
+                                {name: '嘲天宫', id: 'CTG'},
+                                {name: '龙　渊', id: 'QLZY'}
+                              ])}
+                            </ButtonGroup>
+                          </div>
+                          <div>
+                            <ButtonGroup styleName='appCss.map-btn-matrix-1'>
+                              {this.renderMapButtonGroup([
+                                {name: '　钱塘港', id: 'QTG'},
+                                {name: '　江洋港', id: 'JYG'},
+                                {name: '　泉州港', id: 'QZG'},
+                                {name: '　望海岬', id: 'WHJ'},
+                                {name: '　灵鹿岛', id: 'LLD'},
+                                {name: '天涯盐场', id: 'TYYC'},
+                                {name: '　沧浪岛', id: 'CLD'},
+                                {name: '　幽灵岛', id: 'YLD'},
+                                {name: '　宝矿山', id: 'BKS'},
+                                {name: '琅嬛福地', id: 'LHFD'},
+                                {name: '　大沧海', id: 'DCH'},
+                                {name: '东海玉涡', id: 'DHYW'},
+                              ])}
+                            </ButtonGroup>
+                          </div>
                         </div>
                       </div>
                     </Tab>
                     <Tab eventKey={2} title='图层'>
                       <div styleName='appCss.scroll-wrapper'>
-                        <FormGroup>
-                          墨宝
-                          <Checkbox inline>显示</Checkbox>{' '}<Checkbox inline>直接展示</Checkbox>
-                        </FormGroup>
+                        {
+                          markerTypeList.map(({id, name, data}) => {
+                            return (
+                              <div key={id}>
+                               <span>{name}</span><Checkbox inline>显示</Checkbox>{' '}<Checkbox inline>直接展示</Checkbox>
+                              </div>
+                            )
+                          })
+                        }
                       </div>
                     </Tab>
                     <Tab eventKey={3} title='搜索'>

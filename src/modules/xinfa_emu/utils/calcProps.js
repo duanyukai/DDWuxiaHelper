@@ -168,9 +168,16 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
   // 计算技能消耗修为
   for(let skillName in skillLevelsData) {
     if(skillLevelsData.hasOwnProperty(skillName)) {
-      xinfaProps.xiuwei += xinfaData.skills
-        .filter((skillData) => skillData.name === skillName)[0]
-        .levels[skillLevelsData[skillName]].xiuweiSum || 0;
+      let curSkillXiuwei;
+      try {
+        curSkillXiuwei = xinfaData.skills
+          .filter((skillData) => skillData.name === skillName)[0]
+          .levels[skillLevelsData[skillName]].xiuweiSum || 0;
+      } catch(e) {
+        curSkillXiuwei = 0;
+      }
+
+      xinfaProps.xiuwei += curSkillXiuwei;
     }
   }
 
@@ -230,6 +237,7 @@ export function calcConfigProps(xinfaDataList, brkthruData, configIndex) {
   // 获取基本数据
   for(let i = 0; i < 4; i++) {
     if(xinfaDataList[i]) {
+      console.log(i);
       let xinfaData = xinfaDataList[i];
       reinforceList[i] = xinfaData.reinforce;
       if(configIndex === 0 || configIndex) {
