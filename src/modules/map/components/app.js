@@ -25,7 +25,7 @@ class WuxiaMap extends Component {
     });
 
     this.state = {
-      currentMapId: 'QTG',
+      currentMapId: 'HZ',
       showState: showState
     };
   }

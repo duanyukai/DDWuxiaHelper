@@ -1,4 +1,5 @@
-import 'hidpi-canvas/dist/hidpi-canvas.min';
+// import 'hidpi-canvas/dist/hidpi-canvas.min';
+import {canvasHiDPIPolyfill, canvasHiDPIRestore} from '../../../utils/canvas-hidpi-polyfill/canvas_hidpi_polyfill'
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
@@ -48,6 +49,8 @@ class WuxiaLeafletMap extends Component {
 
 
   componentDidMount() {
+    // 开启高分屏适配
+    canvasHiDPIPolyfill();
     // 初始化地图
     this.lfMap = L.map(this.lfMapDOM, {
       maxZoom: 2, // todo
@@ -68,6 +71,10 @@ class WuxiaLeafletMap extends Component {
 
     // 初始化第一张地图
     this.changeMap(this.props.currentMapId);
+  }
+
+  componentWillUnmount() {
+    canvasHiDPIRestore();
   }
 
   getPixelRatio(context) {

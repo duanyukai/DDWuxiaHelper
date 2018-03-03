@@ -12,10 +12,10 @@ export function dataToPopup(data) {
         <div>
           <h3>{mobaoData.name}</h3>
           <h3>{mobaoData.x.toFixed(0)}, {mobaoData.y.toFixed(0)}</h3>
-          <p>{mobaoData.data.des}</p>
-          <Table striped condensed hover>
+          <Table styleName='mobao-table' striped condensed hover>
             <tbody>
               <tr><td>墨宝名称</td><td>{mobaoData.data.mobaoName}</td></tr>
+              <tr><td>墨宝描述</td><td>{mobaoData.data.des}</td></tr>
               <tr><td>墨宝条件统称</td><td>{mobaoData.data.conditionGroupType}{mobaoData.data.conditionGroupDes}</td></tr>
               <tr><td>时间要求</td><td>{mobaoData.data.time}</td></tr>
               <tr><td>天气要求</td><td>{mobaoData.data.weather}</td></tr>

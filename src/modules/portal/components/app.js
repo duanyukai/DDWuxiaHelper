@@ -10,6 +10,7 @@ import panelPic4 from '../assets/imgs/4.png';
 
 import xinfaPic from '../assets/imgs/xinfa.png';
 import mapPic from '../assets/imgs/map.png';
+import familyTechPic from '../assets/imgs/family-tech.png';
 import calendarPic from '../assets/imgs/calendar.png';
 
 
@@ -64,6 +65,20 @@ class PortalApp extends Component {
                         <hr />
                         <p>
                           本工具是一个可交互的天刀地图，包括文士乐伶墨宝创作点、航海图鉴等内容。<br />（尚在制作中）
+                        </p>
+                      </Link>
+                    </div>
+                  </Panel>
+                </Col>
+                <Col md={3} sm={6}>
+                  <Panel styleName='nav-panel'>
+                    <Link to='/family-tech'><img src={familyTechPic} /></Link>
+                    <div styleName='nav-panel-div'>
+                      <Link to='/family-tech'>
+                        <h3>帮派模拟器</h3>
+                        <hr />
+                        <p>
+                          本工具是一个富交互的帮派技能属性、消耗模拟器。针对不同技能以可视化形式展现属性提升及资源消耗。
                         </p>
                       </Link>
                     </div>

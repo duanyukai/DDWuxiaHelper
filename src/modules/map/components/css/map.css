@@ -37,6 +37,13 @@
     height: auto !important;
 }
 
+.mobao-table td:first-child {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
 .sea-collect-table td:first-child {
     font-weight: bold;
     text-align: center;

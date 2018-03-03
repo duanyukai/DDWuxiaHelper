@@ -12,6 +12,7 @@ class BarChart extends Component {
   componentDidMount() {
     let data = this.props.data;
     let hlRange = this.props.hightlightRange;
+    let format = this.props.format;
     let log = this.props.log;
     let bgColors = range(data.length).map((i) => {
       if(i < hlRange[0] || i > hlRange[1]) {
@@ -32,6 +33,13 @@ class BarChart extends Component {
         }]
       },
       options: {
+        tooltips: {
+          callbacks: {
+            label: function(tooltipItem, data) {
+              return format(tooltipItem.yLabel);
+            }
+          }
+        },
         scales: {
           xAxes: [{
             barPercentage: 1,
@@ -55,7 +63,7 @@ class BarChart extends Component {
       let data = newProps.data;
       let hlRange = newProps.hightlightRange;
       let bgColors = range(data.length).map((i) => {
-        if(i < hlRange[0] || i > hlRange[1])
+        if(i <= hlRange[0] || i > hlRange[1])
           return 'rgba(255, 99, 132, 0.4)';
         else
           return this.props.color;

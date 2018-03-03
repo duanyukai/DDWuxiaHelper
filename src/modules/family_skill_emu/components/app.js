@@ -118,7 +118,7 @@ class FamilySkillEmuApp extends Component {
           }
           let end = parseFloat(x);
           if(x.charAt(x.length - 1) === '%')
-            return (end - start) + '%';
+            return (end - start).toFixed(2) + '%';
           return end - start;
         }
         return 0;
@@ -148,7 +148,7 @@ class FamilySkillEmuApp extends Component {
                         <td>需修为</td><td>{sumXiuwei.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
                       </tr>
                       <tr>
-                        <td>需碎银</td><td>{(sumSuiyin / 10000).toFixed(0)}金{(sumSuiyin % 10000 / 100).toFixed(0)}银{(sumSuiyin % 100)}铜</td>
+                        <td>需碎银</td><td>{Math.floor(sumSuiyin / 10000)}金{Math.floor(sumSuiyin % 10000 / 100)}银{(sumSuiyin % 100)}铜</td>
                       </tr>
                       <tr>
                         <td>需帮贡</td><td>{sumBanggong}</td>
@@ -169,6 +169,7 @@ class FamilySkillEmuApp extends Component {
                     hightlightRange={this.state.range}
                     unit='第一个属性'
                     log={this.state.log}
+                    format={(x) => x}
                   />
                   <h3>等级消耗可视化<small>高亮为所选部分</small></h3>
                   <h4>修为消耗</h4>
@@ -178,6 +179,7 @@ class FamilySkillEmuApp extends Component {
                     hightlightRange={this.state.range}
                     unit='修为'
                     log={this.state.log}
+                    format={(x) => x}
                   />
                   <h4>碎银消耗</h4>
                   <BarChart
@@ -186,6 +188,7 @@ class FamilySkillEmuApp extends Component {
                     hightlightRange={this.state.range}
                     unit='碎银'
                     log={this.state.log}
+                    format={(x) => `${Math.floor(x / 10000)}金${Math.floor(x % 10000 / 100)}银${(x % 100)}铜`}
                   />
                   <h4>帮贡消耗</h4>
                   <BarChart
@@ -194,6 +197,7 @@ class FamilySkillEmuApp extends Component {
                     hightlightRange={this.state.range}
                     unit='帮贡'
                     log={this.state.log}
+                    format={(x) => x}
                   />
                 </Panel>
               </Col>
