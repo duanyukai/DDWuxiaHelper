@@ -1,4 +1,7 @@
 [
   {"id": "mobao", "name": "墨宝踩点", "data": "mobao.json"},
-  {"id": "house", "name": "家园坐标", "data": "house.json"}
+  {"id": "house", "name": "家园坐标", "data": "house.json"},
+  {"id": "sea_collect", "name": "航海图鉴", "data": "sea_collect.json"},
+  {"id": "hhz_baoxiang", "name": "海河州宝箱", "data": "hhz_baoxiang.json"},
+  {"id": "hhz_wuzi", "name": "帮战物资", "data": "hhz_wuzi.json"}
 ]

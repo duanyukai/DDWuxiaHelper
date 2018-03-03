@@ -1,7 +1,18 @@
 .container {
-    margin: 30px 0;
-    padding: 15px 0 30px 0;
+    margin: 40px 0;
+    padding: 0;
+}
+
+.emu-container {
+    margin: 0;
+    padding: 30px 0;
+    width: 100%;
     background: #ececec url('../../assets/imgs/ui/background.jpg') no-repeat center bottom;
     background-size: cover;
 }
 
+.other-container {
+    width: 100%;
+    margin: 30px 0;
+    padding: 15px 0 30px 0;
+}

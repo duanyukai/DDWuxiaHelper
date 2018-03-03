@@ -17,7 +17,7 @@ class Root extends Component {
   }
 
   componentDidMount() {
-    alert('本工具尚在制作中');
+    // alert('本工具尚在制作中');
   }
 
   render() {

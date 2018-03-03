@@ -6801,4 +6801,15 @@ button.close {
 
 .modules-portal-components-css-___app__nav-panel-div___3nNkS a:hover {
     text-decoration: none;
+}html {
+    font-size: 16px;
 }
+
+.module-cmt-notice {
+    display: none;
+}
+
+.module-person-page-prompt {
+    display: none;
+}
+

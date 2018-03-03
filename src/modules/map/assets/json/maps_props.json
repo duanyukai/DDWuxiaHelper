@@ -1,0 +1,300 @@
+{
+  "ZY": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "DH": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "NH": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "HZ": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "JN": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "DY": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "JH": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "XH": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "KF": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "QC": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "YY": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "BS": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "XZ": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "JINGH": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "YD": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "HHZ": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 2048},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 2048, "gamePosY": 0}
+    ]
+  },
+  "JJD": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "SLWZ": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "CZGY": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "CTG": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "QLZY": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+
+  "QTG": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [15415, 57961],
+    "correspond": [
+      {"imgPosX": 1687, "imgPosY": 1715, "gamePosX": 14999, "gamePosY": 57676},
+      {"imgPosX": 2445, "imgPosY": 357, "gamePosX": 15754, "gamePosY": 59035}
+    ]
+  },
+  "JYG": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [7492, 53492],
+    "correspond": [
+      {"imgPosX": 1529, "imgPosY": 1622, "gamePosX": 6648, "gamePosY": 53672},
+      {"imgPosX": 2476, "imgPosY": 1076, "gamePosX": 7596, "gamePosY": 54220}
+    ]
+  },
+  "QZG": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [7615, 46014],
+    "correspond": [
+      {"imgPosX": 1567, "imgPosY": 1376, "gamePosX": 6687, "gamePosY": 45728},
+      {"imgPosX": 2655, "imgPosY": 578, "gamePosX": 7775, "gamePosY": 46526}
+    ]
+  },
+  "WHJ": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [21717, 49908],
+    "correspond": [
+      {"imgPosX": 2448, "imgPosY": 1440, "gamePosX": 21904, "gamePosY": 49761},
+      {"imgPosX": 1608, "imgPosY": 433, "gamePosX": 21065, "gamePosY": 50767}
+    ]
+  },
+  "LLD": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [27772, 56356],
+    "correspond": [
+      {"imgPosX": 2111, "imgPosY": 1745, "gamePosX": 27711, "gamePosY": 55599},
+      {"imgPosX": 1394, "imgPosY": 705, "gamePosX": 26993, "gamePosY": 56639}
+    ]
+  },
+  "TYYC": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [13095, 40294],
+    "correspond": [
+      {"imgPosX": 1325, "imgPosY": 1570, "gamePosX": 12588, "gamePosY": 39390},
+      {"imgPosX": 2742, "imgPosY": 607, "gamePosX": 14005, "gamePosY": 40353}
+    ]
+  },
+  "CLD": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [38025, 60323],
+    "correspond": [
+      {"imgPosX": 2147, "imgPosY": 1647, "gamePosX": 37985, "gamePosY": 59793},
+      {"imgPosX": 2457, "imgPosY": 606, "gamePosX": 38297, "gamePosY": 60834}
+    ]
+  },
+  "YLD": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [40384, 52005],
+    "correspond": [
+      {"imgPosX": 2710, "imgPosY": 1312, "gamePosX": 40598, "gamePosY": 51936},
+      {"imgPosX": 1205, "imgPosY": 707, "gamePosX": 39093, "gamePosY": 52543}
+    ]
+  },
+  "BKS": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [52000, 54515],
+    "correspond": [
+      {"imgPosX": 1645, "imgPosY": 534, "gamePosX": 51821, "gamePosY": 54762},
+      {"imgPosX": 2185, "imgPosY": 1511, "gamePosX": 52360, "gamePosY": 53784}
+    ]
+  },
+  "LHFD": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [19438, 27509],
+    "correspond": [
+      {"imgPosX": 1269, "imgPosY": 886, "gamePosX": 18677, "gamePosY": 27787},
+      {"imgPosX": 2730, "imgPosY": 1450, "gamePosX": 20137, "gamePosY": 27221}
+    ]
+  },
+  "DCH": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [8914, 19704],
+    "correspond": [
+      {"imgPosX": 1626, "imgPosY": 605, "gamePosX": 8793, "gamePosY": 19875},
+      {"imgPosX": 2379, "imgPosY": 1304, "gamePosX": 9547, "gamePosY": 19176}
+    ]
+  },
+  "DHYW": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [23445, 11589],
+    "correspond": [
+      {"imgPosX": 1909, "imgPosY": 485, "gamePosX": 23413, "gamePosY": 11803},
+      {"imgPosX": 2433, "imgPosY": 1062, "gamePosX": 23937, "gamePosY": 11226}
+    ]
+  }
+}

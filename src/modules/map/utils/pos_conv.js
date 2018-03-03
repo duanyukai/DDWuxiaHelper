@@ -1,4 +1,4 @@
-import mapsProps from '../assets/json/mapsProps.json';
+import mapsProps from '../assets/json/maps_props.json';
 
 export function gamePosToImgPos(mapId, pos) {
   let corresponds = mapsProps[mapId].correspond;

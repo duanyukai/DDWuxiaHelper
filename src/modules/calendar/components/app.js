@@ -14,6 +14,8 @@ import {dateToShichenDetail, dateToShichenId, getShichenName} from '../utils/shi
 import moment from 'moment';
 import RadioGroup from "./RadioGroup";
 
+import ChangyanComment from '../../changyan/changyan_comment';
+
 class CalendarApp extends Component {
   constructor(props) {
     super(props);
@@ -592,6 +594,15 @@ class CalendarApp extends Component {
                     </tbody>
                   </Table>
                 </div>
+              </Panel>
+            </Col>
+          </Row>
+        </Grid>
+        <Grid>
+          <Row>
+            <Col xs={12} md={10} mdOffset={1}>
+              <Panel>
+                <ChangyanComment sourceId='calendar' />
               </Panel>
             </Col>
           </Row>

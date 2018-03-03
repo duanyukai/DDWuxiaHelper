@@ -38,8 +38,13 @@ const Calendar = Loadable({
   loading: () => <Loading />
 });
 
-const FamilySkillEmu = Loadable({
+const FamilyTechEmu = Loadable({
   loader: () => import('./family_skill_emu/index'),
+  loading: () => <Loading />
+});
+
+const GongliRank = Loadable({
+  loader: () => import('./gongli_rank/index'),
   loading: () => <Loading />
 });
 
@@ -59,7 +64,7 @@ const Index = () => (
             <LinkContainer to='/xinfa'><NavItem eventKey={2}><Glyphicon glyph='remove' /> 心法模拟器</NavItem></LinkContainer>
             <LinkContainer to='/map'><NavItem eventKey={3}><Glyphicon glyph='remove' /> 地图助手</NavItem></LinkContainer>
             <LinkContainer to='/calendar'><NavItem eventKey={4}><Glyphicon glyph='ok' /> 天涯吉凶时刻</NavItem></LinkContainer>
-            <LinkContainer to='/family-skill'><NavItem eventKey={5}><Glyphicon glyph='remove' /> 帮派技能模拟器</NavItem></LinkContainer>
+            <LinkContainer to='/family-tech'><NavItem eventKey={5}><Glyphicon glyph='ok' /> 帮派技能模拟器</NavItem></LinkContainer>
 
           </Nav>
           <Nav pullRight>
@@ -71,9 +76,10 @@ const Index = () => (
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/xinfa' component={XinfaEmu}/>
-          <Route path='/family-skill' component={FamilySkillEmu}/>
+          <Route path='/family-tech' component={FamilyTechEmu}/>
           <Route path='/map' component={WuxiaMap}/>
           <Route path='/calendar' component={Calendar}/>
+          <Route path='/rank' component={GongliRank} />
         </Switch>
       </div>
       <div style={{textAlign: 'center', marginTop: '50px'}}>

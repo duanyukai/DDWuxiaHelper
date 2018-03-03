@@ -5,7 +5,7 @@ import appCss from './css/app.css';
 
 import WuxiaLeafletMap from './map';
 import {
-  Button, ButtonGroup, Checkbox, Col, FormControl, FormGroup, Grid, Row, Tab,
+  Button, ButtonGroup, Checkbox, Col, FormControl, Grid, Row, Tab, Table,
   Tabs
 } from 'react-bootstrap';
 
@@ -14,10 +14,27 @@ import markerTypeList from '../assets/json/marker_types.json';
 class WuxiaMap extends Component {
   constructor(props) {
     super(props);
+
+    // 设置各种标志初始显示状态
+    let showState = {};
+    markerTypeList.forEach(({id, name, data}) => {
+      showState[id] = {
+        show: true,
+        showDetail: true
+      };
+    });
+
     this.state = {
-      currentMapId: 'HZ'
+      currentMapId: 'QTG',
+      showState: showState
     };
   }
+
+  // componentWillUpdate(nextProps, nextState) {
+  //   if(nextState.showDetail) {
+  //
+  //   }
+  // }
 
   renderMapButtonGroup(array) {
     return array.map(({name, id}) => {
@@ -38,6 +55,7 @@ class WuxiaMap extends Component {
       <div>
         <WuxiaLeafletMap
           currentMapId={this.state.currentMapId}
+          showState={this.state.showState}
         />
 
         <div styleName='appCss.toolbar-wrapper'>
@@ -46,6 +64,8 @@ class WuxiaMap extends Component {
               <Col lg={3} md={4} sm={6} xs={12} style={{height: 0}}>
                 <div styleName='appCss.toolbar-inner'>
                   <Tabs defaultActiveKey={1} id='toolbar-tabs'>
+                    <Tab eventKey={0} title='收起'>
+                    </Tab>
                     <Tab eventKey={1} title='地图'>
                       <div styleName='appCss.scroll-wrapper'>
                         <div>
@@ -111,15 +131,81 @@ class WuxiaMap extends Component {
                     </Tab>
                     <Tab eventKey={2} title='图层'>
                       <div styleName='appCss.scroll-wrapper'>
-                        {
-                          markerTypeList.map(({id, name, data}) => {
-                            return (
-                              <div key={id}>
-                               <span>{name}</span><Checkbox inline>显示</Checkbox>{' '}<Checkbox inline>直接展示</Checkbox>
-                              </div>
-                            )
-                          })
-                        }
+                        <Table striped bordered condensed hover>
+                          <thead>
+                            <tr>
+                              <th></th>
+                              <th>
+                                <Checkbox
+                                  inline
+                                  checked={Object.values(this.state.showState).map(({show}) => show).every(x => x)}
+                                  onChange={(e) => {
+                                    let showState = {...this.state.showState};
+                                    Object.keys(showState).forEach(v => showState[v].show = e.target.checked);
+                                    this.setState({showState});
+                                  }}
+                                >
+                                  全选
+                                </Checkbox>
+                              </th>
+                              <th>
+                                <Checkbox
+                                  inline
+                                  checked={Object.values(this.state.showState).map(({showDetail}) => showDetail).every(x => x)}
+                                  onChange={(e) => {
+                                    let showState = {...this.state.showState};
+                                    Object.keys(showState).forEach(v => showState[v].showDetail = e.target.checked);
+                                    this.setState({showState});
+                                  }}
+                                >
+                                  全选
+                                </Checkbox>
+                              </th>
+                            </tr>
+                            <tr>
+                              <th>图例名称</th>
+                              <th>是否显示</th>
+                              <th>细节显示</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {
+                              markerTypeList.map(({id, name, data}) => {
+                                return (
+                                  <tr key={id}>
+                                   <td>{name}</td>
+                                    <td>
+                                      <Checkbox
+                                        inline
+                                        checked={this.state.showState[id].show}
+                                        onChange={() => {
+                                          let showState = {...this.state.showState};
+                                          showState[id].show = !showState[id].show;
+                                          this.setState({showState});
+                                        }}
+                                      >
+                                        显示
+                                      </Checkbox>
+                                    </td>
+                                    <td>
+                                      <Checkbox
+                                        inline
+                                        checked={this.state.showState[id].showDetail}
+                                        onChange={() => {
+                                          let showState = {...this.state.showState};
+                                          showState[id].showDetail = !showState[id].showDetail;
+                                          this.setState({showState});
+                                        }}
+                                      >
+                                        直显坐标
+                                      </Checkbox>
+                                    </td>
+                                  </tr>
+                                )
+                              })
+                            }
+                          </tbody>
+                        </Table>
                       </div>
                     </Tab>
                     <Tab eventKey={3} title='搜索'>

@@ -5,11 +5,11 @@ import ReactDOM from 'react-dom';
 import L from 'leaflet';
 import './css/map.css';
 
-import mapsProps from '../assets/json/mapsProps.json';
+import mapsProps from '../assets/json/maps_props.json';
 import {gamePosToImgPos} from "../utils/pos_conv";
 
-import {Table, Well} from "react-bootstrap";
 import {dataToPosList} from '../utils/data_to_pos';
+import {dataToPopup} from "../utils/data_to_popup";
 import markerTypeList from '../assets/json/marker_types.json';
 
 const mapPosPath = require.context('../assets/json/positions', true);
@@ -26,13 +26,26 @@ class WuxiaLeafletMap extends Component {
       lng: 0,
       zoom: 4,
     };
+
+    this.updatePosMarker = this.updatePosMarker.bind(this);
   }
 
   componentWillReceiveProps(newProps) {
+    let  self = this;
+    // 地图切换
     if(this.props.currentMapId !== newProps.currentMapId) {
-      this.changeMap(newProps.currentMapId);
+      let mapId = newProps.currentMapId;
+      // 改变地图
+      this.changeMap(mapId);
     }
+    // 标志显示切换
+    if(this.props.showState !== newProps.showState) {
+      // this.createCanvasTiles();
+      this.markerCanvasLayer.redraw();
+    }
+
   }
+
 
   componentDidMount() {
     // 初始化地图
@@ -42,7 +55,8 @@ class WuxiaLeafletMap extends Component {
       crs: L.CRS.Simple,
       zoomControl: false,
       attributionControl: false,
-      detectRetina: true
+      detectRetina: true,
+      // fadeAnimation: false
     });
     // 初始化地图属性
     let _mapBounds = new L.LatLngBounds([0,0], [0, 0]);
@@ -90,12 +104,17 @@ class WuxiaLeafletMap extends Component {
     let _mapBounds = new L.LatLngBounds(
       this.lfMap.unproject([0, mapProps.imgSize[1]], mapProps.maxZoom),
       this.lfMap.unproject([mapProps.imgSize[0], 0], mapProps.maxZoom));
-    this.lfMap.setMaxBounds(_mapBounds);
+    // this.lfMap.setMaxBounds(_mapBounds);
+    this.lfMap.setMaxBounds(null);  // todo marker越界
     // 地图缩放
     this.lfMap.setMinZoom(2);
     this.lfMap.setMaxZoom(mapProps.maxZoom + 3);
     // 地图中心视角
-    let _mapCenter = this.lfMap.unproject([mapProps.initView[0], mapProps.initView[1]], mapProps.maxZoom);
+    // let _mapCenter = this.lfMap.unproject(gamePosToImgPos(mapId, mapProps.initView), mapProps.maxZoom);
+    let _mapCenter = this.lfMap.unproject(gamePosToImgPos(mapId, [
+      (mapProps.correspond[0].gamePosX + mapProps.correspond[1].gamePosX) / 2,
+      (mapProps.correspond[0].gamePosY + mapProps.correspond[1].gamePosY) / 2
+    ]), mapProps.maxZoom); // todo 更好的初始展现
     this.lfMap.setView(_mapCenter, 3); // todo zoom
     // 地图图层
     this.tileLayer = L.tileLayer(
@@ -110,42 +129,52 @@ class WuxiaLeafletMap extends Component {
         crs: L.CRS.Simple,
         detectRetina:false
       }).addTo(this.lfMap);
-    // // 更新dom marker
-    // if(mapPosNameList[mapId]) {
-    //   let markers = mapPosNameList[mapId].map(({x, y, name, des, level}) => {
-    //     let icon = L.divIcon({className: 'pos-name-marker', html: name});
-    //     return L.marker(this.lfMap.unproject(gamePosToImgPos(mapId, [x, y]), mapProps.maxZoom),{icon: icon});
-    //   });
-    //   this.posNameMarkerLayer = L.layerGroup(markers);
-    //   this.lfMap.addLayer(this.posNameMarkerLayer);
-    // }
 
-    function updatePosMarker() {
-      let zoomLevel = self.lfMap.getZoom();
-      // 更新dom marker
-      let markers = [];
-      if(mapPosNameList[mapId]) {
-        mapPosNameList[mapId].forEach(({x, y, name, des, level}) => {
-          let icon = L.divIcon({className: 'pos-name-marker', html: name});
-          let levels = level.split(';').map((x) => parseInt(x));
-          console.log(levels);
-          if(levels.includes(zoomLevel - 1)) {
-            markers.push(L.marker(self.lfMap.unproject(gamePosToImgPos(mapId, [x, y]), mapProps.maxZoom),{icon: icon}));
-          }
-        });
-        if(self.posNameMarkerLayer)
-          self.lfMap.removeLayer(self.posNameMarkerLayer);
-        self.posNameMarkerLayer = L.layerGroup(markers);
-        self.lfMap.addLayer(self.posNameMarkerLayer);
-      }
+    // 切换矢量坐标名称事件监听器
+    // 移除已经存在的事件监听器
+    if(this.posMarkerHandler)
+      this.lfMap.off('zoomend', this.posMarkerHandler);
+    this.posMarkerHandler = function () {
+      self.updatePosMarker(mapId)
+    };
+    this.lfMap.on('zoomend', this.posMarkerHandler);
+    // 初始调用
+    this.posMarkerHandler();
+
+    // canvas图层
+    this.createCanvasTiles(mapId);
+  }
+
+  updatePosMarker(mapId) {
+    let mapProps = mapsProps[mapId];
+    let zoomLevel = this.lfMap.getZoom();
+    // 更新dom marker
+    let markers = [];
+    if(mapPosNameList[mapId]) {
+      mapPosNameList[mapId].forEach(({x, y, name, des, level}) => {
+        let icon = L.divIcon({className: 'pos-name-marker', html: name, iconAnchor: [25, 25]});
+        if(level < zoomLevel - 1) {
+          markers.push(L.marker(this.lfMap.unproject(gamePosToImgPos(mapId, [x, y]), mapProps.maxZoom),{icon: icon}));
+        }
+      });
+      if(this.posNameMarkerLayer)
+        this.lfMap.removeLayer(this.posNameMarkerLayer);
+      this.posNameMarkerLayer = L.layerGroup(markers);
+      this.lfMap.addLayer(this.posNameMarkerLayer);
     }
+  }
 
-    this.lfMap.on('zoomend', updatePosMarker);
+  createCanvasTiles(mapId) {
+    let self = this;
+    let mapProps = mapsProps[mapId];
 
+    // 保存引用，延迟删除用以防闪烁
+    let oldMarkerCanvasLayer = this.markerCanvasLayer;
+    if(this.markerCanvasLayer)
+      this.lfMap.removeLayer(this.markerCanvasLayer);
 
     // 更新坐标canvas图层
     this.markerCanvasLayer = new L.GridLayer({tileSize: 256});
-    this.markerCanvasLayer.on('load', updatePosMarker);
 
     this.markerCanvasLayer.createTile = function(coords, done) {
       let tile = L.DomUtil.create('canvas', 'leaflet-tile');
@@ -193,10 +222,12 @@ class WuxiaLeafletMap extends Component {
       let drawPromises = [];
       let markerIndex = 0;
 
-      // todo 各种坐标
-      // todo 获取坐标方法
       markerTypeList.forEach(({id, name, data}) => {
-        // 根据显示情况获取 todo
+        let markerType = id;
+        // 根据是否显示择情获取
+        if(!self.props.showState[id].show)
+          return;
+        // 获取数据
         let posData = mapPosPath('./' + data, true);
         // 获取所有需要的icon
         let iconPromiseList = [];
@@ -218,18 +249,19 @@ class WuxiaLeafletMap extends Component {
         // icon全部加载完毕后执行
         drawPromises.push(Promise.all(iconPromiseList).then(() => {
           // 显示所有marker
-          dataToPosList(id, posData, mapId).forEach((pos) => {
-            let xy = gamePosToImgPos(mapId, [pos.x, pos.y]);
+          dataToPosList(id, posData, mapId).forEach((posData) => {
+            let xy = gamePosToImgPos(mapId, [posData.x, posData.y]);
+
             // 判断是否在本tile中，四个方向扩大20px（右侧显示标记，左侧检测扩大75px）
             if(xy.x >= nwPoint.x - 75 && xy.x <= sePoint.x + 20 && xy.y >= nwPoint.y - 20 && xy.y <= sePoint.y + 20) {
               let relX = (xy.x - nwPoint.x) / factor;
               let relY = (xy.y - nwPoint.y) / factor;
 
               // 地图放大级别高时，绘制详细信息 //todo zoom, logoSize
-              if(coords.z >= 4) {
+              if(coords.z >= 4 && self.props.showState[id].showDetail) {
                 // 双行数据
-                let text1 = `${pos.des}`;
-                let text2 = `${Math.floor(pos.x)},${Math.floor(pos.y)}`;
+                let text1 = `${posData.name}`;
+                let text2 = `${Math.floor(posData.x)},${Math.floor(posData.y)}`;
                 let textWidth = Math.max(ctx.measureText(text1).width, ctx.measureText(text2).width);
                 textWidth = 70; // todo 检测宽度有bug
                 ctx.fillStyle = 'rgba(0,0,0,0.6)';
@@ -247,16 +279,19 @@ class WuxiaLeafletMap extends Component {
 
               // 绘制logo
               let ratio = self.getPixelRatio(ctx);
-              let iconData =  iconList[pos.icon];
+              let iconData =  iconList[posData.icon];
               ctx.drawImage(iconData.img, (relX - iconData.anchorX) * ratio, (relY - iconData.anchorY) * ratio, iconData.x * ratio, iconData.y * ratio);
 
               hitCtx.fillStyle = `#${('000000' + Number(markerIndex).toString(16)).slice(-6)}`;
               hitCtx.fillRect(relX - iconData.anchorX, relY - iconData.anchorY, iconData.x, iconData.y);
 
+
+              // todo 数据在data里
               tileData.push({
+                markerType,
                 relX, relY,
                 imgX: xy.x, imgY: xy.y,
-                data: pos
+                posData: posData
               });
               markerIndex++;
             }
@@ -274,18 +309,12 @@ class WuxiaLeafletMap extends Component {
         let pixel = hitCtx.getImageData(x, y, 1, 1).data;
         let index = (pixel[0] * 256 + pixel[1]) * 256 + pixel[2];
         if(index !== 256 * 256 * 256 - 1) {
-          // 点击添加一个临时marker
+          // 点击添加一个临时无大小marker
           let myIcon = L.divIcon({className: 'marker-div-icon', html: ''});
-          // // todo 5
+          // todo zoom
           let marker = L.marker(self.lfMap.unproject([tileData[index].imgX, tileData[index].imgY], mapProps.maxZoom), {icon: myIcon}).addTo(self.lfMap);
-          let popupDOM = <div>
-            <Well styleName='popup-well'>
-              {tileData[index].data.des}
-              <Table>
-                <tr><td>23</td><td>23</td><td>23</td><td>23</td></tr>
-              </Table>
-            </Well>
-            </div>;
+          // popup内容
+          let popupDOM = dataToPopup(tileData[index]);
           let popupDOMWrapper = document.createElement('div');
           ReactDOM.render(popupDOM, popupDOMWrapper);
           marker.bindPopup(popupDOMWrapper, {
@@ -317,10 +346,16 @@ class WuxiaLeafletMap extends Component {
       });
       return tile;
     };
+    // 添加新图层
     this.lfMap.addLayer(this.markerCanvasLayer);
+
+    // 最后移除存在的图层，防闪烁
+    setTimeout(() => {
+      if(oldMarkerCanvasLayer)
+        self.lfMap.removeLayer(oldMarkerCanvasLayer);
+    }, 100);
+
   }
-
-
 
   render() {
     return(

@@ -27,12 +27,14 @@ let mapIdMap = {
 fs.readFile('./input.xml', function(err, data) {
   parser.parseString(data, function (err, result) {
     result['NewObj']['MapUiAreaNameTable'][0]['m_vecAreaNames'][0]['m_vecAreaNames'].forEach(({ $ }) => {
+      let topLevel = Math.min(...$['szType'].split(';'));
+
       let o = {
         x: parseInt($['nPosX']) * 2,
         y: parseInt($['nPosY']) * 2,
         name: $['szName'],
         des: $['szDesc'],
-        level: $['szType']
+        level: topLevel
       };
       let mapId = $['nMapID'];
       if(!r.hasOwnProperty(mapIdMap[mapId]))

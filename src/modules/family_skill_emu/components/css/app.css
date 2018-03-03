@@ -1,18 +1,22 @@
 .container {
-     margin: 10px 0;
-     /*background: url('../../assets/imgs/ui/background.jpg') no-repeat #ececec;*/
-     /*background-attachment: fixed;*/
-     /*background-position: center bottom;*/
-     /*background-size: cover;*/
+     margin: 80px 0;
  }
 
-:global .line {
-    fill: none;
-    stroke: steelblue;
-    stroke-width: 2px;
+.skill-tabs :global .tab-content {
+    padding: 20px 0;
 }
-:global .zoom {
-    cursor: move;
-    fill: none;
-    pointer-events: all;
+
+.skill-btn {
+    margin: 10px 0;
+}
+
+.props-table tr td:first-child {
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.slider :global .rc-slider-track {
+    background: #6464cc;
 }

@@ -40,7 +40,8 @@ module.exports = {
     publicPath: '/'
   },
   devServer: {
-    historyApiFallback: true
+    historyApiFallback: true,
+    disableHostCheck: true
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -63,14 +64,15 @@ module.exports = {
     new UglifyJsPlugin(),
     new PrerenderSpaPlugin(
       path.join(__dirname, '/dist'),
-      [ '/', '/xinfa', '/map', '/calendar' ],
+      [ '/', '/xinfa', '/map', '/calendar', '/family-tech' ],
       {
         postProcessHtml: function (context) {
           let titles = {
             '/': '段段天刀综合助手 | 天涯明月刀：心法模拟器、地图助手、时辰吉凶、帮派技能模拟器、数据百科',
             '/xinfa': '天刀心法模拟器，精确计算功力、突破、潜修、砭石 | 段段天刀综合助手',
             '/map': '天刀地图助手 | 段段天刀综合助手',
-            '/calendar': '天刀吉凶时辰模拟预测 | 段段天刀综合助手'
+            '/calendar': '天刀吉凶时辰模拟预测 | 段段天刀综合助手',
+            '/family-tech': '天刀帮派技能模拟器 | 段段天刀综合助手'
           };
           let html =  context.html.replace(
             /<title>[^<]*<\/title>/i,
