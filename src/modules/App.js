@@ -48,6 +48,11 @@ const GongliRank = Loadable({
   loading: () => <Loading />
 });
 
+const Panorama = Loadable({
+  loader: () => import('./panorama/index'),
+  loading: () => <Loading />
+});
+
 const Index = () => (
   <BrowserRouter>
     <div>
@@ -65,7 +70,10 @@ const Index = () => (
             <LinkContainer to='/map'><NavItem eventKey={3}><Glyphicon glyph='remove' /> 地图助手</NavItem></LinkContainer>
             <LinkContainer to='/calendar'><NavItem eventKey={4}><Glyphicon glyph='ok' /> 天涯吉凶时刻</NavItem></LinkContainer>
             <LinkContainer to='/family-tech'><NavItem eventKey={5}><Glyphicon glyph='ok' /> 帮派技能模拟器</NavItem></LinkContainer>
-
+            <NavDropdown eventKey={6} title='其他功能' id='others-nav-dropdown'>
+              <LinkContainer to='/rank'><NavItem eventKey={6.1}><Glyphicon glyph='remove' /> 功力排行榜</NavItem></LinkContainer>
+              <LinkContainer to='/panorama'><NavItem eventKey={6.2}><Glyphicon glyph='ok' /> 天刀全景图</NavItem></LinkContainer>
+            </NavDropdown>
           </Nav>
           <Nav pullRight>
             <NavItem eventKey={1} href='mailto:a@neu.la'>联系我</NavItem>
@@ -80,6 +88,7 @@ const Index = () => (
           <Route path='/map' component={WuxiaMap}/>
           <Route path='/calendar' component={Calendar}/>
           <Route path='/rank' component={GongliRank} />
+          <Route path='/panorama' component={Panorama} />
         </Switch>
       </div>
       <div style={{textAlign: 'center', marginTop: '50px'}}>

@@ -51,17 +51,17 @@ class XinfaEmuApp extends Component {
             </Row>
           </Grid>
         </div>
-        <div styleName='other-container'>
-          <Grid>
-            <Row>
-              <Col xs={12} md={10} mdOffset={1}>
-                <Panel>
-                  <ChangyanComment sourceId='xinfa-emu' />
-                </Panel>
-              </Col>
-            </Row>
-          </Grid>
-        </div>
+        {/*<div styleName='other-container'>*/}
+          {/*<Grid>*/}
+            {/*<Row>*/}
+              {/*<Col xs={12} md={10} mdOffset={1}>*/}
+                {/*<Panel>*/}
+                  {/*<ChangyanComment sourceId='xinfa-emu' />*/}
+                {/*</Panel>*/}
+              {/*</Col>*/}
+            {/*</Row>*/}
+          {/*</Grid>*/}
+        {/*</div>*/}
       </div>
     );
   }
