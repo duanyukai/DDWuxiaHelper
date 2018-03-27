@@ -64,7 +64,7 @@ module.exports = {
     new UglifyJsPlugin(),
     new PrerenderSpaPlugin(
       path.join(__dirname, '/dist'),
-      [ '/', '/xinfa', '/map', '/calendar', '/family-tech' ],
+      [ '/', '/xinfa', '/map', '/calendar', '/family-tech', '/rank', '/panorama'],
       {
         postProcessHtml: function (context) {
           let titles = {
