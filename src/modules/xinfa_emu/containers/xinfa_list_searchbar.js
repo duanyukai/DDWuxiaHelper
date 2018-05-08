@@ -27,7 +27,7 @@ class SearchBar extends Component {
     return (
       <div>
         <FormGroup controlId="formBasicText">
-          <ControlLabel>快速搜索</ControlLabel>
+          {/*<ControlLabel>快速搜索</ControlLabel>*/}
           <FormControl
             styleName='search-input'
             type="text"

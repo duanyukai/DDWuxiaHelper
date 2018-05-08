@@ -4,6 +4,7 @@ import {Button, ButtonGroup, Col, Grid, PageHeader, Panel, Row, Table} from "rea
 import Viewer from './viewer';
 
 import './css/app.css';
+import {Helmet} from "react-helmet";
 
 let panoramaBaseUrl = 'https://wuxia-tools-assets-1251080372.cos.ap-shanghai.myqcloud.com/panorama/regular/';
 
@@ -29,6 +30,12 @@ class PanoramaViewer extends Component {
   render() {
     return(
       <div styleName='container'>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>天刀全景图分享，全景美图视觉体验 | 段段天刀综合助手</title>
+          <meta name="keywords" content="天刀全景图,天刀全景截图,天刀全景图制作" />
+          <meta name="description" content="天刀全景图分享及制作方法分享，带给你全景美图视觉体验。" />
+        </Helmet>
         <Grid>
           <Row>
             <Col lg={12}>

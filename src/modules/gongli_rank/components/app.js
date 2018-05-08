@@ -5,6 +5,7 @@ import DatePicker from 'react-datepicker';
 import moment from 'moment';
 
 import 'react-datepicker/dist/react-datepicker.css';
+import {Helmet} from "react-helmet";
 
 let areaList = {
   "青龙乱舞": {
@@ -212,6 +213,12 @@ class GongliRankApp extends Component {
   render() {
     return(
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>天刀功力排行榜，每日最新排名、历史排名查询 | 段段天刀综合助手</title>
+          <meta name="keywords" content="天刀功力排行榜,天刀历史功力排名" />
+          <meta name="description" content="天刀功力排行榜给您提供每日的所有天刀服务器的最新功力排名数据，同时支持选择日期查询历史功力排名。" />
+        </Helmet>
         <Grid>
           <Row>
             <Col md={10} mdOffset={1}>

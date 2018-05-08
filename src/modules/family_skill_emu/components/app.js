@@ -9,6 +9,7 @@ import 'rc-slider/assets/index.css';
 import appCss from './css/app.css';
 
 import techData from '../assets/json/family_tech.json';
+import {Helmet} from "react-helmet";
 
 class FamilySkillEmuApp extends Component {
   constructor(props) {
@@ -125,6 +126,12 @@ class FamilySkillEmuApp extends Component {
       }).join(', ');
       return (
         <div styleName="appCss.container">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>天刀帮派技能模拟器，碎银帮贡修为消耗模拟 | 段段天刀综合助手</title>
+            <meta name="keywords" content="天刀帮派技能消耗,天刀帮派技能模拟" />
+            <meta name="description" content="天刀帮派技能模拟器是一个富交互的帮派技能属性、消耗模拟器。针对不同技能以可视化形式展现属性提升及资源消耗。" />
+          </Helmet>
           <Grid>
             <Row>
               <Col md={12} lg={10} lgOffset={1}>

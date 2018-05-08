@@ -6,6 +6,7 @@ import PropsTable from '../components/props_table';
 import WuxiaPanel from '../../tiandao_ui/panel';
 import './css/xinfa_props.css';
 import {calcXinfaProps, calcGongli, calcZhanli, calcSchoolProps, calcAdditionProps} from '../utils/calcProps';
+import {numberWithCommas} from "../utils/displayUtils";
 
 const gemPngPicPath = require.context('../assets/imgs/gem_icon_png', true);
 
@@ -22,7 +23,8 @@ class XinfaProps extends Component {
         ld: 0, gg: 0, qj: 0, dc: 0, sf: 0,
         wg: 0, ng: 0, wf: 0, nf: 0,
         mz: 0, gd: 0, hx: 0, rj: 0, hs: 0, qx: 0,
-        gongliOffset: 0
+        gongliOffset: 0,
+        zhanliOffset: 0
       },
       xinfaSchoolProps: {
         xiuwei: 0,
@@ -31,7 +33,8 @@ class XinfaProps extends Component {
         ld: 0, gg: 0, qj: 0, dc: 0, sf: 0,
         wg: 0, ng: 0, wf: 0, nf: 0,
         mz: 0, gd: 0, hx: 0, rj: 0, hs: 0, qx: 0,
-        gongliOffset: 0
+        gongliOffset: 0,
+        zhanliOffset: 0
       },
 
       showGemModal: false
@@ -98,9 +101,9 @@ class XinfaProps extends Component {
 
   render() {
     return(
-      <WuxiaPanel title='心法概况'>
+      <WuxiaPanel title='单本心法概况'>
         <div>
-          本心法属性（门派等配置在上方面板）：
+          当前单本心法属性：
           <Tabs defaultActiveKey={1} id='xinfa-props-tabs' styleName='xinfa-props-tabs'>
             <Tab eventKey={1} title='裸属性'>
               <PropsTable xinfaProps={this.state.xinfaProps} />
@@ -116,7 +119,7 @@ class XinfaProps extends Component {
 
         <div>
           本心法所耗修为：
-          <span style={{fontSize: '16px'}}>{ this.state.xinfaProps.xiuwei }</span>
+          <span style={{fontSize: '16px'}}>{ numberWithCommas(this.state.xinfaProps.xiuwei) }</span>
         </div>
         <div>
           <Button

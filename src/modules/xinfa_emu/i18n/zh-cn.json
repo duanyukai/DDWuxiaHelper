@@ -1,0 +1,42 @@
+{
+  "translation": {
+    "props": {
+      "gongli": "功力",
+      "gongli-xian": "显功力",
+      "gongli-luo": "裸功力",
+      "zhanli-xian": "显战力",
+      "zhanli-luo": "裸战力",
+      "lidao": "力道",
+      "gengu": "根骨",
+      "qijin": "气劲",
+      "dongcha": "洞察",
+      "shenfa": "身法",
+      "waigong": "外攻",
+      "waifang": "外防",
+      "neigong": "内攻",
+      "neifang": "内防",
+      "mingzhong": "命中",
+      "gedang": "格挡",
+      "huixin": "会心",
+      "renjin": "韧劲",
+      "huishang": "会伤",
+      "qixue": "气血"
+    },
+    "numbers": {
+      "one": "壹",
+      "two": "贰",
+      "three": "叁",
+      "four": "肆",
+      "five": "伍"
+    },
+    "xinfaNames": {
+
+    },
+    "skillNames": {
+
+    },
+    "ui": {
+
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "translation": {
+    "props": {
+      "gongli": "功力",
+      "gongli-xian": "추가공",
+      "gongli-luo": "기본공",
+      "zhanli-xian": "전투력",
+      "zhanli-luo": "전투력",
+      "lidao": "힘",
+      "gengu": "생명",
+      "qijin": "기력",
+      "dongcha": "통찰",
+      "shenfa": "집중",
+      "waigong": "외공",
+      "waifang": "외방",
+      "neigong": "내공",
+      "neifang": "내방",
+      "mingzhong": "명중",
+      "gedang": "호신",
+      "huixin": "치명타",
+      "renjin": "치명회",
+      "huishang": "치명피",
+      "qixue": "피통"
+    }
+  }
+}

@@ -15,6 +15,7 @@ import moment from 'moment';
 import RadioGroup from "./RadioGroup";
 
 import ChangyanComment from '../../changyan/changyan_comment';
+import {Helmet} from "react-helmet";
 
 class CalendarApp extends Component {
   constructor(props) {
@@ -60,6 +61,12 @@ class CalendarApp extends Component {
   render() {
     return (
       <div styleName='container'>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>天刀吉凶时辰模拟预测，天涯时刻 | 段段天刀综合助手</title>
+          <meta name="keywords" content="天涯时刻,天刀时间,天刀现实时间对照表" />
+          <meta name="description" content="本工具包含现实时间、天涯时刻对照的模拟时钟，及未来时间吉凶预测时间轴.时间精确到秒，方便文士乐伶绘画、建房求风水等需求。" />
+        </Helmet>
         <Grid>
           <Row>
             <Col md={12} lg={10} lgOffset={1}>
@@ -598,15 +605,15 @@ class CalendarApp extends Component {
             </Col>
           </Row>
         </Grid>
-        <Grid>
-          <Row>
-            <Col xs={12} md={10} mdOffset={1}>
-              <Panel>
-                <ChangyanComment sourceId='calendar' />
-              </Panel>
-            </Col>
-          </Row>
-        </Grid>
+        {/*<Grid>*/}
+          {/*<Row>*/}
+            {/*<Col xs={12} md={10} mdOffset={1}>*/}
+              {/*<Panel>*/}
+                {/*<ChangyanComment sourceId='calendar' />*/}
+              {/*</Panel>*/}
+            {/*</Col>*/}
+          {/*</Row>*/}
+        {/*</Grid>*/}
       </div>
     );
   }

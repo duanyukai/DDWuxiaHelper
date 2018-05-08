@@ -3,19 +3,22 @@ import {connect} from "react-redux";
 import { Scrollbars } from 'react-custom-scrollbars';
 
 import WuxiaPanel from '../../tiandao_ui/panel';
-import {fetchXinfaList, placeXinfaSlot, selectXinfa} from "../actions";
+import {changeXinfaConfig, fetchXinfaList, placeXinfaSlot, selectXinfa} from "../actions";
 import SearchBar from './xinfa_list_searchbar';
 
 const xinfaPicPath = require.context('../assets/imgs/xinfa_icon', true);
+import xinfaBgBlank from '../assets/imgs/ui/xinfa_bg_blank.png';
 
 import './css/xinfa_list.css';
-import {Dropdown, DropdownButton, MenuItem} from "react-bootstrap";
+import {Button, ButtonGroup, Dropdown, DropdownButton, Glyphicon, MenuItem} from "react-bootstrap";
+import range from "lodash/range";
 
 class XinfaList extends Component {
   constructor(props) {
     super(props);
 
     this.placeXinfaSlot = this.placeXinfaSlot.bind(this);
+    // this.switchConfig = this.switchConfig.bind(this);
   }
 
   componentDidMount() {
@@ -45,8 +48,8 @@ class XinfaList extends Component {
             <span styleName='xinfa-name'>{xinfa.name}</span>
             <span styleName='xinfa-level'>
               顺序[{
-              this.props.brkthruData[xinfa.name] ?
-                this.props.brkthruData[xinfa.name].fulfilledLevel + 1 : 0
+              this.props.curBrkthruData[xinfa.name] ?
+                this.props.curBrkthruData[xinfa.name].fulfilledLevel + 1 : 0
               }]重
             </span>
             <span styleName='xinfa-placement'>
@@ -56,7 +59,9 @@ class XinfaList extends Component {
                   {
                     ['心法槽·壹 100%', '心法槽·贰 60%', '心法槽·叁 30%', '心法槽·肆 10%'].map((name, i) => (
                       <MenuItem eventKey={name} key={name}
-                        onSelect={(e) => this.placeXinfaSlot(i, xinfa.name)}
+                        onSelect={(e) => {
+                          this.placeXinfaSlot(i, xinfa.name);
+                        }}
                       >
                         {name}
                       </MenuItem>
@@ -76,6 +81,19 @@ class XinfaList extends Component {
   render() {
     return (
       <WuxiaPanel title="心法列表">
+        {/*<div style={{textAlign: 'center'}}>*/}
+          {/*<span style={{fontWeight: 'bold'}}>切换配置</span>{' '}*/}
+          {/*<ButtonGroup styleName='switch-button-group'>*/}
+            {/*{this.renderConfig()}*/}
+          {/*</ButtonGroup>*/}
+        {/*</div>*/}
+        {/*<div style={{textAlign: 'center'}}>*/}
+          {/*<span style={{fontWeight: 'bold'}}>心法槽</span>*/}
+          {/*<div styleName='xinfa-slots-wrapper'>*/}
+            {/*{this.renderSlots()}*/}
+          {/*</div>*/}
+        {/*</div>*/}
+
         <div>
           <SearchBar />
         </div>
@@ -96,12 +114,15 @@ class XinfaList extends Component {
 function mapStateToProps(state) {
   return {
     xinfaList: state.xinfaList,
-    brkthruData: state.brkthruData.chongxue[state.brkthruData.current]
+    brkthruData: state.brkthruData,
+    curBrkthruData: state.brkthruData.chongxue[state.brkthruData.current],
+    slotsData: state.brkthruData.slots[state.brkthruData.current]
   };
 }
 
 export default connect(mapStateToProps, {
   fetchXinfaList,
   selectXinfa,
-  placeXinfaSlot
+  placeXinfaSlot,
+  changeXinfaConfig
 })(XinfaList);

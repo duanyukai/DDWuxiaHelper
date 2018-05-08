@@ -467,7 +467,7 @@ class XinfaShuji extends Component {
   renderQianxiu() {
     let maxLevel = 25;
     if(this.props.xinfaData.name.startsWith('炼武'))  // todo 更优雅的方式
-      maxLevel = 5;
+      maxLevel = 10;
     return [
       {name: '力道', id: 'ld'},
       {name: '气劲', id: 'qj'},

@@ -26,9 +26,10 @@ class PortalApp extends Component {
               <Col md={10} mdOffset={1} style={{border: 'black 1px #000'}}>
                 <h1>段段天刀综合助手</h1>
                 <p>本助手工具计划包括天刀导航、天刀墨宝、盟会、东海交互地图、心法模拟器、天涯时刻预测、数据百科等，功能尚在完善中。</p>
-                <p>请记住我们：<a href="http://wuxia.tools">http://wuxia.tools</a>，前缀“wuxia”，后缀“.tools”工具之意，十分易记。</p>
+                <p>请记住本站的新网址：<a style={{color: '#aaf'}} href="http://wuxiatools.com">http://wuxia.tools</a>，即取“天刀工具集”之意，十分易记。</p>
+                <p>本站的旧网址会暂时保留：<a style={{color: '#aaf'}} href="http://wuxia.tools">http://wuxia.tools</a>，前缀“wuxia”，后缀“.tools”工具之意。</p>
                 <p>交流群：660695387，欢迎小伙伴来提建议~</p>
-                <p>资金有限，目前服务器在美国速度可能稍慢，还请大家见谅！</p>
+                <p>资金有限，目前服务器水管较小，访问可能较慢，还请大家见谅！</p>
               </Col>
             </Row>
           </Grid>
@@ -50,7 +51,6 @@ class PortalApp extends Component {
                         <p>
                           本工具是一个高仿游戏内UI的心法模拟器。<br />
                           数据最新；样式直观；操作简便。<br />
-                          （尚在完善测试中）
                         </p>
                       </Link>
                     </div>
@@ -61,10 +61,10 @@ class PortalApp extends Component {
                     <Link to='/map'><img src={mapPic} /></Link>
                     <div styleName='nav-panel-div'>
                       <Link to='/map'>
-                        <h3>交互式地图助手<br />（制作中）</h3>
+                        <h3>交互式地图助手<br />（完善中）</h3>
                         <hr />
                         <p>
-                          本工具是一个可交互的天刀地图，包括文士乐伶墨宝创作点、航海图鉴等内容。<br />（尚在制作中）
+                          本工具是一个可交互的天刀地图，包括文士乐伶墨宝创作点、航海图鉴等内容。<br />
                         </p>
                       </Link>
                     </div>

@@ -7,18 +7,18 @@ export default (props) => {
   return (
     <div styleName='panel'>
       { props.title &&
-        <div styleName='panel-title'>
-          {props.title}
-        </div>
+      <div styleName='panel-title'>
+        {props.title}
+      </div>
       }
 
       { props.closeBtn &&
-        <div
-          styleName='close-btn'
-          onClick={props.onClose}
-        >
-          <Glyphicon glyph='remove' />
-        </div>
+      <div
+        styleName='close-btn'
+        onClick={props.onClose}
+      >
+        <Glyphicon glyph='remove' />
+      </div>
       }
 
       <div styleName='panel-body'>

@@ -10,6 +10,7 @@ import {
 } from 'react-bootstrap';
 
 import markerTypeList from '../assets/json/marker_types.json';
+import {Helmet} from "react-helmet";
 
 class WuxiaMap extends Component {
   constructor(props) {
@@ -53,6 +54,12 @@ class WuxiaMap extends Component {
   render() {
     return(
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>天刀地图助手，轻松查阅墨宝坐标、航海图鉴等 | 段段天刀综合助手</title>
+          <meta name="keywords" content="天刀地图,天刀墨宝坐标,天刀航海图鉴" />
+          <meta name="description" content="天刀地图助手是一个可交互的天刀地图，包括文士乐伶墨宝创作点、航海图鉴等内容。您可以有与游戏中相同的体验来快速精确查找坐标，并且有大量相关数据分享。" />
+        </Helmet>
         <WuxiaLeafletMap
           currentMapId={this.state.currentMapId}
           showState={this.state.showState}

@@ -1,27 +1,14 @@
 import React, { Component } from 'react';
-import {connect} from 'react-redux';
-import range from 'lodash/range';
-import {
-  Button, ButtonGroup, Dropdown, Glyphicon, MenuItem, Modal, Row, Tab, Tabs
-} from 'react-bootstrap';
+import WuxiaPanel from '../../tiandao_ui/panel';
+import {Button, Dropdown, MenuItem, Modal, Tab, Tabs} from "react-bootstrap";
+import {changeXinfaConfig, copyConfig, placeXinfaSlot, removeAllLocalData, selectXinfa} from "../actions";
+import {connect} from "react-redux";
+import i18next from 'i18next';
+import {calcAdditionProps, calcConfigProps, xinfaPropsMultiply, xinfaPropsPlus} from "../utils/calcProps";
+import AdditionConfig from './addition_config';
+import PropsTable from '../components/props_table';
 
 import './css/xinfa_config.css';
-
-import { selectXinfa, changeXinfaConfig, placeXinfaSlot, copyConfig, removeAllLocalData } from '../actions';
-
-import WuxiaPanel from '../../tiandao_ui/panel';
-import PropsTable from '../components/props_table';
-import AdditionConfig from './addition_config';
-
-
-import xinfaBgBlank from '../assets/imgs/ui/xinfa_bg_blank.png';
-const xinfaPicPath = require.context('../assets/imgs/xinfa_icon', true);
-
-import {
-  calcAdditionProps,
-  calcConfigProps, calcGongli, calcXinfaProps, calcZhanli, xinfaPropsMultiply,
-  xinfaPropsPlus
-} from '../utils/calcProps';
 
 const ConfigSelector = (props) => {
   let digits = ['壹', '贰', '叁', '肆', '伍'];
@@ -35,7 +22,7 @@ const ConfigSelector = (props) => {
               <MenuItem
                 eventKey={i}
                 key={i}
-                onSelect={(e) => props.setIndex(i)}
+                onSelect={() => props.setIndex(i)}
               >{name}</MenuItem>
             ))
           }
@@ -45,7 +32,7 @@ const ConfigSelector = (props) => {
   );
 };
 
-class XinfaConfig extends Component {
+class XinfaConfigPanel extends Component {
   constructor(props) {
     super(props);
 
@@ -67,9 +54,6 @@ class XinfaConfig extends Component {
       configCopyTo: 0
     };
 
-    this.handleCurConfigShow = this.handleCurConfigShow.bind(this);
-    this.handleCurConfigClose = this.handleCurConfigClose.bind(this);
-    this.calcCurConfigProps = this.calcCurConfigProps.bind(this);
     this.handleConfigCopy = this.handleConfigCopy.bind(this);
 
     this.handleConfigDiff = this.handleConfigDiff.bind(this);
@@ -81,93 +65,6 @@ class XinfaConfig extends Component {
 
     this.handleRemoveAll = this.handleRemoveAll.bind(this);
   }
-
-  switchConfig(id) {
-    this.props.selectXinfa(null); // 切换至空白心法
-    this.props.changeXinfaConfig(id);
-  }
-
-  renderConfig() {
-    return [
-      [0, '壹'],
-      [1, '贰'],
-      [2, '叁'],
-      [3, '肆'],
-      [4, '伍']
-    ].map((arr) => {
-
-      return (
-        <Button
-          key={arr[0]}
-          styleName='view-btn-regular'
-          onClick={this.switchConfig.bind(this, arr[0])}
-          style={{
-            background: arr[0] === this.props.brkthruData.current ? '#337ab7' : null
-          }}
-        >
-          {arr[1]}
-        </Button>
-      )
-    });
-  }
-
-  renderSlots() {
-    return range(4).map((index) => {
-      return(
-        <div key={index} styleName='xinfa-slots'>
-          <img
-            styleName='xinfa-slot-img'
-            src={
-              this.props.slotsData[index] ? xinfaPicPath('./' + this.props.slotsData[index] + '.png', true) : xinfaBgBlank
-            }
-            onClick={() => this.props.selectXinfa(this.props.slotsData[index])}
-          />
-          <span styleName='xinfa-slot-name'>{this.props.slotsData[index] || '空'}</span>
-          <span
-            styleName='xinfa-slot-close'
-            onClick={() => this.props.placeXinfaSlot(index, null)}
-          >
-            <Glyphicon glyph='remove' />
-          </span>
-        </div>
-      );
-    })
-  }
-
-  getConfigXinfaDataListPromise(configIndex) {
-    let slotsData = this.props.brkthruData.slots[configIndex];
-
-    let xinfaPromises = [];
-    // 获取基本数据
-    for(let i = 0; i < 4; i++) {
-      if(slotsData[i]) {
-        let xinfaName = slotsData[i];
-        let xinfaDataPromise = import(`../assets/json/xinfa/${xinfaName}.json`);
-        // xinfaPromises.push(xinfaDataPromise); //
-        xinfaPromises[i] = xinfaDataPromise;
-      } else {
-        xinfaPromises[i] = null;
-      }
-    }
-
-    return Promise.all(xinfaPromises);
-  }
-
-  calcCurConfigProps() {
-    let self = this;
-
-    this.getConfigXinfaDataListPromise(this.props.brkthruData.current)
-      .then((xinfaDataList) => {
-      // 计算属性
-      let xinfaProps = calcConfigProps(xinfaDataList, this.props.brkthruData);
-
-      self.setState({
-        xinfaConfigProps: xinfaProps,
-        curConfigFinish: true
-      });
-    });
-  }
-
   handleConfigCopy() {
     if(confirm('是否确认复制配置？这将复制该配置所有心法枢机、技能、潜修等数据。')) {
       // 复制配置
@@ -193,52 +90,6 @@ class XinfaConfig extends Component {
         configDiffFinish: true
       });
     });
-  }
-
-  handleCurConfigShow() {
-    this.setState({showCurConfigModal: true});
-    // 计算综合属性
-    this.calcCurConfigProps();
-
-  }
-
-  handleCurConfigClose() {
-    this.setState({
-      showCurConfigModal: false,
-      curConfigFinish: false
-    });
-  }
-
-  renderCurConfigModal() {
-    let xinfaProps = this.state.xinfaConfigProps;
-    return (
-      <div>
-        <Modal show={this.state.showCurConfigModal} onHide={this.handleCurConfigClose}
-               styleName='wuxia-modal-wrapper'>
-          <Modal.Body styleName='wuxia-modal'>
-            <WuxiaPanel title='心法配置属性' closeBtn onClose={this.handleCurConfigClose}>
-              <Tabs defaultActiveKey={1} id='xinfa-props-tabs' styleName='xinfa-props-tabs'>
-                <Tab eventKey={1} title='裸属性'>
-                  {
-                    this.state.curConfigFinish ?
-                      <PropsTable xinfaProps={xinfaProps}/> : '加载中'
-                  }
-                </Tab>
-                <Tab eventKey={2} title='门派加成属性'>
-                  {
-                    this.state.curConfigFinish ?
-                      <PropsTable
-                        gongliUsedProps={xinfaProps}
-                        xinfaProps={calcAdditionProps(xinfaProps, this.props.brkthruData)}
-                      /> : '加载中'
-                  }
-                </Tab>
-              </Tabs>
-            </WuxiaPanel>
-          </Modal.Body>
-        </Modal>
-      </div>
-    );
   }
 
   handleConfigDiffShow() {
@@ -287,6 +138,37 @@ class XinfaConfig extends Component {
     );
   }
 
+  getConfigXinfaDataListPromise(configIndex) {
+    let slotsData = this.props.brkthruData.slots[configIndex];
+
+    let xinfaPromises = [];
+    // 获取基本数据
+    for(let i = 0; i < 4; i++) {
+      if(slotsData[i]) {
+        let xinfaName = slotsData[i];
+        xinfaPromises[i] = import(`../assets/json/xinfa/${xinfaName}.json`);
+      } else {
+        xinfaPromises[i] = null;
+      }
+    }
+    return Promise.all(xinfaPromises);
+  }
+
+  calcCurConfigProps() {
+    let self = this;
+
+    this.getConfigXinfaDataListPromise(this.props.brkthruData.current)
+      .then((xinfaDataList) => {
+        // 计算属性
+        let xinfaProps = calcConfigProps(xinfaDataList, this.props.brkthruData);
+
+        self.setState({
+          xinfaConfigProps: xinfaProps,
+          curConfigFinish: true
+        });
+      });
+  }
+
   handleSchoolConfigShow() {
     this.setState({showSchoolConfigModal: true});
   }
@@ -321,34 +203,45 @@ class XinfaConfig extends Component {
 
   render() {
     return(
-      <WuxiaPanel title='心法配置'>
-        切换配置：
-        <div style={{textAlign: 'center'}}>
-          <ButtonGroup styleName='switch-button-group'>
-            {this.renderConfig()}
-          </ButtonGroup>
-        </div>
-        <div style={{textAlign: 'center'}}>
-          <div>心法槽</div>
-          <div styleName='xinfa-slots-wrapper'>
-            {this.renderSlots()}
-          </div>
+      <div>
+      {/*<WuxiaPanel title='心法配置'>*/}
+        {/*语言选择*/}
+        <div style={{margin: '4px'}}>
+          <Dropdown id='config-selector' pullRight>
+            <Dropdown.Toggle bsStyle='danger' bsSize='small'>Change Language</Dropdown.Toggle>
+            <Dropdown.Menu>
+              {
+                [
+                  {name: 'Chinese(简体中文)', id: 'zh'},
+                  {name: 'Korean(한국어)', id: 'kr'},
+                  {name: 'English', id: 'en'},
+                ].map(({name, id}, i) => (
+                  <MenuItem
+                    eventKey={i}
+                    key={i}
+                    onSelect={() => i18next.changeLanguage(id)}
+                  >{name}</MenuItem>
+                ))
+              }
+            </Dropdown.Menu>
+          </Dropdown>
+          (under development)
         </div>
         <div styleName='school-config-btn'>
           <Button
-            bsStyle='primary' bsSize='small'
-            onClick={this.handleCurConfigShow}
-          >
-            当前心法槽属性
-          </Button>{' '}
-          <Button
-            bsStyle='primary' bsSize='small'
+            bsStyle='primary' block
             onClick={this.handleSchoolConfigShow}
           >
-            门派等加成设置
+            门派、加成设置
+          </Button>
+          <Button
+            bsStyle='primary' block
+            onClick={this.handleSchoolConfigShow}
+          >
+            裸基础面板设置(敬请期待)
           </Button>
         </div>
-        { this.state.showCurConfigModal && this.renderCurConfigModal() }
+
         { this.state.showConfigDiffModal && this.renderConfigDiffModal() }
         { this.state.showSchoolConfigModal && this.renderSchoolConfigModal() }
 
@@ -381,27 +274,20 @@ class XinfaConfig extends Component {
           <Button bsStyle='success' bsSize='small' onClick={this.handleConfigDiff}>比较</Button>
         </div>
         <div styleName='remove-data-div'>
-          {/*其他功能*/}
           <Button bsStyle='danger' bsSize='xsmall'
-            onClick={this.handleRemoveAll}
+                  onClick={this.handleRemoveAll}
           >
             清空本地所有数据
           </Button>
         </div>
-        <div styleName='site-info'>
-          <hr />
-          <p>作者：段段</p>
-          <p style={{fontSize: '14px'}}>目前尚为测试版，恳请您加群反馈</p>
-          <p style={{fontSize: '14px'}}>交流群：660695387<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=9b2aeed4e33ce89f62f35e6d009b9a6cbf8f6aac9090387cf841d3deb5bdcc58"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="天刀助手交流wuxia.tools " title="天刀助手交流wuxia.tools " /></a></p>
-        </div>
-      </WuxiaPanel>
+      {/*</WuxiaPanel>*/}
+      </div>
     );
   }
 }
 
 
 function mapStateToProps(state) {
-  // let curConfigData = state.brkthruData.chongxue[state.brkthruData.current];
   let slotsData = state.brkthruData.slots[state.brkthruData.current];
   return {
     brkthruData: state.brkthruData,
@@ -415,4 +301,4 @@ export default connect(mapStateToProps, {
   placeXinfaSlot,
   copyConfig,
   removeAllLocalData
-})(XinfaConfig);
+})(XinfaConfigPanel);

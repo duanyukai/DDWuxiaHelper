@@ -6,6 +6,9 @@ import {applyMiddleware, createStore, compose} from "redux";
 import ReduxPromise from "redux-promise";
 import persistState from 'redux-localstorage';
 
+import { I18nextProvider, translate } from 'react-i18next';
+import i18n from './i18n/index';
+
 class Root extends Component {
   constructor(props) {
     super(props);
@@ -25,7 +28,9 @@ class Root extends Component {
   render() {
     return (
       <Provider store={this.store}>
-        <App />
+        <I18nextProvider i18n={i18n}>
+          <App />
+        </I18nextProvider>
       </Provider>
     )
   }

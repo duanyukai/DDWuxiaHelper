@@ -27,7 +27,8 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
     hs: 0,
     qx: 0,
 
-    gongliOffset: 0
+    gongliOffset: 0,
+    zhanliOffset: 0
   };
 
   let fulfilledLevel, curLevelBrkthruData, qianxiuData, skillLevelsData, allXinfaBrkthruData;
@@ -37,7 +38,7 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
     allXinfaBrkthruData = brkthruData.chongxue[brkthruData.current];
   }
 
-  // console.log('配置',configIndex, allXinfaBrkthruData);
+  console.log('配置',configIndex, allXinfaBrkthruData, xinfaData.name);
 
   fulfilledLevel = allXinfaBrkthruData[xinfaData.name].fulfilledLevel;
   curLevelBrkthruData = allXinfaBrkthruData[xinfaData.name].curLevelCX;
@@ -62,8 +63,11 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
 
       // 计算功力修正（最高一重的数据）
       xinfaProps['gongliOffset'] += shujiLevels[shujiLevels.length - 1].gongliOffset;
+      xinfaProps['zhanliOffset'] += shujiLevels[shujiLevels.length - 1].zhanliOffset;
 
       // 计算属性
+      // console.log(shujiList[shujiId]);
+
       shujiTypes.forEach((type, i) => {
         switch(type) {
           case "5d":
@@ -111,7 +115,7 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
       if(shujiCurTopLevel > 0)
         curTopLevelProps = shujiLevels[shujiCurTopLevel - 1].props;
       else
-        curTopLevelProps = [0, 0]; // 当存储了0重数据时，单项数据都为0
+        curTopLevelProps = [0, 0, 0, 0, 0]; // 当存储了0重数据时，单项数据都为0 //todo 多维数据，可能3维以上
 
       // 计算修为
       for(let i = 0; i < shujiCurTopLevel; i++) {
@@ -120,8 +124,10 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
       }
 
       // 计算功力偏移
-      if(shujiCurTopLevel > 0)
+      if(shujiCurTopLevel > 0) {
         xinfaProps.gongliOffset += shujiList[shujiId].levels[shujiCurTopLevel - 1].gongliOffset;
+        xinfaProps.zhanliOffset += shujiList[shujiId].levels[shujiCurTopLevel - 1].zhanliOffset;
+      }
 
 
       // 计算属性
@@ -204,20 +210,23 @@ export function calcGongli(props) {
 }
 
 export function calcZhanli(props) {
-  // todo
-  // 五维系数0.3，1命中=5 1格挡=5 1会心=20 1韧劲=0.3 1外攻=1.4 1内功=1.8 内外防=0.3 20气血=1 会心伤害=20
+  // 旧版本
+  // 五维系数0.3 1命中=5 1格挡=5 1会心=20 1韧劲=0.3 1外攻=1.4 1内功=1.8 内外防=0.3 20气血=1 会心伤害=20
+  // 段段实测
+  // 新测试系数：五维系数0.3 1命中=3 1格挡=3 1会心=12 1韧劲=0.3 1外攻=0.85 1内功=1.05 内外防=0.18 1气血=0.03 会心伤害=12
+  // 1破伤=10
   let sum = 0;
-  sum += (props.ld + props.gg + props.qj + props.sf + props.dc) * 0.3;
-  sum += props.mz * 5;
-  sum += props.gd * 5;
-  sum += props.hx * 20;
+  sum += (props.ld + props.gg + props.qj + props.sf + props.dc) * 0.18;
+  sum += props.mz * 3;
+  sum += props.gd * 3;
+  sum += props.hx * 12;
   sum += props.rj * 0.3;
-  sum += props.wg * 1.4;
-  sum += props.ng * 1.8;
-  sum += props.wf * 0.3;
-  sum += props.nf * 0.3;
-  sum += props.qx / 20;
-  sum += props.hs * 20;
+  sum += props.wg * 0.85;
+  sum += props.ng * 1.05; // 有待继续测试
+  sum += props.wf * 0.18;
+  sum += props.nf * 0.18;
+  sum += props.qx * 0.03;
+  sum += props.hs * 12;
   return sum;
 }
 
@@ -237,7 +246,6 @@ export function calcConfigProps(xinfaDataList, brkthruData, configIndex) {
   // 获取基本数据
   for(let i = 0; i < 4; i++) {
     if(xinfaDataList[i]) {
-      console.log(i);
       let xinfaData = xinfaDataList[i];
       reinforceList[i] = xinfaData.reinforce;
       if(configIndex === 0 || configIndex) {
@@ -325,7 +333,8 @@ export function xinfaPropsMultiply(p, percentage) {
     hs: p.hs * percentage,
     qx: p.qx * percentage,
 
-    gongliOffset: p.gongliOffset * percentage
+    gongliOffset: p.gongliOffset * percentage,
+    zhanliOffset: p.zhanliOffset * percentage
   }
 }
 
@@ -351,7 +360,8 @@ export function xinfaPropsPlus(a, b) {
     rj: (a.rj || 0) + (b.rj || 0),
     hs: (a.hs || 0) + (b.hs || 0),
     qx: (a.qx || 0) + (b.qx || 0),
-    gongliOffset: (a.gongliOffset || 0) + (b.gongliOffset || 0)
+    gongliOffset: (a.gongliOffset || 0) + (b.gongliOffset || 0),
+    zhanliOffset: (a.zhanliOffset || 0) + (b.zhanliOffset || 0)
   }
 }
 

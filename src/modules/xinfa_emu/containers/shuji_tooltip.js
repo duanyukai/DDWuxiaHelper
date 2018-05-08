@@ -211,8 +211,12 @@ class ShujiTooltip extends Component {
           <td>{a + parseInt(b.xiuwei)}</td>
           {/*属性值*/}
           <td>{b.props[0]}</td>
-          {this.props.shuji.types.length === 2 ?
+          {this.props.shuji.types.length >= 2 ?
             <td>{b.props[1]}</td>
+            : null
+          }
+          {this.props.shuji.types.length >= 3 ?
+            <td>{b.props[2]}</td>
             : null
           }
           {/*单枢机点穴、取消*/}

@@ -1,75 +1,3 @@
-.switch-button-group {
-    text-align: center;
-}
-
-.view-btn-regular {
-    /*background: #175887;*/
-    background: #103f60;
-    border: 1px solid #2d6a93;
-    color: #fff;
-}
-
-.view-btn-light {
-    background: #175887;
-    /*background: #103f60;*/
-    border: 1px solid #2d6a93;
-    color: #fff;
-}
-
-.switch-button-group button:hover,
-.switch-button-group button:focus,
-.switch-button-group button:active,
-.switch-button-group button:active:focus,
-.switch-button-group button.active
-{
-    background: #1e75b3;
-    color: #fff;
-}
-
-.xinfa-slots-wrapper {
-    margin: 0 -10px;
-}
-
-.xinfa-slots {
-    position: relative;
-    display: inline-block;
-    margin: 5px;
-    width: 45px;
-
-}
-
-.xinfa-slot-img {
-    width: 100%;
-    display: block;
-    border: solid #fff 1px;
-    cursor: pointer;
-}
-
-.xinfa-slot-name {
-    display: block;
-    text-align: center;
-    font-size: 9px;
-    white-space: nowrap;
-    height: 20px;
-}
-
-.xinfa-slot-close {
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    background: #8f0000;
-    width: 16px;
-    font-size: 9px;
-    text-align: center;
-    line-height: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.xinfa-slot-close:hover {
-    background: #f00;
-}
-
 .wuxia-modal-wrapper :global .modal-content {
     background: transparent;
     border: none;
@@ -87,19 +15,6 @@
 .remove-data-div {
     margin: 10px 0;
     text-align: center;
-}
-
-.site-info {
-    font-size: 18px;
-    text-align: center;
-}
-
-.site-info hr {
-    margin: 8px;
-}
-
-.site-info p {
-    margin: 3px;
 }
 
 .config-selector-menu {
