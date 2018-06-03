@@ -40,8 +40,8 @@
     "maxZoom": 4,
     "initView": [2000, 2000],
     "correspond": [
-      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
-      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+      {"imgPosX": 2282, "imgPosY": 210, "gamePosX": 2616, "gamePosY": 3598},
+      {"imgPosX": 1238, "imgPosY": 1798, "gamePosX": 594, "gamePosY": 524}
     ]
   },
   "DY": {
@@ -94,8 +94,8 @@
     "maxZoom": 4,
     "initView": [2000, 2000],
     "correspond": [
-      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
-      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+      {"imgPosX": 1624, "imgPosY": 1956, "gamePosX": 1348, "gamePosY": 238},
+      {"imgPosX": 2568, "imgPosY": 550, "gamePosX": 3174, "gamePosY": 2962}
     ]
   },
   "BS": {
@@ -295,6 +295,17 @@
     "correspond": [
       {"imgPosX": 1909, "imgPosY": 485, "gamePosX": 23413, "gamePosY": 11803},
       {"imgPosX": 2433, "imgPosY": 1062, "gamePosX": 23937, "gamePosY": 11226}
+    ]
+  },
+
+
+  "YDZS": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
     ]
   }
 }

@@ -62,6 +62,30 @@ export function dataToPopup(data) {
           </Table>
         </div>
       );
+    case 'hhz_baoxiang':
+      let baoxiangData = data.posData;
+      return (
+        <div>
+          <h3>{baoxiangData.name}</h3>
+          <h3>{baoxiangData.x.toFixed(0)}, {baoxiangData.y.toFixed(0)}</h3>
+        </div>
+      );
+    case 'hhz_wuzi':
+      let wuziData = data.posData;
+      return (
+        <div>
+          <h3>{wuziData.name}</h3>
+          <h3>{wuziData.x.toFixed(0)}, {wuziData.y.toFixed(0)}</h3>
+        </div>
+      );
+    case 'dataosha':
+      let dataoshaData = data.posData;
+      return (
+        <div>
+          <h3>{dataoshaData.name}</h3>
+          <h3>{dataoshaData.x.toFixed(0)}, {dataoshaData.y.toFixed(0)}</h3>
+        </div>
+      );
     default:
       return <div>无数据</div>;
   }

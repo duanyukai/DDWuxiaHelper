@@ -91,7 +91,17 @@ export function dataToPosList(type, data, mapId) {
       } else {
         return [];
       }
-
+    // 一代宗师
+    case 'dataosha':
+      if(mapId === 'YDZS') {
+        return data['positions']['YDZS'].map(({name, x, y, icon}) => {
+          return {
+            x, y, name, icon
+          };
+        });
+      } else {
+        return [];
+      }
     default:
       return [];
   }

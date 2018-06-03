@@ -76,6 +76,22 @@ class WuxiaMap extends Component {
                     <Tab eventKey={1} title='地图'>
                       <div styleName='appCss.scroll-wrapper'>
                         <div>
+                          <p>
+                            本地图助手尚为测试版，欢迎加入交流群660695387交流反馈建议与BUG。
+                          </p>
+                          <p>
+                            您可善用“图层”等功能来筛选显示内容及详细程度。
+                          </p>
+                          <p>
+                            20180522更新独立吃鸡地图。
+                          </p>
+                          <div>
+                            <ButtonGroup styleName='appCss.map-btn-matrix-1'>
+                              {this.renderMapButtonGroup([
+                                {name: '一代宗师（徐海）', id: 'YDZS'}
+                              ])}
+                            </ButtonGroup>
+                          </div>
                           <div>
                             <ButtonGroup styleName='appCss.map-btn-matrix-1'>
                               {this.renderMapButtonGroup([
@@ -220,7 +236,7 @@ class WuxiaMap extends Component {
                         <FormControl
                           type="text"
                           // value={this.state.value}
-                          placeholder="搜索位置"
+                          placeholder="功能暂未实现，敬请期待！"
                           // onChange={this.handleChange}
                         />
                       </div>

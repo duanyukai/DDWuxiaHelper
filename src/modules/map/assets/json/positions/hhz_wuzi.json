@@ -1,6 +1,6 @@
 {
   "icons": [
-    {"fileName": "mobao.png", "x": 32, "y": 32, "anchorX": 16, "anchorY": 16}
+    {"fileName": "resource.png", "x": 32, "y": 32, "anchorX": 16, "anchorY": 16}
   ],
   "positions": {
     "HHZ": [
