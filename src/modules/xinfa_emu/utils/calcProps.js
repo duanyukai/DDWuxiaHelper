@@ -70,19 +70,19 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
 
       shujiTypes.forEach((type, i) => {
         switch(type) {
-          case "5d":
-            xinfaProps["ld"] += topLevelProps[i];
-            xinfaProps["gg"] += topLevelProps[i];
-            xinfaProps["qj"] += topLevelProps[i];
-            xinfaProps["dc"] += topLevelProps[i];
-            xinfaProps["sf"] += topLevelProps[i];
-            break;
-          case "nwf":
-            xinfaProps["nf"] += topLevelProps[i];
-            xinfaProps["wf"] += topLevelProps[i];
-            break;
-          default:
-            xinfaProps[type] += topLevelProps[i];
+        case '5d':
+          xinfaProps['ld'] += topLevelProps[i];
+          xinfaProps['gg'] += topLevelProps[i];
+          xinfaProps['qj'] += topLevelProps[i];
+          xinfaProps['dc'] += topLevelProps[i];
+          xinfaProps['sf'] += topLevelProps[i];
+          break;
+        case 'nwf':
+          xinfaProps['nf'] += topLevelProps[i];
+          xinfaProps['wf'] += topLevelProps[i];
+          break;
+        default:
+          xinfaProps[type] += topLevelProps[i];
         }
       });
 
@@ -133,19 +133,19 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
       // 计算属性
       shujiTypes.forEach((type, i) => {
         switch(type) {
-          case "5d":
-            xinfaProps["ld"] += curTopLevelProps[i];
-            xinfaProps["gg"] += curTopLevelProps[i];
-            xinfaProps["qj"] += curTopLevelProps[i];
-            xinfaProps["dc"] += curTopLevelProps[i];
-            xinfaProps["sf"] += curTopLevelProps[i];
-            break;
-          case "nwf":
-            xinfaProps["nf"] += curTopLevelProps[i];
-            xinfaProps["wf"] += curTopLevelProps[i];
-            break;
-          default:
-            xinfaProps[type] += curTopLevelProps[i];
+        case '5d':
+          xinfaProps['ld'] += curTopLevelProps[i];
+          xinfaProps['gg'] += curTopLevelProps[i];
+          xinfaProps['qj'] += curTopLevelProps[i];
+          xinfaProps['dc'] += curTopLevelProps[i];
+          xinfaProps['sf'] += curTopLevelProps[i];
+          break;
+        case 'nwf':
+          xinfaProps['nf'] += curTopLevelProps[i];
+          xinfaProps['wf'] += curTopLevelProps[i];
+          break;
+        default:
+          xinfaProps[type] += curTopLevelProps[i];
         }
       });
 
@@ -192,7 +192,7 @@ export function calcXinfaProps(xinfaData, brkthruData, configIndex) {
 
 export function calcGongli(props) {
   // todo
-  // 五维系数0.8，1命中=5 1格挡=5 1会心=10 1韧劲=10 1外攻=1 1内功=1.5 内外防=0.5 10气血=1 会心伤害=4
+  // 五维系数0.8，1命中=5 1格挡=5 1会心=10 1韧劲=9 1外攻=1 1内功=1.6 内外防=0.5 10气血=1 会心伤害=4
   // 更新 1韧劲=9， 1内功=1.6
   let sum = 0;
   sum += (props.ld + props.gg + props.qj + props.sf + props.dc) * 0.8;
@@ -335,7 +335,7 @@ export function xinfaPropsMultiply(p, percentage) {
 
     gongliOffset: p.gongliOffset * percentage,
     zhanliOffset: p.zhanliOffset * percentage
-  }
+  };
 }
 
 export function xinfaPropsPlus(a, b) {
@@ -362,7 +362,7 @@ export function xinfaPropsPlus(a, b) {
     qx: (a.qx || 0) + (b.qx || 0),
     gongliOffset: (a.gongliOffset || 0) + (b.gongliOffset || 0),
     zhanliOffset: (a.zhanliOffset || 0) + (b.zhanliOffset || 0)
-  }
+  };
 }
 
 // export function calcSchoolProps(props, schoolId) {

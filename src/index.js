@@ -1,7 +1,7 @@
 // 加载polyfill
 import 'babel-polyfill';
 
-import React, { Component } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
 import Index from './modules/App';
 import './global.css';

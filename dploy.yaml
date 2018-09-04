@@ -1,0 +1,10 @@
+server_name:
+  scheme: "sftp"
+  host: "qq.neu.la"
+  user: "dyk"
+  path:
+    local: "dist/"
+    remote: "/var/www/wuxiatools.com/"
+  exclude: ["deploy/*.js"]
+  include:
+    "*.html": "/"

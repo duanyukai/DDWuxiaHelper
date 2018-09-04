@@ -1,0 +1,17 @@
+{
+  "zhuwu": { "type": "ZhuWuQi", "index": 1, "showName": "主武器" },
+  "fuwu": { "type": "FuWuQi", "index": 2, "showName": "辅武器" },
+  "anqi": { "type": "AnQi", "index": 3, "showName": "暗器" },
+
+  "shouzhuo": { "type": "ShouZhuo", "index": 6, "showName": "手镯" },
+  "jiezhi1": { "type": "JieZhi", "index": 4, "showName": "戒指A" },
+  "jiezhi2": { "type": "JieZhi", "index": 5, "showName": "戒指B" },
+  "xianglian": { "type": "XiangLian", "index": 8, "showName": "项链" },
+
+  "toushi": { "type": "TouShi", "index": 7, "showName": "头饰" },
+  "huwan": { "type": "HuWan", "index": 11, "showName": "护腕" },
+  "shangyi": { "type": "ShangYi", "index": 9, "showName": "上衣" },
+  "neichen": { "type": "NeiChen", "index": 10, "showName": "内衬" },
+  "yidai": { "type": "YaoDai", "index": 12, "showName": "衣带" },
+  "xiezi": { "type": "XieZi", "index": 13, "showName": "鞋子" }
+}

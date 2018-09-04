@@ -5,29 +5,22 @@ import Cookies from 'js-cookie';
 import {
   BrowserRouter,
   Route,
-  Link, NavLink, Switch
+  Link, Switch
 } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import './index.css';
+import 'antd/dist/antd.css';
 
-import {Button, Glyphicon, MenuItem, Nav, Navbar, NavDropdown, NavItem, Modal} from "react-bootstrap";
+import {Button, Glyphicon, MenuItem, Nav, Navbar, NavDropdown, NavItem, Modal, Collapse, Well} from "react-bootstrap";
 import {LinkContainer} from "react-router-bootstrap";
 
-import alipay from '../assets/imgs/alipay.jpg';
-import wechat from '../assets/imgs/wechat.jpg';
 import pay from '../assets/imgs/pay.png';
 
 import Loading from './tiandao_ui/components/loading';
 
 import Home from './portal/index';
 import {Helmet} from "react-helmet";
-
-// const Home = Loadable({
-//   loader: () => import('./portal/index'),
-//   loading: () => <Loading />
-// });
-
+import {DataWikiRouter} from "./data_wiki/sub_router";
 
 const XinfaEmu = Loadable({
   loader: () => import('./xinfa_emu/index'),
@@ -64,12 +57,18 @@ const DataWiki = Loadable({
   loading: () => <Loading/>
 });
 
+const EquipEmu = Loadable({
+  loader: () => import('./equip_emu/index'),
+  loading: () => <Loading/>
+});
+
 class Index extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      showModal20180501: false
+      showModal20180501: false,
+      open: false
     }
   }
 
@@ -94,7 +93,7 @@ class Index extends Component {
             <title>段段天刀综合助手 | 天涯明月刀：心法模拟器、地图助手、时辰吉凶、帮派技能模拟器、数据百科</title>
             <meta name="keywords" content="段段天刀综合助手,段段天刀助手,天涯明月刀助手,心法模拟器,天刀地图助手,帮派技能模拟器" />
             <meta name="description" content="段段天刀综合助手是一款针对“天涯明月刀”网游的综合工具，包括最新最准确的天刀心法模拟器、天刀地图助手、时辰吉凶表、帮派技能模拟器、数据百科等等。" />
-            <link rel="canonical" href="http://mysite.com/example" />
+            <meta name="viewport" content="width=device-width"/>
           </Helmet>
           <Navbar inverse collapseOnSelect fixedTop>
             <Navbar.Header>
@@ -152,17 +151,24 @@ class Index extends Component {
                 </p>
                 <p>
                   同时段段将秉持最初的服务思想，为大家制作<b>免费使用</b>的各种走心好用的工具。当然也离不开大家的帮助，您可以从以下方式来帮助我：
-                  <dl>
-                    <dt>1.在github上为本项目star一下~</dt>
-                    <dd>本项目为开源项目，地址<a target="_blank"  href="https://github.com/duanyukai/DDWuxiaHelper">https://github.com/duanyukai/DDWuxiaHelper</a>，虽然代码可能有点烂，但是你的Star是我最大的动力！</dd>
-                    <dt>2.加入交流群多多反馈意见，和群友尬聊~</dt>
-                    <dd>QQ群号：660695387，快速加群连接：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=9b2aeed4e33ce89f62f35e6d009b9a6cbf8f6aac9090387cf841d3deb5bdcc58"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" /></a></dd>
-                    <dt>3.最后您当然还可以为我捐助来弥补每月逾百元的服务器支出~</dt>
-                    <dd>段段现在还是一个0收入，靠奖学金过活的念大学的程序猿，您可以通过下方二维码为我捐助，捐助请注明ID，便于我统计数据，我将在有空时做一个捐助列表放在网站上。</dd>
-                    {/*<img width="220" src={alipay} />*/}
-                    {/*<img width="220" src={wechat} />*/}
-                    <img style={{width: '100%'}} src={pay} />
-                  </dl>
+                  <Button bsStyle="primary" onClick={() => this.setState({ open: !this.state.open })}>
+                    点击展开
+                  </Button>
+                  <Collapse in={this.state.open}>
+                    <div>
+                      <Well>
+                        <dl>
+                          <dt>1.在github上为本项目star一下~</dt>
+                          <dd>本项目为开源项目，地址<a target="_blank"  href="https://github.com/duanyukai/DDWuxiaHelper">https://github.com/duanyukai/DDWuxiaHelper</a>，虽然代码可能有点烂，但是你的Star是我最大的动力！</dd>
+                          <dt>2.加入交流群多多反馈意见，和群友尬聊~</dt>
+                          <dd>QQ群号：660695387，快速加群连接：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=9b2aeed4e33ce89f62f35e6d009b9a6cbf8f6aac9090387cf841d3deb5bdcc58"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" /></a></dd>
+                          <dt>3.最后您当然还可以为我捐助来弥补每月逾百元的服务器支出~</dt>
+                          <dd>段段现在还是一个0收入，靠奖学金过活的念大学的程序猿，您可以通过下方二维码为我捐助，捐助请注明ID，便于我统计数据，我将在有空时做一个捐助列表放在网站上。</dd>
+                          <img style={{width: '100%'}} src={pay} />
+                        </dl>
+                      </Well>
+                    </div>
+                  </Collapse>
                 </p>
               </Modal.Body>
               <Modal.Footer>
@@ -184,20 +190,27 @@ class Index extends Component {
               <Route path='/calendar' component={Calendar}/>
               <Route path='/rank' component={GongliRank}/>
               <Route path='/panorama' component={Panorama}/>
-              <Route path='/data-wiki' component={DataWiki}/>
+              <Route path='/data-wiki' exact component={DataWiki}/>
+              <Route path='/equip' exact component={EquipEmu}/>
+
+              <DataWikiRouter />
             </Switch>
           </div>
           <div style={{textAlign: 'center', marginTop: '50px'}}>
             <hr/>
             <p>
-              Copyright © 2017 段段~ （长生剑的一只狗太白，ID涂铃铃）
+              © {(new Date()).getFullYear()} 段段天刀综合助手<br/>
+              备案号：<a href="http://www.miitbeian.gov.cn">辽ICP备15017607号-2</a><br/>
+              交流QQ群：660695387 <a target="_blank"
+                                 href="//shang.qq.com/wpa/qunwpa?idkey=182f40b60ccba796a3798e2e45fd963ca5dc299e643aced13f468b41eb31799d"><img
+              border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="天刀助手交流群" title="天刀助手交流群" /></a><br/>
+              站长：<a href="https://www.duan.sh">段段</a><br/>
+              <span style={{fontSize: 10}}>
+                QQ: 452214596 <br/>
+                邮箱: <a href="mailto:dyk18@mails.tsinghua.edu.cn">dyk18@mails.tsinghua.edu.cn</a> <br/>
+              </span>
             </p>
-            <p>
-              联系方式： QQ: 452214596 邮箱: a@neu.la
-            </p>
-            <p>
-              交流QQ群：660695387
-            </p>
+
           </div>
         </div>
       </BrowserRouter>

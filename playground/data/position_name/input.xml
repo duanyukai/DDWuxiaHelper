@@ -1,0 +1,2096 @@
+﻿<NewObj ObjName="None" Version="1">
+	<MapUiAreaNameTable>
+		<m_vecAreaNames IsStaticArray="0" ArrayCount="1">
+			<m_vecAreaNames nKeyID="1" nMapID="10001" nPosX="1560" nPosY="1440" szType="1" szName="九华山" szPic="JH/ui_maptips_JiuHuaShan.png" szDesc="古称陵阳山、九子山，因九峰形似莲花，而得此名。于唐天宝年间（742（壬午年）～756）改名九华山。" mLeagueResourceID="2">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="1"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="2" nMapID="10001" nPosX="1413" nPosY="1817" szType="1;2" szName="藏锋谷" szPic="JH/ui_maptips_CangFengGu.png" szDesc="宋初建造之时，曾在山底挖出一块石碑，上书：“非远武不足以藏锋”，因此得名。" mLeagueResourceID="1">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="3" nMapID="10001" nPosX="1136" nPosY="1699" szType="4;2" szName="紫阳总舵" szPic="JH/ui_maptips_ZiYangFD.png" szDesc="数百年前由紫阳真人创立的道观，一度香火鼎盛，之后渐渐没落，如今已经很少有人知晓了。" mManorID="13">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="4" nMapID="10001" nPosX="1697" nPosY="1188" szType="4;2" szName="七星派分舵" szPic="JH/ui_maptips_QiXingPai.png" szDesc="旧时一门派存于此地，但已不在江湖上活动多年，早已被人遗忘。" mManorID="14">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="5" nMapID="10001" nPosX="850" nPosY="1544" szType="1;2" szName="芳华谷" szPic="JH/ui_maptips_FangHuaGu.png" szDesc="因花而得名，桃花满地，阡陌相依，这里的村民远世隐居，无欲无求。" mLeagueResourceID="4">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="6" nMapID="10001" nPosX="533" nPosY="1629" szType="1;2" szName="孔雀山庄" szPic="JH/ui_maptips_KongQueShanZhuang.png" szDesc="因孔雀翎而得名，享誉江湖数百年，庄内人很少在江湖走动，是一个充满神秘，象征着无限武力的地方。" mLeagueResourceID="5">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="7" nMapID="10001" nPosX="1100" nPosY="1292" szType="1;2" szName="燕来镇" szPic="JH/ui_maptips_YanLaiZhen.png" szDesc="位于鹧鸪岭的药王镇被大火毁之一炬之后，镇民们择地新建了燕来镇，自此安家落户，已有几十年。" mLeagueResourceID="7">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="8" nMapID="10001" nPosX="948" nPosY="1802" szType="1;2" szName="得意坊" szPic="JH/ui_maptips_DeYiFang.png" mLeagueResourceID="3">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="9" nMapID="10001" nPosX="657" nPosY="1268" szType="1;2" szName="锦燕林" szPic="JH/ui_maptips_JinYanLin.png" szDesc="每年秋时，北燕南归，会在此逗留一段时间，届时莺莺燕燕，啼声处处，因而被称之为锦燕林。" mLeagueResourceID="6">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="10" nMapID="10001" nPosX="902" nPosY="1128" szType="1;2" szName="鹧鸪岭" szPic="JH/ui_maptips_ZheGuLin.png" szDesc="南北岭相对，中有脊谷，从朝露峰望下去，宛如鹧鸪东飞，因而得名鹧鸪岭。" mLeagueResourceID="8">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="11" nMapID="10001" nPosX="750" nPosY="723" szType="1;2" szName="嘉荫镇" szPic="JH/ui_maptips_JiaYinZhen.png" szDesc="镇名出自“以我嘉行，祈求庇荫”一言。" mLeagueResourceID="10">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="12" nMapID="10001" nPosX="1274" nPosY="522" szType="1;2" szName="血衣楼" szPic="JH/ui_maptips_XueYiLou.png" szDesc="血衣楼一向以神秘冷酷自居，近来查出其总坛栖身于九华，自此之后那一带渐成禁地，无人敢去。" mLeagueResourceID="11">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="13" nMapID="10001" nPosX="1539" nPosY="338" szType="1;2" szName="离魂峡" szPic="JH/ui_maptips_LiHunXia.png" szDesc="奇异之地，不知从何时起飞禽走兽，树木花草均无法在此生息。" mLeagueResourceID="12">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="14" nMapID="10001" nPosX="1118" nPosY="909" szType="1;2" szName="江音畔" szPic="JH/ui_maptips_JiangYinPan.png" szDesc="沿江而行，一路水声凝噎，音域流转。月圆时常有人来到江边，对月浅酌，聆听水声，因而称之江音畔。" mLeagueResourceID="9">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="15" nMapID="10001" nPosX="1522" nPosY="1475" szType="2" szName="甘泉茅棚" szDesc="沿山而建的茅屋，供来往朝山的香客居住。因院中有一眼山泉，饮之甘冽、清爽，故以甘泉为名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="16" nMapID="10001" nPosX="1350" nPosY="1630" szType="2" szName="云笈水榭" szDesc="孔雀山庄设于朝山路下的别院，供孔雀山庄的女眷避暑朝香之用，后渐渐成为秋家一系的分支势力。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="17" nMapID="10001" nPosX="1476" nPosY="1330" szType="2" szName="化清寺" szDesc="立寺久远，已不可考，传闻寺中祖师由道入佛，在原址重建此大寺，为不忘根本，取化清观为化清寺。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="18" nMapID="10001" nPosX="1684" nPosY="1551" szType="2" szName="回音谷" szDesc="此谷奇趣，谷内如环，仅有一口可以进入，站在谷口，放声喝去，可闻一片回音荡漾，经久不绝。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="19" nMapID="10001" nPosX="394" nPosY="1430" szType="2" szName="迎仙道" szDesc="九华多灵山，常有乡民传言遭遇灵迹，遂集资建仙庙供奉。后乱世多年，仅留当年一条大道，为迎仙道。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="20" nMapID="10001" nPosX="444" nPosY="1153" szType="2" szName="归池" szDesc="唐末乱世，四处强征入伍壮丁。曾有一队人艰难存活回转家乡。在此与家人相聚，哭声百里，是为归池。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="21" nMapID="10001" nPosX="746" nPosY="1604" szType="2" szName="矿场" szDesc="一处杂矿，产些铜铁之类的杂石，为芳华谷村民赖以生存的命脉所在。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="22" nMapID="10001" nPosX="667" nPosY="1408" szType="2" szName="朝露峰" szDesc="山势高昂，立于山巅，一切风景收于眼底。由于清晨之时，常有人来采集露水为饮，故名朝露峰。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="23" nMapID="10001" nPosX="1341" nPosY="1386" szType="2" szName="沅江下游" szDesc="沅江为古名，此江虽随改朝换代不断更名，但世居江畔的渔民仍以此相称。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="24" nMapID="10001" nPosX="574" nPosY="786" szType="2" szName="叠岭" szDesc="此山峰峦叠嶂，高低错落，看似群山，实为一道蜿蜒山岭。若不熟路经常迷失，叠叠不穷，是为叠岭。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="25" nMapID="10001" nPosX="559" nPosY="1307" szType="2" szName="送君廊" szDesc="古时征战，村中常有数百人被强征入伍。在此相送时，常有新婚妇人不忍离别，哭声呜咽，以送郎君。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="26" nMapID="10001" nPosX="754" nPosY="1067" szType="2" szName="神药峰" szDesc="山以药为名，旧时多产名药。待草药被采掘一空时，此山也风光不再，仅留一名，叙述曾经的风光。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="27" nMapID="10001" nPosX="1454" nPosY="1541" szType="2" szName="朝山路" szDesc="原本只是一条山路，每逢雨雪寒天便难以行走。后有大户修缮此路，直达山寺，造福此后朝山香客。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="28" nMapID="10001" nPosX="1658" nPosY="470" szType="2" szName="禁地" szDesc="血衣楼密地曾在一战中被毁之一炬。但有传闻，被毁的不过只是冰山一角。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="29" nMapID="10001" nPosX="1097" nPosY="723" szType="3" szName="龙虎堂">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="30" nMapID="10001" nPosX="1419" nPosY="711" szType="3" szName="斗场">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="31" nMapID="10001" nPosX="1105" nPosY="356" szType="3" szName="血衣楼总坛">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="32" nMapID="10001" nPosX="960" nPosY="1063" szType="3" szName="药王殿旧址">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="33" nMapID="10001" nPosX="925" nPosY="1158" szType="3" szName="对月峰">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="34" nMapID="10001" nPosX="1220" nPosY="1236" szType="3" szName="渡口">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="35" nMapID="10001" nPosX="838" nPosY="1171" szType="3" szName="药王庄">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="36" nMapID="10002" nPosX="835" nPosY="612" szType="1;2" szName="天香谷" szPic="DY/ui_maptips_TianXianggu.png" szDesc="梁知音所创之门派，位于东越天香谷中。此谷终年百花常盛，幽谧如春。又有奇岩秀水，风景如画。" mLeagueResourceID="50">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="37" nMapID="10002" nPosX="416" nPosY="953" szType="1;2" szName="东湖" szPic="DY/ui_maptips_Donghu.png" szDesc="东越腹地天然湖泊，碧水映青山，风景极佳，常有武林人士在湖心练功。" mLeagueResourceID="48">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="38" nMapID="10002" nPosX="450" nPosY="1655" szType="1;2" szName="清永坊" szPic="DY/ui_maptips_QinShuiFang.png" szDesc="位于东越北部，百年土家族村落；民风淳朴、崇文尚武——以文德化、以武平乱、人泰家宁。" mLeagueResourceID="45">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="39" nMapID="10002" nPosX="650" nPosY="1050" szType="4;2" szName="白鹭洲分舵" szPic="DY/ui_maptips_BaiLuZhouFD.png" szDesc="位于东湖湖心孤岛，曾是白鹭栖息地。" mManorID="9">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="40" nMapID="10002" nPosX="835" nPosY="980" szType="2" szName="迎仙渡" szDesc="东越水路线之重要渡口，东连天香谷地，西接乌金汊，往来商旅侠客，多在此地歇息。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="41" nMapID="10002" nPosX="1107" nPosY="1022" szType="1;2" szName="乌金汊" szPic="DY/ui_maptips_WuJinHan.png" szDesc="位于东越西部，乃是万象门据点，依山临水；立于乌金汊高处，可观湖光山色，风景秀美。" mLeagueResourceID="52">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="42" nMapID="10002" nPosX="1480" nPosY="640" szType="1;2" szName="万象门" szPic="DY/ui_maptips_JiuTianGe.png" szDesc="万象门总舵所在，倚山望海，欲登九天。" mLeagueResourceID="53">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="43" nMapID="10002" nPosX="1450" nPosY="1145" szType="1;2" szName="宁海镇" szPic="DY/ui_maptips_NingHaiZhen.png" szDesc="南海小镇，港口船舶南下南洋，北上东海，又连杭运。" mLeagueResourceID="54">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="44" nMapID="10002" nPosX="1640" nPosY="1459" szType="1;2" szName="东汀渔村" szPic="DY/ui_maptips_DongDingYuCun.png" szDesc="东北部小渔村，渔民靠山吃山，靠海吃海，安居乐业。" mLeagueResourceID="55">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="45" nMapID="10002" nPosX="1741" nPosY="910" szType="4;2" szName="双龙岛分舵" szPic="DY/ui_maptips_ShuangLongDaoFD.png" szDesc="近海两座小岛，北曰恶蛟，南曰强龙，合称双龙岛。" mManorID="10">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="46" nMapID="10002" nPosX="416" nPosY="450" szType="1;2" szName="万蝶坪" szPic="DY/ui_maptips_WanDiePing.png" szDesc="位于天香谷内，十里花海，摇曳多姿，引来彩蝶缤纷，翩翩起舞，是天香一大盛景。" mLeagueResourceID="49">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="47" nMapID="10002" nPosX="650" nPosY="350" szType="2" szName="杏林" szDesc="位于天香谷内，素问轩弟子们培养草药之地，因故四季异香，伴随灼灼杏花，对修炼天香武艺有奇效。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="48" nMapID="10002" nPosX="948" nPosY="350" szType="1;2" szName="七色海" szPic="DY/ui_maptips_QiSeHai.png" szDesc="位于天香谷内，因环绕着温泉水的彩色火山岩成名，更有女娲补天遗石的传闻，令此地犹如飘渺仙境。" mLeagueResourceID="51">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="49" nMapID="10002" nPosX="574" nPosY="1515" szType="2" szName="云泥梯田" szDesc="清永坊外大片梯田，依山而建，沿山势而上，远观如登云之势，故曰云泥梯田。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="50" nMapID="10002" nPosX="650" nPosY="1401" szType="2" szName="老爷庙" szDesc="供奉龙王老爷的小庙，处在山岭之中，前后不着客栈，常有赶路人士借宿。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="51" nMapID="10002" nPosX="1078" nPosY="868" szType="2" szName="野鹤湫" szDesc="位于传说之地龙泉剑深潭下方，曾经野鹤成群，如今被倭寇所占，难见昔日风光。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="52" nMapID="10002" nPosX="303" nPosY="1483" szType="1;2" szName="香蝶林" szPic="DY/ui_maptips_XiangDieLin.png" szDesc="地处东越入口，乃是一片香樟树林，此地每至花季，粉蝶缭绕，香气宜人。" mLeagueResourceID="46">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="53" nMapID="10002" nPosX="1279" nPosY="1288" szType="2" szName="桑楚山庄" szDesc="移花宫子桑不寿与楚天璇伉俪隐居之所，此地十分静雅，远离武林纷争。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="54" nMapID="10002" nPosX="970" nPosY="1181" szType="2" szName="桃源胜境" szDesc="漫山桃树，花开时节美不胜收。山顶有三清道观，为修道人士清修之地。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="55" nMapID="10002" nPosX="1123" nPosY="612" szType="2" szName="闽越旧城" szDesc="相传为闽越王朝遗址，残垣断壁之内依稀可查昔日风光。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="56" nMapID="10002" nPosX="1470" nPosY="875" szType="2" szName="长乐滩" szDesc="东越海岸长滩，碧海银沙，天水一色，徜徉此间，其乐无穷。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="57" nMapID="10002" nPosX="783" nPosY="1300" szType="1;2" szName="青龙潭" szPic="DY/ui_maptips_QingLongTan.png" szDesc="山间瀑布落处，雨后青虹如龙，潭水清可见底。" mLeagueResourceID="47">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="58" nMapID="10002" nPosX="1731" nPosY="1135" szType="3" szName="恶蛟岛">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="59" nMapID="10002" nPosX="1773" nPosY="809" szType="3" szName="强龙岛">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="60" nMapID="10002" nPosX="948" nPosY="950" szType="3" szName="倪家别院">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="61" nMapID="10002" nPosX="1370" nPosY="598" szType="3" szName="九天阁">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="62" nMapID="10002" nPosX="600" nPosY="1650" szType="3" szName="夏荷翠池" szDesc="位于清永坊西边；本是野地，清永村民植树成林、掘池引水，又种以夏荷，方成美景。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="63" nMapID="10002" nPosX="643" nPosY="1284" szType="3" szName="渡口旧址" szDesc="位于东湖北岸之渡口，此地本是驿站，有少许渔家，如今倭寇肆虐，已为废墟，唯有数只小舟可上岛。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="64" nMapID="10004" nPosX="1029" nPosY="1020" szType="1" szName="怪石林" szPic="YY/ui_maptips_GuaiShiLin.png" szDesc="位于神威堡附近的一处天成石林，是戈壁风沙千年腐蚀而成，石林内每日怪风呼啸，令人不寒而栗。" mLeagueResourceID="14">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="1"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="65" nMapID="10004" nPosX="686" nPosY="1135" szType="1;2" szName="杨家谷" szPic="YY/ui_maptips_YangJiaGu.png" szDesc="神威西边的一处山谷，平时人迹罕至。因杨家将曾在此抵抗辽兵而得名，地形复杂，适合隐蔽。" mLeagueResourceID="13">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="66" nMapID="10004" nPosX="677" nPosY="310" szType="1;2" szName="苍梧城" szPic="YY/ui_maptips_CangWuCheng.png" szDesc="此地本属万马堂，但近年来西域天魔教占据了万马堂的地盘，并将其发展成了一个强大的堡垒。" mLeagueResourceID="23">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="67" nMapID="10004" nPosX="774" nPosY="852" szType="4;2" szName="万里杀总舵" szPic="YY/ui_maptips_BengMaTang.png" szDesc="江湖四大盟会中的“万里杀”所在，此地长年黄沙遮天蔽日，所以盟会以此地黄沙为名，称为万里杀。" mManorID="19">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="68" nMapID="10004" nPosX="1511" nPosY="410" szType="1;2" szName="神木谷" szPic="YY/ui_maptips_ShengMuGu.png" szDesc="谷内石头风蚀严重，传说张骞通西域时路过于此，醒后便有三株古树，故此得名。如今古树已经不在。" mLeagueResourceID="20">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="69" nMapID="10004" nPosX="1129" nPosY="1208" szType="1;2" szName="百里营" szPic="YY/ui_maptips_BaiLiYin.png" szDesc="神威的前哨站，位于神威堡的东侧，这里地势开阔，方圆十几里的动静都可尽收眼底。" mLeagueResourceID="16">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="70" nMapID="10004" nPosX="305" nPosY="943" szType="1;2" szName="万马堂" szPic="YY/ui_maptips_WanLiSha.png" szDesc="当年万马堂分崩离析，马空群之女马芳玲重整旗鼓，重建万马堂。" mLeagueResourceID="22">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="71" nMapID="10004" nPosX="1538" nPosY="1456" szType="1;2" szName="风飞谷" szPic="YY/ui_maptips_YuanYanTang.png" szDesc="此处是元昊堂于燕云设立的一处前哨站，位于西北一处古城废墟中，西夏在此探视辽国与神威堡的动静。" mLeagueResourceID="18">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="72" nMapID="10004" nPosX="1260" nPosY="740" szType="1;2" szName="千里营" szPic="YY/ui_maptips_QianLiYin.png" szDesc="神威在燕云的一处重要据点，以培育战马和监视契丹为主要目的。" mLeagueResourceID="19">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="73" nMapID="10004" nPosX="1295" nPosY="973" szType="1;2" szName="瀚海戈壁" szPic="YY/ui_maptips_HanHaiGeBi.png" szDesc="神威堡北的一大片区域，是一望无际的大戈壁滩，如果贸然进入，基本有死无生。" mLeagueResourceID="17">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="74" nMapID="10004" nPosX="1599" nPosY="849" szType="4;2" szName="龙山分舵" szPic="YY/ui_maptips_LongShanFD.png" szDesc="隶属于四盟的一处居所，近些年来各盟会摩擦不断，此舵也不断易主，但总归都是四盟的地盘。" mManorID="20">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="75" nMapID="10004" nPosX="883" nPosY="1362" szType="1;2" szName="练兵场" szPic="YY/ui_maptips_ShengWei.png" szDesc="神威乃武林八荒之一，由韩守琼所创。神威弟子，枪法精熟，豪气干云，深得江湖正派敬重。" mLeagueResourceID="15">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="76" nMapID="10004" nPosX="1096" nPosY="505" szType="1;2" szName="绝尘镇" szPic="YY/ui_maptips_QianLiMaChang.png" szDesc="千里营附近的草场，本是古时放马专用，神威曾在这里与契丹连番恶战，导致此地彻底荒废。" mLeagueResourceID="21">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="77" nMapID="10004" nPosX="1031" nPosY="859" szType="2" szName="饮马绿洲" szDesc="戈壁滩上有一处水潭，四周长满野生芦苇，是野生动物和戈壁过客的避风港。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="78" nMapID="10004" nPosX="1438" nPosY="1200" szType="2" szName="风鸣绿洲" szDesc="戈壁深处的一处小绿洲，绿洲中有一处泉水，与西域月牙泉齐名。是整个戈壁滩区域最繁华之地。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="79" nMapID="10004" nPosX="730" nPosY="480" szType="2" szName="剑意居" szDesc="太白剑派位于燕云的前哨站，由此向南，可前往秦川。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="80" nMapID="10004" nPosX="976" nPosY="1429" szType="2" szName="天刀营" szDesc="三宗之一的天刀营地，位于神威堡东边，是神威组织中枪法最精奇，攻击力最强的部队，营主为凌飞。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="81" nMapID="10004" nPosX="836" nPosY="1296" szType="2" szName="地鞘营" szDesc="三宗之一的地鞘总部，位于神威堡背面，靠近正门，地鞘营中人枪法严密，不漏破绽，营主为萧衍。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="82" nMapID="10004" nPosX="1835" nPosY="1237" szType="2" szName="策马坡" szDesc="风化的岩石形成的斜坡，当年韩守琼在此策马杀敌三十里，横枪立马，威风凛凛，故名策马坡。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="83" nMapID="10004" nPosX="1240" nPosY="1341" szType="2" szName="齐喑谷" szDesc="此谷十分奇怪，不管什么马匹牲畜，只要进了这里，全都不敢发出一点声音，故名齐喑谷。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="84" nMapID="10004" nPosX="900" nPosY="1106" szType="2" szName="怪石林北" szDesc="位于神威堡附近的一处天成石林，是戈壁风沙千年腐蚀而成，石林内每日怪风呼啸，令人不寒而栗。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="85" nMapID="10004" nPosX="1055" nPosY="1050" szType="2" szName="怪石林南" szDesc="燕云怪石林分为南北两处，是戈壁风沙腐蚀的石林，整日里怪风呼啸，这里的居民平时均不敢靠近。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="86" nMapID="10004" nPosX="791" nPosY="1422" szType="2" szName="神威堡" szDesc="是整个神威核心所在，主建筑上写着“神威在天”四字匾额，格外肃穆厚重。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="87" nMapID="10004" nPosX="997" nPosY="1240" szType="2" szName="沙场" szDesc="是神威堡门前广场，大门外围一个黄土夯成的平坦广场，是一个适合两军对峙的场所。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="88" nMapID="10004" nPosX="325" nPosY="593" szType="2" szName="鹰啸谷" szDesc="当年辽人在此处虏获宋人无数，后韩守琼将被俘虏的宋人夺回，辽人引以为恨，从此不来此谷。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="89" nMapID="10005" nPosX="823" nPosY="358" szType="1;2" szName="翠海" szPic="BS/ui_maptips_CuiHai.png" szDesc="唐门之中数目繁盛，一碧万顷，远远望去宛若波涛大海，翠海之名便是由此而来。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="90" nMapID="10005" nPosX="615" nPosY="756" szType="1;2" szName="御风堂" szPic="BS/ui_maptips_YuFengTang.png" szDesc="唐门核心建筑所在，唐门所有首脑平时均在此处理门派事务，是唐门名副其实的心脏区域。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="91" nMapID="10005" nPosX="98" nPosY="188" szType="1;2" szName="碎星楼" szPic="BS/ui_maptips_SuiXingLou.png" szDesc="唐门后山建于绝壁的一处高楼，寻常弟子不得入内，传说在里面关押着一个杀人不眨眼的恶魔。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="92" nMapID="10005" nPosX="332" nPosY="551" szType="1" szName="万青竹海" szPic="BS/ui_maptips_WanQingZhuHai.png" szDesc="巴蜀盛产竹子，成百上千的竹子连在一起，就好似大海一般，而唐门就坐落在这万青竹海的深处。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="1"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="93" nMapID="10005" nPosX="1285" nPosY="1147" szType="1;2" szName="双月湾" szPic="BS/ui_maptips_ShuangYueWan.png" szDesc="两山之中夹着一条如月形状的水湾，每逢明月当空，湾中映出明月倒影，仿佛地上有两个月亮。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="94" nMapID="10005" nPosX="123" nPosY="1306" szType="1;2" szName="龙门山" szPic="BS/ui_maptips_WoLongGu.png" szDesc="此山地势之高，几可手摘星辰，仿佛直通九天之上。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="95" nMapID="10005" nPosX="295" nPosY="991" szType="2" szName="卧龙谷" szDesc="相传此处曾是诸葛孔明出山前冥思之地，后人为纪念孔明，改名卧龙谷。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="96" nMapID="10005" nPosX="1362" nPosY="741" szType="1;2" szName="子午岭" szPic="BS/ui_maptips_LingShuangGe.png" szDesc="此处位置偏远，地形险要，所以人迹罕至。相传要过此处，子时出发，须得午时方能过去。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="97" nMapID="10005" nPosX="592" nPosY="1261" szType="4;2" szName="朝天峡分舵" szPic="BS/ui_maptips_ChaoTianXia.png" szDesc="由江水冲刷堆积而成，唐前叫漫天寨，唐明皇避安史之乱奔蜀，百官于此接驾，故更名为朝天峡。" mManorID="21">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="98" nMapID="10005" nPosX="1513" nPosY="473" szType="4;2" szName="千佛崖分舵" szPic="BS/ui_maptips_QianFuoYa.png" szDesc="巴蜀的一处悬崖，每年都有行人在此失足殒命，后有高僧在崖顶做法事超度亡魂，而名千佛崖。" mManorID="22">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="99" nMapID="10005" nPosX="954" nPosY="1030" szType="1;2" szName="凌云壁" szPic="BS/ui_maptips_LingYunBi.png" szDesc="巴蜀的又一处天险，山势高耸，如刀劈斧凿，故以凌云称之，乃是十分重要的一处据点。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="100" nMapID="10005" nPosX="1068" nPosY="727" szType="2" szName="剑门关" szDesc="唐朝李太白有云：“剑阁峥嵘而崔嵬，一夫当关，万夫莫开”。此处自古就是天险。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="101" nMapID="10005" nPosX="1546" nPosY="920" szType="2" szName="皇杉道" szDesc="一处古道，道旁曾有几株古杉，刘备路过此处，曾在此避雨，感激古杉遮雨之功，赐名皇杉。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="102" nMapID="10005" nPosX="1936" nPosY="374" szType="1;2" szName="秦月谷" szPic="BS/ui_maptips_LingShuangGe.png" szDesc="秦时明月汉时关，此处高地与低谷相连，易守难攻，是极佳的战略要地。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="103" nMapID="10005" nPosX="1907" nPosY="850" szType="1;2" szName="皇杉道" szPic="BS/ui_maptips_LingShuangGe.png" szDesc="此地本是当年明皇入蜀之行宫，后被青龙会霜堂占领，是霜堂一处重要的据点。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="104" nMapID="10005" nPosX="288" nPosY="644" szType="2" szName="万青竹海" szDesc="巴蜀盛产竹子，成百上千的竹子连在一起，就好似大海一般，而唐门就坐落在这万青竹海的深处。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="105" nMapID="10005" nPosX="360" nPosY="368" szType="2" szName="忘忧谷" szDesc="唐门后山的一处山谷，这里僻静通幽，小桥流水，人在此待上半个时辰，就有忘记忧愁。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="106" nMapID="10005" nPosX="699" nPosY="530" szType="2" szName="烟霞林" szDesc="巴蜀的一处山岭，每次夕阳的光辉照到这个山岭，会映衬得整个山岭流霞闪烁，宛若烟霞满天。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="107" nMapID="10005" nPosX="322" nPosY="499" szType="2" szName="星云岭" szDesc="巴蜀中有一处山岭最适合观望星空，传说唐门最强武学万点繁星就是在此悟出。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="108" nMapID="10005" nPosX="432" nPosY="197" szType="3" szName="天一房">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="109" nMapID="10005" nPosX="240" nPosY="361" szType="3" szName="偃师房">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="110" nMapID="10005" nPosX="474" nPosY="388" szType="3" szName="翡翠长廊">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="111" nMapID="10007" nPosX="1247" nPosY="1502" szType="1;2" szName="真武殿" szPic="ZW/ui_maptips_ZhenWuDian.png" szDesc="真武正殿，位于真武最高处，气势最为宏大，于真武山中各处均可仰望其风。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="112" nMapID="10007" nPosX="1217" nPosY="1809" szType="1;2" szName="长生楼" szPic="ZW/ui_maptips_ChangShengLou.png" szDesc="真武出家弟子炼丹修道之地，位于半山腰上，常年可见云雾弥漫，颇为壮伟。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="113" nMapID="10007" nPosX="1404" nPosY="1640" szType="1;2" szName="三清殿" szPic="ZW/ui_maptips_SanQingDian.png" szDesc="真武的偏殿，位于真武山东侧，其内供奉三清祖师，亦是清修之地。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="114" nMapID="10007" nPosX="995" nPosY="1544" szType="1;2" szName="太极道场" szPic="ZW/ui_maptips_TaiJiDaoChang.png" szDesc="真武弟子平日练功道场，亦是上下真武山必经之地。于此处可观云海，远眺真武大殿。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="115" nMapID="10007" nPosX="189" nPosY="1575" szType="2" szName="尘烟峰" szDesc="襄州四峰之一；常年云雾缭绕，如烟如尘。山顶以松柏为主，整体挺拔俊秀！">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="116" nMapID="10007" nPosX="406" nPosY="1230" szType="1;2" szName="跃龙峡" szPic="ZW/ui_maptips_YanShouShan.png" szDesc="此峡极是险峻，无人可过，传说只有蟠龙方可飞跃，故名跃龙，以彰其险。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="117" nMapID="10007" nPosX="203" nPosY="865" szType="1;2" szName="杜鹃岗" szPic="ZW/ui_maptips_DuJuanGang.png" szDesc="山上因野生杜鹃花遍野得名。虽是官道，却因山野密林，常有山贼劫道。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="118" nMapID="10007" nPosX="546" nPosY="785" szType="2" szName="燕回岭" szDesc="此岭人迹罕至，偶有山间猎户木屋之类。乃是燕子春天迁徙筑巢之所。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="119" nMapID="10007" nPosX="357" nPosY="390" szType="1;2" szName="鹤峰" szPic="ZW/ui_maptips_DuJuanGang.png" szDesc="襄州四峰之一。山势如鹤，极是险峻，故得名鹤峰。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="120" nMapID="10007" nPosX="767" nPosY="207" szType="2" szName="落羽谷" szDesc="此低谷沿山而上，在谷内多栖息群鸟，偶尔有百鸟惊飞的壮景，惊鸿飞舞。落羽纷纷。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="121" nMapID="10007" nPosX="1083" nPosY="288" szType="1;2" szName="无涯峰" szPic="ZW/ui_maptips_WuYaFeng.png" szDesc="此峰上分为停云坡、行云台、云天宫、归云顶四大部分，鬼斧神工，夺人心魄。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="122" nMapID="10007" nPosX="1394" nPosY="411" szType="2" szName="武陵峡" szDesc="位于襄州中部的狭长峡谷；并有三湾——伏首湾、解牛湾、望西湾。景致各不相同。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="123" nMapID="10007" nPosX="939" nPosY="573" szType="2" szName="问虚道" szDesc="通往真武山的山道，宁静清幽，乃是修行问道之人徒步行走之路。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="124" nMapID="10007" nPosX="961" nPosY="810" szType="4;2" szName="钟台山分舵" szPic="ZW/ui_maptips_ZhongTaiShan.png" szDesc="山上有一石台，台上有灵钟，偶尔响遍山谷，更有“钟台四景”，名闻天下。" mManorID="6">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="125" nMapID="10007" nPosX="1371" nPosY="874" szType="4;2" szName="砚首山分舵" szPic="ZW/ui_maptips_YueLongXia.png" szDesc="群岭之首，连松阳岭，延绵至天门峰。历代骚人墨客多流连于此，人文气息十分浓厚。" mManorID="5">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="126" nMapID="10007" nPosX="1042" nPosY="1200" szType="1;2" szName="玉华集" szPic="ZW/ui_maptips_DuJuanGang.png" szDesc="真武山下小村镇。香客云集之地，亭阁相连，乃是极繁华的一处所在。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="127" nMapID="10007" nPosX="1326" nPosY="1199" szType="2" szName="归元谷" szDesc="比较幽深的谷地，深谷之内有一处山泉，谷名本为“归元性不二，方便有多门”之意。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="128" nMapID="10007" nPosX="1686" nPosY="1202" szType="1;2" szName="鹿鸣谷" szPic="ZW/ui_maptips_SongYangLing.png" szDesc="呦呦鹿鸣，食野之苹。我有嘉宾，鼓瑟吹笙。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="129" nMapID="10007" nPosX="1976" nPosY="744" szType="1;2" szName="松阳岭" szPic="ZW/ui_maptips_SongYangLing.png" szDesc="延绵的山岭，遍地松林，青松映以残阳，极是静谧秀美。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="130" nMapID="10007" nPosX="1924" nPosY="240" szType="1;2" szName="天门峰" szPic="ZW/ui_maptips_SongYangLing.png" szDesc="山顶有两处耸立的山石，古人将山石连起，如门状，得名天门峰，又如一线天。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="131" nMapID="10007" nPosX="1388" nPosY="1819" szType="2" szName="律令阁" szDesc="真武门派虽无严密门规，却有一般赏罚，凡有大过者入此地静修。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="132" nMapID="10007" nPosX="916" nPosY="1748" szType="2" szName="万仞石梁" szDesc="沿着依山而凿出的山道，蜿蜒向上通向真武。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="133" nMapID="10007" nPosX="703" nPosY="1632" szType="2" szName="星罗棋布" szDesc="真武山腰的一处景观，因山道岩壁两侧刻有无数道家神像，数目宛如繁星而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="134" nMapID="10007" nPosX="1039" nPosY="1421" szType="2" szName="涵星坊" szDesc="门派外的道家院落，前来的香客在涵星坊聚集请愿。平日里冷清，只有到重要的日子才会热闹。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="135" nMapID="10009" nPosX="1599" nPosY="879" szType="1" szName="山骨林风" szPic="GZ/ui_maptips_ShanGuLinFeng.png" szDesc="太白山下的草原，诗云“山骨醉后土，林风吹未凝”，故而得名。" mLeagueResourceID="43">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="1"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="136" nMapID="10009" nPosX="1584" nPosY="1237" szType="1" szName="北斗坪" szPic="GZ/ui_maptips_BeiDouPing.png" szDesc="太白山南侧，山体虽高耸入云，夜揽星斗，但山巅平坦，土地广袤，故而得名。" mLeagueResourceID="37">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="1"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="137" nMapID="10009" nPosX="846" nPosY="584" szType="1" szName="关中草海" szPic="GZ/ui_maptips_GuanZhongCaoHai.png" szDesc="位于秦川西侧，茫茫草海，岁岁枯荣，虽飞雪冰覆，仍不减生机。" mLeagueResourceID="44">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="1"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="138" nMapID="10009" nPosX="1082" nPosY="984" szType="1;2" szName="玉泉院" szPic="GZ/ui_maptips_YuQuanYuan.png" szDesc="此道观前朝便落成，背依太白山，古木参天，院内曾有一泉，后将其填为院中八卦坛，但名犹在。" mLeagueResourceID="42">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="139" nMapID="10009" nPosX="1342" nPosY="613" szType="4;2" szName="乾坤阁分舵" szPic="GZ/ui_maptips_QianKunGeFD.png" szDesc="位于秦川东南，依山而建，银鳞河绕阁而走，形成天然易守难攻之势。" mManorID="24">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="140" nMapID="10009" nPosX="942" nPosY="1332" szType="4;2" szName="揽月台分舵" szPic="GZ/ui_maptips_LanYueTaiFD.png" szDesc="位于太白山西南，实乃太白一峰，拔地而起，险要凌然，终年冰雪皑皑，十分难攻。" mManorID="23">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="141" nMapID="10009" nPosX="1113" nPosY="1589" szType="1;2" szName="太白山门" szPic="GZ/ui_maptips_TaiBaiYiZhan.png" szDesc="位于太白山脚下，往来太白山必经之路。" mLeagueResourceID="39">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="142" nMapID="10009" nPosX="1355" nPosY="1652" szType="1;2" szName="太白剑坪" szPic="GZ/ui_maptips_TaiBaiJianPin.png" szDesc="太白剑派藏剑阁前的习剑平台，是太白弟子平日操练之所，江湖著名的沉剑之试亦在剑坪举行。" mLeagueResourceID="38">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="143" nMapID="10009" nPosX="1574" nPosY="1690" szType="1;2" szName="泼墨岭" szPic="GZ/ui_maptips_PoMoLin.png" szDesc="苍穹阁往沉剑池的必经之路，相传唐代大文豪途径此处，抛洒墨盒。太白山又与李白之字相同，故得名。" mLeagueResourceID="35">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="144" nMapID="10009" nPosX="1863" nPosY="1679" szType="1;2" szName="沉剑池" szPic="GZ/ui_maptips_ChenJianChi.png" szDesc="太白剑派腹地，江湖享誉盛名所在，相传江湖中功成名就的侠者在退隐之前都会将手中之剑永沉于此。" mLeagueResourceID="36">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="145" nMapID="10009" nPosX="1670" nPosY="1907" szType="1;2" szName="弑剑阁" szPic="GZ/ui_maptips_ShaJianGe.png" szDesc="太白剑派分阁之一，设弑剑师，太白中最血气方刚之地，斩奸除恶，以武服人，皆由弑剑阁出面。" mLeagueResourceID="34">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="146" nMapID="10009" nPosX="686" nPosY="1080" szType="1;2" szName="药王谷" szPic="GZ/ui_maptips_YaoWangGu.png" szDesc="此处气候湿润，草木繁盛，相传是药王孙思邈在此炼丹采药之所。如今此地已少有人迹。" mLeagueResourceID="40">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="147" nMapID="10009" nPosX="1344" nPosY="1393" szType="1;2" szName="蛟龙岭" szPic="GZ/ui_maptips_JiaoLongLing.png" szDesc="太白云海最高处，蜿蜒横贯太白云海，将其分割成东西两个部分，宛如蛟龙蛰伏，故而得名。" mLeagueResourceID="41">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="148" nMapID="10009" nPosX="1185" nPosY="1818" szType="2" szName="论剑顶" szDesc="位于太白山之巅，高台凌天，巍峨雄伟。太白每隔数年会召集八荒在此之上举办论剑大会。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="149" nMapID="10009" nPosX="901" nPosY="496" szType="2" szName="鹦歌镇" szPic="GZ/ui_maptips_ShuangMuYuan.png" szDesc="位于秦川西南的小镇，除长居镇民外，还是不少上太白求学或采药之人歇脚之地。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="150" nMapID="10009" nPosX="527" nPosY="682" szType="2" szName="草海腹地" szDesc="位于秦川最西面，是关中草海的延伸，但三面环山，形成天然腹地，气候相对宜人许多。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="151" nMapID="10009" nPosX="1784" nPosY="848" szType="2" szName="银鳞河" szDesc="秦川内河，半年冰封，半年流水，冰雪消融之时，风吹河面微波粼粼，闪耀异常，故而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="152" nMapID="10009" nPosX="1490" nPosY="791" szType="2" szName="镜雪湖" szDesc="秦川内湖，湖水清冽，冰封之时犹如明镜。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="153" nMapID="10009" nPosX="1539" nPosY="1199" szType="2" szName="登云殿" szDesc="位于北斗坪上，曾是太白旧址，风无痕初来时曾曰“登云揽月，太白是也。”故而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="154" nMapID="10009" nPosX="1575" nPosY="1456" szType="2" szName="古祭坛" szDesc="太白建派之前便存在的祭坛，有百年以上的历史，虽然年久失修，但庄严大气犹然不减当年。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="155" nMapID="10009" nPosX="690" nPosY="364" szType="2" szName="笑月湖" szDesc="位于秦川西南，湖面弯弯，俯瞰犹如笑口乍开，又如新月初生，故而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="156" nMapID="10009" nPosX="618" nPosY="1358" szType="2" szName="醉白池" szDesc="秦川因天寒而产烈酒，曾传闻前朝诗仙李白饮酒后醉卧在此池边，三日方醒，因故得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="157" nMapID="10009" nPosX="333" nPosY="1280" szType="2" szName="浩然峰" szDesc="位于秦川西北，曾有诗云“沛然乘天游，浩荡弄云海。”，此峰亦如此，气势磅礴，浩然天际。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="158" nMapID="10009" nPosX="840" nPosY="1528" szType="2" szName="玉匣关" szDesc="位于秦川北面，三面雪山环抱，犹如白玉剑匣。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="159" nMapID="10009" nPosX="1812" nPosY="908" szType="3" szName="子午峡">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="160" nMapID="10009" nPosX="573" nPosY="906" szType="3" szName="药王小驻">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="161" nMapID="10009" nPosX="1446" nPosY="1700" szType="3" szName="苍穹阁">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="162" nMapID="10009" nPosX="1518" nPosY="1803" szType="3" szName="凌霄道">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="163" nMapID="10010" nPosX="1010" nPosY="448" szType="1" szName="杭州城" szPic="HZ/ui_maptips_HangZhouChen.png" szDesc="杭州自古富庶，有海陆之饶，珍异所聚，商贾并辏，安居乐业。" mLeagueResourceID="70">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="1"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="164" nMapID="10010" nPosX="1450" nPosY="658" szType="2" szName="九曜山" szPic="HZ/ui_maptips_JiuYaoShanFD.png" szDesc="位于杭州近郊，山体绵延而狭长，峰峦叠起，犹如九曜星点缀夜空，因而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="165" nMapID="10010" nPosX="1037" nPosY="807" szType="1;2" szName="慈云林" szPic="HZ/ui_maptips_CiYunLin.png" szDesc="位于杭州郊外，城北土地庙的必经之路，不少善男信女自城内往庙中参佛都要途径与此，因而得名。" mLeagueResourceID="61">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="166" nMapID="10010" nPosX="1043" nPosY="1008" szType="1;2" szName="凤凰集" szPic="HZ/ui_maptips_QianTangXian.png" szDesc="相传百余年前，此处遍地参天梧桐，引得凤凰来栖，后名凤凰集。" mLeagueResourceID="60" mFogID="1">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="167" nMapID="10010" nPosX="1303" nPosY="805" szType="1;2" szName="盘龙岭" szPic="HZ/ui_maptips_PanLongLin.png" szDesc="位于凤凰集西边，因出了一名状元郎，当朝皇帝闻之，赐名此地曰盘龙镇。" mLeagueResourceID="67">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="168" nMapID="10010" nPosX="1643" nPosY="800" szType="1;2" szName="淬剑谷" szPic="HZ/ui_maptips_ZuiJianChi.png" szDesc="天下第一巧匠孔雀的隐居所在，相传此处取山水精华，集天地灵气，所炼宝器也充满灵气。" mLeagueResourceID="69">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="169" nMapID="10010" nPosX="1744" nPosY="984" szType="1;2" szName="吴王陵" szPic="HZ/ui_maptips_WuWangLin.png" szDesc="此处虽墓主不明，但其陵规格之高，风水之好，都能突显其显赫身世。" mLeagueResourceID="68">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="170" nMapID="10010" nPosX="1321" nPosY="1066" szType="1;2" szName="一醉轩" szPic="HZ/ui_maptips_YiZuiXuan.png" szDesc="苏杭近郊的一处小榭，临河而建，风景优美，文人墨客与达官贵人常来此处吟诗作对、饮酒赏花。" mLeagueResourceID="66">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="171" nMapID="10010" nPosX="841" nPosY="1143" szType="4;2" szName="落云滩分舵" szPic="HZ/ui_maptips_LuoYunTanFD.png" szDesc="位于凤凰集以北，郡王府以南，官塘河在此分流，东汉先帝在此设登云港，因而得名。" mManorID="3">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="172" nMapID="10010" nPosX="534" nPosY="1008" szType="1;2" szName="西湖" szPic="HZ/ui_maptips_XiHu.png" szDesc="西湖之妙，在于湖裹山中，山屏湖外，湖和山相得益彰。" mLeagueResourceID="56">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="173" nMapID="10010" nPosX="854" nPosY="1358" szType="1;2" szName="红衣林" szPic="HZ/ui_maptips_HongYiLin.png" szDesc="东平郡王府以南的桃林，桃树茂盛，春时桃花烂漫，秋时粉果迷人，远望如少女红装，夭夭灼灼。" mLeagueResourceID="59">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="174" nMapID="10010" nPosX="534" nPosY="1596" szType="1;2" szName="天绝禅院" szPic="HZ/ui_maptips_TianJueChanYuan.png" szDesc="位于杭州以北，庄严宝刹，肃穆辉煌。因是东平郡王的家庙，故不是寻常人随意能登寺求佛的。" mLeagueResourceID="57">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="175" nMapID="10010" nPosX="1156" nPosY="1316" szType="1;2" szName="百里荡" szPic="HZ/ui_maptips_BaiYanDang.png" szDesc="落云滩以南，被官塘河与其支流分割而出，据传古时与落云滩相连，绵绵百里，故得此名。" mLeagueResourceID="64">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="176" nMapID="10010" nPosX="1406" nPosY="1312" szType="1;2" szName="讲武堂" szPic="HZ/ui_maptips_JiangWuTang.png" szDesc="天波府新兵讲武之地，原来是一处书院，但因其主人家境没落，年久失管，遂被天波府收入名下。" mLeagueResourceID="65">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="177" nMapID="10010" nPosX="1325" nPosY="1600" szType="1;2" szName="问道台" szPic="HZ/ui_maptips_WenDaoTai.png" szDesc="天波府训所，百年前曾是道观，不少人登台问道，但自唐后尊佛轻道，早已废弃，后为天波府所用。" mLeagueResourceID="63">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="178" nMapID="10010" nPosX="650" nPosY="336" szType="1;2" szName="钱塘江码头" szPic="HZ/ui_maptips_QianTangJiangMaTou.png" szDesc="十余万家，环以湖山，左右映带，而闽海商贾，风帆浪泊，出入于烟涛杳霭之间，可谓盛矣！" mLeagueResourceID="62">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="179" nMapID="10010" nPosX="832" nPosY="1795" szType="1;2" szName="东平郡王府" szPic="HZ/ui_maptips_DongPingJunWangFu.png" szDesc="大宋魏王赵廷美因为参与谋反被贬，抑郁而终。其子赵德文未受牵连，被封东平郡王，府邸落于杭州。" mLeagueResourceID="58">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="180" nMapID="10010" nPosX="1630" nPosY="1500" szType="4;2" szName="白龙瀑分舵" szPic="HZ/ui_maptips_BaiLongPuFD.png" szDesc="“龙门八景”之最，杭州近郊最大的瀑布景观。宛如一条白龙游弋空中，如烟如雾，在阳光下熠熠生辉。" mManorID="4">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="181" nMapID="10010" nPosX="1404" nPosY="911" szType="2" szName="宁王庄" szDesc="相传是唐朝一代宁王出生地，现在早已不复当年辉煌，然而居民怡然自得，亦是别有一番风味。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="182" nMapID="10010" nPosX="1314" nPosY="422" szType="3" szName="杭州东郊">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="183" nMapID="10010" nPosX="1010" nPosY="644" szType="2" szName="钱塘门" szDesc="杭州钱塘门，乃杭州城主门，自朝至暮，整日川流，热闹非凡。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="184" nMapID="10010" nPosX="1503" nPosY="574" szType="2" szName="天星阁" szDesc="位于杭州近郊九曜山巅，拔地而起，有登九霄、揽群星之势力，前代财神主人建此密库后此而赐名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="185" nMapID="10010" nPosX="487" nPosY="784" szType="2" szName="雷峰塔" szDesc="又名皇妃塔，又称西关砖塔，在西湖南岸夕照山的雷峰上，每当夕阳西下，塔影横空，别有一番景色。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="186" nMapID="10010" nPosX="929" nPosY="872" szType="3" szName="土地庙">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="187" nMapID="10010" nPosX="992" nPosY="935" szType="3" szName="枫河桥">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="188" nMapID="10010" nPosX="1124" nPosY="895" szType="3" szName="玉霞林">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="189" nMapID="10010" nPosX="1211" nPosY="844" szType="3" szName="盘龙镇">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="190" nMapID="10010" nPosX="781" nPosY="238" szType="3" szName="城南寻营">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="191" nMapID="10010" nPosX="781" nPosY="200" szType="3" szName="天牢">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="192" nMapID="10010" nPosX="808" nPosY="175" szType="3" szName="望江门">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="193" nMapID="10010" nPosX="776" nPosY="430" szType="3" szName="清波门">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="194" nMapID="10010" nPosX="864" nPosY="479" szType="3" szName="门派区">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="195" nMapID="10010" nPosX="929" nPosY="576" szType="3" szName="擂台区">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="196" nMapID="10010" nPosX="970" nPosY="230" szType="3" szName="摆摊区">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="197" nMapID="10010" nPosX="1211" nPosY="536" szType="3" szName="天波府">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="198" nMapID="10010" nPosX="1126" nPosY="536" szType="3" szName="盟会区">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="199" nMapID="10010" nPosX="1126" nPosY="462" szType="3" szName="衙门">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="200" nMapID="10010" nPosX="1210" nPosY="380" szType="3" szName="镖局">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="201" nMapID="10010" nPosX="1110" nPosY="380" szType="3" szName="武馆">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="202" nMapID="10010" nPosX="935" nPosY="230" szType="3" szName="拍卖行">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="203" nMapID="10010" nPosX="900" nPosY="230" szType="3" szName="摆摊区">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="204" nMapID="10010" nPosX="850" nPosY="230" szType="3" szName="财神商会">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="205" nMapID="10010" nPosX="909" nPosY="379" szType="3" szName="乐坊">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="206" nMapID="10010" nPosX="1160" nPosY="380" szType="3" szName="活动区">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="207" nMapID="10010" nPosX="1110" nPosY="330" szType="3" szName="书院">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="208" nMapID="10010" nPosX="836" nPosY="359" szType="3" szName="商业区">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="209" nMapID="10010" nPosX="1139" nPosY="270" szType="3" szName="永兴寺">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="210" nMapID="10010" nPosX="1252" nPosY="430" szType="3" szName="涌金门">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="211" nMapID="10010" nPosX="535" nPosY="1242" szType="3" szName="野佛渡">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="212" nMapID="10011" nPosX="388" nPosY="1334" szType="1;2" szName="枫桥镇" szPic="JN/ui_maptips_FengQiaoZhen.png" szDesc="“月落乌啼霜满天，江枫渔火对愁眠”。诗人张继的这首《枫桥夜泊》，就是在枫桥镇所作。" mLeagueResourceID="71">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="213" nMapID="10011" nPosX="797" nPosY="1410" szType="1;2" szName="铸神谷" szPic="JN/ui_maptips_ZhuShenGu.png" szDesc="位于江南的一处著名山庄,铸神谷齐家人均精通铸造之术,所造兵器铠甲乃武林一绝。" mLeagueResourceID="72">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="214" nMapID="10011" nPosX="675" nPosY="1044" szType="1;2" szName="龙井茶园" szPic="JN/ui_maptips_LongJinChaYuan.png" szDesc="江南一处茶园，以生产龙井而闻名，但茶农却饱受十二连环坞剥削之苦。" mLeagueResourceID="73">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="215" nMapID="10011" nPosX="1040" nPosY="1026" szType="1;2" szName="松江分舵" szPic="JN/ui_maptips_SongJiangFenDuo.png" szDesc="十二连环坞在江南的一处分舵，以松江为名，主要负责收缴龙井茶园的收益以及监视折之江上的来往船只。" mLeagueResourceID="74">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="216" nMapID="10011" nPosX="823" nPosY="750" szType="1;2" szName="天泉山庄" szPic="JN/ui_maptips_TianQuanShanZhuang.png" szDesc="连环坞鹰眼老七避暑的行宫，防守森严，装潢奢华，每年他都会有三个月住在天泉山庄。" mLeagueResourceID="75">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="217" nMapID="10011" nPosX="1563" nPosY="1248" szType="1;2" szName="狮子坡" szPic="JN/ui_maptips_ShiZiPo.png" szDesc="位于江南的一处山坡，坡上密林丛生，即便白天也是阴冷如夜，乃是剪径毛贼用来伏击过往行商的绝佳地点。" mLeagueResourceID="79">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="218" nMapID="10011" nPosX="1500" nPosY="1000" szType="1;2" szName="霹雳堂旧址" szPic="JN/ui_maptips_PiLiTangJiuZhi.png" szDesc="霹雳堂本是江南大派，以雷火之器闻名江湖，但多年前一夜之间全派被杀得鸡犬不留，凶手至今身份不明。" mLeagueResourceID="81">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="219" nMapID="10011" nPosX="1337" nPosY="784" szType="1;2" szName="长江分舵" szPic="JN/ui_maptips_ChangJiangFenDuo.png" szDesc="十二连环坞在江口的一处分舵，舵主龙丘青凶狠残暴，乃是连环坞一支重要的战力。" mLeagueResourceID="80">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="220" nMapID="10011" nPosX="1169" nPosY="634" szType="1;2" szName="四明书院" szPic="JN/ui_maptips_SiMingShuYuan.png" szDesc="江南著名书院，隶属于绝智轩，经常有文人雅士在此讲学。" mLeagueResourceID="77">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="221" nMapID="10011" nPosX="1477" nPosY="337" szType="1;2" szName="连环坞" szPic="JN/ui_maptips_LianHuanWuZongDuo.png" szDesc="连环坞的江南总舵，建筑庞多，地形复杂，易守难攻，乃是整个江南地区最坚固的堡垒。" mLeagueResourceID="76">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="222" nMapID="10011" nPosX="1107" nPosY="393" szType="1;2" szName="天池分舵" szPic="JN/ui_maptips_TianChiFenDuo.png" szDesc="十二连环坞最强大的一处分舵，坐落于江南交通要道之上，是整个连环坞江南布局的咽喉所在。" mLeagueResourceID="78">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="223" nMapID="10011" nPosX="389" nPosY="921" szType="4;2" szName="盘龙总舵" szPic="JN/ui_maptips_PanLongZD.png" szDesc="位于盘龙脊上的一处盟会居所，近些年来各盟会摩擦不断，此总舵也不断易主，但总归都是四盟的地盘。" mManorID="1">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="224" nMapID="10011" nPosX="998" nPosY="1296" szType="4;2" szName="百花坪分舵" szPic="JN/ui_maptips_BaiHuaPingFD.png" szDesc="位于江南百花坪的一处盟会居所，近些年来各盟会摩擦不断，此舵也不断易主，但总归都是四盟的地盘。" mManorID="2">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="225" nMapID="10011" nPosX="1265" nPosY="1143" szType="2" szName="鲲鹏渡" szDesc="鲲鹏会位于江南的码头，平时用来停泊船只和接送货物，是一个打尖歇脚的好地方。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="226" nMapID="10011" nPosX="400" nPosY="1151" szType="2" szName="飞雪滩" szDesc="江南有一处石滩，因滩上石料白如飞雪而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="227" nMapID="10011" nPosX="546" nPosY="1345" szType="2" szName="斜云小径" szDesc="通往铸神谷后山的林荫小道，风景十分秀丽，是属于铸神谷的地盘，但铸神谷中人并未在此设立看守。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="228" nMapID="10011" nPosX="1166" nPosY="1549" szType="2" szName="月沼滩" szDesc="地处折之江入口，一面深峡夹川，惊涛飞瀑，另一面却地势坦荡，星垂平野。月升时照影峡川，景色宜人，故而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="229" nMapID="10011" nPosX="460" nPosY="445" szType="1;2" szName="樱风谷" szPic="JN/ui_maptips_YingFengGu.png" szDesc="曾是东瀛人的一处据点，当年此地樱花遍地，自叶知秋除去这些东瀛人之后，樱花不再盛开。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="230" nMapID="10011" nPosX="1562" nPosY="808" szType="2" szName="鸣雷谷" szDesc="霹雳堂当年研制火药的山谷，霹雳堂解散后，制造火药的房屋器具一直留在这里。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="231" nMapID="10011" nPosX="1628" nPosY="985" szType="2" szName="长风林" szDesc="霹雳堂后的树林，长年无风自动，这里本属帝王州的势力，鲲鹏会孟长风之名就是取自于此。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="232" nMapID="10011" nPosX="231" nPosY="1360" szType="2" szName="折之江" szDesc="横贯江南有一条大江，此江缓而不急，江水走势如之字回折，故名折之江。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="233" nMapID="10011" nPosX="1250" nPosY="985" szType="2" szName="九回弯" szDesc="山路崎岖不平，故名九回，当年风无痕游历至此，有感而发创九曲剑法。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="234" nMapID="10011" nPosX="1022" nPosY="699" szType="2" szName="义字坡" szDesc="山坡上的岔路远远望去好像义字，且当年风无痕就是在此地与独孤飞云结义，使得此地名声大噪！">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="235" nMapID="10011" nPosX="1005" nPosY="858" szType="2" szName="龙首山麓" szDesc="此山属于连环坞的地盘，因山形类似龙首而得名，鹰眼老七的天泉山庄就是在山腰而建。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="236" nMapID="10011" nPosX="644" nPosY="1626" szType="2" szName="白云山" szDesc="此山终年云雾缭绕，宛若仙山，传说山中有神仙，但从来没有人见过。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="237" nMapID="10011" nPosX="992" nPosY="276" szType="3" szName="黄莺浦">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="238" nMapID="10013" nPosX="1348" nPosY="874" szType="2" szName="古陶官道" szDesc="横贯徐海，于途可远眺雪山皑皑接天、原野苍茫辽阔。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="239" nMapID="10013" nPosX="1183" nPosY="897" szType="1;2" szName="古陶镇" szPic="XH/ui_maptips_GuTaoZhen.png" szDesc="瓷器自唐方兴，徐海当地便有私窑，多产土陶，砌窑、烧制均循古法，此镇得名古陶。" mLeagueResourceID="29">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="240" nMapID="10013" nPosX="1228" nPosY="400" szType="1;2" szName="剑绝轩" szPic="XH/ui_maptips_JianJueXuan.png" szDesc="此地建成之初，青龙会之主在此闭关，刻下“剑本无心斩空尘，人当无情挥剑绝”之句。" mLeagueResourceID="33">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="241" nMapID="10013" nPosX="1524" nPosY="1232" szType="1;2" szName="天龙古刹" szPic="XH/ui_maptips_TianLongGuSha.png" szDesc="天竺民间修习密宗高僧云游徐海，宣扬佛法，点化徐海一巨贾遁入空门，倾资建起天龙寺。" mLeagueResourceID="27">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="242" nMapID="10013" nPosX="968" nPosY="500" szType="1;2" szName="骅阳林" szPic="XH/ui_maptips_HuaYangLin.png" szDesc="遍野桦树杨树，密林皑皑，深不可知。常有盗匪、马贼藏匿，平凡人家、猎户均不往此地。" mLeagueResourceID="32">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="243" nMapID="10013" nPosX="707" nPosY="750" szType="2" szName="狂刀营" szDesc="花白凤蛰伏数年，重振神刀堂，此派行为自由、无拘无束，更欲傲视武林，此别营故称狂刀营。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="244" nMapID="10013" nPosX="900" nPosY="983" szType="1;2" szName="藏月湾" szPic="XH/ui_maptips_CangYueWan.png" szDesc="徐海天水河横贯东西，溪流入秋而沣，遇石成滩。" mLeagueResourceID="25">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="245" nMapID="10013" nPosX="750" nPosY="1194" szType="1;2" szName="神武门" szPic="XH/ui_maptips_CangXueLin.png" szDesc="徐海北部千里雪山，雪峰之巅终年积雪，山麓之下入夏而绿，入秋渐红，入冬胜白。" mLeagueResourceID="24">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="246" nMapID="10013" nPosX="563" nPosY="918" szType="1;2" szName="平阳驿站" szPic="XH/ui_maptips_PingYangYiZhan.png" szDesc="西顾平阳落余晖，北望苍雪映晚霞；徐海接燕云驿站，往来客商中转之地。" mLeagueResourceID="28">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="247" nMapID="10013" nPosX="1081" nPosY="1262" szType="4;2" szName="固北岭分舵" szPic="XH/ui_maptips_GuBeiLingFD.png" szDesc="北边壁垒，依山而建，气势如虹。" mManorID="16">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="248" nMapID="10013" nPosX="930" nPosY="750" szType="4;2" szName="白鹿野分舵" szPic="XH/ui_maptips_BaiLuYeFD.png" szDesc="地处徐海腹地，固守中央。" mManorID="15">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="249" nMapID="10013" nPosX="1221" nPosY="1162" szType="2" szName="杜宅别院" szDesc="徐海一霸杜家别院，府中主事杜伯喜好狩猎，自称兽王。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="250" nMapID="10013" nPosX="1530" nPosY="834" szType="1;2" szName="古陶驿站" szPic="XH/ui_maptips_GuTaoGuanDao.png" szDesc="徐海官驿，商队多在此地歇脚休憩，有文人骚客路过，留诗歌云“苍雪漫山挽枫红，塞歌千里志壮怀”" mLeagueResourceID="30">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="251" nMapID="10013" nPosX="1330" nPosY="1230" szType="2" szName="红草滩" szDesc="徐海东北草海，其下有红土矿，杂草吸此而生，鲜红如血。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="252" nMapID="10013" nPosX="1482" nPosY="700" szType="2" szName="乱石滩" szDesc="天水河拐弯处冲刷而成的浅滩，乱石罗布，常有马贼躲入其中。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="253" nMapID="10013" nPosX="1168" nPosY="748" szType="2" szName="云眉道" szDesc="连接绝情岭与骅阳林的山路，道路弯曲如眉。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="254" nMapID="10013" nPosX="1067" nPosY="230" szType="2" szName="绝情岭" szDesc="徐海东南山麓，山势虽缓却杳无人烟，山势延绵至骅阳林。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="255" nMapID="10013" nPosX="610" nPosY="465" szType="1;2" szName="飞仙岭" szPic="XH/ui_maptips_FeiXianLing.png" szDesc="荒岭之上巨石遍布，此地孤高，山势如登天飞仙之势，故称飞仙岭。" mLeagueResourceID="31">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="256" nMapID="10013" nPosX="614" nPosY="1238" szType="2" szName="断剑阁" szDesc="神武门中部分堂，取自“血影无形，剑断人亡”之意。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="257" nMapID="10013" nPosX="1050" nPosY="446" szType="2" szName="望山道" szDesc="望山而上的小径，红枫掩影之处依稀可见山顶奇景。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="258" nMapID="10013" nPosX="1330" nPosY="620" szType="1;2" szName="徐海野" szPic="XH/ui_maptips_XuHaiYe.png" szDesc="广袤的原野，杂草丛生，常有走兽出没。" mLeagueResourceID="26">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="259" nMapID="10013" nPosX="790" nPosY="620" szType="2" szName="龙纹沟" szDesc="横贯徐海西南的沟壑，弯曲如龙。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="260" nMapID="10013" nPosX="822" nPosY="1296" szType="2" szName="苍雪岭" szDesc="徐海北部千里雪山，雪峰之巅终年积雪，山岭之上乃是徐海名门神武门。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="261" nMapID="10013" nPosX="900" nPosY="1194" szType="2" szName="无影阁" szDesc="神武门东部分堂，取自拳脚无眼，杀人无影之意。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="262" nMapID="10013" nPosX="680" nPosY="1194" szType="3" szName="玄刀阁">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="263" nMapID="10013" nPosX="930" nPosY="983" szType="3" szName="福临客栈">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="264" nMapID="10013" nPosX="1330" nPosY="973" szType="3" szName="采石营">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="265" nMapID="10013" nPosX="1080" nPosY="1111" szType="3" szName="天水河">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="266" nMapID="10012" nPosX="277" nPosY="659" szType="1;2" szName="飞霞渡" szPic="KF/ui_maptips_FeiXiaDu.png" szDesc="黄河边上渡口，乃是入汴京必经之地，">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="267" nMapID="10012" nPosX="445" nPosY="531" szType="4;2" szName="神乐台分舵" szPic="KF/ui_maptips_ShenYueTaiFD.png" szDesc="此地本是皇族祭天之所，每至祭祀，乐音渺渺，故名神乐台，现已成为盟会分舵。" mManorID="17">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="268" nMapID="10012" nPosX="598" nPosY="254" szType="1;2" szName="尧山" szPic="KF/ui_maptips_YaoShan.png" szDesc="居于汴梁之外，大山壁立，异峰如塑，怪石纷呈。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="269" nMapID="10012" nPosX="881" nPosY="194" szType="1;2" szName="居士林" szPic="KF/ui_maptips_JuShiLin.png" szDesc="居士林乃是邓心禅出走少林后自立门户所建教派，依尧山山势而建的大寨，远望气势不同。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="270" nMapID="10012" nPosX="628" nPosY="890" szType="1;2" szName="朱仙镇" szPic="KF/ui_maptips_ZhuXianZheng.png" szDesc="汴梁城外临河古镇，以农耕渔牧为主，民风古朴。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="271" nMapID="10012" nPosX="1139" nPosY="631.5" szType="1;2" szName="开封" szPic="KF/ui_maptips_KaiFeng_03.png" szDesc="大宋朝皇都所在，设开封府，下辖汴梁周边诸地。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="272" nMapID="10012" nPosX="1533" nPosY="413" szType="1;2" szName="相国寺" szPic="KF/ui_maptips_XiangGuoSi.png" szDesc="始建前朝的千年古刹，香火极盛，常有皇族之人前来礼佛。相国寺亦尚武，自成一派，颇具盛名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="273" nMapID="10012" nPosX="1818" nPosY="740" szType="1;2" szName="黄华岭" szPic="KF/ui_maptips_HuangHuaLing.png" szDesc="开封城外林木繁茂之地，常有皇家之人来此围猎。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="274" nMapID="10012" nPosX="1658" nPosY="1121" szType="1;2" szName="平逢道" szPic="KF/ui_maptips_PingFengDao.png" szDesc="开封东门外依山而建的官道，客商走卒，往来不息。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="275" nMapID="10012" nPosX="1588" nPosY="1393" szType="1;2" szName="十八里湾" szPic="KF/ui_maptips_ShiLiBaWan.png" szDesc="黄河大湾，有十八里远故而得名。此处河水极深，故而修成大码头，以供巨船停泊。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="276" nMapID="10012" nPosX="538" nPosY="1204" szType="1;2" szName="淘沙峪" szPic="KF/ui_maptips_TaoShaYu.png" szDesc="黄河关口，水势汹涌，地势陡峭，如关隘一般难以通过。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="277" nMapID="10012" nPosX="686" nPosY="1604" szType="1;2" szName="少室山" szPic="KF/ui_maptips_ShaoShiShan.png" szDesc="少室山山势陡峭险峻，奇峰异观，比比皆是。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="278" nMapID="10012" nPosX="1180" nPosY="1632" szType="1;2" szName="稽首岭" szPic="KF/ui_maptips_JiShouLing.png" szDesc="延绵至少室山前的山麓，故称稽首岭，此林乃是沟通少室山脉与黄河河岸之处。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="279" nMapID="10012" nPosX="1585" nPosY="1715" szType="4;2" szName="琼华苑分舵" szPic="KF/ui_maptips_QiongHuaYuan.png" szDesc="此地本是先王行宫，避暑别院，后赐予盟会，作为分舵。" mManorID="18">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="280" nMapID="10012" nPosX="1320" nPosY="1174" szType="1;2" szName="问渠林" szPic="KF/ui_maptips_WenQuLin.png" szDesc="自汴梁北门出城所见密林；早年朝廷修了一条长渠引水入护龙河，建成后水渠填为林地，便是问渠林。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="281" nMapID="10012" nPosX="395" nPosY="899" szType="2" szName="黄河" szDesc="派出昆仑五色流，一支黄浊贯中州。吹沙走浪几千里，转侧屋闾无处求——王安石诗中所说便是黄河。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="282" nMapID="10012" nPosX="821" nPosY="930" szType="2" szName="养心园" szDesc="户部侍郎柳信文告老还乡后所建小苑，此地安静清幽，离朱仙镇仅数里之遥。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="283" nMapID="10012" nPosX="745" nPosY="669" szType="2" szName="西水关" szDesc="往汴梁正西大门必经之地，越靠近汴梁，城守防卫越密。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="284" nMapID="10012" nPosX="1324" nPosY="634" szType="2" szName="皇宫" szDesc="皇族所在，天子居所。目前天子御驾亲征，皇宫内外禁卫军守卫森严，宫门常闭，不许常人入内。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="285" nMapID="10012" nPosX="1030" nPosY="969" szType="2" szName="护龙河" szDesc="环绕汴梁京畿的护城河，河面极宽，河道极深，常人难以逾越。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="286" nMapID="10012" nPosX="1122" nPosY="137" szType="2" szName="百鸟林" szDesc="汴梁南面密林，风过处，百鸟惊飞，故称百鸟林。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="287" nMapID="10012" nPosX="1393" nPosY="1432" szType="2" szName="洛河湾" szDesc="大河拐弯之处，水势湍急；几经治水，河岸颇高，少有泛滥。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="288" nMapID="10012" nPosX="1557" nPosY="832" szType="3" szName="黑街">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="289" nMapID="10012" nPosX="1480" nPosY="832" szType="3" szName="擂台区">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="290" nMapID="10012" nPosX="1320" nPosY="836" szType="3" szName="盟会区">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="291" nMapID="10012" nPosX="1113" nPosY="843" szType="3" szName="镖局">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="292" nMapID="10012" nPosX="1030" nPosY="802" szType="3" szName="天波府">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="293" nMapID="10012" nPosX="1260" nPosY="380" szType="3" szName="摆摊区">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="294" nMapID="10012" nPosX="1100" nPosY="410" szType="3" szName="开封府">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="295" nMapID="10012" nPosX="1163" nPosY="375" szType="3" szName="监狱">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="296" nMapID="10012" nPosX="1260" nPosY="437" szType="3" szName="拍卖行">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="297" nMapID="10012" nPosX="1349" nPosY="450" szType="3" szName="乐坊">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="298" nMapID="10012" nPosX="1340" nPosY="370" szType="3" szName="书院">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="299" nMapID="10012" nPosX="1550" nPosY="600" szType="3" szName="晨晖苑">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="300" nMapID="10006" nPosX="698" nPosY="625" szType="4;2" szName="凤鸣谷分舵" szPic="YD/ui_maptips_FengMinPoFD.png" szDesc="古时名仕在此挥毫“昆山玉碎凤凰叫，芙蓉泣露香兰笑。”后渐渐有人居于此地，起名凤鸣谷。" mManorID="7">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="301" nMapID="10006" nPosX="1210" nPosY="1234" szType="4;2" szName="伏龙岭总舵" szPic="YD/ui_maptips_FuLongLingZD.png" szDesc="古称此地“伏龙一奋跃，凤雏亦飞翔。”渐渐引为佳话，此地也被称为伏龙岭。" mManorID="8">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="302" nMapID="10006" nPosX="341" nPosY="427" szType="1;2" szName="罗苏关" szPic="YD/ui_maptips_LuoSuGuan.png" szDesc="罗藏山脉之尽头，天朝恩泽之边境。此关之外，天下不再姓赵。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="303" nMapID="10006" nPosX="490" nPosY="1017" szType="1;2" szName="饮玉镇" szPic="YD/ui_maptips_YinYuZhen.png" szDesc="此镇本另有其名，但方言与中原大不相同，十分难记，而云滇盛产玉石，中原商人慕名而来，在此南陲小镇易物通商，便改称此名，沿用至今。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="304" nMapID="10006" nPosX="210" nPosY="1390" szType="1;2" szName="沧月岭" szPic="YD/ui_maptips_CangYueLing.png" szDesc="云滇湿热，而此地因地势高耸，清晨和夜晚竟感沧沧凉凉，如等广寒宫，故而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="305" nMapID="10006" nPosX="522" nPosY="1762" szType="2" szName="刺竹庄" szDesc="传闻唐时侠女聂隐娘，曾于山中刺竹为城，困数万大军，虽乃传闻，却留下此地名为纪。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="306" nMapID="10006" nPosX="527" nPosY="1542" szType="2" szName="迷音坡" szDesc="此地树木繁盛，古木参天，风吹之硿硿焉，行人夜入此山，古木蔽月，迷音入耳，瘆人之极。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="307" nMapID="10006" nPosX="1401" nPosY="818" szType="1;2" szName="神柱谷" szPic="YD/ui_maptips_ShenZhuGu.png" szDesc="相传此处乃极凶之所在，血光横生，火煞冲人。当地人特筑图腾、立蚩尤像，以镇天凶。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="308" nMapID="10006" nPosX="1594" nPosY="1394" szType="1;2" szName="赤云山" szPic="YD/ui_maptips_ChiYunShan.png" szDesc="此山背临火山，火山灰夹杂火星随风飘散，宛如赤色火云笼罩山巅，故而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="309" nMapID="10006" nPosX="1606" nPosY="1655" szType="2" szName="天剑锋" szDesc="罗藏山的最高峰，宛如一把碧剑插入天际，故而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="310" nMapID="10006" nPosX="901" nPosY="1022" szType="1;2" szName="万劫海" szPic="YD/ui_maptips_WanJieHai.png" szDesc="火山贯日，赤焰虏云，炎氛塞空，天地赤红。行经此地如临万劫地狱，人马皆惊，故而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="311" nMapID="10006" nPosX="831" nPosY="1250" szType="1;2" szName="陨星湖" szPic="YD/ui_maptips_YunXingHu.png" szDesc="传闻此地本无湖，百年前一颗陨星坠落与此，扬尘万里，遮天蔽日，烟雾散去后，一湾深湖赫然现实。当地人将其当作天泽，十分神圣。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="312" nMapID="10006" nPosX="840" nPosY="308" szType="1;2" szName="怒河洲" szPic="YD/ui_maptips_NuShuiZhou.png" szDesc="云滇曾有数十部落林立，后汇为一股。此地乃其中怒水部的起源之所。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="313" nMapID="10006" nPosX="1048" nPosY="722" szType="1;2" szName="浣月坝" szPic="YD/ui_maptips_WanYueBa.png" szDesc="浣月湖毗邻火山，水体温热，湖分双月形毗连，中有天然水坝，故而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="314" nMapID="10006" nPosX="1800" nPosY="500" szType="1;2" szName="罗藏山" szPic="YD/ui_maptips_LuoZangShan.png" szDesc="罗藏山脉主峰，瘴气四溢，蛇虫爬行，是五毒教总坛之所在，功夫以诡异神秘铸成，自由生存，快意恩仇。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="315" nMapID="10006" nPosX="834" nPosY="836" szType="2" szName="凤鸣道" szDesc="入凤鸣谷的主道，蜿蜒曲折，古木夹道而立，风景十分壮丽。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="316" nMapID="10006" nPosX="334" nPosY="730" szType="2" szName="卧云岭" szDesc="山体高耸，是凤鸣谷与饮玉镇之间的天然屏障，令饮玉镇能成为通商之地而不被江湖纷争所打扰。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="317" nMapID="10006" nPosX="1017" nPosY="1628" szType="1;2" szName="星痕谷" szPic="YD/ui_maptips_XingHenGu.png" szDesc="相传坠星湖形成之时，陨星劈开天空，划破山体，滚滚而去，形成了这条焦痕。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="318" nMapID="10006" nPosX="1800" nPosY="900" szType="2" szName="巫月坛" szDesc="五毒族人，以擅强武力的女子为尊。巫月坛乃女子向月神祈求力量之所在，后为圣女居所。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="319" nMapID="10006" nPosX="1752" nPosY="300" szType="1;2" szName="羲和谷" szPic="YD/ui_maptips_LuoZangShan.png" szDesc="羲和者，日神也，帝俊之妻。此地乃五毒药师取太阳之力，饲育瘴、疠、蛊、毒、蜃之所在。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="320" nMapID="10006" nPosX="1450" nPosY="208" szType="1;2" szName="九黎谷" szPic="YD/ui_maptips_LuoZangShan.png" szDesc="九黎者，蚩尤之亲卫也。相传五毒一派的各种武功，均传自此。九黎谷乃五毒弟子接受武学考校之所在。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="321" nMapID="10006" nPosX="1752" nPosY="700" szType="3" szName="四遗堂" szDesc="五毒历任教主之居所。教主履新，需有四物为征：银冠、白虎、蟒鞭、秘笈，代代相传、生生不息，是为“四遗”。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="322" nMapID="10006" nPosX="1700" nPosY="80" szType="3" szName="蚩尤坛" szDesc="云滇百姓多以蚩尤为祖先。蚩尤坛乃祭祀之处，亦是五毒历年圣女选举大典之所在。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="323" nMapID="10006" nPosX="1650" nPosY="440" szType="3" szName="百草间" szDesc="五毒之瘴疠蜃蛊毒，均需以百草为饲，以日月为养。此处为水土至为丰厚之地，最宜培育百草。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="324" nMapID="10006" nPosX="1300" nPosY="308" szType="3" szName="白露门" szDesc="五毒山门。原名五仙门，前任教主蓝彩蝶为纪念好友秦白露，将其改名为白露门。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="325" nMapID="10006" nPosX="1550" nPosY="250" szType="3" szName="六圣居" szDesc="五毒有六大护法长老，名为六圣。相传此处保有五毒神物“枫香圣泪”，由六圣轮流看守。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="326" nMapID="10003" nPosX="1041" nPosY="688" szType="1;2" szName="洞庭山" szPic="HX/ui_maptips_DongTingShan.png" szDesc="登临此山，可观美景，衔远山吞长江，浩浩汤汤，横无际涯，山以湖为名，湖为山献景。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="327" nMapID="10003" nPosX="975" nPosY="444" szType="1;2" szName="青螺山" szPic="HX/ui_maptips_QingLuoShan.png" szDesc="烟淼绕湖畔，青螺远观山。此山山顶尖耸，山路环绕，形似河螺，传为古时青螺所化，故名青螺山。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="328" nMapID="10003" nPosX="621" nPosY="604" szType="1;2" szName="聚贤围" szPic="HX/ui_maptips_JuXianWei.png" szDesc="不作圣贤客，聚散两相宜。此地原为书院，名士鸿儒往来其间，今风光不在，名字却流传了下来。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="329" nMapID="10003" nPosX="622.5" nPosY="263" szType="1;2" szName="览镜山" szPic="HX/ui_maptips_LanJingShan.png" szDesc="镜湖千百里，览尽无数山。此山居于镜湖之畔，以览镜为名，皆为此意。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="330" nMapID="10003" nPosX="325" nPosY="715" szType="1;2" szName="青草海" szPic="HX/ui_maptips_QingCaoHai.png" szDesc="青绒随风动，草木自成海。此地水草杂生，微风拂过水草高低起伏有如波浪，渔民戏称青叶海。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="331" nMapID="10003" nPosX="1020" nPosY="1400" szType="4;2" szName="逐浪滩分舵" szPic="HX/ui_maptips_ZhuLangTan.png" szDesc="此处莅临湖畔，每有大风引动大浪，湖中无数河鲜扇贝，渔民争相拾取，逐浪而去，故得名逐浪滩。" mManorID="12">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="332" nMapID="10003" nPosX="1280" nPosY="1780" szType="4;2" szName="栖燕坪分舵" szPic="HX/ui_maptips_XiYanPingFD.png" szDesc="此地气候温和，常有候鸟南飞停留在此，经久不去，故名栖燕坪。" mManorID="11">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="4"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="333" nMapID="10003" nPosX="790" nPosY="593" szType="3" szName="聚义厅">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="334" nMapID="10003" nPosX="930" nPosY="685" szType="3" szName="长老堂">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="335" nMapID="10003" nPosX="550" nPosY="652" szType="3" szName="绿竹楼">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="336" nMapID="10003" nPosX="966" nPosY="784" szType="3" szName="龙头阁">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="337" nMapID="10003" nPosX="1073" nPosY="790" szType="3" szName="集贤楼">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="338" nMapID="10003" nPosX="904" nPosY="422" szType="3" szName="丐祖祠">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="339" nMapID="10003" nPosX="508" nPosY="323" szType="3" szName="红眉小筑">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="340" nMapID="10003" nPosX="665" nPosY="780" szType="3" szName="酒香亭">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="341" nMapID="10003" nPosX="1542" nPosY="377" szType="1;2" szName="星云坪" szPic="HX/ui_maptips_XingYunPing.png" szDesc="礁石座座，星罗棋布，水雾缭绕，有若苍云。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="342" nMapID="10003" nPosX="1266" nPosY="500" szType="2" szName="朗吟馆" szDesc="远旷千里，声传山阳，谦谦君子，声名莫扬。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="343" nMapID="10003" nPosX="1722" nPosY="642" szType="1;2" szName="巴陵古镇" szPic="HX/ui_maptips_BaLinGuZheng.png" szDesc="傍湖而建，小镇依依，千载悠悠，闻录旧史。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="344" nMapID="10003" nPosX="1632" nPosY="1224" szType="1;2" szName="水陆洲" szPic="HX/ui_maptips_ShuiLuZhou.png" szDesc="碧水沧沧，有洲其上，朱婷玉丽，宛在水央。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="345" nMapID="10003" nPosX="1659" nPosY="1732" szType="1;2" szName="烟波尾" szPic="HX/ui_maptips_YanBoWei.png" szDesc="水雾蒙蒙，趁夜当空，随风摇曳，烟波其中。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="346" nMapID="10003" nPosX="355" nPosY="1152" szType="1;2" szName="秋月林" szPic="HX/ui_maptips_QiuYueLin.png" szDesc="秋风徐来，月影辉辉，枝叶轻摆，语传林林。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="347" nMapID="10003" nPosX="297" nPosY="1687" szType="1;2" szName="仙泪山" szPic="HX/ui_maptips_XianLeiShan.png" szDesc="卿卿玄女，殇殇泪落，落落九霄，立立如山。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="348" nMapID="10003" nPosX="582" nPosY="1508" szType="2" szName="儒溪镇" szDesc="子曰成仁，孟曰取义，青史传承，皆有儒生。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="349" nMapID="10003" nPosX="986" nPosY="1745" szType="1;2" szName="潇湘集" szPic="HX/ui_maptips_XiaoXiangJi.png" szDesc="潇水瑟瑟，临湘转落，有集在此，悄悄零落。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="350" nMapID="10003" nPosX="945" nPosY="1034" szType="1;2" szName="偃浪坡" szPic="HX/ui_maptips_YanLangPo.png" szDesc="山来驻足，水来停波，茵茵漾漾，在此一坡。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="351" nMapID="10003" nPosX="1459" nPosY="868" szType="1;2" szName="玉镜湖" szPic="HX/ui_maptips_YuJingHu.png" szDesc="波光如玉，湖平若镜，日月光辉，尽在其内。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="352" nMapID="10003" nPosX="1266" nPosY="1332" szType="2" szName="云雾泽" szDesc="有云居上，有雾中央，洮泽其下，乌乌泱泱。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="353" nMapID="10003" nPosX="1875" nPosY="479" szType="3" szName="座子轩">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="354" nMapID="10003" nPosX="1902" nPosY="551" szType="3" szName="义庄">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="355" nMapID="10003" nPosX="1576" nPosY="311" szType="3" szName="盘角曲四斋">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="3"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="356" nMapID="10004" nPosX="961" nPosY="1784" szType="1;2" szName="归雁谷" szPic="YY/ui_maptips_GuiYanGu.png" szDesc="归雁谷本是几国交界、马贼肆虐的三不管地带，有“汉人不北渡，汉雁不北飞”之称，故名“归雁谷”。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="357" nMapID="10005" nPosX="1263" nPosY="1570" szType="1;2" szName="云来镇" szPic="BS/ui_maptips_YunLaiZhen.png" szDesc="云来镇地势高耸，又因巴蜀常年水气弥漫，清晨迷雾散尽前，从崖下仰望，整个镇子宛若置于云中，仙气飘飘，名由此来。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="358" nMapID="10005" nPosX="809" nPosY="1790" szType="2" szName="风啸崖" szDesc="位于巴蜀北，崖边大江汇入，两面峭壁千丈，地势十分险要。崖顶经年长风呼啸，故而得名。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="359" nMapID="10011" nPosX="957" nPosY="750" szType="5;2" szName="荡平龙首山" szPic="JN/ui_maptips_TianQuanShanZhuang.png">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="5"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="360" nMapID="10010" nPosX="906" nPosY="1650" szType="5;2" szName="鏖战郡王府" szPic="HZ/ui_maptips_DongPingJunWangFu.png">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="5"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="361" nMapID="10001" nPosX="1058" nPosY="550" szType="5;2" szName="奇袭血衣楼" szPic="JH/ui_maptips_XueYiLou.png">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="5"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="362" nMapID="10013" nPosX="640" nPosY="1180" szType="5;2" szName="强袭神武门" szPic="XH/ui_maptips_CangXueLin.png">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="5"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="363" nMapID="10012" nPosX="1025" nPosY="490" szType="5;2" szName="雨夜镇天牢" szPic="KF/ui_maptips_KaiFeng_03.png">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="5"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="364" nMapID="10004" nPosX="560" nPosY="364" szType="5;2" szName="血战苍梧城" szPic="YY/ui_maptips_CangWuCheng.png">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="5"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="365" nMapID="10009" nPosX="320" nPosY="1350" szType="5;2" szName="天峰会八荒" szPic="GZ/ui_maptips_TianFengHui.png">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="5"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="366" nMapID="10009" nPosX="550" nPosY="300" szType="5;2" szName="喋血万雪窟" szPic="GZ/ui_maptips_WanXueKu.png">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="5"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="367" nMapID="10013" nPosX="85" nPosY="370" szType="1;2" szName="归刀殿" szPic="XH/ui_maptips_GuiDaoDian.png" szDesc="神刀正殿，门派议事之处。其地势高耸，飞阁流丹，格局雄奇，有巧夺天工之妙。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="368" nMapID="10013" nPosX="200" nPosY="670" szType="1;2" szName="凤羽殿" szPic="XH/ui_maptips_FengYuDian.png" szDesc="神刀后殿，花白凤所居之处。远眺雪山，毗邻飞瀑，风景极为壮阔；层台累榭，丹楹刻桷，匠工极为精美。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="369" nMapID="10013" nPosX="130" nPosY="100" szType="1;2" szName="驯鹰场" szPic="XH/ui_maptips_XunYingChang.png" szDesc="神刀驯鹰之所在，山谷极深，峭壁环绕，石洞层叠，鹰就住在峭壁之上。刀是伙伴，鹰是家人，亲密无间，进退不离。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="370" nMapID="10013" nPosX="415" nPosY="740" szType="1;2" szName="琉璃场" szPic="XH/ui_maptips_LiuLiChang.png" szDesc="神刀打造琉璃之所在。精美的琉璃可以给门派带来不少的收入。背靠凛冰湖下游的雪山融水，方便取水。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="371" nMapID="10013" nPosX="470" nPosY="515" szType="1;2" szName="铸刀场" szPic="XH/ui_maptips_ZhuDaoChang.png" szDesc="神刀铸刀之所在，其标志性巨大熔炉乃是西北冷氏传人冷皓轩的杰作。有最好的刀，才能有最强的刀客。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="372" nMapID="10013" nPosX="490" nPosY="245" szType="1;2" szName="孤刃台" szPic="XH/ui_maptips_GuRenTai.png" szDesc="神刀正殿前的广场，回神刀的必经之路，上有大型天芒石雕塑。傅红雪的黑刀便以此石制成。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="373" nMapID="10013" nPosX="110" nPosY="1017" szType="1;2" szName="万仞峰" szPic="XH/ui_maptips_WanRenFeng.png" szDesc="万年雪山，冰川如兵刃直入云霄，乃徐海地势最高处。翻过此峰可至秦川。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="374" nMapID="10013" nPosX="190" nPosY="850" szType="2" szName="凛冰湖" szDesc="雪山上流下来的融水，经飞瀑直下，汇为一池湖水。寒而不冻，纯净无暇，用来铸刀和做琉璃都最棒了。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="375" nMapID="10013" nPosX="630" nPosY="150" szType="2" szName="天穹野" szDesc="神刀外围的一大片林场，旧时白天羽所建之神刀无敌本在此地，如今只有部分遗址残留。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="376" nMapID="10013" nPosX="190" nPosY="1080" szType="2" szName="冰室" szDesc="白天羽之墓，花白凤为白天羽所修建的衣冠冢。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="1">
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="377" nMapID="10021" nPosX="673" nPosY="1569" szType="1;2" szName="海河港" szPic="HHZ/ui_maptips_haihegang.png" szDesc="大宋海政司在此设立的海上港口，是海上重要的转运四海货物的地方。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="378" nMapID="10021" nPosX="1263" nPosY="1604" szType="1;2" szName="渡燕林" szPic="HHZ/ui_maptips_duyanlin.png" szDesc="海河洲北面的一处林地，常有迁徙水鸟再次休憩。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="379" nMapID="10021" nPosX="1490" nPosY="1177" szType="1;2" szName="碧水滩" szPic="HHZ/ui_maptips_bishuitan.png" szDesc="海河洲东侧一处海湾，因三面环山，所以海浪轻软，水面如碧。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="340" nMapID="10021" nPosX="992" nPosY="767" szType="1;2" szName="蔽云林" szPic="HHZ/ui_maptips_biyunlin.png" szDesc="此处林木茂盛，高耸入云。白日行走其间，阴凉宜人。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+			<m_vecAreaNames nKeyID="341" nMapID="10021" nPosX="574" nPosY="711" szType="1;2" szName="琼湾" szPic="HHZ/ui_maptips_qiongwan.png" szDesc="海河洲南面的沙滩，白沙如玉，顾名琼湾。">
+				<szTypeArray IsStaticArray="0"  ArrayCount="2">
+					<szTypeArray v="1"/>
+					<szTypeArray v="2"/>
+				</szTypeArray>
+			</m_vecAreaNames>
+		</m_vecAreaNames>
+	</MapUiAreaNameTable>
+	<GameObj mInstanceName="None" Name="None" mFullName="None" mFlags="1024"/>
+</NewObj>
+

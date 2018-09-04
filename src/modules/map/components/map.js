@@ -1,5 +1,5 @@
 // import 'hidpi-canvas/dist/hidpi-canvas.min';
-import {canvasHiDPIPolyfill, canvasHiDPIRestore} from '../../../utils/canvas-hidpi-polyfill/canvas_hidpi_polyfill'
+import {canvasHiDPIPolyfill, canvasHiDPIRestore} from '../../../utils/canvas-hidpi-polyfill/canvas_hidpi_polyfill';
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
@@ -7,10 +7,10 @@ import L from 'leaflet';
 import './css/map.css';
 
 import mapsProps from '../assets/json/maps_props.json';
-import {gamePosToImgPos} from "../utils/pos_conv";
+import {gamePosToImgPos} from '../utils/pos_conv';
 
 import {dataToPosList} from '../utils/data_to_pos';
-import {dataToPopup} from "../utils/data_to_popup";
+import {dataToPopup} from '../utils/data_to_popup';
 import markerTypeList from '../assets/json/marker_types.json';
 
 const mapPosPath = require.context('../assets/json/positions', true);
@@ -18,6 +18,10 @@ const iconPath = require.context('../assets/imgs/icons', true);
 
 // 地图标志json
 import mapPosNameList from '../assets/json/positions/location_name.json';
+import polylabel from 'polylabel';
+// 地图行政区划json
+// import regionGeoJson from '../assets/json/region_geojson/kf.json';
+const regionGeoJson = require.context('../assets/json/region_geojson', true);
 
 class WuxiaLeafletMap extends Component {
   constructor(props) {
@@ -32,7 +36,6 @@ class WuxiaLeafletMap extends Component {
   }
 
   componentWillReceiveProps(newProps) {
-    let  self = this;
     // 地图切换
     if(this.props.currentMapId !== newProps.currentMapId) {
       let mapId = newProps.currentMapId;
@@ -44,7 +47,10 @@ class WuxiaLeafletMap extends Component {
       // this.createCanvasTiles();
       this.markerCanvasLayer.redraw();
     }
-
+    // 大地标显示切换
+    if(this.props.showPosMarker !== newProps.showPosMarker) {
+      this.lfMap.getPane('marker-top-pane').style.display = newProps.showPosMarker ? '' : 'none';
+    }
   }
 
 
@@ -67,8 +73,15 @@ class WuxiaLeafletMap extends Component {
     // 地图中心视角
     let _mapCenter = this.lfMap.unproject([0, 0], 1);
     this.lfMap.setView(_mapCenter, 1);
-
-
+    // 初始化地图canvas用的pane
+    this.lfMap.createPane('canvas-marker-pane');
+    this.lfMap.getPane('canvas-marker-pane').style.zIndex = 450;
+    // 初始化地名用底部marker pane
+    this.lfMap.createPane('marker-bottom-pane');
+    this.lfMap.getPane('marker-bottom-pane').style.zIndex = 350;
+    // 初始化大地标marker pane
+    this.lfMap.createPane('marker-top-pane');
+    this.lfMap.getPane('marker-top-pane').style.zIndex = 455;
     // 初始化第一张地图
     this.changeMap(this.props.currentMapId);
   }
@@ -95,16 +108,16 @@ class WuxiaLeafletMap extends Component {
     // todo
 
     // 删除旧图层
-    if(this.posNameMarkerLayer) {
+    if(this.posNameMarkerLayer)
       this.lfMap.removeLayer(this.posNameMarkerLayer);
-    }
-    if(this.tileLayer) {
+    if(this.tileLayer)
       this.lfMap.removeLayer(this.tileLayer);
-    }
-
-    if(this.markerCanvasLayer) {
+    if(this.markerCanvasLayer)
       this.lfMap.removeLayer(this.markerCanvasLayer);
-    }
+    if(this.regionGeo)
+      this.lfMap.removeLayer(this.regionGeo);
+    if(this.geojsonMarkersLayer)
+      this.lfMap.removeLayer(this.geojsonMarkersLayer);
 
     // 更新地图图层
     // 地图边缘
@@ -123,6 +136,61 @@ class WuxiaLeafletMap extends Component {
       (mapProps.correspond[0].gamePosY + mapProps.correspond[1].gamePosY) / 2
     ]), mapProps.maxZoom); // todo 更好的初始展现
     this.lfMap.setView(_mapCenter, 3); // todo zoom
+    // 添加行政区划 todo
+    try {
+      let regionGeo = regionGeoJson(`./geojson_${mapId}.json`, true);
+      let geojsonMarkers = [];
+      this.regionGeo = L.geoJson(regionGeo, {
+        // interactive: false,
+        style: {
+          weight: 2,
+          opacity: 1,
+          color: 'white',
+          dashArray: '3',
+          fillColor: '#000',
+          fillOpacity: 0
+        },
+        coordsToLatLng: function(coords) {
+          return self.lfMap.unproject([coords[0] * 4 + 1024, coords[1] * 4], mapProps.maxZoom);
+        },
+        onEachFeature: function(feature, layer) {
+          function highlightFeature(e) {
+            let layer = e.target;
+            layer.setStyle({weight: 5});
+          }
+          function resetHighlight(e) {
+            let layer = e.target;
+            layer.setStyle({weight: 2});
+          }
+          layer.on({
+            mouseover: highlightFeature,
+            mouseout: resetHighlight,
+          });
+          // 计算不可达极坐标，放置标签
+          let coordsList = feature.geometry.coordinates;
+          console.log(feature.properties.regionName, coordsList);
+          let coords = polylabel(coordsList, 1.0);
+          console.log(coords);
+          // 增加标签
+          let geojsonMarker = L.marker(self.lfMap.unproject([coords[0] * 4 + 1024, coords[1] * 4], mapProps.maxZoom), {
+            pane: 'marker-bottom-pane',
+            icon: L.divIcon({
+              className: 'geojson-marker-text',
+              html: feature.properties.regionName || '',
+              iconSize: [100, 16],
+            })
+          });
+          geojsonMarkers.push(geojsonMarker);
+        }
+      });
+      this.regionGeo.addTo(this.lfMap);
+      this.geojsonMarkersLayer = L.layerGroup(geojsonMarkers);
+      this.geojsonMarkersLayer.addTo(this.lfMap);
+    } catch(e) {
+      console.log(e);
+      console.log(`地图ID：${mapId}，暂无地区数据`);
+    }
+
     // 地图图层
     this.tileLayer = L.tileLayer(
       `http://tiles.wuxia.tools/${mapId}/{z}/{x}/{y}.png`, {
@@ -142,9 +210,10 @@ class WuxiaLeafletMap extends Component {
     if(this.posMarkerHandler)
       this.lfMap.off('zoomend', this.posMarkerHandler);
     this.posMarkerHandler = function () {
-      self.updatePosMarker(mapId)
+      self.updatePosMarker(mapId);
     };
     this.lfMap.on('zoomend', this.posMarkerHandler);
+
     // 初始调用
     this.posMarkerHandler();
 
@@ -159,11 +228,22 @@ class WuxiaLeafletMap extends Component {
     let markers = [];
     if(mapPosNameList[mapId]) {
       mapPosNameList[mapId].forEach(({x, y, name, des, level}) => {
-        let icon = L.divIcon({className: 'pos-name-marker', html: name, iconAnchor: [25, 25]});
+        let icon = L.divIcon({
+          className: 'pos-name-marker',
+          html: name,
+          iconAnchor: [25, 25]
+        });
         if(level < zoomLevel - 1) {
-          markers.push(L.marker(this.lfMap.unproject(gamePosToImgPos(mapId, [x, y]), mapProps.maxZoom),{icon: icon}));
+          let marker = L.marker(
+            this.lfMap.unproject(gamePosToImgPos(mapId, [x, y]), mapProps.maxZoom)
+            ,{
+              pane: 'marker-top-pane',
+              icon: icon
+            });
+          markers.push(marker);
         }
       });
+      // 更新显示级别，需要移除旧marker
       if(this.posNameMarkerLayer)
         this.lfMap.removeLayer(this.posNameMarkerLayer);
       this.posNameMarkerLayer = L.layerGroup(markers);
@@ -181,7 +261,10 @@ class WuxiaLeafletMap extends Component {
       this.lfMap.removeLayer(this.markerCanvasLayer);
 
     // 更新坐标canvas图层
-    this.markerCanvasLayer = new L.GridLayer({tileSize: 256});
+    this.markerCanvasLayer = new L.GridLayer({
+      tileSize: 256,
+      pane: 'canvas-marker-pane'
+    });
 
     this.markerCanvasLayer.createTile = function(coords, done) {
       let tile = L.DomUtil.create('canvas', 'leaflet-tile');
@@ -302,7 +385,7 @@ class WuxiaLeafletMap extends Component {
               });
               markerIndex++;
             }
-          })
+          });
         }));
       });
 

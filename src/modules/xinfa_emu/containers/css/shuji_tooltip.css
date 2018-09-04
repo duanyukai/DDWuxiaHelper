@@ -28,6 +28,10 @@
     text-align: center;
 }
 
+.tooltip-basic-info h3 {
+    color: white;
+}
+
 .shuji-info-img {
     width: 60px;
     height: 60px;

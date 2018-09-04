@@ -26,7 +26,7 @@ class AdditionConfig extends Component {
         <ButtonGroup>
           {
             [
-              {id: 'YH', name: '移花', enabled: false},
+              {id: 'YH', name: '移花', enabled: true},
               {id: 'TB', name: '太白', enabled: true},
               {id: 'ZW', name: '真武', enabled: true},
               {id: 'TX', name: '天香', enabled: true},

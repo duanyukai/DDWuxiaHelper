@@ -1,7 +1,6 @@
 {
   "definitions": {},
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "http://example.com/example.json",
+  "$id": "https://www/example.json",
   "type": "object",
   "required": ["current", "slots"],
   "properties": {

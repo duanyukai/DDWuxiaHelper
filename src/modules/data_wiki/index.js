@@ -11,8 +11,8 @@ class Root extends Component {
 
   render() {
     return (
-        <App />
-    )
+      <App />
+    );
   }
 }
 

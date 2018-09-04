@@ -1,0 +1,7 @@
+.affix-cascader {
+    width: 100%;
+}
+
+:global .ant-cascader-menu {
+    height: auto;
+}

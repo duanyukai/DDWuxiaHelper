@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, ButtonGroup, Checkbox, Col, Grid, Panel, Row, Tab, Table, Tabs} from "react-bootstrap";
+import {Button, ButtonGroup, Checkbox, Col, Grid, Panel, Row, Tab, Table, Tabs} from 'react-bootstrap';
 import Slider from 'rc-slider';
 const createSliderWithTooltip = Slider.createSliderWithTooltip;
 const Range = createSliderWithTooltip(Slider.Range);
@@ -9,7 +9,7 @@ import 'rc-slider/assets/index.css';
 import appCss from './css/app.css';
 
 import techData from '../assets/json/family_tech.json';
-import {Helmet} from "react-helmet";
+import {Helmet} from 'react-helmet';
 
 class FamilySkillEmuApp extends Component {
   constructor(props) {
@@ -126,86 +126,90 @@ class FamilySkillEmuApp extends Component {
       }).join(', ');
       return (
         <div styleName="appCss.container">
-          <Helmet>
+          <Helmet defer={false}>
             <meta charSet="utf-8" />
             <title>天刀帮派技能模拟器，碎银帮贡修为消耗模拟 | 段段天刀综合助手</title>
             <meta name="keywords" content="天刀帮派技能消耗,天刀帮派技能模拟" />
             <meta name="description" content="天刀帮派技能模拟器是一个富交互的帮派技能属性、消耗模拟器。针对不同技能以可视化形式展现属性提升及资源消耗。" />
+            <meta name="viewport" content="width=device-width"/>
           </Helmet>
           <Grid>
             <Row>
               <Col md={12} lg={10} lgOffset={1}>
-                <Panel header="帮派技能模拟器" bsStyle="success">
-                  <h3>说明</h3>
-                  <p>
-                    有模拟器问题或游戏内容问题都欢迎加QQ群（660695387）讨论 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=09cd891efd94c6a9077cb7c517241fa747ee131a8e20502bd89a3152e4a43370"><img src="//pub.idqqimg.com/wpa/images/group.png" /></a>。
-                  </p>
-                  {this.renderSkillBtnGroup()}
-                  <h3>选择始末等级 <small>{range[0]}级开始，{range[1]}级结束</small></h3>
-                  {this.renderRangeSelection()}
-                  <h3>提升属性及消耗</h3>
-                  <Table styleName='appCss.props-table' bordered condensed striped hover responsive>
-                    <tbody>
-                      <tr><td>技能名称</td><td>{curSkill.skillName}</td></tr>
-                      <tr><td>说明</td><td>{curSkill.mainDes}</td></tr>
-                      <tr><td>起始等级说明</td><td>{curData[range[0]].des || '无'}</td></tr>
-                      <tr><td>结束等级说明</td><td>{selectionData[selectionData.length - 1].des}</td></tr>
-                      <tr><td>属性升级差值</td><td>{propsUp}</td></tr>
-                      <tr>
-                        <td>需修为</td><td>{sumXiuwei.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
-                      </tr>
-                      <tr>
-                        <td>需碎银</td><td>{Math.floor(sumSuiyin / 10000)}金{Math.floor(sumSuiyin % 10000 / 100)}银{(sumSuiyin % 100)}铜</td>
-                      </tr>
-                      <tr>
-                        <td>需帮贡</td><td>{sumBanggong}</td>
-                      </tr>
-                    </tbody>
-                  </Table>
-                  <h2>可视化部分</h2>
-                  <Checkbox
-                    checked={this.state.log}
-                    onChange={() => this.setState({log: !this.state.log})}
-                  >
-                    坐标对数化（属性、消耗数值变化巨大时可开启）
-                  </Checkbox>
-                  <h3>属性增长可视化<small>高亮为所选部分</small></h3>
-                  <BarChart
-                    data={firstPropData}
-                    color='#cc6464'
-                    hightlightRange={this.state.range}
-                    unit='第一个属性'
-                    log={this.state.log}
-                    format={(x) => x}
-                  />
-                  <h3>等级消耗可视化<small>高亮为所选部分</small></h3>
-                  <h4>修为消耗</h4>
-                  <BarChart
-                    data={curXiuweiData}
-                    color='#6464cc'
-                    hightlightRange={this.state.range}
-                    unit='修为'
-                    log={this.state.log}
-                    format={(x) => x}
-                  />
-                  <h4>碎银消耗</h4>
-                  <BarChart
-                    data={curSuiyinData}
-                    color='#cccc64'
-                    hightlightRange={this.state.range}
-                    unit='碎银'
-                    log={this.state.log}
-                    format={(x) => `${Math.floor(x / 10000)}金${Math.floor(x % 10000 / 100)}银${(x % 100)}铜`}
-                  />
-                  <h4>帮贡消耗</h4>
-                  <BarChart
-                    data={curBanggongData}
-                    color='#64cc64'
-                    hightlightRange={this.state.range}
-                    unit='帮贡'
-                    log={this.state.log}
-                    format={(x) => x}
-                  />
+                <Panel bsStyle="success">
+                  <Panel.Heading>帮派技能模拟器</Panel.Heading>
+                  <Panel.Body>
+                    <h3>说明</h3>
+                    <p>
+                      有模拟器问题或游戏内容问题都欢迎加QQ群（660695387）讨论 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=09cd891efd94c6a9077cb7c517241fa747ee131a8e20502bd89a3152e4a43370"><img src="//pub.idqqimg.com/wpa/images/group.png" /></a>。
+                    </p>
+                    {this.renderSkillBtnGroup()}
+                    <h3>选择始末等级 <small>{range[0]}级开始，{range[1]}级结束</small></h3>
+                    {this.renderRangeSelection()}
+                    <h3>提升属性及消耗</h3>
+                    <Table styleName='appCss.props-table' bordered condensed striped hover responsive>
+                      <tbody>
+                        <tr><td>技能名称</td><td>{curSkill.skillName}</td></tr>
+                        <tr><td>说明</td><td>{curSkill.mainDes}</td></tr>
+                        <tr><td>起始等级说明</td><td>{curData[range[0]].des || '无'}</td></tr>
+                        <tr><td>结束等级说明</td><td>{selectionData[selectionData.length - 1].des}</td></tr>
+                        <tr><td>属性升级差值</td><td>{propsUp}</td></tr>
+                        <tr>
+                          <td>需修为</td><td>{sumXiuwei.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</td>
+                        </tr>
+                        <tr>
+                          <td>需碎银</td><td>{Math.floor(sumSuiyin / 10000)}金{Math.floor(sumSuiyin % 10000 / 100)}银{(sumSuiyin % 100)}铜</td>
+                        </tr>
+                        <tr>
+                          <td>需帮贡</td><td>{sumBanggong}</td>
+                        </tr>
+                      </tbody>
+                    </Table>
+                    <h2>可视化部分</h2>
+                    <Checkbox
+                      checked={this.state.log}
+                      onChange={() => this.setState({log: !this.state.log})}
+                    >
+                      坐标对数化（属性、消耗数值变化巨大时可开启）
+                    </Checkbox>
+                    <h3>属性增长可视化<small>高亮为所选部分</small></h3>
+                    <BarChart
+                      data={firstPropData}
+                      color='#cc6464'
+                      hightlightRange={this.state.range}
+                      unit='第一个属性'
+                      log={this.state.log}
+                      format={(x) => x}
+                    />
+                    <h3>等级消耗可视化<small>高亮为所选部分</small></h3>
+                    <h4>修为消耗</h4>
+                    <BarChart
+                      data={curXiuweiData}
+                      color='#6464cc'
+                      hightlightRange={this.state.range}
+                      unit='修为'
+                      log={this.state.log}
+                      format={(x) => x}
+                    />
+                    <h4>碎银消耗</h4>
+                    <BarChart
+                      data={curSuiyinData}
+                      color='#cccc64'
+                      hightlightRange={this.state.range}
+                      unit='碎银'
+                      log={this.state.log}
+                      format={(x) => `${Math.floor(x / 10000)}金${Math.floor(x % 10000 / 100)}银${(x % 100)}铜`}
+                    />
+                    <h4>帮贡消耗</h4>
+                    <BarChart
+                      data={curBanggongData}
+                      color='#64cc64'
+                      hightlightRange={this.state.range}
+                      unit='帮贡'
+                      log={this.state.log}
+                      format={(x) => x}
+                    />
+                  </Panel.Body>
                 </Panel>
               </Col>
             </Row>

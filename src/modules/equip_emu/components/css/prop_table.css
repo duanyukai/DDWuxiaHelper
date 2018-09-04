@@ -1,0 +1,33 @@
+.prop-table {
+
+}
+
+.prop-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.prop-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.prop-table tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+/*.prop-table tr:hover {*/
+    /*background-color: #ddd;*/
+/*}*/
+
+
+.int {
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.frac {
+    font-size: 11px;
+    color: #888;
+}

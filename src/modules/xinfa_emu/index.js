@@ -32,7 +32,7 @@ class Root extends Component {
           <App />
         </I18nextProvider>
       </Provider>
-    )
+    );
   }
 }
 

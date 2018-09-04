@@ -1,0 +1,12 @@
+.prop-tabs {
+    margin: -24px;
+}
+
+.prop-tabs :global .ant-tabs-tab {
+    padding: 3px 10px !important;
+    text-align: center !important;
+}
+
+.prop-tabs :global .ant-tabs-content {
+    padding: 0 !important;
+}

@@ -1,0 +1,54 @@
+.equip-pos-selected {
+    height: 92px;
+    box-shadow: 1px 1px 1px #ccc;
+    background: #ececec;
+    margin: 3px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.equip-pos {
+    height: 92px;
+    background: #fff;
+    margin: 3px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.pos-img {
+    width: 64px;
+    height: 64px;
+    background: #ffff66;
+}
+
+.pos-name {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pos-img-wrapper {
+    position: relative;
+    width: 64px;
+    margin: 0 auto;
+}
+
+.pos-img-border {
+    position: absolute;
+    width: 68px;
+    top: -2px;
+    left: -2px;
+    height: 68px;
+    border: 2px solid #ab7a15;
+    box-shadow: /*inset 0 0 10px 4px #fff, */ 1px 1px 2px #666;
+}
+
+.pos-img-longzhu {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 68px;
+    height: 68px;
+    background: url(../../assets/img/longzhu_bg.png);
+    background-size: cover;
+}

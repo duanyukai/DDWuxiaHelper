@@ -1,0 +1,5528 @@
+{
+    "0": {
+        "HuWan": [
+            {
+                "id": 3600,
+                "name": "道法天地·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 3601,
+                "name": "道法天地·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 15,
+                "suiyin": 2000000,
+                "props": "屏月：格挡+3%",
+                "deco": "道法天地，道法天地追加驱影，以及冲盈道法天地的伤害和定力伤害提高5%",
+                "texiao": null
+            },
+            {
+                "id": 3602,
+                "name": "道法天地·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 30,
+                "suiyin": 3500000,
+                "props": "屏月：格挡+3.5%",
+                "deco": "道法天地，道法天地追加驱影，以及冲盈道法天地的伤害和定力伤害提高7%",
+                "texiao": null
+            },
+            {
+                "id": 3603,
+                "name": "道法天地·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 45,
+                "suiyin": 5000000,
+                "props": "屏月：格挡+4%",
+                "deco": "道法天地，道法天地追加驱影，以及冲盈道法天地的伤害和定力伤害提高9%",
+                "texiao": null
+            },
+            {
+                "id": 3604,
+                "name": "道法天地·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 2,
+                "suiyin": 7500000,
+                "props": "屏月：格挡+4.5%",
+                "deco": "道法天地，道法天地追加驱影，以及冲盈道法天地的伤害和定力伤害提高11%",
+                "texiao": null
+            },
+            {
+                "id": 3605,
+                "name": "道法天地·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 50,
+                "suiyin": 10000000,
+                "props": "屏月：格挡+6.5%",
+                "deco": "道法天地，道法天地追加驱影，以及冲盈道法天地的伤害和定力伤害提高15%",
+                "texiao": null
+            },
+            {
+                "id": 3606,
+                "name": "道法天地·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 100,
+                "suiyin": 12500000,
+                "props": "屏月：格挡+7%",
+                "deco": "道法天地，道法天地追加驱影，以及冲盈道法天地的伤害和定力伤害提高17%",
+                "texiao": null
+            },
+            {
+                "id": 3607,
+                "name": "道法天地·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 150,
+                "suiyin": 15000000,
+                "props": "屏月：格挡+7.5%",
+                "deco": "道法天地，道法天地追加驱影，以及冲盈道法天地的伤害和定力伤害提高19%",
+                "texiao": null
+            },
+            {
+                "id": 3608,
+                "name": "道法天地·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 2,
+                "suiyin": 50000000,
+                "props": "屏月：格挡+8%",
+                "deco": "道法天地，道法天地追加驱影，以及冲盈道法天地的伤害和定力伤害提高21%",
+                "texiao": null
+            },
+            {
+                "id": 3609,
+                "name": "道法天地·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "屏月：格挡+8%",
+                "deco": "道法天地，道法天地追加驱影，以及冲盈道法天地的伤害和定力伤害提高23%",
+                "texiao": "改变真武招式《道法天地》表现"
+            }
+        ],
+        "TouShi": [
+            {
+                "id": 3700,
+                "name": "和光同尘·怀柔",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 3701,
+                "name": "和光同尘·怀柔",
+                "jiangxinLV": 0,
+                "yelinglong": 30,
+                "suiyin": 3200000,
+                "props": "专情：命中+3%",
+                "deco": "和光同尘，和光同尘追加驱影，以及冲盈和光同尘每次命中回复1点定力",
+                "texiao": null
+            },
+            {
+                "id": 3702,
+                "name": "和光同尘·怀柔",
+                "jiangxinLV": 1,
+                "yelinglong": 60,
+                "suiyin": 5600000,
+                "props": "专情：命中+3.5%",
+                "deco": "和光同尘，和光同尘追加驱影，以及冲盈和光同尘每次命中回复2点定力",
+                "texiao": null
+            },
+            {
+                "id": 3703,
+                "name": "和光同尘·怀柔",
+                "jiangxinLV": 2,
+                "yelinglong": 90,
+                "suiyin": 8000000,
+                "props": "专情：命中+4%",
+                "deco": "和光同尘，和光同尘追加驱影，以及冲盈和光同尘每次命中回复3点定力",
+                "texiao": null
+            },
+            {
+                "id": 3704,
+                "name": "和光同尘·怀柔",
+                "jiangxinLV": 3,
+                "yelinglong": 3,
+                "suiyin": 12000000,
+                "props": "专情：命中+4.5%",
+                "deco": "和光同尘，和光同尘追加驱影，以及冲盈和光同尘每次命中回复4点定力",
+                "texiao": null
+            },
+            {
+                "id": 3705,
+                "name": "和光同尘·怀柔",
+                "jiangxinLV": 5,
+                "yelinglong": 75,
+                "suiyin": 16000000,
+                "props": "专情：命中+6.5%",
+                "deco": "和光同尘，和光同尘追加驱影，以及冲盈和光同尘每次命中回复5点定力，造成的伤害提升2.5%",
+                "texiao": null
+            },
+            {
+                "id": 3706,
+                "name": "和光同尘·怀柔",
+                "jiangxinLV": 8,
+                "yelinglong": 150,
+                "suiyin": 20000000,
+                "props": "专情：命中+7%",
+                "deco": "和光同尘，和光同尘追加驱影，以及冲盈和光同尘每次命中回复5点定力，造成的伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 3707,
+                "name": "和光同尘·怀柔",
+                "jiangxinLV": 12,
+                "yelinglong": 225,
+                "suiyin": 24000000,
+                "props": "专情：命中+7.5%",
+                "deco": "和光同尘，和光同尘追加驱影，以及冲盈和光同尘每次命中回复5点定力，造成的伤害提升7.5%",
+                "texiao": null
+            },
+            {
+                "id": 3708,
+                "name": "和光同尘·怀柔",
+                "jiangxinLV": 16,
+                "yelinglong": 3,
+                "suiyin": 80000000,
+                "props": "专情：命中+8%",
+                "deco": "和光同尘，和光同尘追加驱影，以及冲盈和光同尘每次命中回复5点定力，造成的伤害提升10%",
+                "texiao": null
+            },
+            {
+                "id": 3709,
+                "name": "和光同尘·怀柔",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "专情：命中+8%",
+                "deco": "和光同尘，和光同尘追加驱影，以及冲盈和光同尘每次命中回复5点定力，造成的伤害提升12.5%",
+                "texiao": "改变真武招式《和光同尘》表现"
+            }
+        ],
+        "XieZi": [
+            {
+                "id": 3800,
+                "name": "道生一剑·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 3801,
+                "name": "道生一剑·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 90,
+                "suiyin": 3850000,
+                "props": "长鸿：韧劲+2%",
+                "deco": "道生一剑伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 3802,
+                "name": "道生一剑·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 180,
+                "suiyin": 6700000,
+                "props": "长鸿：韧劲+2.5%",
+                "deco": "道生一剑伤害提升6%",
+                "texiao": null
+            },
+            {
+                "id": 3803,
+                "name": "道生一剑·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 270,
+                "suiyin": 9600000,
+                "props": "长鸿：韧劲+3%",
+                "deco": "道生一剑伤害提升9%",
+                "texiao": null
+            },
+            {
+                "id": 3804,
+                "name": "道生一剑·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 4,
+                "suiyin": 14400000,
+                "props": "长鸿：韧劲+3.5%",
+                "deco": "道生一剑伤害提升12%",
+                "texiao": null
+            },
+            {
+                "id": 3805,
+                "name": "道生一剑·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 95,
+                "suiyin": 19200000,
+                "props": "长鸿：韧劲+4%",
+                "deco": "道生一剑伤害提升15%",
+                "texiao": null
+            },
+            {
+                "id": 3806,
+                "name": "道生一剑·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 190,
+                "suiyin": 24000000,
+                "props": "长鸿：韧劲+4.5%",
+                "deco": "道生一剑伤害提升18%",
+                "texiao": null
+            },
+            {
+                "id": 3807,
+                "name": "道生一剑·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 280,
+                "suiyin": 28800000,
+                "props": "长鸿：韧劲+5%",
+                "deco": "道生一剑伤害提升21%",
+                "texiao": null
+            },
+            {
+                "id": 3808,
+                "name": "道生一剑·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 4,
+                "suiyin": 96000000,
+                "props": "长鸿：韧劲+5.5%",
+                "deco": "道生一剑伤害提升24%",
+                "texiao": null
+            },
+            {
+                "id": 3809,
+                "name": "道生一剑·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "长鸿：韧劲+6%",
+                "deco": "道生一剑伤害提升27%",
+                "texiao": "改变真武招式《道生一剑》表现"
+            }
+        ],
+        "ShangYi": [
+            {
+                "id": 3900,
+                "name": "微明生灭·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 3901,
+                "name": "微明生灭·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 115,
+                "suiyin": 4600000,
+                "props": "犀照：会心率+3%",
+                "deco": "微明生灭命中对手时增加自身命中1%，持续2秒",
+                "texiao": null
+            },
+            {
+                "id": 3902,
+                "name": "微明生灭·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 225,
+                "suiyin": 8050000,
+                "props": "犀照：会心率+3.5%",
+                "deco": "微明生灭命中对手时增加自身命中2%，持续2秒",
+                "texiao": null
+            },
+            {
+                "id": 3903,
+                "name": "微明生灭·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 340,
+                "suiyin": 11500000,
+                "props": "犀照：会心率+4%",
+                "deco": "微明生灭命中对手时增加自身命中3%，持续2秒",
+                "texiao": null
+            },
+            {
+                "id": 3904,
+                "name": "微明生灭·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 5,
+                "suiyin": 17300000,
+                "props": "犀照：会心率+4.5%",
+                "deco": "微明生灭命中对手时增加自身命中4%，持续2秒",
+                "texiao": null
+            },
+            {
+                "id": 3905,
+                "name": "微明生灭·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 120,
+                "suiyin": 23050000,
+                "props": "犀照：会心率+5%",
+                "deco": "微明生灭伤害提升1%，命中对手时增加自身命中5%，持续2秒",
+                "texiao": null
+            },
+            {
+                "id": 3906,
+                "name": "微明生灭·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 240,
+                "suiyin": 28800000,
+                "props": "犀照：会心率+5.5%",
+                "deco": "微明生灭伤害提升3%，命中对手时增加自身命中6%，持续2秒",
+                "texiao": null
+            },
+            {
+                "id": 3907,
+                "name": "微明生灭·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 350,
+                "suiyin": 34550000,
+                "props": "犀照：会心率+6%",
+                "deco": "微明生灭伤害提升5%，命中对手时增加自身命中7%，持续2秒",
+                "texiao": null
+            },
+            {
+                "id": 3908,
+                "name": "微明生灭·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 5,
+                "suiyin": 115200000,
+                "props": "犀照：会心率+6.5%",
+                "deco": "微明生灭伤害提升7%，命中对手时增加自身命中8%，持续2秒",
+                "texiao": null
+            },
+            {
+                "id": 3909,
+                "name": "微明生灭·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "犀照：会心率+7%",
+                "deco": "微明生灭伤害提升10%，命中对手时增加自身命中9%，持续2秒",
+                "texiao": "改变真武招式《微明生灭》表现"
+            }
+        ],
+        "NeiChen": [
+            {
+                "id": 6000,
+                "name": "归玄·地煞",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 6001,
+                "name": "归玄·地煞",
+                "jiangxinLV": 0,
+                "yelinglong": 135,
+                "suiyin": 5050000,
+                "props": "秋水：气血上限+400",
+                "deco": "归玄命中敌人后降低外攻防御1%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6002,
+                "name": "归玄·地煞",
+                "jiangxinLV": 1,
+                "yelinglong": 270,
+                "suiyin": 8850000,
+                "props": "秋水：气血上限+450",
+                "deco": "归玄命中敌人后降低外攻防御2%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6003,
+                "name": "归玄·地煞",
+                "jiangxinLV": 2,
+                "yelinglong": 405,
+                "suiyin": 12650000,
+                "props": "秋水：气血上限+500",
+                "deco": "归玄命中敌人后降低外攻防御3%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6004,
+                "name": "归玄·地煞",
+                "jiangxinLV": 3,
+                "yelinglong": 6,
+                "suiyin": 19000000,
+                "props": "秋水：气血上限+600",
+                "deco": "归玄命中敌人后降低外攻防御4%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6005,
+                "name": "归玄·地煞",
+                "jiangxinLV": 5,
+                "yelinglong": 130,
+                "suiyin": 25350000,
+                "props": "秋水：气血上限+700",
+                "deco": "归玄命中敌人后降低外攻防御5%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6006,
+                "name": "归玄·地煞",
+                "jiangxinLV": 8,
+                "yelinglong": 260,
+                "suiyin": 31650000,
+                "props": "秋水：气血上限+800",
+                "deco": "归玄命中敌人后降低外攻防御6%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6007,
+                "name": "归玄·地煞",
+                "jiangxinLV": 12,
+                "yelinglong": 385,
+                "suiyin": 38000000,
+                "props": "秋水：气血上限+850",
+                "deco": "归玄命中敌人后降低外攻防御7%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6008,
+                "name": "归玄·地煞",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 126700000,
+                "props": "秋水：气血上限+900",
+                "deco": "归玄命中敌人后降低外攻防御8%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6009,
+                "name": "归玄·地煞",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "秋水：气血上限+900",
+                "deco": "归玄命中敌人后降低外攻防御9%持续6秒",
+                "texiao": "改变真武招式《归玄》表现"
+            }
+        ],
+        "YaoDai": [
+            {
+                "id": 6100,
+                "name": "离渊·地煞",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 6101,
+                "name": "离渊·地煞",
+                "jiangxinLV": 0,
+                "yelinglong": 165,
+                "suiyin": 5550000,
+                "props": "贯日：外功攻击+50",
+                "deco": "离渊命中敌人后降低外攻防御1%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6102,
+                "name": "离渊·地煞",
+                "jiangxinLV": 1,
+                "yelinglong": 335,
+                "suiyin": 9700000,
+                "props": "贯日：外功攻击+60",
+                "deco": "离渊命中敌人后降低外攻防御2%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6103,
+                "name": "离渊·地煞",
+                "jiangxinLV": 2,
+                "yelinglong": 505,
+                "suiyin": 13900000,
+                "props": "贯日：外功攻击+65",
+                "deco": "离渊命中敌人后降低外攻防御3%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6104,
+                "name": "离渊·地煞",
+                "jiangxinLV": 3,
+                "yelinglong": 7,
+                "suiyin": 20900000,
+                "props": "贯日：外功攻击+75",
+                "deco": "离渊命中敌人后降低外攻防御4%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6105,
+                "name": "离渊·地煞",
+                "jiangxinLV": 5,
+                "yelinglong": 140,
+                "suiyin": 27850000,
+                "props": "贯日：外功攻击+90",
+                "deco": "离渊命中敌人后降低外攻防御5%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6106,
+                "name": "离渊·地煞",
+                "jiangxinLV": 8,
+                "yelinglong": 285,
+                "suiyin": 34800000,
+                "props": "贯日：外功攻击+100",
+                "deco": "离渊命中敌人后降低外攻防御6%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6107,
+                "name": "离渊·地煞",
+                "jiangxinLV": 12,
+                "yelinglong": 420,
+                "suiyin": 41800000,
+                "props": "贯日：外功攻击+110",
+                "deco": "离渊命中敌人后降低外攻防御7%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6108,
+                "name": "离渊·地煞",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 139350000,
+                "props": "贯日：外功攻击+115",
+                "deco": "离渊命中敌人后降低外攻防御8%持续6秒",
+                "texiao": null
+            },
+            {
+                "id": 6109,
+                "name": "离渊·地煞",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "贯日：外功攻击+115",
+                "deco": "离渊命中敌人后降低外攻防御9%持续6秒",
+                "texiao": "改变真武招式《离渊》表现"
+            }
+        ]
+    },
+    "1": {
+        "HuWan": [
+            {
+                "id": 2000,
+                "name": "苍龙出水·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 2001,
+                "name": "苍龙出水·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 15,
+                "suiyin": 2000000,
+                "props": "屏月：格挡+3%",
+                "deco": "苍龙出水伤害提高5%，命中目标后3秒内提高移动速度50%",
+                "texiao": null
+            },
+            {
+                "id": 2002,
+                "name": "苍龙出水·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 30,
+                "suiyin": 3500000,
+                "props": "屏月：格挡+3.5%",
+                "deco": "苍龙出水伤害提高9%，命中目标后3秒内提高移动速度50%",
+                "texiao": null
+            },
+            {
+                "id": 2003,
+                "name": "苍龙出水·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 45,
+                "suiyin": 5000000,
+                "props": "屏月：格挡+4%",
+                "deco": "苍龙出水伤害提高13%，命中目标后3秒内提高移动速度50%",
+                "texiao": null
+            },
+            {
+                "id": 2004,
+                "name": "苍龙出水·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 2,
+                "suiyin": 7500000,
+                "props": "屏月：格挡+4.5%",
+                "deco": "苍龙出水伤害提高17%，命中目标后3秒内提高移动速度50%",
+                "texiao": null
+            },
+            {
+                "id": 2005,
+                "name": "苍龙出水·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 50,
+                "suiyin": 10000000,
+                "props": "屏月：格挡+6.5%",
+                "deco": "苍龙出水伤害提高25%，命中目标后5秒内提高移动速度50%",
+                "texiao": null
+            },
+            {
+                "id": 2006,
+                "name": "苍龙出水·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 100,
+                "suiyin": 12500000,
+                "props": "屏月：格挡+7%",
+                "deco": "苍龙出水伤害提高29%，命中目标后5秒内提高移动速度50%",
+                "texiao": null
+            },
+            {
+                "id": 2007,
+                "name": "苍龙出水·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 150,
+                "suiyin": 15000000,
+                "props": "屏月：格挡+7.5%",
+                "deco": "苍龙出水伤害提高33%，命中目标后5秒内提高移动速度50%",
+                "texiao": null
+            },
+            {
+                "id": 2008,
+                "name": "苍龙出水·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 2,
+                "suiyin": 50000000,
+                "props": "屏月：格挡+8%",
+                "deco": "苍龙出水伤害提高37%，命中目标后5秒内提高移动速度50%",
+                "texiao": null
+            },
+            {
+                "id": 2009,
+                "name": "苍龙出水·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "屏月：格挡+8%",
+                "deco": "苍龙出水伤害提高41%，命中目标后5秒内提高移动速度50%",
+                "texiao": "改变太白招式《苍龙出水》表现"
+            }
+        ],
+        "TouShi": [
+            {
+                "id": 2100,
+                "name": "回风落雁·天罡",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 2101,
+                "name": "回风落雁·天罡",
+                "jiangxinLV": 0,
+                "yelinglong": 30,
+                "suiyin": 3200000,
+                "props": "专情：命中+3%",
+                "deco": "回风落雁施放后6秒内提高内功防御、外功防御各50点",
+                "texiao": null
+            },
+            {
+                "id": 2102,
+                "name": "回风落雁·天罡",
+                "jiangxinLV": 1,
+                "yelinglong": 60,
+                "suiyin": 5600000,
+                "props": "专情：命中+3.5%",
+                "deco": "回风落雁施放后6秒内提高内功防御、外功防御各90点",
+                "texiao": null
+            },
+            {
+                "id": 2103,
+                "name": "回风落雁·天罡",
+                "jiangxinLV": 2,
+                "yelinglong": 90,
+                "suiyin": 8000000,
+                "props": "专情：命中+4%",
+                "deco": "回风落雁施放后6秒内提高内功防御、外功防御各130点",
+                "texiao": null
+            },
+            {
+                "id": 2104,
+                "name": "回风落雁·天罡",
+                "jiangxinLV": 3,
+                "yelinglong": 3,
+                "suiyin": 12000000,
+                "props": "专情：命中+4.5%",
+                "deco": "回风落雁施放后6秒内提高内功防御、外功防御各170点",
+                "texiao": null
+            },
+            {
+                "id": 2105,
+                "name": "回风落雁·天罡",
+                "jiangxinLV": 5,
+                "yelinglong": 75,
+                "suiyin": 16000000,
+                "props": "专情：命中+6.5%",
+                "deco": "回风落雁施放后6秒内提高内功防御、外功防御各250点",
+                "texiao": null
+            },
+            {
+                "id": 2106,
+                "name": "回风落雁·天罡",
+                "jiangxinLV": 8,
+                "yelinglong": 150,
+                "suiyin": 20000000,
+                "props": "专情：命中+7%",
+                "deco": "回风落雁施放后6秒内提高内功防御、外功防御各290点",
+                "texiao": null
+            },
+            {
+                "id": 2107,
+                "name": "回风落雁·天罡",
+                "jiangxinLV": 12,
+                "yelinglong": 225,
+                "suiyin": 24000000,
+                "props": "专情：命中+7.5%",
+                "deco": "回风落雁施放后6秒内提高内功防御、外功防御各330点",
+                "texiao": null
+            },
+            {
+                "id": 2108,
+                "name": "回风落雁·天罡",
+                "jiangxinLV": 16,
+                "yelinglong": 3,
+                "suiyin": 80000000,
+                "props": "专情：命中+8%",
+                "deco": "回风落雁施放后6秒内提高内功防御、外功防御各370点",
+                "texiao": null
+            },
+            {
+                "id": 2109,
+                "name": "回风落雁·天罡",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "专情：命中+8%",
+                "deco": "回风落雁施放后6秒内提高内功防御、外功防御各410点",
+                "texiao": "改变太白招式《回风落雁》表现"
+            }
+        ],
+        "XieZi": [
+            {
+                "id": 2200,
+                "name": "雨落云飞·地煞",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 2201,
+                "name": "雨落云飞·地煞",
+                "jiangxinLV": 0,
+                "yelinglong": 90,
+                "suiyin": 3850000,
+                "props": "长鸿：韧劲+2%",
+                "deco": "雨落云飞伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 2202,
+                "name": "雨落云飞·地煞",
+                "jiangxinLV": 1,
+                "yelinglong": 180,
+                "suiyin": 6700000,
+                "props": "长鸿：韧劲+2.5%",
+                "deco": "雨落云飞伤害提升1.5%",
+                "texiao": null
+            },
+            {
+                "id": 2203,
+                "name": "雨落云飞·地煞",
+                "jiangxinLV": 2,
+                "yelinglong": 270,
+                "suiyin": 9600000,
+                "props": "长鸿：韧劲+3%",
+                "deco": "雨落云飞伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 2204,
+                "name": "雨落云飞·地煞",
+                "jiangxinLV": 3,
+                "yelinglong": 4,
+                "suiyin": 14400000,
+                "props": "长鸿：韧劲+3.5%",
+                "deco": "雨落云飞伤害提升2.5%",
+                "texiao": null
+            },
+            {
+                "id": 2205,
+                "name": "雨落云飞·地煞",
+                "jiangxinLV": 5,
+                "yelinglong": 95,
+                "suiyin": 19200000,
+                "props": "长鸿：韧劲+4%",
+                "deco": "雨落云飞伤害提升3%$$命中目标后降低目标命中3%持续4秒",
+                "texiao": null
+            },
+            {
+                "id": 2206,
+                "name": "雨落云飞·地煞",
+                "jiangxinLV": 8,
+                "yelinglong": 190,
+                "suiyin": 24000000,
+                "props": "长鸿：韧劲+4.5%",
+                "deco": "雨落云飞伤害提升3.5%$$命中目标后降低目标命中6%持续4秒",
+                "texiao": null
+            },
+            {
+                "id": 2207,
+                "name": "雨落云飞·地煞",
+                "jiangxinLV": 12,
+                "yelinglong": 280,
+                "suiyin": 28800000,
+                "props": "长鸿：韧劲+5%",
+                "deco": "雨落云飞伤害提升4%$$命中目标后降低目标命中9%持续4秒",
+                "texiao": null
+            },
+            {
+                "id": 2208,
+                "name": "雨落云飞·地煞",
+                "jiangxinLV": 16,
+                "yelinglong": 4,
+                "suiyin": 96000000,
+                "props": "长鸿：韧劲+5.5%",
+                "deco": "雨落云飞伤害提升4.5%$$命中目标后降低目标命中12%持续4秒",
+                "texiao": null
+            },
+            {
+                "id": 2209,
+                "name": "雨落云飞·地煞",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "长鸿：韧劲+6%",
+                "deco": "雨落云飞伤害提升5%$$命中目标后降低目标命中15%持续4秒",
+                "texiao": "改变太白招式《雨落云飞》表现"
+            }
+        ],
+        "ShangYi": [
+            {
+                "id": 2300,
+                "name": "飞燕逐月·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 2301,
+                "name": "飞燕逐月·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 115,
+                "suiyin": 4600000,
+                "props": "犀照：会心率+3%",
+                "deco": "飞燕逐月释放完成时额外附加4点定力伤害",
+                "texiao": null
+            },
+            {
+                "id": 2302,
+                "name": "飞燕逐月·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 225,
+                "suiyin": 8050000,
+                "props": "犀照：会心率+3.5%",
+                "deco": "飞燕逐月释放完成时额外附加5点定力伤害",
+                "texiao": null
+            },
+            {
+                "id": 2303,
+                "name": "飞燕逐月·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 340,
+                "suiyin": 11500000,
+                "props": "犀照：会心率+4%",
+                "deco": "飞燕逐月释放完成时额外附加6点定力伤害",
+                "texiao": null
+            },
+            {
+                "id": 2304,
+                "name": "飞燕逐月·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 5,
+                "suiyin": 17300000,
+                "props": "犀照：会心率+4.5%",
+                "deco": "飞燕逐月释放完成时额外附加7点定力伤害",
+                "texiao": null
+            },
+            {
+                "id": 2305,
+                "name": "飞燕逐月·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 120,
+                "suiyin": 23050000,
+                "props": "犀照：会心率+5%",
+                "deco": "飞燕逐月伤害增加2%，飞燕逐月释放完成时额外附加8点定力伤害",
+                "texiao": null
+            },
+            {
+                "id": 2306,
+                "name": "飞燕逐月·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 240,
+                "suiyin": 28800000,
+                "props": "犀照：会心率+5.5%",
+                "deco": "飞燕逐月伤害增加4%，飞燕逐月释放完成时额外附加9点定力伤害",
+                "texiao": null
+            },
+            {
+                "id": 2307,
+                "name": "飞燕逐月·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 350,
+                "suiyin": 34550000,
+                "props": "犀照：会心率+6%",
+                "deco": "飞燕逐月伤害增加6%，飞燕逐月释放完成时额外附加10点定力伤害",
+                "texiao": null
+            },
+            {
+                "id": 2308,
+                "name": "飞燕逐月·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 5,
+                "suiyin": 115200000,
+                "props": "犀照：会心率+6.5%",
+                "deco": "飞燕逐月伤害增加8%，飞燕逐月释放完成时额外附加11点定力伤害",
+                "texiao": null
+            },
+            {
+                "id": 2309,
+                "name": "飞燕逐月·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "犀照：会心率+7%",
+                "deco": "飞燕逐月伤害增加10%，飞燕逐月释放完成时额外附加12点定力伤害",
+                "texiao": "改变太白招式《飞燕逐月》表现"
+            }
+        ],
+        "NeiChen": [
+            {
+                "id": 5200,
+                "name": "风雷一剑·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 5201,
+                "name": "风雷一剑·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 135,
+                "suiyin": 5050000,
+                "props": "秋水：气血上限+400",
+                "deco": "风雷一剑伤害增加0.5%",
+                "texiao": null
+            },
+            {
+                "id": 5202,
+                "name": "风雷一剑·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 270,
+                "suiyin": 8850000,
+                "props": "秋水：气血上限+450",
+                "deco": "风雷一剑伤害增加1%",
+                "texiao": null
+            },
+            {
+                "id": 5203,
+                "name": "风雷一剑·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 405,
+                "suiyin": 12650000,
+                "props": "秋水：气血上限+500",
+                "deco": "风雷一剑伤害增加1.5%",
+                "texiao": null
+            },
+            {
+                "id": 5204,
+                "name": "风雷一剑·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 6,
+                "suiyin": 19000000,
+                "props": "秋水：气血上限+600",
+                "deco": "风雷一剑伤害增加2%",
+                "texiao": null
+            },
+            {
+                "id": 5205,
+                "name": "风雷一剑·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 130,
+                "suiyin": 25350000,
+                "props": "秋水：气血上限+700",
+                "deco": "风雷一剑伤害增加2.5%",
+                "texiao": null
+            },
+            {
+                "id": 5206,
+                "name": "风雷一剑·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 260,
+                "suiyin": 31650000,
+                "props": "秋水：气血上限+800",
+                "deco": "风雷一剑伤害增加3%",
+                "texiao": null
+            },
+            {
+                "id": 5207,
+                "name": "风雷一剑·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 385,
+                "suiyin": 38000000,
+                "props": "秋水：气血上限+850",
+                "deco": "风雷一剑伤害增加3.5%",
+                "texiao": null
+            },
+            {
+                "id": 5208,
+                "name": "风雷一剑·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 126700000,
+                "props": "秋水：气血上限+900",
+                "deco": "风雷一剑伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 5209,
+                "name": "风雷一剑·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "秋水：气血上限+900",
+                "deco": "风雷一剑伤害增加4.5%",
+                "texiao": "改变太白招式《风雷一剑》表现"
+            }
+        ],
+        "YaoDai": [
+            {
+                "id": 5300,
+                "name": "天峰五云剑·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 5301,
+                "name": "天峰五云剑·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 165,
+                "suiyin": 5550000,
+                "props": "贯日：外功攻击+50",
+                "deco": "天峰五云剑伤害增加1%",
+                "texiao": null
+            },
+            {
+                "id": 5302,
+                "name": "天峰五云剑·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 335,
+                "suiyin": 9700000,
+                "props": "贯日：外功攻击+60",
+                "deco": "天峰五云剑伤害增加2%",
+                "texiao": null
+            },
+            {
+                "id": 5303,
+                "name": "天峰五云剑·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 505,
+                "suiyin": 13900000,
+                "props": "贯日：外功攻击+65",
+                "deco": "天峰五云剑伤害增加3%",
+                "texiao": null
+            },
+            {
+                "id": 5304,
+                "name": "天峰五云剑·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 7,
+                "suiyin": 20900000,
+                "props": "贯日：外功攻击+75",
+                "deco": "天峰五云剑伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 5305,
+                "name": "天峰五云剑·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 140,
+                "suiyin": 27850000,
+                "props": "贯日：外功攻击+90",
+                "deco": "天峰五云剑伤害增加5%",
+                "texiao": null
+            },
+            {
+                "id": 5306,
+                "name": "天峰五云剑·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 285,
+                "suiyin": 34800000,
+                "props": "贯日：外功攻击+100",
+                "deco": "天峰五云剑伤害增加6%",
+                "texiao": null
+            },
+            {
+                "id": 5307,
+                "name": "天峰五云剑·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 420,
+                "suiyin": 41800000,
+                "props": "贯日：外功攻击+110",
+                "deco": "天峰五云剑伤害增加7%",
+                "texiao": null
+            },
+            {
+                "id": 5308,
+                "name": "天峰五云剑·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 139350000,
+                "props": "贯日：外功攻击+115",
+                "deco": "天峰五云剑伤害增加8%",
+                "texiao": null
+            },
+            {
+                "id": 5309,
+                "name": "天峰五云剑·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "贯日：外功攻击+115",
+                "deco": "天峰五云剑伤害增加9%",
+                "texiao": "改变太白招式《天峰五云剑》表现"
+            }
+        ]
+    },
+    "2": {
+        "HuWan": [
+            {
+                "id": 2400,
+                "name": "断龙枪·劲松",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 2401,
+                "name": "断龙枪·劲松",
+                "jiangxinLV": 0,
+                "yelinglong": 15,
+                "suiyin": 2000000,
+                "props": "屏月：格挡+3%",
+                "deco": "断龙枪直接施放不用于追加时，定力伤害提升5%，范围增加0.1米",
+                "texiao": null
+            },
+            {
+                "id": 2402,
+                "name": "断龙枪·劲松",
+                "jiangxinLV": 1,
+                "yelinglong": 30,
+                "suiyin": 3500000,
+                "props": "屏月：格挡+3.5%",
+                "deco": "断龙枪直接施放不用于追加时，定力伤害提升9%，范围增加0.2米",
+                "texiao": null
+            },
+            {
+                "id": 2403,
+                "name": "断龙枪·劲松",
+                "jiangxinLV": 2,
+                "yelinglong": 45,
+                "suiyin": 5000000,
+                "props": "屏月：格挡+4%",
+                "deco": "断龙枪直接施放不用于追加时，定力伤害提升13%，范围增加0.3米",
+                "texiao": null
+            },
+            {
+                "id": 2404,
+                "name": "断龙枪·劲松",
+                "jiangxinLV": 3,
+                "yelinglong": 2,
+                "suiyin": 7500000,
+                "props": "屏月：格挡+4.5%",
+                "deco": "断龙枪直接施放不用于追加时，定力伤害提升17%，范围增加0.4米",
+                "texiao": null
+            },
+            {
+                "id": 2405,
+                "name": "断龙枪·劲松",
+                "jiangxinLV": 5,
+                "yelinglong": 50,
+                "suiyin": 10000000,
+                "props": "屏月：格挡+6.5%",
+                "deco": "断龙枪直接施放不用于追加时，定力伤害提升25%，范围增加0.5米",
+                "texiao": null
+            },
+            {
+                "id": 2406,
+                "name": "断龙枪·劲松",
+                "jiangxinLV": 8,
+                "yelinglong": 100,
+                "suiyin": 12500000,
+                "props": "屏月：格挡+7%",
+                "deco": "断龙枪直接施放不用于追加时，定力伤害提升29%，范围增加0.6米",
+                "texiao": null
+            },
+            {
+                "id": 2407,
+                "name": "断龙枪·劲松",
+                "jiangxinLV": 12,
+                "yelinglong": 150,
+                "suiyin": 15000000,
+                "props": "屏月：格挡+7.5%",
+                "deco": "断龙枪直接施放不用于追加时，定力伤害提升33%，范围增加0.7米",
+                "texiao": null
+            },
+            {
+                "id": 2408,
+                "name": "断龙枪·劲松",
+                "jiangxinLV": 16,
+                "yelinglong": 2,
+                "suiyin": 50000000,
+                "props": "屏月：格挡+8%",
+                "deco": "断龙枪直接施放不用于追加时，定力伤害提升37%，范围增加0.8米",
+                "texiao": null
+            },
+            {
+                "id": 2409,
+                "name": "断龙枪·劲松",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "屏月：格挡+8%",
+                "deco": "断龙枪直接施放不用于追加时，定力伤害提升41%，范围增加0.9米",
+                "texiao": "改变神威招式《断龙枪》表现"
+            }
+        ],
+        "XieZi": [
+            {
+                "id": 2500,
+                "name": "伏龙枪·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 2501,
+                "name": "伏龙枪·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 90,
+                "suiyin": 3850000,
+                "props": "长鸿：韧劲+2%",
+                "deco": "伏龙枪及伏龙枪接续断龙枪的增加伤害2%",
+                "texiao": null
+            },
+            {
+                "id": 2502,
+                "name": "伏龙枪·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 180,
+                "suiyin": 6700000,
+                "props": "长鸿：韧劲+2.5%",
+                "deco": "伏龙枪及伏龙枪接续断龙枪的增加伤害4%",
+                "texiao": null
+            },
+            {
+                "id": 2503,
+                "name": "伏龙枪·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 270,
+                "suiyin": 9600000,
+                "props": "长鸿：韧劲+3%",
+                "deco": "伏龙枪及伏龙枪接续断龙枪的增加伤害6%",
+                "texiao": null
+            },
+            {
+                "id": 2504,
+                "name": "伏龙枪·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 4,
+                "suiyin": 14400000,
+                "props": "长鸿：韧劲+3.5%",
+                "deco": "伏龙枪及伏龙枪接续断龙枪的增加伤害8%",
+                "texiao": null
+            },
+            {
+                "id": 2505,
+                "name": "伏龙枪·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 95,
+                "suiyin": 19200000,
+                "props": "长鸿：韧劲+4%",
+                "deco": "伏龙枪及伏龙枪接续断龙枪的增加伤害10%，十字枪会心机率提升2%",
+                "texiao": null
+            },
+            {
+                "id": 2506,
+                "name": "伏龙枪·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 190,
+                "suiyin": 24000000,
+                "props": "长鸿：韧劲+4.5%",
+                "deco": "伏龙枪及伏龙枪接续断龙枪的增加伤害12%，十字枪会心机率提升3%",
+                "texiao": null
+            },
+            {
+                "id": 2507,
+                "name": "伏龙枪·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 280,
+                "suiyin": 28800000,
+                "props": "长鸿：韧劲+5%",
+                "deco": "伏龙枪及伏龙枪接续断龙枪的增加伤害14%，十字枪会心机率提升4%",
+                "texiao": null
+            },
+            {
+                "id": 2508,
+                "name": "伏龙枪·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 4,
+                "suiyin": 96000000,
+                "props": "长鸿：韧劲+5.5%",
+                "deco": "伏龙枪及伏龙枪接续断龙枪的增加伤害16%，十字枪会心机率提升5%",
+                "texiao": null
+            },
+            {
+                "id": 2509,
+                "name": "伏龙枪·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "长鸿：韧劲+6%",
+                "deco": "伏龙枪及伏龙枪接续断龙枪的增加伤害18%，十字枪会心机率提升6%",
+                "texiao": "改变神威招式《伏龙枪》表现"
+            }
+        ],
+        "ShangYi": [
+            {
+                "id": 2600,
+                "name": "疾风枪·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 2601,
+                "name": "疾风枪·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 115,
+                "suiyin": 4600000,
+                "props": "犀照：会心率+3%",
+                "deco": "疾风枪及疾风枪追加断龙枪的伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 2602,
+                "name": "疾风枪·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 225,
+                "suiyin": 8050000,
+                "props": "犀照：会心率+3.5%",
+                "deco": "疾风枪及疾风枪追加断龙枪的伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 2603,
+                "name": "疾风枪·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 340,
+                "suiyin": 11500000,
+                "props": "犀照：会心率+4%",
+                "deco": "疾风枪及疾风枪追加断龙枪的伤害提升6%",
+                "texiao": null
+            },
+            {
+                "id": 2604,
+                "name": "疾风枪·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 5,
+                "suiyin": 17300000,
+                "props": "犀照：会心率+4.5%",
+                "deco": "疾风枪及疾风枪追加断龙枪的伤害提升8%",
+                "texiao": null
+            },
+            {
+                "id": 2605,
+                "name": "疾风枪·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 120,
+                "suiyin": 23050000,
+                "props": "犀照：会心率+5%",
+                "deco": "疾风枪及疾风枪追加断龙枪的伤害提升10%，十字枪伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 2606,
+                "name": "疾风枪·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 240,
+                "suiyin": 28800000,
+                "props": "犀照：会心率+5.5%",
+                "deco": "疾风枪及疾风枪追加断龙枪的伤害提升12%，十字枪伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 2607,
+                "name": "疾风枪·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 350,
+                "suiyin": 34550000,
+                "props": "犀照：会心率+6%",
+                "deco": "疾风枪及疾风枪追加断龙枪的伤害提升14%，十字枪伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 2608,
+                "name": "疾风枪·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 5,
+                "suiyin": 115200000,
+                "props": "犀照：会心率+6.5%",
+                "deco": "疾风枪及疾风枪追加断龙枪的伤害提升16%，十字枪伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 2609,
+                "name": "疾风枪·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "犀照：会心率+7%",
+                "deco": "疾风枪及疾风枪追加断龙枪的伤害提升18%，十字枪伤害提升5%",
+                "texiao": "改变神威招式《疾风枪》表现"
+            }
+        ],
+        "TouShi": [
+            {
+                "id": 2700,
+                "name": "狂龙震·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 2701,
+                "name": "狂龙震·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 30,
+                "suiyin": 3200000,
+                "props": "专情：命中+3%",
+                "deco": "狂龙震定力伤害提升6%",
+                "texiao": null
+            },
+            {
+                "id": 2702,
+                "name": "狂龙震·观复",
+                "jiangxinLV": 1,
+                "yelinglong": 60,
+                "suiyin": 5600000,
+                "props": "专情：命中+3.5%",
+                "deco": "狂龙震定力伤害提升7%",
+                "texiao": null
+            },
+            {
+                "id": 2703,
+                "name": "狂龙震·观复",
+                "jiangxinLV": 2,
+                "yelinglong": 90,
+                "suiyin": 8000000,
+                "props": "专情：命中+4%",
+                "deco": "狂龙震定力伤害提升8%",
+                "texiao": null
+            },
+            {
+                "id": 2704,
+                "name": "狂龙震·观复",
+                "jiangxinLV": 3,
+                "yelinglong": 3,
+                "suiyin": 12000000,
+                "props": "专情：命中+4.5%",
+                "deco": "狂龙震定力伤害提升9%",
+                "texiao": null
+            },
+            {
+                "id": 2705,
+                "name": "狂龙震·观复",
+                "jiangxinLV": 5,
+                "yelinglong": 75,
+                "suiyin": 16000000,
+                "props": "专情：命中+6.5%",
+                "deco": "狂龙震定力伤害提升10%，命中时回复5%霸气",
+                "texiao": null
+            },
+            {
+                "id": 2706,
+                "name": "狂龙震·观复",
+                "jiangxinLV": 8,
+                "yelinglong": 150,
+                "suiyin": 20000000,
+                "props": "专情：命中+7%",
+                "deco": "狂龙震定力伤害提升11%，命中时回复6%霸气",
+                "texiao": null
+            },
+            {
+                "id": 2707,
+                "name": "狂龙震·观复",
+                "jiangxinLV": 12,
+                "yelinglong": 225,
+                "suiyin": 24000000,
+                "props": "专情：命中+7.5%",
+                "deco": "狂龙震定力伤害提升12%，命中时回复7%霸气",
+                "texiao": null
+            },
+            {
+                "id": 2708,
+                "name": "狂龙震·观复",
+                "jiangxinLV": 16,
+                "yelinglong": 3,
+                "suiyin": 80000000,
+                "props": "专情：命中+8%",
+                "deco": "狂龙震定力伤害提升13%，命中时回复8%霸气",
+                "texiao": null
+            },
+            {
+                "id": 2709,
+                "name": "狂龙震·观复",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "专情：命中+8%",
+                "deco": "狂龙震定力伤害提升14%，命中时回复9%霸气",
+                "texiao": "改变神威招式《狂龙震》表现"
+            }
+        ],
+        "NeiChen": [
+            {
+                "id": 5400,
+                "name": "烈风枪·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 5401,
+                "name": "烈风枪·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 135,
+                "suiyin": 5050000,
+                "props": "秋水：气血上限+400",
+                "deco": "烈风枪及烈风枪追加断龙枪伤害提升0.5%",
+                "texiao": null
+            },
+            {
+                "id": 5402,
+                "name": "烈风枪·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 270,
+                "suiyin": 8850000,
+                "props": "秋水：气血上限+450",
+                "deco": "烈风枪及烈风枪追加断龙枪伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 5403,
+                "name": "烈风枪·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 405,
+                "suiyin": 12650000,
+                "props": "秋水：气血上限+500",
+                "deco": "烈风枪及烈风枪追加断龙枪伤害提升1.5%",
+                "texiao": null
+            },
+            {
+                "id": 5404,
+                "name": "烈风枪·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 6,
+                "suiyin": 19000000,
+                "props": "秋水：气血上限+600",
+                "deco": "烈风枪及烈风枪追加断龙枪伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 5405,
+                "name": "烈风枪·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 130,
+                "suiyin": 25350000,
+                "props": "秋水：气血上限+700",
+                "deco": "烈风枪及烈风枪追加断龙枪伤害提升2.5%",
+                "texiao": null
+            },
+            {
+                "id": 5406,
+                "name": "烈风枪·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 260,
+                "suiyin": 31650000,
+                "props": "秋水：气血上限+800",
+                "deco": "烈风枪及烈风枪追加断龙枪伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 5407,
+                "name": "烈风枪·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 385,
+                "suiyin": 38000000,
+                "props": "秋水：气血上限+850",
+                "deco": "烈风枪及烈风枪追加断龙枪伤害提升3.5%",
+                "texiao": null
+            },
+            {
+                "id": 5408,
+                "name": "烈风枪·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 126700000,
+                "props": "秋水：气血上限+900",
+                "deco": "烈风枪及烈风枪追加断龙枪伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 5409,
+                "name": "烈风枪·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "秋水：气血上限+900",
+                "deco": "烈风枪及烈风枪追加断龙枪伤害提升4.5%",
+                "texiao": "改变神威招式《烈风枪》表现"
+            }
+        ],
+        "YaoDai": [
+            {
+                "id": 5500,
+                "name": "云龙五现·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 5501,
+                "name": "云龙五现·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 165,
+                "suiyin": 5550000,
+                "props": "贯日：外功攻击+50",
+                "deco": "云龙五现伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 5502,
+                "name": "云龙五现·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 335,
+                "suiyin": 9700000,
+                "props": "贯日：外功攻击+60",
+                "deco": "云龙五现伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 5503,
+                "name": "云龙五现·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 505,
+                "suiyin": 13900000,
+                "props": "贯日：外功攻击+65",
+                "deco": "云龙五现伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 5504,
+                "name": "云龙五现·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 7,
+                "suiyin": 20900000,
+                "props": "贯日：外功攻击+75",
+                "deco": "云龙五现伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 5505,
+                "name": "云龙五现·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 140,
+                "suiyin": 27850000,
+                "props": "贯日：外功攻击+90",
+                "deco": "云龙五现伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 5506,
+                "name": "云龙五现·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 285,
+                "suiyin": 34800000,
+                "props": "贯日：外功攻击+100",
+                "deco": "云龙五现伤害提升6%",
+                "texiao": null
+            },
+            {
+                "id": 5507,
+                "name": "云龙五现·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 420,
+                "suiyin": 41800000,
+                "props": "贯日：外功攻击+110",
+                "deco": "云龙五现伤害提升7%",
+                "texiao": null
+            },
+            {
+                "id": 5508,
+                "name": "云龙五现·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 139350000,
+                "props": "贯日：外功攻击+115",
+                "deco": "云龙五现伤害提升8%",
+                "texiao": null
+            },
+            {
+                "id": 5509,
+                "name": "云龙五现·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "贯日：外功攻击+115",
+                "deco": "云龙五现伤害提升9%",
+                "texiao": "改变神威招式《云龙五现》表现"
+            }
+        ]
+    },
+    "3": {
+        "HuWan": [
+            {
+                "id": 2800,
+                "name": "虎尾脚·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 2801,
+                "name": "虎尾脚·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 15,
+                "suiyin": 2000000,
+                "props": "屏月：格挡+3%",
+                "deco": "虎尾脚会心几率提高5%",
+                "texiao": null
+            },
+            {
+                "id": 2802,
+                "name": "虎尾脚·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 30,
+                "suiyin": 3500000,
+                "props": "屏月：格挡+3.5%",
+                "deco": "虎尾脚会心几率提高6%",
+                "texiao": null
+            },
+            {
+                "id": 2803,
+                "name": "虎尾脚·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 45,
+                "suiyin": 5000000,
+                "props": "屏月：格挡+4%",
+                "deco": "虎尾脚会心几率提高7%",
+                "texiao": null
+            },
+            {
+                "id": 2804,
+                "name": "虎尾脚·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 2,
+                "suiyin": 7500000,
+                "props": "屏月：格挡+4.5%",
+                "deco": "虎尾脚会心几率提高8%",
+                "texiao": null
+            },
+            {
+                "id": 2805,
+                "name": "虎尾脚·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 50,
+                "suiyin": 10000000,
+                "props": "屏月：格挡+6.5%",
+                "deco": "虎尾脚会心几率提高10%",
+                "texiao": null
+            },
+            {
+                "id": 2806,
+                "name": "虎尾脚·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 100,
+                "suiyin": 12500000,
+                "props": "屏月：格挡+7%",
+                "deco": "虎尾脚会心几率提高11%",
+                "texiao": null
+            },
+            {
+                "id": 2807,
+                "name": "虎尾脚·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 150,
+                "suiyin": 15000000,
+                "props": "屏月：格挡+7.5%",
+                "deco": "虎尾脚会心几率提高12%",
+                "texiao": null
+            },
+            {
+                "id": 2808,
+                "name": "虎尾脚·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 2,
+                "suiyin": 50000000,
+                "props": "屏月：格挡+8%",
+                "deco": "虎尾脚会心几率提高13%",
+                "texiao": null
+            },
+            {
+                "id": 2809,
+                "name": "虎尾脚·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "屏月：格挡+8%",
+                "deco": "虎尾脚会心几率提高14%",
+                "texiao": "改变丐帮招式《虎尾脚》表现"
+            }
+        ],
+        "TouShi": [
+            {
+                "id": 2900,
+                "name": "倒提壶·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 2901,
+                "name": "倒提壶·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 30,
+                "suiyin": 3200000,
+                "props": "专情：命中+3%",
+                "deco": "倒提壶后恢复力5点。",
+                "texiao": null
+            },
+            {
+                "id": 2902,
+                "name": "倒提壶·观复",
+                "jiangxinLV": 1,
+                "yelinglong": 60,
+                "suiyin": 5600000,
+                "props": "专情：命中+3.5%",
+                "deco": "倒提壶后恢复力10点。",
+                "texiao": null
+            },
+            {
+                "id": 2903,
+                "name": "倒提壶·观复",
+                "jiangxinLV": 2,
+                "yelinglong": 90,
+                "suiyin": 8000000,
+                "props": "专情：命中+4%",
+                "deco": "倒提壶后恢复力15点。",
+                "texiao": null
+            },
+            {
+                "id": 2904,
+                "name": "倒提壶·观复",
+                "jiangxinLV": 3,
+                "yelinglong": 3,
+                "suiyin": 12000000,
+                "props": "专情：命中+4.5%",
+                "deco": "倒提壶后恢复力20点。",
+                "texiao": null
+            },
+            {
+                "id": 2905,
+                "name": "倒提壶·观复",
+                "jiangxinLV": 5,
+                "yelinglong": 75,
+                "suiyin": 16000000,
+                "props": "专情：命中+6.5%",
+                "deco": "倒提壶后恢复力25点，加速效果额外提升5%",
+                "texiao": null
+            },
+            {
+                "id": 2906,
+                "name": "倒提壶·观复",
+                "jiangxinLV": 8,
+                "yelinglong": 150,
+                "suiyin": 20000000,
+                "props": "专情：命中+7%",
+                "deco": "倒提壶后恢复力25点，加速效果额外提升10%",
+                "texiao": null
+            },
+            {
+                "id": 2907,
+                "name": "倒提壶·观复",
+                "jiangxinLV": 12,
+                "yelinglong": 225,
+                "suiyin": 24000000,
+                "props": "专情：命中+7.5%",
+                "deco": "倒提壶后恢复力25点，加速效果额外提升15%",
+                "texiao": null
+            },
+            {
+                "id": 2908,
+                "name": "倒提壶·观复",
+                "jiangxinLV": 16,
+                "yelinglong": 3,
+                "suiyin": 80000000,
+                "props": "专情：命中+8%",
+                "deco": "倒提壶后恢复力25点，加速效果额外提升20%",
+                "texiao": null
+            },
+            {
+                "id": 2909,
+                "name": "倒提壶·观复",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "专情：命中+8%",
+                "deco": "倒提壶后恢复力25点，加速效果额外提升25%",
+                "texiao": "改变丐帮招式《倒提壶》表现"
+            }
+        ],
+        "ShangYi": [
+            {
+                "id": 3000,
+                "name": "劈山诀·劲松",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 3001,
+                "name": "劈山诀·劲松",
+                "jiangxinLV": 0,
+                "yelinglong": 115,
+                "suiyin": 4600000,
+                "props": "犀照：会心率+3%",
+                "deco": "劈山诀的伤害范围扩大2%",
+                "texiao": null
+            },
+            {
+                "id": 3002,
+                "name": "劈山诀·劲松",
+                "jiangxinLV": 1,
+                "yelinglong": 225,
+                "suiyin": 8050000,
+                "props": "犀照：会心率+3.5%",
+                "deco": "劈山诀的伤害范围扩大4%",
+                "texiao": null
+            },
+            {
+                "id": 3003,
+                "name": "劈山诀·劲松",
+                "jiangxinLV": 2,
+                "yelinglong": 340,
+                "suiyin": 11500000,
+                "props": "犀照：会心率+4%",
+                "deco": "劈山诀的伤害范围扩大6%",
+                "texiao": null
+            },
+            {
+                "id": 3004,
+                "name": "劈山诀·劲松",
+                "jiangxinLV": 3,
+                "yelinglong": 5,
+                "suiyin": 17300000,
+                "props": "犀照：会心率+4.5%",
+                "deco": "劈山诀的伤害范围扩大8%",
+                "texiao": null
+            },
+            {
+                "id": 3005,
+                "name": "劈山诀·劲松",
+                "jiangxinLV": 5,
+                "yelinglong": 120,
+                "suiyin": 23050000,
+                "props": "犀照：会心率+5%",
+                "deco": "劈山诀的伤害范围扩大10%伤害增加1%",
+                "texiao": null
+            },
+            {
+                "id": 3006,
+                "name": "劈山诀·劲松",
+                "jiangxinLV": 8,
+                "yelinglong": 240,
+                "suiyin": 28800000,
+                "props": "犀照：会心率+5.5%",
+                "deco": "劈山诀的伤害范围扩大12%伤害增加2%",
+                "texiao": null
+            },
+            {
+                "id": 3007,
+                "name": "劈山诀·劲松",
+                "jiangxinLV": 12,
+                "yelinglong": 350,
+                "suiyin": 34550000,
+                "props": "犀照：会心率+6%",
+                "deco": "劈山诀的伤害范围扩大14%伤害增加3%",
+                "texiao": null
+            },
+            {
+                "id": 3008,
+                "name": "劈山诀·劲松",
+                "jiangxinLV": 16,
+                "yelinglong": 5,
+                "suiyin": 115200000,
+                "props": "犀照：会心率+6.5%",
+                "deco": "劈山诀的伤害范围扩大16%伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 3009,
+                "name": "劈山诀·劲松",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "犀照：会心率+7%",
+                "deco": "劈山诀的伤害范围扩大18%伤害增加5%",
+                "texiao": "改变丐帮招式《劈山诀》表现"
+            }
+        ],
+        "XieZi": [
+            {
+                "id": 3100,
+                "name": "百裂脚·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 3101,
+                "name": "百裂脚·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 90,
+                "suiyin": 3850000,
+                "props": "长鸿：韧劲+2%",
+                "deco": "百裂脚伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 3102,
+                "name": "百裂脚·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 180,
+                "suiyin": 6700000,
+                "props": "长鸿：韧劲+2.5%",
+                "deco": "百裂脚伤害增加2%",
+                "texiao": null
+            },
+            {
+                "id": 3103,
+                "name": "百裂脚·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 270,
+                "suiyin": 9600000,
+                "props": "长鸿：韧劲+3%",
+                "deco": "百裂脚伤害增加3%",
+                "texiao": null
+            },
+            {
+                "id": 3104,
+                "name": "百裂脚·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 4,
+                "suiyin": 14400000,
+                "props": "长鸿：韧劲+3.5%",
+                "deco": "百裂脚伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 3105,
+                "name": "百裂脚·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 95,
+                "suiyin": 19200000,
+                "props": "长鸿：韧劲+4%",
+                "deco": "百裂脚伤害增加5%满技状态下最后一击伤害额增加2%",
+                "texiao": null
+            },
+            {
+                "id": 3106,
+                "name": "百裂脚·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 190,
+                "suiyin": 24000000,
+                "props": "长鸿：韧劲+4.5%",
+                "deco": "百裂脚伤害增加6%满技状态下最后一击伤害额增加3%",
+                "texiao": null
+            },
+            {
+                "id": 3107,
+                "name": "百裂脚·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 280,
+                "suiyin": 28800000,
+                "props": "长鸿：韧劲+5%",
+                "deco": "百裂脚伤害增加7%满技状态下最后一击伤害额增加4%",
+                "texiao": null
+            },
+            {
+                "id": 3108,
+                "name": "百裂脚·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 4,
+                "suiyin": 96000000,
+                "props": "长鸿：韧劲+5.5%",
+                "deco": "百裂脚伤害增加8%满技状态下最后一击伤害额增加5%",
+                "texiao": null
+            },
+            {
+                "id": 3109,
+                "name": "百裂脚·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "长鸿：韧劲+6%",
+                "deco": "百裂脚伤害增加9%满技状态下最后一击伤害额增加6%",
+                "texiao": "改变丐帮招式《百裂脚》表现"
+            }
+        ],
+        "NeiChen": [
+            {
+                "id": 5600,
+                "name": "奔雷拳·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 5601,
+                "name": "奔雷拳·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 135,
+                "suiyin": 5050000,
+                "props": "秋水：气血上限+400",
+                "deco": "奔雷拳伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 5602,
+                "name": "奔雷拳·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 270,
+                "suiyin": 8850000,
+                "props": "秋水：气血上限+450",
+                "deco": "奔雷拳伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 5603,
+                "name": "奔雷拳·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 405,
+                "suiyin": 12650000,
+                "props": "秋水：气血上限+500",
+                "deco": "奔雷拳伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 5604,
+                "name": "奔雷拳·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 6,
+                "suiyin": 19000000,
+                "props": "秋水：气血上限+600",
+                "deco": "奔雷拳伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 5605,
+                "name": "奔雷拳·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 130,
+                "suiyin": 25350000,
+                "props": "秋水：气血上限+700",
+                "deco": "奔雷拳伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 5606,
+                "name": "奔雷拳·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 260,
+                "suiyin": 31650000,
+                "props": "秋水：气血上限+800",
+                "deco": "奔雷拳伤害提升6%",
+                "texiao": null
+            },
+            {
+                "id": 5607,
+                "name": "奔雷拳·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 385,
+                "suiyin": 38000000,
+                "props": "秋水：气血上限+850",
+                "deco": "奔雷拳伤害提升7%",
+                "texiao": null
+            },
+            {
+                "id": 5608,
+                "name": "奔雷拳·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 126700000,
+                "props": "秋水：气血上限+900",
+                "deco": "奔雷拳伤害提升8%",
+                "texiao": null
+            },
+            {
+                "id": 5609,
+                "name": "奔雷拳·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "秋水：气血上限+900",
+                "deco": "奔雷拳伤害提升9%",
+                "texiao": "改变丐帮招式《奔雷拳》表现"
+            }
+        ],
+        "YaoDai": [
+            {
+                "id": 5700,
+                "name": "龙吟三破·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 5701,
+                "name": "龙吟三破·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 165,
+                "suiyin": 5550000,
+                "props": "贯日：外功攻击+50",
+                "deco": "龙吟三破伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 5702,
+                "name": "龙吟三破·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 335,
+                "suiyin": 9700000,
+                "props": "贯日：外功攻击+60",
+                "deco": "龙吟三破伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 5703,
+                "name": "龙吟三破·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 505,
+                "suiyin": 13900000,
+                "props": "贯日：外功攻击+65",
+                "deco": "龙吟三破伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 5704,
+                "name": "龙吟三破·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 7,
+                "suiyin": 20900000,
+                "props": "贯日：外功攻击+75",
+                "deco": "龙吟三破伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 5705,
+                "name": "龙吟三破·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 140,
+                "suiyin": 27850000,
+                "props": "贯日：外功攻击+90",
+                "deco": "龙吟三破伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 5706,
+                "name": "龙吟三破·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 285,
+                "suiyin": 34800000,
+                "props": "贯日：外功攻击+100",
+                "deco": "龙吟三破伤害提升6%",
+                "texiao": null
+            },
+            {
+                "id": 5707,
+                "name": "龙吟三破·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 420,
+                "suiyin": 41800000,
+                "props": "贯日：外功攻击+110",
+                "deco": "龙吟三破伤害提升7%",
+                "texiao": null
+            },
+            {
+                "id": 5708,
+                "name": "龙吟三破·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 139350000,
+                "props": "贯日：外功攻击+115",
+                "deco": "龙吟三破伤害提升8%",
+                "texiao": null
+            },
+            {
+                "id": 5709,
+                "name": "龙吟三破·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "贯日：外功攻击+115",
+                "deco": "龙吟三破伤害提升9%",
+                "texiao": "改变丐帮招式《龙吟三破》表现"
+            }
+        ]
+    },
+    "4": {
+        "XieZi": [
+            {
+                "id": 3200,
+                "name": "乳燕归巢·劲松",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 3201,
+                "name": "乳燕归巢·劲松",
+                "jiangxinLV": 0,
+                "yelinglong": 90,
+                "suiyin": 3850000,
+                "props": "长鸿：韧劲+2%",
+                "deco": "乳燕归巢宽度增加1%",
+                "texiao": null
+            },
+            {
+                "id": 3202,
+                "name": "乳燕归巢·劲松",
+                "jiangxinLV": 1,
+                "yelinglong": 180,
+                "suiyin": 6700000,
+                "props": "长鸿：韧劲+2.5%",
+                "deco": "乳燕归巢宽度增加2%",
+                "texiao": null
+            },
+            {
+                "id": 3203,
+                "name": "乳燕归巢·劲松",
+                "jiangxinLV": 2,
+                "yelinglong": 270,
+                "suiyin": 9600000,
+                "props": "长鸿：韧劲+3%",
+                "deco": "乳燕归巢宽度增加3%",
+                "texiao": null
+            },
+            {
+                "id": 3204,
+                "name": "乳燕归巢·劲松",
+                "jiangxinLV": 3,
+                "yelinglong": 4,
+                "suiyin": 14400000,
+                "props": "长鸿：韧劲+3.5%",
+                "deco": "乳燕归巢宽度增加4%",
+                "texiao": null
+            },
+            {
+                "id": 3205,
+                "name": "乳燕归巢·劲松",
+                "jiangxinLV": 5,
+                "yelinglong": 95,
+                "suiyin": 19200000,
+                "props": "长鸿：韧劲+4%",
+                "deco": "乳燕归巢宽度增加5%，命中单体目标时伤害增加2%，群体目标时伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 3206,
+                "name": "乳燕归巢·劲松",
+                "jiangxinLV": 8,
+                "yelinglong": 190,
+                "suiyin": 24000000,
+                "props": "长鸿：韧劲+4.5%",
+                "deco": "乳燕归巢宽度增加6%，命中单体目标时伤害增加4%，群体目标时伤害增加8%",
+                "texiao": null
+            },
+            {
+                "id": 3207,
+                "name": "乳燕归巢·劲松",
+                "jiangxinLV": 12,
+                "yelinglong": 280,
+                "suiyin": 28800000,
+                "props": "长鸿：韧劲+5%",
+                "deco": "乳燕归巢宽度增加7%，命中单体目标时伤害增加6%，群体目标时伤害增加12%",
+                "texiao": null
+            },
+            {
+                "id": 3208,
+                "name": "乳燕归巢·劲松",
+                "jiangxinLV": 16,
+                "yelinglong": 4,
+                "suiyin": 96000000,
+                "props": "长鸿：韧劲+5.5%",
+                "deco": "乳燕归巢宽度增加8%，命中单体目标时伤害增加8%，群体目标时伤害增加16%",
+                "texiao": null
+            },
+            {
+                "id": 3209,
+                "name": "乳燕归巢·劲松",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "长鸿：韧劲+6%",
+                "deco": "乳燕归巢宽度增加9%，命中单体目标时伤害增加10%，群体目标时伤害增加20%",
+                "texiao": "改变唐门招式《乳燕归巢》表现"
+            }
+        ],
+        "HuWan": [
+            {
+                "id": 3300,
+                "name": "千魂裂·怀柔",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 3301,
+                "name": "千魂裂·怀柔",
+                "jiangxinLV": 0,
+                "yelinglong": 15,
+                "suiyin": 2000000,
+                "props": "屏月：格挡+3%",
+                "deco": "千魂裂机巧消耗降低1点",
+                "texiao": null
+            },
+            {
+                "id": 3302,
+                "name": "千魂裂·怀柔",
+                "jiangxinLV": 1,
+                "yelinglong": 30,
+                "suiyin": 3500000,
+                "props": "屏月：格挡+3.5%",
+                "deco": "千魂裂机巧消耗降低2点",
+                "texiao": null
+            },
+            {
+                "id": 3303,
+                "name": "千魂裂·怀柔",
+                "jiangxinLV": 2,
+                "yelinglong": 45,
+                "suiyin": 5000000,
+                "props": "屏月：格挡+4%",
+                "deco": "千魂裂机巧消耗降低3点",
+                "texiao": null
+            },
+            {
+                "id": 3304,
+                "name": "千魂裂·怀柔",
+                "jiangxinLV": 3,
+                "yelinglong": 2,
+                "suiyin": 7500000,
+                "props": "屏月：格挡+4.5%",
+                "deco": "千魂裂机巧消耗降低4点",
+                "texiao": null
+            },
+            {
+                "id": 3305,
+                "name": "千魂裂·怀柔",
+                "jiangxinLV": 5,
+                "yelinglong": 50,
+                "suiyin": 10000000,
+                "props": "屏月：格挡+6.5%",
+                "deco": "千魂裂机巧消耗降低5点，定力伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 3306,
+                "name": "千魂裂·怀柔",
+                "jiangxinLV": 8,
+                "yelinglong": 100,
+                "suiyin": 12500000,
+                "props": "屏月：格挡+7%",
+                "deco": "千魂裂机巧消耗降低5点，定力伤害提升14%",
+                "texiao": null
+            },
+            {
+                "id": 3307,
+                "name": "千魂裂·怀柔",
+                "jiangxinLV": 12,
+                "yelinglong": 150,
+                "suiyin": 15000000,
+                "props": "屏月：格挡+7.5%",
+                "deco": "千魂裂机巧消耗降低5点，定力伤害提升23%",
+                "texiao": null
+            },
+            {
+                "id": 3308,
+                "name": "千魂裂·怀柔",
+                "jiangxinLV": 16,
+                "yelinglong": 2,
+                "suiyin": 50000000,
+                "props": "屏月：格挡+8%",
+                "deco": "千魂裂机巧消耗降低5点，定力伤害提升32%",
+                "texiao": null
+            },
+            {
+                "id": 3309,
+                "name": "千魂裂·怀柔",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "屏月：格挡+8%",
+                "deco": "千魂裂机巧消耗降低5点，定力伤害提升41%",
+                "texiao": "改变唐门招式《千魂裂》表现"
+            }
+        ],
+        "TouShi": [
+            {
+                "id": 3400,
+                "name": "爆天星·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 3401,
+                "name": "爆天星·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 30,
+                "suiyin": 3200000,
+                "props": "专情：命中+3%",
+                "deco": "爆天星第二段打空时回复1点机巧，对霸体目标伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 3402,
+                "name": "爆天星·观复",
+                "jiangxinLV": 1,
+                "yelinglong": 60,
+                "suiyin": 5600000,
+                "props": "专情：命中+3.5%",
+                "deco": "爆天星第二段打空时回复2点机巧，对霸体目标伤害提升8%",
+                "texiao": null
+            },
+            {
+                "id": 3403,
+                "name": "爆天星·观复",
+                "jiangxinLV": 2,
+                "yelinglong": 90,
+                "suiyin": 8000000,
+                "props": "专情：命中+4%",
+                "deco": "爆天星第二段打空时回复3点机巧，对霸体目标伤害提升11%",
+                "texiao": null
+            },
+            {
+                "id": 3404,
+                "name": "爆天星·观复",
+                "jiangxinLV": 3,
+                "yelinglong": 3,
+                "suiyin": 12000000,
+                "props": "专情：命中+4.5%",
+                "deco": "爆天星第二段打空时回复4点机巧，对霸体目标伤害提升14%",
+                "texiao": null
+            },
+            {
+                "id": 3405,
+                "name": "爆天星·观复",
+                "jiangxinLV": 5,
+                "yelinglong": 75,
+                "suiyin": 16000000,
+                "props": "专情：命中+6.5%",
+                "deco": "爆天星第二段打空时回复5点机巧，对霸体目标伤害提升20%",
+                "texiao": null
+            },
+            {
+                "id": 3406,
+                "name": "爆天星·观复",
+                "jiangxinLV": 8,
+                "yelinglong": 150,
+                "suiyin": 20000000,
+                "props": "专情：命中+7%",
+                "deco": "爆天星第二段打空时回复5点机巧，对霸体目标伤害提升26%",
+                "texiao": null
+            },
+            {
+                "id": 3407,
+                "name": "爆天星·观复",
+                "jiangxinLV": 12,
+                "yelinglong": 225,
+                "suiyin": 24000000,
+                "props": "专情：命中+7.5%",
+                "deco": "爆天星第二段打空时回复5点机巧，对霸体目标伤害提升32%",
+                "texiao": null
+            },
+            {
+                "id": 3408,
+                "name": "爆天星·观复",
+                "jiangxinLV": 16,
+                "yelinglong": 3,
+                "suiyin": 80000000,
+                "props": "专情：命中+8%",
+                "deco": "爆天星第二段打空时回复5点机巧，对霸体目标伤害提升38%",
+                "texiao": null
+            },
+            {
+                "id": 3409,
+                "name": "爆天星·观复",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "专情：命中+8%",
+                "deco": "爆天星第二段打空时回复5点机巧，对霸体目标伤害提升44%",
+                "texiao": "改变唐门招式《爆天星》表现"
+            }
+        ],
+        "ShangYi": [
+            {
+                "id": 3500,
+                "name": "暴雨梨花·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 3501,
+                "name": "暴雨梨花·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 115,
+                "suiyin": 4600000,
+                "props": "犀照：会心率+3%",
+                "deco": "暴雨梨花每一击命中回复1点机巧",
+                "texiao": null
+            },
+            {
+                "id": 3502,
+                "name": "暴雨梨花·观复",
+                "jiangxinLV": 1,
+                "yelinglong": 225,
+                "suiyin": 8050000,
+                "props": "犀照：会心率+3.5%",
+                "deco": "暴雨梨花每一击命中回复2点机巧",
+                "texiao": null
+            },
+            {
+                "id": 3503,
+                "name": "暴雨梨花·观复",
+                "jiangxinLV": 2,
+                "yelinglong": 340,
+                "suiyin": 11500000,
+                "props": "犀照：会心率+4%",
+                "deco": "暴雨梨花每一击命中回复3点机巧",
+                "texiao": null
+            },
+            {
+                "id": 3504,
+                "name": "暴雨梨花·观复",
+                "jiangxinLV": 3,
+                "yelinglong": 5,
+                "suiyin": 17300000,
+                "props": "犀照：会心率+4.5%",
+                "deco": "暴雨梨花每一击命中回复4点机巧",
+                "texiao": null
+            },
+            {
+                "id": 3505,
+                "name": "暴雨梨花·观复",
+                "jiangxinLV": 5,
+                "yelinglong": 120,
+                "suiyin": 23050000,
+                "props": "犀照：会心率+5%",
+                "deco": "暴雨梨花每一击命中回复5点机巧，二段伤害提高25%",
+                "texiao": null
+            },
+            {
+                "id": 3506,
+                "name": "暴雨梨花·观复",
+                "jiangxinLV": 8,
+                "yelinglong": 240,
+                "suiyin": 28800000,
+                "props": "犀照：会心率+5.5%",
+                "deco": "暴雨梨花每一击命中回复5点机巧，二段伤害提高40%",
+                "texiao": null
+            },
+            {
+                "id": 3507,
+                "name": "暴雨梨花·观复",
+                "jiangxinLV": 12,
+                "yelinglong": 350,
+                "suiyin": 34550000,
+                "props": "犀照：会心率+6%",
+                "deco": "暴雨梨花每一击命中回复5点机巧，二段伤害提高55%",
+                "texiao": null
+            },
+            {
+                "id": 3508,
+                "name": "暴雨梨花·观复",
+                "jiangxinLV": 16,
+                "yelinglong": 5,
+                "suiyin": 115200000,
+                "props": "犀照：会心率+6.5%",
+                "deco": "暴雨梨花每一击命中回复5点机巧，二段伤害提高70%",
+                "texiao": null
+            },
+            {
+                "id": 3509,
+                "name": "暴雨梨花·观复",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "犀照：会心率+7%",
+                "deco": "暴雨梨花每一击命中回复5点机巧，二段伤害提高85%",
+                "texiao": "改变唐门招式《暴雨梨花》表现"
+            }
+        ],
+        "NeiChen": [
+            {
+                "id": 5800,
+                "name": "风花饮月·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 5801,
+                "name": "风花饮月·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 135,
+                "suiyin": 5050000,
+                "props": "秋水：气血上限+400",
+                "deco": "风花饮月伤害提升0.5%",
+                "texiao": null
+            },
+            {
+                "id": 5802,
+                "name": "风花饮月·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 270,
+                "suiyin": 8850000,
+                "props": "秋水：气血上限+450",
+                "deco": "风花饮月伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 5803,
+                "name": "风花饮月·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 405,
+                "suiyin": 12650000,
+                "props": "秋水：气血上限+500",
+                "deco": "风花饮月伤害提升1.5%",
+                "texiao": null
+            },
+            {
+                "id": 5804,
+                "name": "风花饮月·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 6,
+                "suiyin": 19000000,
+                "props": "秋水：气血上限+600",
+                "deco": "风花饮月伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 5805,
+                "name": "风花饮月·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 130,
+                "suiyin": 25350000,
+                "props": "秋水：气血上限+700",
+                "deco": "风花饮月伤害提升2.5%",
+                "texiao": null
+            },
+            {
+                "id": 5806,
+                "name": "风花饮月·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 260,
+                "suiyin": 31650000,
+                "props": "秋水：气血上限+800",
+                "deco": "风花饮月伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 5807,
+                "name": "风花饮月·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 385,
+                "suiyin": 38000000,
+                "props": "秋水：气血上限+850",
+                "deco": "风花饮月伤害提升3.5%",
+                "texiao": null
+            },
+            {
+                "id": 5808,
+                "name": "风花饮月·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 126700000,
+                "props": "秋水：气血上限+900",
+                "deco": "风花饮月伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 5809,
+                "name": "风花饮月·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "秋水：气血上限+900",
+                "deco": "风花饮月伤害提升4.5%",
+                "texiao": "改变唐门招式《风花饮月》表现"
+            }
+        ],
+        "YaoDai": [
+            {
+                "id": 5900,
+                "name": "星雨飞花·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 5901,
+                "name": "星雨飞花·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 165,
+                "suiyin": 5550000,
+                "props": "贯日：外功攻击+50",
+                "deco": "星雨飞花伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 5902,
+                "name": "星雨飞花·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 335,
+                "suiyin": 9700000,
+                "props": "贯日：外功攻击+60",
+                "deco": "星雨飞花伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 5903,
+                "name": "星雨飞花·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 505,
+                "suiyin": 13900000,
+                "props": "贯日：外功攻击+65",
+                "deco": "星雨飞花伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 5904,
+                "name": "星雨飞花·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 7,
+                "suiyin": 20900000,
+                "props": "贯日：外功攻击+75",
+                "deco": "星雨飞花伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 5905,
+                "name": "星雨飞花·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 140,
+                "suiyin": 27850000,
+                "props": "贯日：外功攻击+90",
+                "deco": "星雨飞花伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 5906,
+                "name": "星雨飞花·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 285,
+                "suiyin": 34800000,
+                "props": "贯日：外功攻击+100",
+                "deco": "星雨飞花伤害提升6%",
+                "texiao": null
+            },
+            {
+                "id": 5907,
+                "name": "星雨飞花·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 420,
+                "suiyin": 41800000,
+                "props": "贯日：外功攻击+110",
+                "deco": "星雨飞花伤害提升7%",
+                "texiao": null
+            },
+            {
+                "id": 5908,
+                "name": "星雨飞花·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 139350000,
+                "props": "贯日：外功攻击+115",
+                "deco": "星雨飞花伤害提升8%",
+                "texiao": null
+            },
+            {
+                "id": 5909,
+                "name": "星雨飞花·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "贯日：外功攻击+115",
+                "deco": "星雨飞花伤害提升9%",
+                "texiao": "改变唐门招式《星雨飞花》表现"
+            }
+        ]
+    },
+    "5": {
+        "ShangYi": [
+            {
+                "id": 4400,
+                "name": "索命诀·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 4401,
+                "name": "索命诀·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 115,
+                "suiyin": 4600000,
+                "props": "犀照：会心率+3%",
+                "deco": "索命诀定力伤害增加2%",
+                "texiao": null
+            },
+            {
+                "id": 4402,
+                "name": "索命诀·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 225,
+                "suiyin": 8050000,
+                "props": "犀照：会心率+3.5%",
+                "deco": "索命诀定力伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 4403,
+                "name": "索命诀·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 340,
+                "suiyin": 11500000,
+                "props": "犀照：会心率+4%",
+                "deco": "索命诀定力伤害增加6%",
+                "texiao": null
+            },
+            {
+                "id": 4404,
+                "name": "索命诀·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 5,
+                "suiyin": 17300000,
+                "props": "犀照：会心率+4.5%",
+                "deco": "索命诀定力伤害增加8%",
+                "texiao": null
+            },
+            {
+                "id": 4405,
+                "name": "索命诀·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 120,
+                "suiyin": 23050000,
+                "props": "犀照：会心率+5%",
+                "deco": "索命诀定力伤害增加10%$$40%触发噬魂蛊$$潜行状态锁定目标时，也会触发噬魂蛊效果",
+                "texiao": null
+            },
+            {
+                "id": 4406,
+                "name": "索命诀·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 240,
+                "suiyin": 28800000,
+                "props": "犀照：会心率+5.5%",
+                "deco": "索命诀定力伤害增加12%$$50%触发噬魂蛊$$潜行状态锁定目标时，也会触发噬魂蛊效果",
+                "texiao": null
+            },
+            {
+                "id": 4407,
+                "name": "索命诀·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 350,
+                "suiyin": 34550000,
+                "props": "犀照：会心率+6%",
+                "deco": "索命诀定力伤害增加14%$$60%触发噬魂蛊$$潜行状态锁定目标时，也会触发噬魂蛊效果",
+                "texiao": null
+            },
+            {
+                "id": 4408,
+                "name": "索命诀·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 5,
+                "suiyin": 115200000,
+                "props": "犀照：会心率+6.5%",
+                "deco": "索命诀定力伤害增加16%$$70%触发噬魂蛊$$潜行状态锁定目标时，也会触发噬魂蛊效果",
+                "texiao": null
+            },
+            {
+                "id": 4409,
+                "name": "索命诀·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "犀照：会心率+7%",
+                "deco": "索命诀定力伤害增加18%$$100%触发噬魂蛊$$潜行状态锁定目标时，也会触发噬魂蛊效果",
+                "texiao": "改变五毒招式《索命诀》表现"
+            }
+        ],
+        "HuWan": [
+            {
+                "id": 4500,
+                "name": "灵蛇刺骨·劲松",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 4501,
+                "name": "灵蛇刺骨·劲松",
+                "jiangxinLV": 0,
+                "yelinglong": 15,
+                "suiyin": 2000000,
+                "props": "屏月：格挡+3%",
+                "deco": "灵蛇刺骨距离延长0.4米",
+                "texiao": null
+            },
+            {
+                "id": 4502,
+                "name": "灵蛇刺骨·劲松",
+                "jiangxinLV": 1,
+                "yelinglong": 30,
+                "suiyin": 3500000,
+                "props": "屏月：格挡+3.5%",
+                "deco": "灵蛇刺骨距离延长0.8米",
+                "texiao": null
+            },
+            {
+                "id": 4503,
+                "name": "灵蛇刺骨·劲松",
+                "jiangxinLV": 2,
+                "yelinglong": 45,
+                "suiyin": 5000000,
+                "props": "屏月：格挡+4%",
+                "deco": "灵蛇刺骨距离延长1.2米",
+                "texiao": null
+            },
+            {
+                "id": 4504,
+                "name": "灵蛇刺骨·劲松",
+                "jiangxinLV": 3,
+                "yelinglong": 2,
+                "suiyin": 7500000,
+                "props": "屏月：格挡+4.5%",
+                "deco": "灵蛇刺骨距离延长1.6米",
+                "texiao": null
+            },
+            {
+                "id": 4505,
+                "name": "灵蛇刺骨·劲松",
+                "jiangxinLV": 5,
+                "yelinglong": 50,
+                "suiyin": 10000000,
+                "props": "屏月：格挡+6.5%",
+                "deco": "灵蛇刺骨距离延长2米",
+                "texiao": null
+            },
+            {
+                "id": 4506,
+                "name": "灵蛇刺骨·劲松",
+                "jiangxinLV": 8,
+                "yelinglong": 100,
+                "suiyin": 12500000,
+                "props": "屏月：格挡+7%",
+                "deco": "灵蛇刺骨距离延长2米，命中时有40%几率触发噬魂蛊",
+                "texiao": null
+            },
+            {
+                "id": 4507,
+                "name": "灵蛇刺骨·劲松",
+                "jiangxinLV": 12,
+                "yelinglong": 150,
+                "suiyin": 15000000,
+                "props": "屏月：格挡+7.5%",
+                "deco": "灵蛇刺骨距离延长2米，命中时有55%几率触发噬魂蛊",
+                "texiao": null
+            },
+            {
+                "id": 4508,
+                "name": "灵蛇刺骨·劲松",
+                "jiangxinLV": 16,
+                "yelinglong": 2,
+                "suiyin": 50000000,
+                "props": "屏月：格挡+8%",
+                "deco": "灵蛇刺骨距离延长2米，命中时有70%几率触发噬魂蛊",
+                "texiao": null
+            },
+            {
+                "id": 4509,
+                "name": "灵蛇刺骨·劲松",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "屏月：格挡+8%",
+                "deco": "灵蛇刺骨距离延长2米，命中时有85%几率触发噬魂蛊",
+                "texiao": "改变五毒招式《灵蛇刺骨》表现"
+            }
+        ],
+        "XieZi": [
+            {
+                "id": 4600,
+                "name": "黑雾刀法·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 4601,
+                "name": "黑雾刀法·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 90,
+                "suiyin": 3850000,
+                "props": "长鸿：韧劲+2%",
+                "deco": "黑雾刀法伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 4602,
+                "name": "黑雾刀法·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 180,
+                "suiyin": 6700000,
+                "props": "长鸿：韧劲+2.5%",
+                "deco": "黑雾刀法伤害提升10%",
+                "texiao": null
+            },
+            {
+                "id": 4603,
+                "name": "黑雾刀法·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 270,
+                "suiyin": 9600000,
+                "props": "长鸿：韧劲+3%",
+                "deco": "黑雾刀法伤害提升15%",
+                "texiao": null
+            },
+            {
+                "id": 4604,
+                "name": "黑雾刀法·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 4,
+                "suiyin": 14400000,
+                "props": "长鸿：韧劲+3.5%",
+                "deco": "黑雾刀法伤害提升20%",
+                "texiao": null
+            },
+            {
+                "id": 4605,
+                "name": "黑雾刀法·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 95,
+                "suiyin": 19200000,
+                "props": "长鸿：韧劲+4%",
+                "deco": "黑雾刀法伤害提升25%定力伤害提高5%",
+                "texiao": null
+            },
+            {
+                "id": 4606,
+                "name": "黑雾刀法·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 190,
+                "suiyin": 24000000,
+                "props": "长鸿：韧劲+4.5%",
+                "deco": "黑雾刀法伤害提升30%定力伤害提高10%",
+                "texiao": null
+            },
+            {
+                "id": 4607,
+                "name": "黑雾刀法·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 280,
+                "suiyin": 28800000,
+                "props": "长鸿：韧劲+5%",
+                "deco": "黑雾刀法伤害提升35%定力伤害提高15%",
+                "texiao": null
+            },
+            {
+                "id": 4608,
+                "name": "黑雾刀法·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 4,
+                "suiyin": 96000000,
+                "props": "长鸿：韧劲+5.5%",
+                "deco": "黑雾刀法伤害提升40%定力伤害提高20%",
+                "texiao": null
+            },
+            {
+                "id": 4609,
+                "name": "黑雾刀法·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "长鸿：韧劲+6%",
+                "deco": "黑雾刀法伤害提升45%定力伤害提高25%",
+                "texiao": "改变五毒招式《黑雾刀法》表现"
+            }
+        ],
+        "TouShi": [
+            {
+                "id": 4700,
+                "name": "飞雀夺怀·天罡",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 4701,
+                "name": "飞雀夺怀·天罡",
+                "jiangxinLV": 0,
+                "yelinglong": 30,
+                "suiyin": 3200000,
+                "props": "专情：命中+3%",
+                "deco": "飞雀夺怀命中多个敌人时，每额外攻击到一人，在6秒内获得8%伤害降低效果，最多获得40%减伤",
+                "texiao": null
+            },
+            {
+                "id": 4702,
+                "name": "飞雀夺怀·天罡",
+                "jiangxinLV": 1,
+                "yelinglong": 60,
+                "suiyin": 5600000,
+                "props": "专情：命中+3.5%",
+                "deco": "飞雀夺怀命中多个敌人时，每额外攻击到一人，在6秒内获得9%伤害降低效果，最多获得45%减伤",
+                "texiao": null
+            },
+            {
+                "id": 4703,
+                "name": "飞雀夺怀·天罡",
+                "jiangxinLV": 2,
+                "yelinglong": 90,
+                "suiyin": 8000000,
+                "props": "专情：命中+4%",
+                "deco": "飞雀夺怀命中多个敌人时，每额外攻击到一人，在6秒内获得10%伤害降低效果，最多获得50%减伤",
+                "texiao": null
+            },
+            {
+                "id": 4704,
+                "name": "飞雀夺怀·天罡",
+                "jiangxinLV": 3,
+                "yelinglong": 3,
+                "suiyin": 12000000,
+                "props": "专情：命中+4.5%",
+                "deco": "飞雀夺怀命中多个敌人时，每额外攻击到一人，在6秒内获得11%伤害降低效果，最多获得55%减伤",
+                "texiao": null
+            },
+            {
+                "id": 4705,
+                "name": "飞雀夺怀·天罡",
+                "jiangxinLV": 5,
+                "yelinglong": 75,
+                "suiyin": 16000000,
+                "props": "专情：命中+6.5%",
+                "deco": "飞雀夺怀命中多个敌人时，每额外攻击到一人，在6秒内获得12%伤害降低效果，最多获得60%减伤；对带有噬魂蛊的目标，追踪半径提高1米",
+                "texiao": null
+            },
+            {
+                "id": 4706,
+                "name": "飞雀夺怀·天罡",
+                "jiangxinLV": 8,
+                "yelinglong": 150,
+                "suiyin": 20000000,
+                "props": "专情：命中+7%",
+                "deco": "飞雀夺怀命中多个敌人时，每额外攻击到一人，在6秒内获得12%伤害降低效果，最多获得60%减伤；对带有噬魂蛊的目标，追踪半径提高2米",
+                "texiao": null
+            },
+            {
+                "id": 4707,
+                "name": "飞雀夺怀·天罡",
+                "jiangxinLV": 12,
+                "yelinglong": 225,
+                "suiyin": 24000000,
+                "props": "专情：命中+7.5%",
+                "deco": "飞雀夺怀命中多个敌人时，每额外攻击到一人，在6秒内获得12%伤害降低效果，最多获得60%减伤；对带有噬魂蛊的目标，追踪半径提高4米",
+                "texiao": null
+            },
+            {
+                "id": 4708,
+                "name": "飞雀夺怀·天罡",
+                "jiangxinLV": 16,
+                "yelinglong": 3,
+                "suiyin": 80000000,
+                "props": "专情：命中+8%",
+                "deco": "飞雀夺怀命中多个敌人时，每额外攻击到一人，在6秒内获得12%伤害降低效果，最多获得60%减伤；对带有噬魂蛊的目标，追踪半径提高6米",
+                "texiao": null
+            },
+            {
+                "id": 4709,
+                "name": "飞雀夺怀·天罡",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "专情：命中+8%",
+                "deco": "飞雀夺怀命中多个敌人时，每额外攻击到一人，在6秒内获得12%伤害降低效果，最多获得60%减伤；对带有噬魂蛊的目标，追踪半径提高8米",
+                "texiao": "改变五毒招式《飞雀夺怀》表现"
+            }
+        ],
+        "NeiChen": [
+            {
+                "id": 6400,
+                "name": "狂风追命·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 6401,
+                "name": "狂风追命·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 135,
+                "suiyin": 5050000,
+                "props": "秋水：气血上限+400",
+                "deco": "狂蜂追命伤害提升0.5%",
+                "texiao": null
+            },
+            {
+                "id": 6402,
+                "name": "狂风追命·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 270,
+                "suiyin": 8850000,
+                "props": "秋水：气血上限+450",
+                "deco": "狂蜂追命伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 6403,
+                "name": "狂风追命·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 405,
+                "suiyin": 12650000,
+                "props": "秋水：气血上限+500",
+                "deco": "狂蜂追命伤害提升1.5%",
+                "texiao": null
+            },
+            {
+                "id": 6404,
+                "name": "狂风追命·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 6,
+                "suiyin": 19000000,
+                "props": "秋水：气血上限+600",
+                "deco": "狂蜂追命伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 6405,
+                "name": "狂风追命·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 130,
+                "suiyin": 25350000,
+                "props": "秋水：气血上限+700",
+                "deco": "狂蜂追命伤害提升2.5%",
+                "texiao": null
+            },
+            {
+                "id": 6406,
+                "name": "狂风追命·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 260,
+                "suiyin": 31650000,
+                "props": "秋水：气血上限+800",
+                "deco": "狂蜂追命伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 6407,
+                "name": "狂风追命·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 385,
+                "suiyin": 38000000,
+                "props": "秋水：气血上限+850",
+                "deco": "狂蜂追命伤害提升3.5%",
+                "texiao": null
+            },
+            {
+                "id": 6408,
+                "name": "狂风追命·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 126700000,
+                "props": "秋水：气血上限+900",
+                "deco": "狂蜂追命伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 6409,
+                "name": "狂风追命·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "秋水：气血上限+900",
+                "deco": "狂蜂追命伤害提升4.5%",
+                "texiao": "改变五毒招式《狂风追命》表现"
+            }
+        ],
+        "YaoDai": [
+            {
+                "id": 6500,
+                "name": "凤凰决杀·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 6501,
+                "name": "凤凰决杀·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 165,
+                "suiyin": 5550000,
+                "props": "贯日：外功攻击+50",
+                "deco": "凤凰决杀伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 6502,
+                "name": "凤凰决杀·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 335,
+                "suiyin": 9700000,
+                "props": "贯日：外功攻击+60",
+                "deco": "凤凰决杀伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 6503,
+                "name": "凤凰决杀·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 505,
+                "suiyin": 13900000,
+                "props": "贯日：外功攻击+65",
+                "deco": "凤凰决杀伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 6504,
+                "name": "凤凰决杀·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 7,
+                "suiyin": 20900000,
+                "props": "贯日：外功攻击+75",
+                "deco": "凤凰决杀伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 6505,
+                "name": "凤凰决杀·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 140,
+                "suiyin": 27850000,
+                "props": "贯日：外功攻击+90",
+                "deco": "凤凰决杀伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 6506,
+                "name": "凤凰决杀·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 285,
+                "suiyin": 34800000,
+                "props": "贯日：外功攻击+100",
+                "deco": "凤凰决杀伤害提升6%",
+                "texiao": null
+            },
+            {
+                "id": 6507,
+                "name": "凤凰决杀·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 420,
+                "suiyin": 41800000,
+                "props": "贯日：外功攻击+110",
+                "deco": "凤凰决杀伤害提升7%",
+                "texiao": null
+            },
+            {
+                "id": 6508,
+                "name": "凤凰决杀·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 139350000,
+                "props": "贯日：外功攻击+115",
+                "deco": "凤凰决杀伤害提升8%",
+                "texiao": null
+            },
+            {
+                "id": 6509,
+                "name": "凤凰决杀·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "贯日：外功攻击+115",
+                "deco": "凤凰决杀伤害提升9%",
+                "texiao": "改变五毒招式《凤凰决杀》表现"
+            }
+        ]
+    },
+    "7": {
+        "HuWan": [
+            {
+                "id": 4000,
+                "name": "芳华一瞬·追月",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 4001,
+                "name": "芳华一瞬·追月",
+                "jiangxinLV": 0,
+                "yelinglong": 15,
+                "suiyin": 2000000,
+                "props": "屏月：格挡+3%",
+                "deco": "芳华一瞬命中后3秒内移动速度提升25%",
+                "texiao": null
+            },
+            {
+                "id": 4002,
+                "name": "芳华一瞬·追月",
+                "jiangxinLV": 1,
+                "yelinglong": 30,
+                "suiyin": 3500000,
+                "props": "屏月：格挡+3.5%",
+                "deco": "芳华一瞬命中后3秒内移动速度提升30%",
+                "texiao": null
+            },
+            {
+                "id": 4003,
+                "name": "芳华一瞬·追月",
+                "jiangxinLV": 2,
+                "yelinglong": 45,
+                "suiyin": 5000000,
+                "props": "屏月：格挡+4%",
+                "deco": "芳华一瞬命中后3秒内移动速度提升35%",
+                "texiao": null
+            },
+            {
+                "id": 4004,
+                "name": "芳华一瞬·追月",
+                "jiangxinLV": 3,
+                "yelinglong": 2,
+                "suiyin": 7500000,
+                "props": "屏月：格挡+4.5%",
+                "deco": "芳华一瞬命中后3秒内移动速度提升40%",
+                "texiao": null
+            },
+            {
+                "id": 4005,
+                "name": "芳华一瞬·追月",
+                "jiangxinLV": 5,
+                "yelinglong": 50,
+                "suiyin": 10000000,
+                "props": "屏月：格挡+6.5%",
+                "deco": "芳华一瞬伤害提升5%，命中后3秒内移动速度提升50%。",
+                "texiao": null
+            },
+            {
+                "id": 4006,
+                "name": "芳华一瞬·追月",
+                "jiangxinLV": 8,
+                "yelinglong": 100,
+                "suiyin": 12500000,
+                "props": "屏月：格挡+7%",
+                "deco": "芳华一瞬伤害提升10%，命中后3秒内移动速度提升50%。",
+                "texiao": null
+            },
+            {
+                "id": 4007,
+                "name": "芳华一瞬·追月",
+                "jiangxinLV": 12,
+                "yelinglong": 150,
+                "suiyin": 15000000,
+                "props": "屏月：格挡+7.5%",
+                "deco": "芳华一瞬伤害提升15%，命中后3秒内移动速度提升50%。",
+                "texiao": null
+            },
+            {
+                "id": 4008,
+                "name": "芳华一瞬·追月",
+                "jiangxinLV": 16,
+                "yelinglong": 2,
+                "suiyin": 50000000,
+                "props": "屏月：格挡+8%",
+                "deco": "芳华一瞬伤害提升20%，命中后3秒内移动速度提升50%。",
+                "texiao": null
+            },
+            {
+                "id": 4009,
+                "name": "芳华一瞬·追月",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "屏月：格挡+8%",
+                "deco": "芳华一瞬伤害提升25%，命中后3秒内移动速度提升50%。",
+                "texiao": "改变天香招式《芳华一瞬》表现"
+            }
+        ],
+        "ShangYi": [
+            {
+                "id": 4100,
+                "name": "伞舞旋·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 4101,
+                "name": "伞舞旋·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 115,
+                "suiyin": 4600000,
+                "props": "犀照：会心率+3%",
+                "deco": "伞舞旋定力伤害增加1%",
+                "texiao": null
+            },
+            {
+                "id": 4102,
+                "name": "伞舞旋·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 225,
+                "suiyin": 8050000,
+                "props": "犀照：会心率+3.5%",
+                "deco": "伞舞旋定力伤害增加2%",
+                "texiao": null
+            },
+            {
+                "id": 4103,
+                "name": "伞舞旋·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 340,
+                "suiyin": 11500000,
+                "props": "犀照：会心率+4%",
+                "deco": "伞舞旋定力伤害增加3%",
+                "texiao": null
+            },
+            {
+                "id": 4104,
+                "name": "伞舞旋·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 5,
+                "suiyin": 17300000,
+                "props": "犀照：会心率+4.5%",
+                "deco": "伞舞旋定力伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 4105,
+                "name": "伞舞旋·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 120,
+                "suiyin": 23050000,
+                "props": "犀照：会心率+5%",
+                "deco": "伞舞旋定力伤害增加5%$$伤害增加1%",
+                "texiao": null
+            },
+            {
+                "id": 4106,
+                "name": "伞舞旋·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 240,
+                "suiyin": 28800000,
+                "props": "犀照：会心率+5.5%",
+                "deco": "伞舞旋定力伤害增加6%$$伤害增加2%",
+                "texiao": null
+            },
+            {
+                "id": 4107,
+                "name": "伞舞旋·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 350,
+                "suiyin": 34550000,
+                "props": "犀照：会心率+6%",
+                "deco": "伞舞旋定力伤害增加7%$$伤害增加3%",
+                "texiao": null
+            },
+            {
+                "id": 4108,
+                "name": "伞舞旋·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 5,
+                "suiyin": 115200000,
+                "props": "犀照：会心率+6.5%",
+                "deco": "伞舞旋定力伤害增加8%$$伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 4109,
+                "name": "伞舞旋·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "犀照：会心率+7%",
+                "deco": "伞舞旋定力伤害增加9%$$伤害增加5%",
+                "texiao": "改变天香招式《伞舞旋》表现"
+            }
+        ],
+        "XieZi": [
+            {
+                "id": 4200,
+                "name": "香意痕·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 4201,
+                "name": "香意痕·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 90,
+                "suiyin": 3850000,
+                "props": "长鸿：韧劲+2%",
+                "deco": "香意痕伤害增加1%",
+                "texiao": null
+            },
+            {
+                "id": 4202,
+                "name": "香意痕·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 180,
+                "suiyin": 6700000,
+                "props": "长鸿：韧劲+2.5%",
+                "deco": "香意痕伤害增加2%",
+                "texiao": null
+            },
+            {
+                "id": 4203,
+                "name": "香意痕·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 270,
+                "suiyin": 9600000,
+                "props": "长鸿：韧劲+3%",
+                "deco": "香意痕伤害增加3%",
+                "texiao": null
+            },
+            {
+                "id": 4204,
+                "name": "香意痕·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 4,
+                "suiyin": 14400000,
+                "props": "长鸿：韧劲+3.5%",
+                "deco": "香意痕伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 4205,
+                "name": "香意痕·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 95,
+                "suiyin": 19200000,
+                "props": "长鸿：韧劲+4%",
+                "deco": "香意痕伤害增加5%，香意痕每次命中对手恢复自身定力，最多回复9点",
+                "texiao": null
+            },
+            {
+                "id": 4206,
+                "name": "香意痕·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 190,
+                "suiyin": 24000000,
+                "props": "长鸿：韧劲+4.5%",
+                "deco": "香意痕伤害增加6%，香意痕每次命中对手恢复自身定力，最多回复15点",
+                "texiao": null
+            },
+            {
+                "id": 4207,
+                "name": "香意痕·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 280,
+                "suiyin": 28800000,
+                "props": "长鸿：韧劲+5%",
+                "deco": "香意痕伤害增加7%，香意痕每次命中对手恢复自身定力，最多回复21点",
+                "texiao": null
+            },
+            {
+                "id": 4208,
+                "name": "香意痕·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 4,
+                "suiyin": 96000000,
+                "props": "长鸿：韧劲+5.5%",
+                "deco": "香意痕伤害增加8%，香意痕每次命中对手恢复自身定力，最多回复27点",
+                "texiao": null
+            },
+            {
+                "id": 4209,
+                "name": "香意痕·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "长鸿：韧劲+6%",
+                "deco": "香意痕伤害增加9%，香意痕每次命中对手恢复自身定力，最多回复36点",
+                "texiao": "改变天香招式《香意痕》表现"
+            }
+        ],
+        "TouShi": [
+            {
+                "id": 4300,
+                "name": "国色天香·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 4301,
+                "name": "国色天香·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 30,
+                "suiyin": 3200000,
+                "props": "专情：命中+3%",
+                "deco": "国色天香触发时回复2点香意",
+                "texiao": null
+            },
+            {
+                "id": 4302,
+                "name": "国色天香·观复",
+                "jiangxinLV": 1,
+                "yelinglong": 60,
+                "suiyin": 5600000,
+                "props": "专情：命中+3.5%",
+                "deco": "国色天香触发时回复4点香意",
+                "texiao": null
+            },
+            {
+                "id": 4303,
+                "name": "国色天香·观复",
+                "jiangxinLV": 2,
+                "yelinglong": 90,
+                "suiyin": 8000000,
+                "props": "专情：命中+4%",
+                "deco": "国色天香触发时回复6点香意",
+                "texiao": null
+            },
+            {
+                "id": 4304,
+                "name": "国色天香·观复",
+                "jiangxinLV": 3,
+                "yelinglong": 3,
+                "suiyin": 12000000,
+                "props": "专情：命中+4.5%",
+                "deco": "国色天香触发时回复8点香意",
+                "texiao": null
+            },
+            {
+                "id": 4305,
+                "name": "国色天香·观复",
+                "jiangxinLV": 5,
+                "yelinglong": 75,
+                "suiyin": 16000000,
+                "props": "专情：命中+6.5%",
+                "deco": "国色天香触发时回复10点香意，调息时间降低5秒",
+                "texiao": null
+            },
+            {
+                "id": 4306,
+                "name": "国色天香·观复",
+                "jiangxinLV": 8,
+                "yelinglong": 150,
+                "suiyin": 20000000,
+                "props": "专情：命中+7%",
+                "deco": "国色天香触发时回复10点香意，调息时间降低10秒",
+                "texiao": null
+            },
+            {
+                "id": 4307,
+                "name": "国色天香·观复",
+                "jiangxinLV": 12,
+                "yelinglong": 225,
+                "suiyin": 24000000,
+                "props": "专情：命中+7.5%",
+                "deco": "国色天香触发时回复10点香意，调息时间降低15秒",
+                "texiao": null
+            },
+            {
+                "id": 4308,
+                "name": "国色天香·观复",
+                "jiangxinLV": 16,
+                "yelinglong": 3,
+                "suiyin": 80000000,
+                "props": "专情：命中+8%",
+                "deco": "国色天香触发时回复10点香意，调息时间降低20秒",
+                "texiao": null
+            },
+            {
+                "id": 4309,
+                "name": "国色天香·观复",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "专情：命中+8%",
+                "deco": "国色天香触发时回复10点香意，调息时间降低25秒",
+                "texiao": "改变天香招式《国色天香》表现"
+            }
+        ],
+        "NeiChen": [
+            {
+                "id": 6200,
+                "name": "绝命伞·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 6201,
+                "name": "绝命伞·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 135,
+                "suiyin": 5050000,
+                "props": "秋水：气血上限+400",
+                "deco": "绝命伞伤害提升0.5%",
+                "texiao": null
+            },
+            {
+                "id": 6202,
+                "name": "绝命伞·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 270,
+                "suiyin": 8850000,
+                "props": "秋水：气血上限+450",
+                "deco": "绝命伞伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 6203,
+                "name": "绝命伞·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 405,
+                "suiyin": 12650000,
+                "props": "秋水：气血上限+500",
+                "deco": "绝命伞伤害提升1.5%",
+                "texiao": null
+            },
+            {
+                "id": 6204,
+                "name": "绝命伞·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 6,
+                "suiyin": 19000000,
+                "props": "秋水：气血上限+600",
+                "deco": "绝命伞伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 6205,
+                "name": "绝命伞·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 130,
+                "suiyin": 25350000,
+                "props": "秋水：气血上限+700",
+                "deco": "绝命伞伤害提升2.5%",
+                "texiao": null
+            },
+            {
+                "id": 6206,
+                "name": "绝命伞·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 260,
+                "suiyin": 31650000,
+                "props": "秋水：气血上限+800",
+                "deco": "绝命伞伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 6207,
+                "name": "绝命伞·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 385,
+                "suiyin": 38000000,
+                "props": "秋水：气血上限+850",
+                "deco": "绝命伞伤害提升3.5%",
+                "texiao": null
+            },
+            {
+                "id": 6208,
+                "name": "绝命伞·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 126700000,
+                "props": "秋水：气血上限+900",
+                "deco": "绝命伞伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 6209,
+                "name": "绝命伞·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "秋水：气血上限+900",
+                "deco": "绝命伞伤害提升4.5%",
+                "texiao": "改变天香招式《绝命伞》表现"
+            }
+        ],
+        "YaoDai": [
+            {
+                "id": 6300,
+                "name": "琴心三叠·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 6301,
+                "name": "琴心三叠·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 165,
+                "suiyin": 5550000,
+                "props": "贯日：外功攻击+50",
+                "deco": "琴心三叠伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 6302,
+                "name": "琴心三叠·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 335,
+                "suiyin": 9700000,
+                "props": "贯日：外功攻击+60",
+                "deco": "琴心三叠伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 6303,
+                "name": "琴心三叠·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 505,
+                "suiyin": 13900000,
+                "props": "贯日：外功攻击+65",
+                "deco": "琴心三叠伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 6304,
+                "name": "琴心三叠·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 7,
+                "suiyin": 20900000,
+                "props": "贯日：外功攻击+75",
+                "deco": "琴心三叠伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 6305,
+                "name": "琴心三叠·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 140,
+                "suiyin": 27850000,
+                "props": "贯日：外功攻击+90",
+                "deco": "琴心三叠伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 6306,
+                "name": "琴心三叠·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 285,
+                "suiyin": 34800000,
+                "props": "贯日：外功攻击+100",
+                "deco": "琴心三叠伤害提升6%",
+                "texiao": null
+            },
+            {
+                "id": 6307,
+                "name": "琴心三叠·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 420,
+                "suiyin": 41800000,
+                "props": "贯日：外功攻击+110",
+                "deco": "琴心三叠伤害提升7%",
+                "texiao": null
+            },
+            {
+                "id": 6308,
+                "name": "琴心三叠·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 139350000,
+                "props": "贯日：外功攻击+115",
+                "deco": "琴心三叠伤害提升8%",
+                "texiao": null
+            },
+            {
+                "id": 6309,
+                "name": "琴心三叠·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "贯日：外功攻击+115",
+                "deco": "琴心三叠伤害提升9%",
+                "texiao": "改变天香招式《琴心三叠》表现"
+            }
+        ]
+    },
+    "8": {
+        "TouShi": [
+            {
+                "id": 4800,
+                "name": "断中流·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 4801,
+                "name": "断中流·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 30,
+                "suiyin": 3200000,
+                "props": "专情：命中+3%",
+                "deco": "断中流伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 4802,
+                "name": "断中流·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 60,
+                "suiyin": 5600000,
+                "props": "专情：命中+3.5%",
+                "deco": "断中流伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 4803,
+                "name": "断中流·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 90,
+                "suiyin": 8000000,
+                "props": "专情：命中+4%",
+                "deco": "断中流伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 4804,
+                "name": "断中流·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 3,
+                "suiyin": 12000000,
+                "props": "专情：命中+4.5%",
+                "deco": "断中流伤害提升6%",
+                "texiao": null
+            },
+            {
+                "id": 4805,
+                "name": "断中流·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 75,
+                "suiyin": 16000000,
+                "props": "专情：命中+6.5%",
+                "deco": "断中流伤害提升10%",
+                "texiao": null
+            },
+            {
+                "id": 4806,
+                "name": "断中流·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 150,
+                "suiyin": 20000000,
+                "props": "专情：命中+7%",
+                "deco": "断中流伤害提升12%",
+                "texiao": null
+            },
+            {
+                "id": 4807,
+                "name": "断中流·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 225,
+                "suiyin": 24000000,
+                "props": "专情：命中+7.5%",
+                "deco": "断中流伤害提升14%",
+                "texiao": null
+            },
+            {
+                "id": 4808,
+                "name": "断中流·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 3,
+                "suiyin": 80000000,
+                "props": "专情：命中+8%",
+                "deco": "断中流伤害提升16%",
+                "texiao": null
+            },
+            {
+                "id": 4809,
+                "name": "断中流·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "专情：命中+8%",
+                "deco": "断中流伤害提升18%",
+                "texiao": "改变神刀招式《断中流》表现"
+            }
+        ],
+        "ShangYi": [
+            {
+                "id": 4900,
+                "name": "狂风刀·天罡",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 4901,
+                "name": "狂风刀·天罡",
+                "jiangxinLV": 0,
+                "yelinglong": 115,
+                "suiyin": 4600000,
+                "props": "犀照：会心率+3%",
+                "deco": "狂风刀伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 4902,
+                "name": "狂风刀·天罡",
+                "jiangxinLV": 1,
+                "yelinglong": 225,
+                "suiyin": 8050000,
+                "props": "犀照：会心率+3.5%",
+                "deco": "狂风刀伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 4903,
+                "name": "狂风刀·天罡",
+                "jiangxinLV": 2,
+                "yelinglong": 340,
+                "suiyin": 11500000,
+                "props": "犀照：会心率+4%",
+                "deco": "狂风刀伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 4904,
+                "name": "狂风刀·天罡",
+                "jiangxinLV": 3,
+                "yelinglong": 5,
+                "suiyin": 17300000,
+                "props": "犀照：会心率+4.5%",
+                "deco": "狂风刀伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 4905,
+                "name": "狂风刀·天罡",
+                "jiangxinLV": 5,
+                "yelinglong": 120,
+                "suiyin": 23050000,
+                "props": "犀照：会心率+5%",
+                "deco": "狂风刀伤害提升5%，释放过程中受到的伤害降低2%",
+                "texiao": null
+            },
+            {
+                "id": 4906,
+                "name": "狂风刀·天罡",
+                "jiangxinLV": 8,
+                "yelinglong": 240,
+                "suiyin": 28800000,
+                "props": "犀照：会心率+5.5%",
+                "deco": "狂风刀伤害提升6%，释放过程中受到的伤害降低4%",
+                "texiao": null
+            },
+            {
+                "id": 4907,
+                "name": "狂风刀·天罡",
+                "jiangxinLV": 12,
+                "yelinglong": 350,
+                "suiyin": 34550000,
+                "props": "犀照：会心率+6%",
+                "deco": "狂风刀伤害提升7%，释放过程中受到的伤害降低6%",
+                "texiao": null
+            },
+            {
+                "id": 4908,
+                "name": "狂风刀·天罡",
+                "jiangxinLV": 16,
+                "yelinglong": 5,
+                "suiyin": 115200000,
+                "props": "犀照：会心率+6.5%",
+                "deco": "狂风刀伤害提升8%，释放过程中受到的伤害降低8%",
+                "texiao": null
+            },
+            {
+                "id": 4909,
+                "name": "狂风刀·天罡",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "犀照：会心率+7%",
+                "deco": "狂风刀伤害提升9%，释放过程中受到的伤害降低10%",
+                "texiao": "改变神刀招式《狂风刀》表现"
+            }
+        ],
+        "HuWan": [
+            {
+                "id": 5000,
+                "name": "踏浪斩·怀柔",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 5001,
+                "name": "踏浪斩·怀柔",
+                "jiangxinLV": 0,
+                "yelinglong": 15,
+                "suiyin": 2000000,
+                "props": "屏月：格挡+3%",
+                "deco": "踏浪斩命中近距离目标时会心几率提高10%",
+                "texiao": null
+            },
+            {
+                "id": 5002,
+                "name": "踏浪斩·怀柔",
+                "jiangxinLV": 1,
+                "yelinglong": 30,
+                "suiyin": 3500000,
+                "props": "屏月：格挡+3.5%",
+                "deco": "踏浪斩命中近距离目标时会心几率提高18%",
+                "texiao": null
+            },
+            {
+                "id": 5003,
+                "name": "踏浪斩·怀柔",
+                "jiangxinLV": 2,
+                "yelinglong": 45,
+                "suiyin": 5000000,
+                "props": "屏月：格挡+4%",
+                "deco": "踏浪斩命中近距离目标时会心几率提高26%",
+                "texiao": null
+            },
+            {
+                "id": 5004,
+                "name": "踏浪斩·怀柔",
+                "jiangxinLV": 3,
+                "yelinglong": 2,
+                "suiyin": 7500000,
+                "props": "屏月：格挡+4.5%",
+                "deco": "踏浪斩命中近距离目标时会心几率提高34%",
+                "texiao": null
+            },
+            {
+                "id": 5005,
+                "name": "踏浪斩·怀柔",
+                "jiangxinLV": 5,
+                "yelinglong": 50,
+                "suiyin": 10000000,
+                "props": "屏月：格挡+6.5%",
+                "deco": "踏浪斩命中近距离目标时会心几率提高50%",
+                "texiao": null
+            },
+            {
+                "id": 5006,
+                "name": "踏浪斩·怀柔",
+                "jiangxinLV": 8,
+                "yelinglong": 100,
+                "suiyin": 12500000,
+                "props": "屏月：格挡+7%",
+                "deco": "踏浪斩伤害提升5%，命中近距离目标时会心几率提高50%",
+                "texiao": null
+            },
+            {
+                "id": 5007,
+                "name": "踏浪斩·怀柔",
+                "jiangxinLV": 12,
+                "yelinglong": 150,
+                "suiyin": 15000000,
+                "props": "屏月：格挡+7.5%",
+                "deco": "踏浪斩伤害提升10%，命中近距离目标时会心几率提高50%",
+                "texiao": null
+            },
+            {
+                "id": 5008,
+                "name": "踏浪斩·怀柔",
+                "jiangxinLV": 16,
+                "yelinglong": 2,
+                "suiyin": 50000000,
+                "props": "屏月：格挡+8%",
+                "deco": "踏浪斩伤害提升15%，命中近距离目标时会心几率提高50%",
+                "texiao": null
+            },
+            {
+                "id": 5009,
+                "name": "踏浪斩·怀柔",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "屏月：格挡+8%",
+                "deco": "踏浪斩伤害提升20%，命中近距离目标时会心几率提高50%",
+                "texiao": "改变神刀招式《踏浪斩》表现"
+            }
+        ],
+        "XieZi": [
+            {
+                "id": 5100,
+                "name": "天地风火·追月",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 5101,
+                "name": "天地风火·追月",
+                "jiangxinLV": 0,
+                "yelinglong": 90,
+                "suiyin": 3850000,
+                "props": "长鸿：韧劲+2%",
+                "deco": "天地风火伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 5102,
+                "name": "天地风火·追月",
+                "jiangxinLV": 1,
+                "yelinglong": 180,
+                "suiyin": 6700000,
+                "props": "长鸿：韧劲+2.5%",
+                "deco": "天地风火伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 5103,
+                "name": "天地风火·追月",
+                "jiangxinLV": 2,
+                "yelinglong": 270,
+                "suiyin": 9600000,
+                "props": "长鸿：韧劲+3%",
+                "deco": "天地风火伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 5104,
+                "name": "天地风火·追月",
+                "jiangxinLV": 3,
+                "yelinglong": 4,
+                "suiyin": 14400000,
+                "props": "长鸿：韧劲+3.5%",
+                "deco": "天地风火伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 5105,
+                "name": "天地风火·追月",
+                "jiangxinLV": 5,
+                "yelinglong": 95,
+                "suiyin": 19200000,
+                "props": "长鸿：韧劲+4%",
+                "deco": "天地风火伤害提升5%，释放过程中受到的伤害降低2%",
+                "texiao": null
+            },
+            {
+                "id": 5106,
+                "name": "天地风火·追月",
+                "jiangxinLV": 8,
+                "yelinglong": 190,
+                "suiyin": 24000000,
+                "props": "长鸿：韧劲+4.5%",
+                "deco": "天地风火伤害提升6%，释放过程中受到的伤害降低4%",
+                "texiao": null
+            },
+            {
+                "id": 5107,
+                "name": "天地风火·追月",
+                "jiangxinLV": 12,
+                "yelinglong": 280,
+                "suiyin": 28800000,
+                "props": "长鸿：韧劲+5%",
+                "deco": "天地风火伤害提升7%，释放过程中受到的伤害降低6%",
+                "texiao": null
+            },
+            {
+                "id": 5108,
+                "name": "天地风火·追月",
+                "jiangxinLV": 16,
+                "yelinglong": 4,
+                "suiyin": 96000000,
+                "props": "长鸿：韧劲+5.5%",
+                "deco": "天地风火伤害提升8%，释放过程中受到的伤害降低8%",
+                "texiao": null
+            },
+            {
+                "id": 5109,
+                "name": "天地风火·追月",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "长鸿：韧劲+6%",
+                "deco": "天地风火伤害提升9%，释放过程中受到的伤害降低10%",
+                "texiao": "改变神刀招式《天地风火》表现"
+            }
+        ],
+        "NeiChen": [
+            {
+                "id": 6600,
+                "name": "鹰击长空·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 6601,
+                "name": "鹰击长空·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 135,
+                "suiyin": 5050000,
+                "props": "秋水：气血上限+400",
+                "deco": "鹰击长空伤害提升0.5%",
+                "texiao": null
+            },
+            {
+                "id": 6602,
+                "name": "鹰击长空·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 270,
+                "suiyin": 8850000,
+                "props": "秋水：气血上限+450",
+                "deco": "鹰击长空伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 6603,
+                "name": "鹰击长空·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 405,
+                "suiyin": 12650000,
+                "props": "秋水：气血上限+500",
+                "deco": "鹰击长空伤害提升1.5%",
+                "texiao": null
+            },
+            {
+                "id": 6604,
+                "name": "鹰击长空·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 6,
+                "suiyin": 19000000,
+                "props": "秋水：气血上限+600",
+                "deco": "鹰击长空伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 6605,
+                "name": "鹰击长空·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 130,
+                "suiyin": 25350000,
+                "props": "秋水：气血上限+700",
+                "deco": "鹰击长空伤害提升2.5%",
+                "texiao": null
+            },
+            {
+                "id": 6606,
+                "name": "鹰击长空·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 260,
+                "suiyin": 31650000,
+                "props": "秋水：气血上限+800",
+                "deco": "鹰击长空伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 6607,
+                "name": "鹰击长空·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 385,
+                "suiyin": 38000000,
+                "props": "秋水：气血上限+850",
+                "deco": "鹰击长空伤害提升3.5%",
+                "texiao": null
+            },
+            {
+                "id": 6608,
+                "name": "鹰击长空·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 126700000,
+                "props": "秋水：气血上限+900",
+                "deco": "鹰击长空伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 6609,
+                "name": "鹰击长空·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "秋水：气血上限+900",
+                "deco": "鹰击长空伤害提升4.5%",
+                "texiao": "改变神刀招式《鹰击长空》表现"
+            }
+        ],
+        "YaoDai": [
+            {
+                "id": 6700,
+                "name": "斩血海·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 6701,
+                "name": "斩血海·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 165,
+                "suiyin": 5550000,
+                "props": "贯日：外功攻击+50",
+                "deco": "斩血海伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 6702,
+                "name": "斩血海·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 335,
+                "suiyin": 9700000,
+                "props": "贯日：外功攻击+60",
+                "deco": "斩血海伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 6703,
+                "name": "斩血海·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 505,
+                "suiyin": 13900000,
+                "props": "贯日：外功攻击+65",
+                "deco": "斩血海伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 6704,
+                "name": "斩血海·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 7,
+                "suiyin": 20900000,
+                "props": "贯日：外功攻击+75",
+                "deco": "斩血海伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 6705,
+                "name": "斩血海·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 140,
+                "suiyin": 27850000,
+                "props": "贯日：外功攻击+90",
+                "deco": "斩血海伤害提升5%",
+                "texiao": null
+            },
+            {
+                "id": 6706,
+                "name": "斩血海·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 285,
+                "suiyin": 34800000,
+                "props": "贯日：外功攻击+100",
+                "deco": "斩血海伤害提升6%",
+                "texiao": null
+            },
+            {
+                "id": 6707,
+                "name": "斩血海·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 420,
+                "suiyin": 41800000,
+                "props": "贯日：外功攻击+110",
+                "deco": "斩血海伤害提升7%",
+                "texiao": null
+            },
+            {
+                "id": 6708,
+                "name": "斩血海·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 139350000,
+                "props": "贯日：外功攻击+115",
+                "deco": "斩血海伤害提升8%",
+                "texiao": null
+            },
+            {
+                "id": 6709,
+                "name": "斩血海·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "贯日：外功攻击+115",
+                "deco": "斩血海伤害提升9%",
+                "texiao": "改变神刀招式《斩血海》表现"
+            }
+        ]
+    },
+    "9": {
+        "HuWan": [
+            {
+                "id": 6800,
+                "name": "漱玉诀·劲松",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 6801,
+                "name": "漱玉诀·劲松",
+                "jiangxinLV": 0,
+                "yelinglong": 15,
+                "suiyin": 2000000,
+                "props": "屏月：格挡+3%",
+                "deco": "漱玉诀宽度增加1%",
+                "texiao": null
+            },
+            {
+                "id": 6802,
+                "name": "漱玉诀·劲松",
+                "jiangxinLV": 1,
+                "yelinglong": 30,
+                "suiyin": 3500000,
+                "props": "屏月：格挡+3.5%",
+                "deco": "漱玉诀宽度增加2%",
+                "texiao": null
+            },
+            {
+                "id": 6803,
+                "name": "漱玉诀·劲松",
+                "jiangxinLV": 2,
+                "yelinglong": 45,
+                "suiyin": 5000000,
+                "props": "屏月：格挡+4%",
+                "deco": "漱玉诀宽度增加3%",
+                "texiao": null
+            },
+            {
+                "id": 6804,
+                "name": "漱玉诀·劲松",
+                "jiangxinLV": 3,
+                "yelinglong": 2,
+                "suiyin": 7500000,
+                "props": "屏月：格挡+4.5%",
+                "deco": "漱玉诀宽度增加4%",
+                "texiao": null
+            },
+            {
+                "id": 6805,
+                "name": "漱玉诀·劲松",
+                "jiangxinLV": 5,
+                "yelinglong": 50,
+                "suiyin": 10000000,
+                "props": "屏月：格挡+6.5%",
+                "deco": "漱玉诀宽度增加5%，命中目标时，有20%几率减少移花接玉0.5秒调息时间",
+                "texiao": null
+            },
+            {
+                "id": 6806,
+                "name": "漱玉诀·劲松",
+                "jiangxinLV": 8,
+                "yelinglong": 100,
+                "suiyin": 12500000,
+                "props": "屏月：格挡+7%",
+                "deco": "漱玉诀宽度增加6%，命中目标时，有20%几率减少移花接玉1秒调息时间",
+                "texiao": null
+            },
+            {
+                "id": 6807,
+                "name": "漱玉诀·劲松",
+                "jiangxinLV": 12,
+                "yelinglong": 150,
+                "suiyin": 15000000,
+                "props": "屏月：格挡+7.5%",
+                "deco": "漱玉诀宽度增加7%，命中目标时，有20%几率减少移花接玉1.5秒调息时间",
+                "texiao": null
+            },
+            {
+                "id": 6808,
+                "name": "漱玉诀·劲松",
+                "jiangxinLV": 16,
+                "yelinglong": 2,
+                "suiyin": 50000000,
+                "props": "屏月：格挡+8%",
+                "deco": "漱玉诀宽度增加8%，命中目标时，有20%几率减少移花接玉2秒调息时间",
+                "texiao": null
+            },
+            {
+                "id": 6809,
+                "name": "漱玉诀·劲松",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "屏月：格挡+8%",
+                "deco": "漱玉诀宽度增加9%，命中目标时，有20%几率减少移花接玉2.5秒调息时间",
+                "texiao": "改变移花招式《漱玉诀》表现"
+            }
+        ],
+        "TouShi": [
+            {
+                "id": 6900,
+                "name": "天地醉心·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 6901,
+                "name": "天地醉心·观复",
+                "jiangxinLV": 0,
+                "yelinglong": 30,
+                "suiyin": 3200000,
+                "props": "专情：命中+3%",
+                "deco": "天地醉心调息时间减少0.5秒",
+                "texiao": null
+            },
+            {
+                "id": 6902,
+                "name": "天地醉心·观复",
+                "jiangxinLV": 1,
+                "yelinglong": 60,
+                "suiyin": 5600000,
+                "props": "专情：命中+3.5%",
+                "deco": "天地醉心调息时间减少1.0秒",
+                "texiao": null
+            },
+            {
+                "id": 6903,
+                "name": "天地醉心·观复",
+                "jiangxinLV": 2,
+                "yelinglong": 90,
+                "suiyin": 8000000,
+                "props": "专情：命中+4%",
+                "deco": "天地醉心调息时间减少1.5秒",
+                "texiao": null
+            },
+            {
+                "id": 6904,
+                "name": "天地醉心·观复",
+                "jiangxinLV": 3,
+                "yelinglong": 3,
+                "suiyin": 12000000,
+                "props": "专情：命中+4.5%",
+                "deco": "天地醉心调息时间减少2.0秒",
+                "texiao": null
+            },
+            {
+                "id": 6905,
+                "name": "天地醉心·观复",
+                "jiangxinLV": 5,
+                "yelinglong": 75,
+                "suiyin": 16000000,
+                "props": "专情：命中+6.5%",
+                "deco": "天地醉心调息时间减少2.5秒",
+                "texiao": null
+            },
+            {
+                "id": 6906,
+                "name": "天地醉心·观复",
+                "jiangxinLV": 8,
+                "yelinglong": 150,
+                "suiyin": 20000000,
+                "props": "专情：命中+7%",
+                "deco": "天地醉心调息时间减少3.0秒",
+                "texiao": null
+            },
+            {
+                "id": 6907,
+                "name": "天地醉心·观复",
+                "jiangxinLV": 12,
+                "yelinglong": 225,
+                "suiyin": 24000000,
+                "props": "专情：命中+7.5%",
+                "deco": "天地醉心调息时间减少3.5秒",
+                "texiao": null
+            },
+            {
+                "id": 6908,
+                "name": "天地醉心·观复",
+                "jiangxinLV": 16,
+                "yelinglong": 3,
+                "suiyin": 80000000,
+                "props": "专情：命中+8%",
+                "deco": "天地醉心调息时间减少4.0秒",
+                "texiao": null
+            },
+            {
+                "id": 6909,
+                "name": "天地醉心·观复",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "专情：命中+8%",
+                "deco": "天地醉心调息时间减少4.5秒",
+                "texiao": "改变移花招式《天地醉心》表现"
+            }
+        ],
+        "XieZi": [
+            {
+                "id": 7000,
+                "name": "裁玉三问·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 7001,
+                "name": "裁玉三问·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 90,
+                "suiyin": 3850000,
+                "props": "长鸿：韧劲+2%",
+                "deco": "裁玉三问伤害增加1%",
+                "texiao": null
+            },
+            {
+                "id": 7002,
+                "name": "裁玉三问·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 180,
+                "suiyin": 6700000,
+                "props": "长鸿：韧劲+2.5%",
+                "deco": "裁玉三问伤害增加2%",
+                "texiao": null
+            },
+            {
+                "id": 7003,
+                "name": "裁玉三问·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 270,
+                "suiyin": 9600000,
+                "props": "长鸿：韧劲+3%",
+                "deco": "裁玉三问伤害增加3%",
+                "texiao": null
+            },
+            {
+                "id": 7004,
+                "name": "裁玉三问·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 4,
+                "suiyin": 14400000,
+                "props": "长鸿：韧劲+3.5%",
+                "deco": "裁玉三问伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 7005,
+                "name": "裁玉三问·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 95,
+                "suiyin": 19200000,
+                "props": "长鸿：韧劲+4%",
+                "deco": "裁玉三问伤害增加5%",
+                "texiao": null
+            },
+            {
+                "id": 7006,
+                "name": "裁玉三问·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 190,
+                "suiyin": 24000000,
+                "props": "长鸿：韧劲+4.5%",
+                "deco": "裁玉三问伤害增加6%",
+                "texiao": null
+            },
+            {
+                "id": 7007,
+                "name": "裁玉三问·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 280,
+                "suiyin": 28800000,
+                "props": "长鸿：韧劲+5%",
+                "deco": "裁玉三问伤害增加7%",
+                "texiao": null
+            },
+            {
+                "id": 7008,
+                "name": "裁玉三问·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 4,
+                "suiyin": 96000000,
+                "props": "长鸿：韧劲+5.5%",
+                "deco": "裁玉三问伤害增加8%",
+                "texiao": null
+            },
+            {
+                "id": 7009,
+                "name": "裁玉三问·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "长鸿：韧劲+6%",
+                "deco": "裁玉三问伤害增加9%",
+                "texiao": "改变移花招式《裁玉三问》表现"
+            }
+        ],
+        "ShangYi": [
+            {
+                "id": 7100,
+                "name": "大音希声·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 7101,
+                "name": "大音希声·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 115,
+                "suiyin": 4600000,
+                "props": "犀照：会心率+3%",
+                "deco": "大音希声伤害提升1%",
+                "texiao": null
+            },
+            {
+                "id": 7102,
+                "name": "大音希声·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 225,
+                "suiyin": 8050000,
+                "props": "犀照：会心率+3.5%",
+                "deco": "大音希声伤害提升2%",
+                "texiao": null
+            },
+            {
+                "id": 7103,
+                "name": "大音希声·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 340,
+                "suiyin": 11500000,
+                "props": "犀照：会心率+4%",
+                "deco": "大音希声伤害提升3%",
+                "texiao": null
+            },
+            {
+                "id": 7104,
+                "name": "大音希声·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 5,
+                "suiyin": 17300000,
+                "props": "犀照：会心率+4.5%",
+                "deco": "大音希声伤害提升4%",
+                "texiao": null
+            },
+            {
+                "id": 7105,
+                "name": "大音希声·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 120,
+                "suiyin": 23050000,
+                "props": "犀照：会心率+5%",
+                "deco": "大音希声伤害提升5%，最后一段命中目标时，有50%几率回复自身10点玉灵",
+                "texiao": null
+            },
+            {
+                "id": 7106,
+                "name": "大音希声·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 240,
+                "suiyin": 28800000,
+                "props": "犀照：会心率+5.5%",
+                "deco": "大音希声伤害提升5%，最后一段命中目标时，有60%几率回复自身10点玉灵",
+                "texiao": null
+            },
+            {
+                "id": 7107,
+                "name": "大音希声·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 350,
+                "suiyin": 34550000,
+                "props": "犀照：会心率+6%",
+                "deco": "大音希声伤害提升5%，最后一段命中目标时，有70%几率回复自身10点玉灵",
+                "texiao": null
+            },
+            {
+                "id": 7108,
+                "name": "大音希声·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 5,
+                "suiyin": 115200000,
+                "props": "犀照：会心率+6.5%",
+                "deco": "大音希声伤害提升5%，最后一段命中目标时，有80%几率回复自身10点玉灵",
+                "texiao": null
+            },
+            {
+                "id": 7109,
+                "name": "大音希声·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "犀照：会心率+7%",
+                "deco": "大音希声伤害提升5%，最后一段命中目标时，有90%几率回复自身10点玉灵",
+                "texiao": "改变移花招式《大音希声》表现"
+            }
+        ],
+        "NeiChen": [
+            {
+                "id": 7200,
+                "name": "花杀一念·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 7201,
+                "name": "花杀一念·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 135,
+                "suiyin": 5050000,
+                "props": "秋水：气血上限+400",
+                "deco": "花杀一念伤害增加0.5%",
+                "texiao": null
+            },
+            {
+                "id": 7202,
+                "name": "花杀一念·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 270,
+                "suiyin": 8850000,
+                "props": "秋水：气血上限+450",
+                "deco": "花杀一念伤害增加1%",
+                "texiao": null
+            },
+            {
+                "id": 7203,
+                "name": "花杀一念·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 405,
+                "suiyin": 12650000,
+                "props": "秋水：气血上限+500",
+                "deco": "花杀一念伤害增加1.5%",
+                "texiao": null
+            },
+            {
+                "id": 7204,
+                "name": "花杀一念·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 6,
+                "suiyin": 19000000,
+                "props": "秋水：气血上限+600",
+                "deco": "花杀一念伤害增加2%",
+                "texiao": null
+            },
+            {
+                "id": 7205,
+                "name": "花杀一念·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 130,
+                "suiyin": 25350000,
+                "props": "秋水：气血上限+700",
+                "deco": "花杀一念伤害增加2.5%",
+                "texiao": null
+            },
+            {
+                "id": 7206,
+                "name": "花杀一念·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 260,
+                "suiyin": 31650000,
+                "props": "秋水：气血上限+800",
+                "deco": "花杀一念伤害增加3%",
+                "texiao": null
+            },
+            {
+                "id": 7207,
+                "name": "花杀一念·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 385,
+                "suiyin": 38000000,
+                "props": "秋水：气血上限+850",
+                "deco": "花杀一念伤害增加3.5%",
+                "texiao": null
+            },
+            {
+                "id": 7208,
+                "name": "花杀一念·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 126700000,
+                "props": "秋水：气血上限+900",
+                "deco": "花杀一念伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 7209,
+                "name": "花杀一念·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "秋水：气血上限+900",
+                "deco": "花杀一念伤害增加4.5%",
+                "texiao": "改变移花招式《花杀一念》表现"
+            }
+        ],
+        "YaoDai": [
+            {
+                "id": 7300,
+                "name": "五蕴昭华·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "空",
+                "deco": "空",
+                "texiao": null
+            },
+            {
+                "id": 7301,
+                "name": "五蕴昭华·长辛",
+                "jiangxinLV": 0,
+                "yelinglong": 165,
+                "suiyin": 5550000,
+                "props": "贯日：外功攻击+50",
+                "deco": "五韵昭华伤害增加1%",
+                "texiao": null
+            },
+            {
+                "id": 7302,
+                "name": "五蕴昭华·长辛",
+                "jiangxinLV": 1,
+                "yelinglong": 335,
+                "suiyin": 9700000,
+                "props": "贯日：外功攻击+60",
+                "deco": "五韵昭华伤害增加2%",
+                "texiao": null
+            },
+            {
+                "id": 7303,
+                "name": "五蕴昭华·长辛",
+                "jiangxinLV": 2,
+                "yelinglong": 505,
+                "suiyin": 13900000,
+                "props": "贯日：外功攻击+65",
+                "deco": "五韵昭华伤害增加3%",
+                "texiao": null
+            },
+            {
+                "id": 7304,
+                "name": "五蕴昭华·长辛",
+                "jiangxinLV": 3,
+                "yelinglong": 7,
+                "suiyin": 20900000,
+                "props": "贯日：外功攻击+75",
+                "deco": "五韵昭华伤害增加4%",
+                "texiao": null
+            },
+            {
+                "id": 7305,
+                "name": "五蕴昭华·长辛",
+                "jiangxinLV": 5,
+                "yelinglong": 140,
+                "suiyin": 27850000,
+                "props": "贯日：外功攻击+90",
+                "deco": "五韵昭华伤害增加5%",
+                "texiao": null
+            },
+            {
+                "id": 7306,
+                "name": "五蕴昭华·长辛",
+                "jiangxinLV": 8,
+                "yelinglong": 285,
+                "suiyin": 34800000,
+                "props": "贯日：外功攻击+100",
+                "deco": "五韵昭华伤害增加6%",
+                "texiao": null
+            },
+            {
+                "id": 7307,
+                "name": "五蕴昭华·长辛",
+                "jiangxinLV": 12,
+                "yelinglong": 420,
+                "suiyin": 41800000,
+                "props": "贯日：外功攻击+110",
+                "deco": "五韵昭华伤害增加7%",
+                "texiao": null
+            },
+            {
+                "id": 7308,
+                "name": "五蕴昭华·长辛",
+                "jiangxinLV": 16,
+                "yelinglong": 6,
+                "suiyin": 139350000,
+                "props": "贯日：外功攻击+115",
+                "deco": "五韵昭华伤害增加8%",
+                "texiao": null
+            },
+            {
+                "id": 7309,
+                "name": "五蕴昭华·长辛",
+                "jiangxinLV": 20,
+                "yelinglong": 0,
+                "suiyin": 0,
+                "props": "贯日：外功攻击+115",
+                "deco": "五韵昭华伤害增加9%",
+                "texiao": "改变移花招式《五蕴昭华》表现"
+            }
+        ]
+    }
+}

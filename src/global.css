@@ -10,3 +10,10 @@ html {
     display: none;
 }
 
+:global body {
+    font-size: 14px;
+}
+
+:global * {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}

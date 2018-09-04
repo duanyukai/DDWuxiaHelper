@@ -37,11 +37,23 @@
     height: auto !important;
 }
 
-.mobao-table td:first-child {
+/*.mobao-table td:first-child {*/
+    /*font-weight: bold;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    /*white-space: nowrap;*/
+/*}*/
+
+.mobao-table th {
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
     white-space: nowrap;
+}
+
+.loc-copy-wrapper input {
+    width: 80px;
+    border: none;
 }
 
 .sea-collect-table td:first-child {
@@ -49,4 +61,11 @@
     text-align: center;
     vertical-align: middle;
     white-space: nowrap;
+}
+
+:global .geojson-marker-text {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-shadow: 1px 1px #000, -1px -1px #000, 0 0 10px #000;
+    text-align: center;
 }

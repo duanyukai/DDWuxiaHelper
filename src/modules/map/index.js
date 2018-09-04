@@ -22,7 +22,7 @@ class Root extends Component {
   }
 
   componentDidMount() {
-    // alert('本工具尚在制作中…');
+
   }
 
   render() {
@@ -30,7 +30,7 @@ class Root extends Component {
       <Provider store={this.store}>
         <App />
       </Provider>
-    )
+    );
   }
 }
 

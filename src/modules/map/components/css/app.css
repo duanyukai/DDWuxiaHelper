@@ -2,6 +2,15 @@
     image-rendering: pixelated;
 }
 
+.menu-wrapper {
+    position: fixed;
+    height: 0;
+    left: 0;
+    width: 90%;
+    margin: 0 auto;
+    top: 60px;
+}
+
 .toolbar-wrapper {
     position: fixed;
     width: 100%;
@@ -10,16 +19,21 @@
     top: 60px;
 }
 
-.toolbar-inner {
+.menu-inner {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    background: rgba(200,200,200,0.8);
-    /*padding: 5px;*/
-    border-radius: 5px;
-
+    background: rgba(255,255,255,0.95);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #666;
     margin: 0 10px;
+    max-height: calc(100vh - 70px);
+    overflow: hidden
+}
+
+.menu-inner :global .ant-tabs-bar {
+    margin-left: 80px;
 }
 
 .scroll-wrapper {
@@ -60,3 +74,18 @@
 .map-btn-matrix-1 {
     margin: 20px;
 }
+
+/* media query menu 宽度 */
+@media only screen and (min-width : 400px) {
+    .menu-wrapper {
+        width: 360px;
+    }
+}
+
+.show-hide-btn {
+    z-index: 999;
+    position: absolute;
+    left: 13px;
+    top: 7px;
+}
+

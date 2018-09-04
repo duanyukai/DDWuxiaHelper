@@ -4,26 +4,27 @@ import XinfaConfig from '../containers/xinfa_config';
 import XinfaList from '../containers/xinfa_list';
 import XinfaProps from '../containers/xinfa_props';
 import XinfaShuji from '../containers/xinfa_shuji';
-import {Col, Grid, Panel, Row} from "react-bootstrap";
+import {Col, Grid, Panel, Row} from 'react-bootstrap';
 
 import WuxiaPanel from '../../tiandao_ui/panel';
 
 import {translate} from 'react-i18next';
 
 import './css/app.css';
-import XinfaSlotsPanel from "../containers/xinfa_slots";
-import XinfaTotalPropsPanel from "../containers/xinfa_total_props";
-import {Helmet} from "react-helmet";
+import XinfaSlotsPanel from '../containers/xinfa_slots';
+import XinfaTotalPropsPanel from '../containers/xinfa_total_props';
+import { Helmet } from 'react-helmet';
 
 class XinfaEmuApp extends Component {
   render() {
     return (
       <div styleName='container'>
-        <Helmet>
+        <Helmet defer={false}>
           <meta charSet="utf-8" />
           <title>天刀心法模拟器，精确计算功力、突破、潜修、砭石 | 段段天刀综合助手</title>
           <meta name="keywords" content="心法模拟器,天刀心法模拟器,心法潜修,心法突破,心法所需砭石" />
           <meta name="description" content="段段天刀心法模拟器是一个高仿游戏内UI的心法模拟器。拥有数据最新、样式直观、操作简便等特点。可精确计算功力、突破、潜修、砭石等数据。" />
+          <meta name="viewport" content="width=1024"/>
         </Helmet>
         <div styleName='emu-container'>
           <Grid>
@@ -82,15 +83,15 @@ class XinfaEmuApp extends Component {
           </Grid>
         </div>
         {/*<div styleName='other-container'>*/}
-          {/*<Grid>*/}
-            {/*<Row>*/}
-              {/*<Col xs={12} md={10} mdOffset={1}>*/}
-                {/*<Panel>*/}
-                  {/*<ChangyanComment sourceId='xinfa-emu' />*/}
-                {/*</Panel>*/}
-              {/*</Col>*/}
-            {/*</Row>*/}
-          {/*</Grid>*/}
+        {/*<Grid>*/}
+        {/*<Row>*/}
+        {/*<Col xs={12} md={10} mdOffset={1}>*/}
+        {/*<Panel>*/}
+        {/*<ChangyanComment sourceId='xinfa-emu' />*/}
+        {/*</Panel>*/}
+        {/*</Col>*/}
+        {/*</Row>*/}
+        {/*</Grid>*/}
         {/*</div>*/}
       </div>
     );

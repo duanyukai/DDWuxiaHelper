@@ -1,0 +1,96 @@
+.img-emu {
+    width: 330px;
+    padding: 10px;
+    background: #252525;
+    position: relative;
+    min-height: 150px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.icon {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 10px;
+    left: 10px;
+}
+
+.name {
+    color: #faed3a;
+    font-size: 16px;
+    position: absolute;
+    top: 12px;
+    left: 85px;
+}
+
+.bangding {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 36px;
+    left: 85px;
+}
+
+.evaluation-lv {
+    color: #beb862;
+    position: absolute;
+    top: 55px;
+    left: 85px;
+}
+
+.main-list {
+    margin: 78px 0 0 0;
+}
+
+.hr {
+    margin: 2px;
+}
+
+.header-list {
+
+}
+
+.header-item {
+    width: 150px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.header-item span:first-child {
+    color: #d2c26c;
+}
+
+.prop-list {
+
+}
+
+.prop-list span:last-child {
+    /*color: #d5dc7d;*/
+}
+
+.additional-block {
+
+}
+
+.first-line {
+
+}
+
+.first-line:before {
+    content: '◆';
+    color: #d2c26c;
+}
+
+.first-line span:first-child {
+    color: #d2c26c;
+}
+
+.remain-lines {
+
+}
+
+.taozhuang-list {
+    display: inline-block;
+    width: 150px;
+}

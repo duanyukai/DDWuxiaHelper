@@ -1,0 +1,8546 @@
+{
+    "ZhuWuQi": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 5,
+            "wgMax": 5,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 10,
+            "wgMax": 10,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 15,
+            "wgMax": 15,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 20,
+            "wgMax": 20,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 25,
+            "wgMax": 25,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 30,
+            "wgMax": 30,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 35,
+            "wgMax": 35,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 40,
+            "wgMax": 40,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 45,
+            "wgMax": 45,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 50,
+            "wgMax": 50,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 55,
+            "wgMax": 55,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 60,
+            "wgMax": 60,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 65,
+            "wgMax": 65,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 70,
+            "wgMax": 70,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 75,
+            "wgMax": 75,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 80,
+            "wgMax": 80,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 85,
+            "wgMax": 85,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 90,
+            "wgMax": 90,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 95,
+            "wgMax": 95,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 100,
+            "wgMax": 100,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 105,
+            "wgMax": 105,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 110,
+            "wgMax": 110,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 115,
+            "wgMax": 115,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 120,
+            "wgMax": 120,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 125,
+            "wgMax": 125,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 130,
+            "wgMax": 130,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 135,
+            "wgMax": 135,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 140,
+            "wgMax": 140,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 145,
+            "wgMax": 145,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 150,
+            "wgMax": 150,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 158,
+            "wgMax": 158,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 166,
+            "wgMax": 166,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 174,
+            "wgMax": 174,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 182,
+            "wgMax": 182,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 190,
+            "wgMax": 190,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 198,
+            "wgMax": 198,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 206,
+            "wgMax": 206,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 214,
+            "wgMax": 214,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 222,
+            "wgMax": 222,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 230,
+            "wgMax": 230,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 238,
+            "wgMax": 238,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 246,
+            "wgMax": 246,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 254,
+            "wgMax": 254,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 262,
+            "wgMax": 262,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 270,
+            "wgMax": 270,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 278,
+            "wgMax": 278,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 286,
+            "wgMax": 286,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 294,
+            "wgMax": 294,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 302,
+            "wgMax": 302,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 310,
+            "wgMax": 310,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 318,
+            "wgMax": 318,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 326,
+            "wgMax": 326,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 334,
+            "wgMax": 334,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 342,
+            "wgMax": 342,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 350,
+            "wgMax": 350,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 358,
+            "wgMax": 358,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 366,
+            "wgMax": 366,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 374,
+            "wgMax": 374,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 382,
+            "wgMax": 382,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 390,
+            "wgMax": 390,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 398,
+            "wgMax": 398,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 406,
+            "wgMax": 406,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 414,
+            "wgMax": 414,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 422,
+            "wgMax": 422,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 430,
+            "wgMax": 430,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 438,
+            "wgMax": 438,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 446,
+            "wgMax": 446,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 454,
+            "wgMax": 454,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 462,
+            "wgMax": 462,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 470,
+            "wgMax": 470,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        }
+    ],
+    "FuWuQi": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 3,
+            "wgMax": 3,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 6,
+            "wgMax": 6,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 9,
+            "wgMax": 9,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 12,
+            "wgMax": 12,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 15,
+            "wgMax": 15,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 18,
+            "wgMax": 18,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 21,
+            "wgMax": 21,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 24,
+            "wgMax": 24,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 27,
+            "wgMax": 27,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 30,
+            "wgMax": 30,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 33,
+            "wgMax": 33,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 36,
+            "wgMax": 36,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 39,
+            "wgMax": 39,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 42,
+            "wgMax": 42,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 45,
+            "wgMax": 45,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 48,
+            "wgMax": 48,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 51,
+            "wgMax": 51,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 54,
+            "wgMax": 54,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 57,
+            "wgMax": 57,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 60,
+            "wgMax": 60,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 63,
+            "wgMax": 63,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 66,
+            "wgMax": 66,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 69,
+            "wgMax": 69,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 72,
+            "wgMax": 72,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 75,
+            "wgMax": 75,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 78,
+            "wgMax": 78,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 81,
+            "wgMax": 81,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 84,
+            "wgMax": 84,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 87,
+            "wgMax": 87,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 90,
+            "wgMax": 90,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 95,
+            "wgMax": 95,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 100,
+            "wgMax": 100,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 105,
+            "wgMax": 105,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 110,
+            "wgMax": 110,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 115,
+            "wgMax": 115,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 120,
+            "wgMax": 120,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 125,
+            "wgMax": 125,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 130,
+            "wgMax": 130,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 135,
+            "wgMax": 135,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 140,
+            "wgMax": 140,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 145,
+            "wgMax": 145,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 150,
+            "wgMax": 150,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 155,
+            "wgMax": 155,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 160,
+            "wgMax": 160,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 165,
+            "wgMax": 165,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 170,
+            "wgMax": 170,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 175,
+            "wgMax": 175,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 180,
+            "wgMax": 180,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 185,
+            "wgMax": 185,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 190,
+            "wgMax": 190,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 195,
+            "wgMax": 195,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 200,
+            "wgMax": 200,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 205,
+            "wgMax": 205,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 210,
+            "wgMax": 210,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 215,
+            "wgMax": 215,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 220,
+            "wgMax": 220,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 225,
+            "wgMax": 225,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 230,
+            "wgMax": 230,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 235,
+            "wgMax": 235,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 240,
+            "wgMax": 240,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 245,
+            "wgMax": 245,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 250,
+            "wgMax": 250,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 255,
+            "wgMax": 255,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 260,
+            "wgMax": 260,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 265,
+            "wgMax": 265,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 270,
+            "wgMax": 270,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 275,
+            "wgMax": 275,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 280,
+            "wgMax": 280,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 285,
+            "wgMax": 285,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 290,
+            "wgMax": 290,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        }
+    ],
+    "AnQi": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 2,
+            "wgMax": 2,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 4,
+            "wgMax": 4,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 6,
+            "wgMax": 6,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 8,
+            "wgMax": 8,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 10,
+            "wgMax": 10,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 12,
+            "wgMax": 12,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 14,
+            "wgMax": 14,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 16,
+            "wgMax": 16,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 18,
+            "wgMax": 18,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 20,
+            "wgMax": 20,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 22,
+            "wgMax": 22,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 24,
+            "wgMax": 24,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 26,
+            "wgMax": 26,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 28,
+            "wgMax": 28,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 30,
+            "wgMax": 30,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 32,
+            "wgMax": 32,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 34,
+            "wgMax": 34,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 36,
+            "wgMax": 36,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 38,
+            "wgMax": 38,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 40,
+            "wgMax": 40,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 42,
+            "wgMax": 42,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 44,
+            "wgMax": 44,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 46,
+            "wgMax": 46,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 48,
+            "wgMax": 48,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 50,
+            "wgMax": 50,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 52,
+            "wgMax": 52,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 54,
+            "wgMax": 54,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 56,
+            "wgMax": 56,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 58,
+            "wgMax": 58,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 60,
+            "wgMax": 60,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 63,
+            "wgMax": 63,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 66,
+            "wgMax": 66,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 69,
+            "wgMax": 69,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 72,
+            "wgMax": 72,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 75,
+            "wgMax": 75,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 78,
+            "wgMax": 78,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 81,
+            "wgMax": 81,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 84,
+            "wgMax": 84,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 87,
+            "wgMax": 87,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 90,
+            "wgMax": 90,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 93,
+            "wgMax": 93,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 96,
+            "wgMax": 96,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 99,
+            "wgMax": 99,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 102,
+            "wgMax": 102,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 105,
+            "wgMax": 105,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 108,
+            "wgMax": 108,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 111,
+            "wgMax": 111,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 114,
+            "wgMax": 114,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 117,
+            "wgMax": 117,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 120,
+            "wgMax": 120,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 123,
+            "wgMax": 123,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 126,
+            "wgMax": 126,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 129,
+            "wgMax": 129,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 132,
+            "wgMax": 132,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 135,
+            "wgMax": 135,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 138,
+            "wgMax": 138,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 141,
+            "wgMax": 141,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 144,
+            "wgMax": 144,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 147,
+            "wgMax": 147,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 150,
+            "wgMax": 150,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 153,
+            "wgMax": 153,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 156,
+            "wgMax": 156,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 159,
+            "wgMax": 159,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 162,
+            "wgMax": 162,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 165,
+            "wgMax": 165,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 168,
+            "wgMax": 168,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 171,
+            "wgMax": 171,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 174,
+            "wgMax": 174,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 177,
+            "wgMax": 177,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 180,
+            "wgMax": 180,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        }
+    ],
+    "JieZhi": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 2,
+            "ngMax": 2,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 4,
+            "ngMax": 4,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 6,
+            "ngMax": 6,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 8,
+            "ngMax": 8,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 10,
+            "ngMax": 10,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 12,
+            "ngMax": 12,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 14,
+            "ngMax": 14,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 16,
+            "ngMax": 16,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 18,
+            "ngMax": 18,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 20,
+            "ngMax": 20,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 22,
+            "ngMax": 22,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 24,
+            "ngMax": 24,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 26,
+            "ngMax": 26,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 28,
+            "ngMax": 28,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 30,
+            "ngMax": 30,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 32,
+            "ngMax": 32,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 34,
+            "ngMax": 34,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 36,
+            "ngMax": 36,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 38,
+            "ngMax": 38,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 40,
+            "ngMax": 40,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 42,
+            "ngMax": 42,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 44,
+            "ngMax": 44,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 46,
+            "ngMax": 46,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 48,
+            "ngMax": 48,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 50,
+            "ngMax": 50,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 52,
+            "ngMax": 52,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 54,
+            "ngMax": 54,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 56,
+            "ngMax": 56,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 58,
+            "ngMax": 58,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 60,
+            "ngMax": 60,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 63,
+            "ngMax": 63,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 66,
+            "ngMax": 66,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 69,
+            "ngMax": 69,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 72,
+            "ngMax": 72,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 75,
+            "ngMax": 75,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 78,
+            "ngMax": 78,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 81,
+            "ngMax": 81,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 84,
+            "ngMax": 84,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 87,
+            "ngMax": 87,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 90,
+            "ngMax": 90,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 93,
+            "ngMax": 93,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 96,
+            "ngMax": 96,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 99,
+            "ngMax": 99,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 102,
+            "ngMax": 102,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 105,
+            "ngMax": 105,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 108,
+            "ngMax": 108,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 111,
+            "ngMax": 111,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 114,
+            "ngMax": 114,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 117,
+            "ngMax": 117,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 120,
+            "ngMax": 120,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 123,
+            "ngMax": 123,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 126,
+            "ngMax": 126,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 129,
+            "ngMax": 129,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 132,
+            "ngMax": 132,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 135,
+            "ngMax": 135,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 138,
+            "ngMax": 138,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 141,
+            "ngMax": 141,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 144,
+            "ngMax": 144,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 147,
+            "ngMax": 147,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 150,
+            "ngMax": 150,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 153,
+            "ngMax": 153,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 156,
+            "ngMax": 156,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 159,
+            "ngMax": 159,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 162,
+            "ngMax": 162,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 165,
+            "ngMax": 165,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 168,
+            "ngMax": 168,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 171,
+            "ngMax": 171,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 174,
+            "ngMax": 174,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 177,
+            "ngMax": 177,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 180,
+            "ngMax": 180,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        }
+    ],
+    "ShouZhuo": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 2,
+            "wgMax": 2,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 4,
+            "wgMax": 4,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 6,
+            "wgMax": 6,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 8,
+            "wgMax": 8,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 10,
+            "wgMax": 10,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 12,
+            "wgMax": 12,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 14,
+            "wgMax": 14,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 16,
+            "wgMax": 16,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 18,
+            "wgMax": 18,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 20,
+            "wgMax": 20,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 22,
+            "wgMax": 22,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 24,
+            "wgMax": 24,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 26,
+            "wgMax": 26,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 28,
+            "wgMax": 28,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 30,
+            "wgMax": 30,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 32,
+            "wgMax": 32,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 34,
+            "wgMax": 34,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 36,
+            "wgMax": 36,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 38,
+            "wgMax": 38,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 40,
+            "wgMax": 40,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 42,
+            "wgMax": 42,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 44,
+            "wgMax": 44,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 46,
+            "wgMax": 46,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 48,
+            "wgMax": 48,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 50,
+            "wgMax": 50,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 52,
+            "wgMax": 52,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 54,
+            "wgMax": 54,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 56,
+            "wgMax": 56,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 58,
+            "wgMax": 58,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 60,
+            "wgMax": 60,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 63,
+            "wgMax": 63,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 66,
+            "wgMax": 66,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 69,
+            "wgMax": 69,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 72,
+            "wgMax": 72,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 75,
+            "wgMax": 75,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 78,
+            "wgMax": 78,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 81,
+            "wgMax": 81,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 84,
+            "wgMax": 84,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 87,
+            "wgMax": 87,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 90,
+            "wgMax": 90,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 93,
+            "wgMax": 93,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 96,
+            "wgMax": 96,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 99,
+            "wgMax": 99,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 102,
+            "wgMax": 102,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 105,
+            "wgMax": 105,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 108,
+            "wgMax": 108,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 111,
+            "wgMax": 111,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 114,
+            "wgMax": 114,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 117,
+            "wgMax": 117,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 120,
+            "wgMax": 120,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 123,
+            "wgMax": 123,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 126,
+            "wgMax": 126,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 129,
+            "wgMax": 129,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 132,
+            "wgMax": 132,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 135,
+            "wgMax": 135,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 138,
+            "wgMax": 138,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 141,
+            "wgMax": 141,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 144,
+            "wgMax": 144,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 147,
+            "wgMax": 147,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 150,
+            "wgMax": 150,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 153,
+            "wgMax": 153,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 156,
+            "wgMax": 156,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 159,
+            "wgMax": 159,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 162,
+            "wgMax": 162,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 165,
+            "wgMax": 165,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 168,
+            "wgMax": 168,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 171,
+            "wgMax": 171,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 174,
+            "wgMax": 174,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 177,
+            "wgMax": 177,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 180,
+            "wgMax": 180,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        }
+    ],
+    "XiangLian": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 2,
+            "ngMax": 2,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 4,
+            "ngMax": 4,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 6,
+            "ngMax": 6,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 8,
+            "ngMax": 8,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 10,
+            "ngMax": 10,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 12,
+            "ngMax": 12,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 14,
+            "ngMax": 14,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 16,
+            "ngMax": 16,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 18,
+            "ngMax": 18,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 20,
+            "ngMax": 20,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 22,
+            "ngMax": 22,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 24,
+            "ngMax": 24,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 26,
+            "ngMax": 26,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 28,
+            "ngMax": 28,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 30,
+            "ngMax": 30,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 32,
+            "ngMax": 32,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 34,
+            "ngMax": 34,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 36,
+            "ngMax": 36,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 38,
+            "ngMax": 38,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 40,
+            "ngMax": 40,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 42,
+            "ngMax": 42,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 44,
+            "ngMax": 44,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 46,
+            "ngMax": 46,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 48,
+            "ngMax": 48,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 50,
+            "ngMax": 50,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 52,
+            "ngMax": 52,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 54,
+            "ngMax": 54,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 56,
+            "ngMax": 56,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 58,
+            "ngMax": 58,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 60,
+            "ngMax": 60,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 63,
+            "ngMax": 63,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 66,
+            "ngMax": 66,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 69,
+            "ngMax": 69,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 72,
+            "ngMax": 72,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 75,
+            "ngMax": 75,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 78,
+            "ngMax": 78,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 81,
+            "ngMax": 81,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 84,
+            "ngMax": 84,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 87,
+            "ngMax": 87,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 90,
+            "ngMax": 90,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 93,
+            "ngMax": 93,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 96,
+            "ngMax": 96,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 99,
+            "ngMax": 99,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 102,
+            "ngMax": 102,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 105,
+            "ngMax": 105,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 108,
+            "ngMax": 108,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 111,
+            "ngMax": 111,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 114,
+            "ngMax": 114,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 117,
+            "ngMax": 117,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 120,
+            "ngMax": 120,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 123,
+            "ngMax": 123,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 126,
+            "ngMax": 126,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 129,
+            "ngMax": 129,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 132,
+            "ngMax": 132,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 135,
+            "ngMax": 135,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 138,
+            "ngMax": 138,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 141,
+            "ngMax": 141,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 144,
+            "ngMax": 144,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 147,
+            "ngMax": 147,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 150,
+            "ngMax": 150,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 153,
+            "ngMax": 153,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 156,
+            "ngMax": 156,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 159,
+            "ngMax": 159,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 162,
+            "ngMax": 162,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 165,
+            "ngMax": 165,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 168,
+            "ngMax": 168,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 171,
+            "ngMax": 171,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 174,
+            "ngMax": 174,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 177,
+            "ngMax": 177,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 180,
+            "ngMax": 180,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        }
+    ],
+    "TouShi": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 5,
+            "qx": 16,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 10,
+            "qx": 32,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 15,
+            "qx": 48,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 20,
+            "qx": 64,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 25,
+            "qx": 80,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 30,
+            "qx": 96,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 35,
+            "qx": 112,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 40,
+            "qx": 128,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 45,
+            "qx": 144,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 50,
+            "qx": 160,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 55,
+            "qx": 176,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 60,
+            "qx": 192,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 65,
+            "qx": 208,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 70,
+            "qx": 224,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 75,
+            "qx": 240,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 80,
+            "qx": 256,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 85,
+            "qx": 272,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 90,
+            "qx": 288,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 95,
+            "qx": 304,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 100,
+            "qx": 320,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 105,
+            "qx": 336,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 110,
+            "qx": 352,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 115,
+            "qx": 368,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 120,
+            "qx": 384,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 125,
+            "qx": 400,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 130,
+            "qx": 416,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 135,
+            "qx": 432,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 140,
+            "qx": 448,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 145,
+            "qx": 464,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 150,
+            "qx": 480,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 158,
+            "qx": 505,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 166,
+            "qx": 530,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 174,
+            "qx": 555,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 182,
+            "qx": 580,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 190,
+            "qx": 605,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 198,
+            "qx": 630,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 206,
+            "qx": 655,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 214,
+            "qx": 680,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 222,
+            "qx": 705,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 230,
+            "qx": 730,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 238,
+            "qx": 755,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 246,
+            "qx": 780,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 254,
+            "qx": 805,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 262,
+            "qx": 830,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 270,
+            "qx": 855,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 278,
+            "qx": 880,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 286,
+            "qx": 905,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 294,
+            "qx": 930,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 302,
+            "qx": 955,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 310,
+            "qx": 980,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 318,
+            "qx": 1005,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 326,
+            "qx": 1030,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 334,
+            "qx": 1055,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 342,
+            "qx": 1080,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 350,
+            "qx": 1105,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 358,
+            "qx": 1130,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 366,
+            "qx": 1155,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 374,
+            "qx": 1180,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 382,
+            "qx": 1205,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 390,
+            "qx": 1230,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 398,
+            "qx": 1255,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 406,
+            "qx": 1280,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 414,
+            "qx": 1305,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 422,
+            "qx": 1330,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 430,
+            "qx": 1355,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 438,
+            "qx": 1380,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 446,
+            "qx": 1405,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 454,
+            "qx": 1430,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 462,
+            "qx": 1455,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 470,
+            "qx": 1480,
+            "mp": 0
+        }
+    ],
+    "ShangYi": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 5,
+            "qx": 20,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 10,
+            "qx": 40,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 15,
+            "qx": 60,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 20,
+            "qx": 80,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 25,
+            "qx": 100,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 30,
+            "qx": 120,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 35,
+            "qx": 140,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 40,
+            "qx": 160,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 45,
+            "qx": 180,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 50,
+            "qx": 200,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 55,
+            "qx": 220,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 60,
+            "qx": 240,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 65,
+            "qx": 260,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 70,
+            "qx": 280,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 75,
+            "qx": 300,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 80,
+            "qx": 320,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 85,
+            "qx": 340,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 90,
+            "qx": 360,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 95,
+            "qx": 380,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 100,
+            "qx": 400,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 105,
+            "qx": 420,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 110,
+            "qx": 440,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 115,
+            "qx": 460,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 120,
+            "qx": 480,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 125,
+            "qx": 500,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 130,
+            "qx": 520,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 135,
+            "qx": 540,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 140,
+            "qx": 560,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 145,
+            "qx": 580,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 150,
+            "qx": 600,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 158,
+            "qx": 630,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 166,
+            "qx": 660,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 174,
+            "qx": 690,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 182,
+            "qx": 720,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 190,
+            "qx": 750,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 198,
+            "qx": 780,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 206,
+            "qx": 810,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 214,
+            "qx": 840,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 222,
+            "qx": 870,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 230,
+            "qx": 900,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 238,
+            "qx": 930,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 246,
+            "qx": 960,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 254,
+            "qx": 990,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 262,
+            "qx": 1020,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 270,
+            "qx": 1050,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 278,
+            "qx": 1080,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 286,
+            "qx": 1110,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 294,
+            "qx": 1140,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 302,
+            "qx": 1170,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 310,
+            "qx": 1200,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 318,
+            "qx": 1230,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 326,
+            "qx": 1260,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 334,
+            "qx": 1290,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 342,
+            "qx": 1320,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 350,
+            "qx": 1350,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 358,
+            "qx": 1380,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 366,
+            "qx": 1410,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 374,
+            "qx": 1440,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 382,
+            "qx": 1470,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 390,
+            "qx": 1500,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 398,
+            "qx": 1530,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 406,
+            "qx": 1560,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 414,
+            "qx": 1590,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 422,
+            "qx": 1620,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 430,
+            "qx": 1650,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 438,
+            "qx": 1680,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 446,
+            "qx": 1710,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 454,
+            "qx": 1740,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 462,
+            "qx": 1770,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 470,
+            "qx": 1800,
+            "mp": 0
+        }
+    ],
+    "NeiChen": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 5,
+            "qx": 16,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 10,
+            "qx": 32,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 15,
+            "qx": 48,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 20,
+            "qx": 64,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 25,
+            "qx": 80,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 30,
+            "qx": 96,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 35,
+            "qx": 112,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 40,
+            "qx": 128,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 45,
+            "qx": 144,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 50,
+            "qx": 160,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 55,
+            "qx": 176,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 60,
+            "qx": 192,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 65,
+            "qx": 208,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 70,
+            "qx": 224,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 75,
+            "qx": 240,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 80,
+            "qx": 256,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 85,
+            "qx": 272,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 90,
+            "qx": 288,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 95,
+            "qx": 304,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 100,
+            "qx": 320,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 105,
+            "qx": 336,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 110,
+            "qx": 352,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 115,
+            "qx": 368,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 120,
+            "qx": 384,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 125,
+            "qx": 400,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 130,
+            "qx": 416,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 135,
+            "qx": 432,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 140,
+            "qx": 448,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 145,
+            "qx": 464,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 150,
+            "qx": 480,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 158,
+            "qx": 505,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 166,
+            "qx": 530,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 174,
+            "qx": 555,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 182,
+            "qx": 580,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 190,
+            "qx": 605,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 198,
+            "qx": 630,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 206,
+            "qx": 655,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 214,
+            "qx": 680,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 222,
+            "qx": 705,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 230,
+            "qx": 730,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 238,
+            "qx": 755,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 246,
+            "qx": 780,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 254,
+            "qx": 805,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 262,
+            "qx": 830,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 270,
+            "qx": 855,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 278,
+            "qx": 880,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 286,
+            "qx": 905,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 294,
+            "qx": 930,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 302,
+            "qx": 955,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 310,
+            "qx": 980,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 318,
+            "qx": 1005,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 326,
+            "qx": 1030,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 334,
+            "qx": 1055,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 342,
+            "qx": 1080,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 350,
+            "qx": 1105,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 358,
+            "qx": 1130,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 366,
+            "qx": 1155,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 374,
+            "qx": 1180,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 382,
+            "qx": 1205,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 390,
+            "qx": 1230,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 398,
+            "qx": 1255,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 406,
+            "qx": 1280,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 414,
+            "qx": 1305,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 422,
+            "qx": 1330,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 430,
+            "qx": 1355,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 438,
+            "qx": 1380,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 446,
+            "qx": 1405,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 454,
+            "qx": 1430,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 462,
+            "qx": 1455,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 470,
+            "qx": 1480,
+            "mp": 0
+        }
+    ],
+    "HuWan": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 5,
+            "qx": 16,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 10,
+            "qx": 32,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 15,
+            "qx": 48,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 20,
+            "qx": 64,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 25,
+            "qx": 80,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 30,
+            "qx": 96,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 35,
+            "qx": 112,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 40,
+            "qx": 128,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 45,
+            "qx": 144,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 50,
+            "qx": 160,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 55,
+            "qx": 176,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 60,
+            "qx": 192,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 65,
+            "qx": 208,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 70,
+            "qx": 224,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 75,
+            "qx": 240,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 80,
+            "qx": 256,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 85,
+            "qx": 272,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 90,
+            "qx": 288,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 95,
+            "qx": 304,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 100,
+            "qx": 320,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 105,
+            "qx": 336,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 110,
+            "qx": 352,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 115,
+            "qx": 368,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 120,
+            "qx": 384,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 125,
+            "qx": 400,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 130,
+            "qx": 416,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 135,
+            "qx": 432,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 140,
+            "qx": 448,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 145,
+            "qx": 464,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 150,
+            "qx": 480,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 158,
+            "qx": 505,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 166,
+            "qx": 530,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 174,
+            "qx": 555,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 182,
+            "qx": 580,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 190,
+            "qx": 605,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 198,
+            "qx": 630,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 206,
+            "qx": 655,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 214,
+            "qx": 680,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 222,
+            "qx": 705,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 230,
+            "qx": 730,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 238,
+            "qx": 755,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 246,
+            "qx": 780,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 254,
+            "qx": 805,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 262,
+            "qx": 830,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 270,
+            "qx": 855,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 278,
+            "qx": 880,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 286,
+            "qx": 905,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 294,
+            "qx": 930,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 302,
+            "qx": 955,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 310,
+            "qx": 980,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 318,
+            "qx": 1005,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 326,
+            "qx": 1030,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 334,
+            "qx": 1055,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 342,
+            "qx": 1080,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 350,
+            "qx": 1105,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 358,
+            "qx": 1130,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 366,
+            "qx": 1155,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 374,
+            "qx": 1180,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 382,
+            "qx": 1205,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 390,
+            "qx": 1230,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 398,
+            "qx": 1255,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 406,
+            "qx": 1280,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 414,
+            "qx": 1305,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 422,
+            "qx": 1330,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 430,
+            "qx": 1355,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 438,
+            "qx": 1380,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 446,
+            "qx": 1405,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 454,
+            "qx": 1430,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 462,
+            "qx": 1455,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 470,
+            "qx": 1480,
+            "mp": 0
+        }
+    ],
+    "YaoDai": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 5,
+            "qx": 16,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 10,
+            "qx": 32,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 15,
+            "qx": 48,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 20,
+            "qx": 64,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 25,
+            "qx": 80,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 30,
+            "qx": 96,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 35,
+            "qx": 112,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 40,
+            "qx": 128,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 45,
+            "qx": 144,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 50,
+            "qx": 160,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 55,
+            "qx": 176,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 60,
+            "qx": 192,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 65,
+            "qx": 208,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 70,
+            "qx": 224,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 75,
+            "qx": 240,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 80,
+            "qx": 256,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 85,
+            "qx": 272,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 90,
+            "qx": 288,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 95,
+            "qx": 304,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 100,
+            "qx": 320,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 105,
+            "qx": 336,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 110,
+            "qx": 352,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 115,
+            "qx": 368,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 120,
+            "qx": 384,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 125,
+            "qx": 400,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 130,
+            "qx": 416,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 135,
+            "qx": 432,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 140,
+            "qx": 448,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 145,
+            "qx": 464,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 150,
+            "qx": 480,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 158,
+            "qx": 505,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 166,
+            "qx": 530,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 174,
+            "qx": 555,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 182,
+            "qx": 580,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 190,
+            "qx": 605,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 198,
+            "qx": 630,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 206,
+            "qx": 655,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 214,
+            "qx": 680,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 222,
+            "qx": 705,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 230,
+            "qx": 730,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 238,
+            "qx": 755,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 246,
+            "qx": 780,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 254,
+            "qx": 805,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 262,
+            "qx": 830,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 270,
+            "qx": 855,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 278,
+            "qx": 880,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 286,
+            "qx": 905,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 294,
+            "qx": 930,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 302,
+            "qx": 955,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 310,
+            "qx": 980,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 318,
+            "qx": 1005,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 326,
+            "qx": 1030,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 334,
+            "qx": 1055,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 342,
+            "qx": 1080,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 350,
+            "qx": 1105,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 358,
+            "qx": 1130,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 366,
+            "qx": 1155,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 374,
+            "qx": 1180,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 382,
+            "qx": 1205,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 390,
+            "qx": 1230,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 398,
+            "qx": 1255,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 406,
+            "qx": 1280,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 414,
+            "qx": 1305,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 422,
+            "qx": 1330,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 430,
+            "qx": 1355,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 438,
+            "qx": 1380,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 446,
+            "qx": 1405,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 454,
+            "qx": 1430,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 462,
+            "qx": 1455,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 470,
+            "qx": 1480,
+            "mp": 0
+        }
+    ],
+    "XieZi": [
+        {
+            "level": 0,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 0,
+            "qx": 0,
+            "mp": 0
+        },
+        {
+            "level": 1,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 5,
+            "qx": 16,
+            "mp": 0
+        },
+        {
+            "level": 2,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 10,
+            "qx": 32,
+            "mp": 0
+        },
+        {
+            "level": 3,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 15,
+            "qx": 48,
+            "mp": 0
+        },
+        {
+            "level": 4,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 20,
+            "qx": 64,
+            "mp": 0
+        },
+        {
+            "level": 5,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 25,
+            "qx": 80,
+            "mp": 0
+        },
+        {
+            "level": 6,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 30,
+            "qx": 96,
+            "mp": 0
+        },
+        {
+            "level": 7,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 35,
+            "qx": 112,
+            "mp": 0
+        },
+        {
+            "level": 8,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 40,
+            "qx": 128,
+            "mp": 0
+        },
+        {
+            "level": 9,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 45,
+            "qx": 144,
+            "mp": 0
+        },
+        {
+            "level": 10,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 50,
+            "qx": 160,
+            "mp": 0
+        },
+        {
+            "level": 11,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 55,
+            "qx": 176,
+            "mp": 0
+        },
+        {
+            "level": 12,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 60,
+            "qx": 192,
+            "mp": 0
+        },
+        {
+            "level": 13,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 65,
+            "qx": 208,
+            "mp": 0
+        },
+        {
+            "level": 14,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 70,
+            "qx": 224,
+            "mp": 0
+        },
+        {
+            "level": 15,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 75,
+            "qx": 240,
+            "mp": 0
+        },
+        {
+            "level": 16,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 80,
+            "qx": 256,
+            "mp": 0
+        },
+        {
+            "level": 17,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 85,
+            "qx": 272,
+            "mp": 0
+        },
+        {
+            "level": 18,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 90,
+            "qx": 288,
+            "mp": 0
+        },
+        {
+            "level": 19,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 95,
+            "qx": 304,
+            "mp": 0
+        },
+        {
+            "level": 20,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 100,
+            "qx": 320,
+            "mp": 0
+        },
+        {
+            "level": 21,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 105,
+            "qx": 336,
+            "mp": 0
+        },
+        {
+            "level": 22,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 110,
+            "qx": 352,
+            "mp": 0
+        },
+        {
+            "level": 23,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 115,
+            "qx": 368,
+            "mp": 0
+        },
+        {
+            "level": 24,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 120,
+            "qx": 384,
+            "mp": 0
+        },
+        {
+            "level": 25,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 125,
+            "qx": 400,
+            "mp": 0
+        },
+        {
+            "level": 26,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 130,
+            "qx": 416,
+            "mp": 0
+        },
+        {
+            "level": 27,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 135,
+            "qx": 432,
+            "mp": 0
+        },
+        {
+            "level": 28,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 140,
+            "qx": 448,
+            "mp": 0
+        },
+        {
+            "level": 29,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 145,
+            "qx": 464,
+            "mp": 0
+        },
+        {
+            "level": 30,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 150,
+            "qx": 480,
+            "mp": 0
+        },
+        {
+            "level": 31,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 158,
+            "qx": 505,
+            "mp": 0
+        },
+        {
+            "level": 32,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 166,
+            "qx": 530,
+            "mp": 0
+        },
+        {
+            "level": 33,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 174,
+            "qx": 555,
+            "mp": 0
+        },
+        {
+            "level": 34,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 182,
+            "qx": 580,
+            "mp": 0
+        },
+        {
+            "level": 35,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 190,
+            "qx": 605,
+            "mp": 0
+        },
+        {
+            "level": 36,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 198,
+            "qx": 630,
+            "mp": 0
+        },
+        {
+            "level": 37,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 206,
+            "qx": 655,
+            "mp": 0
+        },
+        {
+            "level": 38,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 214,
+            "qx": 680,
+            "mp": 0
+        },
+        {
+            "level": 39,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 222,
+            "qx": 705,
+            "mp": 0
+        },
+        {
+            "level": 40,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 230,
+            "qx": 730,
+            "mp": 0
+        },
+        {
+            "level": 41,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 238,
+            "qx": 755,
+            "mp": 0
+        },
+        {
+            "level": 42,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 246,
+            "qx": 780,
+            "mp": 0
+        },
+        {
+            "level": 43,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 254,
+            "qx": 805,
+            "mp": 0
+        },
+        {
+            "level": 44,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 262,
+            "qx": 830,
+            "mp": 0
+        },
+        {
+            "level": 45,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 270,
+            "qx": 855,
+            "mp": 0
+        },
+        {
+            "level": 46,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 278,
+            "qx": 880,
+            "mp": 0
+        },
+        {
+            "level": 47,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 286,
+            "qx": 905,
+            "mp": 0
+        },
+        {
+            "level": 48,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 294,
+            "qx": 930,
+            "mp": 0
+        },
+        {
+            "level": 49,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 302,
+            "qx": 955,
+            "mp": 0
+        },
+        {
+            "level": 50,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 310,
+            "qx": 980,
+            "mp": 0
+        },
+        {
+            "level": 51,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 318,
+            "qx": 1005,
+            "mp": 0
+        },
+        {
+            "level": 52,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 326,
+            "qx": 1030,
+            "mp": 0
+        },
+        {
+            "level": 53,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 334,
+            "qx": 1055,
+            "mp": 0
+        },
+        {
+            "level": 54,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 342,
+            "qx": 1080,
+            "mp": 0
+        },
+        {
+            "level": 55,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 350,
+            "qx": 1105,
+            "mp": 0
+        },
+        {
+            "level": 56,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 358,
+            "qx": 1130,
+            "mp": 0
+        },
+        {
+            "level": 57,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 366,
+            "qx": 1155,
+            "mp": 0
+        },
+        {
+            "level": 58,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 374,
+            "qx": 1180,
+            "mp": 0
+        },
+        {
+            "level": 59,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 382,
+            "qx": 1205,
+            "mp": 0
+        },
+        {
+            "level": 60,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 390,
+            "qx": 1230,
+            "mp": 0
+        },
+        {
+            "level": 61,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 398,
+            "qx": 1255,
+            "mp": 0
+        },
+        {
+            "level": 62,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 406,
+            "qx": 1280,
+            "mp": 0
+        },
+        {
+            "level": 63,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 414,
+            "qx": 1305,
+            "mp": 0
+        },
+        {
+            "level": 64,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 422,
+            "qx": 1330,
+            "mp": 0
+        },
+        {
+            "level": 65,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 430,
+            "qx": 1355,
+            "mp": 0
+        },
+        {
+            "level": 66,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 438,
+            "qx": 1380,
+            "mp": 0
+        },
+        {
+            "level": 67,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 446,
+            "qx": 1405,
+            "mp": 0
+        },
+        {
+            "level": 68,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 454,
+            "qx": 1430,
+            "mp": 0
+        },
+        {
+            "level": 69,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 462,
+            "qx": 1455,
+            "mp": 0
+        },
+        {
+            "level": 70,
+            "wgMin": 0,
+            "wgMax": 0,
+            "ngMin": 0,
+            "ngMax": 0,
+            "wf": 470,
+            "qx": 1480,
+            "mp": 0
+        }
+    ]
+}
