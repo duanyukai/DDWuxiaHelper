@@ -11,6 +11,7 @@ import {suiyinFormat} from '../utils/string_format';
 import Cascader from 'antd/es/cascader/index';
 
 import './css/affix_panel.css';
+import Link from "react-router-dom/es/Link";
 
 class AffixContainer extends Component {
 
@@ -25,6 +26,7 @@ class AffixContainer extends Component {
 
     this.selectAffix = this.selectAffix.bind(this);
     this.calcAffixCost = this.calcAffixCost.bind(this);
+    this.displayRender = this.displayRender.bind(this);
   }
 
   selectAffix(pos, value) {
@@ -47,6 +49,10 @@ class AffixContainer extends Component {
     }
   }
 
+  displayRender(label, selectedOptions) {
+    return <span>{label[0]} {label[1]}</span>;
+  }
+
   render() {
     // 词缀Options
     let curPosData = affixData[setData[this.props.currentPos].type];
@@ -60,12 +66,17 @@ class AffixContainer extends Component {
           let levelData = affixLevelData[levelKey];
           return {
             value: levelKey,
-            label: `${levelData.pinji}品，${levelData.jiangxin}匠心，${levelData.desc}`
+            label: <span>
+              <span styleName="affix-name" style={{color: levelData.color === 2 ? '#bc8fbc' : '#fff'}}>{levelData.pinji}品</span>
+              ，{levelData.jiangxin}匠心，{levelData.desc}，
+              ({levelData.special})
+            </span>
           };
         });
+
         return {
           value: affixName,
-          label: affixName,
+          label: <span styleName="affix-name" style={{color: affixLevelData[Object.keys(affixLevelData)[0]].color === 2 ? '#bc8fbc' : '#fff'}}>{affixName}</span>,
           children: levels
         };
       });
@@ -90,6 +101,8 @@ class AffixContainer extends Component {
           onChange={(v) => this.selectAffix(0, v)}
           value={defaultValues[0]}
           placeholder="请为第一条词缀进行选择"
+          displayRender={this.displayRender}
+          popupPlacement="topLeft"
         />
         <div>第二条词缀：</div>
         <Cascader
@@ -98,7 +111,17 @@ class AffixContainer extends Component {
           onChange={(v) => this.selectAffix(1, v)}
           value={defaultValues[1]}
           placeholder="请为第二条词缀进行选择"
+          displayRender={this.displayRender}
+          popupPlacement="topLeft"
         />
+        <p>
+        注：词缀列表中，末尾附加了该条词缀的种类。在上词缀中，洗炼时会洗出该品低级或中级属性，在8品时仅能洗炼出特殊的“洗炼”分类的数据；
+        在下词缀中，制造可以概率产出1-5品低级或中级词缀，1-4品时，词缀升级仅能升级出低级词缀，而5品以上升级仅能得到专有的“升级”分类词缀，
+        该属性及匠心值基本上是该品低级和中级词缀数据的平均数。另外，部分紫薯有功力平衡（虚功力）。
+        </p>
+        <p>
+          关于词缀数据大全，您可参考<Link to="/data-wiki/affix" target="_blank">这里</Link>。
+        </p>
       </div>
     );
   }

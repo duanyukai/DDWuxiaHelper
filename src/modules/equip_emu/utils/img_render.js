@@ -26,7 +26,7 @@ export function renderPropList(equip, enhanceAdded) {
   }
 
   jsxArr = jsxArr.concat(usedPropMap.map((prop) => {
-    console.log(equip[prop]);
+    // console.log(equip[prop]);
     if(equip[prop] > 0 || enhanceProbProp.includes(prop) && enhanceAdded[prop] > 0) {
       if(enhanceProbProp.includes(prop) && enhanceAdded[prop] > 0) {
         return (
@@ -34,7 +34,7 @@ export function renderPropList(equip, enhanceAdded) {
         );
       } else {
         return (
-          <div key={prop}><span>{propType[prop].fullDes}:</span><span>{equip[prop]}</span></div>
+          <div key={prop}><span>{propType[prop].fullDes}:</span><span>{+equip[prop].toFixed(2)}</span></div>
         );
       }
     } else {

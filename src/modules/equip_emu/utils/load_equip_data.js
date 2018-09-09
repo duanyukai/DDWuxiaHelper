@@ -16,7 +16,7 @@ function loadEquipData() {
   if(!parseResult.errors.length) {
     let t1 = performance.now();
     console.log('加载时间A：', t1 - t0, 'ms');
-    console.log('数据A', parseResult.data);
+    // console.log('数据A', parseResult.data);
     let theEquipData = {};
     equipData = parseResult.data.forEach((row) => {
       theEquipData[row['id']] = row;
@@ -31,7 +31,7 @@ function loadEquipData() {
     });
     let t2 = performance.now();
     console.log('加载时间B：', t2 - t1, 'ms');
-    console.log('数据B', theSplitData);
+    // console.log('数据B', theSplitData);
     splitData = theSplitData;
   } else {
     console.log(parseResult.errors);

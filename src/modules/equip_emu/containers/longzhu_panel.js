@@ -57,7 +57,7 @@ class LongzhuContainer extends Component {
         let row = longzhuData[this.props.menpaiId][setData[this.props.currentPos].type][level];
         return (
           <Select.Option key={level} value={level}>
-            {row.name} {level}级，属性加成：{row.props}，升级消耗碎银{suiyinFormat(row.suiyin)}
+            <span styleName="level">{row.name} {level}级</span>，属性加成：{row.props}，升级消耗碎银{suiyinFormat(row.suiyin)}
             <br/>
             技能效果：{row.deco.replace(/\$\$/g, '，')}
           </Select.Option>
@@ -74,7 +74,7 @@ class LongzhuContainer extends Component {
 
     return(
       <div>
-        温馨提示：此处珑铸等级可任意配置，与门派联通，但不与装备联通，方便您切换装备或单纯模拟珑铸使用。属性计算时，将根据珑铸等级需求的琢磨等级等来判断是否生效。
+        温馨提示：此处珑铸等级可任意配置，与门派联通，但不与装备联通，方便您切换装备或单纯模拟珑铸使用。属性计算时，默认生效，暂时未判断需求的琢磨等级。
         <Select
           defaultValue={1}
           value={this.props.equipData[this.props.currentPos].longzhuLV}
@@ -87,12 +87,8 @@ class LongzhuContainer extends Component {
         >
           {longzhuOptions}
         </Select>
-        {/*<div>珑铸消耗小计算器</div>*/}
-        {/*从{' '}<InputNumber min={0} max={56} precision={0} defaultValue={0} onChange={(i) => this.setState({longzhuCalcFrom: i})} />{' '}*/}
-        {/*级到{' '}<InputNumber min={0} max={56} precision={0} defaultValue={56} onChange={(i) => this.setState({longzhuCalcTo: i})} />{' '}*/}
-        {/*<Button onClick={this.calcLongzhuCost}>计算</Button>{' '}结果：{this.state.longzhuCost}*/}
-        {/*<br />*/}
-        {/**: 关于琢磨材料消耗、属性等详细攻略请参考<a href="#">点击此处</a>。*/}
+        <br />
+        *: 关于珑铸材料消耗、属性、技能效果等详细攻略请参考<a target="_blank" href="http://bbs.duowan.com/thread-46407004-1-1.html">点击此处</a>。
       </div>
     );
   }

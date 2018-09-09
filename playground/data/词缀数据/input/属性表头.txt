@@ -1,0 +1,1 @@
+additionalId,       name, pinji,  affixGroup, color, pinji2, wg, ng, wf, nf, , , ld, qj, gg, dc, sf, rj, , qx, nx, , , , , mz, gd, hx, hs, , , , , , , , , , , , , , gongliOffset,   ,  ,   propsDesc,  ,jiangxin,    ,    ,  ,  ,  ,  ,

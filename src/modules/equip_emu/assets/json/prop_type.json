@@ -13,8 +13,6 @@
   "dc": { "fullDes": "洞察", "shortDes": "洞察" },
   "sf": { "fullDes": "身法", "shortDes": "身法" },
   "rj": { "fullDes": "韧劲", "shortDes": "韧劲" },
-  "gongli": { "fullDes": "功力", "shortDes": "功力" },
-  "zhanliLFV1???": { "fullDes": "一级属性战力", "shortDes": "战力" },
   "dingli": { "fullDes": "定力", "shortDes": "定力" },
   "qx": { "fullDes": "血量上限", "shortDes": "气血" },
   "mz": { "fullDes": "命中率", "shortDes": "命中" },
@@ -24,5 +22,8 @@
   "chaizhao": { "fullDes": "拆招等级", "shortDes": "拆招" },
   "yushang": { "fullDes": "御伤等级", "shortDes": "御伤" },
   "poshang": { "fullDes": "破伤等级", "shortDes": "破伤" },
-  "cureEffect": { "fullDes": "治疗效果", "shortDes": "治疗效果" }
+  "cureEffect": { "fullDes": "疗伤效果", "shortDes": "治疗效果" },
+
+  "gongliOffset": { "fullDes": "虚功力偏移", "shortDes": "虚功力" },
+  "zhanliOffset": { "fullDes": "虚战力偏移", "shortDes": "虚战力" }
 }

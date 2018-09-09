@@ -11,6 +11,9 @@ import setData from '../assets/json/equip_set.json';
 import equipSetData from '../assets/json/equip_set.json';
 import menpaiSetData from '../assets/json/menpai_set.json';
 import tzjSetData from '../assets/json/tzj_set.json';
+import levelColorData from '../assets/json/level_color.json';
+
+import './css/base_settings.css';
 
 let equipPos2RealPosMap = {
   ZhuWuQi: ['zhuwu'],
@@ -112,7 +115,8 @@ class BaseSettingsContainer extends Component {
   }
 
   render() {
-    let equipData = getEquipData();
+    let equipData = getEquipData(null, currEquipId);
+    // console.log('当前装备', equipData);
     let currPosData = equipData[equipSetData[this.props.currentPos].type];
     // 装备单独选择列表
     let optionData = Object.keys(currPosData).filter((equipId) => {
@@ -122,18 +126,11 @@ class BaseSettingsContainer extends Component {
       return currPosData[b].evaluationLV - currPosData[a].evaluationLV;
     }).map((id) => {
       let row = currPosData[id];
-      return <Select.Option key={id} value={id}>{row.name}，{row.evaluationLV}品质等级，{row.catDesc}</Select.Option>;
+      return <Select.Option key={id} value={id}><span styleName="equip-name" style={{background: levelColorData[row.quality][0]}}>{row.name}</span>，{row.evaluationLV}品质等级，{row.catDesc}</Select.Option>;
     });
 
     // 当前已选择装备文本
-    let selectedEquipText = null;
     let currEquipId = this.props.equipData[this.props.currentPos].id;
-    console.log(this.props.currentPos);
-    if(currEquipId) {
-      let row = getEquipData(setData[this.props.currentPos].type, currEquipId);
-      selectedEquipText = `${row.name}，${row.evaluationLV}品质等级，${row.catDesc}`;
-    }
-
 
     // 门派套快速选择Option列表
     let menpaiSetOptions = menpaiSetData.filter(({menpaiId}) => {
@@ -176,14 +173,16 @@ class BaseSettingsContainer extends Component {
               }
             </Radio.Group>
             <br />
-            <h5>属性配置敬请期待</h5>
+            <br />
+            <h5>属性配置敬请期待！</h5>
           </Collapse.Panel>
           <Collapse.Panel header="当前装备位配置" key="2">
             <h4>当前装备部位：{setData[this.props.currentPos].showName}</h4>
             <div>
               <Select
-                value={selectedEquipText}
+                value={currEquipId === null ? '请选择一件装备' : (currEquipId + '')}
                 showSearch
+                allowClear
                 size="large"
                 style={{ width: '100%' }}
                 placeholder="选择该部位的装备"
@@ -243,5 +242,5 @@ function mapStateToProps(state) {
 export default connect(mapStateToProps, {
   // actions
   setMenpai,
-  selectEquip
+  selectEquip,
 })(BaseSettingsContainer);

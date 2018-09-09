@@ -4,8 +4,12 @@ import jiangxinRatioData from '../assets/json/jiangxin_percentage.json';
 import longzhuPropData from '../assets/json/longzhu.json';
 import taozhuangPropData from '../assets/json/taozhuang.json';
 import affixData from '../assets/json/affix.json';
+import totalJiangxinLevelPropData from '../assets/json/total_jiangxin_level_props.json';
 import menpai from '../assets/json/menpai.json';
+import menpaiProps from '../assets/json/school_props.json';
+
 import React from 'react';
+import {getEquipData} from './load_equip_data';
 
 let zeroProps = {
   ld: 0, gg: 0, qj: 0, dc: 0, sf: 0,
@@ -14,23 +18,116 @@ let zeroProps = {
   poshang: 0, chaizhao: 0, yushang: 0, liaoshang: 0,
   qx: 0, nx: 0, // 内息
   gongliOffset: 0,
-  zhanliOffset: 0
+  zhanliOffset: 0,
 };
 
-export function calcSingleEquip(equipPosType, equip, levels) {
-  console.log('计算参数', arguments);
+
+export function calcAllEquip(equipsData) {
+  let totalProps = {...zeroProps};
+  // 属性简单求和
+  Object.keys(setData).map((equipPos) => {
+    let equipPosType = setData[equipPos].type;
+    let equipData = equipsData[equipPos];
+    if(equipData.id) {
+      // console.log('有部位', equipPos, equipData);
+      totalProps = sumProps(totalProps, calcSingleEquip(equipPosType, getEquipData(equipPosType, equipData.id), equipData).total.props);
+    } else {
+      // console.log('没有部位', equipPos);
+    }
+  });
+  // 直接功力计算，偏移计算 todo 哪些数值
+  // let gongli = calcGongli(totalProps);
+  // 直接战力计算，偏移计算
+  // let zhanli = calcZhanli(totalProps);
+  // 套装属性计算，首先遍历每个装备位置
+  let taozhuangMap = {};  // 存储套装达成状态
+  Object.keys(setData).map((equipPos) => {
+    let equipPosType = setData[equipPos].type;
+    let equipData = equipsData[equipPos];
+    if(equipData.id) {
+      // 查找套装id
+      let equip = getEquipData(equipPosType, equipData.id);
+      if(equip.taozhuangId > 0) {
+        let taozhuangId = equip.taozhuangId;
+        let taozhuang = taozhuangPropData[taozhuangId];
+        if (!taozhuangMap.hasOwnProperty(taozhuangId))
+          taozhuangMap[taozhuangId] = [false, false, false, false, false];
+        // 判断当前装备满足哪个需求位
+        ['e1', 'e2', 'e3', 'e4', 'e5'].forEach((pos, i) => {
+          if (taozhuang[pos] !==null && taozhuang[pos].includes(equipData.id)) {
+            taozhuangMap[taozhuangId][i] = true;
+          }
+        });
+      }
+    }
+  });
+  // 根据套装达成的等级（2件套、4件套）计算属性
+  let taozhuangProps = {...zeroProps};
+  let taozhuangDesc = [];
+  Object.keys(taozhuangMap).forEach((taozhuangId) => {
+    let count = taozhuangMap[taozhuangId].filter(o => o).length;
+    let taozhuang = taozhuangPropData[taozhuangId];
+    // 遍历所有满足的条件
+    for(let i = 1; i <= count; i++) {
+      if(taozhuang.property.hasOwnProperty(i)) {
+        // 内外攻hack
+        let props = taozhuang.property[i];
+        props['wgMin'] = props['wg'];
+        props['wgMax'] = props['wg'];
+        props['ngMin'] = props['ng'];
+        props['ngMax'] = props['ng'];
+        taozhuangProps = sumProps(taozhuangProps, Object.assign({...zeroProps}, props));
+        taozhuangDesc.push(<p key={i}>{taozhuang.name}({taozhuang.typeName}) {i}件: <br />{taozhuang.property[i].propDes}</p>);  //todo jsx
+      }
+    }
+  });
+
+  // 全身琢磨等级属性计算
+  let maxTotalJiangxin = 50;
+  Object.keys(setData).map((equipPos) => {
+    let equipData = equipsData[equipPos];
+    if(equipData.id) {
+      if(equipData.jiangxinLV < maxTotalJiangxin)
+        maxTotalJiangxin = equipData.jiangxinLV;
+    } else {
+      maxTotalJiangxin = 0;
+    }
+  });
+  let maxTotalJiangxinProps = {...zeroProps};
+  let maxTotalJiangxinDesList = [];
+  for(let i = 1; i <= maxTotalJiangxin; i++) {
+    if(totalJiangxinLevelPropData[i]) {
+      maxTotalJiangxinProps = sumProps(maxTotalJiangxinProps, Object.assign({...zeroProps}, totalJiangxinLevelPropData[i].props));
+      maxTotalJiangxinDesList.push(<p key={i}>{totalJiangxinLevelPropData[i].des}</p>);
+    }
+  }
+
+  // console.log('最终所有装备', totalProps);
+  return {
+    props: sumProps(totalProps, taozhuangProps, maxTotalJiangxinProps),
+    gongli: calcGongli(sumProps(totalProps, taozhuangProps, maxTotalJiangxinProps)),
+    zhanli: calcZhanli(sumProps(totalProps, taozhuangProps, maxTotalJiangxinProps)),
+    taozhuangDesList: taozhuangDesc,
+    maxTotalJiangxin,
+    maxTotalJiangxinDesList
+  };
+}
+
+export function calcSingleEquip(equipPosType, equip, levels) {  // todo 参数有点冗余
+  // console.log('计算参数', arguments);
   // 分别计算功力、战力的原始、加成值，以及全部面板属性结果
   let originProps = {...zeroProps};
 
   // 复制equip中已存在的属性数据，计算原始功力
   Object.keys(originProps).forEach(key => {
-    originProps[key] += equip[key];
+    if(equip.hasOwnProperty(key))
+      originProps[key] += equip[key];
   });
-  let gongliOrigin = calcGongli(originProps);
-  let zhanliOrigin = calcZhanli(originProps);
+  let originGongli = calcGongli(originProps);
+  let originZhanli = calcZhanli(originProps);
   // 根据精工等级，增加对应属性，计算功力 todo 无判断精工上限
   let enhanceLevel = levels.enhanceLV;
-  let enhanceProps = enhancePropData[equipPosType][enhanceLevel];
+  let enhanceProps = Object.assign({...zeroProps}, enhancePropData[equipPosType][enhanceLevel]);
   let enhanceGongli = calcEnhanceGongli(enhanceProps);
   let enhanceZhanli = calcEnhanceZhanli(enhanceProps);
   // 根据琢磨等级，在equip基础上增加百分比
@@ -52,7 +149,7 @@ export function calcSingleEquip(equipPosType, equip, levels) {
   let longzhuProps = longzhuTextToProps(longzhuPropsStr);
   let longzhuGongli = calcGongli(longzhuProps);
   let longzhuZhanli = calcZhanli(longzhuProps);
-  // 根据词缀，判断匠心值，文本提取属性值并计算 todo
+  // 根据词缀，判断匠心值，提取属性值
   let affix = levels.affix;
   let affixPropsList = ['词缀一', '词缀二'].map((affixPosName, affixPos) => {
     let data = affix[affixPos];
@@ -60,14 +157,26 @@ export function calcSingleEquip(equipPosType, equip, levels) {
       let {type, level} = data;
       let d = affixData[equipPosType][affixPosName][type][level];
       let neededJiangxin = d.jiangxin;
-      let gongliOffset = d.gO;
+      // 计算匠心值和
       if(affixPos === 1) {
         try {
           neededJiangxin += affixData[equipPosType]['词缀一'][affix[0].type][affix[0].level].jiangxin;
         } catch (ignored){}
       }
       if(neededJiangxin <= equip.jiangxin + jiangxinLevel) {
-        return {desc: d.desc, gO: gongliOffset};
+        // 内外攻最大最小值hack
+        let props = d.props;
+        if(d.props.wg > 0) {
+          props['wgMin'] = props.wg;
+          props['wgMax'] = props.wg;
+          delete props.wg;
+        }
+        if(d.props.ng > 0) {
+          props['ngMin'] = props.ng;
+          props['ngMax'] = props.ng;
+          delete props.ng;
+        }
+        return Object.assign({...zeroProps}, props);
       } else {
         // 匠心值不符合要求
         return null;
@@ -75,19 +184,48 @@ export function calcSingleEquip(equipPosType, equip, levels) {
     } else {
       return null;
     }
-  }).map(affixTextToProps);
+  });
   let affixPropsSum = affixPropsList.reduce((prev, curr) => sumProps(prev, curr), {...zeroProps});
   let affixGongli = calcGongli(affixPropsSum);
   let affixZhanli = calcZhanli(affixPropsSum);
-  let affixGongliOffsetSum = affixPropsList.reduce(sumGongliOffset);
+
+  // 返回值
   return {
-    props: sumProps(originProps, enhanceProps, jiangxinProps, longzhuProps, affixPropsSum), // 原始+四种额外属性
-    gongliOrigin,
-    gongliAddition: enhanceGongli + jiangxinGongli + longzhuGongli + affixGongli,
-    gongliOffset: affixGongliOffsetSum,
-    zhanliOrigin,
-    zhanliAddition: enhanceZhanli + jiangxinZhanli + longzhuZhanli + affixZhanli,
-    zhanliOffset: 0 // 目前无战力平衡 todo
+    total: {
+      gongli: originGongli + enhanceGongli + jiangxinGongli + longzhuGongli + affixGongli,
+      zhanli: originZhanli + enhanceZhanli + jiangxinZhanli + longzhuZhanli + affixZhanli,
+      props: sumProps(originProps, enhanceProps, jiangxinProps, longzhuProps, affixPropsSum)
+    },
+    origin: {
+      gongli: originGongli,
+      zhanli: originZhanli,
+      props: originProps
+    },
+    addition : {
+      gongli: enhanceGongli + jiangxinGongli + longzhuGongli + affixGongli,
+      zhanli: enhanceZhanli + jiangxinZhanli + longzhuZhanli + affixZhanli,
+      props: originProps
+    },
+    enhance: {
+      gongli: enhanceGongli,
+      zhanli: enhanceZhanli,
+      props: enhanceProps
+    },
+    jiangxin: {
+      gongli: jiangxinGongli,
+      zhanli: jiangxinZhanli,
+      props: jiangxinProps
+    },
+    longzhu: {
+      gongli: longzhuGongli,
+      zhanli: longzhuZhanli,
+      props: longzhuProps
+    },
+    affix: {
+      gongli: affixGongli,
+      zhanli: affixZhanli,
+      props: affixPropsSum
+    }
   };
 }
 
@@ -103,14 +241,15 @@ export function sumProps(...propsList) {
   }, {...zeroProps});
 }
 
-export function sumGongliOffset(...propsList) {
-  return propsList.reduce((prev, curr) => {
-    if(curr) {
-      return prev + curr.gongliOffset;
-    }
-    return prev;
-  }, 0);
+export function subtractProps(from, to) {
+  // 对应项相加即可
+  let result = {...from};
+  Object.keys(from).forEach(key => {
+    result[key] -= (to[key] || 0);
+  });
+  return result;
 }
+
 
 function multiplyProps(props, ratio) {
   let newProps = {...props};
@@ -121,7 +260,29 @@ function multiplyProps(props, ratio) {
 }
 
 export function calcMenpaiProps(props, menpaiId) {
-
+  let id2Code = ['ZW', 'TB', 'SW', 'GB', 'TM', 'WD', 'SL', 'TX', 'SD', 'YH'];  // todo 偷懒旧数据直接用了
+  let coefficient = menpaiProps[id2Code[menpaiId]];
+  // props里根据每一项，折算计算，内外功特殊计算
+  let result = {...props};
+  Object.keys(coefficient).forEach((primaryKey) => {
+    let co = coefficient[primaryKey];
+    Object.keys(co).forEach((secondaryKey) => {
+      let c = co[secondaryKey];
+      switch(secondaryKey) {
+      case 'wg':
+        result['wgMin'] += result[primaryKey] * c;
+        result['wgMax'] += result[primaryKey] * c;
+        break;
+      case 'ng':
+        result['ngMin'] += result[primaryKey] * c;
+        result['ngMax'] += result[primaryKey] * c;
+        break;
+      default:
+        result[secondaryKey] += result[primaryKey] * c;
+      }
+    });
+  });
+  return result;
 }
 
 
@@ -141,7 +302,8 @@ export function calcGongli(props) {
   sum += props.qx / 10;
   sum += props.hs * 4;
   sum += props.chaizhao * 2;
-
+  // 最后加上功力偏移
+  sum += props.gongliOffset;
   return sum;
 }
 
@@ -166,7 +328,8 @@ export function calcZhanli(props) {
   sum += props.poshang * 10;
   sum += props.yushang * 5;
   sum += props.liaoshang * 0.2;
-
+  // 最后加上战力偏移
+  sum += props.zhanliOffset;
   return sum;
 }
 
@@ -181,15 +344,14 @@ function calcEnhanceGongli(props) {
 
 function calcEnhanceZhanli(props) {
   let sum = 0;
-  sum += (props.wgMin + props.wgMax) / 2 * 0.85;
-  sum += (props.ngMin + props.ngMax) / 2 * 1.05;
+  sum += (props.wgMin + props.wgMax) / 2 * 0.84; // todo 系数
+  sum += (props.ngMin + props.ngMax) / 2 * 1.08; // todo
   sum += props.wf * 0.18;
   sum += props.qx * 0.03;
   return sum;
 }
 
 function longzhuTextToProps(str) {
-  console.log('珑铸str', str);
   let props = {...zeroProps};
   // 目前一共就六种
   let cats = [
@@ -212,67 +374,66 @@ function longzhuTextToProps(str) {
         props['wgMax'] = num;
       } else {
         props[cat.type] = num;
+        break;
       }
-    } else {
-      break;
     }
   }
   return props;
 }
 
-function affixTextToProps(text) {
-  let props = {...zeroProps};
-  if(!text) return props;
-  let str = text.desc;
-  props.gongliOffset = text.gO;
-
-  let cats = [
-    {name: '力道', type: 'ld'},
-    {name: '根骨', type: 'gg'},
-    {name: '洞察', type: 'dc'},
-    {name: '身法', type: 'sf'},
-    {name: '气劲', type: 'qj'},
-
-    {name: '外功攻击', type: 'wg'},
-    {name: '外功防御', type: 'ng'},
-    {name: '内功攻击', type: 'wf'},
-    {name: '内功防御', type: 'nf'},
-
-    {name: '命中', type: 'mz'},
-    {name: '格挡', type: 'gd'},
-    {name: '会心', type: 'hx'},
-    {name: '会心率', type: 'hx'},
-    {name: '韧劲', type: 'rj'},
-    {name: '会心伤害', type: 'hs'},
-
-    {name: '气血', type: 'qx'},
-    {name: '气血上限', type: 'qx'},
-    {name: '内息上限', type: 'nx'},
-  ];
-
-  try {
-    str.split('：')[1].split(' ').forEach(propStr => {
-      console.log(propStr);
-      for(let cat of cats) {
-        if(propStr.includes(cat.name)) {
-          let num = parseFloat(propStr.split('+')[1]);
-          if(cat.type === 'wg') {
-            // 外攻特殊处理
-            props['wgMin'] = num;
-            props['wgMax'] = num;
-          } else if(cat.type === 'ng') {
-            // 内攻特殊处理
-            props['ngMin'] = num;
-            props['ngMax'] = num;
-          } else {
-            props[cat.type] = num;
-          }
-        }
-      }
-    });
-  } catch(e) {
-    // 词缀数据有误
-    console.log(e);
-  }
-  return props;
-}
+// function affixTextToProps(text) {
+//   let props = {...zeroProps};
+//   if(!text) return props;
+//   let str = text.desc;
+//   props.gongliOffset = text.gO;
+//
+//   let cats = [
+//     {name: '力道', type: 'ld'},
+//     {name: '根骨', type: 'gg'},
+//     {name: '洞察', type: 'dc'},
+//     {name: '身法', type: 'sf'},
+//     {name: '气劲', type: 'qj'},
+//
+//     {name: '外功攻击', type: 'wg'},
+//     {name: '外功防御', type: 'ng'},
+//     {name: '内功攻击', type: 'wf'},
+//     {name: '内功防御', type: 'nf'},
+//
+//     {name: '命中', type: 'mz'},
+//     {name: '格挡', type: 'gd'},
+//     {name: '会心', type: 'hx'},
+//     {name: '会心率', type: 'hx'},
+//     {name: '韧劲', type: 'rj'},
+//     {name: '会心伤害', type: 'hs'},
+//
+//     {name: '气血', type: 'qx'},
+//     {name: '气血上限', type: 'qx'},
+//     {name: '内息上限', type: 'nx'},
+//   ];
+//
+//   try {
+//     str.split('：')[1].split(' ').forEach(propStr => {
+//       console.log(propStr);
+//       for(let cat of cats) {
+//         if(propStr.includes(cat.name)) {
+//           let num = parseFloat(propStr.split('+')[1]);
+//           if(cat.type === 'wg') {
+//             // 外攻特殊处理
+//             props['wgMin'] = num;
+//             props['wgMax'] = num;
+//           } else if(cat.type === 'ng') {
+//             // 内攻特殊处理
+//             props['ngMin'] = num;
+//             props['ngMax'] = num;
+//           } else {
+//             props[cat.type] = num;
+//           }
+//         }
+//       }
+//     });
+//   } catch(e) {
+//     // 词缀数据有误
+//     console.log(e);
+//   }
+//   return props;
+// }

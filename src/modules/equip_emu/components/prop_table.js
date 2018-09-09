@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './css/prop_table.css';
 
-const DataFormat = (props) => {
+export const DataFormat = (props) => {
   let data = props.data || 0;
   let digit = props.digit || 0;
   let dataStr = '' + data.toFixed(3);
@@ -29,63 +29,64 @@ class PropTable extends Component {
   render() {
 
     let p = this.props.equipProps;
-    p = {};
+    let gongli = this.props.gongli;
+    let zhanli = this.props.zhanli;
     return(
       <div>
         <table styleName="prop-table">
           <tbody>
             <tr>
-              <td>
-                裸功力
-              </td><td><DataFormat data={11111} /></td>
-              <td>力道</td><td><DataFormat data={p.ld} /></td></tr>
+              <th>
+                总功力
+              </th><td><DataFormat data={gongli} /></td>
+              <th>力道</th><td><DataFormat data={p.ld} /></td></tr>
             <tr>
-              <td style={{color: '#f66'}}>
-                显功力
-              </td><td><DataFormat data={111 + p.gongliOffset} /></td>
-              <td>根骨</td><td><DataFormat data={p.gg} /></td></tr>
+              <th style={{color: '#f66'}}>
+                虚功力
+              </th><td><DataFormat data={p.gongliOffset} /></td>
+              <th>根骨</th><td><DataFormat data={p.gg} /></td></tr>
             <tr>
-              <td >
-                裸战力
-              </td><td><DataFormat data={111} /></td>
-              <td>气劲</td><td><DataFormat data={p.qj} /></td></tr>
+              <th>
+                总战力
+              </th><td><DataFormat data={zhanli} /></td>
+              <th>气劲</th><td><DataFormat data={p.qj} /></td></tr>
             <tr>
-              <td style={{color: '#f66'}}>
-                显战力
-              </td><td><DataFormat data={111 + p.zhanliOffset} /></td>
-              <td>洞察</td><td><DataFormat data={p.dc} /></td></tr>
+              <th style={{color: '#f66'}}>
+                虚战力
+              </th><td><DataFormat data={p.zhanliOffset} /></td>
+              <th>洞察</th><td><DataFormat data={p.dc} /></td></tr>
             <tr>
-              <td>气血</td><td><DataFormat data={p.qx} /></td>
-              <td>身法</td><td><DataFormat data={p.sf} /></td></tr>
+              <th>气血</th><td><DataFormat data={p.qx} /></td>
+              <th>身法</th><td><DataFormat data={p.sf} /></td></tr>
 
             <tr>
-              <td>外攻</td><td><DataFormat data={p.wg} /></td>
-              <td>外防</td><td><DataFormat data={p.wf} /></td>
+              <th>外攻</th><td><DataFormat data={p.wgMin} /><br /> ~ <DataFormat data={p.wgMax} /></td>
+              <th>外防</th><td><DataFormat data={p.wf} /></td>
             </tr>
             <tr>
-              <td>内功</td><td><DataFormat data={p.ng} /></td>
-              <td>内防</td><td><DataFormat data={p.nf} /></td>
+              <th>内功</th><td><DataFormat data={p.ngMin} /><br /> ~ <DataFormat data={p.ngMax} /></td>
+              <th>内防</th><td><DataFormat data={p.nf} /></td>
             </tr>
 
             <tr>
-              <td>命中</td><td><DataFormat data={p.mz} digit={2} /></td>
-              <td>格挡</td><td><DataFormat data={p.gd} digit={2} /></td>
+              <th>命中</th><td><DataFormat data={p.mz} digit={2} /></td>
+              <th>格挡</th><td><DataFormat data={p.gd} digit={2} /></td>
             </tr>
             <tr>
-              <td>会心</td><td><DataFormat data={p.hx} digit={2} /></td>
-              <td>韧劲</td><td><DataFormat data={p.rj} digit={2} /></td>
+              <th>会心</th><td><DataFormat data={p.hx} digit={2} /></td>
+              <th>韧劲</th><td><DataFormat data={p.rj} digit={2} /></td>
             </tr>
             <tr>
-              <td>会伤</td><td><DataFormat data={p.hs} digit={2} /></td>
-              <td>拆招</td><td>111</td>
+              <th>会伤</th><td><DataFormat data={p.hs} digit={2} /></td>
+              <th>拆招</th><td><DataFormat data={p.chaizhao} digit={0} /></td>
             </tr>
             <tr>
-              <td>破伤</td><td><DataFormat data={p.hs} digit={2} /></td>
-              <td>愈伤</td><td>111</td>
+              <th>破伤</th><td><DataFormat data={p.poshang} digit={0} /></td>
+              <th>愈伤</th><td><DataFormat data={p.yushang} digit={0} /></td>
             </tr>
             <tr>
               <td></td><td></td>
-              <td>疗伤</td><td>111</td>
+              <th>疗伤</th><td><DataFormat data={p.liaoshang} digit={0} /></td>
             </tr>
           </tbody>
         </table>

@@ -64,7 +64,11 @@ module.exports = function(env) {
       }),
       new UglifyJsPlugin({
         cache: true,
-        parallel: true
+        parallel: true,
+        uglifyOptions: {
+          ecma: 5,
+          ie8: true
+        }
       }),
       new CompressionPlugin({
         asset: '[path].gz[query]',

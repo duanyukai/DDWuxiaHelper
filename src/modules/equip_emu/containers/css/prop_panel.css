@@ -3,10 +3,22 @@
 }
 
 .prop-tabs :global .ant-tabs-tab {
-    padding: 3px 10px !important;
+    padding: 3px 5px !important;
+    margin: 0 5px;
     text-align: center !important;
 }
 
 .prop-tabs :global .ant-tabs-content {
     padding: 0 !important;
+}
+
+.taozhuang-panel {
+    padding: 5px;
+}
+.taozhuang-panel ol {
+    padding-left: 20px;
+}
+
+.taozhuang-panel p {
+    margin-bottom: 2px;
 }

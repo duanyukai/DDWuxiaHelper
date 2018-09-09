@@ -1,7 +1,9 @@
 import merge from 'lodash/merge';
 
 import {
-  COPY_SET,
+  CLEAR_CURRENT_CONFIG,
+  CLEAR_CURRENT_POS,
+  COPY_SET, RESET_ALL,
   SELECT_AFFIX,
   SELECT_ENHANCE,
   SELECT_EQUIP,
@@ -43,7 +45,7 @@ export default function(state = initState, action) {
   switch (action.type) {
   // 合并持久化数据
   case 'persist/REHYDRATE': {
-    return merge(initState, action.payload.equipData);
+    return merge(initState, action.payload ? action.payload.equipData : {});
   }
   // 选择配置
   case SELECT_SET: {
@@ -57,7 +59,9 @@ export default function(state = initState, action) {
   case SELECT_JIANGXIN:
   case SELECT_LONGZHU:
   case SELECT_AFFIX:
-  case SELECT_EQUIP: {
+  case SELECT_EQUIP:
+  case CLEAR_CURRENT_POS:
+  case CLEAR_CURRENT_CONFIG: {
     let current = state.current;
     let set = state.sets[current];
     let newSet = singleEquipReducer(set, action);
@@ -80,6 +84,10 @@ export default function(state = initState, action) {
         [dst]: JSON.parse(JSON.stringify(state.sets[src]))
       }
     };
+  }
+  // 清空重置全部
+  case RESET_ALL: {
+    return {...initState};
   }
   default:
     return state;
@@ -156,6 +164,21 @@ function singleEquipReducer(state, action) {
         }
       }
     };
+  }
+  // 清空当前装备位置
+  case CLEAR_CURRENT_POS: {
+    const {equipPosId} = action.payload;
+    return {
+      ...state,
+      [equipPosId]: {
+        ...state[equipPosId],
+        id: null, enhanceLV: 0, jiangxinLV: 0, longzhuLV: 0, affix: {0: null, 1: null} // todo elegant way
+      }
+    };
+  }
+  // 清空当前槽全部
+  case CLEAR_CURRENT_CONFIG: {
+    return {...singleEquipInitState};
   }
   default:
     return state;

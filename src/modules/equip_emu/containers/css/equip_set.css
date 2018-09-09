@@ -1,17 +1,17 @@
 .equip-pos-selected {
-    height: 92px;
-    box-shadow: 1px 1px 1px #ccc;
+    height: 105px;
+    box-shadow: inset 0 0 2px #888;
     background: #ececec;
     margin: 3px;
-    padding: 2px;
+    padding: 15px 2px 2px 2px;
     cursor: pointer;
 }
 
 .equip-pos {
-    height: 92px;
+    height: 105px;
     background: #fff;
     margin: 3px;
-    padding: 2px;
+    padding: 15px 2px 2px 2px;
     cursor: pointer;
 }
 
@@ -25,6 +25,7 @@
     display: block;
     margin: 0 auto;
     text-align: center;
+    padding: 2px 0 0 0;
 }
 
 .pos-img-wrapper {
@@ -51,4 +52,11 @@
     height: 68px;
     background: url(../../assets/img/longzhu_bg.png);
     background-size: cover;
+}
+
+.equip-setting-btn {
+    position: absolute;
+    top: -12px;
+    left: 50px;
+    padding: 0 4px;
 }

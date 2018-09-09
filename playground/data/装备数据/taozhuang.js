@@ -15,8 +15,10 @@ let promises = files.map((filename) => {
   return csv({checkType: true}).fromString(file);
 });
 
-function pick(obj, keysMap) {
-  return Object.keys(keysMap).map(k => k in obj ? {[keysMap[k]]: obj[k]} : {})
+function pick(obj, keysMap, coefficient) {
+  return Object.keys(keysMap).map(k => k in obj ? {
+    [keysMap[k]]: typeof obj[k] === 'number' ? (obj[k] * (coefficient[k] || 1)) : obj[k]
+  } : {})
     .reduce((res, o) => Object.assign(res, o), {});
 }
 
@@ -36,13 +38,18 @@ Promise.all(promises).then((data) => {
       qx: 'qx', mz: 'mz', hx: 'hx', hs: 'hs',
       poshang: 'poshang', propDes: 'propDes'
     };
+    let newPropCoefficient = {
+      mz: 100,
+      hx: 100,
+      hs: 100
+    };
     if(p1) {
-      p1 = pick(p1, preservedMap);
+      p1 = pick(p1, preservedMap, newPropCoefficient);
     } else {
       p1 = {};
     }
     if(p2) {
-      p2 = pick(p2, preservedMap);
+      p2 = pick(p2, preservedMap, newPropCoefficient);
     } else {
       p2 = {};
     }

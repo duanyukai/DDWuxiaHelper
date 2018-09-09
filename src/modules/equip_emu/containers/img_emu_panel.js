@@ -12,13 +12,16 @@ import jiangxinRatioData from '../assets/json/jiangxin_percentage.json';
 import longzhuPropData from '../assets/json/longzhu.json';
 import taozhuangPropData from '../assets/json/taozhuang.json';
 import affixData from '../assets/json/affix.json';
+import levelColorData from '../assets/json/level_color.json';
 import menpai from '../assets/json/menpai.json';
+import propType from '../assets/json/prop_type.json';
 
 import './css/img_emu_panel.css';
 import {getEquipData} from '../utils/load_equip_data';
 import {ICON_URL_PREFIX} from '../utils/consts';
 import {renderPropList} from '../utils/img_render';
 import {calcSingleEquip} from "../utils/calc_props";
+import {DataFormat} from "../components/prop_table";
 
 class ImgEmuPanelContainer extends Component {
 
@@ -40,9 +43,9 @@ class ImgEmuPanelContainer extends Component {
     if(equipId) {
       let equip = getEquipData(equipPosType, equipId);
 
-      console.log('图片模拟数据', equipLevels, equip);
-      // 获取基本属性数据
-
+      // console.log('图片模拟数据', equipLevels, equip);
+      // 基本属性数据
+      let qualityColor = levelColorData[equip.quality][1];
       // 获取珑铸数据
       let longzhuLevel = equipLevels.longzhuLV;
       let longzhuProp, longzhuTexiao;
@@ -57,24 +60,25 @@ class ImgEmuPanelContainer extends Component {
       let jiangxinLevel = equipLevels.jiangxinLV;
       let jiangxinData = jiangxinRatioData[jiangxinLevel];
       // 获取词缀数据
-      let affix = equipLevels.affix;
+      let affixLevels = equipLevels.affix;
       let affixShowData = ['词缀一', '词缀二'].map((affixPosName, affixPos) => {
-        let data = affix[affixPos];
+        let data = affixLevels[affixPos];
         if(data) {
           let {type, level} = data;
           let d = affixData[equipPosType][affixPosName][type][level];
           let neededJiangxin = d.jiangxin;
           if(affixPos === 1) {
             try {
-              neededJiangxin += affixData[equipPosType]['词缀一'][affix[0].type][affix[0].level].jiangxin;
+              neededJiangxin += affixData[equipPosType]['词缀一'][affixLevels[0].type][affixLevels[0].level].jiangxin;
             } catch (ignored) {}
           }
           let color = d.color === 1 ? '#fff' : '#ae78ae';
+          let descColor = neededJiangxin < equip.jiangxin + jiangxinLevel ? '#84e6a3' : '#f00';
           return (
             <div key={affixPos}>
               <span style={{color}}>({d.pinji}品)</span>{' '}
               <span style={{color}}>{d.desc}</span>{' '}
-              <span style={{color: '#84e6a3'}}>需要匠心值: {neededJiangxin}</span>
+              <span style={{color: descColor}}>需要匠心值: {neededJiangxin}</span>
             </div>
           );
         } else {
@@ -85,7 +89,7 @@ class ImgEmuPanelContainer extends Component {
       let tzName, tzList, tzCount = 0, propShowList;
       if(equip.taozhuangId) {
         let taozhuang = taozhuangPropData[equip.taozhuangId];
-        console.log(taozhuang);
+        // console.log(taozhuang);
         tzName = taozhuang.name;
         tzList = ['e1', 'e2', 'e3', 'e4', 'e5'].map((id) => {
           if(taozhuang[id] !== null) {
@@ -122,14 +126,52 @@ class ImgEmuPanelContainer extends Component {
         });
       }
 
-      // 计算功力战力 todo
-      const {props, gongliOrigin, gongliAddition, gongliOffset, zhanliOrigin, zhanliAddition, zhanliOffset} = calcSingleEquip(equipPosType, equip, equipLevels);
+      // 计算功力战力
+      const {total, origin, addition, enhance, jiangxin, longzhu, affix} = calcSingleEquip(equipPosType, equip, equipLevels);
+      // console.log('totalshuxing', calcSingleEquip(equipPosType, equip, equipLevels));
+      // 分别列表
+      let table = [
+        ['属性', '总值', '初始', '精工', '琢磨', '珑铸', '词缀'],
+        ['总功力', total.gongli, origin.gongli, enhance.gongli, jiangxin.gongli, longzhu.gongli, affix.gongli],
+        ['虚功力', total.props.gongliOffset, 0, 0, 0, 0, affix.props.gongliOffset],
+        ['总战力', total.zhanli, origin.zhanli, enhance.zhanli, jiangxin.zhanli, longzhu.zhanli, affix.zhanli],
+        ['虚战力', total.props.zhanliOffset, origin.props.zhanliOffset, 0, 0, 0, 0],
+      ];
+
+      // 通过判断总和的非零属性，分别列行，再把精工琢磨等对应属性搞出来
+      let tableResult = [];
+      Object.keys(total.props).map(key => {
+        if(total.props[key] > 0 && !['gongliOffset', 'zhanliOffset'].includes(key)) {
+          tableResult.push([
+            propType[key].fullDes, total.props[key], origin.props[key], enhance.props[key], jiangxin.props[key], longzhu.props[key], affix.props[key]
+          ]);
+        }
+      });
+      table = table.concat(tableResult);
+      // 矩阵转为table
+      let jsxTable = <table styleName="prop-table">
+        <tbody>
+          {
+            table.map((row, i) => {
+              return <tr key={i}>
+                {row.map((cell, y) => {
+                  if(typeof cell === 'string')
+                    return <th key={y}>{cell}</th>;
+                  else
+                    return <td key={y}><DataFormat data={cell} digit={0} /></td>;
+                })}
+              </tr>;
+            })
+          }
+        </tbody>
+      </table>;
 
       return (
         <div>
           <div styleName="img-emu">
             <img styleName="icon" src={`${ICON_URL_PREFIX}${equip.icon}.png`}/>
-            <div styleName="name">{equip.name}</div>
+            <span styleName="pvp-pve">{equip.equipType === 1 ? 'PVE' : 'PVP'}装</span>
+            <div styleName="name" style={{color: qualityColor}}>{equip.name}</div>
             <div styleName="bangding">已绑定</div>
             <div styleName="evaluation-lv"><span>品质等级:</span><span style={{color: '#fff'}}>{equip.evaluationLV}</span></div>
             <div styleName="main-list">
@@ -138,8 +180,14 @@ class ImgEmuPanelContainer extends Component {
                 <div styleName="header-item"><span>耐久:</span><span>{equip.durable/10}/{equip.durable/10}</span></div>
                 <div styleName="header-item"><span>部位:</span><span>{setData[this.props.currentPos].showName}</span></div>
                 <div styleName="header-item"><span>门派:</span><span>{menpai[equip.menpai]}</span></div>
-                <div styleName="header-item"><span>功力:</span><span>{+gongliOrigin.toFixed(2)}+{+gongliAddition.toFixed(2)}+{+gongliOffset.toFixed(2)}</span></div>
-                <div styleName="header-item"><span>战力:</span><span>{+zhanliOrigin.toFixed(2)}+{+zhanliAddition.toFixed(2)}</span></div>
+                <div styleName="header-item"><span>功力:</span><span>{+origin.gongli.toFixed(2)}+{+(addition.gongli).toFixed(2)}</span></div>
+                <div styleName="header-item"><span>战力:</span><span>{+origin.zhanli.toFixed(2)}+{+addition.zhanli.toFixed(2)}</span></div>
+              </div>
+              <hr styleName="hr"/>
+              <div>
+                本图来源“段段天刀综合助手 - 装备模拟器”<br />
+                https://www.wuxiatools.com/equip<br />
+                精工琢磨珑铸词缀精确完整模拟
               </div>
               <hr styleName="hr"/>
               <div styleName="prop-list">
@@ -147,12 +195,17 @@ class ImgEmuPanelContainer extends Component {
               </div>
               {longzhuLevel !== 0 &&
               <div styleName="additional-block">
-                <div styleName="first-line"><span>珑铸属性: </span><span style={{color: '#ddeb73'}}>{longzhuProp.props.split('：')[0]} {longzhuLevel}级</span></div>
+                <div styleName="first-line">
+                  <span>珑铸属性: </span>
+                  <span style={{color: '#ddeb73'}}>{longzhuProp.props.split('：')[0]} {longzhuLevel}级</span>
+                </div>
                 <div styleName="remain-lines">
                   <div style={{color: '#ddeb73'}}>{longzhuProp.props.split('：')[1]}</div>
                   <div style={{color: '#ddeb73'}}>{longzhuProp.deco}</div>
                   <div style={{color: '#84e6a3'}}>(全身装备琢磨等级需:{longzhuProp.jiangxinLV} 已激活)</div>
-                  <div style={{color: longzhuLevel < 9 ? '#8f8f8f' : '#ddeb73'}}><span style={{display: longzhuLevel < 9 ? 'initial' : 'none'}}>升级至最高级:</span>{longzhuTexiao}</div>
+                  <div style={{color: longzhuLevel < 9 ? '#8f8f8f' : '#ddeb73'}}>
+                    <span style={{display: longzhuLevel < 9 ? 'initial' : 'none'}}>升级至最高级:</span>{longzhuTexiao}
+                    </div>
                 </div>
               </div>
               }
@@ -168,6 +221,7 @@ class ImgEmuPanelContainer extends Component {
                 </div>
               </div>
               }
+              {/*词缀*/}
               {affix[0] !== null &&
               <div styleName="additional-block">
                 <div styleName="first-line"><span>词缀属性</span></div>
@@ -177,6 +231,7 @@ class ImgEmuPanelContainer extends Component {
                 </div>
               </div>
               }
+              {/*套装*/}
               {equip.taozhuangId > 0 &&
               <div styleName="additional-block">
                 <div styleName="first-line"><span>{tzName}({tzCount}/{tzList.length})</span></div>
@@ -201,7 +256,17 @@ class ImgEmuPanelContainer extends Component {
             </div>
           </div>
           <div>
-            注：由于装备精工上限数据暂时无法统计，故本模拟器中精工上限请参照游戏内数据，本模拟器计算属性时不考虑上限情况。
+            注：<br/>
+            对于PVP装备：<br />
+            装备精工上限数据暂时无法统计，故本模拟器中精工上限请参照游戏内数据，目前计算属性时不考虑上限。
+            同样，本模拟器暂不检查珑铸所需全身琢磨等级，但词缀所需的匠心值在属性计算考虑范围内。
+            对于PVE装备 <br />
+            为方便大家配置，精工琢磨数据不会被强制重置为0，但也不会计算到属性计算中。
+            对于PVE穿透的词缀来说，匠心值默认达到要求。
+          </div>
+          <div>
+            <h4>最终单件装备属性</h4>
+            {jsxTable}
           </div>
         </div>
       );

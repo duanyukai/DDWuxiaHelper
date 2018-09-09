@@ -7,6 +7,9 @@ export const SELECT_ENHANCE = 'SELECT_ENHANCE';
 export const SELECT_JIANGXIN = 'SELECT_JIANGXIN';
 export const SELECT_LONGZHU = 'SELECT_LONGZHU';
 export const SELECT_AFFIX = 'SELECT_AFFIX';
+export const CLEAR_CURRENT_POS = 'CLEAR_CURRENT_POS';
+export const CLEAR_CURRENT_CONFIG = 'CLEAR_CURRENT_CONFIG';
+export const RESET_ALL = 'RESET_ALL';
 
 // 选择配置
 export function selectSet(setId) {
@@ -78,5 +81,28 @@ export function selectAffix(equipPosId, affixPos, affixType, affixLevel) {
   return {
     type: SELECT_AFFIX,
     payload: {equipPosId, affixPos, affixType, affixLevel}
+  };
+}
+
+// 清空当前槽某部位数据
+export function clearCurrentPos(equipPosId) {
+  return {
+    type: CLEAR_CURRENT_POS,
+    payload: {equipPosId}
+  };
+}
+// 清空当前配置所有数据
+export function clearCurrentConfig() {
+  return {
+    type: CLEAR_CURRENT_CONFIG,
+    payload: {}
+  };
+}
+
+// 完整清空所有数据
+export function resetAll() {
+  return {
+    type: RESET_ALL,
+    payload: {}
   };
 }

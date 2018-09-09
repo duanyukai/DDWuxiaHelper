@@ -1,0 +1,162 @@
+.modules-portal-components-css-___app__pic-header___2vQs_ {
+    background: url(https://wuxia-tools-main-server-1251080372.file.myqcloud.com/001d4194d86d28e9a3f8c214eea2afa5.png);
+    background-size: cover;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.modules-portal-components-css-___app__pic-header___2vQs_ .modules-portal-components-css-___app__banner-main___2Nj56 {
+    padding: 50px 10px 20px 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.modules-portal-components-css-___app__pic-header___2vQs_ h1 {
+    color: #fff;
+    font-size: 56px;
+}
+.modules-portal-components-css-___app__pic-header___2vQs_ p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+@media all and (max-width: 736px) {
+    .modules-portal-components-css-___app__pic-header___2vQs_ {
+        text-shadow: 1px 1px 1px #000;
+    }
+    .modules-portal-components-css-___app__pic-header___2vQs_ h1 {
+        color: #fff;
+        font-size: 36px;
+    }
+    .modules-portal-components-css-___app__pic-header___2vQs_ p {
+        color: #fff;
+        font-size: 14px;
+    }
+}
+
+.modules-portal-components-css-___app__main___1DG-B {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+.modules-portal-components-css-___app__news-ul___3wuex {
+    padding: 2px;
+    column-count: 3;
+}
+
+@media all and (max-width: 800px) {
+    .modules-portal-components-css-___app__news-ul___3wuex {
+        column-count: 2;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .modules-portal-components-css-___app__news-ul___3wuex {
+        column-count: 1;
+    }
+}
+
+.modules-portal-components-css-___app__news-li___Ub4Wj {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.modules-portal-components-css-___app__news-time___3e0GB {
+    padding: 2px;
+    background: #0e3049;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    border-radius: 3px;
+}
+
+.modules-portal-components-css-___app__news-link___1UfkY {
+    color: #0e3049;
+}
+
+.modules-portal-components-css-___app__news-link___1UfkY:hover {
+    text-decoration: underline;
+    color: #0e77ca;
+}
+
+.modules-portal-components-css-___app__tool-card-wrapper___1bQWs {
+    width: 280px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.modules-portal-components-css-___app__tool-card___xdtps {
+    width: 100%;
+    height: 100%;
+}
+
+.modules-portal-components-css-___app__heading___3MxjI {
+    font-size: 32px;
+    margin: 8px 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.modules-portal-components-css-___app__flex-wrapper___2nnXl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.modules-portal-components-css-___app__card-title___1NP7j {
+    text-align: center;
+}
+
+.modules-portal-components-css-___app__cover-img___3z1j8 {
+    border-bottom: 1px solid #ccc;
+    /*box-shadow: inset 0 -2px #ccc;*/
+}
+
+.modules-portal-components-css-___app__tool-card___xdtps .ant-card-body{
+    padding: 3px;
+}
+
+.modules-portal-components-css-___app__tool-card___xdtps hr {
+    margin: 4px;
+}
+
+.modules-portal-components-css-___app__tool-card___xdtps p {
+    text-align: center;
+    margin: 4px;
+}
+
+.modules-portal-components-css-___app__tool-card___xdtps h3 {
+    text-align: center;
+}
+
+.modules-portal-components-css-___app__tool-card___xdtps a {
+    color: black;
+}
+
+.modules-portal-components-css-___app__tool-card___xdtps a:hover {
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+.module-cmt-notice {
+    display: none;
+}
+
+.module-person-page-prompt {
+    display: none;
+}
+
+body {
+    font-size: 14px;
+}
+
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}

@@ -1,46 +1,142 @@
 .pic-header {
     background: url(../../assets/imgs/background.png);
     background-size: cover;
-    color: #fff;
     text-shadow: 1px 1px 1px #000;
 }
 
-.nav-panel {
+.pic-header .banner-main {
+    padding: 50px 10px 20px 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.pic-header h1 {
+    color: #fff;
+    font-size: 56px;
+}
+.pic-header p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+@media all and (max-width: 736px) {
+    .pic-header {
+        text-shadow: 1px 1px 1px #000;
+    }
+    .pic-header h1 {
+        color: #fff;
+        font-size: 36px;
+    }
+    .pic-header p {
+        color: #fff;
+        font-size: 14px;
+    }
+}
+
+.main {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+.news-ul {
+    padding: 2px;
+    column-count: 3;
+}
+
+@media all and (max-width: 800px) {
+    .news-ul {
+        column-count: 2;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .news-ul {
+        column-count: 1;
+    }
+}
+
+.news-li {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.news-time {
+    padding: 2px;
+    background: #0e3049;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    border-radius: 3px;
+}
+
+.news-link {
+    color: #0e3049;
+}
+
+.news-link:hover {
+    text-decoration: underline;
+    color: #0e77ca;
+}
+
+.tool-card-wrapper {
+    width: 280px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tool-card {
+    width: 100%;
     height: 100%;
 }
 
-.nav-panel :global .panel-body{
+.heading {
+    font-size: 32px;
+    margin: 8px 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.cover-img {
+    border-bottom: 1px solid #ccc;
+    /*box-shadow: inset 0 -2px #ccc;*/
+}
+
+.tool-card :global .ant-card-body{
     padding: 3px;
 }
 
-.nav-panel img{
-    width: 100%;
-}
-
-.nav-panel .nav-panel-div {
-    margin: 10px;
-}
-
-.nav-panel img {
-    border: solid #bbb 1px;
-}
-
-.nav-panel hr {
+.tool-card hr {
     margin: 4px;
 }
 
-.nav-panel p {
+.tool-card p {
+    text-align: center;
+    margin: 4px;
+}
+
+.tool-card h3 {
     text-align: center;
 }
 
-.nav-panel-div h3 {
-    text-align: center;
-}
-
-.nav-panel-div a {
+.tool-card a {
     color: black;
 }
 
-.nav-panel-div a:hover {
+.tool-card a:hover {
     text-decoration: none;
 }

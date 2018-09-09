@@ -25,9 +25,18 @@ let promises = files.map((key) => {
 
 let preservedPropsMap = {
   iId: 'id', enumQuality: 'quality', stItemInfo: 'name', nValueLV: 'evaluationLV', nLimitLVMin: 'limitLVMin', nLimitLVMax: 'limitLVMax', szMartialArtDemandArray: 'menpai', szExplain: 'desc', szBackground: 'bgDesc', nJiangXinValue: 'jiangxin', bEnhanceAble: 'enhanceAble', bJiangXinAble: 'jiangxinAble', bTejiAble: 'tejiAble', nEnhanceLevelMax: '???', nDurableValue: 'durable',
-  nATKWaigongMin: 'wgMin', nATKWaigongMax: 'wgMax', nATKNeigongMin: 'ngMin', nATKNeigongMax: 'ngMax', nDEFWaigong: 'wf', nDEFNeigong: 'nf', nATKDingli: 'dingliATK', nDEFDingli: 'dingliDEF', nSTR: 'ld', nSPI: 'qj', nSTA: 'gg', nINS: 'dc', nDEX: 'sf', nRENJIN: 'rj', nGLI: 'gongli', nJianxin: 'zhanliLFV1???', nDingliMax: 'dingli', nHpMax: 'qx',
+  nATKWaigongMin: 'wgMin', nATKWaigongMax: 'wgMax', nATKNeigongMin: 'ngMin', nATKNeigongMax: 'ngMax', nDEFWaigong: 'wf', nDEFNeigong: 'nf', nATKDingli: 'dingliATK', nDEFDingli: 'dingliDEF', nSTR: 'ld', nSPI: 'qj', nSTA: 'gg', nINS: 'dc', nDEX: 'sf', nRENJIN: 'rj', nGLI: 'gongli', nJianxin: 'zhanliOffset', nDingliMax: 'dingli', nHpMax: 'qx',
   fHitPCT: 'mz', fDodgePCT: 'gd', fCritPCT: 'hx', fCritDamage: 'hs', nWaigongAvoid: '???', nWaigongAvoidLv: 'chaizhao', nNeigongAvoid: '???', nNeigongAvoidLv: 'yushang', nWaigongAtkWeakVal: '???', nNeigongAtkWeakVal: '???', nWaigongDefWeakVal: '???', nNeigongDefWeakVal: '???', nDmgEnhanceLv: 'poshang',
-  nCureEffect: 'cureEffect'/*疗伤效果*/, nRepairCost: 'repairCost', szTIPS2D: 'icon',szAvatar3D_b: 'xxx3d_str', ddCatDesc: 'catDesc', dwSetID: 'taozhuangId', eEquipType: 'equipType'
+  nCureEffect: 'liaoshang'/*疗伤效果*/, nRepairCost: 'repairCost', szTIPS2D: 'icon',szAvatar3D_b: 'xxx3d_str', ddCatDesc: 'catDesc', dwSetID: 'taozhuangId', eEquipType: 'equipType'
+};
+
+// 系数修正，全部按百分比值计算，前几种乘100，韧劲除以100
+let newPropsCoefficient = {
+  'mz': 100,
+  'gd': 100,
+  'hx': 100,
+  'hs': 100,
+  'rj': 0.01
 };
 
 Promise.all(promises).then((data) => {
@@ -35,12 +44,13 @@ Promise.all(promises).then((data) => {
   let result = {};
   let resultTotal = [];
   let csvResult = '';
+  // 每个部位的文件
   data.forEach((list, i) => {
     let posMap = {};
     list.forEach((equip, j) => {
       let newEquip = {};
-      // 如果是第一行，额外处理一下表头
-      if(j === 0) {
+      // 如果是第一行，额外处理一下表头，i也得等于0，只要一个头就够了
+      if(j === 0 && i === 0) {
         Object.keys(preservedPropsMap).forEach((origin) => {
           let newProp = preservedPropsMap[origin];
           if(newProp !== '???') {
@@ -61,10 +71,14 @@ Promise.all(promises).then((data) => {
           newEquip[newProp] = equip[origin][0];
           csvResult += `${equip[origin][0]},`;
         } else if(newProp !== '???') {
-          // 忽略未使用的列
-          newEquip[newProp] = equip[origin];
+          // 忽略未使用的列剩下的
+          if(newPropsCoefficient.hasOwnProperty(newProp)) {
+            newEquip[newProp] = parseFloat(equip[origin]) * newPropsCoefficient[newProp];
+          } else {
+            newEquip[newProp] = equip[origin];
+          }
           // 处理csv的
-          csvResult += `${equip[origin]},`;
+          csvResult += `${newEquip[newProp]},`;
         } else {
           // 跳过
         }

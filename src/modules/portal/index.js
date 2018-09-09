@@ -22,7 +22,7 @@ class Root extends Component {
     //     <App />
     //   </Provider>
     // )
-    return <App />
+    return <App />;
   }
 }
 

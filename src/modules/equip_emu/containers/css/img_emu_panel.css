@@ -16,6 +16,14 @@
     left: 10px;
 }
 
+.pvp-pve {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    font-size: 24px;
+    color: rgb(250, 254, 146);
+}
+
 .name {
     color: #faed3a;
     font-size: 16px;
@@ -93,4 +101,39 @@
 .taozhuang-list {
     display: inline-block;
     width: 150px;
+}
+
+.prop-table {
+
+}
+
+.prop-table {
+    border-collapse: collapse;
+}
+
+.prop-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right;
+}
+
+.prop-table th {
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.prop-table tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+.int {
+    font-size: 14px;
+    color: #000;
+}
+
+.frac {
+    font-size: 11px;
+    color: #aaa;
 }

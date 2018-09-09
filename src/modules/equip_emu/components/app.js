@@ -18,7 +18,7 @@ class App extends Component {
           <meta name="keywords" content="天刀装备模拟器"/>
           <meta name="viewport" content="width=1024"/>
         </Helmet>
-        <Row gutter={16}>
+        <Row gutter={16} style={{maxWidth: 1250, margin: '0 auto'}}>
           <Col xs={24} sm={24} md={24} lg={7} xl={6} xxl={5}>
             <div>
               <Card title="装备面板" style={{ width: '100%' }}>

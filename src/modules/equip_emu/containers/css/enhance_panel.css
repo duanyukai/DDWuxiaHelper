@@ -1,0 +1,8 @@
+.level {
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    box-shadow: 2px 2px 3px #ccc;
+    border-radius: 5px;
+    padding: 5px 12px;
+    background: #3e9cd5;
+}

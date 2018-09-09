@@ -121,7 +121,7 @@ class Index extends Component {
                 <NavItem
                   eventKey={1}
                   onClick={() => this.setState({showModal20180501: true})}
-                ><b style={{color: '#faa'}}>联系、帮助与支持</b></NavItem>
+                ><b style={{color: '#faa'}}>帮助与支持</b></NavItem>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -204,6 +204,8 @@ class Index extends Component {
               交流QQ群：660695387 <a target="_blank"
                                  href="//shang.qq.com/wpa/qunwpa?idkey=182f40b60ccba796a3798e2e45fd963ca5dc299e643aced13f468b41eb31799d"><img
               border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="天刀助手交流群" title="天刀助手交流群" /></a><br/>
+              数据工具庞大繁杂，建议使用电脑浏览器访问本站。<br />
+              请勿使用IE浏览器，推荐使用chrome浏览器以得到最佳效果。<br />
               站长：<a href="https://www.duan.sh">段段</a><br/>
               <span style={{fontSize: 10}}>
                 QQ: 452214596 <br/>

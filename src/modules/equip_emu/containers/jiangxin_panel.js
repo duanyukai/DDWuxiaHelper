@@ -10,6 +10,10 @@ import Button from 'antd/es/button/button';
 import jiangxinCostData from '../assets/json/jiangxin_cost.json';
 import jiangxinRatioData from '../assets/json/jiangxin_percentage.json';
 import {suiyinFormat} from '../utils/string_format';
+import Modal from 'antd/es/modal';
+import setData from '../assets/json/equip_set.json';
+
+import './css/jiangxin_panel.css';
 
 class JiangxinContainer extends Component {
 
@@ -23,11 +27,29 @@ class JiangxinContainer extends Component {
     };
 
     this.selectJiangxin = this.selectJiangxin.bind(this);
+    this.selectAllJiangxin = this.selectAllJiangxin.bind(this);
     this.calcJiangxinCost = this.calcJiangxinCost.bind(this);
   }
 
   selectJiangxin(level) {
     this.props.selectJiangxin(this.props.currentPos, level);
+  }
+
+  selectAllJiangxin(level) {
+    // todo hack
+    let self = this;
+    Modal.confirm({
+      title: '确定设置所有装备琢磨等级吗？',
+      content: '13件装备的琢磨等级将全部设置为' + level,
+      okText: '确认',
+      cancelText: '取消',
+      onOk() {
+        Object.keys(setData).forEach((pos) => {
+          self.props.selectJiangxin(pos, level);
+        });
+      },
+      onCancel() {},
+    });
   }
 
   calcJiangxinCost() {
@@ -48,11 +70,11 @@ class JiangxinContainer extends Component {
 
   render() {
     // 琢磨等级属性Options
-    let jiangxinOptions = range(0, 57).map((level) => {
+    let jiangxinOptions = range(0, 51).map((level) => {
       let costData = jiangxinCostData[level];
       let ratioData = jiangxinRatioData[level];
       return (
-        <Select.Option key={level} value={level}>{level}级，该级{costData.exp}经验，装备属性提升{+(ratioData.ratio*100).toFixed(8)}%</Select.Option>
+        <Select.Option key={level} value={level}><span styleName="level">琢磨{level}级</span>，该级{costData.exp}经验，装备属性提升{+(ratioData.ratio*100).toFixed(8)}%</Select.Option>
       );
     });
     return(
@@ -70,9 +92,21 @@ class JiangxinContainer extends Component {
         >
           {jiangxinOptions}
         </Select>
+        <div>批量设置琢磨等级</div>
+        <Select
+          showSearch
+          size="large"
+          value={null}
+          style={{ width: '100%' }}
+          placeholder="快速设置全套装备琢磨等级"
+          optionFilterProp="children"
+          onSelect={(value) => this.selectAllJiangxin(value)}
+        >
+          {range(51).map(i => <Select.Option key={i} value={i}>琢磨{i}级</Select.Option>)}
+        </Select>
         <div>琢磨消耗小计算器</div>
-        从{' '}<InputNumber min={0} max={56} precision={0} defaultValue={0} onChange={(i) => this.setState({jiangxinCalcFrom: i})} />{' '}
-        级到{' '}<InputNumber min={0} max={56} precision={0} defaultValue={56} onChange={(i) => this.setState({jiangxinCalcTo: i})} />{' '}
+        从{' '}<InputNumber min={0} max={50} precision={0} defaultValue={0} onChange={(i) => this.setState({jiangxinCalcFrom: i})} />{' '}
+        级到{' '}<InputNumber min={0} max={50} precision={0} defaultValue={50} onChange={(i) => this.setState({jiangxinCalcTo: i})} />{' '}
         <Button onClick={this.calcJiangxinCost}>计算</Button>{' '}结果：{this.state.jiangxinCost}
         <br />
         *: 关于琢磨材料消耗、属性等详细攻略请参考<a href="#">点击此处</a>。

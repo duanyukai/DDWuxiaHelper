@@ -3,6 +3,11 @@ import {Table, Well} from 'react-bootstrap';
 
 import '../components/css/map.css';
 
+function mouseEnterFocus(e) {
+  e.target.focus();
+  e.target.select();
+}
+
 export function dataToPopup(data) {
   switch(data.markerType) {
   // 墨宝
@@ -12,8 +17,8 @@ export function dataToPopup(data) {
       <div>
         <h3>{mobaoData.name}</h3>
         <h3 styleName="loc-copy-wrapper">
-          <input type="text" defaultValue={mobaoData.x.toFixed(0)} onMouseEnter={(e) => {e.target.focus();e.target.select();}} style={{width: 80}}/>,{' '}
-          <input type="text" defaultValue={mobaoData.y.toFixed(0)} onMouseEnter={(e) => {e.target.focus();e.target.select();}} style={{width: 80}}/>
+          <input type="text" defaultValue={mobaoData.x.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>,{' '}
+          <input type="text" defaultValue={mobaoData.y.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>
         </h3>
         <Table styleName='mobao-table' striped condensed hover>
           <tbody>
@@ -36,7 +41,10 @@ export function dataToPopup(data) {
     return(
       <div>
         <h3>{houseData.name}</h3>
-        <h3>{houseData.x.toFixed(0)}, {houseData.y.toFixed(0)}</h3>
+        <h3 styleName="loc-copy-wrapper">
+          <input type="text" defaultValue={houseData.x.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>,{' '}
+          <input type="text" defaultValue={houseData.y.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>
+        </h3>
         <p>{houseData.data.des}</p>
       </div>
     );
@@ -46,7 +54,10 @@ export function dataToPopup(data) {
     return(
       <div>
         <h3>{seaCollectData.name}</h3>
-        <h3>{seaCollectData.x.toFixed(0)}, {seaCollectData.y.toFixed(0)}</h3>
+        <h3 styleName="loc-copy-wrapper">
+          <input type="text" defaultValue={seaCollectData.x.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 70}}/>,{' '}
+          <input type="text" defaultValue={seaCollectData.y.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 70}}/>
+        </h3>
         <Table styleName='sea-collect-table' striped condensed hover>
           <tbody>
             <tr><td>图鉴星级</td><td>{seaCollectData.data.star}</td></tr>
@@ -66,7 +77,10 @@ export function dataToPopup(data) {
     return (
       <div>
         <h3>{baoxiangData.name}</h3>
-        <h3>{baoxiangData.x.toFixed(0)}, {baoxiangData.y.toFixed(0)}</h3>
+        <h3 styleName="loc-copy-wrapper">
+          <input type="text" defaultValue={baoxiangData.x.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>,{' '}
+          <input type="text" defaultValue={baoxiangData.y.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>
+        </h3>
       </div>
     );
   case 'hhz_wuzi':
@@ -74,7 +88,10 @@ export function dataToPopup(data) {
     return (
       <div>
         <h3>{wuziData.name}</h3>
-        <h3>{wuziData.x.toFixed(0)}, {wuziData.y.toFixed(0)}</h3>
+        <h3 styleName="loc-copy-wrapper">
+          <input type="text" defaultValue={wuziData.x.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>,{' '}
+          <input type="text" defaultValue={wuziData.y.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>
+        </h3>
       </div>
     );
   case 'dataosha':
@@ -82,7 +99,10 @@ export function dataToPopup(data) {
     return (
       <div>
         <h3>{dataoshaData.name}</h3>
-        <h3>{dataoshaData.x.toFixed(0)}, {dataoshaData.y.toFixed(0)}</h3>
+        <h3 styleName="loc-copy-wrapper">
+          <input type="text" defaultValue={dataoshaData.x.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>,{' '}
+          <input type="text" defaultValue={dataoshaData.y.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>
+        </h3>
       </div>
     );
   default:

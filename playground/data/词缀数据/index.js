@@ -84,19 +84,35 @@ function gen(data) {
       });
       // 处理groupList转为map
       let groupMap = {};
-      groupList.forEach(({additionalId, name, pinji2, affixGroup, color, gongliOffset, propsDesc, jiangxin}) => {
-        groupMap[additionalId] = {name, pinji2, affixGroup, color, gongliOffset, propsDesc, jiangxin};
+      groupList.forEach(({additionalId, name, pinji2, affixGroup, color, gongliOffset, propsDesc, jiangxin, wg, ng, wf, nf, ld, qj, gg, dc, sf, rj, qx, nx, mz, gd, hx, hs}) => {
+        groupMap[additionalId] = {name, pinji2, affixGroup, color, gongliOffset, propsDesc, jiangxin, wg, ng, wf, nf, ld, qj, gg, dc, sf, rj, qx, nx, mz, gd, hx, hs};
       });
 
       // console.log("该组数据", groupMap);
       function addData(obj, newId, objKey) {
+        // 构造属性对象
+        let allProps = {
+          wg: groupMap[newId].wg, ng: groupMap[newId].ng, wf: groupMap[newId].wf, nf: groupMap[newId].nf,
+          ld: groupMap[newId].ld, qj: groupMap[newId].qj, gg: groupMap[newId].gg, dc: groupMap[newId].dc, sf: groupMap[newId].sf,
+          rj: groupMap[newId].rj / 100, qx: groupMap[newId].qx, nx: groupMap[newId].nx,
+          mz: groupMap[newId].mz * 100, gd: groupMap[newId].gd * 100, hx: groupMap[newId].hx * 100, hs: groupMap[newId].hs * 100,
+          gongliOffset: groupMap[newId].gongliOffset
+        };
+        let finalProps = {};
+        // 去掉0项
+        Object.keys(allProps).forEach(key => {
+          if(allProps[key] > 0) {
+            finalProps[key] = parseFloat(allProps[key]);
+          }
+        });
+
         obj[objKey] = {
           desc: groupMap[newId].propsDesc,
-          props: [],
+          props: finalProps,
           color: parseInt(groupMap[newId].color),
           pinji: parseInt(groupMap[newId].pinji2),
           jiangxin: parseInt(groupMap[newId].jiangxin),
-          gO: parseInt(groupMap[newId].gongliOffset),
+          // gO: parseInt(groupMap[newId].gongliOffset),
           special: groupMap[newId].name,
         };
       }

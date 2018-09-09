@@ -21,8 +21,6 @@ class SlotConfigContainer extends Component {
     this.state = {
       copyFrom: 0,
       copyTo: 0,
-      compareFrom: 0,
-      compareTo: 0
     };
 
     this.selectSet = this.selectSet.bind(this);
@@ -85,14 +83,6 @@ class SlotConfigContainer extends Component {
         }} okText="确认" cancelText="取消">
           <Button>确定</Button>
         </Popconfirm>
-
-        <div>比较配置（右减左）</div>
-        {this.renderSetSelect('compareFrom')} 到 {this.renderSetSelect('compareTo')}{' '}
-        <Button
-          onClick={() => {
-            console.log(this.state.compareFrom, this.state.compareTo);
-          }}
-        >确定</Button>
       </div>
     );
   }
