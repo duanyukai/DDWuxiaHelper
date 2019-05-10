@@ -29,3 +29,5 @@ prerendered/
 prerendered.tar.gz
 dist/
 dist_old/
+sitemap/
+playground/screenshot/
