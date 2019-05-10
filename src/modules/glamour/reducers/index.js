@@ -1,13 +1,9 @@
 import {combineReducers} from 'redux';
 
-import CurrentPosReducer from './reducer_current_pos';
-import EquipDataReducer from './reducer_equip_data';
-import MenpaiReducer from './reducer_menpai';
+import FashionPartsReducer from './reducer_fashion_parts';
 
 const rootReducer = combineReducers({
-  currentPos: CurrentPosReducer,
-  equipData: EquipDataReducer,
-  menpaiId: MenpaiReducer
+  fashionParts: FashionPartsReducer
 });
 
 export default rootReducer;

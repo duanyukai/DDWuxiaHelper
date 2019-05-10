@@ -139,6 +139,7 @@ class WuxiaMap extends Component {
                         <ButtonGroup styleName='appCss.map-btn-matrix-1'>
                           {this.renderMapButtonGroup([
                             {name: '移花岛', id: 'YH'},
+                            {name: '太室山', id: 'TSS'},
                           ])}
                         </ButtonGroup>
                       </div>

@@ -1,0 +1,50 @@
+.banner-a {
+    max-width: 730px;
+    padding: 1px;
+    width: 100%;
+    margin: 0 auto 15px;
+}
+
+.a-sign {
+    color: #bbb;
+}
+
+.full-width-a div {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.full-width-a div img {
+    width: 100%;
+}
+
+.two-column-a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.two-column-a div {
+    width: 49%;
+    margin: 3px 0 0;
+    box-sizing: border-box;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.two-column-a div:nth-child(odd) {
+    text-align: left;
+}
+
+.two-column-a div:nth-child(even) {
+    text-align: right;
+}
+
+.two-column-a div img {
+    width: 100%;
+    max-width: 350px;
+}

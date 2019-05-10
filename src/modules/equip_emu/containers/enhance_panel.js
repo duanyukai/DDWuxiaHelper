@@ -56,13 +56,14 @@ class EnhanceContainer extends Component {
     let from = this.state. enhanceCalcFrom;
     let to = this.state. enhanceCalcTo;
     if(to > from) {
-      let exp = range(from, to).reduce((total, current) => {
+      // todo
+      let exp = range(from + 1, to + 1).reduce((total, current) => {
         total += enhanceCostData[current].exp;
         return total;
       }, 0);
       let suiyin = exp * 250;
-      let cailiao = Math.ceil(exp / 10);
-      this.setState({enhanceCost: `消耗顶级材料${cailiao}个*，碎银${suiyinFormat(suiyin)}`});
+      let cailiao = Math.ceil(exp / 20);
+      this.setState({enhanceCost: `需经验${exp}点，无损材料${cailiao}个*，碎银${suiyinFormat(suiyin)}`});
     } else {
       this.setState({enhanceCost: '结束等级请填写大于开始等级的数值'});
     }
@@ -95,6 +96,7 @@ class EnhanceContainer extends Component {
     return(
       <div>
         温馨提示：此处精工等级可任意配置，不与装备联通，方便您切换装备或单纯模拟精工使用。属性计算时，将根据精工等级是否超出装备最大精工等级来确定是否生效。
+        另外，PVE装备不受此数值影响。
         <div>设置当前装备精工等级</div>
         <Select
           defaultValue='0'
@@ -102,9 +104,9 @@ class EnhanceContainer extends Component {
           showSearch
           size="large"
           style={{ width: '100%' }}
-          placeholder="选择该部位的装备"
-          optionFilterProp="children"
+          placeholder="选择精工等级"
           onChange={(value) => this.selectEnhance(value)}
+          optionFilterProp="value"
         >
           {enhanceOptions}
         </Select>
@@ -115,7 +117,7 @@ class EnhanceContainer extends Component {
           value={null}
           style={{ width: '100%' }}
           placeholder="快速设置全套装备精工等级"
-          optionFilterProp="children"
+          optionFilterProp="value"
           onSelect={(value) => this.selectAllEnhance(value)}
         >
           {range(71).map(i => <Select.Option key={i} value={i}>精工{i}级</Select.Option>)}

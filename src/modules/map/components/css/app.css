@@ -9,6 +9,7 @@
     width: 90%;
     margin: 0 auto;
     top: 60px;
+    z-index: 15;
 }
 
 .toolbar-wrapper {

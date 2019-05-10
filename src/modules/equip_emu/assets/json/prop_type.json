@@ -15,6 +15,7 @@
   "rj": { "fullDes": "韧劲", "shortDes": "韧劲" },
   "dingli": { "fullDes": "定力", "shortDes": "定力" },
   "qx": { "fullDes": "血量上限", "shortDes": "气血" },
+  "nx": { "fullDes": "内息上限", "shortDes": "内息" },
   "mz": { "fullDes": "命中率", "shortDes": "命中" },
   "gd": { "fullDes": "格挡率", "shortDes": "格挡" },
   "hx": { "fullDes": "会心率", "shortDes": "会心" },
@@ -22,7 +23,7 @@
   "chaizhao": { "fullDes": "拆招等级", "shortDes": "拆招" },
   "yushang": { "fullDes": "御伤等级", "shortDes": "御伤" },
   "poshang": { "fullDes": "破伤等级", "shortDes": "破伤" },
-  "cureEffect": { "fullDes": "疗伤效果", "shortDes": "治疗效果" },
+  "liaoshang": { "fullDes": "疗伤效果", "shortDes": "治疗效果" },
 
   "gongliOffset": { "fullDes": "虚功力偏移", "shortDes": "虚功力" },
   "zhanliOffset": { "fullDes": "虚战力偏移", "shortDes": "虚战力" }

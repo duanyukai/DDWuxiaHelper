@@ -1,0 +1,257 @@
+
+<meta charset="utf-8">
+<style>
+    * {
+        font-family: '微软雅黑';
+    }
+    .card-container {
+        width: 750px;
+        /*border: 1px #000 solid;*/
+        border: 37px solid;
+        border-image: url(bg.png) 37 37 fill repeat;
+        text-align: center;
+    }
+     .card-container > .card-selection-header {
+        /*display: none;*/
+        margin-top: -20px;
+    }
+    .card-container > .card-selection-header > .card-selection-header-text,
+    .card-container > .card-selection-header > .vertical-line,
+    .card-container > .card-selection-header > .horizontal-line {
+        display: none;
+    }
+    .card-header {
+        font-size: 28px;
+        text-align: center;
+        /*border-image: url(text-bg.png) 0 32 fill stretch;*/
+        background-image: linear-gradient(to right, rgba(101,81,73,0), rgba(101,81,73,0.5),rgba(101,81,73,0.5), rgba(101,81,73,0));
+        /*width: 60%;*/
+        display: inline-block;
+        padding: 0 80px;
+        font-family: 华文中宋;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        /*text-shadow: 2px 2px 2px #ccc;*/
+    }
+    .card-no {
+         font-size: 14px;
+         font-family: 华文中宋;
+         font-weight: bold;
+    }
+    .card-img {
+        display: block;
+        margin: 4px auto;
+        width: 693px;
+        height: 289px;
+        box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.6);
+    }
+    .condition {
+        font-weight: bold;
+        color: #444;
+    }
+    .condition-text {
+        font-weight: normal;
+        color: #64534a;
+    }
+    .card-selection-container {
+
+    }
+    .card-selection {
+        /*margin-left: 12px;*/
+        padding-left: 22px;
+        overflow: hidden;
+        margin-top: -5px;
+        padding-top: 5px;
+    }
+    .card-selection-header {
+        position: relative;
+        font-size: 18px;
+        display: block;
+        height: 25px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    .card-selection-header-text {
+        border-style: solid;
+        border-width: 4px 40px;
+        border-image: url(btn.png) 4 40 fill stretch;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: -10px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .vertical-line {
+        width: 6px;
+        height: 10000px;
+        background: #4e5333;
+        position: absolute;
+        top: -9985px;
+        left: -16px;
+    }
+    .horizontal-line {
+        width: 20px;
+        height: 6px;
+        position: absolute;
+        background: #4e5333;
+        top: 9.7px;
+        left: -16px;
+    }
+    .diamond {
+        width: 6px;
+        height: 6px;
+        margin: 7px 0 0 7px;
+        border: 5px solid #4e5333;
+        z-index: 999;
+        transform-origin: 0 100%;
+        transform: rotate(-45deg);
+        background: #747b4c;
+        position: absolute;
+        left: -19px;
+        top: 1px;
+    }
+    .diamond2 {
+        top: 1px;
+        left: 2px;
+    }
+    .card-text {
+        margin: 10px 5px;
+        border: 1px solid #aaa;
+        background: rgba(0,0,0,0.1);
+        text-align: left;
+        padding: 5px;
+    }
+    .reward {
+        background: #574965;
+        color: #fff;
+        border-radius: 3px;
+        padding: 2px 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .copyright1 {
+        color: #64534a;
+        font-weight: bold;
+        font-size: 22px;
+    }
+     .copyright2 {
+        color: #64534a;
+    }
+    .choice-table {
+        margin: 4px 0;
+        border-collapse: collapse;
+        border: #666 solid 1px;
+        border-width: 1px 1px;
+    }
+    .choice-table td {
+        font-family: 'Source Code Pro', '微软雅黑';    
+    }
+    .choice-table tr:first-child {
+        border: #666 solid 1px;
+        border-width: 1px 0px;
+    }
+    .choice-table tr:first-child td {
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+</style>
+<div class="card-container">
+    <div class="copyright1">
+    天涯明月刀2018年冬季青梅煮酒版本 小师妹游历玩法最全攻略<br />
+    游历文案与图片、触发条件、选项分支及条件、奖励、对话大全<br />
+    【多玩天刀攻略团】段段 整理（长生剑 涂铃铃）
+    </div>
+    <div class="card-no">№8014</div>
+    <div class="card-header">随随便便</div>
+    <div class="card-conditions">
+        <div>
+        <span class="condition">条件1：当根骨>1000时，</span>
+        <span class="condition-text">概率0.4%，仅可完成一次，无cd</span>
+        </div>
+      </div>
+    <img class="card-img" src="../imgs/XIAYULU_TIPS/5000.PNG"/>
+    
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text"> 随随便便</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你无所事事，出门闲逛。路过开封城，见到龙先生正与一众侠士玩着辨真假的游戏。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1 跃跃欲试，参与一番</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你每次从随大流去选真假，对于龙先生所出之题倒是没有什么时间详细分辨。玩了好半日，输输赢赢，也并未留下什么收获。此时龙先生表示，时间不早，今日收官。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1 你没什么意见，打算离开</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">此时龙先生将你叫住。他考问了你才学文章，又问了你的武学师承，之后长叹一声，表示，你本奇才，奈何全不上心，实在可惜。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1 你忍不住反问</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你问他，阁下不过只是一个教书先生而已，又为何关心天文地理，来龙去脉，江湖大势，天下兴亡？龙先生气道，道不同不相为谋，随后拂袖而去。</div><span class="reward">侠誉图：随便·化龙 青梅令：50</span><table class="choice-table"><tr><td colspan="2">这龙先生常居开封，作辩真假之戏旷久，人人皆道其不过是个教书先生，如今这番言语却大有深意，值得思量。</td></tr>
+          <tr><td>确实是值得深究，他日你我可一同拜访。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>师妹当循本心，不必将他人之言过于放心上。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>故弄玄虚掉书袋的老头子罢了。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+    <div class="copyright2">
+    @段段天刀综合助手 www.wuxiatools.com <br />
+    <span style="font-size: 12px;">心法装备帮派技能等模拟工具，砭石物品游历等数据百科大全</span>
+    </div>
+</div>

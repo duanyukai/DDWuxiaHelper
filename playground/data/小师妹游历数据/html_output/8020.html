@@ -1,0 +1,458 @@
+
+<meta charset="utf-8">
+<style>
+    * {
+        font-family: '微软雅黑';
+    }
+    .card-container {
+        width: 750px;
+        /*border: 1px #000 solid;*/
+        border: 37px solid;
+        border-image: url(bg.png) 37 37 fill repeat;
+        text-align: center;
+    }
+     .card-container > .card-selection-header {
+        /*display: none;*/
+        margin-top: -20px;
+    }
+    .card-container > .card-selection-header > .card-selection-header-text,
+    .card-container > .card-selection-header > .vertical-line,
+    .card-container > .card-selection-header > .horizontal-line {
+        display: none;
+    }
+    .card-header {
+        font-size: 28px;
+        text-align: center;
+        /*border-image: url(text-bg.png) 0 32 fill stretch;*/
+        background-image: linear-gradient(to right, rgba(101,81,73,0), rgba(101,81,73,0.5),rgba(101,81,73,0.5), rgba(101,81,73,0));
+        /*width: 60%;*/
+        display: inline-block;
+        padding: 0 80px;
+        font-family: 华文中宋;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        /*text-shadow: 2px 2px 2px #ccc;*/
+    }
+    .card-no {
+         font-size: 14px;
+         font-family: 华文中宋;
+         font-weight: bold;
+    }
+    .card-img {
+        display: block;
+        margin: 4px auto;
+        width: 693px;
+        height: 289px;
+        box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.6);
+    }
+    .condition {
+        font-weight: bold;
+        color: #444;
+    }
+    .condition-text {
+        font-weight: normal;
+        color: #64534a;
+    }
+    .card-selection-container {
+
+    }
+    .card-selection {
+        /*margin-left: 12px;*/
+        padding-left: 22px;
+        overflow: hidden;
+        margin-top: -5px;
+        padding-top: 5px;
+    }
+    .card-selection-header {
+        position: relative;
+        font-size: 18px;
+        display: block;
+        height: 25px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    .card-selection-header-text {
+        border-style: solid;
+        border-width: 4px 40px;
+        border-image: url(btn.png) 4 40 fill stretch;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: -10px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .vertical-line {
+        width: 6px;
+        height: 10000px;
+        background: #4e5333;
+        position: absolute;
+        top: -9985px;
+        left: -16px;
+    }
+    .horizontal-line {
+        width: 20px;
+        height: 6px;
+        position: absolute;
+        background: #4e5333;
+        top: 9.7px;
+        left: -16px;
+    }
+    .diamond {
+        width: 6px;
+        height: 6px;
+        margin: 7px 0 0 7px;
+        border: 5px solid #4e5333;
+        z-index: 999;
+        transform-origin: 0 100%;
+        transform: rotate(-45deg);
+        background: #747b4c;
+        position: absolute;
+        left: -19px;
+        top: 1px;
+    }
+    .diamond2 {
+        top: 1px;
+        left: 2px;
+    }
+    .card-text {
+        margin: 10px 5px;
+        border: 1px solid #aaa;
+        background: rgba(0,0,0,0.1);
+        text-align: left;
+        padding: 5px;
+    }
+    .reward {
+        background: #574965;
+        color: #fff;
+        border-radius: 3px;
+        padding: 2px 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .copyright1 {
+        color: #64534a;
+        font-weight: bold;
+        font-size: 22px;
+    }
+     .copyright2 {
+        color: #64534a;
+    }
+    .choice-table {
+        margin: 4px 0;
+        border-collapse: collapse;
+        border: #666 solid 1px;
+        border-width: 1px 1px;
+    }
+    .choice-table td {
+        font-family: 'Source Code Pro', '微软雅黑';    
+    }
+    .choice-table tr:first-child {
+        border: #666 solid 1px;
+        border-width: 1px 0px;
+    }
+    .choice-table tr:first-child td {
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+</style>
+<div class="card-container">
+    <div class="copyright1">
+    天涯明月刀2018年冬季青梅煮酒版本 小师妹游历玩法最全攻略<br />
+    游历文案与图片、触发条件、选项分支及条件、奖励、对话大全<br />
+    【多玩天刀攻略团】段段 整理（长生剑 涂铃铃）
+    </div>
+    <div class="card-no">№8020</div>
+    <div class="card-header">心如止水</div>
+    <div class="card-conditions">
+        <div>
+        <span class="condition">条件1：当专注>=600时，</span>
+        <span class="condition-text">概率0.4%，可重复完成，cd时长90次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件2：当专注>=600时，</span>
+        <span class="condition-text">概率0.4%，可重复完成，cd时长90次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件3：当专注>=600时，</span>
+        <span class="condition-text">概率0.4%，可重复完成，cd时长90次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件4：当专注>=600时，</span>
+        <span class="condition-text">概率0.4%，可重复完成，cd时长90次</span>
+        </div>
+      </div>
+    <img class="card-img" src="../imgs/XIAYULU_TIPS/8000.PNG"/>
+    
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text"> 心如止水</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">出门不久，你就听到许多人在谈论一个小沙弥之事。<br />你前往探听方知，原来是一个本地寺院的小沙弥遇见一位少林高僧。高僧表示，若小沙弥能在七日七夜之内，修闭口禅而不破功，便可应允，带他前往少林。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1 前往围观小沙弥</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">不远处的茶铺之中，小沙弥含笑端坐。旁边则有好事者敲着锣鼓喊，“若是能令这孩子破功开口者，本铺奖好茶一罐，美酒一坛！”<br />更有无聊人等，在旁开下赌局，赌这沙弥将在哪一天开口破功。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1 前往逗引小沙弥，以赢得奖励</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你费了许多功夫，又说笑话，又为他舞剑。小沙弥含笑看你，却一言不发。你辛辛苦苦，终是无功而返。</div><span class="reward">力道+30</span><table class="choice-table"><tr><td colspan="2">今日本想赢些彩头回来送你，可惜未能成功。</td></tr>
+          <tr><td>我不要什么彩头，你做个正直的人便好。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>没关系的，这便是江湖。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>输了吧，哈哈哈。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2 询问茶博士，为何众人如此兴奋</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">茶博士告知，原来小沙弥有个师兄，向来瞧不起这孤儿师弟。茶铺里的奖励都是这师兄所出，他定要令他师弟去不成少林，方才甘心。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1 询问那师兄乃是何人</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“那人乃是富户之子，因算命的说有碍父母，才做了和尚。但他母亲溺爱于他，给他许多钱财。故而他才能任意挥霍，来针对他的师弟。”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1.1 继续旁观</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">直到日头偏西，亦无什么进展。你怕天晚师兄/师姐担心，不得不先行回转，心中却一直留有悬念，不知那位小沙弥是否能够得偿所愿，拜入少林。</div><span class="reward">灵性+20</span><table class="choice-table"><tr><td colspan="2">少林是个什么样的门派呀？</td></tr>
+          <tr><td>若有机会的话，我带你去那里游访，细听暮鼓晨钟。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>天下禅宗之祖庭。你想听，便待我慢慢为你讲来。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>我也不太清楚。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.2 询问这小沙弥的身世</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“你问到点子上了。”茶博士低声道，“他师兄看他不顺眼，也和他身世有关。他啊，是被两个女人送到寺院里的。有传说那两个女的是...嗯……”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.2.1 向茶博士买茶</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“小姑娘出手大方。”茶博士压低声音，十分神秘，“有说那两个女的，乃是青龙会的侍女。”<br />你心中惊疑不定，谢过茶博士之后，又深深看了那小沙弥一眼，匆匆返回侠客岛，将此事告知师兄/师姐。</div><span class="reward">侠誉图：龙烬·止水</span><table class="choice-table"><tr><td colspan="2">青龙会的后人，一定是坏人吧？</td></tr>
+          <tr><td>好人坏人，不能以出身而论，要看他的行止而定。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>世人多作如此想法。而你，应有自己的判断。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>你说是就是咯。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.3 询问那少林高僧的来历</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“少林自第一次抗击天魔教入侵之后，元气大伤。至今低调闭关已近百年。如今渐渐有僧人在江湖走动。”茶博士摇着蒲扇，“看起来，少林快要重新入世咯。”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.3.1 向茶博士买茶</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“小姑娘出手大方，这两本书就送予你。”茶博士道，“一本是武艺杂修，一本是才艺荟要。可都是靠谱的好东西，拿着吧。”</div><span class="reward">力道+30 乐理+30</span><table class="choice-table"><tr><td colspan="2">茶博士送我的武学秘笈，能不能练啊？</td></tr>
+          <tr><td>我先替你把关，若是靠谱便练。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>稳妥起见，边练边观望吧。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>你不想练就算了。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3 坐在小沙弥的对面，细细观察</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这小沙弥虽然年幼，却眉目清秀，长大了必定是个不一般的美男子。而他的气质之中，更有三分从容，三分慧黠，竟如一位小菩萨一般，叫人见之难忘。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1 你为自己斟了杯茶</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">小沙弥忽然轻轻抬手——原来，道旁老树纸条之上，一片枯叶正被风吹落下来，眼看就要飘在你的茶杯之中。<br />那小沙弥随手一拂之下，枯叶便落到了一旁。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1.1 “多谢小师父。”</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">小沙弥对你笑了一笑，又摇了摇头。<br />你心中一动，对小沙弥道，“今日一叶之恩，他日我定前往少林拜谢。”小沙弥对你点了点头，清秀五官中，露出庄严之色。</div><span class="reward">根骨+30</span><table class="choice-table"><tr><td colspan="2">我遇想那个小沙弥，一定能够拜入少林门下的，对吧！</td></tr>
+          <tr><td>有机会时，我带你去亲身求证。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>嗯，但愿如此。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>这事和你有什么关系...</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+    <div class="copyright2">
+    @段段天刀综合助手 www.wuxiatools.com <br />
+    <span style="font-size: 12px;">心法装备帮派技能等模拟工具，砭石物品游历等数据百科大全</span>
+    </div>
+</div>

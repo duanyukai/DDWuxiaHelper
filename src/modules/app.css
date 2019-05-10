@@ -1,0 +1,88 @@
+.donate-link {
+    color: #f00;
+    animation:blinkingText 2s infinite;
+}
+@keyframes blinkingText{
+    0%{
+        color: #aaf;
+    }
+    50%{
+        color: #f66;
+    }
+    100%{
+        color: #aaf;
+    }
+}
+
+.changelog-wrapper {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 998;
+}
+
+.changelog-wrapper-2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 998;
+}
+
+.changelog-btn {
+    float: right;
+    width: auto;
+    background: #8f1d00;
+    color: #fff;
+    padding: 1px 5px;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    z-index: 998;
+}
+.changelog-btn:hover {
+    background: #f66;
+    animation: none;
+}
+.changelog-btn-animate {
+    animation:blinkingBg 1.5s infinite;
+}
+@keyframes blinkingBg{
+    0%{
+        background-color: #8f1d00;
+    }
+    50%{
+        background-color: #f88;
+    }
+    100%{
+        background-color: #8f1d00;
+    }
+}
+
+:global .changelog-drawer :global .ant-drawer-content-wrapper {
+    width: 100%;
+    max-width: 600px;
+}
+
+.footer-wrapper {
+    padding: 30px 0;
+    background: #143352;
+    color: #fff;
+    border-top: 4px solid #476685;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer-wrapper-2 {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-wrapper h4 {
+    color: #fff;
+}
+
+.footer-wrapper a {
+    color: #fff;
+    text-decoration: underline;
+}

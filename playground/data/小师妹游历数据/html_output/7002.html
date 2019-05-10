@@ -1,0 +1,734 @@
+
+<meta charset="utf-8">
+<style>
+    * {
+        font-family: '微软雅黑';
+    }
+    .card-container {
+        width: 750px;
+        /*border: 1px #000 solid;*/
+        border: 37px solid;
+        border-image: url(bg.png) 37 37 fill repeat;
+        text-align: center;
+    }
+     .card-container > .card-selection-header {
+        /*display: none;*/
+        margin-top: -20px;
+    }
+    .card-container > .card-selection-header > .card-selection-header-text,
+    .card-container > .card-selection-header > .vertical-line,
+    .card-container > .card-selection-header > .horizontal-line {
+        display: none;
+    }
+    .card-header {
+        font-size: 28px;
+        text-align: center;
+        /*border-image: url(text-bg.png) 0 32 fill stretch;*/
+        background-image: linear-gradient(to right, rgba(101,81,73,0), rgba(101,81,73,0.5),rgba(101,81,73,0.5), rgba(101,81,73,0));
+        /*width: 60%;*/
+        display: inline-block;
+        padding: 0 80px;
+        font-family: 华文中宋;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        /*text-shadow: 2px 2px 2px #ccc;*/
+    }
+    .card-no {
+         font-size: 14px;
+         font-family: 华文中宋;
+         font-weight: bold;
+    }
+    .card-img {
+        display: block;
+        margin: 4px auto;
+        width: 693px;
+        height: 289px;
+        box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.6);
+    }
+    .condition {
+        font-weight: bold;
+        color: #444;
+    }
+    .condition-text {
+        font-weight: normal;
+        color: #64534a;
+    }
+    .card-selection-container {
+
+    }
+    .card-selection {
+        /*margin-left: 12px;*/
+        padding-left: 22px;
+        overflow: hidden;
+        margin-top: -5px;
+        padding-top: 5px;
+    }
+    .card-selection-header {
+        position: relative;
+        font-size: 18px;
+        display: block;
+        height: 25px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    .card-selection-header-text {
+        border-style: solid;
+        border-width: 4px 40px;
+        border-image: url(btn.png) 4 40 fill stretch;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: -10px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .vertical-line {
+        width: 6px;
+        height: 10000px;
+        background: #4e5333;
+        position: absolute;
+        top: -9985px;
+        left: -16px;
+    }
+    .horizontal-line {
+        width: 20px;
+        height: 6px;
+        position: absolute;
+        background: #4e5333;
+        top: 9.7px;
+        left: -16px;
+    }
+    .diamond {
+        width: 6px;
+        height: 6px;
+        margin: 7px 0 0 7px;
+        border: 5px solid #4e5333;
+        z-index: 999;
+        transform-origin: 0 100%;
+        transform: rotate(-45deg);
+        background: #747b4c;
+        position: absolute;
+        left: -19px;
+        top: 1px;
+    }
+    .diamond2 {
+        top: 1px;
+        left: 2px;
+    }
+    .card-text {
+        margin: 10px 5px;
+        border: 1px solid #aaa;
+        background: rgba(0,0,0,0.1);
+        text-align: left;
+        padding: 5px;
+    }
+    .reward {
+        background: #574965;
+        color: #fff;
+        border-radius: 3px;
+        padding: 2px 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .copyright1 {
+        color: #64534a;
+        font-weight: bold;
+        font-size: 22px;
+    }
+     .copyright2 {
+        color: #64534a;
+    }
+    .choice-table {
+        margin: 4px 0;
+        border-collapse: collapse;
+        border: #666 solid 1px;
+        border-width: 1px 1px;
+    }
+    .choice-table td {
+        font-family: 'Source Code Pro', '微软雅黑';    
+    }
+    .choice-table tr:first-child {
+        border: #666 solid 1px;
+        border-width: 1px 0px;
+    }
+    .choice-table tr:first-child td {
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+</style>
+<div class="card-container">
+    <div class="copyright1">
+    天涯明月刀2018年冬季青梅煮酒版本 小师妹游历玩法最全攻略<br />
+    游历文案与图片、触发条件、选项分支及条件、奖励、对话大全<br />
+    【多玩天刀攻略团】段段 整理（长生剑 涂铃铃）
+    </div>
+    <div class="card-no">№7002</div>
+    <div class="card-header">青枫之略</div>
+    <div class="card-conditions">
+        <div>
+        <span class="condition">条件1：无特殊条件，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长30次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件2：无特殊条件，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长30次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件3：无特殊条件，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长30次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件4：无特殊条件，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长30次</span>
+        </div>
+      </div>
+    <img class="card-img" src="../imgs/XIAYULU_TIPS/7000.PNG"/>
+    
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text"> 青枫之略</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你刚刚出门，忽见一个黑衣人闪身上了房梁，向着某个地方匆匆而去。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1 心中起疑，跟上去看看</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你一路跟着黑衣人，直到他进入一个十分风雅的园林，林中种满了枫叶，叶色尚未泛红。有一名翩然清秀的贵公子在树下设案，正在书写些什么。黑衣人上前，去向他见礼。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1 躲在榆钱树上偷听</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">黑衣人向那公子汇报了许多武林事宜。公子听着听着，忽然朝你望了一眼。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1 屏息等待</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“下来吧。”那公子笑意盈盈，“我知道你是谁，也认识你的师兄/师姐。正好写了几篇心得，可以送你。你要哪个？”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.1 《韬略篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">韬略+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.2 《风雅篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">风雅+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.3 《灵性篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">灵性+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2 从树上跳下来</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“下来吧。”那公子笑意盈盈，“我知道你是谁，也认识你的师兄/师姐。正好写了几篇心得，可以送你。你要哪个？”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.1 《乐理篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">乐理+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.2 《风雅篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">风雅+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.3 《灵性篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">灵性+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2 躲在梧桐树上偷听</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">黑衣人向那公子汇报了许多武林事宜。公子听着听着，忽然朝你望了一眼。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1 屏息等待</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“下来吧。”那公子笑意盈盈，“我知道你是谁，也认识你的师兄/师姐。正好写了几篇心得，可以送你。你要哪个？”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1.1 《乐理篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">乐理+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1.2 《专注篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">专注+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1.3 《灵性篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">灵性+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.2 从树上跳下来</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“下来吧。”那公子笑意盈盈，“我知道你是谁，也认识你的师兄/师姐。正好写了几篇心得，可以送你。你要哪个？”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.2.1 《韬略篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">韬略+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.2.2 《乐理篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">乐理+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.2.3 《专注篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">专注+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3 不小心从树上掉了下来</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">公子走上前，将你扶了起来。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1 “对不起。”</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“摔着哪里了？很疼吧？”公子想了想，说，“我正在写些心得，你选一个拿回去看吧。看书看进去的时候，就不会觉得疼了。你要哪个？”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1.1 《韬略篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">侠誉图：青枫之略 韬略+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1.2 《风雅篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">侠誉图：青枫之略 风雅+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1.3 《专注篇》</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">这些心得写得极好，你阅读之后，似有贯通，境界更上层楼。</div><span class="reward">侠誉图：青枫之略 专注+20</span><table class="choice-table"><tr><td colspan="2">我今天遇到了一个很温柔的人，比你还温柔呢。</td></tr>
+          <tr><td>真的吗？对你温柔的人，我也很想认识。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>哈哈，看来我要对你更温柔一些才行了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>对你温柔？他有何居心？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+    <div class="copyright2">
+    @段段天刀综合助手 www.wuxiatools.com <br />
+    <span style="font-size: 12px;">心法装备帮派技能等模拟工具，砭石物品游历等数据百科大全</span>
+    </div>
+</div>

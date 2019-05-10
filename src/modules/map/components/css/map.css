@@ -3,6 +3,7 @@
     height: 100vh;
     width: 100vw;
     background: url(../../assets/imgs/map_bg.jpg) repeat;
+    z-index: 10;
 }
 
 :global .leaflet-tile-container {

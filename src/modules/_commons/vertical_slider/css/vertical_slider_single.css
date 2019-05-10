@@ -1,0 +1,31 @@
+.slider :global .ant-slider-rail {
+    background-color: #69c0ff;
+}
+
+.slider :global .ant-slider-track {
+    background-color: #f5f5f5;
+}
+
+.slider:hover :global .ant-slider-rail {
+    background-color: #69c0ff;
+}
+
+.slider:hover :global .ant-slider-track {
+    background-color: #f0f0f0;
+}
+
+.slider :global .ant-slider-mark-text {
+    color: rgb(0,0,0);
+}
+
+.slider :global .ant-slider-mark-text-active {
+    color: rgba(0,0,0,0.65);
+}
+
+.slider :global .ant-slider-dot {
+    border-color: #8cc8ff;
+}
+
+.slider :global .ant-slider-dot-active {
+    border-color: #e8e8e8;
+}

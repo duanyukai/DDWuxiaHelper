@@ -58,9 +58,9 @@ class BaseSettingsContainer extends Component {
       return getEquipData(null, equipId);
     });
     let content = setEquips.map((equip) => {
-      return <span>{equip.name} <br/></span>;
+      return <span key={equip.id}>{equip.name} <br/></span>;
     });
-    content.unshift(<p>确认替换以下装备么？</p>);
+    content.unshift(<p key="confirm">确认替换以下装备么？</p>);
     // 提示是否替换所有装备
     Modal.confirm({
       title: '你确认要替换么？',
@@ -92,7 +92,7 @@ class BaseSettingsContainer extends Component {
     let content = setEquips.map((equip) => {
       return <span key={equip.id}>{equip.name} <br/></span>;
     });
-    content.unshift(<p>确认替换以下装备么？</p>);
+    content.unshift(<p key="confirm">确认替换以下装备么？</p>);
     // 提示是否替换所有装备
     Modal.confirm({
       title: '你确认要替换么？',
@@ -132,7 +132,7 @@ class BaseSettingsContainer extends Component {
     // 当前已选择装备文本
     let currEquipId = this.props.equipData[this.props.currentPos].id;
 
-    // 门派套快速选择Option列表
+    // PVP、PVE门派独立套装快速选择Option列表
     let menpaiSetOptions = menpaiSetData.filter(({menpaiId}) => {
       return menpaiId === this.props.menpaiId;
     }).map(({name, id}, i) => (
@@ -148,9 +148,13 @@ class BaseSettingsContainer extends Component {
         <Collapse defaultActiveKey={['2', '3']}>
           <Collapse.Panel header="门派、属性基础设置" key="1">
             <h5>门派基础配置（未来会与心法模拟器等数据互通）</h5>
+            <p>
+              温馨提示：门派切换不与已有装备绑定，更换门派后请重新选取各部位装备，以免造成混乱。
+            </p>
             <Radio.Group
               defaultValue={this.props.menpaiId}
               buttonStyle="solid"
+              value={this.props.menpaiId}
               onChange={(e) => this.props.setMenpai(e.target.value)}
             >
               {
@@ -194,7 +198,7 @@ class BaseSettingsContainer extends Component {
             </div>
           </Collapse.Panel>
           <Collapse.Panel header="快速套装选择" key="3">
-            <h4>门派套装筛选</h4>
+            <h4>PVP、PVE门派独立套装筛选</h4>
             <div>
               <span>您可以使用该选择器快速选择整套该门派pvp套装+通用套件，或该门派的pve套装+通用套件。</span>
               <Select
@@ -223,6 +227,8 @@ class BaseSettingsContainer extends Component {
                 {tzjSetOptions}
               </Select>
             </div>
+            温馨提示：由于PVE装备不受精工琢磨影响，但受珑铸、词缀穿透影响，建议您首先配置好PVP装备数据后，复制一份到其他配置槽（见页面左上角）。
+            再对PVE装备进行配置，避免珑铸、词缀数据二次配置的麻烦。
           </Collapse.Panel>
         </Collapse>
       </div>

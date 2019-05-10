@@ -1,0 +1,46 @@
+.prop-table {
+    /*max-width: 360px;*/
+}
+
+.prop-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.prop-table td {
+    width: 25%;
+    border: 1px solid #ddd;
+    padding: 4px;
+    text-align: center;
+}
+
+.prop-table th {
+    border: 1px solid #ddd;
+    padding: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.prop-table td:nth-child(even) {
+    text-align: right;
+}
+
+.prop-table tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+.int {
+    font-size: 14px;
+    color: #000;
+}
+
+.frac {
+    font-size: 11px;
+    /*color: #aaa;*/
+    color: #bcbcbc;
+}
+
+.show-extra {
+    cursor: pointer;
+    user-select: none;
+}

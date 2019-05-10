@@ -10,7 +10,7 @@ const fs = require('fs');
 // 珑铸数据（有了）
 // 词缀数据（有了）
 
-let imgSrcPath = 'E:\\Default Documents\\项目-活动-竞赛\\天涯明月刀\\00.各种助手\\94.SFC解包重打包\\PySFCExtractor\\output\\imagesets_0810\\';
+let imgSrcPath = 'E:\\Default Documents\\项目-活动-竞赛\\天涯明月刀\\00.各种助手\\94.SFC解包重打包\\PySFCExtractor\\output\\imagesets_1201\\';
 let imgDesPath = './img_output/';
 
 let files = [
@@ -20,7 +20,7 @@ let files = [
 ];
 
 let promises = files.map((key) => {
-  return csv({checkType: true}).fromFile(`./input/equip/EquipmentTable${key}.csv`);
+  return csv({checkType: true}).fromFile(`./input20190126/equip/EquipmentTable${key}.csv`);
 });
 
 let preservedPropsMap = {
@@ -67,9 +67,11 @@ Promise.all(promises).then((data) => {
         // 处理json对象的
         let newProp = preservedPropsMap[origin];
         if(newProp === 'menpai') {
-          // 处理门派数据，去掉数组
-          newEquip[newProp] = equip[origin][0];
-          csvResult += `${equip[origin][0]},`;
+          // 处理门派数据，去掉数组  todo 混乱了
+          // newEquip[newProp] = equip[origin][0];
+          newEquip[newProp] = equip[origin];
+          // csvResult += `${equip[origin][0]},`;
+          csvResult += `${equip[origin]},`;
         } else if(newProp !== '???') {
           // 忽略未使用的列剩下的
           if(newPropsCoefficient.hasOwnProperty(newProp)) {
@@ -96,8 +98,12 @@ Promise.all(promises).then((data) => {
       let hash = getHash(`DATA\\IMAGESETS\\ICONS\\ITEMTIPSICON\\${filename}.TGA`);
       let fullPath = `${imgSrcPath}${hash}.tga`;
       if(fs.existsSync(fullPath)) {
-        // todo 复制图片
-        // fs.createReadStream(fullPath).pipe(fs.createWriteStream(`${imgDesPath}${filename}.tga`));
+        // todo 复制图片(仅新图片存在时)
+        let newPath = `${imgDesPath}${filename}.tga`;
+        if(!fs.existsSync(newPath)) {
+          fs.createReadStream(fullPath).pipe(fs.createWriteStream(newPath));
+          console.log('新文件', filename);
+        }
       } else {
         console.log('文件不存在：', filename, hash);
       }
@@ -120,9 +126,9 @@ Promise.all(promises).then((data) => {
   let menpaiSetResult = [];
   let tianzejinSetResult = [];
   // 根据品级生成：
-  let pjTier = [130, 125, 120, 115, 110, 105, 100];  // t7 - t1，115品多了另类雪鸦套？和废弃的暗器内衬泽兰金刚；110品的pve衣服不分门派分天泽金，暗器内衬多废弃泽金；105品依旧暗内废泽金；
-  let pjZhenPai = [137, 132, 127, 122]; // 4,3,2,1级镇派，127品有额外衣服和首饰散件，122品有额外清音厉魄套
-  let pjSanjian = [127, 122, 117, 112]; // 117品雪鸦通明套，112伏龙凤雏套，
+  let pjTier = [135, 130, 125, 120, 115, 110, 105, 100];  // t8 - t1，115品多了另类雪鸦套？和废弃的暗器内衬泽兰金刚；110品的pve衣服不分门派分天泽金，暗器内衬多废弃泽金；105品依旧暗内废泽金；
+  let pjZhenPai = [142, 137, 132, 127, 122]; // 4,3,2,1级镇派，127品有额外衣服和首饰散件，122品有额外清音厉魄套
+  let pjSanjian = [127, 122, 117, 112]; // 117品雪鸦通明套，112伏龙凤雏套，todo 禁夜
   // 其他：109品前缀伏龙凤雏套+pve散件（移花的压根没做，废弃了）；107品乱世孤魂套+pve废弃散件；
   // 门派对应： -1：所有，0：真武，1：太白，2：神威，3：丐帮，4：唐门，5：五毒，6：无（少林？），7：天香，8：神刀，9：移花
   let menpaiMap = { '-1': '所有', 0: '真武', 1: '太白', 2: '神威', 3: '丐帮', 4: '唐门', 5: '五毒', 6: '无（少林？）', 7: '天香', 8: '神刀', 9: '移花'};
@@ -139,7 +145,7 @@ Promise.all(promises).then((data) => {
       );
       menpaiSetResult.push({
         id: menpaiSetResult.length,
-        name: `${menpaiMap[menpaiId]}PVP T${7-i}套装+通用暗器首饰全套`,
+        name: `${menpaiMap[menpaiId]}PVP T${8-i}套装+通用暗器首饰全套`,
         equipType: 2,
         menpaiId: menpaiId,
         list: pvpSet.map((equip) => equip.id)
@@ -175,7 +181,7 @@ Promise.all(promises).then((data) => {
 
       menpaiSetResult.push({
         id: menpaiSetResult.length,
-        name: `${menpaiMap[menpaiId]}PVE T${7-i}${tongyongDesc}`,
+        name: `${menpaiMap[menpaiId]}PVE T${8-i}${tongyongDesc}`,
         equipType: 1,
         menpaiId: menpaiId,
         list: pveSet.map((equip) => equip.id)
@@ -195,14 +201,14 @@ Promise.all(promises).then((data) => {
             equip.name.startsWith(tzjStr) && equip.evaluationLV === pinji && equip.equipType === 1 && ['ShouZhuo', 'XiangLian', 'JieZhi'].includes(equip.equipPos)
           );
         } else {
-          // t5-t7 首饰4件套+暗器
+          // t5-t8 首饰4件套+暗器
           tzjSet = resultTotal.filter((equip) =>
             equip.name.startsWith(tzjStr) && equip.evaluationLV === pinji && equip.equipType === 1 && ['ShouZhuo', 'XiangLian', 'JieZhi', 'AnQi'].includes(equip.equipPos)
           );
         }
         tianzejinSetResult.push({
           id: tianzejinSetResult.length,
-          name: `通用PVE T${7-i} ${tzjStr}套装`,
+          name: `通用PVE T${8-i} ${tzjStr}套装`,
           equipType: 1,
           type: tzjStr,
           list: tzjSet.map((equip) => equip.id)

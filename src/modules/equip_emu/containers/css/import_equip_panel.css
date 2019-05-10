@@ -1,0 +1,38 @@
+.role-list {
+    cursor: pointer;
+}
+
+.role-list:hover {
+    background: #f2f2f2;
+}
+
+.equip-list p {
+    margin: 2px;
+    line-height: 17px;
+    border-bottom: 1px solid #eee;
+}
+
+.equip-list p:last-child {
+    border-bottom: none;
+}
+
+.prop-table {
+    border-collapse: collapse;
+}
+
+.prop-table td {
+    border: 1px solid #ddd;
+    padding: 2px 10px;
+    text-align: center;
+}
+
+.prop-table th {
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.prop-table tr:nth-child(odd){
+    background-color: #f2f2f2;
+}

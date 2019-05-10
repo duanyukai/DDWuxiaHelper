@@ -1,0 +1,13 @@
+.zhiliao-select-btn-wrapper {
+    text-align: center;
+    max-width: 880px;
+    margin: 0 auto 10px;
+}
+
+.zhiliao-select-btn-wrapper img {
+    margin: 2px;
+}
+
+.zhiliao-select-btn-wrapper :global .ant-radio-button-wrapper {
+    height: 100px;
+}

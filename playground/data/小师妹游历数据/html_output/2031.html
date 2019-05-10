@@ -1,0 +1,953 @@
+
+<meta charset="utf-8">
+<style>
+    * {
+        font-family: '微软雅黑';
+    }
+    .card-container {
+        width: 750px;
+        /*border: 1px #000 solid;*/
+        border: 37px solid;
+        border-image: url(bg.png) 37 37 fill repeat;
+        text-align: center;
+    }
+     .card-container > .card-selection-header {
+        /*display: none;*/
+        margin-top: -20px;
+    }
+    .card-container > .card-selection-header > .card-selection-header-text,
+    .card-container > .card-selection-header > .vertical-line,
+    .card-container > .card-selection-header > .horizontal-line {
+        display: none;
+    }
+    .card-header {
+        font-size: 28px;
+        text-align: center;
+        /*border-image: url(text-bg.png) 0 32 fill stretch;*/
+        background-image: linear-gradient(to right, rgba(101,81,73,0), rgba(101,81,73,0.5),rgba(101,81,73,0.5), rgba(101,81,73,0));
+        /*width: 60%;*/
+        display: inline-block;
+        padding: 0 80px;
+        font-family: 华文中宋;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        /*text-shadow: 2px 2px 2px #ccc;*/
+    }
+    .card-no {
+         font-size: 14px;
+         font-family: 华文中宋;
+         font-weight: bold;
+    }
+    .card-img {
+        display: block;
+        margin: 4px auto;
+        width: 693px;
+        height: 289px;
+        box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.6);
+    }
+    .condition {
+        font-weight: bold;
+        color: #444;
+    }
+    .condition-text {
+        font-weight: normal;
+        color: #64534a;
+    }
+    .card-selection-container {
+
+    }
+    .card-selection {
+        /*margin-left: 12px;*/
+        padding-left: 22px;
+        overflow: hidden;
+        margin-top: -5px;
+        padding-top: 5px;
+    }
+    .card-selection-header {
+        position: relative;
+        font-size: 18px;
+        display: block;
+        height: 25px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    .card-selection-header-text {
+        border-style: solid;
+        border-width: 4px 40px;
+        border-image: url(btn.png) 4 40 fill stretch;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: -10px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .vertical-line {
+        width: 6px;
+        height: 10000px;
+        background: #4e5333;
+        position: absolute;
+        top: -9985px;
+        left: -16px;
+    }
+    .horizontal-line {
+        width: 20px;
+        height: 6px;
+        position: absolute;
+        background: #4e5333;
+        top: 9.7px;
+        left: -16px;
+    }
+    .diamond {
+        width: 6px;
+        height: 6px;
+        margin: 7px 0 0 7px;
+        border: 5px solid #4e5333;
+        z-index: 999;
+        transform-origin: 0 100%;
+        transform: rotate(-45deg);
+        background: #747b4c;
+        position: absolute;
+        left: -19px;
+        top: 1px;
+    }
+    .diamond2 {
+        top: 1px;
+        left: 2px;
+    }
+    .card-text {
+        margin: 10px 5px;
+        border: 1px solid #aaa;
+        background: rgba(0,0,0,0.1);
+        text-align: left;
+        padding: 5px;
+    }
+    .reward {
+        background: #574965;
+        color: #fff;
+        border-radius: 3px;
+        padding: 2px 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .copyright1 {
+        color: #64534a;
+        font-weight: bold;
+        font-size: 22px;
+    }
+     .copyright2 {
+        color: #64534a;
+    }
+    .choice-table {
+        margin: 4px 0;
+        border-collapse: collapse;
+        border: #666 solid 1px;
+        border-width: 1px 1px;
+    }
+    .choice-table td {
+        font-family: 'Source Code Pro', '微软雅黑';    
+    }
+    .choice-table tr:first-child {
+        border: #666 solid 1px;
+        border-width: 1px 0px;
+    }
+    .choice-table tr:first-child td {
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+</style>
+<div class="card-container">
+    <div class="copyright1">
+    天涯明月刀2018年冬季青梅煮酒版本 小师妹游历玩法最全攻略<br />
+    游历文案与图片、触发条件、选项分支及条件、奖励、对话大全<br />
+    【多玩天刀攻略团】段段 整理（长生剑 涂铃铃）
+    </div>
+    <div class="card-no">№2031</div>
+    <div class="card-header">墨点江山</div>
+    <div class="card-conditions">
+        <div>
+        <span class="condition">条件1：无特殊条件，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长15次</span>
+        </div>
+      </div>
+    <img class="card-img" src="../imgs/XIAYULU_TIPS/2000.PNG"/>
+    
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text"> 墨点江山</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你遇到了一位书生，相聊投缘，他与你讲他立志游遍天涯，将所见所闻尽诉文墨。你听其心中雄志，不禁心潮澎湃，决定鼎力相助。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1 见他笔墨非上品之物，想是囊中羞涩。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你思索平日里对此道并无太多涉猎，又听闻苏杭向来是文人墨客聚集之地，笔墨纸砚想必上乘，决定前往杭州为其购置。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1 前往当地有名的思齐居订购。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">思齐居顾客繁多，店老板见你是扮相普通的江湖侠客，并非此中道友，并未与你多谈，随意指了店内架子上装饰精美华贵的格子让你自行挑选。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1 老实从老板所指架上选购。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你懵懵懂懂地随店内大流选买了格架上装饰精美的套装，并且结账。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.1 你走出思齐居后，有人叫住了你。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">原来是沈孤鸿的暗卫，原来沈孤鸿路遇此地见到此景，大笔一挥将珍品派于暗卫赠你。你连忙称应当面谢过沈孤鸿，而暗卫哈哈一笑，言道沈老板早已有要事离杭，称天涯有缘自当际会。</div><span class="reward">风雅+20 专注+5</span><table class="choice-table"><tr><td colspan="2">沈老板总是这样出手大方来去如风...</td></tr>
+          <tr><td>也许他是见你侠心一片，出手相助。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>你若心觉亏欠，不如下次与他明说。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>总这样？对你是不是有所图，你可小心。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2 主动与老板攀谈。（灵性>50）</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：灵性>50）<br />老板你听讲述书生笔行天涯墨点江山的志向，大赞其志向高远，拿出珍藏的上品薛涛笺、徽墨、宣笔、端砚相赠。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.1 你谢过老板，将所赠带回予书生。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">书生听你讲述前事，哈哈一笑，称自己多年以来，早不甚在意器物好坏，笔行天涯之笔，是心中之笔，墨点江山，墨为心中之墨，但仍感激你一番相赠好意，定将好好珍藏，视若瑰宝。</div><span class="reward">侠誉图：墨色·天涯</span><table class="choice-table"><tr><td colspan="2">笔行天涯之笔，是心中之笔；墨点江山，墨为心中之墨...这话当真玄妙。</td></tr>
+          <tr><td>师妹侠行天下非靠手中剑，乃靠心中正气。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>是个很有思想的人，可多与他来往。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>掉书袋的浪荡子而已。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2 向常居此地的朋友打听消息。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">朋友称思齐居多为普世凡品，当地财神商会的集市，时有珍品宝墨，值得一探，并赠予你信物。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1 慕名前往财神商会的集市。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">果然当天集市便有不凡文房四宝出售，你拿出信物欲购，却不料被人抢先拍下，此人态度嚣张，称对此物志在必得，对你冷嘲热讽。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1.1 不忿其态度傲慢，与其大打出手。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你二人一番武斗，会场秩序大乱，被主事遣侍卫双双赶出。</div><table class="choice-table"><tr><td colspan="2">这人不知所谓，本想给友人购置好物相赠也未果，白跑一趟，令我好生生气。</td></tr>
+          <tr><td>师妹莫置气，知晓缘由朋友也不会怪责你。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>你与他人真心相交，本也不在这些俗物。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>你就是年轻气盛，好与人斗。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1.2 忍气吞声，再寻佳品。（专注>100）</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：专注>100）<br />端木金自帷幕后鼓掌而出，赞你行君子之道，少年不凡，愿代表财神商会交你这个朋友，并将阁内珍藏的上品文房四宝相赠。</div><span class="reward">侠誉图：墨色·财雨</span><table class="choice-table"><tr><td colspan="2">这突然还交了个财神商会的朋友，有点适应不过来...</td></tr>
+          <tr><td>师妹人好，到哪都交得到朋友。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>你得了个便宜朋友，日后行走江湖方便许多。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>别是别有用心接近你吧？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2 邀他一同出游</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">书生十分高兴，询问你想去那游玩？</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1 邀他一同出游东海。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">书生限于财力未曾租船出过海，得你相邀十分高兴，你们择定出港地点采购必需品，不日启程。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.1 从泉州港出发</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text"><br />泉州港贸易繁盛，中原财神商会、西域端木世家等巨贾均将此港作为重要的货物集散地，而此处地处东越，亦被本地势力绝智轩所掌控。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.1.1 你们遇到了轩辕十四前辈。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">轩辕十四对书生十分惜才，相邀其加入绝智轩，书生推诿称自己不愿受此束缚志在四海，前辈称天色已晚，不如在港口暂歇一晚再做打算，绝智轩自当盛情款待。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.1.1.1 假意答应，趁守卫松懈悄悄离开。（韬略>100）</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：韬略>100）<br />你二人趁夜色登船，东海漫幕星辰，海天一色美景如画，均觉心中快意潇洒，逍遥天地。</div><span class="reward">侠誉图：墨色·星河</span><table class="choice-table"><tr><td colspan="2">虽然漏夜出逃十分对不起轩辕前辈，但他是我朋友，我应尊重他的选择。</td></tr>
+          <tr><td>不错，朋友之间尊重彼此想法很重要。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>你做的对。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>那你这回可是开罪绝智轩了。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.1.1.2 你劝其赴宴，再作打算。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你们受到了绝智轩的热情款待，而第二天你再去书生屋内寻他，却见屋内空无一人，仅留书笺一封。</div><span class="reward">韬略+10</span><table class="choice-table"><tr><td colspan="2">我想轩辕前辈如此盛情邀请，他若能加入绝智轩也不算埋没人才...不想他倔强若此。</td></tr>
+          <tr><td>你是好意，他有自己的选择，不必过于介怀。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>或许他与你在这事上看法并不一致。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>你这是好心办坏事。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.2 从江洋港出发</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你二人见到有几个商贩在港内鬼鬼祟祟，形迹可疑，明明肩上配有朱家标识却有意遮掩，想起此处临近天涯盐场，为四海商盟朱家驻地。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.2.1 感觉可疑，进行跟踪。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">原来这些朱家仆人趁盐场守卫松懈，偷用粗粝低品盐物换下精盐，并将之在此偷偷贩卖谋取暴利，书生告诉你，海盐历来受到朝廷控制，受到大宋律法保护。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.2.1.1 事不宜迟，汇报海政司。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">根据你们的情报，海政司缉捕了这些人，你们谢绝了四海商盟朱家所赠礼物，扬帆出海踏上行程。</div><span class="reward">洞察+25</span><table class="choice-table"><tr><td colspan="2">我才知道原来朝廷对贩卖私盐处罚极重，不知道这些人贪一时钱财，最后下场如何。</td></tr>
+          <tr><td>何时都不可对非己之物，妄起贪念。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>肯定遭受严惩。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>这盐贩多半要报复与你。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.3 从钱塘港出发</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你们在港口茶摊小憩，听说书人讲述了关于江湖第一名侠沈浪与千面公子王怜花退隐之地，又是公子羽出生的沧浪岛的故事。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.3.1 决定前往沧浪岛。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">航行中你们遇到了巨浪飓风，若再航行下去恐怕十分危险，你观察海图，发现此时航线临近灵鹿岛。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.3.1.1 不惧风浪，破浪前行。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">风浪太大，你们所租小船实是承受不起，竟遭遇了海难，所幸朱小月商船经过，救了你二人。</div><span class="reward">力道+25</span><table class="choice-table"><tr><td colspan="2">这次我是太逞强了...还好有小月姐姐相救。</td></tr>
+          <tr><td>听你所诉当真心惊，下次我陪你去。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>那要多谢她了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>太危险了，以后没我同意，不准出海。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.3.1.2 为保安全，暂避灵鹿岛。（风雅>100）</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：风雅>100）<br />灵鹿岛上风光别致，仙鹿灵猴奇珍异物，书生称虽未到达传说中的沧浪岛，但能见此番风光，也算不虚此行。</div><span class="reward">侠誉图：墨色·仙岛</span><table class="choice-table"><tr><td colspan="2">虽然碍于风暴未去成沧浪岛，但灵鹿岛风光也很棒。</td></tr>
+          <tr><td>看来你有所收获，我替你高兴。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>你只要玩得开心就好。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>你未坚行所欲，看来意志不够坚定。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.2 邀他一同前往襄州采风</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">襄州山峦相叠，处处险峰奇石，又有道家建筑巍峨，你们行程时间有限，决定商量一番有所取舍。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.2.1 商讨一番，决定前往真武殿。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你们见识到了气势宏伟真武殿，又与真武门人论道，不料你突然接到师门飞鸽传书，要你速回勿要耽搁在外，但你之前已答应书生要与他旅完真武一程。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.2.1.1 坦言告之书生，先行离去。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你此行虽未与书生尽完旅程，但不久后收到书生书信，称十分高兴能认识你，希望日后若有机会还能一起旅行。</div><span class="reward">气劲+25</span><table class="choice-table"><tr><td colspan="2">虽然这次我未能履行约定，但他愿意体谅，还与我相约下次一同出去玩耍呢。</td></tr>
+          <tr><td>如此甚好，看来你交到了个不错的朋友。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>那挺好的。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>人家跟你客气而已。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.2.1.2 放下不提，与书生继续旅行。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">虽然你与书生此行十分尽兴，但事后师父对你这样任性妄为的决定十分生气，回去后罚你抄门规五十遍。</div><span class="reward">根骨+25</span><table class="choice-table"><tr><td colspan="2">虽然我践行了约定，但被师父罚抄抄的手都要废了...</td></tr>
+          <tr><td>师妹应该好好和师父解释，或许师父会谅解。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>你当时未回书信，师父也是担心你。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>活该。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.2.2 商讨一番，决定前往无涯峰</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">当地人言，无涯峰顶时辰不同之时景色亦不同，攀峰路途崎岖险要，需要小心行事。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.2.2.1 未时登峰。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">一路行来，路经停云坡、行云台、云天宫，至归云顶。你们感慨建筑工匠鬼斧神工、自然造化夺人心魄。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.2.2.1.1 一路边走边聊，歌咏言志。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你们登上无涯峰之时正逢日暮四合，不远处落羽谷大雁群纷纷而过十分壮观。</div><span class="reward">侠誉图：墨色·夕峰</span><table class="choice-table"><tr><td colspan="2">无涯峰真美啊，襄州云海果然名不虚传。</td></tr>
+          <tr><td>果真吗？下次我陪你再访可好？</td><td>亲密度+2</td></tr>
+        
+          <tr><td>毕竟天下一大胜景。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>哦。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.2.2.2 酉时登峰。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">一路行来，路经停云坡、行云台、云天宫，至归云顶。你们感慨建筑工匠鬼斧神工、自然造化夺人心魄。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.2.2.2.1 一路边走边聊，歌咏言志。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你们登上无涯峰之时正逢华灯初上，星幕如河，远处山间群建筑灯影幢幢隐于云雾之间，如同仙境。</div><span class="reward">侠誉图：墨色·星峦</span><table class="choice-table"><tr><td colspan="2">无涯峰真美啊，襄州云海果然名不虚传。</td></tr>
+          <tr><td>果真吗？下次我陪你再访可好？</td><td>亲密度+2</td></tr>
+        
+          <tr><td>毕竟天下一大胜景。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>哦。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.3 邀他一同前往秦川采风</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">秦川白雪皑皑梅香飘然，名胜景色甚多，你们行程时间有限，决定商量一番有所取舍。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.3.1 商讨一番，决定前往浩然峰。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">浩然峰位于秦川西北，气势磅礴浩然天际，为历来八荒盛事剑荡论剑所选之地。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.3.1.1 乘行快马，一路直驱顶峰。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">浩然天峰之下，秦川之景仿佛尽收眼底，而群山巍峨直指苍穹，你们不禁感慨与天地相比，人之渺小。</div><span class="reward">风雅+25</span><table class="choice-table"><tr><td colspan="2">浩然峰真是浩然天际名不虚传，想来那剑荡八荒也是武林一大盛事，真是令人神往。\n\n</td></tr>
+          <tr><td>那下次举办，你我一起去凑个热闹。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>那可不是，年年八荒精英汇聚一堂热闹着呢。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>你勤加修习，自有参与剑荡之试的那天。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.3.2 商讨一番，决定前往沉剑池。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">沉剑池位于太白剑派腹地，相传江湖中功成名就的侠者在退隐之前，在此通过沉剑之试后，会将手中之剑永沉于此。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.3.2.1 拜访太白，一观沉剑池。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">太白护剑使带你们参观了沉剑池，并讲述了沉剑池数十年来所沉五剑的故事。你们不禁感慨时光流转间多少武林豪侠已默默沉寂，被人遗忘。</div><span class="reward">身法+25</span><table class="choice-table"><tr><td colspan="2">原来这沉剑池有这么多的故事，也不知那些长眠于池底的神兵们若有英灵，会不会想念它们昔日的主人荣光呢？</td></tr>
+          <tr><td>兵剑有灵，大概也会祝福主人一生顺遂。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>师妹真是奇思妙想。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>瞎想些啥呢。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+    <div class="copyright2">
+    @段段天刀综合助手 www.wuxiatools.com <br />
+    <span style="font-size: 12px;">心法装备帮派技能等模拟工具，砭石物品游历等数据百科大全</span>
+    </div>
+</div>

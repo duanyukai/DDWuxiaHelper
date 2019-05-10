@@ -1,0 +1,314 @@
+
+<meta charset="utf-8">
+<style>
+    * {
+        font-family: '微软雅黑';
+    }
+    .card-container {
+        width: 750px;
+        /*border: 1px #000 solid;*/
+        border: 37px solid;
+        border-image: url(bg.png) 37 37 fill repeat;
+        text-align: center;
+    }
+     .card-container > .card-selection-header {
+        /*display: none;*/
+        margin-top: -20px;
+    }
+    .card-container > .card-selection-header > .card-selection-header-text,
+    .card-container > .card-selection-header > .vertical-line,
+    .card-container > .card-selection-header > .horizontal-line {
+        display: none;
+    }
+    .card-header {
+        font-size: 28px;
+        text-align: center;
+        /*border-image: url(text-bg.png) 0 32 fill stretch;*/
+        background-image: linear-gradient(to right, rgba(101,81,73,0), rgba(101,81,73,0.5),rgba(101,81,73,0.5), rgba(101,81,73,0));
+        /*width: 60%;*/
+        display: inline-block;
+        padding: 0 80px;
+        font-family: 华文中宋;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        /*text-shadow: 2px 2px 2px #ccc;*/
+    }
+    .card-no {
+         font-size: 14px;
+         font-family: 华文中宋;
+         font-weight: bold;
+    }
+    .card-img {
+        display: block;
+        margin: 4px auto;
+        width: 693px;
+        height: 289px;
+        box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.6);
+    }
+    .condition {
+        font-weight: bold;
+        color: #444;
+    }
+    .condition-text {
+        font-weight: normal;
+        color: #64534a;
+    }
+    .card-selection-container {
+
+    }
+    .card-selection {
+        /*margin-left: 12px;*/
+        padding-left: 22px;
+        overflow: hidden;
+        margin-top: -5px;
+        padding-top: 5px;
+    }
+    .card-selection-header {
+        position: relative;
+        font-size: 18px;
+        display: block;
+        height: 25px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    .card-selection-header-text {
+        border-style: solid;
+        border-width: 4px 40px;
+        border-image: url(btn.png) 4 40 fill stretch;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: -10px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .vertical-line {
+        width: 6px;
+        height: 10000px;
+        background: #4e5333;
+        position: absolute;
+        top: -9985px;
+        left: -16px;
+    }
+    .horizontal-line {
+        width: 20px;
+        height: 6px;
+        position: absolute;
+        background: #4e5333;
+        top: 9.7px;
+        left: -16px;
+    }
+    .diamond {
+        width: 6px;
+        height: 6px;
+        margin: 7px 0 0 7px;
+        border: 5px solid #4e5333;
+        z-index: 999;
+        transform-origin: 0 100%;
+        transform: rotate(-45deg);
+        background: #747b4c;
+        position: absolute;
+        left: -19px;
+        top: 1px;
+    }
+    .diamond2 {
+        top: 1px;
+        left: 2px;
+    }
+    .card-text {
+        margin: 10px 5px;
+        border: 1px solid #aaa;
+        background: rgba(0,0,0,0.1);
+        text-align: left;
+        padding: 5px;
+    }
+    .reward {
+        background: #574965;
+        color: #fff;
+        border-radius: 3px;
+        padding: 2px 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .copyright1 {
+        color: #64534a;
+        font-weight: bold;
+        font-size: 22px;
+    }
+     .copyright2 {
+        color: #64534a;
+    }
+    .choice-table {
+        margin: 4px 0;
+        border-collapse: collapse;
+        border: #666 solid 1px;
+        border-width: 1px 1px;
+    }
+    .choice-table td {
+        font-family: 'Source Code Pro', '微软雅黑';    
+    }
+    .choice-table tr:first-child {
+        border: #666 solid 1px;
+        border-width: 1px 0px;
+    }
+    .choice-table tr:first-child td {
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+</style>
+<div class="card-container">
+    <div class="copyright1">
+    天涯明月刀2018年冬季青梅煮酒版本 小师妹游历玩法最全攻略<br />
+    游历文案与图片、触发条件、选项分支及条件、奖励、对话大全<br />
+    【多玩天刀攻略团】段段 整理（长生剑 涂铃铃）
+    </div>
+    <div class="card-no">№8023</div>
+    <div class="card-header">笛舞倾城</div>
+    <div class="card-conditions">
+        <div>
+        <span class="condition">条件1：当乐理>=600时，</span>
+        <span class="condition-text">概率0.4%，可重复完成，cd时长90次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件2：当乐理>=600时，</span>
+        <span class="condition-text">概率0.4%，可重复完成，cd时长90次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件3：当乐理>=600时，</span>
+        <span class="condition-text">概率0.4%，可重复完成，cd时长90次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件4：当乐理>=600时，</span>
+        <span class="condition-text">概率0.4%，可重复完成，cd时长90次</span>
+        </div>
+      </div>
+    <img class="card-img" src="../imgs/XIAYULU_TIPS/8000.PNG"/>
+    
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text"> 笛舞倾城</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">一位美若天仙的姑娘等在你的必经之路上。她向你盈盈一礼，问道，“听闻小少侠擅长乐理，不知可否替我们编舞？”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1 十分惶恐，“我不会啊。”</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">那位姑娘掩口而笑，“习舞学琴，自是韵律波动贯穿于心，小少侠自然发挥便是。世间舞蹈均已陈旧，我等也是想要一些新意，故而前来求助。”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1 询问对方究竟何人，所为何事</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">原来，那位姑娘来自于开封最负盛名的歌舞团。皇帝万寿节在即，她们想要争取在万寿节上表演的机会，却又苦于原来舞蹈太过陈旧，故而四处打听，找到了你。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1 “我或许可以尝试一下。”</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你取来一枚笛子，将琴曲翻为笛音。又闭目回想在江湖中的一幕幕往事，随着笛声，慢慢旋转起舞。<br />一曲舞罢，那位姑娘神色惊艳，她向你深深一礼，“多谢小少侠。此曲此舞，我今次前来，值了。”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.1 谦让一番，送走来客</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">不久后，你听闻在万寿节上，那个舞团成功获得了表演的机会。而你所创作的那段笛舞，也成为了她们所设计的“千城之舞”中的一小段。<br />后来那个舞团专门写来信笺感谢与你，邀你成年之后，若有兴趣的话，可随时前来舞团，首席舞者之位，虚席以待。</div><span class="reward">侠誉图：心流·笛舞 乐理+30</span><table class="choice-table"><tr><td colspan="2">我以后可以当一个舞娘吗？</td></tr>
+          <tr><td>如果你喜欢跳舞的话，就尽情跳吧，不过不必以此为营生。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>可以呀，你喜欢就好。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>没人会看吧？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2 “没问题啊，我来试试。”</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你尝试了将所学的几种舞蹈拼在一起，跳给那位姑娘看了一遍。孰料她露出失望神色，礼貌致谢之后便离去了。</div><span class="reward">乐理+20</span><table class="choice-table"><tr><td colspan="2">我跳舞是不是很难看啊？</td></tr>
+          <tr><td>你舞姿灵动。看你跳舞时投入的样子，我也十分开心。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>不会啊，你已经比从前跳得好多了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>一般难看...</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+    <div class="copyright2">
+    @段段天刀综合助手 www.wuxiatools.com <br />
+    <span style="font-size: 12px;">心法装备帮派技能等模拟工具，砭石物品游历等数据百科大全</span>
+    </div>
+</div>

@@ -82,7 +82,7 @@ class LongzhuContainer extends Component {
           size="large"
           style={{ width: '100%'}}
           styleName="longzhu-select"
-          optionFilterProp="children"
+          optionFilterProp="value"
           onChange={(value) => this.selectLongzhu(value)}
         >
           {longzhuOptions}

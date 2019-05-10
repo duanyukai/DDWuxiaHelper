@@ -1,0 +1,1112 @@
+
+<meta charset="utf-8">
+<style>
+    * {
+        font-family: '微软雅黑';
+    }
+    .card-container {
+        width: 750px;
+        /*border: 1px #000 solid;*/
+        border: 37px solid;
+        border-image: url(bg.png) 37 37 fill repeat;
+        text-align: center;
+    }
+     .card-container > .card-selection-header {
+        /*display: none;*/
+        margin-top: -20px;
+    }
+    .card-container > .card-selection-header > .card-selection-header-text,
+    .card-container > .card-selection-header > .vertical-line,
+    .card-container > .card-selection-header > .horizontal-line {
+        display: none;
+    }
+    .card-header {
+        font-size: 28px;
+        text-align: center;
+        /*border-image: url(text-bg.png) 0 32 fill stretch;*/
+        background-image: linear-gradient(to right, rgba(101,81,73,0), rgba(101,81,73,0.5),rgba(101,81,73,0.5), rgba(101,81,73,0));
+        /*width: 60%;*/
+        display: inline-block;
+        padding: 0 80px;
+        font-family: 华文中宋;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        /*text-shadow: 2px 2px 2px #ccc;*/
+    }
+    .card-no {
+         font-size: 14px;
+         font-family: 华文中宋;
+         font-weight: bold;
+    }
+    .card-img {
+        display: block;
+        margin: 4px auto;
+        width: 693px;
+        height: 289px;
+        box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.6);
+    }
+    .condition {
+        font-weight: bold;
+        color: #444;
+    }
+    .condition-text {
+        font-weight: normal;
+        color: #64534a;
+    }
+    .card-selection-container {
+
+    }
+    .card-selection {
+        /*margin-left: 12px;*/
+        padding-left: 22px;
+        overflow: hidden;
+        margin-top: -5px;
+        padding-top: 5px;
+    }
+    .card-selection-header {
+        position: relative;
+        font-size: 18px;
+        display: block;
+        height: 25px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    .card-selection-header-text {
+        border-style: solid;
+        border-width: 4px 40px;
+        border-image: url(btn.png) 4 40 fill stretch;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: -10px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .vertical-line {
+        width: 6px;
+        height: 10000px;
+        background: #4e5333;
+        position: absolute;
+        top: -9985px;
+        left: -16px;
+    }
+    .horizontal-line {
+        width: 20px;
+        height: 6px;
+        position: absolute;
+        background: #4e5333;
+        top: 9.7px;
+        left: -16px;
+    }
+    .diamond {
+        width: 6px;
+        height: 6px;
+        margin: 7px 0 0 7px;
+        border: 5px solid #4e5333;
+        z-index: 999;
+        transform-origin: 0 100%;
+        transform: rotate(-45deg);
+        background: #747b4c;
+        position: absolute;
+        left: -19px;
+        top: 1px;
+    }
+    .diamond2 {
+        top: 1px;
+        left: 2px;
+    }
+    .card-text {
+        margin: 10px 5px;
+        border: 1px solid #aaa;
+        background: rgba(0,0,0,0.1);
+        text-align: left;
+        padding: 5px;
+    }
+    .reward {
+        background: #574965;
+        color: #fff;
+        border-radius: 3px;
+        padding: 2px 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .copyright1 {
+        color: #64534a;
+        font-weight: bold;
+        font-size: 22px;
+    }
+     .copyright2 {
+        color: #64534a;
+    }
+    .choice-table {
+        margin: 4px 0;
+        border-collapse: collapse;
+        border: #666 solid 1px;
+        border-width: 1px 1px;
+    }
+    .choice-table td {
+        font-family: 'Source Code Pro', '微软雅黑';    
+    }
+    .choice-table tr:first-child {
+        border: #666 solid 1px;
+        border-width: 1px 0px;
+    }
+    .choice-table tr:first-child td {
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+</style>
+<div class="card-container">
+    <div class="copyright1">
+    天涯明月刀2018年冬季青梅煮酒版本 小师妹游历玩法最全攻略<br />
+    游历文案与图片、触发条件、选项分支及条件、奖励、对话大全<br />
+    【多玩天刀攻略团】段段 整理（长生剑 涂铃铃）
+    </div>
+    <div class="card-no">№5001</div>
+    <div class="card-header">剑荡八荒</div>
+    <div class="card-conditions">
+        <div>
+        <span class="condition">条件1：无特殊条件，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长15次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件2：无特殊条件，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长15次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件3：无特殊条件，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长15次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件4：无特殊条件，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长15次</span>
+        </div>
+      </div>
+    <img class="card-img" src="../imgs/XIAYULU_TIPS/5000.PNG"/>
+    
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text"> 剑荡八荒</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你出门半个时辰就办好了要办的事情，百无聊赖之间，走进了一个书肆。说书人正说完一段，询问可有人点书来听。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1 投出铜板，点一出</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“好嘞。小的名叫田日黄，乃是说书行里二十年老手。客官想听什么书？”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1 想听剑荡八荒的英雄事迹</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“这剑荡八荒已历经多届，不知小小姐想听那一段啊？”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1 最近的一届</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">好嘞，小老儿就为你说一说这第六届剑荡八荒的故事，话说这最后一场比试中，本来五毒弟子胜券在握，真武弟子内息不济败象已显，不想那五毒弟子大意轻敌，棋差一招，本要靠百鬼潜行扳回优势，却被真武弟子识破了潜行之处，惜败于真武宛若雷霆一击的道生一剑。说来唏嘘，身为武林泰斗的真武六年后终于首次夺魁，而这位真武高徒鬓角也似有了白发，真是白驹过隙，年华似水！</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.1 力道+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">好嘞，小老儿就为你说一说这第六届剑荡八荒的故事，话说这最后一场比试中，本来五毒弟子胜券在握，真武弟子内息不济败象已显，不想那五毒弟子大意轻敌，棋差一招，本要靠百鬼潜行扳回优势，却被真武弟子识破了潜行之处，惜败于真武宛若雷霆一击的道生一剑。说来唏嘘，身为武林泰斗的真武六年后终于首次夺魁，而这位真武高徒鬓角也似有了白发，真是白驹过隙，年华似水！</div><span class="reward">随机属性+50（力道）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.2 根骨+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">好嘞，小老儿就为你说一说这第六届剑荡八荒的故事，话说这最后一场比试中，本来五毒弟子胜券在握，真武弟子内息不济败象已显，不想那五毒弟子大意轻敌，棋差一招，本要靠百鬼潜行扳回优势，却被真武弟子识破了潜行之处，惜败于真武宛若雷霆一击的道生一剑。说来唏嘘，身为武林泰斗的真武六年后终于首次夺魁，而这位真武高徒鬓角也似有了白发，真是白驹过隙，年华似水！</div><span class="reward">随机属性+50（根骨）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.3 气劲+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">好嘞，小老儿就为你说一说这第六届剑荡八荒的故事，话说这最后一场比试中，本来五毒弟子胜券在握，真武弟子内息不济败象已显，不想那五毒弟子大意轻敌，棋差一招，本要靠百鬼潜行扳回优势，却被真武弟子识破了潜行之处，惜败于真武宛若雷霆一击的道生一剑。说来唏嘘，身为武林泰斗的真武六年后终于首次夺魁，而这位真武高徒鬓角也似有了白发，真是白驹过隙，年华似水！</div><span class="reward">随机属性+50（气劲）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.4 身法+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">好嘞，小老儿就为你说一说这第六届剑荡八荒的故事，话说这最后一场比试中，本来五毒弟子胜券在握，真武弟子内息不济败象已显，不想那五毒弟子大意轻敌，棋差一招，本要靠百鬼潜行扳回优势，却被真武弟子识破了潜行之处，惜败于真武宛若雷霆一击的道生一剑。说来唏嘘，身为武林泰斗的真武六年后终于首次夺魁，而这位真武高徒鬓角也似有了白发，真是白驹过隙，年华似水！</div><span class="reward">随机属性+50（身法）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.5 洞察+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">好嘞，小老儿就为你说一说这第六届剑荡八荒的故事，话说这最后一场比试中，本来五毒弟子胜券在握，真武弟子内息不济败象已显，不想那五毒弟子大意轻敌，棋差一招，本要靠百鬼潜行扳回优势，却被真武弟子识破了潜行之处，惜败于真武宛若雷霆一击的道生一剑。说来唏嘘，身为武林泰斗的真武六年后终于首次夺魁，而这位真武高徒鬓角也似有了白发，真是白驹过隙，年华似水！</div><span class="reward">随机属性+50（洞察）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2 过去几届</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“具体哪一届，您报个数”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.1 我想听第五届剑荡八荒的故事</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">那太白弟子先前也曾过参赛，却也未曾展露头角引人注意，然有心人，天不负，这次终一路杀进决赛，最后一战里那手中佩剑天焰无锋来如雷霆震怒，去如海凝清光，对手皆拜服后，仅悠悠留下一句“告辞”，便消失在浩然峰的皑皑白雪里。正是——事了拂衣去，深藏功与名。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.1.1 力道+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">那太白弟子先前也曾过参赛，却也未曾展露头角引人注意，然有心人，天不负，这次终一路杀进决赛，最后一战里那手中佩剑天焰无锋来如雷霆震怒，去如海凝清光，对手皆拜服后，仅悠悠留下一句“告辞”，便消失在浩然峰的皑皑白雪里。正是——事了拂衣去，深藏功与名。</div><span class="reward">随机属性+50（力道）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.1.2 根骨+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">那太白弟子先前也曾过参赛，却也未曾展露头角引人注意，然有心人，天不负，这次终一路杀进决赛，最后一战里那手中佩剑天焰无锋来如雷霆震怒，去如海凝清光，对手皆拜服后，仅悠悠留下一句“告辞”，便消失在浩然峰的皑皑白雪里。正是——事了拂衣去，深藏功与名。</div><span class="reward">随机属性+50（根骨）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.1.3 气劲+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">那太白弟子先前也曾过参赛，却也未曾展露头角引人注意，然有心人，天不负，这次终一路杀进决赛，最后一战里那手中佩剑天焰无锋来如雷霆震怒，去如海凝清光，对手皆拜服后，仅悠悠留下一句“告辞”，便消失在浩然峰的皑皑白雪里。正是——事了拂衣去，深藏功与名。</div><span class="reward">随机属性+50（气劲）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.1.4 身法+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">那太白弟子先前也曾过参赛，却也未曾展露头角引人注意，然有心人，天不负，这次终一路杀进决赛，最后一战里那手中佩剑天焰无锋来如雷霆震怒，去如海凝清光，对手皆拜服后，仅悠悠留下一句“告辞”，便消失在浩然峰的皑皑白雪里。正是——事了拂衣去，深藏功与名。</div><span class="reward">随机属性+50（身法）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.1.5 洞察+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">那太白弟子先前也曾过参赛，却也未曾展露头角引人注意，然有心人，天不负，这次终一路杀进决赛，最后一战里那手中佩剑天焰无锋来如雷霆震怒，去如海凝清光，对手皆拜服后，仅悠悠留下一句“告辞”，便消失在浩然峰的皑皑白雪里。正是——事了拂衣去，深藏功与名。</div><span class="reward">随机属性+50（洞察）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.2 我想听第四届剑荡八荒的故事</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">想那届那名神刀弟子断中流开阖之势若千军万马，回锋斩锋芒乍绽，尽管五毒少年场中游走，连连下蛊却均破不得他周身要害，最后刀鸣若怒海波涛，鹰啸如九天惊雷，将神刀堂的名字刻在了浩然峰顶那把天煞造化独尊剑身之上。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.2.1 力道+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">想那届那名神刀弟子断中流开阖之势若千军万马，回锋斩锋芒乍绽，尽管五毒少年场中游走，连连下蛊却均破不得他周身要害，最后刀鸣若怒海波涛，鹰啸如九天惊雷，将神刀堂的名字刻在了浩然峰顶那把天煞造化独尊剑身之上。</div><span class="reward">随机属性+50（力道）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.2.2 根骨+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">想那届那名神刀弟子断中流开阖之势若千军万马，回锋斩锋芒乍绽，尽管五毒少年场中游走，连连下蛊却均破不得他周身要害，最后刀鸣若怒海波涛，鹰啸如九天惊雷，将神刀堂的名字刻在了浩然峰顶那把天煞造化独尊剑身之上。</div><span class="reward">随机属性+50（根骨）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.2.3 气劲+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">想那届那名神刀弟子断中流开阖之势若千军万马，回锋斩锋芒乍绽，尽管五毒少年场中游走，连连下蛊却均破不得他周身要害，最后刀鸣若怒海波涛，鹰啸如九天惊雷，将神刀堂的名字刻在了浩然峰顶那把天煞造化独尊剑身之上。</div><span class="reward">随机属性+50（气劲）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.2.4 身法+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">想那届那名神刀弟子断中流开阖之势若千军万马，回锋斩锋芒乍绽，尽管五毒少年场中游走，连连下蛊却均破不得他周身要害，最后刀鸣若怒海波涛，鹰啸如九天惊雷，将神刀堂的名字刻在了浩然峰顶那把天煞造化独尊剑身之上。</div><span class="reward">随机属性+50（身法）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.2.5 洞察+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">想那届那名神刀弟子断中流开阖之势若千军万马，回锋斩锋芒乍绽，尽管五毒少年场中游走，连连下蛊却均破不得他周身要害，最后刀鸣若怒海波涛，鹰啸如九天惊雷，将神刀堂的名字刻在了浩然峰顶那把天煞造化独尊剑身之上。</div><span class="reward">随机属性+50（洞察）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.3 我想听第三届剑荡八荒的故事</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">说道这第三届，最后乃是五毒对上太白，这五毒少年正是上届剑荡魁首，两位都是因身法灵动而名播八荒的高手，二人交错间兵器声作响，观赛弟子们修为尚浅的连招式都看不真切，说时迟，那时快！那五毒弟子朗声一笑一招飞雀夺怀，赛场内土石俱裂，电光石火间结束了战斗，天才少年蝉联冠军。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.3.1 力道+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">说道这第三届，最后乃是五毒对上太白，这五毒少年正是上届剑荡魁首，两位都是因身法灵动而名播八荒的高手，二人交错间兵器声作响，观赛弟子们修为尚浅的连招式都看不真切，说时迟，那时快！那五毒弟子朗声一笑一招飞雀夺怀，赛场内土石俱裂，电光石火间结束了战斗，天才少年蝉联冠军。</div><span class="reward">随机属性+50（力道）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.3.2 根骨+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">说道这第三届，最后乃是五毒对上太白，这五毒少年正是上届剑荡魁首，两位都是因身法灵动而名播八荒的高手，二人交错间兵器声作响，观赛弟子们修为尚浅的连招式都看不真切，说时迟，那时快！那五毒弟子朗声一笑一招飞雀夺怀，赛场内土石俱裂，电光石火间结束了战斗，天才少年蝉联冠军。</div><span class="reward">随机属性+50（根骨）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.3.3 气劲+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">说道这第三届，最后乃是五毒对上太白，这五毒少年正是上届剑荡魁首，两位都是因身法灵动而名播八荒的高手，二人交错间兵器声作响，观赛弟子们修为尚浅的连招式都看不真切，说时迟，那时快！那五毒弟子朗声一笑一招飞雀夺怀，赛场内土石俱裂，电光石火间结束了战斗，天才少年蝉联冠军。</div><span class="reward">随机属性+50（气劲）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.3.4 身法+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">说道这第三届，最后乃是五毒对上太白，这五毒少年正是上届剑荡魁首，两位都是因身法灵动而名播八荒的高手，二人交错间兵器声作响，观赛弟子们修为尚浅的连招式都看不真切，说时迟，那时快！那五毒弟子朗声一笑一招飞雀夺怀，赛场内土石俱裂，电光石火间结束了战斗，天才少年蝉联冠军。</div><span class="reward">随机属性+50（身法）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.3.5 洞察+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">说道这第三届，最后乃是五毒对上太白，这五毒少年正是上届剑荡魁首，两位都是因身法灵动而名播八荒的高手，二人交错间兵器声作响，观赛弟子们修为尚浅的连招式都看不真切，说时迟，那时快！那五毒弟子朗声一笑一招飞雀夺怀，赛场内土石俱裂，电光石火间结束了战斗，天才少年蝉联冠军。</div><span class="reward">随机属性+50（洞察）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3 最早的几届</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text"></div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.1 我想听第二届剑荡八荒的故事</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">时光飞逝，转眼这第二届又开始了，这次决赛乃是五毒门下不世出的奇才对上唐门首席大弟子，这五毒弟子尽得方玉蜂真传，百鬼潜行使得连方教主都赞叹不已，在场上穿梭，身法如鬼似魅，腾挪间仅余数道黑影，令人无法看到他究竟如何取胜，呼吸数息之间已将敌手一一败倒，赢得了满堂喝彩。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.1.1 力道+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">时光飞逝，转眼这第二届又开始了，这次决赛乃是五毒门下不世出的奇才对上唐门首席大弟子，这五毒弟子尽得方玉蜂真传，百鬼潜行使得连方教主都赞叹不已，在场上穿梭，身法如鬼似魅，腾挪间仅余数道黑影，令人无法看到他究竟如何取胜，呼吸数息之间已将敌手一一败倒，赢得了满堂喝彩。</div><span class="reward">随机属性+50（力道）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.1.2 根骨+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">时光飞逝，转眼这第二届又开始了，这次决赛乃是五毒门下不世出的奇才对上唐门首席大弟子，这五毒弟子尽得方玉蜂真传，百鬼潜行使得连方教主都赞叹不已，在场上穿梭，身法如鬼似魅，腾挪间仅余数道黑影，令人无法看到他究竟如何取胜，呼吸数息之间已将敌手一一败倒，赢得了满堂喝彩。</div><span class="reward">随机属性+50（根骨）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.1.3 气劲+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">时光飞逝，转眼这第二届又开始了，这次决赛乃是五毒门下不世出的奇才对上唐门首席大弟子，这五毒弟子尽得方玉蜂真传，百鬼潜行使得连方教主都赞叹不已，在场上穿梭，身法如鬼似魅，腾挪间仅余数道黑影，令人无法看到他究竟如何取胜，呼吸数息之间已将敌手一一败倒，赢得了满堂喝彩。</div><span class="reward">随机属性+50（气劲）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.1.4 身法+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">时光飞逝，转眼这第二届又开始了，这次决赛乃是五毒门下不世出的奇才对上唐门首席大弟子，这五毒弟子尽得方玉蜂真传，百鬼潜行使得连方教主都赞叹不已，在场上穿梭，身法如鬼似魅，腾挪间仅余数道黑影，令人无法看到他究竟如何取胜，呼吸数息之间已将敌手一一败倒，赢得了满堂喝彩。</div><span class="reward">随机属性+50（身法）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.1.5 洞察+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">时光飞逝，转眼这第二届又开始了，这次决赛乃是五毒门下不世出的奇才对上唐门首席大弟子，这五毒弟子尽得方玉蜂真传，百鬼潜行使得连方教主都赞叹不已，在场上穿梭，身法如鬼似魅，腾挪间仅余数道黑影，令人无法看到他究竟如何取胜，呼吸数息之间已将敌手一一败倒，赢得了满堂喝彩。</div><span class="reward">随机属性+50（洞察）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.2 我想听第一届剑荡八荒的故事</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">宛转琴弦送归客，无情白刃破流光。话说这第一届剑荡八荒决赛乃是梁知音座下高徒对阵方玉峰门人，只见那位天香女弟子自伞中抽出白刃，裙袂翻飞如画，素手轻拨间，那场上的最后一位五毒弟子便这样败下阵来。她持伞独立秦川绝峰上那明艳动人的笑容，令无数八荒弟子倾拜不已，真真是“竞夸天下无双艳，独立人间第一香。”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.2.1 力道+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">宛转琴弦送归客，无情白刃破流光。话说这第一届剑荡八荒决赛乃是梁知音座下高徒对阵方玉峰门人，只见那位天香女弟子自伞中抽出白刃，裙袂翻飞如画，素手轻拨间，那场上的最后一位五毒弟子便这样败下阵来。她持伞独立秦川绝峰上那明艳动人的笑容，令无数八荒弟子倾拜不已，真真是“竞夸天下无双艳，独立人间第一香。”</div><span class="reward">随机属性+50（力道）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.2.2 根骨+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">宛转琴弦送归客，无情白刃破流光。话说这第一届剑荡八荒决赛乃是梁知音座下高徒对阵方玉峰门人，只见那位天香女弟子自伞中抽出白刃，裙袂翻飞如画，素手轻拨间，那场上的最后一位五毒弟子便这样败下阵来。她持伞独立秦川绝峰上那明艳动人的笑容，令无数八荒弟子倾拜不已，真真是“竞夸天下无双艳，独立人间第一香。”</div><span class="reward">随机属性+50（根骨）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.2.3 气劲+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">宛转琴弦送归客，无情白刃破流光。话说这第一届剑荡八荒决赛乃是梁知音座下高徒对阵方玉峰门人，只见那位天香女弟子自伞中抽出白刃，裙袂翻飞如画，素手轻拨间，那场上的最后一位五毒弟子便这样败下阵来。她持伞独立秦川绝峰上那明艳动人的笑容，令无数八荒弟子倾拜不已，真真是“竞夸天下无双艳，独立人间第一香。”</div><span class="reward">随机属性+50（气劲）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.2.4 身法+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">宛转琴弦送归客，无情白刃破流光。话说这第一届剑荡八荒决赛乃是梁知音座下高徒对阵方玉峰门人，只见那位天香女弟子自伞中抽出白刃，裙袂翻飞如画，素手轻拨间，那场上的最后一位五毒弟子便这样败下阵来。她持伞独立秦川绝峰上那明艳动人的笑容，令无数八荒弟子倾拜不已，真真是“竞夸天下无双艳，独立人间第一香。”</div><span class="reward">随机属性+50（身法）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.3.2.5 洞察+50</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">宛转琴弦送归客，无情白刃破流光。话说这第一届剑荡八荒决赛乃是梁知音座下高徒对阵方玉峰门人，只见那位天香女弟子自伞中抽出白刃，裙袂翻飞如画，素手轻拨间，那场上的最后一位五毒弟子便这样败下阵来。她持伞独立秦川绝峰上那明艳动人的笑容，令无数八荒弟子倾拜不已，真真是“竞夸天下无双艳，独立人间第一香。”</div><span class="reward">随机属性+50（洞察）</span><table class="choice-table"><tr><td colspan="2">今天听了剑荡八荒的故事，我也要好好练武参加剑荡八荒</td></tr>
+          <tr><td>好呀，明日我便考校考校你的武艺</td><td>亲密度+2</td></tr>
+        
+          <tr><td>加油</td><td>亲密度+1</td></tr>
+        
+          <tr><td>不好好历练，又去听什么书</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+    <div class="copyright2">
+    @段段天刀综合助手 www.wuxiatools.com <br />
+    <span style="font-size: 12px;">心法装备帮派技能等模拟工具，砭石物品游历等数据百科大全</span>
+    </div>
+</div>

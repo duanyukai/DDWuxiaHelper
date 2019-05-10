@@ -7,7 +7,7 @@ import autoMergeLevel2 from 'redux-persist/es/stateReconciler/autoMergeLevel2';
 
 const middlewares = [];
 
-if (process.env.NODE_ENV === 'development' || true) {
+if (process.env.NODE_ENV === 'development') {
   const { logger } = require('redux-logger');
 
   middlewares.push(logger);
@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === 'development' || true) {
 const persistConfig = {
   key: 'gongli-emu',
   storage,
-  whitelist: ['equipData', 'menpaiId'],
+  // whitelist: ['equipData', 'menpaiId'],
   stateReconciler: autoMergeLevel2
 };
 

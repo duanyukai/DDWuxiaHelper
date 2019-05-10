@@ -2,21 +2,68 @@
      margin: 80px 0;
  }
 
-/*.skill-tabs :global .tab-content {*/
-    /*padding: 20px 0;*/
-/*}*/
+.main {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
 
-/*.skill-btn {*/
-    /*margin: 10px 0;*/
-/*}*/
+}
 
-/*.props-table tr td:first-child {*/
-    /*font-weight: bold;*/
-    /*text-align: center;*/
-    /*white-space: nowrap;*/
-    /*vertical-align: middle;*/
-/*}*/
+.tool-card-wrapper {
+    width: 280px;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
-/*.slider :global .rc-slider-track {*/
-    /*background: #6464cc;*/
-/*}*/
+.tool-card {
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    font-size: 32px;
+    margin: 8px 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.cover-img {
+    border-bottom: 1px solid #ccc;
+    /*box-shadow: inset 0 -2px #ccc;*/
+}
+
+.tool-card :global .ant-card-body{
+    padding: 3px;
+}
+
+.tool-card hr {
+    margin: 4px;
+}
+
+.tool-card p {
+    text-align: center;
+    margin: 4px;
+}
+
+.tool-card h3 {
+    text-align: center;
+}
+
+.tool-card a {
+    color: black;
+}
+
+.tool-card a:hover {
+    text-decoration: none;
+}

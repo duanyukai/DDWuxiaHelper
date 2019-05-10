@@ -3,7 +3,7 @@ import React from 'react';
 import propType from '../assets/json/prop_type.json';
 export function renderPropList(equip, enhanceAdded) {
   let usedPropMap = [
-    'wf', 'nf', 'chaizhao', 'yushang', 'poshang', 'qx', 'ld', 'qj', 'gg', 'dc', 'sf', 'rj', 'mz', 'gd', 'hx', 'hs', 'cureEffect'
+    'wf', 'nf', 'chaizhao', 'yushang', 'poshang', 'qx', 'ld', 'qj', 'gg', 'dc', 'sf', 'rj', 'mz', 'gd', 'hx', 'hs', 'liaoshang'
   ];
   // 精工可能增加的属性：wgMinMax, ngMinMax, wf, qx, mp
   let enhanceProbProp = ['wgMin', 'wgMax', 'ngMin', 'ngMax', 'wf', 'qx'];

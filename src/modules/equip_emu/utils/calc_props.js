@@ -117,7 +117,7 @@ export function calcSingleEquip(equipPosType, equip, levels) {  // todo 参数�
   // console.log('计算参数', arguments);
   // 分别计算功力、战力的原始、加成值，以及全部面板属性结果
   let originProps = {...zeroProps};
-
+  let isPVE = equip.equipType === 1;
   // 复制equip中已存在的属性数据，计算原始功力
   Object.keys(originProps).forEach(key => {
     if(equip.hasOwnProperty(key))
@@ -127,11 +127,13 @@ export function calcSingleEquip(equipPosType, equip, levels) {  // todo 参数�
   let originZhanli = calcZhanli(originProps);
   // 根据精工等级，增加对应属性，计算功力 todo 无判断精工上限
   let enhanceLevel = levels.enhanceLV;
+  if(isPVE) enhanceLevel = 0;
   let enhanceProps = Object.assign({...zeroProps}, enhancePropData[equipPosType][enhanceLevel]);
   let enhanceGongli = calcEnhanceGongli(enhanceProps);
   let enhanceZhanli = calcEnhanceZhanli(enhanceProps);
   // 根据琢磨等级，在equip基础上增加百分比
   let jiangxinLevel = levels.jiangxinLV;
+  if(isPVE) jiangxinLevel = 0;
   let jiangxinRatio = jiangxinRatioData[jiangxinLevel].ratio;
   let jiangxinProps = multiplyProps(originProps, jiangxinRatio);
   let jiangxinGongli = calcGongli(jiangxinProps);
@@ -163,7 +165,8 @@ export function calcSingleEquip(equipPosType, equip, levels) {  // todo 参数�
           neededJiangxin += affixData[equipPosType]['词缀一'][affix[0].type][affix[0].level].jiangxin;
         } catch (ignored){}
       }
-      if(neededJiangxin <= equip.jiangxin + jiangxinLevel) {
+      if(neededJiangxin <= equip.jiangxin + jiangxinLevel || isPVE) {
+        // 匠心值符合要求，或者为PVE
         // 内外攻最大最小值hack
         let props = d.props;
         if(d.props.wg > 0) {

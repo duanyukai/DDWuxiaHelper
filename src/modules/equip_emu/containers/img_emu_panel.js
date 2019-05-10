@@ -42,10 +42,9 @@ class ImgEmuPanelContainer extends Component {
     let equipId = equipLevels.id;
     if(equipId) {
       let equip = getEquipData(equipPosType, equipId);
-
-      // console.log('图片模拟数据', equipLevels, equip);
       // 基本属性数据
       let qualityColor = levelColorData[equip.quality][1];
+      let isPVE = equip.equipType === 1;
       // 获取珑铸数据
       let longzhuLevel = equipLevels.longzhuLV;
       let longzhuProp, longzhuTexiao;
@@ -55,9 +54,11 @@ class ImgEmuPanelContainer extends Component {
       }
       // 获取精工数据
       let enhanceLevel = equipLevels.enhanceLV;
+      if(isPVE) enhanceLevel = 0;
       let enhanceProp = enhancePropData[equipPosType][enhanceLevel];
       // 获取琢磨数据
       let jiangxinLevel = equipLevels.jiangxinLV;
+      if(isPVE) jiangxinLevel = 0;
       let jiangxinData = jiangxinRatioData[jiangxinLevel];
       // 获取词缀数据
       let affixLevels = equipLevels.affix;
@@ -73,7 +74,7 @@ class ImgEmuPanelContainer extends Component {
             } catch (ignored) {}
           }
           let color = d.color === 1 ? '#fff' : '#ae78ae';
-          let descColor = neededJiangxin < equip.jiangxin + jiangxinLevel ? '#84e6a3' : '#f00';
+          let descColor = neededJiangxin < equip.jiangxin + jiangxinLevel || isPVE ? '#84e6a3' : '#f00';
           return (
             <div key={affixPos}>
               <span style={{color}}>({d.pinji}品)</span>{' '}
@@ -185,9 +186,8 @@ class ImgEmuPanelContainer extends Component {
               </div>
               <hr styleName="hr"/>
               <div>
-                本图来源“段段天刀综合助手 - 装备模拟器”<br />
-                https://www.wuxiatools.com/equip<br />
-                精工琢磨珑铸词缀精确完整模拟
+                本图来源“段段天刀综合助手 - 装备综合模拟器”，欢迎访问<br />
+                <span style={{fontSize: 15}}>https://www.wuxiatools.com/equip</span>
               </div>
               <hr styleName="hr"/>
               <div styleName="prop-list">
@@ -209,10 +209,12 @@ class ImgEmuPanelContainer extends Component {
                 </div>
               </div>
               }
-              <div styleName="additional-block">
-                <div styleName="first-line"><span>精工等级: </span><span>{enhanceLevel} / {'*'}</span></div>
-              </div>
-              {jiangxinLevel > 0 &&
+              {!isPVE &&
+                <div styleName="additional-block">
+                  <div styleName="first-line"><span>精工等级: </span><span>{enhanceLevel} / {'*'}</span></div>
+                </div>
+              }
+              {jiangxinLevel > 0 && !isPVE &&
               <div styleName="additional-block">
                 <div styleName="first-line"><span>琢磨等级: {jiangxinLevel}</span><span></span></div>
                 <div styleName="remain-lines">

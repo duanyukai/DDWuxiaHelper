@@ -1,0 +1,13 @@
+.shimei-5d-input .shimei-5d-item :global .ant-input-number {
+    border-radius: 0;
+    border-bottom-width: 0;
+}
+
+.shimei-5d-input .shimei-5d-item:first-child :global .ant-input-number {
+    border-radius: 3px 3px 0 0;
+}
+
+.shimei-5d-input .shimei-5d-item:last-child :global .ant-input-number {
+    border-bottom-width: 1px;
+    border-radius: 0 0 3px 3px;
+}

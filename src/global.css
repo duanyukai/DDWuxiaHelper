@@ -17,3 +17,71 @@ html {
 :global * {
     font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
 }
+
+:global #global-navbar {
+
+}
+
+:global #global-navbar  {
+
+}
+
+@media (min-width: 768px) {
+    :global #global-navbar .container {
+        width: 100%;
+    }
+    :global #global-navbar .nav li a {
+        padding: 15px 6px;
+    }
+}
+
+@media (min-width: 992px) {
+    :global #global-navbar .container {
+        width: 100%;
+    }
+    :global #global-navbar .nav li a {
+        padding: 15px 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    :global #global-navbar .container {
+        width: 1170px;
+    }
+    :global #global-navbar .nav li a {
+        padding: 15px 15px;
+    }
+}
+
+:global table.dd-table {
+    border-collapse: collapse;
+}
+
+:global table.dd-table td {
+    border: 1px solid #ddd;
+    padding: 2px 10px;
+    text-align: center;
+}
+
+:global table.dd-table th {
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+:global table.dd-table thead tr{
+    background-color: #f2f2f2;
+}
+
+:global table.dd-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+:global table.dd-table :global .dark{
+    background-color: #f2f2f2;
+}
+
+:global table.dd-table :global .light{
+    background-color: #fff;
+}

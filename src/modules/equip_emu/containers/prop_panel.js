@@ -6,8 +6,7 @@ import PropTable from '../components/prop_table';
 
 import './css/prop_panel.css';
 import {calcAllEquip, calcMenpaiProps, subtractProps} from '../utils/calc_props';
-import Button from "../../../../node_modules/antd/es/button/button";
-import Select from "../../../../node_modules/antd/es/select";
+import Select from '../../../../node_modules/antd/es/select';
 
 class PropPanelContainer extends Component {
   constructor(props) {

@@ -14,9 +14,9 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 const persistConfig = {
-  key: 'gongli-emu',
+  key: 'glamour-emu',
   storage,
-  whitelist: ['equipData', 'menpaiId'],
+  // whitelist: ['equipData', 'menpaiId'],
   stateReconciler: autoMergeLevel2
 };
 

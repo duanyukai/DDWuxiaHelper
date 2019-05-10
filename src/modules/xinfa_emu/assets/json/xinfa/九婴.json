@@ -1945,6 +1945,7 @@
                         {
                             "xiuwei": 300000,
                             "props": [
+                                23,
                                 23
                             ],
                             "gongliOffset": 0,

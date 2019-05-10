@@ -6,10 +6,6 @@ class Root extends Component {
     super(props);
   }
 
-  componentDidMount() {
-    alert('本工具尚在完善中…');
-  }
-
   render() {
     return (
       <App />

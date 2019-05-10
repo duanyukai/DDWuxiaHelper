@@ -1,0 +1,12 @@
+[
+  {"name": "真武", "id": "ZW", "available": true },
+  {"name": "太白", "id": "TB", "available": true },
+  {"name": "神威", "id": "SW", "available": true },
+  {"name": "丐帮", "id": "GB", "available": true },
+  {"name": "唐门", "id": "TM", "available": true },
+  {"name": "五毒", "id": "WD", "available": true },
+  {"name": "少林", "id": "SL", "available": false },
+  {"name": "天香", "id": "TX", "available": true },
+  {"name": "神刀", "id": "SD", "available": true },
+  {"name": "移花", "id": "YH", "available": true }
+]

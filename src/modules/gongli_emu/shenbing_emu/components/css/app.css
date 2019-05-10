@@ -1,0 +1,23 @@
+.whole-page {
+    background: #fbfbfb;
+    padding: 30px 0;
+}
+
+.whole-page h3 {
+    margin-top: 13px;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+
+.page-container {
+    background: #fff;
+    border: #efefef solid 1px;
+    border-radius: 3px;
+    /*box-shadow: 1px 1px #bbb;*/
+    min-height: 400px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 5px;
+}

@@ -1,0 +1,983 @@
+
+<meta charset="utf-8">
+<style>
+    * {
+        font-family: '微软雅黑';
+    }
+    .card-container {
+        width: 750px;
+        /*border: 1px #000 solid;*/
+        border: 37px solid;
+        border-image: url(bg.png) 37 37 fill repeat;
+        text-align: center;
+    }
+     .card-container > .card-selection-header {
+        /*display: none;*/
+        margin-top: -20px;
+    }
+    .card-container > .card-selection-header > .card-selection-header-text,
+    .card-container > .card-selection-header > .vertical-line,
+    .card-container > .card-selection-header > .horizontal-line {
+        display: none;
+    }
+    .card-header {
+        font-size: 28px;
+        text-align: center;
+        /*border-image: url(text-bg.png) 0 32 fill stretch;*/
+        background-image: linear-gradient(to right, rgba(101,81,73,0), rgba(101,81,73,0.5),rgba(101,81,73,0.5), rgba(101,81,73,0));
+        /*width: 60%;*/
+        display: inline-block;
+        padding: 0 80px;
+        font-family: 华文中宋;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        /*text-shadow: 2px 2px 2px #ccc;*/
+    }
+    .card-no {
+         font-size: 14px;
+         font-family: 华文中宋;
+         font-weight: bold;
+    }
+    .card-img {
+        display: block;
+        margin: 4px auto;
+        width: 693px;
+        height: 289px;
+        box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.6);
+    }
+    .condition {
+        font-weight: bold;
+        color: #444;
+    }
+    .condition-text {
+        font-weight: normal;
+        color: #64534a;
+    }
+    .card-selection-container {
+
+    }
+    .card-selection {
+        /*margin-left: 12px;*/
+        padding-left: 22px;
+        overflow: hidden;
+        margin-top: -5px;
+        padding-top: 5px;
+    }
+    .card-selection-header {
+        position: relative;
+        font-size: 18px;
+        display: block;
+        height: 25px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    .card-selection-header-text {
+        border-style: solid;
+        border-width: 4px 40px;
+        border-image: url(btn.png) 4 40 fill stretch;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: -10px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .vertical-line {
+        width: 6px;
+        height: 10000px;
+        background: #4e5333;
+        position: absolute;
+        top: -9985px;
+        left: -16px;
+    }
+    .horizontal-line {
+        width: 20px;
+        height: 6px;
+        position: absolute;
+        background: #4e5333;
+        top: 9.7px;
+        left: -16px;
+    }
+    .diamond {
+        width: 6px;
+        height: 6px;
+        margin: 7px 0 0 7px;
+        border: 5px solid #4e5333;
+        z-index: 999;
+        transform-origin: 0 100%;
+        transform: rotate(-45deg);
+        background: #747b4c;
+        position: absolute;
+        left: -19px;
+        top: 1px;
+    }
+    .diamond2 {
+        top: 1px;
+        left: 2px;
+    }
+    .card-text {
+        margin: 10px 5px;
+        border: 1px solid #aaa;
+        background: rgba(0,0,0,0.1);
+        text-align: left;
+        padding: 5px;
+    }
+    .reward {
+        background: #574965;
+        color: #fff;
+        border-radius: 3px;
+        padding: 2px 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .copyright1 {
+        color: #64534a;
+        font-weight: bold;
+        font-size: 22px;
+    }
+     .copyright2 {
+        color: #64534a;
+    }
+    .choice-table {
+        margin: 4px 0;
+        border-collapse: collapse;
+        border: #666 solid 1px;
+        border-width: 1px 1px;
+    }
+    .choice-table td {
+        font-family: 'Source Code Pro', '微软雅黑';    
+    }
+    .choice-table tr:first-child {
+        border: #666 solid 1px;
+        border-width: 1px 0px;
+    }
+    .choice-table tr:first-child td {
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+</style>
+<div class="card-container">
+    <div class="copyright1">
+    天涯明月刀2018年冬季青梅煮酒版本 小师妹游历玩法最全攻略<br />
+    游历文案与图片、触发条件、选项分支及条件、奖励、对话大全<br />
+    【多玩天刀攻略团】段段 整理（长生剑 涂铃铃）
+    </div>
+    <div class="card-no">№1031</div>
+    <div class="card-header">信游苏杭</div>
+    <div class="card-conditions">
+        <div>
+        <span class="condition">条件1：无特殊条件，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长15次</span>
+        </div>
+      </div>
+    <img class="card-img" src="../imgs/XIAYULU_TIPS/1000.PNG"/>
+    
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text"> 信游苏杭</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">途径杭州，初入此地万事均觉新鲜热闹，正好最近并未身负要事，不如入城小住几日，拜访亲友，开阔眼界。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1 酉时，夜市初开。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text"><br />你听友人讲述此地夜市常有来自四海游商货郎们贩售新鲜趣物异域小食，其他地方甚少得见，决定与友人结伴同游。<br /></div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1 对西域香料更感兴趣。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你见货郎有几包香料未摆在摊位上，却放置身侧隐蔽位置，似乎不准备售卖，你好奇问询，货郎却脸色突变对你恶言相向，马上收摊。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1 顿时起疑，拦住货郎。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text"><br />你正准备对他进行更详细的盘问，却被一神秘男子从身后突然袭击擒住要害，他低言无意与你多做冲突，只要你放弃调查，便放你离开。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.1 不惧此人威胁，以武力反击。(韬略>50)</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：韬略>50）<br />你与他拆招数下已知对方身手甚好，留有余地无意伤你，见那货郎已趁他与你纠缠遁走，只好作罢谢其留手，此人无话，片刻后隐于夜色之中，似未曾出现过一般。</div><span class="reward">侠誉图：侠影·走卒</span><table class="choice-table"><tr><td colspan="2">不知那香料包内到底是何要紧事物，那男子显然武功高强远胜于我，不知此事是否还要追查下去。</td></tr>
+          <tr><td>听起来太过凶险...若你要查，我陪你同去。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>福祸难料错综复杂，还是别查了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>你可真多管闲事。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.2 你踌躇一阵，只好离开。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">经此一事你兴致全无，与友人早早离去。</div><table class="choice-table"><tr><td colspan="2">本来也只是一时好奇，不想却被人如此威胁...我知趣退却，师兄/师姐会不会觉得我太过懦弱？</td></tr>
+          <tr><td>怎会？万事莫要逞强，我自会护你周全。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>不会，明哲保身你做的很好。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>是有一点。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2 对海外奇珍更感兴趣。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text"><br />果然货郎手上的珍宝虽不及集珍阁饰品璀璨华贵，制式上却更奇趣，你正挑选，却听见一旁有人大喊被人偷去了白玉观音挂链，人群推搡间引起一阵骚乱。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1 观察四周。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">灯火幢幢间，你发现有一女子手里一道白光若隐若现好似事主所失之物，但离你位置过远，看不真切。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1.1 避免骚乱发生意外，先将她模样打扮记下。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">翌日你将记忆中的形象绘成画像，避免打草惊蛇在市坊间暗自查访，终抓住了此人狐狸尾巴，追缴了赃物，失主十分感激你。</div><span class="reward">灵性+25 碎银：10金</span><table class="choice-table"><tr><td colspan="2">还好我灵机一动，采取这个办法追查，不然在闹市里引发骚乱，更加难抓住贼人。</td></tr>
+          <tr><td>师妹妙思，巡捕还与我夸赞了你一番。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>师妹聪慧。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>倒也不错。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1.2 事不宜迟，大喝一声捉拿此人。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你引起了她的警觉和群众的慌乱，好在有相识巡捕就在左近，疏导了人群并将此贼人逮捕。</div><span class="reward">气劲+25 碎银：10金</span><table class="choice-table"><tr><td colspan="2">幸好这次能得成捕头相助，不然便给这小贼跑了。</td></tr>
+          <tr><td>却也少不了你最早能发现此事的细敏聪慧。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>那可得多多你的这位捕头朋友。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>是你过于莽撞。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1.3 施展轻功跃上楼顶跟踪。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">不料此人轻功甚好，小巷道路繁杂灯火昏暗，你竟然跟丢，只好悻悻而归。</div><span class="reward">身法+25</span><table class="choice-table"><tr><td colspan="2">看来我轻功修炼尚不到家，竟未能追得此人，唉。</td></tr>
+          <tr><td>不必气馁，你年纪尚小，正常。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>下次不必逞能。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>那你还不勤加修炼，还四处玩耍。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3 对罕见小食更感兴趣。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">果如友人所言，不少货郎叫卖着以前从未得尝的各地特色美食，你一路游逛下来，颇觉新鲜。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1 继续采购。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">不知不觉已月上梢头，你与友人尽兴而归，你顺带多购置了些方便久存的小食，准备带回给侠客岛与师兄/师姐品尝。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1.1 力道+10</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">不知不觉已月上梢头，你与友人尽兴而归，你顺带多购置了些方便久存的小食，准备带回给侠客岛与师兄/师姐品尝。</div><span class="reward">力道+10 信任度+10</span><table class="choice-table"><tr><td colspan="2">师兄/师姐，这些小食颇为奇特爽口，相信你必然喜欢，快来尝尝。</td></tr>
+          <tr><td>多谢师妹一番心思，这么远实是辛苦了。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>的确好吃，多谢师妹。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>还行。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1.2 根骨+10</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">不知不觉已月上梢头，你与友人尽兴而归，你顺带多购置了些方便久存的小食，准备带回给侠客岛与师兄/师姐品尝。</div><span class="reward">根骨+10 信任度+10</span><table class="choice-table"><tr><td colspan="2">师兄/师姐，这些小食颇为奇特爽口，相信你必然喜欢，快来尝尝。</td></tr>
+          <tr><td>多谢师妹一番心思，这么远实是辛苦了。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>的确好吃，多谢师妹。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>还行。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1.3 气劲+10</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">不知不觉已月上梢头，你与友人尽兴而归，你顺带多购置了些方便久存的小食，准备带回给侠客岛与师兄/师姐品尝。</div><span class="reward">气劲+10 信任度+10</span><table class="choice-table"><tr><td colspan="2">师兄/师姐，这些小食颇为奇特爽口，相信你必然喜欢，快来尝尝。</td></tr>
+          <tr><td>多谢师妹一番心思，这么远实是辛苦了。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>的确好吃，多谢师妹。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>还行。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1.4 身法+10</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">不知不觉已月上梢头，你与友人尽兴而归，你顺带多购置了些方便久存的小食，准备带回给侠客岛与师兄/师姐品尝。</div><span class="reward">身法+10 信任度+10</span><table class="choice-table"><tr><td colspan="2">师兄/师姐，这些小食颇为奇特爽口，相信你必然喜欢，快来尝尝。</td></tr>
+          <tr><td>多谢师妹一番心思，这么远实是辛苦了。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>的确好吃，多谢师妹。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>还行。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1.5 洞察+10</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">不知不觉已月上梢头，你与友人尽兴而归，你顺带多购置了些方便久存的小食，准备带回给侠客岛与师兄/师姐品尝。</div><span class="reward">洞察+10 信任度+10</span><table class="choice-table"><tr><td colspan="2">师兄/师姐，这些小食颇为奇特爽口，相信你必然喜欢，快来尝尝。</td></tr>
+          <tr><td>多谢师妹一番心思，这么远实是辛苦了。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>的确好吃，多谢师妹。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>还行。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2 未时，酒楼食毕小酌。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你突然见酒楼门口有妇女怀抱小儿哭哭啼啼，而掌柜满面怒容，正对她骂骂咧咧不知在说些什么。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1 觉妇孺可怜稚子无辜，上前喝止。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">原来该妇人本是投奔此地亲戚，不料数月钱财销尽寻亲未果，在此间欠下食宿费用无力偿还。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.1 你好言相劝。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text"><br />掌柜言在商言商，不愿再与你多谈，旁边虽然有人围观，但并未有人愿襄助母女二人，看来若你不出手，母女两人怕是要露宿街头。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.1.1 你爽快交银，交与掌柜要其好生安置</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你离开时，却有人前来告知，说掌柜与那妇人联手设下骗局，常有初入江湖之人受骗。<br />你细想之后回答，行骗固然不该，但那妇女所抱的小儿确是饥肠辘辘。若我散去少钱财能令婴孩果腹，便已足够。</div><span class="reward">风雅+10 气劲+20</span><table class="choice-table"><tr><td colspan="2">若有人骗我，我还应该帮他嘛？</td></tr>
+          <tr><td>他骗你，是他不对。你帮不帮他，看你的心。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>最好的方法，就是不要被骗。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>你又被骗了啊？哈哈哈，好蠢...</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.1.2 你与友人商量，暂安顿她于友人居所客房。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">一夜过去，第二日你前去客房，不料这母女二人皆不见踪影，友人家丢失不少贵重物品，你与友人方知受骗。</div><table class="choice-table"><tr><td colspan="2">此番我本是好意，却不料连累友人遭一场灾难，心中十分愧悔。</td></tr>
+          <tr><td>是坏人有心算计，万不可因此弃侠心不顾。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>你还是多向朋友赔礼道歉才是。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>以后你朋友肯定不理你了。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3 午时，你闲逛至杭州擂台。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你见此处人声鼎沸，兵器声不绝于耳，打听方知原来剑荡赛事将近，擂台处不少八荒弟子在此切磋比武，试喂招法。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.1 你瞥见一少年在人群中神采飞扬说着什么。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">原来他正在讲述天下四盟的前辈英杰之事，万里杀唯百姓福祉是问，水龙吟则讲究潇洒不羁，寒江城智武双修，帝王州以天下霸业为野望，即入江湖，他定生死为疆，闯一番事业。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.1.1 你不好打断，听他娓娓而谈。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">听他所言，你觉得他踌躇满志将来定有所为，正巧身上有师兄/师姐送赠四盟信物，决定为他引荐一番。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.1.1.1 介绍其入“寒江城”(灵性>100)或“水龙吟”(风雅>100)</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：灵性>100 or 风雅>100 ）<br />你想寻找那个盟会驻使？</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.1.1.1.1 寻城内寒江城驻使。(灵性>100)</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：灵性>100）<br />正好堂主宗文正在此地逗留，听得你引荐，对此人赞赏有嘉，少年得志，决定加入寒江城。</div><span class="reward">侠誉图：苏杭·寒江</span><table class="choice-table"><tr><td colspan="2">寒江城智武双修，愿此人能一展宏图。</td></tr>
+          <tr><td>师妹此番义助，想必他心怀感激，是个善缘。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>希望如此。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>我予你之物怎轻易转赠他人？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.1.1.1.2 寻城内水龙吟驻使。(风雅>100)</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：风雅>100）<br />正好堂主林锦枫正在此地逗留，听得你引荐，对此人赞赏有嘉，少年得志，决定加入水龙吟。</div><span class="reward">侠誉图：苏杭·龙吟</span><table class="choice-table"><tr><td colspan="2">水龙吟讲究潇洒不羁，愿此人能一展宏图。</td></tr>
+          <tr><td>师妹此番义助，想必他心怀感激，是个善缘。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>希望如此。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>我予你之物怎轻易转赠他人？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.1.1.2 介绍其入“帝王州”(韬略>100)或“万里沙”(专注>100)</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：韬略>100 or 专注>100 ）<br />你想寻找那个盟会驻使？</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.1.1.2.1 寻城内帝王州驻使。(韬略>100)</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：韬略>100）<br />正好堂主万如一正在此地逗留，听得你引荐，对此人赞赏有嘉，少年得志，决定加入帝王州。</div><span class="reward">侠誉图：苏杭·帝王</span><table class="choice-table"><tr><td colspan="2">帝王州以天下霸业为野望，愿此人能一展宏图。</td></tr>
+          <tr><td>师妹此番义助，想必他心怀感激，是个善缘。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>希望如此。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>我予你之物怎轻易转赠他人？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.1.1.2.2 寻城内万里杀驻使。(专注>100)</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：专注>100）<br />正好堂主黄陶朱正在此地逗留，听得你引荐，对此人赞赏有嘉，少年得志，决定加入万里杀。</div><span class="reward">侠誉图：苏杭·万里</span><table class="choice-table"><tr><td colspan="2">万里杀唯百姓福祉是问，愿此人能一展宏图。</td></tr>
+          <tr><td>师妹此番义助，想必他心怀感激，是个善缘。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>希望如此。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>我予你之物怎轻易转赠他人？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.1.1.3 将信物赠予他，令他自由选择。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">他对你慷慨相赠表示不屑一顾，言若要靠此物方得四盟前辈青睐非君子所为，亦是无用的证明，将此物还与你后离去，你感到尴尬，似是自讨了一场没趣。</div><span class="reward">韬略+25</span><table class="choice-table"><tr><td colspan="2">我一番好意，却遭此人这般嘲讽，真是无趣。</td></tr>
+          <tr><td>他有他的想法，你是一番好意，不必介怀。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>别想了。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>叫你多事，自讨没趣纯属活该。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.2 见一侠士正于角落自斟自饮。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你闻他满身酒气，瞧着装为丐帮打扮，你想丐帮子弟如此形象倒也寻常，细细听去正似乎正在喃喃自语。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.2.1 你耽误过久被他发觉，并瞪了你一眼。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text"><br />你面目通红，自觉无故打量他人欠妥，但又见此人神情落寞又无人相伴，心生结交之意。<br /></div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.2.1.1 思索再三，还是算了。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你四处看人比武喂招，但却未悟得甚武学心得，不觉夕阳已沉，人群渐稀，你意兴阑珊地离开了杭州擂台。</div><table class="choice-table"><tr><td colspan="2">听闻这杭州擂台武客众多，又逢剑荡赛事本以为能多长见识，结果也不过如此。</td></tr>
+          <tr><td>不必气馁，若师妹有兴致，我陪你切磋。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>师妹不必在武学上急于求成，一步一步来。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>比赛年年举办，日头底下无新事。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.2.1.2 上前攀谈。(风雅>200)</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">（选项需满足：风雅>200）<br />原来此人挚友在前次剑荡比赛中因出众表现被人赛中下毒妒害，今日途经开封见此地触景伤怀方借酒浇愁。在你开解下，他渐解心结，与你生结交之意。</div><span class="reward">侠誉图：苏杭·孤伤</span><table class="choice-table"><tr><td colspan="2">听这位丐帮兄弟讲述了不少友人旧事，显是情深义重之人，无奈如今已阴阳两隔，真是令人感慨。</td></tr>
+          <tr><td>会者定离，一期一祈；江湖浮世，如水飘零。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>确实令人感慨。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>他朋友既求虚名定引纷争，因果而已。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">3.3 无啥目的，随便逛逛。</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你四处看人比武喂招，但却未悟得甚武学心得，不觉夕阳已沉，人群渐稀，你意兴阑珊地离开了杭州擂台。</div><table class="choice-table"><tr><td colspan="2">听闻这杭州擂台武客众多，又逢剑荡赛事本以为能多长见识，结果也不过如此。</td></tr>
+          <tr><td>不必气馁，若师妹有兴致，我陪你切磋。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>师妹不必在武学上急于求成，一步一步来。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>比赛年年举办，日头底下无新事。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+    <div class="copyright2">
+    @段段天刀综合助手 www.wuxiatools.com <br />
+    <span style="font-size: 12px;">心法装备帮派技能等模拟工具，砭石物品游历等数据百科大全</span>
+    </div>
+</div>

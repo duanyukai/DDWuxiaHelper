@@ -1,0 +1,5 @@
+.header-collapse :global .ant-collapse-header :global .arrow {
+    font-size: 24px !important;
+    top: 3px !important;
+    left: 16px !important;
+}

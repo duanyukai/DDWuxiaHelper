@@ -1,0 +1,1142 @@
+{
+    "23686": {
+        "name": "万色·霁蓝之雪",
+        "originDes": "吹雪霓裳：基础102、进阶45",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 118,
+        "partList": [
+            1318,
+            1319,
+            1320,
+            1321
+        ],
+        "isSpecial": false,
+        "base": 102,
+        "advance": "45",
+        "specialType": null
+    },
+    "23687": {
+        "name": "万色·幻海之梦",
+        "originDes": "人间梦华：基础157",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 10,
+        "logic": "or",
+        "setId": 128,
+        "partList": [
+            386,
+            387,
+            388,
+            389
+        ],
+        "isSpecial": false,
+        "base": 157,
+        "advance": null,
+        "specialType": null
+    },
+    "23688": {
+        "name": "万色·铁心之兰",
+        "originDes": "无缺：基础102、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 129,
+        "partList": [
+            346,
+            347,
+            348,
+            349
+        ],
+        "isSpecial": false,
+        "base": 102,
+        "advance": "180",
+        "specialType": null
+    },
+    "23689": {
+        "name": "万色·红妆之问",
+        "originDes": "素问：基础4、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 130,
+        "partList": [
+            350,
+            351,
+            352,
+            353
+        ],
+        "isSpecial": false,
+        "base": 4,
+        "advance": "180",
+        "specialType": null
+    },
+    "23690": {
+        "name": "万色·夜行之龙",
+        "originDes": "从龙：基础104、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 134,
+        "partList": [
+            366,
+            367,
+            368,
+            369
+        ],
+        "isSpecial": false,
+        "base": 104,
+        "advance": "180",
+        "specialType": null
+    },
+    "23691": {
+        "name": "万色·深渊之鳞",
+        "originDes": "逆鳞：基础102、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 135,
+        "partList": [
+            370,
+            371,
+            372,
+            373
+        ],
+        "isSpecial": false,
+        "base": 102,
+        "advance": "180",
+        "specialType": null
+    },
+    "23692": {
+        "name": "万色·暮霞之曜",
+        "originDes": "九曜：基础2、进阶147",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 136,
+        "partList": [
+            374,
+            375,
+            376,
+            377
+        ],
+        "isSpecial": false,
+        "base": 2,
+        "advance": "147",
+        "specialType": null
+    },
+    "23693": {
+        "name": "万色·绀兰之光",
+        "originDes": "袭光：基础99$$进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 143,
+        "partList": [
+            1362,
+            1363,
+            1364,
+            1365
+        ],
+        "isSpecial": false,
+        "base": 99,
+        "advance": "180",
+        "specialType": null
+    },
+    "23694": {
+        "name": "万色·微醺之云",
+        "originDes": "冰云：基础4、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 152,
+        "partList": [
+            1389,
+            1390,
+            1391,
+            1392
+        ],
+        "isSpecial": false,
+        "base": 4,
+        "advance": "180",
+        "specialType": null
+    },
+    "23695": {
+        "name": "万色·焰蝶之衣",
+        "originDes": "蝶衣：基础178",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 10,
+        "logic": "or",
+        "setId": 153,
+        "partList": [
+            1398,
+            1399,
+            1400,
+            1401
+        ],
+        "isSpecial": false,
+        "base": 178,
+        "advance": null,
+        "specialType": null
+    },
+    "23696": {
+        "name": "万色·绛灵之羽",
+        "originDes": "翎羽：基础176、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 156,
+        "partList": [
+            1402,
+            1403,
+            1404,
+            1405
+        ],
+        "isSpecial": false,
+        "base": 176,
+        "advance": "180",
+        "specialType": null
+    },
+    "23697": {
+        "name": "万色·苍涛之霞",
+        "originDes": "明霞：基础100",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 10,
+        "logic": "or",
+        "setId": 157,
+        "partList": [
+            1444,
+            1445,
+            1446,
+            1447
+        ],
+        "isSpecial": false,
+        "base": 100,
+        "advance": null,
+        "specialType": null
+    },
+    "23698": {
+        "name": "万色·鎏金之藏",
+        "originDes": "雾隐雷藏：基础21、进阶81",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 161,
+        "partList": [
+            1473,
+            1474,
+            1475,
+            1476
+        ],
+        "isSpecial": false,
+        "base": 21,
+        "advance": "81",
+        "specialType": null
+    },
+    "23699": {
+        "name": "万色·嫣然之笑",
+        "originDes": "琅琊：基础106",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 10,
+        "logic": "or",
+        "setId": 163,
+        "partList": [
+            1481,
+            1482,
+            1483,
+            1484
+        ],
+        "isSpecial": false,
+        "base": 106,
+        "advance": null,
+        "specialType": null
+    },
+    "23700": {
+        "name": "万色·清肃之山",
+        "originDes": "清甜：基础174、进阶114",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 162,
+        "partList": [
+            1477,
+            1478,
+            1479,
+            1480
+        ],
+        "isSpecial": false,
+        "base": 174,
+        "advance": "114",
+        "specialType": null
+    },
+    "23701": {
+        "name": "万色·碧湖之影",
+        "originDes": "雪影：基础78",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 10,
+        "logic": "or",
+        "setId": 164,
+        "partList": [
+            1485,
+            1486,
+            1487,
+            1488
+        ],
+        "isSpecial": false,
+        "base": 78,
+        "advance": null,
+        "specialType": null
+    },
+    "23702": {
+        "name": "万色·密云之欢",
+        "originDes": "相见欢：基础107",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 10,
+        "logic": "or",
+        "setId": 165,
+        "partList": [
+            1489,
+            1490,
+            1491,
+            1492
+        ],
+        "isSpecial": false,
+        "base": 107,
+        "advance": null,
+        "specialType": null
+    },
+    "23703": {
+        "name": "万色·银蓝之锦",
+        "originDes": "锦衣：基础101、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 166,
+        "partList": [
+            1498,
+            1499,
+            1500,
+            1501
+        ],
+        "isSpecial": false,
+        "base": 101,
+        "advance": "180",
+        "specialType": null
+    },
+    "23704": {
+        "name": "万色·高天之风",
+        "originDes": "听风：基础109、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 167,
+        "partList": [
+            1502,
+            1503,
+            1504,
+            1505
+        ],
+        "isSpecial": false,
+        "base": 109,
+        "advance": "180",
+        "specialType": null
+    },
+    "23705": {
+        "name": "万色·蔷薇之云",
+        "originDes": "随云：基础176、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 168,
+        "partList": [
+            1513,
+            1514,
+            1515,
+            1516
+        ],
+        "isSpecial": false,
+        "base": 176,
+        "advance": "180",
+        "specialType": null
+    },
+    "23706": {
+        "name": "万色·幽郁之音",
+        "originDes": "舒音：基础105、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 169,
+        "partList": [
+            1519,
+            1520,
+            1521,
+            1522
+        ],
+        "isSpecial": false,
+        "base": 105,
+        "advance": "180",
+        "specialType": null
+    },
+    "23707": {
+        "name": "万色·殷血之蛟",
+        "originDes": "骊珠：基础178、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 170,
+        "partList": [
+            1526,
+            1527,
+            1528,
+            1529
+        ],
+        "isSpecial": false,
+        "base": 178,
+        "advance": "180",
+        "specialType": null
+    },
+    "23708": {
+        "name": "万色·洗水之竹",
+        "originDes": "落梅：基础108、进阶116",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 171,
+        "partList": [
+            1530,
+            1531,
+            1532,
+            1533
+        ],
+        "isSpecial": false,
+        "base": 108,
+        "advance": "116",
+        "specialType": null
+    },
+    "23709": {
+        "name": "万色·明素之灵",
+        "originDes": "齐灵：基础113",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 10,
+        "logic": "or",
+        "setId": 172,
+        "partList": [
+            1536,
+            1537,
+            1538,
+            1539
+        ],
+        "isSpecial": false,
+        "base": 113,
+        "advance": null,
+        "specialType": null
+    },
+    "23710": {
+        "name": "万色·凝玉之怀",
+        "originDes": "入君怀：基础107、进阶120",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 173,
+        "partList": [
+            1541,
+            1542,
+            1543,
+            1544
+        ],
+        "isSpecial": false,
+        "base": 107,
+        "advance": "120",
+        "specialType": null
+    },
+    "23711": {
+        "name": "万色·浅妃之羽",
+        "originDes": "天羽含光：基础177、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 174,
+        "partList": [
+            1546,
+            1547,
+            1548,
+            1549
+        ],
+        "isSpecial": false,
+        "base": 177,
+        "advance": "180",
+        "specialType": null
+    },
+    "23712": {
+        "name": "万色·墨染之空",
+        "originDes": "空明：基础101、进阶128",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 175,
+        "partList": [
+            1550,
+            1551,
+            1552,
+            1553
+        ],
+        "isSpecial": false,
+        "base": 101,
+        "advance": "128",
+        "specialType": null
+    },
+    "23713": {
+        "name": "万色·经纶之圣",
+        "originDes": "日月当空：基础105",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 10,
+        "logic": "or",
+        "setId": 176,
+        "partList": [
+            1554,
+            1555,
+            1556,
+            1557
+        ],
+        "isSpecial": false,
+        "base": 105,
+        "advance": null,
+        "specialType": null
+    },
+    "23714": {
+        "name": "万色·海雨之抱",
+        "originDes": "抱春风：基础112",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 10,
+        "logic": "or",
+        "setId": 195,
+        "partList": [
+            1741,
+            1742,
+            1743,
+            1744
+        ],
+        "isSpecial": false,
+        "base": 112,
+        "advance": null,
+        "specialType": null
+    },
+    "23715": {
+        "name": "万色·群鸦之霜",
+        "originDes": "萧霜：基础90、进阶180",
+        "type": "范围染色",
+        "typeIcon": "Icons/Achieve/ach_wanse.png",
+        "meili": 15,
+        "logic": "or",
+        "setId": 196,
+        "partList": [
+            1745,
+            1746,
+            1747,
+            1748
+        ],
+        "isSpecial": false,
+        "base": 90,
+        "advance": "180",
+        "specialType": null
+    },
+    "23716": {
+        "name": "一染·浮华盛锦",
+        "originDes": "吹雪霓裳：点染·金莹",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 118,
+        "partList": [
+            1318,
+            1319,
+            1320,
+            1321
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "金莹"
+    },
+    "23718": {
+        "name": "一染·幽兰玄境",
+        "originDes": "人间梦华：点染·蓝瓷",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 128,
+        "partList": [
+            386,
+            387,
+            388,
+            389
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "蓝瓷"
+    },
+    "23720": {
+        "name": "一染·移花旧事",
+        "originDes": "无缺：点染·蓝瓷",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 129,
+        "partList": [
+            346,
+            347,
+            348,
+            349
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "蓝瓷"
+    },
+    "23722": {
+        "name": "一染·灵枢烛影",
+        "originDes": "素问：点染·红烬",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 130,
+        "partList": [
+            350,
+            351,
+            352,
+            353
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "红烬"
+    },
+    "23724": {
+        "name": "一染·一人之下",
+        "originDes": "从龙：点染·金莹",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 134,
+        "partList": [
+            366,
+            367,
+            368,
+            369
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "金莹"
+    },
+    "23726": {
+        "name": "一染·燕水萧萧",
+        "originDes": "逆鳞：点染·金莹",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 135,
+        "partList": [
+            370,
+            371,
+            372,
+            373
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "金莹"
+    },
+    "23728": {
+        "name": "一染·观星不语",
+        "originDes": "九曜：点染·蓝瓷",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 136,
+        "partList": [
+            374,
+            375,
+            376,
+            377
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "蓝瓷"
+    },
+    "23730": {
+        "name": "一染·东宫未嫁",
+        "originDes": "袭光：点染·红烬",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 143,
+        "partList": [
+            1362,
+            1363,
+            1364,
+            1365
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "红烬"
+    },
+    "23732": {
+        "name": "一染·海波沧浪",
+        "originDes": "冰云：点染·蓝瓷",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 152,
+        "partList": [
+            1389,
+            1390,
+            1391,
+            1392
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "蓝瓷"
+    },
+    "23734": {
+        "name": "一染·化骨缠绵",
+        "originDes": "蝶衣：点染·红烬",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 153,
+        "partList": [
+            1398,
+            1399,
+            1400,
+            1401
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "红烬"
+    },
+    "23736": {
+        "name": "一染·天命神铸",
+        "originDes": "翎羽：点染·红烬",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 156,
+        "partList": [
+            1402,
+            1403,
+            1404,
+            1405
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "红烬"
+    },
+    "23738": {
+        "name": "一染·苍狼战甲",
+        "originDes": "明霞：点染·竹青",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 157,
+        "partList": [
+            1444,
+            1445,
+            1446,
+            1447
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "竹青"
+    },
+    "23740": {
+        "name": "一染·任我纵横",
+        "originDes": "雾隐雷藏：点染·金莹",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 161,
+        "partList": [
+            1473,
+            1474,
+            1475,
+            1476
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "金莹"
+    },
+    "23742": {
+        "name": "一染·少年意气",
+        "originDes": "琅琊：点染·蓝瓷",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 163,
+        "partList": [
+            1481,
+            1482,
+            1483,
+            1484
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "蓝瓷"
+    },
+    "23744": {
+        "name": "一染·天上王城",
+        "originDes": "清甜：点染·金莹",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 162,
+        "partList": [
+            1477,
+            1478,
+            1479,
+            1480
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "金莹"
+    },
+    "23746": {
+        "name": "一染·雪落青竹",
+        "originDes": "雪影：点染·竹青",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 164,
+        "partList": [
+            1485,
+            1486,
+            1487,
+            1488
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "竹青"
+    },
+    "23748": {
+        "name": "一染·寸心风流",
+        "originDes": "相见欢：点染·蓝瓷",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 165,
+        "partList": [
+            1489,
+            1490,
+            1491,
+            1492
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "蓝瓷"
+    },
+    "23750": {
+        "name": "一染·墨梅飞鱼",
+        "originDes": "锦衣：点染·红烬",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 166,
+        "partList": [
+            1498,
+            1499,
+            1500,
+            1501
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "红烬"
+    },
+    "23752": {
+        "name": "一染·青帝掠世",
+        "originDes": "听风：点染·蓝瓷",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 167,
+        "partList": [
+            1502,
+            1503,
+            1504,
+            1505
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "蓝瓷"
+    },
+    "23754": {
+        "name": "一染·仙岛留香",
+        "originDes": "随云：点染·金莹",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 168,
+        "partList": [
+            1513,
+            1514,
+            1515,
+            1516
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "金莹"
+    },
+    "23756": {
+        "name": "一染·舞乐倾城",
+        "originDes": "舒音：点染·金莹",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 169,
+        "partList": [
+            1519,
+            1520,
+            1521,
+            1522
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "金莹"
+    },
+    "23758": {
+        "name": "一染·赤血丹心",
+        "originDes": "骊珠：点染·红烬",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 170,
+        "partList": [
+            1526,
+            1527,
+            1528,
+            1529
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "红烬"
+    },
+    "23760": {
+        "name": "一染·青枫赠意",
+        "originDes": "落梅：点染·蓝瓷",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 171,
+        "partList": [
+            1530,
+            1531,
+            1532,
+            1533
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "蓝瓷"
+    },
+    "23762": {
+        "name": "一染·浪子倾情",
+        "originDes": "齐灵：点染·竹青",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 172,
+        "partList": [
+            1536,
+            1537,
+            1538,
+            1539
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "竹青"
+    },
+    "23764": {
+        "name": "一染·愿为长风",
+        "originDes": "入君怀：点染·竹青",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 173,
+        "partList": [
+            1541,
+            1542,
+            1543,
+            1544
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "竹青"
+    },
+    "23766": {
+        "name": "一染·红日照暖",
+        "originDes": "天羽含光：点染·红烬",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 174,
+        "partList": [
+            1546,
+            1547,
+            1548,
+            1549
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "红烬"
+    },
+    "23768": {
+        "name": "一染·不戒红尘",
+        "originDes": "空明：点染·红烬",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 175,
+        "partList": [
+            1550,
+            1551,
+            1552,
+            1553
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "红烬"
+    },
+    "23770": {
+        "name": "一染·万世盛唐",
+        "originDes": "日月当空：点染·金莹",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 25,
+        "logic": "or",
+        "setId": 176,
+        "partList": [
+            1554,
+            1555,
+            1556,
+            1557
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "金莹"
+    },
+    "23772": {
+        "name": "一染·死生契阔",
+        "originDes": "抱春风：点染·蓝瓷",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 195,
+        "partList": [
+            1741,
+            1742,
+            1743,
+            1744
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "蓝瓷"
+    },
+    "23774": {
+        "name": "一染·域外天穹",
+        "originDes": "萧霜：点染·蓝瓷",
+        "type": "定制染色",
+        "typeIcon": "Icons/Achieve/ach_yiran.png",
+        "meili": 20,
+        "logic": "or",
+        "setId": 196,
+        "partList": [
+            1745,
+            1746,
+            1747,
+            1748
+        ],
+        "isSpecial": true,
+        "base": null,
+        "advance": null,
+        "specialType": "蓝瓷"
+    }
+}

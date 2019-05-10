@@ -20,7 +20,6 @@ const iconPath = require.context('../assets/imgs/icons', true);
 import mapPosNameList from '../assets/json/positions/location_name.json';
 import polylabel from 'polylabel';
 // 地图行政区划json
-// import regionGeoJson from '../assets/json/region_geojson/kf.json';
 const regionGeoJson = require.context('../assets/json/region_geojson', true);
 
 class WuxiaLeafletMap extends Component {

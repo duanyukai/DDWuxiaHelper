@@ -1,0 +1,39 @@
+.level-input-group {
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+    max-width: 600px;
+    width: 100%;
+}
+
+.level-input-group table {
+    width: 100%;
+}
+
+.level-input-group h4 {
+    color: rgba(0,0,0,0.65);
+    margin: 2px;
+    font-size: 16px;
+    /*font-weight: bold;*/
+}
+
+.shimei-skill-level-table {
+    margin: 0 auto;
+    border: solid 1px #000;
+    user-select: none;
+    overflow-x: scroll;
+}
+
+.shimei-skill-level-table * {
+    white-space: nowrap;
+}
+
+.shimei-skill-level-table tr,
+.shimei-skill-level-table td
+{
+    border: solid 1px #000;
+}
+
+.shimei-skill-level-table tbody tr:nth-child(odd) {
+    background-color: #fff;
+}

@@ -1,0 +1,39 @@
+.three-col-wrapper {
+    height: calc(100vh - 100px);
+    min-height: 600px;
+    max-height: 800px;
+    border: solid 1px #000b14;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.category-col {
+    float: left;
+    width: 80px;
+    height: 100%;
+    background: #001529;
+}
+
+.search-list-col {
+    float: left; width: 45%;
+    height: 100%;
+    background: #f0f2f5;
+    padding: 10px;
+    position: relative;
+}
+
+.search-bar {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+
+.search-list {
+    margin-top: 100px;
+    box-sizing: border-box;
+    /*overflow: scroll;*/
+    height: 100%;
+}

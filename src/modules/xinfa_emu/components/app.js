@@ -14,6 +14,8 @@ import './css/app.css';
 import XinfaSlotsPanel from '../containers/xinfa_slots';
 import XinfaTotalPropsPanel from '../containers/xinfa_total_props';
 import { Helmet } from 'react-helmet';
+import BannerAd from "../../_commons/ad/components/banner_ad";
+import TextAd from "../../_commons/ad/components/text_ad";
 
 class XinfaEmuApp extends Component {
   render() {
@@ -31,6 +33,7 @@ class XinfaEmuApp extends Component {
             <Row>
               <Col xs={12} lg={10} lgOffset={1}>
                 <Col xs={12} style={{padding: '0'}}>
+                  <TextAd />
                   <WuxiaPanel title='测试版说明'>
                     本心法模拟器还在积极更新、测试中，由于时间紧迫，可能会有数据、UI等方面的bug，恳请您积极反馈问题，段段也会争取早日发布正式版。
                     <br/>
@@ -81,18 +84,8 @@ class XinfaEmuApp extends Component {
               </Col>
             </Row>
           </Grid>
+          <BannerAd />
         </div>
-        {/*<div styleName='other-container'>*/}
-        {/*<Grid>*/}
-        {/*<Row>*/}
-        {/*<Col xs={12} md={10} mdOffset={1}>*/}
-        {/*<Panel>*/}
-        {/*<ChangyanComment sourceId='xinfa-emu' />*/}
-        {/*</Panel>*/}
-        {/*</Col>*/}
-        {/*</Row>*/}
-        {/*</Grid>*/}
-        {/*</div>*/}
       </div>
     );
   }

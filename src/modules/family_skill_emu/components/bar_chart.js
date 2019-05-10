@@ -1,12 +1,9 @@
 import React, {Component} from 'react';
 import range from 'lodash/range';
-import propTypes from 'prop-types';
 import Chart from 'chart.js';
 class BarChart extends Component {
   constructor(props) {
     super(props);
-
-
   }
 
   componentDidMount() {

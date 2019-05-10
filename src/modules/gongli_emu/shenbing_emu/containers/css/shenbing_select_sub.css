@@ -1,0 +1,36 @@
+.shenbing-btn-wrapper {
+
+}
+
+.shenbing-btn {
+    height: 44px;
+    width: 215px;
+    vertical-align: bottom;
+    border-bottom-color: transparent;
+    border-radius: 0;
+}
+
+.shenbing-btn:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.shenbing-btn:last-child {
+    border-radius: 0 0 5px 5px;
+    border-bottom-color: #ccc;
+}
+
+.shenbing-btn:last-child:hover {
+    border-radius: 0 0 5px 5px;
+    border-bottom-color: #40a9ff;
+}
+
+.shenbing-btn img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.shenbing-btn div {
+    margin-left: 42px;
+    text-align: right;
+}

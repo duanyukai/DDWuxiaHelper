@@ -1,0 +1,626 @@
+
+<meta charset="utf-8">
+<style>
+    * {
+        font-family: '微软雅黑';
+    }
+    .card-container {
+        width: 750px;
+        /*border: 1px #000 solid;*/
+        border: 37px solid;
+        border-image: url(bg.png) 37 37 fill repeat;
+        text-align: center;
+    }
+     .card-container > .card-selection-header {
+        /*display: none;*/
+        margin-top: -20px;
+    }
+    .card-container > .card-selection-header > .card-selection-header-text,
+    .card-container > .card-selection-header > .vertical-line,
+    .card-container > .card-selection-header > .horizontal-line {
+        display: none;
+    }
+    .card-header {
+        font-size: 28px;
+        text-align: center;
+        /*border-image: url(text-bg.png) 0 32 fill stretch;*/
+        background-image: linear-gradient(to right, rgba(101,81,73,0), rgba(101,81,73,0.5),rgba(101,81,73,0.5), rgba(101,81,73,0));
+        /*width: 60%;*/
+        display: inline-block;
+        padding: 0 80px;
+        font-family: 华文中宋;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        /*text-shadow: 2px 2px 2px #ccc;*/
+    }
+    .card-no {
+         font-size: 14px;
+         font-family: 华文中宋;
+         font-weight: bold;
+    }
+    .card-img {
+        display: block;
+        margin: 4px auto;
+        width: 693px;
+        height: 289px;
+        box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.6);
+    }
+    .condition {
+        font-weight: bold;
+        color: #444;
+    }
+    .condition-text {
+        font-weight: normal;
+        color: #64534a;
+    }
+    .card-selection-container {
+
+    }
+    .card-selection {
+        /*margin-left: 12px;*/
+        padding-left: 22px;
+        overflow: hidden;
+        margin-top: -5px;
+        padding-top: 5px;
+    }
+    .card-selection-header {
+        position: relative;
+        font-size: 18px;
+        display: block;
+        height: 25px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    .card-selection-header-text {
+        border-style: solid;
+        border-width: 4px 40px;
+        border-image: url(btn.png) 4 40 fill stretch;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: -10px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .vertical-line {
+        width: 6px;
+        height: 10000px;
+        background: #4e5333;
+        position: absolute;
+        top: -9985px;
+        left: -16px;
+    }
+    .horizontal-line {
+        width: 20px;
+        height: 6px;
+        position: absolute;
+        background: #4e5333;
+        top: 9.7px;
+        left: -16px;
+    }
+    .diamond {
+        width: 6px;
+        height: 6px;
+        margin: 7px 0 0 7px;
+        border: 5px solid #4e5333;
+        z-index: 999;
+        transform-origin: 0 100%;
+        transform: rotate(-45deg);
+        background: #747b4c;
+        position: absolute;
+        left: -19px;
+        top: 1px;
+    }
+    .diamond2 {
+        top: 1px;
+        left: 2px;
+    }
+    .card-text {
+        margin: 10px 5px;
+        border: 1px solid #aaa;
+        background: rgba(0,0,0,0.1);
+        text-align: left;
+        padding: 5px;
+    }
+    .reward {
+        background: #574965;
+        color: #fff;
+        border-radius: 3px;
+        padding: 2px 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .copyright1 {
+        color: #64534a;
+        font-weight: bold;
+        font-size: 22px;
+    }
+     .copyright2 {
+        color: #64534a;
+    }
+    .choice-table {
+        margin: 4px 0;
+        border-collapse: collapse;
+        border: #666 solid 1px;
+        border-width: 1px 1px;
+    }
+    .choice-table td {
+        font-family: 'Source Code Pro', '微软雅黑';    
+    }
+    .choice-table tr:first-child {
+        border: #666 solid 1px;
+        border-width: 1px 0px;
+    }
+    .choice-table tr:first-child td {
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+</style>
+<div class="card-container">
+    <div class="copyright1">
+    天涯明月刀2018年冬季青梅煮酒版本 小师妹游历玩法最全攻略<br />
+    游历文案与图片、触发条件、选项分支及条件、奖励、对话大全<br />
+    【多玩天刀攻略团】段段 整理（长生剑 涂铃铃）
+    </div>
+    <div class="card-no">№7004</div>
+    <div class="card-header">上下求索</div>
+    <div class="card-conditions">
+        <div>
+        <span class="condition">条件1：当完成了任务7003且完成分支700317时，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长15次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件2：当完成了任务7003且完成分支700317时，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长15次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件3：当完成了任务7003且完成分支700317时，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长15次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件4：当完成了任务7003且完成分支700317时，</span>
+        <span class="condition-text">概率0.1%，可重复完成，cd时长15次</span>
+        </div>
+      </div>
+    <img class="card-img" src="../imgs/XIAYULU_TIPS/7000.PNG"/>
+    
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text"> 上下求索</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你号称出门游历，但只有你内心知晓，真正的目的乃是何处。曾经遇到过的那个李姓少年，他那几乎停顿在你眼前的飞镖，已成为你心头萦绕之结。若不调查清楚，你终日寝食难安。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1 前往东越调查</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你来到东越的唯一目的，乃是此处有曾从属于百晓生的寒江城，如今已然独立的情报机构——绝智轩。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1 使用师兄/师姐名帖，前往拜访</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">一名少女娇俏笑道，“原来是那位少侠的小师妹啊。你想知道些什么呢？”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1 描述沾毒飞镖形态</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“你所形容的飞镖我从未见过。但我可以为你绘制下来，悬赏询问消息。”少女道，“只是，价钱不便宜哦。”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.1 痛快付钱</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“很好。你先回去吧。若是有了消息，我会去信侠客岛的。”少女收下钱财，笑眯眯地说。你将信将疑，不知道自己这一趟，走得究竟有没有意义。</div><span class="reward">风雅+30</span><table class="choice-table"><tr><td colspan="2">给了钱，就一定会得到想要的东西么？</td></tr>
+          <tr><td>你真心想要的东西，一定可以得到。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>要看对方是什么人。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>你又乱花钱了？？</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1.2 思考再三，礼貌拒绝</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“没关系，什么时候想好了的话，随时来找我吧。”那少女笑着递来一张名帖，“我叫顾卿卿。记得哦。”</div><table class="choice-table"><tr><td colspan="2">我仿佛又做了一些没用的事情。</td></tr>
+          <tr><td>只要你做了，经历了，就是有用的。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>没关系，开心就好。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>以后别做了。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2 询问李姓少年情况</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“这江湖中姓李的人没有一千也有八百。前朝李唐，李氏更是国姓。除此之外还有什么特征呢？”少女认真地分析和询问起来。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.1 “他投掷暗器的手法，很似唐门。”</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“若真是唐门中人，暗器手法如此出众的话，恐怕都姓唐哦。”那个少女十分谙熟，“你是看错了吧，小妹妹。”</div><span class="reward">洞察+20</span><table class="choice-table"><tr><td colspan="2">我仿佛又做了一些没用的事情。</td></tr>
+          <tr><td>只要你做了，经历了，就是有用的。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>没关系，开心就好。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>以后别做了。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.2.2 “他身法轻灵，有如五毒弟子一般。”</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“五毒地处偏远，民风独特。那里可不会有什么姓李的少年。”那个少女摇摇头道，“恐怕你的判断失误了哦。”</div><span class="reward">身法+20</span><table class="choice-table"><tr><td colspan="2">我仿佛又做了一些没用的事情。</td></tr>
+          <tr><td>只要你做了，经历了，就是有用的。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>没关系，开心就好。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>以后别做了。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2 前往订购北宋百科全书</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">掌柜的惊叹竟有人如此豪气，一下子出手买满整套百科全书。他更是引你前往拜见恰巧今日在店内的——轩辕十四前辈。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1 “轩辕十四……是一颗星辰的名字？</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">对方乃是一位清秀英俊的前辈，他微微笑着点头回应，但眼神中却是拒人千里之外的冷漠。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1.1 你被那气势所震慑，一时忘了要说什么</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">今次东越之行，竟是无功而返。你心中怏怏不乐，但却记住了这位以星辰为名的前辈高人。</div><span class="reward">韬略+10</span><table class="choice-table"><tr><td colspan="2">我仿佛又做了一些没用的事情。</td></tr>
+          <tr><td>只要你做了，经历了，就是有用的。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>没关系，开心就好。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>以后别做了。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.2 “这套百科全书编得真好啊。”</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“你还没看，怎知道编得好？”对方的声音清冷，眸子里射出不怒自威的寒芒。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.2.1 你一时语塞，想解释却又不知如何开口</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">今次东越之行，竟是无功而返。你也意识到行走江湖，随意客套这种事，可能并没有什么用处。</div><span class="reward">专注+10</span><table class="choice-table"><tr><td colspan="2">我仿佛又做了一些没用的事情。</td></tr>
+          <tr><td>只要你做了，经历了，就是有用的。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>没关系，开心就好。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>以后别做了。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2 前往开封调查</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">开封是天下情报聚集之地，你前往相国寺碰碰运气，看看有没有人认识那个李姓少年。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1 与扫地僧闲谈</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“前朝天风，今世海雨。别的我不知道，但，小施主或可求个签文，以解心头之惑。”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.1.1 依言前往求签</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你求到一张签文，上书“江南美景今犹在，落花时节又逢君”两句。百思不得解时，再找那扫地僧，已是人去楼空。</div><span class="reward">侠誉图：求索·灵签</span><table class="choice-table"><tr><td colspan="2">求签这种事情...准不准呢？</td></tr>
+          <tr><td>不准也没关系，我会帮你实现。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>信则灵，不信则不灵。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>都是迷信。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.2 与住持闲谈</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“阿弥陀佛，善哉善哉。”住持看了你几眼，流露出十分慈爱的神色，“这里有些果子和几本经书，赠予小施主吧。”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.2.1 一脸茫然地收了下来</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“但我不是为了这个来的...”你还想争辩，住持已被其他香客围了起来，每个人都比你高，你被挡在外面，再找不到机会和住持说话了。</div><span class="reward">力道+30</span><table class="choice-table"><tr><td colspan="2">好讨厌哦，每个人都当我是小孩子。</td></tr>
+          <tr><td>你是你，其他人怎么想不必在意。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>小孩子有什么不好？无忧无虑的。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>你本来就是。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.3 与香客闲谈</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“北方可很少有姓李的人了。”香客说，“五代各国都曾追杀过李唐后人。倒是南方许多小国，曾假托李氏血脉，但现在却也没什么动静了。”</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">2.3.1 详细询问</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">“别的我也不知道什么了。如今乃是清宁盛世，我们普罗百姓只希望不要打仗就好。”香客感慨着说，“多读书，少动武，就会天下太平。”</div><span class="reward">灵性+20</span><table class="choice-table"><tr><td colspan="2">学武...到底有没有用呢？</td></tr>
+          <tr><td>学武可以保护自己，也能保护你想要保护的人。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>至少可以强身健体，怎么能说没用呢？</td><td>亲密度+1</td></tr>
+        
+          <tr><td>学不好，就没用咯。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+    <div class="copyright2">
+    @段段天刀综合助手 www.wuxiatools.com <br />
+    <span style="font-size: 12px;">心法装备帮派技能等模拟工具，砭石物品游历等数据百科大全</span>
+    </div>
+</div>

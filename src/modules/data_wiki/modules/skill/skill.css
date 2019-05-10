@@ -1,0 +1,17 @@
+.skill-panel {
+    width: 300px;
+    background: #212121;
+    color: #fff;
+    margin: 3px;
+    display: inline-block;
+}
+
+.skill-name {
+    font-size: 18px;
+}
+
+
+
+.skill-panel-background {
+    color: #e3e309;
+}

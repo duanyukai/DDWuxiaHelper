@@ -10,6 +10,7 @@ export const SELECT_AFFIX = 'SELECT_AFFIX';
 export const CLEAR_CURRENT_POS = 'CLEAR_CURRENT_POS';
 export const CLEAR_CURRENT_CONFIG = 'CLEAR_CURRENT_CONFIG';
 export const RESET_ALL = 'RESET_ALL';
+export const BATCH_SET_EQUIPS = 'BATCH_SET_EQUIPS';
 
 // 选择配置
 export function selectSet(setId) {
@@ -104,5 +105,15 @@ export function resetAll() {
   return {
     type: RESET_ALL,
     payload: {}
+  };
+}
+
+// 批量设置装备
+export function batchSetEquips(batchData) {
+  return {
+    type: BATCH_SET_EQUIPS,
+    payload: {
+      batchData
+    }
   };
 }

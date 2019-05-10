@@ -1,0 +1,388 @@
+
+<meta charset="utf-8">
+<style>
+    * {
+        font-family: '微软雅黑';
+    }
+    .card-container {
+        width: 750px;
+        /*border: 1px #000 solid;*/
+        border: 37px solid;
+        border-image: url(bg.png) 37 37 fill repeat;
+        text-align: center;
+    }
+     .card-container > .card-selection-header {
+        /*display: none;*/
+        margin-top: -20px;
+    }
+    .card-container > .card-selection-header > .card-selection-header-text,
+    .card-container > .card-selection-header > .vertical-line,
+    .card-container > .card-selection-header > .horizontal-line {
+        display: none;
+    }
+    .card-header {
+        font-size: 28px;
+        text-align: center;
+        /*border-image: url(text-bg.png) 0 32 fill stretch;*/
+        background-image: linear-gradient(to right, rgba(101,81,73,0), rgba(101,81,73,0.5),rgba(101,81,73,0.5), rgba(101,81,73,0));
+        /*width: 60%;*/
+        display: inline-block;
+        padding: 0 80px;
+        font-family: 华文中宋;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        /*text-shadow: 2px 2px 2px #ccc;*/
+    }
+    .card-no {
+         font-size: 14px;
+         font-family: 华文中宋;
+         font-weight: bold;
+    }
+    .card-img {
+        display: block;
+        margin: 4px auto;
+        width: 693px;
+        height: 289px;
+        box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.6);
+    }
+    .condition {
+        font-weight: bold;
+        color: #444;
+    }
+    .condition-text {
+        font-weight: normal;
+        color: #64534a;
+    }
+    .card-selection-container {
+
+    }
+    .card-selection {
+        /*margin-left: 12px;*/
+        padding-left: 22px;
+        overflow: hidden;
+        margin-top: -5px;
+        padding-top: 5px;
+    }
+    .card-selection-header {
+        position: relative;
+        font-size: 18px;
+        display: block;
+        height: 25px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    .card-selection-header-text {
+        border-style: solid;
+        border-width: 4px 40px;
+        border-image: url(btn.png) 4 40 fill stretch;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: -10px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .vertical-line {
+        width: 6px;
+        height: 10000px;
+        background: #4e5333;
+        position: absolute;
+        top: -9985px;
+        left: -16px;
+    }
+    .horizontal-line {
+        width: 20px;
+        height: 6px;
+        position: absolute;
+        background: #4e5333;
+        top: 9.7px;
+        left: -16px;
+    }
+    .diamond {
+        width: 6px;
+        height: 6px;
+        margin: 7px 0 0 7px;
+        border: 5px solid #4e5333;
+        z-index: 999;
+        transform-origin: 0 100%;
+        transform: rotate(-45deg);
+        background: #747b4c;
+        position: absolute;
+        left: -19px;
+        top: 1px;
+    }
+    .diamond2 {
+        top: 1px;
+        left: 2px;
+    }
+    .card-text {
+        margin: 10px 5px;
+        border: 1px solid #aaa;
+        background: rgba(0,0,0,0.1);
+        text-align: left;
+        padding: 5px;
+    }
+    .reward {
+        background: #574965;
+        color: #fff;
+        border-radius: 3px;
+        padding: 2px 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .copyright1 {
+        color: #64534a;
+        font-weight: bold;
+        font-size: 22px;
+    }
+     .copyright2 {
+        color: #64534a;
+    }
+    .choice-table {
+        margin: 4px 0;
+        border-collapse: collapse;
+        border: #666 solid 1px;
+        border-width: 1px 1px;
+    }
+    .choice-table td {
+        font-family: 'Source Code Pro', '微软雅黑';    
+    }
+    .choice-table tr:first-child {
+        border: #666 solid 1px;
+        border-width: 1px 0px;
+    }
+    .choice-table tr:first-child td {
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+</style>
+<div class="card-container">
+    <div class="copyright1">
+    天涯明月刀2018年冬季青梅煮酒版本 小师妹游历玩法最全攻略<br />
+    游历文案与图片、触发条件、选项分支及条件、奖励、对话大全<br />
+    【多玩天刀攻略团】段段 整理（长生剑 涂铃铃）
+    </div>
+    <div class="card-no">№8003</div>
+    <div class="card-header">九转骊珠</div>
+    <div class="card-conditions">
+        <div>
+        <span class="condition">条件1：当韬略>=50时，</span>
+        <span class="condition-text">概率0.4%，可重复完成，cd时长80次</span>
+        </div>
+      
+        <div>
+        <span class="condition">条件2：当韬略>=50时，</span>
+        <span class="condition-text">概率0.4%，可重复完成，cd时长80次</span>
+        </div>
+      </div>
+    <img class="card-img" src="../imgs/XIAYULU_TIPS/8000.PNG"/>
+    
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text"> 九转骊珠</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">神医倪百草丢失了一味秘药，希望你能协助查访，看看是何人所为。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1 询问倪百草详情</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">倪百草告知，天下间有七大奇毒与三大圣药。其中一味奇毒叫“九转骊珠”，他所丢失的药材便是其主要原料。你仔细思索，要拜访一位谙熟药理之人，方能推测线索。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1 拜访碎星楼，唐门毒王唐啸天</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你前往唐门禁地碎星楼，见毒王唐啸天孤身一人，正独对星天。见你来访十分高兴。唐啸天告知，他只知道多年前九转骊珠乃是天水董家之物，后失传已久。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.1.1 返回告知倪百草</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">倪百草细细询问了你所问何人，所询何事，你一一告知，又商议许久，终无所获。</div><span class="reward">侠誉图：骊珠·碎星 青梅令：50</span><table class="choice-table"><tr><td colspan="2">唐啸天前辈虽有“毒王”之称令世人所敬，但一念之差铸成大错，一辈子都要被困在这碎星楼里，令人嗟叹。</td></tr>
+          <tr><td>师妹若愿，可常去探望拜访。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>他终是为唐门而战的唐门，内心不会孤独。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>人犯错便要承担后果，这是前辈自己的选择。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2 拜访蓝铮，询问他的看法</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你在开封街头找到忙碌的蓝铮。提起此事，蓝铮不禁陷入了对当年的回忆...蓝铮告诉你，当年董氏小姐曾以九转骊珠企图毒杀方龙香，却最终败露，之后此物被方龙香销毁。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.2.1 返回告知倪百草</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">倪百草细细询问了你所问何人，所询何事，你一一告知，又商议许久，终无所获。</div><span class="reward">侠誉图：骊珠·刺龙 青梅令：50</span><table class="choice-table"><tr><td colspan="2">蓝铮师兄所诉刺杀一事虽言语寥寥，但以江湖所传方龙香武功之高，足可想象情景是何等惊心动魄，闻之心战。</td></tr>
+          <tr><td>旧闻令人神往，但你务必放眼当下珍重自身。\n</td><td>亲密度+2</td></tr>
+        
+          <tr><td>听你所说确实胆战心惊，好在已是过去。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>董氏败露，令此物消弭，却也不知是福是祸。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3 拜访云滇，询问祭师百里研阳</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你在云滇陨星湖畔找到了正在采药的五毒祭师。百里研阳告诉你，他听过九转骊珠此毒，但从未亲见。据说中此毒者，会浑身血液凝结而死。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.3.1 返回告知倪百草</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">倪百草细细询问了你所问何人，所询何事，你一一告知，又商议许久，终无所获。</div><span class="reward">侠誉图：骊珠·祭闻 青梅令：50</span><table class="choice-table"><tr><td colspan="2">远走云滇一趟拜访了五毒，与百里祭师交谈时见他眉间隐有忧色，大概是还在为奉月师姐所中之毒忧思罢。</td></tr>
+          <tr><td>愿师姐之毒早日消除，终有情人能成眷属。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>听祭师所述确为奇毒，你可要小心行事。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>所查之事尚无眉目，你却有闲心在此旁事。</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.4 拜访移花，询问沈醉花沈宗主</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你来到移花，见到沈醉花正在醉心花树下修行。你静待他修行完毕，顺便观赏移花美景。<br />沈醉花修行结束后与你交谈。原来他对九转骊珠十分熟悉——此物生于静水沉渊之中，只能采集而得，人力无法炼制。</div>
+            </div>
+            
+<div class="card-selection-header">
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="diamond diamond2"></div>
+    <span class="card-selection-header-text">1.4.1 心中不禁升起怀疑</span>
+</div>
+
+<div class="card-sub-panel">
+    <div class="card-selection-container">
+        <div class="card-selection">
+            <div class="card-text">
+                <div class="card-text-text">你返回试探倪百草，发现其言语闪烁，追问极细。你将其事暗报叶知秋，得到四字指示：按兵不动。</div><span class="reward">侠誉图：骊珠·沉渊 青梅令：50</span><table class="choice-table"><tr><td colspan="2">从倪百草的闪烁其辞来看，此事或许并不简单，现在也只好按照叶盟主的指示行事，且观后效。</td></tr>
+          <tr><td>师妹万事小心， 我定当护你周全。</td><td>亲密度+2</td></tr>
+        
+          <tr><td>此后行事且要万般小心，莫要遭此人暗算。</td><td>亲密度+1</td></tr>
+        
+          <tr><td>这般危险叶盟主怎交予你孤身探查，欠妥！</td><td>亲密度+0</td></tr>
+        </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+    <div class="copyright2">
+    @段段天刀综合助手 www.wuxiatools.com <br />
+    <span style="font-size: 12px;">心法装备帮派技能等模拟工具，砭石物品游历等数据百科大全</span>
+    </div>
+</div>

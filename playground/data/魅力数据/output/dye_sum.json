@@ -1,0 +1,2002 @@
+{
+    "23776": {
+        "name": "丰彩染料累计·1",
+        "originDes": "累计消耗：10个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 8,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 10
+    },
+    "23777": {
+        "name": "丰彩染料累计·2",
+        "originDes": "累计消耗：20个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 8,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 20
+    },
+    "23778": {
+        "name": "丰彩染料累计·3",
+        "originDes": "累计消耗：50个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 24,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 50
+    },
+    "23779": {
+        "name": "丰彩染料累计·4",
+        "originDes": "累计消耗：100个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 38,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 100
+    },
+    "23780": {
+        "name": "丰彩染料累计·5",
+        "originDes": "累计消耗：180个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 56,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 180
+    },
+    "23781": {
+        "name": "丰彩染料累计·6",
+        "originDes": "累计消耗：280个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 58,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 280
+    },
+    "23782": {
+        "name": "丰彩染料累计·7",
+        "originDes": "累计消耗：400个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 58,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 400
+    },
+    "23783": {
+        "name": "丰彩染料累计·8",
+        "originDes": "累计消耗：560个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 60,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 560
+    },
+    "23784": {
+        "name": "丰彩染料累计·9",
+        "originDes": "累计消耗：860个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 64,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 860
+    },
+    "23785": {
+        "name": "丰彩染料累计·10",
+        "originDes": "累计消耗：1320个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 64,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 1320
+    },
+    "23786": {
+        "name": "丰彩染料累计·11",
+        "originDes": "累计消耗：1960个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 68,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 1960
+    },
+    "23787": {
+        "name": "丰彩染料累计·12",
+        "originDes": "累计消耗：2800个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 72,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 2800
+    },
+    "23788": {
+        "name": "丰彩染料累计·13",
+        "originDes": "累计消耗：3860个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 76,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 3860
+    },
+    "23789": {
+        "name": "丰彩染料累计·14",
+        "originDes": "累计消耗：5160个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 80,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 5160
+    },
+    "23790": {
+        "name": "丰彩染料累计·15",
+        "originDes": "累计消耗：6720个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 84,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 6720
+    },
+    "23791": {
+        "name": "丰彩染料累计·16",
+        "originDes": "累计消耗：8560个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 88,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 8560
+    },
+    "23792": {
+        "name": "丰彩染料累计·17",
+        "originDes": "累计消耗：10560个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 92,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 10560
+    },
+    "23793": {
+        "name": "丰彩染料累计·18",
+        "originDes": "累计消耗：12700个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 96,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 12700
+    },
+    "23794": {
+        "name": "丰彩染料累计·19",
+        "originDes": "累计消耗：14980个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 100,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 14980
+    },
+    "23795": {
+        "name": "丰彩染料累计·20",
+        "originDes": "累计消耗：17400个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 104,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 17400
+    },
+    "23796": {
+        "name": "丰彩染料累计·21",
+        "originDes": "累计消耗：19960个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 108,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 19960
+    },
+    "23797": {
+        "name": "丰彩染料累计·22",
+        "originDes": "累计消耗：22660个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 112,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 22660
+    },
+    "23798": {
+        "name": "丰彩染料累计·23",
+        "originDes": "累计消耗：25500个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 116,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 25500
+    },
+    "23799": {
+        "name": "丰彩染料累计·24",
+        "originDes": "累计消耗：28480个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 120,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 28480
+    },
+    "23800": {
+        "name": "丰彩染料累计·25",
+        "originDes": "累计消耗：31600个丰彩染料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_fengcairanliao.png",
+        "meili": 124,
+        "logic": "or",
+        "item": "丰彩",
+        "count": 31600
+    },
+    "23801": {
+        "name": "瑶光颜料累计·1",
+        "originDes": "累计消耗：1个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 4,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 1
+    },
+    "23802": {
+        "name": "瑶光颜料累计·2",
+        "originDes": "累计消耗：3个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 8,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 3
+    },
+    "23803": {
+        "name": "瑶光颜料累计·3",
+        "originDes": "累计消耗：6个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 12,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 6
+    },
+    "23804": {
+        "name": "瑶光颜料累计·4",
+        "originDes": "累计消耗：12个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 22,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 12
+    },
+    "23805": {
+        "name": "瑶光颜料累计·5",
+        "originDes": "累计消耗：20个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 24,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 20
+    },
+    "23806": {
+        "name": "瑶光颜料累计·6",
+        "originDes": "累计消耗：30个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 26,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 30
+    },
+    "23807": {
+        "name": "瑶光颜料累计·7",
+        "originDes": "累计消耗：48个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 32,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 48
+    },
+    "23808": {
+        "name": "瑶光颜料累计·8",
+        "originDes": "累计消耗：72个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 32,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 72
+    },
+    "23809": {
+        "name": "瑶光颜料累计·9",
+        "originDes": "累计消耗：108个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 36,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 108
+    },
+    "23810": {
+        "name": "瑶光颜料累计·10",
+        "originDes": "累计消耗：156个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 36,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 156
+    },
+    "23811": {
+        "name": "瑶光颜料累计·11",
+        "originDes": "累计消耗：218个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 40,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 218
+    },
+    "23812": {
+        "name": "瑶光颜料累计·12",
+        "originDes": "累计消耗：290个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 40,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 290
+    },
+    "23813": {
+        "name": "瑶光颜料累计·13",
+        "originDes": "累计消耗：380个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 42,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 380
+    },
+    "23814": {
+        "name": "瑶光颜料累计·14",
+        "originDes": "累计消耗：475个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 42,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 475
+    },
+    "23815": {
+        "name": "瑶光颜料累计·15",
+        "originDes": "累计消耗：575个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 45,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 575
+    },
+    "23816": {
+        "name": "瑶光颜料累计·16",
+        "originDes": "累计消耗：680个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 45,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 680
+    },
+    "23817": {
+        "name": "瑶光颜料累计·17",
+        "originDes": "累计消耗：790个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 48,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 790
+    },
+    "23818": {
+        "name": "瑶光颜料累计·18",
+        "originDes": "累计消耗：905个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 48,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 905
+    },
+    "23819": {
+        "name": "瑶光颜料累计·19",
+        "originDes": "累计消耗：1025个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 52,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 1025
+    },
+    "23820": {
+        "name": "瑶光颜料累计·20",
+        "originDes": "累计消耗：1150个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 52,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 1150
+    },
+    "23821": {
+        "name": "瑶光颜料累计·21",
+        "originDes": "累计消耗：1280个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 55,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 1280
+    },
+    "23822": {
+        "name": "瑶光颜料累计·22",
+        "originDes": "累计消耗：1415个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 55,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 1415
+    },
+    "23823": {
+        "name": "瑶光颜料累计·23",
+        "originDes": "累计消耗：1555个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 58,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 1555
+    },
+    "23824": {
+        "name": "瑶光颜料累计·24",
+        "originDes": "累计消耗：1700个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 58,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 1700
+    },
+    "23825": {
+        "name": "瑶光颜料累计·25",
+        "originDes": "累计消耗：1850个瑶光颜料",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_yaoguangranliao.png",
+        "meili": 64,
+        "logic": "or",
+        "item": "瑶光",
+        "count": 1850
+    },
+    "23826": {
+        "name": "点染·蓝瓷累计·1",
+        "originDes": "累计消耗：1个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 12,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1
+    },
+    "23827": {
+        "name": "点染·蓝瓷累计·2",
+        "originDes": "累计消耗：3个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 24,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 3
+    },
+    "23828": {
+        "name": "点染·蓝瓷累计·3",
+        "originDes": "累计消耗：6个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 34,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 6
+    },
+    "23829": {
+        "name": "点染·蓝瓷累计·4",
+        "originDes": "累计消耗：12个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 60,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 12
+    },
+    "23830": {
+        "name": "点染·蓝瓷累计·5",
+        "originDes": "累计消耗：20个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 70,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 20
+    },
+    "23831": {
+        "name": "点染·蓝瓷累计·6",
+        "originDes": "累计消耗：30个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 76,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 30
+    },
+    "23832": {
+        "name": "点染·蓝瓷累计·7",
+        "originDes": "累计消耗：48个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 82,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 48
+    },
+    "23833": {
+        "name": "点染·蓝瓷累计·8",
+        "originDes": "累计消耗：72个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 90,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 72
+    },
+    "23834": {
+        "name": "点染·蓝瓷累计·9",
+        "originDes": "累计消耗：108个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 96,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 108
+    },
+    "23835": {
+        "name": "点染·蓝瓷累计·10",
+        "originDes": "累计消耗：156个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 96,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 156
+    },
+    "23836": {
+        "name": "点染·蓝瓷累计·11",
+        "originDes": "累计消耗：218个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 102,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 218
+    },
+    "23837": {
+        "name": "点染·蓝瓷累计·12",
+        "originDes": "累计消耗：290个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 102,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 290
+    },
+    "23838": {
+        "name": "点染·蓝瓷累计·13",
+        "originDes": "累计消耗：380个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 108,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 380
+    },
+    "23839": {
+        "name": "点染·蓝瓷累计·14",
+        "originDes": "累计消耗：475个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 108,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 475
+    },
+    "23840": {
+        "name": "点染·蓝瓷累计·15",
+        "originDes": "累计消耗：575个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 114,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 575
+    },
+    "23841": {
+        "name": "点染·蓝瓷累计·16",
+        "originDes": "累计消耗：680个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 114,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 680
+    },
+    "23842": {
+        "name": "点染·蓝瓷累计·17",
+        "originDes": "累计消耗：790个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 120,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 790
+    },
+    "23843": {
+        "name": "点染·蓝瓷累计·18",
+        "originDes": "累计消耗：905个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 120,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 905
+    },
+    "23844": {
+        "name": "点染·蓝瓷累计·19",
+        "originDes": "累计消耗：1025个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 126,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1025
+    },
+    "23845": {
+        "name": "点染·蓝瓷累计·20",
+        "originDes": "累计消耗：1150个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 126,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1150
+    },
+    "23846": {
+        "name": "点染·蓝瓷累计·21",
+        "originDes": "累计消耗：1280个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 135,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1280
+    },
+    "23847": {
+        "name": "点染·蓝瓷累计·22",
+        "originDes": "累计消耗：1415个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 135,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1415
+    },
+    "23848": {
+        "name": "点染·蓝瓷累计·23",
+        "originDes": "累计消耗：1555个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 144,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1555
+    },
+    "23849": {
+        "name": "点染·蓝瓷累计·24",
+        "originDes": "累计消耗：1700个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 144,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1700
+    },
+    "23850": {
+        "name": "点染·蓝瓷累计·25",
+        "originDes": "累计消耗：1850个点染·蓝瓷",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_blue.png",
+        "meili": 150,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1850
+    },
+    "23851": {
+        "name": "点染·竹青累计·1",
+        "originDes": "累计消耗：1个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 12,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1
+    },
+    "23852": {
+        "name": "点染·竹青累计·2",
+        "originDes": "累计消耗：3个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 24,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 3
+    },
+    "23853": {
+        "name": "点染·竹青累计·3",
+        "originDes": "累计消耗：6个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 34,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 6
+    },
+    "23854": {
+        "name": "点染·竹青累计·4",
+        "originDes": "累计消耗：12个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 60,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 12
+    },
+    "23855": {
+        "name": "点染·竹青累计·5",
+        "originDes": "累计消耗：20个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 70,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 20
+    },
+    "23856": {
+        "name": "点染·竹青累计·6",
+        "originDes": "累计消耗：30个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 76,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 30
+    },
+    "23857": {
+        "name": "点染·竹青累计·7",
+        "originDes": "累计消耗：48个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 82,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 48
+    },
+    "23858": {
+        "name": "点染·竹青累计·8",
+        "originDes": "累计消耗：72个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 90,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 72
+    },
+    "23859": {
+        "name": "点染·竹青累计·9",
+        "originDes": "累计消耗：108个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 96,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 108
+    },
+    "23860": {
+        "name": "点染·竹青累计·10",
+        "originDes": "累计消耗：156个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 96,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 156
+    },
+    "23861": {
+        "name": "点染·竹青累计·11",
+        "originDes": "累计消耗：218个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 102,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 218
+    },
+    "23862": {
+        "name": "点染·竹青累计·12",
+        "originDes": "累计消耗：290个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 102,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 290
+    },
+    "23863": {
+        "name": "点染·竹青累计·13",
+        "originDes": "累计消耗：380个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 108,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 380
+    },
+    "23864": {
+        "name": "点染·竹青累计·14",
+        "originDes": "累计消耗：475个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 108,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 475
+    },
+    "23865": {
+        "name": "点染·竹青累计·15",
+        "originDes": "累计消耗：575个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 114,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 575
+    },
+    "23866": {
+        "name": "点染·竹青累计·16",
+        "originDes": "累计消耗：680个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 114,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 680
+    },
+    "23867": {
+        "name": "点染·竹青累计·17",
+        "originDes": "累计消耗：790个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 120,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 790
+    },
+    "23868": {
+        "name": "点染·竹青累计·18",
+        "originDes": "累计消耗：905个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 120,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 905
+    },
+    "23869": {
+        "name": "点染·竹青累计·19",
+        "originDes": "累计消耗：1025个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 126,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1025
+    },
+    "23870": {
+        "name": "点染·竹青累计·20",
+        "originDes": "累计消耗：1150个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 126,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1150
+    },
+    "23871": {
+        "name": "点染·竹青累计·21",
+        "originDes": "累计消耗：1280个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 135,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1280
+    },
+    "23872": {
+        "name": "点染·竹青累计·22",
+        "originDes": "累计消耗：1415个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 135,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1415
+    },
+    "23873": {
+        "name": "点染·竹青累计·23",
+        "originDes": "累计消耗：1555个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 144,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1555
+    },
+    "23874": {
+        "name": "点染·竹青累计·24",
+        "originDes": "累计消耗：1700个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 144,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1700
+    },
+    "23875": {
+        "name": "点染·竹青累计·25",
+        "originDes": "累计消耗：1850个点染·竹青",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_green.png",
+        "meili": 150,
+        "logic": "or",
+        "item": "蓝瓷",
+        "count": 1850
+    },
+    "23876": {
+        "name": "点染·红烬累计·1",
+        "originDes": "累计消耗：1个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 18,
+        "logic": "or",
+        "item": "红烬",
+        "count": 1
+    },
+    "23877": {
+        "name": "点染·红烬累计·2",
+        "originDes": "累计消耗：3个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 36,
+        "logic": "or",
+        "item": "红烬",
+        "count": 3
+    },
+    "23878": {
+        "name": "点染·红烬累计·3",
+        "originDes": "累计消耗：6个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 52,
+        "logic": "or",
+        "item": "红烬",
+        "count": 6
+    },
+    "23879": {
+        "name": "点染·红烬累计·4",
+        "originDes": "累计消耗：12个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 96,
+        "logic": "or",
+        "item": "红烬",
+        "count": 12
+    },
+    "23880": {
+        "name": "点染·红烬累计·5",
+        "originDes": "累计消耗：20个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 112,
+        "logic": "or",
+        "item": "红烬",
+        "count": 20
+    },
+    "23881": {
+        "name": "点染·红烬累计·6",
+        "originDes": "累计消耗：30个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 120,
+        "logic": "or",
+        "item": "红烬",
+        "count": 30
+    },
+    "23882": {
+        "name": "点染·红烬累计·7",
+        "originDes": "累计消耗：48个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 145,
+        "logic": "or",
+        "item": "红烬",
+        "count": 48
+    },
+    "23883": {
+        "name": "点染·红烬累计·8",
+        "originDes": "累计消耗：72个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 156,
+        "logic": "or",
+        "item": "红烬",
+        "count": 72
+    },
+    "23884": {
+        "name": "点染·红烬累计·9",
+        "originDes": "累计消耗：108个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 148,
+        "logic": "or",
+        "item": "红烬",
+        "count": 108
+    },
+    "23885": {
+        "name": "点染·红烬累计·10",
+        "originDes": "累计消耗：156个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 148,
+        "logic": "or",
+        "item": "红烬",
+        "count": 156
+    },
+    "23886": {
+        "name": "点染·红烬累计·11",
+        "originDes": "累计消耗：218个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 146,
+        "logic": "or",
+        "item": "红烬",
+        "count": 218
+    },
+    "23887": {
+        "name": "点染·红烬累计·12",
+        "originDes": "累计消耗：290个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 146,
+        "logic": "or",
+        "item": "红烬",
+        "count": 290
+    },
+    "23888": {
+        "name": "点染·红烬累计·13",
+        "originDes": "累计消耗：380个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 154,
+        "logic": "or",
+        "item": "红烬",
+        "count": 380
+    },
+    "23889": {
+        "name": "点染·红烬累计·14",
+        "originDes": "累计消耗：475个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 154,
+        "logic": "or",
+        "item": "红烬",
+        "count": 475
+    },
+    "23890": {
+        "name": "点染·红烬累计·15",
+        "originDes": "累计消耗：575个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 162,
+        "logic": "or",
+        "item": "红烬",
+        "count": 575
+    },
+    "23891": {
+        "name": "点染·红烬累计·16",
+        "originDes": "累计消耗：680个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 162,
+        "logic": "or",
+        "item": "红烬",
+        "count": 680
+    },
+    "23892": {
+        "name": "点染·红烬累计·17",
+        "originDes": "累计消耗：790个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 170,
+        "logic": "or",
+        "item": "红烬",
+        "count": 790
+    },
+    "23893": {
+        "name": "点染·红烬累计·18",
+        "originDes": "累计消耗：905个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 170,
+        "logic": "or",
+        "item": "红烬",
+        "count": 905
+    },
+    "23894": {
+        "name": "点染·红烬累计·19",
+        "originDes": "累计消耗：1025个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 178,
+        "logic": "or",
+        "item": "红烬",
+        "count": 1025
+    },
+    "23895": {
+        "name": "点染·红烬累计·20",
+        "originDes": "累计消耗：1150个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 178,
+        "logic": "or",
+        "item": "红烬",
+        "count": 1150
+    },
+    "23896": {
+        "name": "点染·红烬累计·21",
+        "originDes": "累计消耗：1280个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 190,
+        "logic": "or",
+        "item": "红烬",
+        "count": 1280
+    },
+    "23897": {
+        "name": "点染·红烬累计·22",
+        "originDes": "累计消耗：1415个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 190,
+        "logic": "or",
+        "item": "红烬",
+        "count": 1415
+    },
+    "23898": {
+        "name": "点染·红烬累计·23",
+        "originDes": "累计消耗：1555个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 202,
+        "logic": "or",
+        "item": "红烬",
+        "count": 1555
+    },
+    "23899": {
+        "name": "点染·红烬累计·24",
+        "originDes": "累计消耗：1700个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 202,
+        "logic": "or",
+        "item": "红烬",
+        "count": 1700
+    },
+    "23900": {
+        "name": "点染·红烬累计·25",
+        "originDes": "累计消耗：1850个点染·红烬",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_red.png",
+        "meili": 210,
+        "logic": "or",
+        "item": "红烬",
+        "count": 1850
+    },
+    "23901": {
+        "name": "点染金莹累计·1",
+        "originDes": "累计消耗：1个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 18,
+        "logic": "or",
+        "item": "金莹",
+        "count": 1
+    },
+    "23902": {
+        "name": "点染金莹累计·2",
+        "originDes": "累计消耗：3个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 36,
+        "logic": "or",
+        "item": "金莹",
+        "count": 3
+    },
+    "23903": {
+        "name": "点染金莹累计·3",
+        "originDes": "累计消耗：6个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 52,
+        "logic": "or",
+        "item": "金莹",
+        "count": 6
+    },
+    "23904": {
+        "name": "点染金莹累计·4",
+        "originDes": "累计消耗：12个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 96,
+        "logic": "or",
+        "item": "金莹",
+        "count": 12
+    },
+    "23905": {
+        "name": "点染金莹累计·5",
+        "originDes": "累计消耗：20个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 112,
+        "logic": "or",
+        "item": "金莹",
+        "count": 20
+    },
+    "23906": {
+        "name": "点染金莹累计·6",
+        "originDes": "累计消耗：30个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 120,
+        "logic": "or",
+        "item": "金莹",
+        "count": 30
+    },
+    "23907": {
+        "name": "点染金莹累计·7",
+        "originDes": "累计消耗：48个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 145,
+        "logic": "or",
+        "item": "金莹",
+        "count": 48
+    },
+    "23908": {
+        "name": "点染金莹累计·8",
+        "originDes": "累计消耗：72个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 156,
+        "logic": "or",
+        "item": "金莹",
+        "count": 72
+    },
+    "23909": {
+        "name": "点染金莹累计·9",
+        "originDes": "累计消耗：108个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 148,
+        "logic": "or",
+        "item": "金莹",
+        "count": 108
+    },
+    "23910": {
+        "name": "点染金莹累计·10",
+        "originDes": "累计消耗：156个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 148,
+        "logic": "or",
+        "item": "金莹",
+        "count": 156
+    },
+    "23911": {
+        "name": "点染金莹累计·11",
+        "originDes": "累计消耗：218个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 146,
+        "logic": "or",
+        "item": "金莹",
+        "count": 218
+    },
+    "23912": {
+        "name": "点染金莹累计·12",
+        "originDes": "累计消耗：290个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 146,
+        "logic": "or",
+        "item": "金莹",
+        "count": 290
+    },
+    "23913": {
+        "name": "点染金莹累计·13",
+        "originDes": "累计消耗：380个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 154,
+        "logic": "or",
+        "item": "金莹",
+        "count": 380
+    },
+    "23914": {
+        "name": "点染金莹累计·14",
+        "originDes": "累计消耗：475个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 154,
+        "logic": "or",
+        "item": "金莹",
+        "count": 475
+    },
+    "23915": {
+        "name": "点染金莹累计·15",
+        "originDes": "累计消耗：575个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 162,
+        "logic": "or",
+        "item": "金莹",
+        "count": 575
+    },
+    "23916": {
+        "name": "点染金莹累计·16",
+        "originDes": "累计消耗：680个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 162,
+        "logic": "or",
+        "item": "金莹",
+        "count": 680
+    },
+    "23917": {
+        "name": "点染金莹累计·17",
+        "originDes": "累计消耗：790个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 170,
+        "logic": "or",
+        "item": "金莹",
+        "count": 790
+    },
+    "23918": {
+        "name": "点染金莹累计·18",
+        "originDes": "累计消耗：905个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 170,
+        "logic": "or",
+        "item": "金莹",
+        "count": 905
+    },
+    "23919": {
+        "name": "点染金莹累计·19",
+        "originDes": "累计消耗：1025个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 178,
+        "logic": "or",
+        "item": "金莹",
+        "count": 1025
+    },
+    "23920": {
+        "name": "点染金莹累计·20",
+        "originDes": "累计消耗：1150个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 178,
+        "logic": "or",
+        "item": "金莹",
+        "count": 1150
+    },
+    "23921": {
+        "name": "点染金莹累计·21",
+        "originDes": "累计消耗：1280个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 190,
+        "logic": "or",
+        "item": "金莹",
+        "count": 1280
+    },
+    "23922": {
+        "name": "点染金莹累计·22",
+        "originDes": "累计消耗：1415个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 190,
+        "logic": "or",
+        "item": "金莹",
+        "count": 1415
+    },
+    "23923": {
+        "name": "点染金莹累计·23",
+        "originDes": "累计消耗：1555个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 202,
+        "logic": "or",
+        "item": "金莹",
+        "count": 1555
+    },
+    "23924": {
+        "name": "点染金莹累计·24",
+        "originDes": "累计消耗：1700个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 202,
+        "logic": "or",
+        "item": "金莹",
+        "count": 1700
+    },
+    "23925": {
+        "name": "点染金莹累计·25",
+        "originDes": "累计消耗：1850个点染·金莹",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_dye_gold.png",
+        "meili": 210,
+        "logic": "or",
+        "item": "金莹",
+        "count": 1850
+    },
+    "30001": {
+        "name": "点染·雪练累计·1",
+        "originDes": "累计消耗：1个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 25,
+        "logic": "and",
+        "item": "雪练",
+        "count": 1
+    },
+    "30002": {
+        "name": "点染·雪练累计·2",
+        "originDes": "累计消耗：3个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 50,
+        "logic": "and",
+        "item": "雪练",
+        "count": 3
+    },
+    "30003": {
+        "name": "点染·雪练累计·3",
+        "originDes": "累计消耗：6个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 72,
+        "logic": "and",
+        "item": "雪练",
+        "count": 6
+    },
+    "30004": {
+        "name": "点染·雪练累计·4",
+        "originDes": "累计消耗：12个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 134,
+        "logic": "and",
+        "item": "雪练",
+        "count": 12
+    },
+    "30005": {
+        "name": "点染·雪练累计·5",
+        "originDes": "累计消耗：20个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 156,
+        "logic": "and",
+        "item": "雪练",
+        "count": 20
+    },
+    "30006": {
+        "name": "点染·雪练累计·6",
+        "originDes": "累计消耗：30个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 168,
+        "logic": "and",
+        "item": "雪练",
+        "count": 30
+    },
+    "30007": {
+        "name": "点染·雪练累计·7",
+        "originDes": "累计消耗：48个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 203,
+        "logic": "and",
+        "item": "雪练",
+        "count": 48
+    },
+    "30008": {
+        "name": "点染·雪练累计·8",
+        "originDes": "累计消耗：72个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 218,
+        "logic": "and",
+        "item": "雪练",
+        "count": 72
+    },
+    "30009": {
+        "name": "点染·雪练累计·9",
+        "originDes": "累计消耗：108个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 207,
+        "logic": "and",
+        "item": "雪练",
+        "count": 108
+    },
+    "30010": {
+        "name": "点染·雪练累计·10",
+        "originDes": "累计消耗：156个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 207,
+        "logic": "and",
+        "item": "雪练",
+        "count": 156
+    },
+    "30011": {
+        "name": "点染·雪练累计·11",
+        "originDes": "累计消耗：218个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 233,
+        "logic": "and",
+        "item": "雪练",
+        "count": 218
+    },
+    "30012": {
+        "name": "点染·雪练累计·12",
+        "originDes": "累计消耗：290个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 233,
+        "logic": "and",
+        "item": "雪练",
+        "count": 290
+    },
+    "30013": {
+        "name": "点染·雪练累计·13",
+        "originDes": "累计消耗：380个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 246,
+        "logic": "and",
+        "item": "雪练",
+        "count": 380
+    },
+    "30014": {
+        "name": "点染·雪练累计·14",
+        "originDes": "累计消耗：475个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 246,
+        "logic": "and",
+        "item": "雪练",
+        "count": 475
+    },
+    "30015": {
+        "name": "点染·雪练累计·15",
+        "originDes": "累计消耗：575个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 259,
+        "logic": "and",
+        "item": "雪练",
+        "count": 575
+    },
+    "30016": {
+        "name": "点染·雪练累计·16",
+        "originDes": "累计消耗：680个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 243,
+        "logic": "and",
+        "item": "雪练",
+        "count": 680
+    },
+    "30017": {
+        "name": "点染·雪练累计·17",
+        "originDes": "累计消耗：790个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 255,
+        "logic": "and",
+        "item": "雪练",
+        "count": 790
+    },
+    "30018": {
+        "name": "点染·雪练累计·18",
+        "originDes": "累计消耗：905个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 255,
+        "logic": "and",
+        "item": "雪练",
+        "count": 905
+    },
+    "30019": {
+        "name": "点染·雪练累计·19",
+        "originDes": "累计消耗：1025个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 267,
+        "logic": "and",
+        "item": "雪练",
+        "count": 1025
+    },
+    "30020": {
+        "name": "点染·雪练累计·20",
+        "originDes": "累计消耗：1150个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 267,
+        "logic": "and",
+        "item": "雪练",
+        "count": 1150
+    },
+    "30021": {
+        "name": "点染·雪练累计·21",
+        "originDes": "累计消耗：1280个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 266,
+        "logic": "and",
+        "item": "雪练",
+        "count": 1280
+    },
+    "30022": {
+        "name": "点染·雪练累计·22",
+        "originDes": "累计消耗：1415个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 266,
+        "logic": "and",
+        "item": "雪练",
+        "count": 1415
+    },
+    "30023": {
+        "name": "点染·雪练累计·23",
+        "originDes": "累计消耗：1555个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 282,
+        "logic": "and",
+        "item": "雪练",
+        "count": 1555
+    },
+    "30024": {
+        "name": "点染·雪练累计·24",
+        "originDes": "累计消耗：1700个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 282,
+        "logic": "and",
+        "item": "雪练",
+        "count": 1700
+    },
+    "30025": {
+        "name": "点染·雪练累计·25",
+        "originDes": "累计消耗：1850个点染·雪练",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuelian.png",
+        "meili": 294,
+        "logic": "and",
+        "item": "雪练",
+        "count": 1850
+    },
+    "30026": {
+        "name": "点染·玄夜累计·1",
+        "originDes": "累计消耗：1个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 25,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 1
+    },
+    "30027": {
+        "name": "点染·玄夜累计·2",
+        "originDes": "累计消耗：3个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 50,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 3
+    },
+    "30028": {
+        "name": "点染·玄夜累计·3",
+        "originDes": "累计消耗：6个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 72,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 6
+    },
+    "30029": {
+        "name": "点染·玄夜累计·4",
+        "originDes": "累计消耗：12个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 134,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 12
+    },
+    "30030": {
+        "name": "点染·玄夜累计·5",
+        "originDes": "累计消耗：20个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 156,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 20
+    },
+    "30031": {
+        "name": "点染·玄夜累计·6",
+        "originDes": "累计消耗：30个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 168,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 30
+    },
+    "30032": {
+        "name": "点染·玄夜累计·7",
+        "originDes": "累计消耗：48个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 203,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 48
+    },
+    "30033": {
+        "name": "点染·玄夜累计·8",
+        "originDes": "累计消耗：72个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 218,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 72
+    },
+    "30034": {
+        "name": "点染·玄夜累计·9",
+        "originDes": "累计消耗：108个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 207,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 108
+    },
+    "30035": {
+        "name": "点染·玄夜累计·10",
+        "originDes": "累计消耗：156个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 207,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 156
+    },
+    "30036": {
+        "name": "点染·玄夜累计·11",
+        "originDes": "累计消耗：218个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 233,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 218
+    },
+    "30037": {
+        "name": "点染·玄夜累计·12",
+        "originDes": "累计消耗：290个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 233,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 290
+    },
+    "30038": {
+        "name": "点染·玄夜累计·13",
+        "originDes": "累计消耗：380个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 246,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 380
+    },
+    "30039": {
+        "name": "点染·玄夜累计·14",
+        "originDes": "累计消耗：475个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 246,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 475
+    },
+    "30040": {
+        "name": "点染·玄夜累计·15",
+        "originDes": "累计消耗：575个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 259,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 575
+    },
+    "30041": {
+        "name": "点染·玄夜累计·16",
+        "originDes": "累计消耗：680个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 243,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 680
+    },
+    "30042": {
+        "name": "点染·玄夜累计·17",
+        "originDes": "累计消耗：790个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 255,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 790
+    },
+    "30043": {
+        "name": "点染·玄夜累计·18",
+        "originDes": "累计消耗：905个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 255,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 905
+    },
+    "30044": {
+        "name": "点染·玄夜累计·19",
+        "originDes": "累计消耗：1025个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 267,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 1025
+    },
+    "30045": {
+        "name": "点染·玄夜累计·20",
+        "originDes": "累计消耗：1150个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 267,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 1150
+    },
+    "30046": {
+        "name": "点染·玄夜累计·21",
+        "originDes": "累计消耗：1280个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 266,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 1280
+    },
+    "30047": {
+        "name": "点染·玄夜累计·22",
+        "originDes": "累计消耗：1415个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 266,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 1415
+    },
+    "30048": {
+        "name": "点染·玄夜累计·23",
+        "originDes": "累计消耗：1555个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 282,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 1555
+    },
+    "30049": {
+        "name": "点染·玄夜累计·24",
+        "originDes": "累计消耗：1700个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 282,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 1700
+    },
+    "30050": {
+        "name": "点染·玄夜累计·25",
+        "originDes": "累计消耗：1850个点染·玄夜",
+        "type": "累计成就",
+        "typeIcon": "Icons/Achieve/ach_xuanye.png",
+        "meili": 294,
+        "logic": "and",
+        "item": "玄夜",
+        "count": 1850
+    }
+}

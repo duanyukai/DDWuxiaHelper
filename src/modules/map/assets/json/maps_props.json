@@ -94,8 +94,8 @@
     "maxZoom": 4,
     "initView": [2000, 2000],
     "correspond": [
-      {"imgPosX": 1624, "imgPosY": 1956, "gamePosX": 1348, "gamePosY": 238},
-      {"imgPosX": 2568, "imgPosY": 550, "gamePosX": 3174, "gamePosY": 2962}
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
     ]
   },
   "BS": {
@@ -308,8 +308,16 @@
       {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
     ]
   },
-
   "YH": {
+    "imgSize": [4096, 2048],
+    "maxZoom": 4,
+    "initView": [2000, 2000],
+    "correspond": [
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+    ]
+  },
+  "TSS": {
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],

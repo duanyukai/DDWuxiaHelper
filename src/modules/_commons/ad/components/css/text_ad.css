@@ -1,0 +1,69 @@
+.text-ad {
+    position: relative;
+    border: 1px solid #bbb;
+    background: rgba(255,255,255,0.3);
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 15px;
+}
+
+.ad-sign {
+    background: #bbb;
+    color: #fff;
+    padding: 2px 4px;
+    text-shadow: 1px 1px #887b7b;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-ad ul.full-width-ad {
+    padding: 2px;
+    margin-left: 35px;
+    margin-bottom: 0;
+    text-decoration: none;
+    column-count: 1;
+    background: rgba(255,255,255,0.5);
+}
+
+.text-ad ul.full-width-ad li {
+    width: 100%;
+    text-overflow: ellipsis;
+    text-decoration: underline;
+    overflow: hidden;
+}
+
+.text-ad ul.three-column-ad {
+    padding: 2px;
+    margin-left: 35px;
+    margin-bottom: 0;
+    text-decoration: none;
+    column-count: 3;
+    text-align: center;
+}
+
+@media all and (max-width: 800px) {
+    .text-ad ul.three-column-ad {
+        column-count: 2;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .text-ad ul.three-column-ad {
+        column-count: 1;
+    }
+}
+
+
+.text-ad ul.three-column-ad li {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+.hr {
+    color: #ccc;
+    margin: 0;
+}

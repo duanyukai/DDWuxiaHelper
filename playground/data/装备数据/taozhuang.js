@@ -5,8 +5,8 @@ let file = fs.readFileSync('./input/taozhuang/EquipSetTable.csv', 'utf8');
 file = file.replace(/[\[\]]/g, '');
 
 let files = [
-  './input/taozhuang/EquipSetTable.csv',
-  './input/taozhuang/EquipAdditionalTableTaoZhuang.csv'
+  './input20190301/taozhuang/EquipSetTable.csv',
+  './input20190301/taozhuang/EquipAdditionalTableTaoZhuang.csv'
 ];
 
 let promises = files.map((filename) => {
@@ -25,6 +25,8 @@ function pick(obj, keysMap, coefficient) {
 Promise.all(promises).then((data) => {
   let taozhuangList = data[0];
   let propList = data[1];
+
+  // console.log(propList[10]);
 
   // 暂时只最多取5件套，2种属性
   let result = taozhuangList.map(({iId, stEquipSetInfo, szTypeName, SetGroupID, SetLevel, szEquips1Array,szEquips2Array,szEquips3Array,szEquips4Array,szEquips5Array, nCond_1, Property_1, nCond_2, Property_2}) => {

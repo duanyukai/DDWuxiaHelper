@@ -1,0 +1,4099 @@
+{
+    "ZW": [
+        {
+            "skillId": 18101001,
+            "name": "道法天地",
+            "icon": "SKILLL_ZW_QuntiTaolu_Entrance_Lv1",
+            "des": "3段群体套路，造成造成总计[CastGroup]点伤害。\\n<font color ='#C0E0AB'>驱影：可追加施放<font color ='#FC6565'>驱影</font>，造成50%额外伤害，并击飞前方范围目标</font>\\n<font color ='#C0E0AB'>阙阴：每一击命中目标时，恢复10点阴</font>\\n<font color ='#C0E0AB'>冲盈：开启<font color ='#FC6565'>冲盈</font>后，每一击驱使影协同攻击，造成3倍技能伤害</font>\\n###连按3次，可造成3次少量群体伤害。\\n<font color ='#C0E0AB'>驱影：可追加施放<font color ='#FC6565'>驱影</font>，造成50%额外伤害，并击飞前方范围目标</font>\\n<font color ='#C0E0AB'>阙阴：每一击命中目标时，恢复10点阴</font>\\n<font color ='#C0E0AB'>冲盈：开启<font color ='#FC6565'>冲盈</font>后，每一击驱使影协同攻击，造成3倍技能伤害</font>",
+            "background": "视之不见曰夷；听之不闻曰希；搏之不得曰微",
+            "type": "招式",
+            "typeDes": "驱影逐形",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 10,
+            "addition1List": [
+                0.1427,
+                0.2141,
+                0.29
+            ]
+        },
+        {
+            "skillId": 18102101,
+            "name": "闪身",
+            "icon": "",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 3000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18102001,
+            "name": "驱影",
+            "icon": "SKILLL_ZW_Shadow",
+            "des": "破定技，可有效打击敌人定力。\\n可在<font color ='#FC6565'>道法天地</font>、<font color ='#FC6565'>微明生灭</font>、<font color ='#FC6565'>和光同尘</font>、<font color ='#FC6565'>道生一剑</font>发动后使用，追加一段打击，造成不同的效果\\n<font color ='#C0E0AB'>阳明：驱影追加打击如果命中目标，增加1层阳</font>\\n<font color ='#43dfd9'<font color ='#FC6565'>>道法天地</font>+<font color ='#FC6565'>驱影</font>：闪身后撤，分身蓄力后击飞前方所有目标</font>\\n<font color ='#43dfd9'><font color ='#FC6565'>微明生灭</font>+<font color ='#FC6565'>驱影</font>：闪身后撤，分身替换自身完成剩余打击</font>\\n<font color ='#43dfd9'><font color ='#FC6565'>和光同尘</font>+<font color ='#FC6565'>驱影</font>：驱使分身发动6段连斩，随机攻击选定目标周围所有敌人，成功发动5段连斩后增加1层阳</font>\\n<font color ='#43dfd9'><font color ='#FC6565'>道生一剑</font>+<font color ='#FC6565'>驱影</font>：驱使分身将目标击飞</font>\\n###破定技，可有效打击敌人定力。\\n可在<font color ='#FC6565'>道法天地</font>、<font color ='#FC6565'>微明生灭</font>、<font color ='#FC6565'>和光同尘</font>、<font color ='#FC6565'>道生一剑</font>发动后使用，追加一段打击，造成不同的效果",
+            "background": "兵者，不祥之器；有道者不处，驱影以为己用",
+            "type": "招式",
+            "typeDes": "驱影逐形",
+            "distance": 0,
+            "cd": 2000,
+            "consume": "阴50点",
+            "maxLevel": 10,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18103001,
+            "name": "微明生灭",
+            "icon": "SKILLL_ZW_5Combo_Entrance_Lv1",
+            "des": "5段单体套路，造成总计[CastGroup]点伤害。\\n<font color ='#C0E0AB'>驱影：连击中途可施放<font color ='#FC6565'>驱影</font>，替换自身完成剩余打击</font>\\n<font color ='#C0E0AB'>冲盈：开启<font color ='#FC6565'>冲盈</font>后，驱影发动合击，造成额外100%伤害，消耗3层阳</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按5次，可造成5次大量单体伤害\\n<font color ='#C0E0AB'>驱影：连击中途可施放<font color ='#FC6565'>驱影</font>，替换自身完成剩余打击</font>\\n<font color ='#C0E0AB'>冲盈：开启<font color ='#FC6565'>冲盈</font>后，驱影发动合击，造成额外100%伤害，消耗3层阳</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "万物无以生，将恐灭；柔弱胜刚强，是谓微明",
+            "type": "招式",
+            "typeDes": "驱影逐形",
+            "distance": 250,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 6,
+            "addition1List": [
+                0.1533,
+                0.2147,
+                0.276,
+                0.3831,
+                0.5746
+            ]
+        },
+        {
+            "skillId": 18104001,
+            "name": "微明生灭",
+            "icon": "SKILLL_ZW_5Combo2_Entrance_Lv1",
+            "des": "5段单体套路，造成总计[CastGroup]点伤害。\\n<font color ='#C0E0AB'>驱影：连击中途可施放<font color ='#FC6565'>驱影</font>，替换自身完成剩余打击</font>\\n<font color ='#C0E0AB'>冲盈：开启<font color ='#FC6565'>冲盈</font>后，驱影发动合击，造成额外100%伤害，消耗3层阳</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按5次，可造成5次大量单体伤害\\n<font color ='#C0E0AB'>驱影：连击中途可施放<font color ='#FC6565'>驱影</font>，替换自身完成剩余打击</font>\\n<font color ='#C0E0AB'>冲盈：开启<font color ='#FC6565'>冲盈</font>后，驱影发动合击，造成额外100%伤害，消耗3层阳</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "万物无以生，将恐灭；柔弱胜刚强，是谓微明",
+            "type": "招式",
+            "typeDes": "驱影逐形",
+            "distance": 250,
+            "cd": 18000,
+            "consume": "",
+            "maxLevel": 6,
+            "addition1List": [
+                0.1533,
+                0.2147,
+                0.276,
+                0.3831,
+                0.5746
+            ]
+        },
+        {
+            "skillId": 18105001,
+            "name": "饮血技·道生一剑",
+            "icon": "SKILLL_ZW_DanGongL01_A01_Lv1",
+            "des": "冲到目标身前，造成[CastGroup]点伤害，如果对方定力击破，对其造成压制。\\n<font color ='#C0E0AB'>阙阴：命中目标时，恢复10点阴</font>\\n<font color ='#C0E0AB'>驱影：追加使用驱影，可追加造成50%技能伤害并将目标击飞</font>\\n<font color ='#C0E0AB'>冲盈：<font color ='#FC6565'>冲盈</font>开启后发动，释放距离增加5米，可驱影协同攻击，对目标造成压制。</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>饮血：对气血20%以下的目标必定会心，且造成额外100%伤害。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血和少量杀意，并刷新道生一剑调息时间</font>\\n###冲到目标身前，造成中量伤害，如果对方定力击破，对其造成压制。\\n<font color ='#C0E0AB'>阙阴：命中目标时，恢复10点阴</font>\\n<font color ='#C0E0AB'>驱影：追加使用驱影，可追加造成50%技能伤害并将目标击飞</font>\\n<font color ='#C0E0AB'>冲盈：<font color ='#FC6565'>冲盈</font>开启后发动，释放距离增加5米，可驱影协同攻击，对目标造成压制。</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>饮血：对气血20%以下的目标必定会心，且造成额外100%伤害。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血和少量杀意，并刷新道生一剑调息时间</font>",
+            "background": "道生一，一生二，二生三，三生万物",
+            "type": "饮血技",
+            "typeDes": "驱影逐形",
+            "distance": 2000,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 6,
+            "addition1List": [
+                0.4
+            ]
+        },
+        {
+            "skillId": 18106001,
+            "name": "解控技·离渊",
+            "icon": "SKILLL_ZW_Block",
+            "des": "闪身后撤，从<font color ='#FC6565'>压制</font>和<font color ='#FC6565'>击飞</font>状态中脱离。驱影运转护盾，控制范围内所有目标4秒后将其击飞\\n<font color ='#C0E0AB'>护体：护盾被触发之前，可以持续阻挡远程技能</font>\\n###闪身后撤，从<font color ='#FC6565'>压制</font>和<font color ='#FC6565'>击飞</font>状态中脱离。驱影运转护盾，控制范围内所有目标4秒后将其击飞\\n<font color ='#C0E0AB'>护体：护盾被触发之前，可以持续阻挡远程技能</font>",
+            "background": "鱼不可脱于渊，国之利器不可以示人",
+            "type": "招式",
+            "typeDes": "载营守魄",
+            "distance": 0,
+            "cd": 28000,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18107001,
+            "name": "护盾",
+            "icon": "SKILLL_ZW_Shield",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18108001,
+            "name": "和光同尘",
+            "icon": "SKILLL_ZW_JianQi_A01_Lv1",
+            "des": "远距离攻击目标$$造成总计[CastGroup]点伤害。\\n<font color ='#C0E0AB'>阙阴：命中目标时，恢复10点阴</font>\\n<font color ='#C0E0AB'>驱影：驱使分身对目标发动6段连斩，第1斩会对目标造成击倒效果，成功发动5段连斩后增加1层阳</font>\\n<font color ='#C0E0AB'>冲盈：在<font color ='#FC6565'>冲盈</font>状态下，可打出大量剑气总计造成额外200%伤害，最后一击可将敌人击倒，造成大量定力伤害</font>\\n###远距离攻击目标，造成中量伤害。\\n<font color ='#C0E0AB'>阙阴：命中目标时，恢复10点阴</font>\\n<font color ='#C0E0AB'>驱影：驱使分身发动6段连斩，随机攻击选定目标周围所有敌人，成功发动5段连斩后增加1层阳</font>\\n<font color ='#C0E0AB'>冲盈：在<font color ='#FC6565'>冲盈</font>状态下，可打出大量剑气总计造成额外200%伤害，最后一击可将敌人击倒，造成大量定力伤害</font>",
+            "background": "挫其锐，解其纷；和其光，同其尘",
+            "type": "",
+            "typeDes": "驱影逐形",
+            "distance": 2000,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.39
+            ]
+        },
+        {
+            "skillId": 18111001,
+            "name": "和光同尘",
+            "icon": "SKILLL_ZW_JianQi2_A01_Lv1",
+            "des": "远距离攻击目标$$造成总计[CastGroup]点伤害。\\n<font color ='#C0E0AB'>阙阴：命中目标时，恢复10点阴</font>\\n<font color ='#C0E0AB'>驱影：分身连续打出6段攻击，重复攻击同一目标时伤害降低。</font>\\n<font color ='#C0E0AB'>冲盈：在<font color ='#FC6565'>冲盈</font>状态下，可打出大量剑气总计造成额外200%伤害，最后一击可将敌人击倒，造成大量定力伤害</font>\\n###远距离攻击目标，造成中量伤害。\\n<font color ='#C0E0AB'>阙阴：命中目标时，恢复10点阴</font>\\n<font color ='#C0E0AB'>驱影：分身连续打出6段攻击，重复攻击同一目标时伤害降低。</font>\\n<font color ='#C0E0AB'>冲盈：在<font color ='#FC6565'>冲盈</font>状态下，可打出大量剑气总计造成额外200%伤害，最后一击可将敌人击倒，造成大量定力伤害</font>",
+            "background": "挫其锐，解其纷；和其光，同其尘",
+            "type": "",
+            "typeDes": "驱影逐形",
+            "distance": 2000,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0,
+                0.3474
+            ]
+        },
+        {
+            "skillId": 18109001,
+            "name": "冲盈",
+            "icon": "SKILLL_ZW_DoubleBlade",
+            "des": "只能在阳蓄满3层后发动，后续发动的下一次<font color ='#FC6565'>道法天地</font>、<font color ='#FC6565'>道生一剑</font>、<font color ='#FC6565'>微明生灭</font>、<font color ='#FC6565'>和光同尘</font>产生强化效果，威力大幅提升\\n，强化技能后移除冲盈。\\n###只能在阳蓄满3层后发动，后续发动的下一次<font color ='#FC6565'>道法天地</font>、<font color ='#FC6565'>道生一剑</font>、<font color ='#FC6565'>微明生灭</font>、<font color ='#FC6565'>和光同尘</font>产生强化效果，威力大幅提升，强化技能后移除冲盈。\\n",
+            "background": "负阴而抱阳，冲气以为和。双剑乃出，战意充盈",
+            "type": "招式",
+            "typeDes": "载营守魄",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18109101,
+            "name": "冲盈",
+            "icon": "SKILLL_ZW_DoubleBlade",
+            "des": "只能在阳蓄满3层后发动，后续发动的下一次<font color ='#FC6565'>道法天地</font>、<font color ='#FC6565'>道生一剑</font>、<font color ='#FC6565'>微明生灭</font>、<font color ='#FC6565'>和光同尘</font>产生强化效果，威力大幅提升\\n，强化技能后移除冲盈。\\n###只能在阳蓄满3层后发动，后续发动的下一次<font color ='#FC6565'>道法天地</font>、<font color ='#FC6565'>道生一剑</font>、<font color ='#FC6565'>微明生灭</font>、<font color ='#FC6565'>和光同尘</font>产生强化效果，威力大幅提升，强化技能后移除冲盈。\\n",
+            "background": "负阴而抱阳，冲气以为和。双剑乃出，战意充盈",
+            "type": "招式",
+            "typeDes": "载营守魄",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18109501,
+            "name": "动愈守中",
+            "icon": "SKILLL_ZW_BeiDong02",
+            "des": "发动后展开太极阵法，可以在<font color ='#FC6565'>压制</font>和<font color ='#FC6565'>击飞</font>状态下使用，阵法将在10秒内缓慢蓄力，蓄力完成后真武进入阵法可以补满阴阳。\\n<font color ='#C0E0AB'>守中：开启阵法后立即解除破定状态，阵法蓄力的10秒期间，自身处于阵法内时快速回复定力。</font>\\n<font color ='#C0E0AB'>蓄劲：阵法在10秒内缓慢蓄力，蓄力完成后真武进入阵法可以补满阴阳，蓄满后最多等待20秒。</font>\\n###发动后展开太极阵法，可以在<font color ='#FC6565'>压制</font>和<font color ='#FC6565'>击飞</font>状态下使用，阵法将在10秒内缓慢蓄力，蓄力完成后真武进入阵法可以补满阴阳。\\n<font color ='#C0E0AB'>守中：开启阵法后立即解除破定状态，阵法蓄力的10秒期间，自身处于阵法内时快速回复定力。</font>\\n<font color ='#C0E0AB'>蓄劲：阵法在10秒内缓慢蓄力，蓄力完成后真武进入阵法可以补满阴阳，蓄满后最多等待20秒。</font>\\n",
+            "background": "虚而不屈，动而愈出。多言数穷，不如守中",
+            "type": "招式",
+            "typeDes": "载营守魄",
+            "distance": 0,
+            "cd": 50000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18109901,
+            "name": "动愈守中二段",
+            "icon": "SKILLL_ZW_BeiDong02",
+            "des": "蓄劲期间可再次使用提前完成蓄力",
+            "background": "虚而不屈，动而愈出。多言数穷，不如守中",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18110001,
+            "name": "反击技·上善",
+            "icon": "SKILLL_ZW_BlockHitBack_Entry_Lv1",
+            "des": "反击敌人的近身攻击，造成SkillValue(VITAL$$10$$0.7)点范围伤害。\\n<font color ='#C0E0AB'>若水：发动后短时间内无法被远程技能命中</font>\\n<font color ='#C0E0AB'>追打：受到远程攻击或近身反击发动后，可以再次使用上善向前方突进，对路径上的敌人造成压制效果</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体目标反击造成2倍伤害并让自身迅速后撤</font>\\n###反击敌人的近身攻击，造成大量范围伤害。\\n<font color ='#C0E0AB'>若水：发动后短时间内无法被远程技能命中</font>\\n<font color ='#C0E0AB'>追打：受到远程攻击或近身反击发动后，可以再次使用上善向前方突进，对路径上的敌人造成压制效果</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体目标反击造成2倍伤害并让自身迅速后撤</font>",
+            "background": "上善若水，善利万物而不争。此太极雏形也",
+            "type": "招式",
+            "typeDes": "载营守魄",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18110201,
+            "name": "反击技·上善",
+            "icon": "SKILLL_ZW_BlockHitBack_Entry_Lv1",
+            "des": "反击敌人的近身攻击，造成SkillValue(VITAL$$10$$0.7)点范围伤害。\\n<font color ='#C0E0AB'>若水：发动后短时间内无法被远程技能命中</font>\\n<font color ='#C0E0AB'>追打：受到远程攻击或近身反击发动后，可以再次使用上善向前方突进，对路径上的敌人造成压制效果</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体目标反击造成2倍伤害并让自身迅速后撤</font>\\n###反击敌人的近身攻击，造成大量范围伤害。\\n<font color ='#C0E0AB'>若水：发动后短时间内无法被远程技能命中</font>\\n<font color ='#C0E0AB'>追打：受到远程攻击或近身反击发动后，可以再次使用上善向前方突进，对路径上的敌人造成压制效果</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体目标反击造成2倍伤害并让自身迅速后撤</font>",
+            "background": "上善若水，善利万物而不争。此太极雏形也",
+            "type": "招式",
+            "typeDes": "载营守魄",
+            "distance": 0,
+            "cd": 1000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.1
+            ]
+        },
+        {
+            "skillId": 18112101,
+            "name": "破定技·归玄",
+            "icon": "SKILLL_ZW_XuLiAoe_Entry",
+            "des": "破定技，可有效打击敌人定力。\\n蓄力后发出剑气攻击前方范围内的敌人，<font color ='#FC6565'>3</font>秒内造成总计[CastGroup]*4点群体伤害。\\n<font color ='#C0E0AB'>势沉：只命中一个目标时造成击倒效果。</font>\\n###破定技，可有效打击敌人定力。\\n蓄力后发出剑气攻击前方范围内的敌人\\n<font color ='#C0E0AB'>势沉：只命中一个目标时造成击倒效果。</font>",
+            "background": "致虚极，守静笃。万物并作，各复归其根",
+            "type": "招式",
+            "typeDes": "载营守魄",
+            "distance": 0,
+            "cd": 8000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0,
+                0.4377
+            ]
+        },
+        {
+            "skillId": 18114001,
+            "name": "无迹",
+            "icon": "SKILLL_ZW_AirSlash",
+            "des": "对浮空目标发动，造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>后手：<font color ='#FC6565'>15</font>秒内可再次使用，驱使分身出现在目标身后，蓄力一秒后造成[CastGroup]*0.5范围伤害并造成击倒，可在被压制中发动。</font>\\n<font color ='#C0E0AB'>阙阴：命中目标时，恢复10点阴</font>\\n###对浮空目标发动，追加造成大量伤害。<font color ='#FC6565'>15</font>秒内可再次使用，驱使分身出现在目标身后，蓄力一秒后造成中量范围伤害\\n<font color ='#C0E0AB'>阙阴：命中目标时，恢复10点阴</font>",
+            "background": "擅言无瑕，擅行无辙；无绳不解，无策不筹",
+            "type": "招式",
+            "typeDes": "载营守魄",
+            "distance": 1000,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0,
+                0.778
+            ]
+        },
+        {
+            "skillId": 18118001,
+            "name": "无迹",
+            "icon": "SKILLL_ZW_AirSlash",
+            "des": "对浮空目标发动，造成[CastGroup]*2点伤害。\\n<font color ='#C0E0AB'>后手：<font color ='#FC6565'>15</font>秒内可再次使用，驱使分身出现在目标身后，蓄力一秒后造成[CastGroup]点范围伤害并造成击倒，可在被压制中发动。</font>\\n<font color ='#C0E0AB'>阙阴：命中目标时，恢复10点阴</font>\\n###对浮空目标发动，追加造成大量伤害。<font color ='#FC6565'>15</font>秒内可再次使用，驱使分身出现在目标身后，蓄力一秒后造成中量范围伤害\\n<font color ='#C0E0AB'>阙阴：命中目标时，恢复10点阴</font>",
+            "background": "擅言无瑕，擅行无辙；无绳不解，无策不筹",
+            "type": "招式",
+            "typeDes": "载营守魄",
+            "distance": 2000,
+            "cd": 5000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.15
+            ]
+        },
+        {
+            "skillId": 18116001,
+            "name": "执象天下",
+            "icon": "SKILLL_ZW_BeiDong01",
+            "des": "通过使用驱影消耗\"阴\"，增加\"阳\"。每层“阳”为自身提高<font color ='#FC6565'>5%</font>外功防御\\n###通过使用驱影消耗\"阴\"，增加\"阳\"。每层“阳”为自身提高<font color ='#FC6565'>5%</font>外功防御",
+            "background": "执大象，天下往。往而不害，安平太。",
+            "type": "内功",
+            "typeDes": "载营守魄",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18117001,
+            "name": "杀意·天地不仁",
+            "icon": "SKILLL_ZW_ShaYi",
+            "des": "消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>\\n###消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>",
+            "background": "敌既如此，无复仁义；以杀止杀，以战止战而已",
+            "type": "重华技",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "杀意500点",
+            "maxLevel": 1,
+            "addition1List": [
+                0.7,
+                0.8,
+                0.9,
+                1,
+                0.6,
+                0.8
+            ]
+        },
+        {
+            "skillId": 18117921,
+            "name": "红尘勿扰·一",
+            "icon": "SKILLL_ZW_SIDLE_01",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒弟子，形神兼备",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 21,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18117922,
+            "name": "红尘勿扰·二",
+            "icon": "SKILLL_ZW_SIDLE_02",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒剑秀，英姿飒爽",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 22,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18117923,
+            "name": "红尘勿扰·三",
+            "icon": "SKILLL_ZW_SIDLE_03",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒才俊，侠骨柔肠",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 23,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 18121001,
+            "name": "怒梅·喋血",
+            "icon": "SKILLL_ZW_SMHJ_02",
+            "des": "连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标，最后一招击飞目标。\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标，最后一招击飞目标。\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "为了正义而战！",
+            "type": "招式",
+            "typeDes": "载营守魄",
+            "distance": 300,
+            "cd": 120000,
+            "consume": "",
+            "maxLevel": 30,
+            "addition1List": [
+                0.39,
+                0.585,
+                0.78,
+                1.17,
+                1.95
+            ]
+        }
+    ],
+    "TB": [
+        {
+            "skillId": 16101001,
+            "name": "天峰五云剑",
+            "icon": "SKILLL_HS_DantiTaolu_Entrance_Lv1",
+            "des": "此招共有五式，连续施放可以打出连招。\\n对目标造成共计[CastGroup]点伤害并压制目标，最后一招击飞目标。\\n<font color ='#C0E0AB'>获得剑意：完整施放该技能可以获得一格剑意</font>\\n<font color ='#C0E0AB'>无痕：处于<font color ='#FC6565'>无痕剑意</font>状态时施展，可移除无痕剑意造成额外100%伤害。</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按5次，可造成5次中量的单体伤害。\\n<font color ='#C0E0AB'>获得剑意：完整施放该技能可以获得一格剑意</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "太白山有五峰，连延百里，此招亦五剑连环，绵绵不绝。",
+            "type": "连招",
+            "typeDes": "太白剑诀",
+            "distance": 300,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.144,
+                0.18,
+                0.2016,
+                0.2592,
+                0.1728
+            ]
+        },
+        {
+            "skillId": 16102001,
+            "name": "破招·无痕剑意",
+            "icon": "SKILLL_HS_QuntiYazhi_A01_Lv1",
+            "des": "使用后持续3秒内会自动拆解附近目标使出的招式，并强化<font color ='#FC6565'>天峰五云剑</font>、<font color ='#FC6565'>飞燕逐月</font>和<font color ='#FC6565'>破穴指诀</font>的技能效果。\\n<font color ='#C0E0AB'>获得剑意：每次破招可获得一格剑意</font>\\n<font color ='#C0E0AB'>反击：可以在被<font color ='#FC6565'>压制</font>时使用。</font>\\n###短时间内自动拆解附近目标的招式。\\n<font color ='#C0E0AB'>获得剑意：每次破招可获得一格剑意</font>\\n<font color ='#C0E0AB'>反击：可以在被<font color ='#FC6565'>压制</font>时使用。</font>",
+            "background": "料敌机先，断敌行止，洞悉敌意，算无遗策",
+            "type": "招式",
+            "typeDes": "无痕意诀",
+            "distance": 0,
+            "cd": 40000,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 16102501,
+            "name": "破招·无痕剑意",
+            "icon": "SKILLL_HS_QuntiYazhi_A01_Lv1",
+            "des": "使用后持续1秒内会自动拆解附近目标使出的招式\\n###短时间内自动拆解附近目标的招式。",
+            "background": "料敌机先，断敌行止，洞悉敌意，算无遗策",
+            "type": "招式",
+            "typeDes": "无痕意诀",
+            "distance": 0,
+            "cd": 1500,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 16103001,
+            "name": "苍龙出水",
+            "icon": "SKILLL_HS_Chongfeng_A01_Lv1",
+            "des": "破定技，可有效打击目标定力，并造成少量群体伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>风雷：命中目标后强化3秒内的风雷一剑，释放距离增加5米。</font>\\n<font color ='#C0E0AB'>苍龙：强化1秒内的雨落云飞二段，提高雨落云飞二段伤害50%。</font>\\n###破定技，可有效打击目标定力，并造成少量群体伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>风雷：命中目标后强化3秒内的风雷一剑，释放距离增加5米。</font>\\n<font color ='#C0E0AB'>苍龙：强化1秒内的雨落云飞二段，提高雨落云飞二段伤害50%。</font>",
+            "background": "剑如苍龙而动，无固不破，无坚不摧。",
+            "type": "破定技",
+            "typeDes": "太白剑诀",
+            "distance": 0,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 3,
+            "addition1List": [
+                0.16
+            ]
+        },
+        {
+            "skillId": 16105001,
+            "name": "云台三落",
+            "icon": "SKILLL_HS_QuntiTaolu_Entrance_Lv1",
+            "des": "此招共有三式，连续施放可以打出连招。\\n对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>获得剑意：第三段命中目标时，可以获得一格剑意</font>\\n<font color ='#C0E0AB'>回风：每一段命中时，降低回风落雁调息1秒</font>\\n###连按3次，可造成3次少量的群体伤害。\\n<font color ='#C0E0AB'>获得剑意：第三段命中目标时，可以获得一格剑意</font>\\n<font color ='#C0E0AB'>回风：每一段命中时，降低回风落雁调息1秒</font>",
+            "background": "太白有一云台，三面峭壁，极尽险要。此招连环三剑，均是险中求胜。",
+            "type": "招式",
+            "typeDes": "太白剑诀",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 8,
+            "addition1List": [
+                0.128,
+                0.128,
+                0.31
+            ]
+        },
+        {
+            "skillId": 16106001,
+            "name": "飞燕逐月",
+            "icon": "SKILLL_HS_QunGongH01_A01_Lv1",
+            "des": "消耗全部剑意，根据剑意的数量对范围内多个目标发起2、3、4、6、11段攻击，每次攻击造成[NewSkillValue]点伤害，每消耗一格剑意，降低调息时间1秒。\\n<font color ='#C0E0AB'>连打：多次攻击同一目标时，只能造成25%的伤害。</font>\\n<font color ='#C0E0AB'>无痕：处于<font color ='#FC6565'>无痕剑意</font>状态时施展，可移除无痕剑意让每一击造成范围伤害。</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###消耗全部剑意，根据剑意的数量造成多次伤害。\\n<font color ='#C0E0AB'>无痕：处于<font color ='#FC6565'>无痕剑意</font>状态时施展，可移除无痕剑意让每一击造成范围伤害。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "剑如飞燕灵动，人若清风飘摇。",
+            "type": "招式",
+            "typeDes": "无痕意诀",
+            "distance": 800,
+            "cd": 22000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.264
+            ]
+        },
+        {
+            "skillId": 16107001,
+            "name": "饮血技·风雷一剑",
+            "icon": "SKILLL_HS_DanGongL01_A01_Lv1",
+            "des": "穿过选定目标$$对其造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>获得剑意：施放该技能可以获得一格剑意</font>\\n<font color ='#C0E0AB'>饮血：对气血20%以下的目标造成额外100%伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血和少量杀意，并刷新风雷一剑调息时间</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###造成大量单体伤害。\\n<font color ='#C0E0AB'>获得剑意：施放该技能可以获得一格剑意</font>\\n<font color ='#C0E0AB'>饮血：对气血20%以下的目标造成额外100%伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血和少量杀意，并刷新风雷一剑调息时间</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "如风似雷，快逾闪电，剑在意先，一招制敌。",
+            "type": "饮血技",
+            "typeDes": "太白剑诀",
+            "distance": 500,
+            "cd": 6000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.44
+            ]
+        },
+        {
+            "skillId": 16107200,
+            "name": "饮血技·风雷一剑",
+            "icon": "",
+            "des": "",
+            "background": "",
+            "type": "饮血技",
+            "typeDes": "太白剑诀",
+            "distance": 500,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 0,
+            "addition1List": [
+                4
+            ]
+        },
+        {
+            "skillId": 16108001,
+            "name": "回风落雁",
+            "icon": "SKILLL_HS_QunGongL01_A01_Lv1",
+            "des": "破定技，可有效打击目标定力。\\n攻击前方圆形范围内多个目标，造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>获得剑意：施放该技能可以获得一格剑意</font>\\n###破定技，可有效打击目标定力。造成少量群体伤害。\\n<font color ='#C0E0AB'>获得剑意：施放该技能可以获得一格剑意</font>",
+            "background": "此招纯走轻灵剑意，飘忽不定，剑如回风，可落飞雁。",
+            "type": "破定技",
+            "typeDes": "太白剑诀",
+            "distance": 0,
+            "cd": 6000,
+            "consume": "",
+            "maxLevel": 6,
+            "addition1List": [
+                0.24
+            ]
+        },
+        {
+            "skillId": 16109001,
+            "name": "破穴指诀",
+            "icon": "SKILLL_HS_DianXue_A01_Lv1",
+            "des": "打击目标穴道，对其造成[CastGroup]点伤害，并附加<font color ='#FC6565'>点穴</font>效果，降低30%移动速度，无法使用轻功，且无法对对手造成控制，持续3秒。\\n<font color ='#C0E0AB'>无痕：处于<font color ='#FC6565'>无痕剑意</font>状态时施展，可对目标造成<font color ='#FC6565'>封穴</font>效果，持续5秒。</font>\\n<font color ='#C0E0AB'>封穴：无法移动和使用技能。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###打击目标穴道，降低其移动速度，且无法使用轻功，且无法对对手造成控制。\\n<font color ='#C0E0AB'>无痕：处于<font color ='#FC6565'>无痕剑意</font>状态时施展，可对目标造成<font color ='#FC6565'>封穴</font>效果，持续5秒。</font>\\n<font color ='#C0E0AB'>封穴：无法移动和使用技能。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "风无痕从破穴论中悟出的点穴手法。",
+            "type": "招式",
+            "typeDes": "无痕意诀",
+            "distance": 400,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0.04
+            ]
+        },
+        {
+            "skillId": 16113001,
+            "name": "破定技·雨落云飞",
+            "icon": "SKILLL_HS_QuntiTaolu2_Entrance_Lv1",
+            "des": "破定技，可有效打击目标定力。\\n此招共有二式，连续施放可以打出连招。\\n对前方区域造成总计[CastGroup]点伤害。\\n<font color ='#C0E0AB'>获得剑意：施放技能可获得一格剑意。</font>\\n<font color ='#C0E0AB'>势沉：如果第二段只命中一个目标，造成50%额外伤害。</font>\\n<font color ='#C0E0AB'>出水：如果在苍龙状态下命中目标，造成50%额外伤害。</font>\\n###破定技，可有效打击目标定力。连按2次，可造成2次中量的群体伤害。\\n<font color ='#C0E0AB'>获得剑意：施放技能可获得一格剑意。\\n<font color ='#C0E0AB'>势沉：如果第二段只命中一个目标，造成50%额外伤害。</font>\\n<font color ='#C0E0AB'>出水：如果在苍龙状态下命中目标，造成50%额外伤害。</font>",
+            "background": "太白剑法中最绵密的一招，使开后雨落雨散，云卷云飞。",
+            "type": "破定技",
+            "typeDes": "太白剑诀",
+            "distance": 0,
+            "cd": 8000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.26,
+                0.624
+            ]
+        },
+        {
+            "skillId": 16111001,
+            "name": "烟霞满天",
+            "icon": "SKILLL_HS_ChongZhiCD_A01_Lv1",
+            "des": "使其他所有太白门派技能的调息时间清零，且恢复自身22%内息。\\n###使其他所有太白门派技能的调息时间清零，且恢复自身22%内息。",
+            "background": "烟霞满天，绵绵不绝。",
+            "type": "内功",
+            "typeDes": "无痕意诀",
+            "distance": 0,
+            "cd": 90000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 16112001,
+            "name": "解控技·燕回朝阳",
+            "icon": "SKILLL_HS_HouTiao_A01_Lv1",
+            "des": "纵身后跃，向后撤退固定距离，可以从<font color ='#FC6565'>压制</font>和<font color ='#FC6565'>击飞</font>状态中脱离，并解除自身破定状态。\\n<font color ='#C0E0AB'>失衡：使用后消耗全部剑意。</font>\\n###向后移动固定距离。\\n纵身后跃，向后撤退固定距离，可以从<font color ='#FC6565'>压制</font>和<font color ='#FC6565'>击飞</font>状态中脱离，并解除自身破定状态。\\n<font color ='#C0E0AB'>失衡：使用后消耗全部剑意。</font>",
+            "background": "趋吉避凶，不掠其锋，轻若柳絮，迅如疾风",
+            "type": "招式",
+            "typeDes": "无痕意诀",
+            "distance": 0,
+            "cd": 30000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 16115001,
+            "name": "不霖再山",
+            "icon": "SKILLL_HS_BeiDong02",
+            "des": "每格剑意被动增加2%外功攻击和1%暴击\\n###每格剑意被动增加2%外功攻击和1%暴击",
+            "background": "无雨不霑，不霑再田；无霑不霈，不霈再湖；无霈不霖，不霖再山。\\n武功之道，在乎持久。当如春风化雨，不可逆水行舟。",
+            "type": "内功",
+            "typeDes": "无痕意诀",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 16400000,
+            "name": "杀意·剑履山河",
+            "icon": "SKILLL_HS_ShaYi",
+            "des": "消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>\\n###消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>",
+            "background": "将无痕剑意发挥至极致的太白镇派绝学，剑芒遮天蔽日，无休无止。",
+            "type": "重华技",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "杀意500点",
+            "maxLevel": 0,
+            "addition1List": [
+                0.25,
+                0.25,
+                0.25,
+                0.25,
+                0,
+                0.25,
+                1.5
+            ]
+        },
+        {
+            "skillId": 16400020,
+            "name": "红尘勿扰·一",
+            "icon": "SKILLL_HS_SIDLE_01",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒弟子，形神兼备",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 20,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 16400021,
+            "name": "红尘勿扰·二",
+            "icon": "SKILLL_HS_SIDLE_02",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒剑秀，英姿飒爽",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 21,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 16400022,
+            "name": "红尘勿扰·三",
+            "icon": "SKILLL_HS_SIDLE_03",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒才俊，侠骨柔肠",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 22,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 16121001,
+            "name": "怒梅·喋血",
+            "icon": "SKILLL_TB_SMHJ_02",
+            "des": "连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标，最后一招击飞目标。\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标，最后一招击飞目标。\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "为了正义而战！",
+            "type": "连招",
+            "typeDes": "太白剑诀",
+            "distance": 300,
+            "cd": 120000,
+            "consume": "",
+            "maxLevel": 30,
+            "addition1List": [
+                0.585,
+                0.585,
+                0.78,
+                0,
+                0.975,
+                1.95
+            ]
+        }
+    ],
+    "SW": [
+        {
+            "skillId": 15301001,
+            "name": "云龙五现",
+            "icon": "SKILLL_SW_WuLianJi_Entrance_Lv1",
+            "des": "此招共有五式，连续施放可以打出连招。造成总计[CastGroup]*1.2482点伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体目标使用时最后一击替换为重击，造成100%额外伤害。</font>\\n<font color ='#C0E0AB'>战意：技能命中后，可使下次天龙扑月在一段时间内瞬发。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###此招共有五式，连续施放可以打出连招。造成总计[CastGroup]*1.2482点伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体目标使用时最后一击替换为重击，造成100%额外伤害。</font>\\n<font color ='#C0E0AB'>战意：技能命中后，可使下次天龙扑月在一段时间内瞬发。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "遨游四海，纵吟九霄，金鳞利爪，吐雾吞云。",
+            "type": "连招",
+            "typeDes": "铁血征尘",
+            "distance": 300,
+            "cd": 18000,
+            "consume": "",
+            "maxLevel": 9,
+            "addition1List": [
+                0.15,
+                0.15,
+                0.375,
+                0.344,
+                0
+            ]
+        },
+        {
+            "skillId": 15302901,
+            "name": "断龙枪",
+            "icon": "SKILLL_SW_ZhuiJia_Entrance_Lv1",
+            "des": "追加技。可被<font color ='#FC6565'>伏龙枪</font>、<font color ='#FC6565'>疾风枪</font>、<font color ='#FC6565'>猛虎破</font>、<font color ='#FC6565'>烈风枪</font>刷新，追加在其后施放，可造成更多追加效果。\\n<font color ='#C0E0AB'><font color ='#FC6565'>疾风枪+断龙枪：</font>造成大量定力伤害</font>\\n<font color ='#C0E0AB'><font color ='#FC6565'>猛虎破+断龙枪：</font>霸体上挑反击</font>\\n<font color ='#C0E0AB'><font color ='#FC6565'>烈风枪+断龙枪：</font>造成大量伤害</font>\\n###追加技。可被<font color ='#FC6565'>伏龙枪</font>、<font color ='#FC6565'>疾风枪</font>、<font color ='#FC6565'>猛虎破</font>、<font color ='#FC6565'>烈风枪</font>刷新，追加在其后施放，可造成更多追加效果。\\n<font color ='#C0E0AB'><font color ='#FC6565'>疾风枪+断龙枪：</font>造成大量定力伤害</font>\\n<font color ='#C0E0AB'><font color ='#FC6565'>猛虎破+断龙枪：</font>霸体上挑反击</font>\\n<font color ='#C0E0AB'><font color ='#FC6565'>烈风枪+断龙枪：</font>造成大量伤害</font>",
+            "background": "贪狼绝命，七杀纵横，破军天煞，绝命伤敌。",
+            "type": "招式",
+            "typeDes": "威临九霄",
+            "distance": 500,
+            "cd": 5000,
+            "consume": "霸气20%",
+            "maxLevel": 9,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 15303001,
+            "name": "断龙枪",
+            "icon": "SKILLL_SW_ZhuiJia_Entrance_Lv1",
+            "des": "追加技。可被<font color ='#FC6565'>伏龙枪</font>、<font color ='#FC6565'>疾风枪</font>、<font color ='#FC6565'>猛虎破</font>、<font color ='#FC6565'>烈风枪</font>刷新，追加在其后施放，可造成更多追加效果。\\n<font color ='#C0E0AB'><font color ='#FC6565'>疾风枪+断龙枪：</font>造成大量定力伤害</font>\\n<font color ='#C0E0AB'><font color ='#FC6565'>猛虎破+断龙枪：</font>霸体上挑反击</font>\\n<font color ='#C0E0AB'><font color ='#FC6565'>烈风枪+断龙枪：</font>造成大量伤害</font>\\n###追加技。可被<font color ='#FC6565'>伏龙枪</font>、<font color ='#FC6565'>疾风枪</font>、<font color ='#FC6565'>猛虎破</font>、<font color ='#FC6565'>烈风枪</font>刷新，追加在其后施放，可造成更多追加效果。\\n<font color ='#C0E0AB'><font color ='#FC6565'>疾风枪+断龙枪：</font>造成大量定力伤害</font>\\n<font color ='#C0E0AB'><font color ='#FC6565'>猛虎破+断龙枪：</font>霸体上挑反击</font>\\n<font color ='#C0E0AB'><font color ='#FC6565'>烈风枪+断龙枪：</font>造成大量伤害</font>",
+            "background": "贪狼绝命，七杀纵横，破军天煞，绝命伤敌。",
+            "type": "招式",
+            "typeDes": "威临九霄",
+            "distance": 0,
+            "cd": 5000,
+            "consume": "霸气20%",
+            "maxLevel": 9,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 15304001,
+            "name": "疾风枪",
+            "icon": "SKILLL_SW_YinDaoAoe_Entrance_Lv1",
+            "des": "破定技，接续断龙枪可有效打击敌人定力。\\n向前方扇形区域连续攻击，每0.5秒造成SkillValue(KNIFE$$19$$0.164)点伤害，在非背水一击状态下命中敌人可以快速恢复霸气。\\n<font color ='#C0E0AB'>每次击中目标时增加霸气，并造成<font color ='#FC6565'>破甲</font>状态。</font>\\n<font color ='#C0E0AB'>追加断龙枪：击倒前方所有目标，并造成大量定力伤害。</font>\\n<font color ='#C0E0AB'>破甲：外功防御降低3%，最多叠加5层。</font>\\n###破定技，接续断龙枪可有效打击敌人定力。\\n向前方扇形区域连续攻击，每0.5秒造成SkillValue(KNIFE$$19$$0.164)点伤害，在非背水一击状态下命中敌人可以快速恢复霸气。\\n<font color ='#C0E0AB'>每次击中目标时增加霸气，并造成<font color ='#FC6565'>破甲</font>状态。</font>\\n<font color ='#C0E0AB'>追加断龙枪：击倒前方所有目标，并造成大量定力伤害。</font>\\n<font color ='#C0E0AB'>破甲：外功防御降低3%，最多叠加5层。</font>\\n",
+            "background": "南斗六凶，肃杀成性，疾风暴雨，枪下亡魂。",
+            "type": "破定技",
+            "typeDes": "威临九霄",
+            "distance": 0,
+            "cd": 8000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 15305001,
+            "name": "猛虎破",
+            "icon": "SKILLL_SW_Chongfeng_A01_Lv1",
+            "des": "瞬间冲刺接近目标，造成[NewSkillValue]点伤害并刷新<font color ='#FC6565'>断龙枪</font>调息时间。\\n<font color ='#C0E0AB'>追加断龙枪：挑飞并击倒目标</font>\\n<font color ='#C0E0AB'>猛虎：3秒内可在压制状态下打出<font color ='#FC6565'>断龙枪</font>。</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>背水：在背水一击状态下射程恒定为<font color ='#FC6565'>25</font>米。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###瞬间冲刺接近目标，造成[NewSkillValue]点伤害并刷新<font color ='#FC6565'>断龙枪</font>调息时间。\\n<font color ='#C0E0AB'>追加断龙枪：挑飞并击倒目标</font>\\n<font color ='#C0E0AB'>猛虎：3秒内可在压制状态下打出<font color ='#FC6565'>断龙枪</font>。</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>背水：在背水一击状态下射程恒定为<font color ='#FC6565'>25</font>米。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "破军化意，杀气腾腾，瞬身前刺，天煞追凶。",
+            "type": "招式",
+            "typeDes": "铁血征尘",
+            "distance": 1500,
+            "cd": 22000,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0.03
+            ]
+        },
+        {
+            "skillId": 15306001,
+            "name": "伏龙枪",
+            "icon": "SKILLL_SW_ChuJue_A01_Lv1",
+            "des": "连按2次，可造成2次少量群体伤害。两段攻击命中时分别回复<font color ='#FC6565'>2%</font>、<font color ='#FC6565'>4%</font>霸气。\\n<font color ='#C0E0AB'>追加断龙枪：重击前方目标。\\n###连按2次，可造成2次少量群体伤害。两段攻击命中时分别回复<font color ='#FC6565'>2%</font>、<font color ='#FC6565'>4%</font>霸气。\\n<font color ='#C0E0AB'>追加断龙枪：重击前方目标。\\n",
+            "background": "天弧飞火，疾射天狼，长枪指北，天下皆冬。",
+            "type": "招式",
+            "typeDes": "威临九霄",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 8,
+            "addition1List": [
+                0.128,
+                0.128
+            ]
+        },
+        {
+            "skillId": 15307001,
+            "name": "天龙扑月",
+            "icon": "SKILLL_SW_TuJin_A01_Lv1",
+            "des": "蓄力后向前方射出长枪，突进到该方向，对沿途的敌人造成[NewSkillValue]点伤害。\\n<font color ='#C0E0AB'>战意：如果命中至少一个目标，可无需蓄力再次施放，并造成<font color ='#FC6565'>击倒</font>效果</font>\\n<font color ='#C0E0AB'>背水：在50%以下血量进入背水时，天龙扑月可以瞬间发动无需蓄力</font>\\n###蓄力后向前方射出长枪，突进到该方向，对沿途的敌人造成[NewSkillValue]点伤害。\\n<font color ='#C0E0AB'>战意：如果命中至少一个目标，可无需蓄力再次施放，并造成<font color ='#FC6565'>击倒</font>效果</font>\\n<font color ='#C0E0AB'>背水：在50%以下血量进入背水时，天龙扑月可以瞬间发动无需蓄力</font>",
+            "background": "天龙探爪，疾如掠火，九九落鳞，迅如飞星。",
+            "type": "招式",
+            "typeDes": "威临九霄",
+            "distance": 0,
+            "cd": 18000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.3
+            ]
+        },
+        {
+            "skillId": 15308001,
+            "name": "贯甲箭",
+            "icon": "SKILLL_SW_SheJi_A01_Lv1",
+            "des": "破定技，可有效打击敌人定力。对前方区域目标造成[NewSkillValue]点伤害。\\n<font color ='#C0E0AB'>贯甲：造成<font color ='#FC6565'>破甲</font>状态，最多叠加5层，每层降低外功防御<font color ='#FC6565'>3%</font></font>\\n<font color ='#C0E0AB'>虎魄：命中敌人时降低猛虎破调息时间<font color ='#FC6565'>3</font>秒</font>\\n###破定技，可有效打击敌人定力。对前方区域目标造成[NewSkillValue]点伤害。\\n<font color ='#C0E0AB'>贯甲：造成<font color ='#FC6565'>破甲</font>状态，最多叠加5层，每层降低外功防御<font color ='#FC6565'>3%</font></font>\\n<font color ='#C0E0AB'>虎魄：命中敌人时降低猛虎破调息时间<font color ='#FC6565'>3</font>秒</font>",
+            "background": "劲草惊风，长夜引弓，丹心白羽，贯甲成空。",
+            "type": "破定技",
+            "typeDes": "威临九霄",
+            "distance": 0,
+            "cd": 8000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.2
+            ]
+        },
+        {
+            "skillId": 15308201,
+            "name": "贯甲箭",
+            "icon": "SKILLL_SW_SheJi_A01_Lv1",
+            "des": "破定技，可有效打击敌人定力。对前方区域目标造成[NewSkillValue]点伤害。\\n<font color ='#C0E0AB'>贯甲：造成<font color ='#FC6565'>破甲</font>状态，最多叠加5层，每层降低外功防御<font color ='#FC6565'>3%</font></font>\\n<font color ='#C0E0AB'>虎魄：命中敌人时降低猛虎破调息时间<font color ='#FC6565'>3</font>秒</font>\\n###破定技，可有效打击敌人定力。对前方区域目标造成[NewSkillValue]点伤害。\\n<font color ='#C0E0AB'>贯甲：造成<font color ='#FC6565'>破甲</font>状态，最多叠加5层，每层降低外功防御<font color ='#FC6565'>3%</font></font>\\n<font color ='#C0E0AB'>虎魄：命中敌人时降低猛虎破调息时间<font color ='#FC6565'>3</font>秒</font>",
+            "background": "劲草惊风，长夜引弓，丹心白羽，贯甲成空。",
+            "type": "破定技",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 1000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.224,
+                0.224
+            ]
+        },
+        {
+            "skillId": 15309001,
+            "name": "狂龙震",
+            "icon": "SKILLL_SW_XuLiAoe_A01_Lv1",
+            "des": "蓄力发动猛烈的突刺，击飞前方区域内的所有敌人并造成<font color ='#FC6565'>[NewSkillValue]</font>点伤害。\\n<font color ='#C0E0AB'>霸体：蓄力过程中<font color ='#FC6565'>免疫控制</font>效果。</font>\\n###蓄力发动猛烈的突刺，击飞前方区域内的所有敌人并造成<font color ='#FC6565'>[NewSkillValue]</font>点伤害。\\n<font color ='#C0E0AB'>霸体：蓄力过程中<font color ='#FC6565'>免疫控制</font>效果。</font>",
+            "background": "长枪落雨，万龙升天，如疯如癫，如痴如狂。",
+            "type": "招式",
+            "typeDes": "威临九霄",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 3,
+            "addition1List": [
+                0.77
+            ]
+        },
+        {
+            "skillId": 15310001,
+            "name": "解控技·无敌无我",
+            "icon": "SKILLL_SW_FankongzhiBuff_A01_Lv1",
+            "des": "震飞所有周围目标，解除控制效果并免疫所有控制，持续<font color ='#FC6565'>5</font>秒。\\n<font color ='#C0E0AB'>云体：可在空中使用。</font>\\n<font color ='#C0E0AB'>激昂：持续过程中，使用断龙枪命中对手可延续无敌无我的持续时间1.5秒，最多延长4.5秒。</font>\\n###震飞所有周围目标，解除控制效果并免疫所有控制，持续<font color ='#FC6565'>5</font>秒。\\n<font color ='#C0E0AB'>云体：可在空中使用。</font>\\n<font color ='#C0E0AB'>激昂：持续过程中，使用断龙枪命中对手可延续无敌无我的持续时间1.5秒，最多延长4.5秒。</font>\\n",
+            "background": "无进无退，无胜无败，无生无死，无阴无阳。",
+            "type": "内功",
+            "typeDes": "铁血征尘",
+            "distance": 0,
+            "cd": 35000,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0.04
+            ]
+        },
+        {
+            "skillId": 15311001,
+            "name": "背水一击",
+            "icon": "SKILLL_SW_DazhaoBuff_A01_Lv1",
+            "des": "震飞所有周围目标，立刻补满霸气，持续17秒。状态持续中除贯甲箭以外的所有门派技能调息降低40%，且无法回复霸气。\\n<font color ='#C0E0AB'>豪气：在背水状态下断龙枪消耗降低5%，但每次使用消耗自身1%血量，气血低于20%时不再扣血。</font>\\n<font color ='#C0E0AB'>背水：在气血低于50%时施放背水一击，可在背水期间获得天龙扑月瞬发效果，且状态持续时间延长8秒。每降低5%气血额外延长3秒持续时间，最多延长至40秒。</font>\\n<font color ='#C0E0AB'>云体：可在空中使用。</font>\\n###震飞所有周围目标，立刻补满霸气，持续17秒。状态持续中除贯甲箭以外的所有门派技能调息降低40%，且无法回复霸气。\\n<font color ='#C0E0AB'>豪气：在背水状态下断龙枪消耗降低5%，但每次使用消耗自身1%血量，气血低于20%时不再扣血。</font>\\n<font color ='#C0E0AB'>背水：在气血低于50%时施放背水一击，可在背水期间获得天龙扑月瞬发效果，且状态持续时间延长8秒。每降低5%气血额外延长3秒持续时间，最多延长至40秒。</font>\\n<font color ='#C0E0AB'>云体：可在空中使用。</font>\\n",
+            "background": "背水一战，狭路相逢，死地求活，绝境逢生。",
+            "type": "内功",
+            "typeDes": "铁血征尘",
+            "distance": 0,
+            "cd": 70000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.1
+            ]
+        },
+        {
+            "skillId": 15313001,
+            "name": "铁血征尘",
+            "icon": "SKILLL_SW_BeiDong02",
+            "des": "被动增加<font color ='#FC6565'>20%</font>定力上限。\\n###被动增加<font color ='#FC6565'>20%</font>定力上限。",
+            "background": "",
+            "type": "内功",
+            "typeDes": "铁血征尘",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 15314001,
+            "name": "饮血技·烈风枪",
+            "icon": "SKILLL_SW_DanTiGongJi",
+            "des": "对目标单体造成[NewSkillValue]点伤害\\n<font color ='#C0E0AB'>追加断龙枪：造成大量单体伤害</font>\\n<font color ='#C0E0AB'>饮血：对气血<font color ='#FC6565'>20%</font>以下的目标造成100%额外伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血、霸气和少量杀意，并刷新<font color ='#FC6565'>烈风枪</font>调息时间。</font>\\n<font color ='#C0E0AB'>十字枪：配合其他可以接续断龙枪的技能使用，可发动<font color ='#FC6565'>十字枪</font>，若霸气足够施展两次断龙枪，此次追打将造成2倍伤害并消耗双倍霸气。</font>\\n###对目标单体造成[NewSkillValue]点伤害\\n<font color ='#C0E0AB'>追加断龙枪：造成大量单体伤害</font>\\n<font color ='#C0E0AB'>饮血：对气血<font color ='#FC6565'>20%</font>以下的目标造成100%额外伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血、霸气和少量杀意，并刷新<font color ='#FC6565'>烈风枪</font>调息时间。</font>\\n<font color ='#C0E0AB'>十字枪：配合其他可以接续断龙枪的技能使用，可发动<font color ='#FC6565'>十字枪</font>，若霸气足够施展两次断龙枪，此次追打将造成2倍伤害并消耗双倍霸气。</font>",
+            "background": "断掌握枪，孤煞擒弓；来携羝血，去掠鹄鸿",
+            "type": "招式",
+            "typeDes": "铁血征尘",
+            "distance": 500,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.34
+            ]
+        },
+        {
+            "skillId": 15400001,
+            "name": "杀意·星河倒卷",
+            "icon": "SKILLL_SW_ShaYi",
+            "des": "消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>\\n###消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>",
+            "background": "神威镇派绝学，翩若惊鸿，婉若游龙，星汉灿烂，倒转苍穹。",
+            "type": "重华技",
+            "typeDes": "镇派武学",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "杀意500点",
+            "maxLevel": 1,
+            "addition1List": [
+                0.4,
+                0,
+                0.6,
+                1.4
+            ]
+        },
+        {
+            "skillId": 15400701,
+            "name": "红尘勿扰·一",
+            "icon": "SKILLL_SW_SIDLE_01",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒弟子，形神兼备",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 15400702,
+            "name": "红尘勿扰·二",
+            "icon": "SKILLL_SW_SIDLE_02",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒剑秀，英姿飒爽",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 15400703,
+            "name": "红尘勿扰·三",
+            "icon": "SKILLL_SW_SIDLE_03",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒才俊，侠骨柔肠",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 3,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 15321001,
+            "name": "怒梅·喋血",
+            "icon": "SKILLL_SW_SMHJ_02",
+            "des": "连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标，最后一招击飞目标。\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标，最后一招击飞目标。\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "为了正义而战！",
+            "type": "连招",
+            "typeDes": "铁血征尘",
+            "distance": 300,
+            "cd": 120000,
+            "consume": "",
+            "maxLevel": 30,
+            "addition1List": [
+                0.39,
+                0.39,
+                0.39,
+                0.39,
+                0.39,
+                0.975,
+                1.56
+            ]
+        }
+    ],
+    "GB": [
+        {
+            "skillId": 13100001,
+            "name": "力满效果-缠",
+            "icon": "SKILLL_GB_Yin_A01_Lv1",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 1500,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 13101001,
+            "name": "龙吟三破",
+            "icon": "SKILLL_GB_DantiTaolu_Entrance_Lv1",
+            "des": "此招共有三式，连续施放可以打出连招，命中时增加25力。\\n对目标造成多段打击总计[CastGroup]点伤害并压制目标，最后一掌将目标击退。\\n<font color ='#C0E0AB'>满力：力满时施放，可将目标拉至身旁施放，伤害提升50%。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按3次，可造成3次中量的单体伤害。\\n<font color ='#C0E0AB'>满力：力满时施放，可将目标拉至身旁施放，伤害提升50%。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "长啸摧肝胆，龙虎不相逢。",
+            "type": "力系",
+            "typeDes": "降龙伏虎",
+            "distance": 200,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.24,
+                0.12,
+                0.396,
+                0.8055
+            ]
+        },
+        {
+            "skillId": 13101401,
+            "name": "龙吟三破",
+            "icon": "SKILLL_GB_DantiTaolu_Entrance_Lv1",
+            "des": "此招共有三式，连续施放可以打出连招，命中时增加25力。\\n对目标造成多段打击总计[CastGroup]点伤害并压制目标，最后一掌将目标击退。\\n<font color ='#C0E0AB'>满力：力满时施放，可将目标拉至身旁施放，伤害提升50%。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按3次，可造成3次中量的单体伤害。\\n<font color ='#C0E0AB'>满力：力满时施放，可将目标拉至身旁施放，伤害提升50%。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "长啸摧肝胆，龙虎不相逢。",
+            "type": "力系",
+            "typeDes": "降龙伏虎",
+            "distance": 1500,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0,
+                0.24,
+                0.516,
+                0.8055
+            ]
+        },
+        {
+            "skillId": 13103001,
+            "name": "反打·离弦腿",
+            "icon": "SKILLL_GB_Chongfeng_Entrance_Lv1",
+            "des": "将目标击飞，造成[CastGroup]点伤害，当目标无法被击飞时，将自身向后弹出，命中时增加10力。\\n施放后15秒内可再次使用施放<font color ='#FC6565'>神掌八打</font>。\\n<font color ='#C0E0AB'>反击：可在被压制时使用。</font>\\n<font color ='#C0E0AB'>满力：力满时施放，伤害提升50%并附加真气紊乱状态，对<font color ='#FC6565'>头目类</font>敌人造成100%额外伤害。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###可造成少量单体伤害。\\n施放后15秒内可再次使用施放<font color ='#FC6565'>神掌八打</font>。\\n<font color ='#C0E0AB'>反击：可以在被压制时使用。</font>\\n<font color ='#C0E0AB'>满力：力满时施放，伤害提升50%并附加真气紊乱状态，对<font color ='#FC6565'>头目类</font>敌人造成100%额外伤害。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n",
+            "background": "人在离弦箭，腿做满月弓。",
+            "type": "力系",
+            "typeDes": "逍遥游",
+            "distance": 700,
+            "cd": 35000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0,
+                0.2
+            ]
+        },
+        {
+            "skillId": 13104001,
+            "name": "神掌八打",
+            "icon": "SKILLL_GB_DangongH01_A01_Lv1",
+            "des": "蓄力1秒后跳跃冲向目标将其击倒，造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>力：命中目标时增加15力</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体敌人造成100%额外伤害。</font>\\n<font color ='#C0E0AB'>克敌：对<font color ='#FC6565'>头目类</font>敌人造成大量额外伤害。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###蓄力1秒后跳跃冲向目标将其击倒，造成中量单体伤害。\\n<font color ='#C0E0AB'>力：命中目标时增加15力</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体敌人造成100%额外伤害。</font>\\n<font color ='#C0E0AB'>克敌：对<font color ='#FC6565'>头目类</font>敌人造成大量额外伤害。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "铁骨浑不怕，神掌震八方。",
+            "type": "力系",
+            "typeDes": "逍遥游",
+            "distance": 1200,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 3,
+            "addition1List": [
+                0,
+                0,
+                0.32
+            ]
+        },
+        {
+            "skillId": 13108001,
+            "name": "怒扫乾坤",
+            "icon": "SKILLL_GB_QungongH01_Entrance_Lv1",
+            "des": "原地快速挥舞酒葫芦，对周围造成总计[CastGroup]点的区域伤害。\\n<font color ='#C0E0AB'>技：每段打击命中目标时为自身增加技</font>\\n###可造成少量群体伤害。\\n<font color ='#C0E0AB'>技：每段打击命中目标时为自身增加技</font>\\n",
+            "background": "壶酒窥人世，怒意扫乾坤。",
+            "type": "招式",
+            "typeDes": "降龙伏虎",
+            "distance": 0,
+            "cd": 9000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0,
+                0.138,
+                0.138,
+                0.138,
+                0.138,
+                0.138,
+                0.69
+            ]
+        },
+        {
+            "skillId": 13108801,
+            "name": "怒扫乾坤",
+            "icon": "SKILLL_GB_QungongH01_Entrance_Lv1",
+            "des": "立即发动怒扫乾坤最后一段，对周围造成总计[CastGroup]点的区域伤害。\\n<font color ='#C0E0AB'>技：每段打击为自身增加技。</font>\\n###可造成中量群体伤害。\\n<font color ='#C0E0AB'>技：每段打击为自身增加技。</font>\\n",
+            "background": "壶酒窥人世，怒意扫乾坤。",
+            "type": "招式",
+            "typeDes": "降龙伏虎",
+            "distance": 0,
+            "cd": 2000,
+            "consume": 0,
+            "maxLevel": 4,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 13102101,
+            "name": "饮血技·劈山诀",
+            "icon": "SKILLL_GB_Shuai_A02_Entrance_Lv1",
+            "des": "破定技，可有效打击敌人定力。\\n抓住目标，若对方没有翻滚脱离，造成[CastGroup]点范围伤害，命中时增加50技。\\n<font color ='#C0E0AB'>饮血：对气血<font color ='#FC6565'>20%</font>以下的目标造成100%额外伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血和少量杀意，并刷新劈山诀调息时间</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体目标使用时替换为一次重击，造成100%额外伤害。</font>\\n<font color ='#C0E0AB'>满技：技满时施放，可追加一次打击，击倒周围所有目标，造成50%额外伤害。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###破定技，可有效打击敌人定力。造成中量群体伤害。\\n<font color ='#C0E0AB'>饮血：对气血<font color ='#FC6565'>20%</font>以下的目标造成100%额外伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血和少量杀意，并刷新劈山诀调息时间</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体目标使用时替换为一次重击，造成两倍伤害。</font>\\n<font color ='#C0E0AB'>满技：技满时施放，可追加一次打击，击倒周围所有目标，造成50%额外伤害。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "劈山蹈海力，不羡贪天功。",
+            "type": "技系",
+            "typeDes": "逍遥游",
+            "distance": 600,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0,
+                0,
+                0.76608
+            ]
+        },
+        {
+            "skillId": 13112001,
+            "name": "破定技·江湖醉",
+            "icon": "SKILLL_GB_Zui_A01_Lv1",
+            "des": "喝下烈酒，恢复20%定力，获得<font color ='#FC6565'>2层醉意</font>和<font color ='#FC6565'>2层酒劲</font>状态，持续30秒。\\n<font color ='#C0E0AB'>醉意：在习得醉饮江河后10层醉意会进入“烂醉”状态，奔雷拳将会变成醉拳效果。</font>\\n<font color ='#C0E0AB'>酒劲：每层“酒劲”提升外功攻击2%，格挡2%，最多叠加10层。</font>\\n<font color ='#C0E0AB'>二段：可再次使用一次此技能，以内力将烈酒喷出，对敌人造成大量定力伤害并附加醉酒效果，命中降低20%。</font>\\n###喝下烈酒，恢复20%定力，获得<font color ='#FC6565'>2层醉意</font>和<font color ='#FC6565'>2层酒劲</font>状态，持续30秒。\\n<font color ='#C0E0AB'>醉意：在习得醉饮江河后10层醉意会进入“烂醉”状态，奔雷拳将会变成醉拳效果。</font>\\n<font color ='#C0E0AB'>酒劲：每层“酒劲”提升外功攻击2%，格挡2%，最多叠加10层。</font>\\n<font color ='#C0E0AB'>二段：可再次使用一次此技能，以内力将烈酒喷出，对敌人造成大量定力伤害并附加醉酒效果，命中降低20%。</font>",
+            "background": "醉意无处去，泼洒向江湖。",
+            "type": "招式",
+            "typeDes": "逍遥游",
+            "distance": 0,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 13113001,
+            "name": "破定技·江湖醉二段",
+            "icon": "SKILLL_GB_Zui_A01_Lv1",
+            "des": "<font color ='#C0E0AB'>二段：以内力将烈酒喷出，对敌人造成大量定力伤害并附加醉酒效果，命中降低20%。</font>\\n命中目标获得<font color ='#FC6565'>2层醉意</font>和<font color ='#FC6565'>2层酒劲</font>状态，持续30秒。\\n###<font color ='#C0E0AB'>二段：以内力将烈酒喷出，对敌人造成大量定力伤害并附加醉酒效果，命中降低20%。</font>\\n命中目标获得<font color ='#FC6565'>2层醉意</font>和<font color ='#FC6565'>2层酒劲</font>状态，持续30秒。",
+            "background": "醉意无处去，泼洒向江湖。",
+            "type": "招式",
+            "typeDes": "逍遥游",
+            "distance": 0,
+            "cd": 1000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.1
+            ]
+        },
+        {
+            "skillId": 13113025,
+            "name": "破定技·江湖醉",
+            "icon": "",
+            "des": "",
+            "background": "",
+            "type": "招式",
+            "typeDes": "逍遥游",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 25,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 13106001,
+            "name": "解控技·倒提壶",
+            "icon": "SKILLL_GB_Chan_A01_Lv1",
+            "des": "击飞周围的所有目标并造成[NewSkillValue]点伤害，。\\n<font color ='#C0E0AB'>反击：可以在被<font color ='#FC6565'>压制</font>时使用。</font>\\n<font color ='#C0E0AB'>疾奔：使用后5秒内移动速度提高80%，招架几率大幅提升。疾跑中可接续虎尾脚。</font>\\n<font color ='#C0E0AB'>回息：使用后回复内息15%。</font>\\n###可造成少量单体伤害并将目标击飞\\n<font color ='#C0E0AB'>反击：可以在被<font color ='#FC6565'>压制</font>时使用。</font>\\n<font color ='#C0E0AB'>疾奔：使用后5秒内移动速度提高80%，招架几率大幅提升。疾跑中可接续虎尾脚。</font>\\n<font color ='#C0E0AB'>回息：使用后回复内息15%。</font>",
+            "background": "倒提敬千钟，虎啸复龙吟。",
+            "type": "招式",
+            "typeDes": "逍遥游",
+            "distance": 0,
+            "cd": 40000,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0.1
+            ]
+        },
+        {
+            "skillId": 13115001,
+            "name": "百裂脚",
+            "icon": "SKILLL_GB_Bailiejiao_Entrance_Lv1",
+            "des": "以凌厉的飞腿对前方区域造成[CastGroup]点范围伤害，完整命中目标时增加50技。\\n<font color ='#C0E0AB'>满技：技满时施放，可压制所有目标，并追加一次打击击飞周围所有目标，造成100%额外伤害。</font>\\n<font color ='#C0E0AB'>霸体：百裂脚施展时自身获得霸体效果。</font>\\n###对前方区域造成少量群体伤害。\\n<font color ='#C0E0AB'>满技：技满时施放，可压制所有目标，并追加一次打击击飞周围所有目标，造成100%额外伤害。</font>\\n<font color ='#C0E0AB'>霸体：百裂脚施展时自身获得霸体效果。</font>",
+            "background": "身如陀螺随尘转，脚似闪电裂山风。",
+            "type": "技系",
+            "typeDes": "逍遥游",
+            "distance": 0,
+            "cd": 18000,
+            "consume": "",
+            "maxLevel": 3,
+            "addition1List": [
+                0.32,
+                0.48
+            ]
+        },
+        {
+            "skillId": 13117001,
+            "name": "追风踢",
+            "icon": "SKILLL_GB_TuJin",
+            "des": "破定技，可有效打击敌人定力。\\n向前突进15米距离，命中目标后将其击倒，造成[CastGroup]点范围伤害\\n，命中时增加50力。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###破定技，可有效打击敌人定力。\\n向前突进15米距离，命中目标后将其击倒，造成[CastGroup]点范围伤害，命中时增加50力。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n",
+            "background": "追影追不尽，追月又追风。",
+            "type": "力系",
+            "typeDes": "降龙伏虎",
+            "distance": 0,
+            "cd": 8000,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 13110001,
+            "name": "醉饮江河",
+            "icon": "SKILLL_GB_Hejiu_Entrance_Lv1",
+            "des": "喝下烈酒，获得<font color ='#FC6565'>6层醉意</font>和<font color ='#FC6565'>6层酒劲</font>状态，持续30秒。\\n<font color ='#C0E0AB'>醉意：10层醉意会进入“烂醉”状态，奔雷拳将会变成醉拳效果。</font>\\n<font color ='#C0E0AB'>醉饮江河：此状态下力技恢复为满，且触发满力、满技效果不会扣除力技资源，持续15秒。</font>\\n<font color ='#C0E0AB'>格反：饮酒过程中受到攻击可以闪躲该次攻击，并击飞前方所有目标，每命中一个目标降低调息时间3秒，最多降低21秒。</font>\\n<font color ='#C0E0AB'>二段反击：醉酒期间可再次使用一次此技能，命中目标时解除自身压制状态并击飞目标，命中目标越多造成的伤害越高。</font>\\n###喝下烈酒，获得<font color ='#FC6565'>6层醉意</font>和<font color ='#FC6565'>6层酒劲</font>状态，持续30秒。\\n<font color ='#C0E0AB'>醉意：10层醉意会进入“烂醉”状态，奔雷拳将会变成醉拳效果。</font>\\n<font color ='#C0E0AB'>醉饮江河：此状态下力技恢复为满，且触发满力、满技效果不会扣除力技资源，持续15秒。</font>\\n<font color ='#C0E0AB'>格反：饮酒过程中受到攻击可以闪躲该次攻击，并击飞前方所有目标，每命中一个目标降低调息时间3秒，最多降低21秒。</font>\\n<font color ='#C0E0AB'>二段反击：醉酒期间可再次使用一次此技能，命中目标时解除自身压制状态并击飞目标，命中目标越多造成的伤害越高。</font>",
+            "background": "一饮吞日月，再饮尽江河。",
+            "type": "招式",
+            "typeDes": "逍遥游",
+            "distance": 0,
+            "cd": 70000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0,
+                0
+            ]
+        },
+        {
+            "skillId": 13110101,
+            "name": "醉饮江河二段",
+            "icon": "SKILLL_GB_Hejiu_Entrance_Lv1",
+            "des": "<font color ='#C0E0AB'>二段反击：以内力将烈酒喷出，命中目标时解除自身压制状态并击飞目标，命中目标越多造成的伤害越高。</font>\\n###<font color ='#C0E0AB'>二段反击：以内力将烈酒喷出，命中目标时解除自身压制状态并击飞目标，命中目标越多造成的伤害越高。</font>",
+            "background": "一饮吞日月，再饮尽江河。",
+            "type": "招式",
+            "typeDes": "逍遥游",
+            "distance": 0,
+            "cd": 2000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                1
+            ]
+        },
+        {
+            "skillId": 13123001,
+            "name": "逍遥游",
+            "icon": "SKILLL_GB_BeiDong02",
+            "des": "丐帮的力、技会随着使用力系、技系技能而增加，当力、技为满时，下一次该系技能消耗全部力值或技值，产生技能中标注的额外效果。\\n###丐帮的力、技会随着使用力系、技系技能而增加，当力、技为满时，下一次该系技能消耗全部力值或技值，产生技能中标注的额外效果。\\n",
+            "background": "",
+            "type": "内功",
+            "typeDes": "逍遥游",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 13400001,
+            "name": "杀意·龙震百里",
+            "icon": "SKILLL_GB_ShaYi",
+            "des": "消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>\\n###消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>",
+            "background": "丐帮最强镇帮绝学，威力更胜龙吟三破，直若虎啸龙吟，震惊百里。",
+            "type": "重华技",
+            "typeDes": "降龙伏虎",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "杀意500点",
+            "maxLevel": 1,
+            "addition1List": [
+                0.3,
+                0.4,
+                0.45,
+                0,
+                0.5,
+                0.55,
+                0.6,
+                0.65,
+                0.75,
+                0.8,
+                1.3
+            ]
+        },
+        {
+            "skillId": 13118001,
+            "name": "奔雷拳",
+            "icon": "SKILLL_GB_Quan_Entrance_Lv1",
+            "des": "此招共有三式，通过连续释放可以打出连招，对前方区域造成总计[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>技：第三段命中目标时增加50技，并刷新虎尾脚调息时间。</font>\\n###连按3次，可造成3次少量的群体伤害。\\n<font color ='#C0E0AB'>技：第三段命中目标时增加50技，并刷新虎尾脚调息时间。</font>\\n\\n",
+            "background": "金鳞冲日迎风啸，能教锦绣化奔雷。",
+            "type": "招式",
+            "typeDes": "降龙伏虎",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 8,
+            "addition1List": [
+                0.128,
+                0,
+                0.128,
+                0,
+                0.31
+            ]
+        },
+        {
+            "skillId": 13121001,
+            "name": "虎尾脚",
+            "icon": "SKILLL_GB_Jiao_Entrance_Lv1",
+            "des": "立刻扫腿打击前方区域敌人，造成SkillValue(FIST$$42$$0.31)点伤害。\\n<font color ='#C0E0AB'>力：命中目标时增加25力</font>\\n<font color ='#C0E0AB'>追打：如果敌人处于倒地或浮空状态，将其击飞并且伤害提升100%</font>\\n<font color ='#C0E0AB'>克敌：命中<font color ='#FC6565'>头目类</font>敌人，将刷新<font color ='#FC6565'>追风踢</font>调息时间，并自动施展一次倒踢。</font>\\n<font color ='#C0E0AB'>疾风踢：在加速跑动时使用，可击飞前方所有敌人，造成100%额外伤害。</font>\\n###可对前方敌人造成中量的群体伤害。\\n<font color ='#C0E0AB'>力：命中目标时增加25力</font>\\n<font color ='#C0E0AB'>追打：如果敌人处于倒地或浮空状态，将其击飞并且伤害提升100%。</font>\\n<font color ='#C0E0AB'>克敌：命中<font color ='#FC6565'>头目类</font>敌人，将刷新<font color ='#FC6565'>追风踢</font>调息时间，并自动施展一次倒踢。</font>\\n<font color ='#C0E0AB'>疾风踢：在加速跑动时使用，可击飞前方所有敌人，造成100%额外伤害。</font>",
+            "background": "虎头虎尾一时收，凛凛威风四百州。",
+            "type": "招式",
+            "typeDes": "逍遥游",
+            "distance": 0,
+            "cd": 7000,
+            "consume": "",
+            "maxLevel": 6,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 13127000,
+            "name": "醉拳",
+            "icon": "SKILLL_GB_Bailiequan_Entrance_Lv1",
+            "des": "对目标进行连续不断的多段打击，造成总计[CastGroup]点单体伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###可对目标进行连续不断的多段打击，造成总计[CastGroup]点单体伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>",
+            "background": "",
+            "type": "招式",
+            "typeDes": "逍遥游",
+            "distance": 1200,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 0,
+            "addition1List": [
+                0.4,
+                0.5,
+                0.5,
+                0.6,
+                0.8,
+                1,
+                0,
+                1.2
+            ]
+        },
+        {
+            "skillId": 13127021,
+            "name": "红尘勿扰·一",
+            "icon": "SKILLL_GB_SIDLE_01",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒弟子，形神兼备",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 21,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 13127022,
+            "name": "红尘勿扰·二",
+            "icon": "SKILLL_GB_SIDLE_02",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒剑秀，英姿飒爽",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 22,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 13127023,
+            "name": "红尘勿扰·三",
+            "icon": "SKILLL_GB_SIDLE_03",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒才俊，侠骨柔肠",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 23,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 13321001,
+            "name": "怒梅·喋血",
+            "icon": "SKILLL_GB_SMHJ_02",
+            "des": "连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标，最后一招击飞目标。\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标，最后一招击飞目标。\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "为了正义而战！",
+            "type": "连招",
+            "typeDes": "降龙伏虎",
+            "distance": 300,
+            "cd": 120000,
+            "consume": "",
+            "maxLevel": 30,
+            "addition1List": [
+                0.39,
+                0.39,
+                0,
+                0.585,
+                0.585,
+                0.585,
+                0,
+                2.34
+            ]
+        }
+    ],
+    "TM": [
+        {
+            "skillId": 14101001,
+            "name": "星雨飞花",
+            "icon": "SKILLL_TM_DantiTaolu_Entrance_Lv1",
+            "des": "此招共有三式，连续施放可以打出连招。\\n对目标造成共计[CastGroup]点伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按3次，可造成3次中量的单体伤害。\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "长河漫漫飞星雨，朵朵飞花淡墨痕。",
+            "type": "连招",
+            "typeDes": "暗青落雨",
+            "distance": 1500,
+            "cd": 16000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.3008,
+                0.576,
+                0.768
+            ]
+        },
+        {
+            "skillId": 14103001,
+            "name": "暴雨梨花",
+            "icon": "SKILLL_TM_QungongH01_A01_Lv1",
+            "des": "破定技，可有效打击敌人定力。\\n跃起到空中，对自身周围敌人发动连续攻击，每0.6秒造成[CastGroup]点伤害，持续4秒。\\n持续时间中再次使用该技能可以向后跳跃，立即对周围敌人造成1.5倍伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###可按2次，第一次造成持续的少量群体伤害，第二次造成中量群体伤害。",
+            "background": "穹天落尽飘香雨，此花开尽更无花。",
+            "type": "招式",
+            "typeDes": "暗青落雨",
+            "distance": 0,
+            "cd": 8000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14405003,
+            "name": "暴雨梨花",
+            "icon": "SKILLL_TM_QungongH01_A01_Lv1",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14405005,
+            "name": "暴雨梨花",
+            "icon": "SKILLL_TM_QungongH01_A01_Lv1",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14103201,
+            "name": "暴雨梨花",
+            "icon": "SKILLL_TM_QungongH01_A01_Lv1",
+            "des": "破定技，可有效打击敌人定力。\\n跃起到空中，对自身周围敌人发动连续攻击，每0.6秒造成[CastGroup]点伤害，持续4秒。\\n持续时间中再次使用该技能可以向后跳跃，立即对周围敌人造成1.5倍伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###可按2次，第一次造成持续的少量群体伤害，第二次造成中量群体伤害。",
+            "background": "穹天落尽飘香雨，此花开尽更无花。",
+            "type": "破定技",
+            "typeDes": "暗青落雨",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.3
+            ]
+        },
+        {
+            "skillId": 14409002,
+            "name": "暴雨梨花",
+            "icon": "SKILLL_TM_QungongH01_A01_Lv1",
+            "des": "破定技，可有效打击敌人定力。\\n跃起到空中，对自身周围敌人发动连续攻击，每0.6秒造成[CastGroup]点伤害，持续4秒。\\n持续时间中再次使用该技能可以向后跳跃，立即对周围敌人造成1.5倍伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###可按2次，第一次造成持续的少量群体伤害，第二次造成中量群体伤害。",
+            "background": "穹天落尽飘香雨，此花开尽更无花。",
+            "type": "破定技",
+            "typeDes": "暗青落雨",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0.348
+            ]
+        },
+        {
+            "skillId": 14120101,
+            "name": "坠",
+            "icon": "SKILLL_TM_Callout_A01_Lv1",
+            "des": "",
+            "background": "",
+            "type": "破定技",
+            "typeDes": "",
+            "distance": 2000,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14122001,
+            "name": "千机扫",
+            "icon": "SKILLL_TM_Shao",
+            "des": "控制傀儡向主人所在方向发动连续飞镖攻击，持续10秒，每0.5秒造成[CastGroup]点伤害造成减速，期间持续消耗机巧。\\n<font color ='#C0E0AB'>反击：傀儡连续攻击期间，再次发动千机扫可以立即传送到傀儡位置，可在被<font color ='#FC6565'>压制</font>或<font color ='#FC6565'>浮空</font>时使用，施展后千机扫需要15秒调息。</font>\\n<font color ='#43dfd9'>此技能需要安置傀儡后才能施放</font>\\n###可按2次，第一次造成持续的少量群体伤害并附带减速效果，第二次造成少量伤害并传送到傀儡位置。\\n<font color ='#C0E0AB'>反击：傀儡连续攻击期间，再次发动千机扫可以立即传送到傀儡位置，可在被<font color ='#FC6565'>压制</font>或<font color ='#FC6565'>浮空</font>时使用，施展后千机扫需要15秒调息。</font>\\n<font color ='#43dfd9'>此技能需要安置傀儡后才能施放</font>",
+            "background": "机用千变江湖老，残花两鬓气严霜。",
+            "type": "招式",
+            "typeDes": "控鹤擒龙",
+            "distance": 0,
+            "cd": 1000,
+            "consume": "机巧16",
+            "maxLevel": 3,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14122101,
+            "name": "千机扫",
+            "icon": "SKILLL_TM_Shao",
+            "des": "控制傀儡向主人所在方向发动连续飞镖攻击，持续10秒，每0.5秒造成[CastGroup]点伤害造成减速，期间持续消耗机巧。\\n<font color ='#C0E0AB'>反击：傀儡连续攻击期间，再次发动千机扫可以立即传送到傀儡位置，可在被<font color ='#FC6565'>压制</font>或<font color ='#FC6565'>浮空</font>时使用，施展后千机扫需要15秒调息。</font>\\n<font color ='#43dfd9'>此技能需要安置傀儡后才能施放</font>\\n###可按2次，第一次造成持续的少量群体伤害并附带减速效果，第二次造成少量伤害并传送到傀儡位置。\\n<font color ='#C0E0AB'>反击：傀儡连续攻击期间，再次发动千机扫可以立即传送到傀儡位置，可在被<font color ='#FC6565'>压制</font>或<font color ='#FC6565'>浮空</font>时使用，施展后千机扫需要15秒调息。</font>\\n<font color ='#43dfd9'>此技能需要安置傀儡后才能施放</font>",
+            "background": "机用千变江湖老，残花两鬓气严霜。",
+            "type": "招式",
+            "typeDes": "控鹤擒龙",
+            "distance": 0,
+            "cd": 0,
+            "consume": "机巧16",
+            "maxLevel": 3,
+            "addition1List": [
+                0.06
+            ]
+        },
+        {
+            "skillId": 14108001,
+            "name": "舞清影",
+            "icon": "SKILLL_TM_Callout_A01_Lv1",
+            "des": "展示和收回傀儡\\n<font color ='#43dfd9'>只能在非战斗状态下使用，进入战斗后傀儡将被自动收回。</font>\\n<br><font color ='#C0E0AB'>60级后可前往唐门打坐区（1290$$1302）找唐倪师兄了解切换傀儡性别事宜。</font>\\n###展示和收回傀儡\\n<font color ='#43dfd9'>只能在非战斗状态下使用，进入战斗后傀儡将被自动收回。</font><br><font color  ='#C0E0AB'>60级后可前往唐门打坐区（1290$$1302）找唐倪师兄了解切换傀儡性别事宜。</font>",
+            "background": "月转花枝疏清影，卷地惊风吹落痕。",
+            "type": "招式",
+            "typeDes": "控鹤擒龙",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14109001,
+            "name": "形神合",
+            "icon": "SKILLL_TM_Heji_A01_Lv1",
+            "des": "使用后获得<font color ='#FC6565'>合击</font>状态，持续20秒或使用3次。在<font color ='#FC6565'>合击</font>状态下施展<font color ='#FC6565'>风花饮月</font>、<font color ='#FC6565'>星雨飞花</font>、<font color ='#FC6565'>暴雨梨花</font>和<font color ='#FC6565'>乳燕归巢</font>技能时，傀儡会自动进行合击配合。合击会重新安置傀儡.\\n###为自身附加<font color ='#FC6565'>合击</font>状态，持续20秒或使用3次。\\n<font color ='#C0E0AB'>合击：技能<font color ='#FC6565'>风花饮月</font>、<font color ='#FC6565'>星雨飞花</font>、<font color ='#FC6565'>暴雨梨花</font>和<font color ='#FC6565'>乳燕归巢</font>切换为合击效果。",
+            "background": "一棚傀儡木雕成，半是神形半鬼形。",
+            "type": "招式",
+            "typeDes": "控鹤擒龙",
+            "distance": 0,
+            "cd": 40000,
+            "consume": "机巧10",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14110001,
+            "name": "千魂裂",
+            "icon": "SKILLL_TM_Chongfeng_A01_Lv1",
+            "des": "指挥傀儡冲到范围内任意指定位置，对路径上目标造成[NewSkillValue]点伤害，傀儡到达该位置后会以机关形式安置。\\n傀儡<font color ='#FC6565'>安置</font>后可施放<font color ='#FC6565'>困百骸</font>、<font color ='#FC6565'>爆天星</font>和<font color ='#FC6565'>千机扫</font>，也可以再次施放千魂裂。\\n###造成少量群体伤害，并<font color ='#FC6565'>安置</font>傀儡。\\n<font color ='#C0E0AB'>安置：将傀儡置于某个位置，并作为后续傀儡技的起始位置。</font>",
+            "background": "十诗道别心已远，万里关山断千魂。",
+            "type": "招式",
+            "typeDes": "控鹤擒龙",
+            "distance": 2200,
+            "cd": 0,
+            "consume": "机巧20",
+            "maxLevel": 5,
+            "addition1List": [
+                0.1
+            ]
+        },
+        {
+            "skillId": 14110101,
+            "name": "千魂裂",
+            "icon": "SKILLL_TM_Chongfeng_A01_Lv1",
+            "des": "指挥傀儡冲到范围内任意指定位置，对路径上目标造成[NewSkillValue]点伤害，傀儡到达该位置后会以机关形式安置。\\n傀儡<font color ='#FC6565'>安置</font>后可施放<font color ='#FC6565'>困百骸</font>、<font color ='#FC6565'>爆天星</font>和<font color ='#FC6565'>千机扫</font>，也可以再次施放千魂裂。\\n###造成少量群体伤害，并<font color ='#FC6565'>安置</font>傀儡。\\n<font color ='#C0E0AB'>安置：将傀儡置于某个位置，并作为后续傀儡技的起始位置。</font>",
+            "background": "十诗道别心已远，万里关山断千魂。",
+            "type": "招式",
+            "typeDes": "控鹤擒龙",
+            "distance": 2200,
+            "cd": 0,
+            "consume": "机巧20",
+            "maxLevel": 5,
+            "addition1List": [
+                0.1
+            ]
+        },
+        {
+            "skillId": 14111001,
+            "name": "解控技·自替身",
+            "icon": "SKILLL_TM_Ti_A01_Lv1",
+            "des": "召出傀儡替代自己承受后续伤害，并安置在当前位置，1秒后自身后撤一段距离。可以脱离所有控制状态。使出自替身后4秒钟之内，傀儡将变成可被攻击状态。\\n###用傀儡替代自己承受攻击，真身后撤，同时安置傀儡。\\n<font color ='#C0E0AB'>替身技：可以解除所有控制效果。</font>",
+            "background": "一段风光好如画，白日闲愁自替身。",
+            "type": "招式",
+            "typeDes": "控鹤擒龙",
+            "distance": 0,
+            "cd": 35000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14402003,
+            "name": "解控技·自替身",
+            "icon": "",
+            "des": "",
+            "background": "",
+            "type": "招式",
+            "typeDes": "控鹤擒龙",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 3,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14402002,
+            "name": "解控技·自替身",
+            "icon": "SKILLL_TM_Ti_A01_Lv1",
+            "des": "",
+            "background": "",
+            "type": "招式",
+            "typeDes": "控鹤擒龙",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 3,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14112001,
+            "name": "困百骸",
+            "icon": "SKILLL_TM_Qiu_A01_Lv1",
+            "des": "在傀儡安置后使用，<font color ='#FC6565'>禁锢</font>傀儡安置点附近的选定目标5秒，被<font color ='#FC6565'>禁锢</font>的目标无法移动和使用技能。\\n在<font color ='#FC6565'>禁锢</font>过程中使用傀儡技或合击技会提前结束<font color ='#FC6565'>禁锢</font>状态。\\n<font color ='#43dfd9'>此技能需要安置傀儡后才能施放</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###<font color ='#FC6565'>禁锢</font>选定目标一段时间。\\n<font color ='#C0E0AB'>禁锢：无法移动和使用技能。\\n<font color ='#43dfd9'>此技能需要安置傀儡后才能施放</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "困敌百骸俱溃散，一物长啸镇长灵。",
+            "type": "招式",
+            "typeDes": "控鹤擒龙",
+            "distance": 0,
+            "cd": 21000,
+            "consume": "机巧30",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14112101,
+            "name": "困百骸",
+            "icon": "SKILLL_TM_Qiu_A01_Lv1",
+            "des": "在傀儡安置后使用，<font color ='#FC6565'>禁锢</font>傀儡安置点附近的选定目标5秒，被<font color ='#FC6565'>禁锢</font>的目标无法移动和使用技能。\\n在<font color ='#FC6565'>禁锢</font>过程中使用傀儡技或合击技会提前结束<font color ='#FC6565'>禁锢</font>状态。\\n<font color ='#43dfd9'>此技能需要安置傀儡后才能施放</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###<font color ='#FC6565'>禁锢</font>选定目标一段时间。\\n<font color ='#C0E0AB'>禁锢：无法移动和使用技能。\\n<font color ='#43dfd9'>此技能需要安置傀儡后才能施放</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "困敌百骸俱溃散，一物长啸镇长灵。",
+            "type": "招式",
+            "typeDes": "控鹤擒龙",
+            "distance": 0,
+            "cd": 0,
+            "consume": "机巧30",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14113001,
+            "name": "破定技·爆天星",
+            "icon": "SKILLL_TM_Bao_A01_Lv1",
+            "des": "破定技，可有效打击敌人定力。\\n在傀儡安置后使用，对傀儡安置位置附近多个目标造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>反击：可以在被<font color ='#FC6565'>压制</font>或<font color ='#FC6565'>浮空</font>时使用。</font>\\n###破定技，可有效打击敌人定力，造成大量群体伤害\\n<font color ='#C0E0AB'>反击：可以在被<font color ='#FC6565'>压制</font>或<font color ='#FC6565'>浮空</font>时使用。</font>\\n<font color ='#43dfd9'>此技能需要安置傀儡后才能施放</font>",
+            "background": "东壁西墙寻辉夜，南曹北斗爆天星。",
+            "type": "破定技",
+            "typeDes": "控鹤擒龙",
+            "distance": 0,
+            "cd": 10000,
+            "consume": "机巧20",
+            "maxLevel": 4,
+            "addition1List": [
+                0.04
+            ]
+        },
+        {
+            "skillId": 14114001,
+            "name": "饮血技·风花饮月",
+            "icon": "SKILLL_TM_DanTiGongJi",
+            "des": "发动连续打击，对选中目标造成总计[CastGroup]*2.5点伤害\\n<font color ='#C0E0AB'>饮血：对气血20%以下的目标造成2倍伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血和少量杀意，并刷新风花饮月调息时间</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###造成中量单体伤害。\\n<font color ='#C0E0AB'>饮血：对气血20%以下的目标造成2倍伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血和少量杀意，并刷新风花饮月调息时间</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "始共春风容易别，终看樽前饮明月。",
+            "type": "饮血技",
+            "typeDes": "暗青落雨",
+            "distance": 2000,
+            "cd": 7000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.105,
+                0.1575,
+                0,
+                0.3938
+            ]
+        },
+        {
+            "skillId": 14119001,
+            "name": "乳燕归巢",
+            "icon": "SKILLL_TM_QungongH02_A01_Lv1",
+            "des": "破定技，可有效打击敌人定力。\\n对前方多个目标造成[NewSkillValue]点伤害。该技能每7秒会被强化一次。\\n<font color ='#C0E0AB'>强化：瞬间发动，会心一击几率提升50%。</font>\\n<font color ='#C0E0AB'>势沉：只命中一个目标时造成额外100%伤害。</font>\\n###破定技，可有效打击敌人定力。造成中量群体伤害，每隔7秒获得一次技能强化。\\n",
+            "background": "巢燕成归秋奇景，红枫遍地逝青春。",
+            "type": "破定技",
+            "typeDes": "暗青落雨",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 6,
+            "addition1List": [
+                0.2
+            ]
+        },
+        {
+            "skillId": 14119501,
+            "name": "乳燕归巢",
+            "icon": "SKILLL_TM_QungongH02_A02_Lv1",
+            "des": "破定技，可有效打击敌人定力。\\n对前方多个目标造成[NewSkillValue]点伤害。该技能每7秒会被强化一次。\\n<font color ='#C0E0AB'>强化：瞬间发动，会心一击几率提升50%。</font>\\n<font color ='#C0E0AB'>势沉：只命中一个目标时造成额外100%伤害。</font>\\n###破定技，可有效打击敌人定力。造成中量群体伤害，每隔7秒获得一次技能强化。\\n",
+            "background": "巢燕成归秋奇景，红枫遍地逝青春。",
+            "type": "破定技",
+            "typeDes": "暗青落雨",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 6,
+            "addition1List": [
+                0.2
+            ]
+        },
+        {
+            "skillId": 14119101,
+            "name": "乳燕归巢",
+            "icon": "",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 6,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14119201,
+            "name": "乳燕归巢",
+            "icon": "",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 6,
+            "addition1List": [
+                0.2
+            ]
+        },
+        {
+            "skillId": 14121001,
+            "name": "终结",
+            "icon": "SKILLL_TM_Switch_A01_Lv1",
+            "des": "在傀儡安置后使用。<br>主角与傀儡互换当前位置。",
+            "background": "傀儡何处去，我从何处来。",
+            "type": "招式",
+            "typeDes": "暗青落雨",
+            "distance": 2000,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.2
+            ]
+        },
+        {
+            "skillId": 14124001,
+            "name": "控鹤擒龙",
+            "icon": "SKILLL_TM_BeiDong02",
+            "des": "在使用暗器技的同时可施放傀儡技\\n###在使用暗器技的同时可施放傀儡技",
+            "background": "",
+            "type": "内功",
+            "typeDes": "控鹤擒龙",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14400001,
+            "name": "杀意·万点繁星",
+            "icon": "SKILLL_TM_ShaYi",
+            "des": "消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>\\n###消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>",
+            "background": "唐门镇派绝学，人如半影，影似半人，繁星过处，寸草不生。",
+            "type": "重华技",
+            "typeDes": "暗青落雨",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "杀意500点",
+            "maxLevel": 1,
+            "addition1List": [
+                0.25,
+                0.3,
+                0.45,
+                0,
+                0,
+                0,
+                0.25,
+                0,
+                0.6
+            ]
+        },
+        {
+            "skillId": 14402021,
+            "name": "红尘勿扰·一",
+            "icon": "SKILLL_TM_SIDLE_01",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒弟子，形神兼备",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 21,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14402022,
+            "name": "红尘勿扰·二",
+            "icon": "SKILLL_TM_SIDLE_02",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒剑秀，英姿飒爽",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 22,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14402023,
+            "name": "红尘勿扰·三",
+            "icon": "SKILLL_TM_SIDLE_03",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒才俊，侠骨柔肠",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 23,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 14131001,
+            "name": "怒梅·喋血",
+            "icon": "SKILLL_TM_SMHJ_02",
+            "des": "连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "为了正义而战！",
+            "type": "连招",
+            "typeDes": "暗青落雨",
+            "distance": 1500,
+            "cd": 120000,
+            "consume": "",
+            "maxLevel": 30,
+            "addition1List": [
+                0,
+                1.17,
+                1.365,
+                2.34
+            ]
+        }
+    ],
+    "WD": [
+        {
+            "skillId": 17100001,
+            "name": "十字望月",
+            "icon": "SKILLL_WD_Kill_Lv1",
+            "des": "对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>上挑：在轻功<font color ='#FC6565'>微风扶柳</font>或<font color ='#FC6565'>索命诀</font>后发动，可将前方所有敌人挑飞，此效果每10秒可以发动一次</font>\\n<font color ='#C0E0AB'>影刺：在<font color ='#FC6565'>百鬼潜行</font>状态下使用可对前方目标一次性造成全部伤害，并对其植入噬魂蛊，在一段时间后爆裂造成伤害</font>\\n\\n###对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>上挑：在轻功<font color ='#FC6565'>微风扶柳</font>或<font color ='#FC6565'>索命诀</font>后发动，可将前方所有敌人挑飞，此效果每10秒可以发动一次</font>\\n<font color ='#C0E0AB'>影刺：在<font color ='#FC6565'>百鬼潜行</font>状态下使用可对前方目标一次性造成全部伤害，并对其植入噬魂蛊，在一段时间后爆裂造成伤害</font>\\n",
+            "background": "十字刀，刀如雪。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 8,
+            "addition1List": [
+                0.128,
+                0.192,
+                0.31
+            ]
+        },
+        {
+            "skillId": 17101001,
+            "name": "爆魂诀",
+            "icon": "SKILLL_WD_Flash_Lv1",
+            "des": "在一定范围内快速移动对敌人造成伤害，造成[CastGroup]点伤害。\\n在发动后使用<font color ='#FC6565'>微风扶柳</font>，可立即脱离当前位置并在该位置造成第二段范围伤害\\n<font color ='#C0E0AB'>遁离：技能发动过程中受到伤害会立刻自动后撤，造成第二段范围伤害，同时获得0.5秒免受伤害以及压制效果的状态</font>\\n<font color ='#C0E0AB'>噬魂：第二段攻击会对敌人植入噬魂蛊，在一段时间后爆裂造成伤害</font>\\n###在一定范围内快速移动对敌人造成伤害，造成[CastGroup]点伤害。在发动后使用<font color ='#FC6565'>微风扶柳</font>，可立即脱离当前位置并在该位置造成第二段范围伤害\\n<font color ='#C0E0AB'>遁离：技能发动过程中受到伤害会立刻自动后撤，造成第二段范围伤害，同时获得0.5秒免受伤害以及压制效果的状态</font>\\n<font color ='#C0E0AB'>噬魂：第二段攻击会对敌人植入噬魂蛊，在一段时间后爆裂造成伤害</font>",
+            "background": "如鬼魅，尽爆裂。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 8,
+            "addition1List": [
+                0.105,
+                0.105
+            ]
+        },
+        {
+            "skillId": 17102001,
+            "name": "凤凰决杀",
+            "icon": "SKILLL_WD_DantiCombo_Entrance_Lv1",
+            "des": "此招共有六式，连续施放可以打出连招，对目标造成共计[CastGroup]点伤害并压制目标。\\n<font color ='#C0E0AB'>噬魂：最后一段攻击会对敌人植入噬魂蛊，在一段时间后爆裂造成伤害</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###此招共有六式，连续施放可以打出连招，对目标造成共计[CastGroup]点伤害并压制目标。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>噬魂：最后一段攻击会对敌人植入噬魂蛊，在一段时间后爆裂造成伤害</font>",
+            "background": "耀而烈，舞而决。",
+            "type": "",
+            "typeDes": "",
+            "distance": 650,
+            "cd": 18000,
+            "consume": "",
+            "maxLevel": 8,
+            "addition1List": [
+                0.144,
+                0.144,
+                0.18,
+                0.2016,
+                0,
+                0.6912
+            ]
+        },
+        {
+            "skillId": 17103001,
+            "name": "蝙蝠掠夜",
+            "icon": "SKILLL_WD_Kill2_Lv1",
+            "des": "解控技，将周围敌人击倒后，向后脱离危险区域。\\n<font color ='#C0E0AB'>金蝉护体：发动技能后15秒内以蜃气抵御敌人的攻击，再次使用消耗30%蜃意主动移除金蝉护体击倒周围所有敌人$$</font>\\n###解控技，将周围敌人击倒后，向后脱离危险区域。\\n<font color ='#C0E0AB'>金蝉护体：发动技能后15秒内以蜃气抵御敌人的攻击，再次使用消耗30%蜃意主动移除金蝉护体击倒周围所有敌人</font>",
+            "background": "蝙蝠飞，迅而退。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 25000,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0.2
+            ]
+        },
+        {
+            "skillId": 17104001,
+            "name": "飞雀夺怀",
+            "icon": "SKILLL_WD_Disappear_Lv1",
+            "des": "破定技，飞身而起攻击周围敌人，造成SkillValue(KNIFE$$30$$0.729)点伤害。\\n<font color ='#C0E0AB'>追魂：技能发动时，如果30米范围内有被标记的敌人，飞雀夺怀将自动对其所在的区域发动</font>\\n<font color ='#C0E0AB'>飞雀：技能发动过程中五毒无法被控制</font>\\n<font color ='#C0E0AB'>势沉：如果第二段只命中一个目标，造成50%额外伤害，没有命中目标时回复部分消耗的蜃气</font>\\n###破定技，飞身而起攻击周围敌人，造成大量伤害。\\n<font color ='#C0E0AB'>追魂：技能发动时，如果30米范围内有被标记的敌人，飞雀夺怀将自动对其所在的区域发动</font>\\n<font color ='#C0E0AB'>飞雀：技能发动过程中五毒无法被控制</font>\\n<font color ='#C0E0AB'>势沉：如果第二段只命中一个目标，造成50%额外伤害，没有命中目标时回复部分消耗的蜃气</font>",
+            "background": "展雀翼，啄衔泥。",
+            "type": "",
+            "typeDes": "",
+            "distance": 3000,
+            "cd": 5000,
+            "consume": "蜃气50%",
+            "maxLevel": 4,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17105001,
+            "name": "黑雾刀法",
+            "icon": "SKILLL_WD_HengQie_Lv1",
+            "des": "破定技，可有效打击前方敌人定力，并造成[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>掩刀：<font color ='#FC6565'>十字望月</font>最后一击命中时，立即结束黑雾刀法调息时间</font>\\n<font color ='#C0E0AB'>强袭：敌人处于破定状态时，将其击倒</font>\\n###破定技$$可有效打击前方敌人定力，并造成[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>掩刀：<font color ='#FC6565'>十字望月</font>最后一击命中时，立即结束黑雾刀法调息时间</font>\\n<font color ='#C0E0AB'>强袭：敌人处于破定状态时，将其击倒</font>",
+            "background": "黑雾绕，雾掩刀。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 6000,
+            "consume": "",
+            "maxLevel": 10,
+            "addition1List": [
+                0.24
+            ]
+        },
+        {
+            "skillId": 17106001,
+            "name": "灵蛇刺骨",
+            "icon": "SKILLL_WD_CiCi_Lv1",
+            "des": "如灵蛇一般快速攻击前方群体目标，造成SkillValue(KNIFE$$42$$0.31)点伤害，并将所有命中目标拉扯到身前。\\n###如灵蛇一般快速攻击前方群体目标，造成少量伤害，并将所有命中目标拉扯到身前。",
+            "background": "灵蛇信，噬人魄。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 8,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17121901,
+            "name": "狂蜂追命",
+            "icon": "SKILLL_WD_ShengLong_Lv1",
+            "des": "单体攻击，如果处于近身范围，可将其击倒。\\n对命中的敌人附加<font color ='#FC6565'>噬魂蛊</font>状态，持续10秒\\n<font color ='#C0E0AB'>噬魂：被植入蜃气，在状态结束时造成伤害。使用<font color ='#FC6565'>蜃意无双</font>可以立即结束噬魂蛊，造成大量伤害</font>\\n<font color ='#C0E0AB'>饮血：对气血20%以下的目标造成2倍伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复大量气血，并刷新狂蜂追命调息时间。\\n</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###单体攻击，如果处于近身范围，可将其击倒。对命中的敌人附加<font color ='#C0E0AB'>噬魂蛊</font>状态，持续10秒\\n<font color ='#C0E0AB'>噬魂：被植入蜃气，在状态结束时造成伤害。使用<font color ='#FC6565'>蜃意无双</font>可以立即结束噬魂蛊，造成大量伤害</font>\\n<font color ='#C0E0AB'>饮血：对气血20%以下的目标造成2倍伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复大量气血，并刷新狂蜂追命调息时间。</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>",
+            "background": "锥心刺，尾后针。",
+            "type": "",
+            "typeDes": "",
+            "distance": 700,
+            "cd": 8000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.52
+            ]
+        },
+        {
+            "skillId": 17107001,
+            "name": "索命诀",
+            "icon": "SKILLL_WD_ZZZ_A01_Lv1",
+            "des": "极速向目标突进。\\n<font color ='#C0E0AB'>上挑：命中目标后，使用十字望月，可将前方所有敌人挑飞</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###极速向目标突进。\\n<font color ='#C0E0AB'>上挑：命中目标后，使用十字望月，可将前方所有敌人挑飞</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>",
+            "background": "追不放，杀不枉。",
+            "type": "",
+            "typeDes": "",
+            "distance": 1500,
+            "cd": 18000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.132
+            ]
+        },
+        {
+            "skillId": 17107101,
+            "name": "索命诀",
+            "icon": "SKILLL_WD_ZZZ_A01_Lv1",
+            "des": "极速向突进，突进的范围内造成SkillValue(KNIFE$$33$$0.1518)点伤害。\\n<font color ='#C0E0AB'>疾风：命中目标时降低调息时间7秒</font>\\n<font color ='#C0E0AB'>索命：当前方有敌人被百鬼潜行锁定时，可直接对最近的锁定目标突进，造成2倍伤害，降低调息时间13秒</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###极速向突进，突进的范围内造成少量群体伤害。\\n<font color ='#C0E0AB'>疾风：命中目标时降低调息时间7秒</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>",
+            "background": "追不放，杀不枉。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.1518,
+                0.1518
+            ]
+        },
+        {
+            "skillId": 17107801,
+            "name": "索命诀",
+            "icon": "SKILLL_WD_ZZZ_A01_Lv1",
+            "des": "极速向突进\\n<font color ='#C0E0AB'>疾风：命中目标时降低调息时间7秒</font>\\n<font color ='#C0E0AB'>索命：当前方有敌人被百鬼潜行锁定时，可直接对最近的锁定目标突进，造成2倍伤害</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###极速向突进，突进的范围内造成少量群体伤害。\\n<font color ='#C0E0AB'>疾风：命中目标时降低调息时间7秒</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>",
+            "background": "追不放，杀不枉。",
+            "type": "",
+            "typeDes": "",
+            "distance": 25000,
+            "cd": 25000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.264
+            ]
+        },
+        {
+            "skillId": 17107901,
+            "name": "Z字杀9-Dash目标",
+            "icon": "",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.1
+            ]
+        },
+        {
+            "skillId": 17108001,
+            "name": "望月",
+            "icon": "SKILLL_WD_Kill_Lv1",
+            "des": "可以发动十字望月",
+            "background": "十字刀，刀如雪。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 2000,
+            "consume": "",
+            "maxLevel": 8,
+            "addition1List": [
+                0.24
+            ]
+        },
+        {
+            "skillId": 17108101,
+            "name": "潜龙",
+            "icon": "SKILLL_WD_Kill_Lv1",
+            "des": "潜龙",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 2000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.1
+            ]
+        },
+        {
+            "skillId": 17109001,
+            "name": "影刺",
+            "icon": "SKILLL_WD_YC",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 9,
+            "addition1List": [
+                1.64
+            ]
+        },
+        {
+            "skillId": 17109009,
+            "name": "影刺",
+            "icon": "",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 9,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17110001,
+            "name": "寄生诀",
+            "icon": "SKILLL_WD_Blood_Entrance_Lv1",
+            "des": "将蜃气植入目标体内，其后的每次打击都将造成一层<font color ='#FC6565'>蜃气加深</font>效果，最高叠加10层。\\n<font color ='#C0E0AB'>引爆：以<font color ='#FC6565'>蜃意无双</font>激活蜃气可以立即麻痹对手，令其进入麻痹状态，并造成[CastGroup]点伤害，每层<font color ='#FC6565'>蜃气加深</font>效果可以提高此伤害1倍，最高叠加到10层时可造成10倍伤害，并将敌人击飞。</font>\\n###将蜃气植入目标体内，其后的每次打击都将造成一层<font color ='#FC6565'>蜃气加深</font>效果，最高叠加10层。\\n<font color ='#C0E0AB'>引爆：以<font color ='#FC6565'>蜃意无双</font>激活蜃气可以立即麻痹对手，令其进入麻痹状态，并造成[CastGroup]点伤害，每层<font color ='#FC6565'>蜃气加深</font>效果可以提高此伤害1倍，最高叠加到10层时可造成10倍伤害，并将敌人击飞。</font>",
+            "background": "赠蜃气，困仇敌。",
+            "type": "",
+            "typeDes": "",
+            "distance": 1000,
+            "cd": 55000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.1,
+                0.2
+            ]
+        },
+        {
+            "skillId": 17111801,
+            "name": "寄生诀第二段",
+            "icon": "SKILLL_HS_DantiTaolu_Entrance_Lv1",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.1
+            ]
+        },
+        {
+            "skillId": 17111901,
+            "name": "寄生诀第二段",
+            "icon": "SKILLL_HS_DantiTaolu_Entrance_Lv1",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.1
+            ]
+        },
+        {
+            "skillId": 17111001,
+            "name": "百鬼潜行",
+            "icon": "SKILLL_WD_QianXingGu_Lv1",
+            "des": "使用后进入潜行状态，持续5秒，期间释放招式或者被招式击中将会失去潜行效果。\\n<font color ='#C0E0AB'>盲蝠诀：进入潜行状态后再次使用$$可每隔1秒对前方目标进行感知，每次感知会延长潜行持续时间1.5秒，最多延长4.5秒，在成功感知3次后，会<font color ='#FC6565'>锁定</font>目标，令其3秒内无法施展轻功。</font>\\n\\n<font color ='#C0E0AB'>影刺：使用十字望月，可发动<font color ='#FC6565'>影刺</font>造成大量伤害并减少<font color ='#FC6565'>爆魂决</font>调息时间。</font>\\n###使用后进入潜行状态，持续5秒，期间释放招式或者被招式击中将会失去潜行效果。\\n<font color ='#C0E0AB'>盲蝠诀：进入潜行状态后再次使用$$可每隔1秒对前方目标进行感知，每次感知会延长潜行持续时间1.5秒，最多延长4.5秒，在成功感知3次后，会<font color ='#FC6565'>锁定</font>目标，令其3秒内无法施展轻功。</font>\\n\\n<font color ='#C0E0AB'>影刺：使用十字望月，可发动<font color ='#FC6565'>影刺</font>造成大量伤害并减少<font color ='#FC6565'>爆魂决</font>调息时间。</font>",
+            "background": "潜行客，无声息。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 60000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17111101,
+            "name": "盲蝠诀",
+            "icon": "SKILLL_WD_LeiDa_Entrance_Lv1",
+            "des": "使用后进入潜行状态，持续5秒，期间释放招式或者被招式击中将会失去潜行效果。\\n<font color ='#C0E0AB'>盲蝠诀：进入潜行状态后再次使用$$可每隔1秒对前方目标进行感知，每次感知会延长潜行持续时间1.5秒，最多延长4.5秒，在成功感知3次后，会<font color ='#FC6565'>锁定</font>目标，令其3秒内无法施展轻功</font>\\n<font color ='#C0E0AB'>影刺：使用十字望月，可发动<font color ='#FC6565'>影刺</font>造成2倍伤害</font>\\n###使用后进入潜行状态，持续5秒，期间释放招式或者被招式击中将会失去潜行效果。\\n<font color ='#C0E0AB'>盲蝠诀：进入潜行状态后再次使用$$可每隔1秒对前方目标进行感知，每次感知会延长潜行持续时间1.5秒，最多延长4.5秒，在成功感知3次后，会<font color ='#FC6565'>锁定</font>目标，令其3秒内无法施展轻功</font>\\n<font color ='#C0E0AB'>影刺：使用十字望月，可发动<font color ='#FC6565'>影刺</font>造成2倍伤害</font>",
+            "background": "以心测，以耳听。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 3000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17112001,
+            "name": "蜃意无双",
+            "icon": "SKILLL_WD_AnSha_Lv1",
+            "des": "激活植入到敌人体内的蜃气。\\n###激活植入到敌人体内的蜃气。",
+            "background": "无双法，引蜃气。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 5000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17113001,
+            "name": "追杀蛊",
+            "icon": "SKILLL_HS_DantiTaolu_Entrance_Lv1",
+            "des": "追杀蛊",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 60000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17114001,
+            "name": "剧毒蛊",
+            "icon": "SKILLL_HS_QuntiYazhi_A01_Lv1",
+            "des": "剧毒蛊",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 40000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17115001,
+            "name": "暗杀蛊",
+            "icon": "SKILLL_FB_DaoBao_ShunSha_A02",
+            "des": "暗杀蛊",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 60000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17116001,
+            "name": "寄生蛊",
+            "icon": "SKILLL_FB_DaoBao_ShunSha_A02",
+            "des": "寄生蛊",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 40000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17117001,
+            "name": "旋杀",
+            "icon": "",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 5000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.2
+            ]
+        },
+        {
+            "skillId": 17120001,
+            "name": "杀意·五仙灭地",
+            "icon": "SKILLL_WD_Xp_Entrance_Lv1",
+            "des": "消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>\\n###消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>",
+            "background": "天有灵，地无情。",
+            "type": "重华技",
+            "typeDes": "重华乱舞",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "杀意500点",
+            "maxLevel": 1,
+            "addition1List": [
+                0,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                1,
+                0,
+                1.75
+            ]
+        },
+        {
+            "skillId": 17130801,
+            "name": "穿风",
+            "icon": "SKILLL_WD_Change_Lv1",
+            "des": "五毒每次近身打击技能命中敌人后，3秒内施展的下一次微风扶柳不会消耗内息，且动作更加迅捷。\\n###五毒每次近身打击技能命中敌人后，3秒内施展的下一次微风扶柳不会消耗内息，且动作更加迅捷。",
+            "background": "微风徐来，柳浪穿风。",
+            "type": "内功",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17131101,
+            "name": "噬魂",
+            "icon": "SKILLL_WD_QuntiCiSha_Entrance_Lv1",
+            "des": "<font color ='#FC6565'>狂蜂追命、爆魂诀、凤凰决杀</font>可以造成噬魂蛊效果，在10秒后对敌人造成或SkillValue(KNIFE$$4$$0.216)点伤害。10秒内再次植入噬魂蛊可以立即将其引爆造成伤害。\\n<font color ='#C0E0AB'>标记：每次植入噬魂蛊时标记目标，持续10秒，用于触发<font color ='#FC6565'>追魂</font>效果。</font>\\n<font color ='#C0E0AB'>蜃意：每次噬魂蛊爆裂时回复蜃气，头目或玩家身上爆裂的噬魂蛊可以回复更多蜃气。</font>\\n<font color ='#C0E0AB'>煞气：在战斗状态下，蜃气聚满可以提高外功伤害10%，移动速度20%</font>\\n###<font color ='#FC6565'>狂蜂追命、爆魂诀、凤凰决杀</font>可以造成噬魂蛊效果，在10秒后对敌人造成少量伤害。10秒内再次植入噬魂蛊可以立即将其引爆造成伤害。\\n<font color ='#C0E0AB'>标记：每次植入噬魂蛊时标记目标，持续10秒，用于触发<font color ='#FC6565'>追魂</font>效果。</font>\\n<font color ='#C0E0AB'>蜃意：每次噬魂蛊爆裂时回复蜃气，头目或玩家身上爆裂的噬魂蛊可以回复更多蜃气。</font>\\n<font color ='#C0E0AB'>煞气：在战斗状态下，蜃气聚满可以提高外功伤害10%，移动速度20%</font>",
+            "background": "蜃气涌，煞意现。噬魂魄，催黄泉。",
+            "type": "内功",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 10,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17131121,
+            "name": "红尘勿扰·一",
+            "icon": "SKILLL_WD_SIDLE_01",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒弟子，形神兼备",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 21,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17131122,
+            "name": "红尘勿扰·二",
+            "icon": "SKILLL_WD_SIDLE_02",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒剑秀，英姿飒爽",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 22,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17131123,
+            "name": "红尘勿扰·三",
+            "icon": "SKILLL_WD_SIDLE_03",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒才俊，侠骨柔肠",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 23,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 17141001,
+            "name": "怒梅·喋血",
+            "icon": "SKILLL_WD_SMHJ_02",
+            "des": "连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "为了正义而战！",
+            "type": "连招",
+            "typeDes": "",
+            "distance": 300,
+            "cd": 120000,
+            "consume": "",
+            "maxLevel": 30,
+            "addition1List": [
+                0.39,
+                0.4875,
+                0.78,
+                0.8775,
+                0,
+                0,
+                0.975
+            ]
+        }
+    ],
+    "TX": [
+        {
+            "skillId": 12101001,
+            "name": "素手回春",
+            "icon": "SKILLL_TX_DanTiZhiLiao_A01_Lv1",
+            "des": "加血技，回复自己和队内气血最低的目标。\\n<font color ='#C0E0AB'>疗伤：在<font color ='#FC6565'>春光普照</font>状态下使用，可以提高治疗效果，最多提高治疗效果170%</font>\\n<font color ='#C0E0AB'>回香：在<font color ='#FC6565'>春光普照</font>状态下使用，消耗全部<font color ='#FC6565'>春光普照</font>状态，最高恢复<font color ='#FC6565'>30</font>点香意。</font>\\n<font color ='#C0E0AB'>消耗：<font color ='#FC6565'>20</font>点香意\\n，在<font color ='#FC6565'>治疗姿态</font>下使用消耗降低至<font color ='#FC6565'>15</font>点</font>\\n<font color ='#C0E0AB'>剑香：在非<font color ='#FC6565'>治疗姿态</font>下使用，增加自身12秒内下两次技能伤害23%。</font>\\n###加血技，回复自己和队内气血最低的目标。\\n<font color ='#C0E0AB'>疗伤：在<font color ='#FC6565'>春光普照</font>状态下使用，可以提高治疗效果，最多提高治疗效果170%</font>\\n<font color ='#C0E0AB'>回香：在<font color ='#FC6565'>春光普照</font>状态下使用，消耗全部<font color ='#FC6565'>春光普照</font>状态，最高恢复<font color ='#FC6565'>30</font>点香意。</font>\\n<font color ='#C0E0AB'>消耗：<font color ='#FC6565'>20</font>点香意，在<font color ='#FC6565'>治疗姿态</font>下使用消耗降低至<font color ='#FC6565'>15</font>点</font>\\n<font color ='#C0E0AB'>剑香：在非<font color ='#FC6565'>治疗姿态</font>下使用，增加自身12秒内下两次技能伤害20%。</font>",
+            "background": "西上莲花山迢迢，曾共素手把芙蓉。",
+            "type": "招式",
+            "typeDes": "素手回春",
+            "distance": 2000,
+            "cd": 6000,
+            "consume": "",
+            "maxLevel": 10,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12102001,
+            "name": "春风伞",
+            "icon": "SKILLL_TX_QunTiZhiLiao_XF03",
+            "des": "群加技，天香旋转着春风之舞，在持续期间内回复队内友方目标气血。\\n<font color ='#C0E0AB'>引导：引导期间使用轻功技能将会打断引导效果，被敌人击飞、击倒、压制也会被打断。\\n</font>\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>\\n###群加技，天香旋转着春风之舞，在持续期间内回复队内友方目标气血。\\n<font color ='#C0E0AB'>引导：引导期间使用轻功技能将会打断引导效果，被敌人击飞、击倒、压制也会被打断。</font>\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>",
+            "background": "笑语盈盈暗香顾，吹落星雨花千树。",
+            "type": "招式",
+            "typeDes": "春风伞",
+            "distance": 0,
+            "cd": 24000,
+            "consume": "30点香意",
+            "maxLevel": 10,
+            "addition1List": [
+                0,
+                -0.3
+            ]
+        },
+        {
+            "skillId": 12104001,
+            "name": "饮血技·绝命伞",
+            "icon": "SKILLL_TX_QunTiGongJi_A03_Lv1",
+            "des": "饮血技，天香将伞丢向目标，造成[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>调息：每次命中目标减少<font color ='#FC6565'>香意痕</font>1秒调息。</font>\\n<font color ='#C0E0AB'>饮血：对气血20%以下的目标造成额外100%伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复大量气血和香意，并刷新绝命伞调息时间。</font>\\n###饮血技，天香将伞丢向目标，造成[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>调息：每次命中目标减少<font color ='#FC6565'>香意痕</font>1秒调息。</font>\\n<font color ='#C0E0AB'>饮血：对气血20%以下的目标造成额外100%伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复大量气血和香意，并刷新绝命伞调息时间。</font>\\n",
+            "background": "角声吹落梅花月，咫尺江山音尘绝。",
+            "type": "招式",
+            "typeDes": "绝命伞",
+            "distance": 1600,
+            "cd": 6000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.364652,
+                0.267411
+            ]
+        },
+        {
+            "skillId": 12105001,
+            "name": "玉帘拂衣",
+            "icon": "SKILLL_TX_DanTiKongZhi_A05_Lv1",
+            "des": "控制技，天香向目标丢出一把安魂伞，伞会在目标身边环绕，在环绕结束后会困住目标<font color ='#FC6565'>5</font>秒。\\n<font color ='#C0E0AB'>引导：引导期间使用轻功技能将会打断引导效果，被敌人击飞、击倒、压制也会被打断。\\n</font>\\n###控制技，天香向目标丢出一把安魂伞，伞会在目标身边环绕，在环绕结束后会困住目标<font color ='#FC6565'>5</font>秒。\\n<font color ='#C0E0AB'>引导：引导期间使用轻功技能将会打断引导效果，被敌人击飞、击倒、压制也会被打断。\\n</font>\\n",
+            "background": "此时相望不相闻，愿逐月华流照君。",
+            "type": "招式",
+            "typeDes": "玉帘拂衣",
+            "distance": 2200,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 10,
+            "addition1List": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "skillId": 12106001,
+            "name": "天香意决",
+            "icon": "SKILLL_TX_Stop_XF01",
+            "des": "只可在<font color ='#FC6565'>沐雨含光</font>、<font color ='#FC6565'>春风伞</font>、<font color ='#FC6565'>香意痕</font>、<font color ='#FC6565'>玉帘拂衣</font>\\n、<font color ='#FC6565'>伞舞旋</font>释放中使用，使用后会强化以上技能效果。\\n<font color ='#C0E0AB'>强化春风伞：瞬间回复群体目标大量气血。</font>\\n<font color ='#C0E0AB'>强化香意痕：击飞目标并造成大量伤害，此效果无法被格挡，命中霸体目标后，自己及队友增加5%外功攻击$$持续40秒。</font>\\n<font color ='#C0E0AB'>强化玉帘拂衣：瞬间困住目标<font color ='#FC6565'>5</font>秒。</font>\\n<font color ='#C0E0AB'>强化沐雨含光：瞬间回复单体目标大量气血，消耗<font color ='#FC6565'>30</font>点香意。</font>\\n<font color ='#C0E0AB'>强化伞舞旋：<font color ='#FC6565'>伞舞旋</font>命中对手后使用，可位移至伞的位置，<font color ='#FC6565'>此效果无需天香意诀调息准备完成，也不会令天香意诀进入调息</font>。</font>\\n###只可在<font color ='#FC6565'>沐雨含光</font>、<font color ='#FC6565'>春风伞</font>、<font color ='#FC6565'>香意痕</font>、<font color ='#FC6565'>玉帘拂衣</font>\\n、<font color ='#FC6565'>伞舞旋</font>释放中使用，使用后会强化以上技能效果。\\n<font color ='#C0E0AB'>强化春风伞：瞬间回复群体目标大量气血。</font>\\n<font color ='#C0E0AB'>强化香意痕：击飞目标并造成大量伤害，此效果无法被格挡，命中霸体目标后，自己及队友增加5%外功攻击$$持续40秒。</font>\\n<font color ='#C0E0AB'>强化玉帘拂衣：瞬间困住目标<font color ='#FC6565'>5</font>秒。</font>\\n<font color ='#C0E0AB'>强化沐雨含光：瞬间回复单体目标大量气血，消耗<font color ='#FC6565'>30</font>点香意。</font>\\n<font color ='#C0E0AB'>强化沐雨含光：瞬间回复单体目标大量气血，消耗<font color ='#FC6565'>30</font>点香意。</font>\\n<font color ='#C0E0AB'>强化伞舞旋：<font color ='#FC6565'>伞舞旋</font>命中对手后使用，可位移至伞的位置，<font color ='#FC6565'>此效果无需天香意诀调息准备完成，也不会令天香意诀进入调息</font>。</font>\\n",
+            "background": "枫叶欲残看愈好，梅花未动意先香。",
+            "type": "招式",
+            "typeDes": "天香意决",
+            "distance": 0,
+            "cd": 25000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12107001,
+            "name": "琴心三叠",
+            "icon": "SKILLL_TX_DanTiTaoLu_A07_Lv1",
+            "des": "此招共有三式，连续施放可以打出连招，对目标造成共计[CastGroup]点伤害并压制目标。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###此招共有三式，连续施放可以打出连招，对目标造成共计[CastGroup]点伤害并压制目标。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n",
+            "background": "白波九道流雪山，琴心三叠妆初成。",
+            "type": "招式",
+            "typeDes": "琴心三叠",
+            "distance": 1800,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.267411,
+                0.441229,
+                0.962681
+            ]
+        },
+        {
+            "skillId": 12108888,
+            "name": "天香意决",
+            "icon": "SKILLL_TX_Stop_XF01",
+            "des": "只可在<font color ='#FC6565'>沐雨含光</font>、<font color ='#FC6565'>春风伞</font>、<font color ='#FC6565'>香意痕</font>、<font color ='#FC6565'>玉帘拂衣</font>\\n、<font color ='#FC6565'>伞舞旋</font>释放中使用，使用后会强化以上技能效果。\\n<font color ='#C0E0AB'>强化春风伞：瞬间回复群体目标大量气血。</font>\\n<font color ='#C0E0AB'>强化香意痕：击飞目标并造成大量伤害，此效果无法被格挡。</font>\\n<font color ='#C0E0AB'>强化玉帘拂衣：瞬间困住目标<font color ='#FC6565'>5</font>秒。</font>\\n<font color ='#C0E0AB'>强化沐雨含光：瞬间回复单体目标大量气血，消耗<font color ='#FC6565'>30</font>点香意。</font>\\n<font color ='#C0E0AB'>强化伞舞旋：<font color ='#FC6565'>伞舞旋</font>命中对手后使用，可位移至伞的位置，<font color ='#FC6565'>此效果无需天香意诀调息准备完成，也不会令天香意诀进入调息</font>。</font>\\n###只可在<font color ='#FC6565'>沐雨含光</font>、<font color ='#FC6565'>春风伞</font>、<font color ='#FC6565'>香意痕</font>、<font color ='#FC6565'>玉帘拂衣</font>\\n、<font color ='#FC6565'>伞舞旋</font>释放中使用，使用后会强化以上技能效果。\\n<font color ='#C0E0AB'>强化春风伞：瞬间回复群体目标大量气血。</font>\\n<font color ='#C0E0AB'>强化香意痕：击飞目标并造成大量伤害，此效果无法被格挡。</font>\\n<font color ='#C0E0AB'>强化玉帘拂衣：瞬间困住目标<font color ='#FC6565'>5</font>秒。</font>\\n<font color ='#C0E0AB'>强化沐雨含光：瞬间回复单体目标大量气血，消耗<font color ='#FC6565'>30</font>点香意。</font>\\n<font color ='#C0E0AB'>强化沐雨含光：瞬间回复单体目标大量气血，消耗<font color ='#FC6565'>30</font>点香意。</font>\\n<font color ='#C0E0AB'>强化伞舞旋：<font color ='#FC6565'>伞舞旋</font>命中对手后使用，可位移至伞的位置，<font color ='#FC6565'>此效果无需天香意诀调息准备完成，也不会令天香意诀进入调息</font>。</font>\\n",
+            "background": "枫叶欲残看愈好，梅花未动意先香。",
+            "type": "招式",
+            "typeDes": "伞舞旋",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 88,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12108001,
+            "name": "破定技·伞舞旋",
+            "icon": "SKILLL_TX_QunTiTaoLu_A08_Lv1",
+            "des": "破定技，可有效打击敌人定力。\\n将前方范围内的敌人聚拢并进行多次伞舞打击，造成总共[CastGroup]点范围伤害，命中对手后可以使用天香意绝，位移至伞的位置，且不计算CD。\\n###破定技，可有效打击敌人定力。\\n将前方范围内的敌人聚拢并进行多次伞舞打击，造成大量群体伤害，命中对手后可以使用天香意绝，位移至伞的位置，且不计算CD。",
+            "background": "明妆丽服夺春辉，扬眉转袖若雪飞。",
+            "type": "招式",
+            "typeDes": "伞舞旋",
+            "distance": 0,
+            "cd": 12000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.236155,
+                0.236155,
+                0,
+                0.244259,
+                0.244259,
+                0.305613,
+                0.349603
+            ]
+        },
+        {
+            "skillId": 12109001,
+            "name": "伞舞盾",
+            "icon": "SKILLL_TX_Defend_A09_Lv1",
+            "des": "防御技，召唤一道风墙击退伞盾前方目标，并且在持续时间内阻挡来自前方的所有攻击。\\n###防御技，召唤一道风墙击退伞盾前方目标，并且在持续时间内阻挡来自前方的所有攻击。",
+            "background": "青凉伞映红妆面，荷花欲拆犹微绽。",
+            "type": "招式",
+            "typeDes": "伞舞盾",
+            "distance": 0,
+            "cd": 45000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0,
+                0.05
+            ]
+        },
+        {
+            "skillId": 12110001,
+            "name": "破定技·芳华一瞬",
+            "icon": "SKILLL_TX_Leave_A10_Lv1",
+            "des": "破定技，可有效打击前方敌人定力，并造成[CastGroup]点范围伤害。\\n###破定技$$可有效打击前方敌人定力，并造成[CastGroup]点范围伤害。",
+            "background": "梅岭疏影斜临水，不借芳华只自香。",
+            "type": "招式",
+            "typeDes": "芳华一瞬",
+            "distance": 0,
+            "cd": 6000,
+            "consume": "",
+            "maxLevel": 10,
+            "addition1List": [
+                0.24
+            ]
+        },
+        {
+            "skillId": 12111001,
+            "name": "柳暗凌波",
+            "icon": "SKILLL_TX_Fly_A11_Lv1",
+            "des": "解控技，将伞置于原地并向后闪身，此后10秒内再次使用将会一闪到伞的位置，压制并伤害这之间的目标。\\n解控：可以在被<font color ='#FC6565'>压制</font>和<font color ='#FC6565'>击飞</font>时使用。</font>\\n###解控技，将伞置于原地并向后闪身，此后10秒内再次使用将会一闪到伞的位置，压制并伤害这之间的目标。",
+            "background": "斜日清霜山薄暮，霓裳舞彻凌波步。",
+            "type": "招式",
+            "typeDes": "柳暗凌波",
+            "distance": 0,
+            "cd": 30000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.2,
+                0
+            ]
+        },
+        {
+            "skillId": 12111801,
+            "name": "柳暗凌波",
+            "icon": "SKILLL_TX_Fly_A11_08_Lv1",
+            "des": "<font color ='#FC6565'>解控技</font>，将伞置于原地并向后闪身，此后10秒内再次使用将会一闪到伞的位置，压制并伤害这之间的目标。\\n<font color ='#C0E0AB'>解控：可以在被<font color ='#FC6565'>压制</font>和<font color ='#FC6565'>击飞</font>时使用。</font>\\n###<font color ='#FC6565'>解控技</font>，将伞置于原地并向后闪身，此后10秒内再次使用将会一闪到伞的位置，压制并伤害这之间的目标。",
+            "background": "斜日清霜山薄暮，霓裳舞彻凌波步。",
+            "type": "招式",
+            "typeDes": "柳暗凌波",
+            "distance": 3000,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12112001,
+            "name": "寒林疏芳",
+            "icon": "SKILLL_TX_PuGong_A12_Lv1",
+            "des": "对前方区域造成总共[CastGroup]点范围伤害。\\n###对前方区域造成总共[CastGroup]点范围伤害。\\n",
+            "background": "雪消新洗寒林碧，华堂向晚开瑶席。",
+            "type": "招式",
+            "typeDes": "寒林疏芳",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 10,
+            "addition1List": [
+                0.155133,
+                0.155133,
+                0.372319
+            ]
+        },
+        {
+            "skillId": 12113001,
+            "name": "醉墨重生",
+            "icon": "SKILLL_TX_Revival_A13_Lv1",
+            "des": "可令力竭倒地的队友重新回复战斗能力，只能对团队成员使用。\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>\\n###可令力竭倒地的队友重新回复战斗能力，只能对团队成员使用。\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>",
+            "background": "草阁烟横花雨润，清歌醉墨复重生。",
+            "type": "招式",
+            "typeDes": "醉墨重生",
+            "distance": 800,
+            "cd": 180000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12114001,
+            "name": "香意痕",
+            "icon": "SKILLL_TX_QunTiTaoLu_A14_Lv1",
+            "des": "对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>引导：引导期间使用轻功技能将会打断引导效果，被敌人击飞、击倒、压制也会被打断。\\n</font>\\n###对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>引导：引导期间使用轻功技能将会打断引导效果，被敌人击飞、击倒、压制也会被打断。</font>",
+            "background": "月魄知风昏有晕，秋光入水净无痕。",
+            "type": "招式",
+            "typeDes": "香意痕",
+            "distance": 0,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 10,
+            "addition1List": [
+                0.310266,
+                0.465398,
+                0.620531
+            ]
+        },
+        {
+            "skillId": 12115001,
+            "name": "空山新雨",
+            "icon": "SKILLL_TX_Fly_A11_08_Lv1",
+            "des": "使用后进入打伞行走模式，再次使用可关闭。\\n###使用后进入打伞行走模式，再次使用可关闭。",
+            "background": "空山新雨晚来秋，明月清泉石上流。",
+            "type": "招式",
+            "typeDes": "空山新雨",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12115101,
+            "name": "空山新雨",
+            "icon": "SKILLL_TX_Fly_A11_08_Lv1",
+            "des": "使用后进入打伞行走模式，再次使用可关闭。\\n###使用后进入打伞行走模式，再次使用可关闭。",
+            "background": "空山新雨晚来秋，明月清泉石上流。",
+            "type": "招式",
+            "typeDes": "空山新雨",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12116001,
+            "name": "清心悬玉",
+            "icon": "SKILLL_TX_HotZhiLiao",
+            "des": "治疗队伍内目标，每秒回复少量气血，持续10秒。\\n<font color ='#C0E0AB'>消耗：<font color ='#FC6565'>5</font>点香意</font>\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>\\n###治疗队伍内目标，每秒回复少量气血，持续10秒。\\n<font color ='#C0E0AB'>消耗：<font color ='#FC6565'>5</font>点香意</font>\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>\\n",
+            "background": "芙蓉婵娟餐艳色，冰玉清迥似明心。",
+            "type": "招式",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12117001,
+            "name": "沐雨含光",
+            "icon": "SKILLL_TX_YinDaoZhiLiao",
+            "des": "对队伍内单体目标持续进行治疗，回复大量气血，持续3秒。\\n<font color ='#C0E0AB'>引导：引导期间移动将会打断引导效果，被敌人击飞、击倒、压制也会被打断。</font>\\n<font color ='#C0E0AB'>刷新：可刷新目标<font color ='#FC6565'>清心悬玉</font>的持续时间</font>\\n<font color ='#C0E0AB'>效果：释放期间会附加<font color ='#FC6565'>春光普照</font>效果，提升<font color ='#FC6565'>沐雨含光</font>的治疗效果，最高叠加3层。\\n</font>\\n<font color ='#C0E0AB'>消耗：<font color ='#FC6565'>每半秒2点香意</font>\\n</font>\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>\\n###对队伍内单体目标持续进行治疗，回复大量气血，持续3秒。\\n<font color ='#C0E0AB'>引导：引导期间移动将会打断引导效果，被敌人击飞、击倒、压制也会被打断。</font>\\n<font color ='#C0E0AB'>刷新：可刷新目标<font color ='#FC6565'>清心悬玉</font>的持续时间</font>\\n<font color ='#C0E0AB'>效果：释放期间会附加<font color ='#FC6565'>春光普照</font>效果，提升<font color ='#FC6565'>沐雨含光</font>的治疗效果，最高叠加3层。</font>\\n<font color ='#C0E0AB'>消耗：<font color ='#FC6565'>每半秒2点香意</font></font>\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>",
+            "background": "绮筵茫茫日已暮，雨后含光出九微。",
+            "type": "招式",
+            "typeDes": "",
+            "distance": 1500,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 10,
+            "addition1List": [
+                0,
+                -0.1
+            ]
+        },
+        {
+            "skillId": 12118001,
+            "name": "姿态切换",
+            "icon": "SKILLL_TX_Change",
+            "des": "使用后进入<font color ='#FC6565'>治疗姿态</font>，此姿态下可以使用更多的治疗招式并且获得香意回复能力，再次使用可关闭。\\n###使用后进入<font color ='#FC6565'>治疗姿态</font>，此姿态下可以使用更多的治疗招式并且获得香意回复能力，再次使用可关闭。\\n",
+            "background": "",
+            "type": "招式",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 5000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12119001,
+            "name": "韶音曼咏",
+            "icon": "SKILLL_TX_XiangYiHuiFu",
+            "des": "曼妙的韶音开始响起，天香在持续时间内将自己的内息转换成香意。\\n<font color ='#C0E0AB'>引导：引导期间使用轻功技能将会打断引导效果，被敌人击飞、击倒、压制也会被打断。\\n</font>\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>\\n###曼妙的韶音开始响起，天香在持续时间内将自己的内息转换成香意。\\n<font color ='#C0E0AB'>引导：引导期间使用轻功技能将会打断引导效果，被敌人击飞、击倒、压制也会被打断。</font>\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>",
+            "background": "不见柏梁铜雀上，宁闻古时清吹音。",
+            "type": "招式",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 45000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0,
+                0
+            ]
+        },
+        {
+            "skillId": 12120001,
+            "name": "低吟浅唱",
+            "icon": "SKILLL_TX_BeiDong01_Lv1",
+            "des": "使用后增加附近队伍成员5%外功攻击\\n和5%外功防御，持续30分钟。\\n###使用后增加附近队伍成员5%外功攻击和5%外功防御，持续30分钟。",
+            "background": "白衣卿相依丹青，浅唱低吟换浮名。",
+            "type": "招式",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12121001,
+            "name": "解意孤霜",
+            "icon": "SKILLL_TX_Clean_A21_Lv1",
+            "des": "驱除队友身上的负面效果\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>\\n###驱除队友身上的负面效果\\n<font color ='#FC6565'>只能在治疗姿态下使用</font>",
+            "background": "满园鲜色郁郁芳，中有孤丛色似霜。",
+            "type": "招式",
+            "typeDes": "",
+            "distance": 2000,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12302001,
+            "name": "国色天香",
+            "icon": "SKILLL_TX_BeiDong02_Lv1",
+            "des": "保命技，天香濒临死亡时，会跳起击飞周围敌人并且在短时间内无法受到伤害。\\n###保命技，天香濒临死亡时，会跳起击飞周围敌人并且在短时间内无法受到伤害。",
+            "background": "素手如何补天裂，国色天香中宵舞。",
+            "type": "内功",
+            "typeDes": "国色天香",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12400001,
+            "name": "杀意·重华乱舞",
+            "icon": "SKILLL_TX_Xp_Entrance_Lv1",
+            "des": "消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>\\n###消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>",
+            "background": "残莺一声春日长，重华开尽牡丹芳。",
+            "type": "重华技",
+            "typeDes": "重华乱舞",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "杀意500点",
+            "maxLevel": 1,
+            "addition1List": [
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.3
+            ]
+        },
+        {
+            "skillId": 12400820,
+            "name": "弃玉回香",
+            "icon": "SKILLL_TX_HotZhiLiao",
+            "des": "使用该技能去除清新悬玉效果，回复目标一定生命值。",
+            "background": "",
+            "type": "内功",
+            "typeDes": "",
+            "distance": 2000,
+            "cd": 5000,
+            "consume": "",
+            "maxLevel": 20,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12400921,
+            "name": "红尘勿扰·一",
+            "icon": "SKILLL_TX_SIDLE_01",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒弟子，形神兼备",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 21,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12400922,
+            "name": "红尘勿扰·二",
+            "icon": "SKILLL_TX_SIDLE_02",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒剑秀，英姿飒爽",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 22,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12400923,
+            "name": "红尘勿扰·三",
+            "icon": "SKILLL_TX_SIDLE_03",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒才俊，侠骨柔肠",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 23,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 12401001,
+            "name": "怒梅·喋血",
+            "icon": "SKILLL_TX_SMHJ_02",
+            "des": "连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "为了正义而战！",
+            "type": "连招",
+            "typeDes": "",
+            "distance": 1800,
+            "cd": 120000,
+            "consume": "",
+            "maxLevel": 30,
+            "addition1List": [
+                1.17,
+                1.56,
+                2.145,
+                0,
+                1.95
+            ]
+        }
+    ],
+    "SD": [
+        {
+            "skillId": 19107001,
+            "name": "浪子三唱",
+            "icon": "SKILLL_SD_Shenguiyeku",
+            "des": "此招共有三式，连续施放可以打出连招。\\n对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>刀意：每一段命中时，可以获得10点刀意</font>\\n<font color ='#C0E0AB'>破敌：当目标身上有破绽状态时，消耗目标1层破绽，并附加额外压制效果</font>\\n<font color ='#C0E0AB'>沧海：在沧海状态下，施展速度加快</font>\\n###连按3次，可造成3次少量的群体伤害。\\n<font color ='#C0E0AB'>刀意：每一段命中时，可以获得10点刀意</font>\\n<font color ='#C0E0AB'>破敌：当目标身上有破绽状态时，消耗目标1层破绽，并附加额外压制效果</font>\\n<font color ='#C0E0AB'>沧海：在沧海状态下，施展速度加快</font>",
+            "background": "浪子三唱，只唱英雄。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 8,
+            "addition1List": [
+                0.128,
+                0.128,
+                0.31
+            ]
+        },
+        {
+            "skillId": 19170201,
+            "name": "鹰击长空",
+            "icon": "SKILLL_SD_Yingjichangkong",
+            "des": "此招共有两式，第一式命中目标后，可立即释放第二式。\\n对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>刀意：每一段命中时，可以获得10点刀意</font>\\n<font color ='#C0E0AB'>合击：命中目标时，神鹰将会对目标发起攻击，并可立即发动第二式</font>\\n<font color ='#C0E0AB'>破敌：当目标身上有破绽状态时，消耗目标1层破绽，并附加额外压制效果</font>\\n<font color ='#C0E0AB'>沧海：在沧海状态下，施展速度加快</font>\\n###此招共有两式，第一式命中目标后，可立即释放第二式，造成中量的群体伤害。\\n<font color ='#C0E0AB'>刀意：每一段命中时，可以获得10点刀意</font>\\n<font color ='#C0E0AB'>合击：命中目标时，神鹰将会对目标发起攻击，并可立即发动第二式</font>\\n<font color ='#C0E0AB'>破敌：当目标身上有破绽状态时，消耗目标1层破绽，并附加额外压制效果</font>\\n<font color ='#C0E0AB'>沧海：在沧海状态下，施展速度加快</font>",
+            "background": "虽千万人，联手而敌。",
+            "type": "破定技",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 6000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.2
+            ]
+        },
+        {
+            "skillId": 19170301,
+            "name": "鹰击长空",
+            "icon": "SKILLL_SD_Yingjichangkong",
+            "des": "此招共有两式，第一式命中目标后，可立即释放第二式。\\n对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>刀意：每一段命中时，可以获得10点刀意</font>\\n<font color ='#C0E0AB'>合击：命中目标时，神鹰将会对目标发起攻击，并可立即发动第二式</font>\\n<font color ='#C0E0AB'>破敌：当目标身上有破绽状态时，消耗目标1层破绽，并附加额外压制效果</font>\\n<font color ='#C0E0AB'>沧海：在沧海状态下，施展速度加快</font>\\n###此招共有两式，第一式命中目标后，可立即释放第二式，造成中量的群体伤害。\\n<font color ='#C0E0AB'>刀意：每一段命中时，可以获得10点刀意</font>\\n<font color ='#C0E0AB'>合击：命中目标时，神鹰将会对目标发起攻击，并可立即发动第二式</font>\\n<font color ='#C0E0AB'>破敌：当目标身上有破绽状态时，消耗目标1层破绽，并附加额外压制效果</font>\\n<font color ='#C0E0AB'>沧海：在沧海状态下，施展速度加快</font>",
+            "background": "虽千万人，联手而敌。",
+            "type": "破定技",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 6000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.35
+            ]
+        },
+        {
+            "skillId": 19104001,
+            "name": "饮血技·笑红尘",
+            "icon": "SKILLL_SD_Xiaohongcheng",
+            "des": "冲到目标身前，造成[CastGroup]点单体伤害。\\n<font color ='#C0E0AB'>破绽：命中目标时，可以识破目标一处破绽</font>\\n<font color ='#C0E0AB'>饮血：对气血<font color ='#FC6565'>20%</font>以下的目标造成2倍伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血、刀意和少量杀意，并刷新<font color ='#FC6565'>笑红尘</font>调息时间</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###冲到目标身前，造成中量单体伤害。\\n<font color ='#C0E0AB'>破绽：命中目标时，可以识破目标一处破绽</font>\\n<font color ='#C0E0AB'>饮血：对气血<font color ='#FC6565'>20%</font>以下的目标造成2倍伤害，且必定会心。终结<font color ='#FC6565'>精英类</font>目标，可恢复气血、刀意和少量杀意，并刷新<font color ='#FC6565'>笑红尘</font>调息时间</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "以心驭战，且笑红尘。",
+            "type": "",
+            "typeDes": "",
+            "distance": 600,
+            "cd": 8000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.44
+            ]
+        },
+        {
+            "skillId": 19120001,
+            "name": "破定技·断中流",
+            "icon": "SKILLL_SD_DuanZhongLiu",
+            "des": "破定技，消耗自身50点刀意对前方区域敌人造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>势沉：如果只命中一个目标，造成50%额外伤害。没有命中目标时回复部分消耗的刀意</font>\\n###破定技，自身蓄力跃起，落地时攻击前方区域敌人，造成大量伤害。\\n<font color ='#C0E0AB'>势沉：如果只命中一个目标，造成50%额外伤害。没有命中目标时回复部分消耗的刀意</font>",
+            "background": "中流击水，断水分流。",
+            "type": "破定技",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 3000,
+            "consume": "刀意50点",
+            "maxLevel": 4,
+            "addition1List": [
+                0.15
+            ]
+        },
+        {
+            "skillId": 19101001,
+            "name": "斩血海",
+            "icon": "SKILLL_SD_Zhanxuehai",
+            "des": "此招共有四式，连续施放可以打出连招。\\n对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>沧海：沧海状态下，最大射程增加15米</font>。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按4次，可造成4次大量的单体伤害。\\n<font color ='#C0E0AB'>沧海：沧海状态下，最大射程增加15米</font>。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "血海无量，江湖无涯。",
+            "type": "",
+            "typeDes": "",
+            "distance": 300,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.164,
+                0.29,
+                0.3828,
+                0
+            ]
+        },
+        {
+            "skillId": 19106001,
+            "name": "踏浪斩",
+            "icon": "SKILLL_SD_tujin",
+            "des": "向前突进14米，命中目标时将其击退，造成[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>灵动：命中目标后，刷新<font color ='#FC6565'>天将鸣</font>调息时间</font>\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n###向前突进14米，命中目标时将其击退，造成少量范围伤害。\\n<font color ='#C0E0AB'>灵动：命中目标后，刷新<font color ='#FC6565'>天将鸣</font>调息时间</font>\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n",
+            "background": "白驹过隙，踏浪而来。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0,
+                0.2
+            ]
+        },
+        {
+            "skillId": 19130001,
+            "name": "天地风火",
+            "icon": "SKILLL_SD_Tiandiruji",
+            "des": "自身持刀快速旋转，对周围敌人发动连续攻击，每0.375秒造成[CastGroup]点伤害并回复10点刀意，持续3秒。\\n<font color ='#C0E0AB'>追加断中流：命中目标时，回复消耗的刀意</font>\\n<font color ='#C0E0AB'>乾坤：施展天地风火期间，自身获得霸体</font>\\n###造成持续的少量群体伤害。\\n<font color ='#C0E0AB'>追加断中流：命中目标时，回复消耗的刀意</font>\\n<font color ='#C0E0AB'>乾坤：施展天地风火期间，自身获得霸体</font>\\n",
+            "background": "天地乾坤，风火旋舞。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 18000,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0,
+                0.21,
+                0
+            ]
+        },
+        {
+            "skillId": 19108001,
+            "name": "狂风刀",
+            "icon": "SKILLL_SD_Gedang",
+            "des": "快速拔刀攻击，每0.2秒对前方目标造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>霸体：狂风刀施展期间，自身获得霸体效果</font>\\n<font color ='#C0E0AB'>沧海：在沧海状态下，会心一击几率提升25%</font>\\n###快速拔刀攻击，造成中量群体伤害。\\n<font color ='#C0E0AB'>霸体：狂风刀施展期间，自身获得霸体效果</font>\\n<font color ='#C0E0AB'>沧海：在沧海状态下，会心一击几率提升25%</font>",
+            "background": "连绵风尘，断续别离。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0,
+                0.182,
+                0.364
+            ]
+        },
+        {
+            "skillId": 19140001,
+            "name": "杀意·神鬼夜哭",
+            "icon": "SKILLL_SD_ShaYi",
+            "des": "消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>\\n###消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>",
+            "background": "仓颉功成，神哭鬼泣。",
+            "type": "重华技",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "杀意500点",
+            "maxLevel": 1,
+            "addition1List": [
+                1,
+                1.2,
+                1.8
+            ]
+        },
+        {
+            "skillId": 19190001,
+            "name": "解控技·回锋斩",
+            "icon": "SKILLL_SD_JieKong",
+            "des": "向后撤退固定距离，并击飞周围目标，造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>反击：可以在被压制时使用</font>\\n<font color ='#C0E0AB'>回定：解除自身定力击破状态，并获得<font color ='#FC6565'>回定</font>效果，攻击目标时回复自身定力</font>\\n###可造成少量群体伤害并将目标击飞\\n<font color ='#C0E0AB'>反击：可以在被压制时使用</font>\\n<font color ='#C0E0AB'>回定：解除自身定力击破状态，并获得<font color ='#FC6565'>回定</font>效果，攻击目标时回复自身定力</font>",
+            "background": "峰回路转，锋芒乍绽。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 40000,
+            "consume": "",
+            "maxLevel": 2,
+            "addition1List": [
+                0.1
+            ]
+        },
+        {
+            "skillId": 19191001,
+            "name": "天将鸣",
+            "icon": "SKILLL_SD_Daofengyileng",
+            "des": "进入拔刀格挡姿态，造成SkillValue(KNIFE$$42$$0.31)点伤害。\\n<font color ='#C0E0AB'>格反：在格挡姿态下，可反制目标攻击，并且降低踏浪斩2秒调息时间</font>\\n<font color ='#C0E0AB'>破绽：格反成功可以识破目标一处破绽</font>\\n###格反成功可造成中量单体伤害\\n<font color ='#C0E0AB'>格反：在格挡姿态下，可反制目标攻击，并且降低踏浪斩2秒调息时间</font>\\n<font color ='#C0E0AB'>破绽：格反成功可以识破目标一处破绽</font>\\n",
+            "background": "刀在匣中，不平则鸣。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 10000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 19200001,
+            "name": "寂寞如雪",
+            "icon": "SKILLL_SD_JiMoRuxue",
+            "des": "展示和收回神鹰\\n<font color ='#43dfd9'>只能在非战斗状态下使用，进入战斗后神鹰将被自动收回</font>\\n###展示和收回神鹰\\n<font color ='#43dfd9'>只能在非战斗状态下使用，进入战斗后神鹰将被自动收回</font>",
+            "background": "伙伴之语，高手之心。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 1000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 19290001,
+            "name": "啄星辰",
+            "icon": "SKILLL_SD_Zhuojunmo",
+            "des": "消耗自身50点刀意，召唤神鹰对目标造成<font color ='#FC6565'>失明</font>效果，<font color ='#FC6565'>失明</font>的目标无法移动和使用技能。\\n<font color ='#C0E0AB'>失明：无法移动和使用技能\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###对目标造成<font color ='#FC6565'>失明</font>效果\\n<font color ='#C0E0AB'>失明：无法移动和使用技能\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "轻啄浅尝，百转柔肠。",
+            "type": "",
+            "typeDes": "",
+            "distance": 2500,
+            "cd": 30000,
+            "consume": "刀意50点",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 19020001,
+            "name": "鹰·天羽扬威",
+            "icon": "",
+            "des": "",
+            "background": "天威赫赫，鹰羽难测。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 19030001,
+            "name": "饮沧海",
+            "icon": "SKILLL_SD_Yinliuguang",
+            "des": "进入沧海状态，强化<font color ='#FC6565'>斩血海</font>、<font color ='#FC6565'>狂风刀</font>、<font color ='#FC6565'>浪子三唱</font>和<font color ='#FC6565'>鹰击长空</font>技能效果，并且对有破绽的目标造成大量额外伤害。\\n<font color ='#C0E0AB'>星辰：进入沧海状态时，增加自身以及附近团队成员10%会心伤害</font>\\n<font color ='#C0E0AB'>天羽扬威：释放技能期间，鹰将盘旋保护自身，所受伤害减少50%，8米范围内敌方使用任何招式将会主动暴露破绽</font>\\n###进入沧海状态，对有破绽的目标造成大量额外伤害。\\n<font color ='#C0E0AB'>星辰：进入沧海状态时，增加自身以及附近团队成员10%会心伤害</font>\\n<font color ='#C0E0AB'>天羽扬威：释放技能期间，鹰将盘旋保护自身，所受伤害减少50%，8米范围内敌方使用任何招式将会主动暴露破绽</font>",
+            "background": "沧海如酒，我意苍茫。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 60000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0,
+                0.31
+            ]
+        },
+        {
+            "skillId": 19030301,
+            "name": "饮沧海",
+            "icon": "SKILLL_SD_Yinliuguang",
+            "des": "进入沧海状态，强化<font color ='#FC6565'>斩血海</font>、<font color ='#FC6565'>狂风刀</font>、<font color ='#FC6565'>浪子三唱</font>和<font color ='#FC6565'>鹰击长空</font>技能效果，并且对有破绽的目标造成大量额外伤害。\\n<font color ='#C0E0AB'>星辰：进入沧海状态时，增加自身以及附近团队成员10%会心伤害</font>\\n<font color ='#C0E0AB'>天羽扬威：释放技能期间，鹰将盘旋保护自身，所受伤害减少50%，8米范围内敌方使用任何招式将会主动暴露破绽</font>\\n###进入沧海状态，对有破绽的目标造成大量额外伤害。\\n<font color ='#C0E0AB'>星辰：进入沧海状态时，增加自身以及附近团队成员10%会心伤害</font>\\n<font color ='#C0E0AB'>天羽扬威：释放技能期间，鹰将盘旋保护自身，所受伤害减少50%，8米范围内敌方使用任何招式将会主动暴露破绽</font>",
+            "background": "沧海如酒，我意苍茫。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 2000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.31
+            ]
+        },
+        {
+            "skillId": 19150001,
+            "name": "鹰攻击",
+            "icon": "",
+            "des": "",
+            "background": "",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 1000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0,
+                0.4
+            ]
+        },
+        {
+            "skillId": 19210001,
+            "name": "违天命",
+            "icon": "SKILLL_SD_LangZiSanchang",
+            "des": "神刀使用笑红尘、天将鸣等技能可以识破目标破绽，使用浪子三唱、鹰击长空可以对有破绽的目标造成额外的压制效果。\\n###神刀使用笑红尘、天将鸣等技能可以识破目标破绽，使用浪子三唱、鹰击长空可以对有破绽的目标造成额外的压制效果。",
+            "background": "",
+            "type": "内功",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 19102005,
+            "name": "斩血海",
+            "icon": "SKILLL_SD_Zhanxuehai",
+            "des": "此招共有四式，连续施放可以打出连招。\\n对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>沧海：沧海状态下，最大射程增加15米</font>。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按4次，可造成4次大量的单体伤害。\\n<font color ='#C0E0AB'>沧海：沧海状态下，最大射程增加15米</font>。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "血海无量，江湖无涯。",
+            "type": "",
+            "typeDes": "",
+            "distance": 1800,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.29,
+                0.3828,
+                0
+            ]
+        },
+        {
+            "skillId": 19103421,
+            "name": "红尘勿扰·一",
+            "icon": "SKILLL_SD_SIDLE_01",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒弟子，形神兼备",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 21,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 19103422,
+            "name": "红尘勿扰·二",
+            "icon": "SKILLL_SD_SIDLE_02",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒剑秀，英姿飒爽",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 22,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 19103423,
+            "name": "红尘勿扰·三",
+            "icon": "SKILLL_SD_SIDLE_03",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒才俊，侠骨柔肠",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 23,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 19121001,
+            "name": "怒梅·喋血",
+            "icon": "SKILLL_SD_SMHJ_02",
+            "des": "连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "为了正义而战！",
+            "type": "",
+            "typeDes": "",
+            "distance": 300,
+            "cd": 120000,
+            "consume": "",
+            "maxLevel": 30,
+            "addition1List": [
+                0.39,
+                0.585,
+                0.975,
+                0,
+                1.17,
+                1.755
+            ]
+        }
+    ],
+    "YH": [
+        {
+            "skillId": 20001001,
+            "name": "五韵昭华",
+            "icon": "SKILLL_YH_WULIAN",
+            "des": "此招共有五式，连续施放可以打出连招。\\n对目标造成共计[CastGroup]点伤害并压制目标。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>蓄劲：第三段蓄劲时间越长，第四段造成的伤害越高。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按5次，可造成中量的单体伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>蓄劲：第三段蓄劲时间越长，第四段造成的伤害越高。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "念彼昆仑，贻我昭华。碧天云海，五韵行之。",
+            "type": "",
+            "typeDes": "",
+            "distance": 1800,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0,
+                0.164,
+                0.29,
+                0.44864,
+                0.59256
+            ]
+        },
+        {
+            "skillId": 20002001,
+            "name": "饮血技·花杀一念\\n",
+            "icon": "SKILLL_YH_YINXUE",
+            "des": "饮血技，造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>玉灵：每次释放技能获得10点玉灵。</font>\\n<font color ='#C0E0AB'>饮血：终结<font color ='#FC6565'>精英类</font>目标，可恢复大量气血，并刷新花杀一念调息时间。</font>\\n###饮血技，造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>玉灵：每次释放技能获得10点玉灵。</font>\\n<font color ='#C0E0AB'>饮血：终结<font color ='#FC6565'>精英类</font>目标，可恢复大量气血，并刷新花杀一念调息时间。</font>",
+            "background": "一念生则四时华，一念灭即百花杀。",
+            "type": "",
+            "typeDes": "",
+            "distance": 1800,
+            "cd": 7000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                0.46
+            ]
+        },
+        {
+            "skillId": 20002005,
+            "name": "饮血技·花杀一念\\n",
+            "icon": "SKILLL_YH_YINXUE_QIANGHUA",
+            "des": "饮血技，造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>玉灵：每次释放技能获得10点玉灵。</font>\\n<font color ='#C0E0AB'>饮血：终结<font color ='#FC6565'>精英类</font>目标，可恢复大量气血，并刷新花杀一念调息时间。</font>\\n###饮血技，造成[CastGroup]点伤害。\\n<font color ='#C0E0AB'>玉灵：每次释放技能获得10点玉灵。</font>\\n<font color ='#C0E0AB'>饮血：终结<font color ='#FC6565'>精英类</font>目标，可恢复大量气血，并刷新花杀一念调息时间。</font>",
+            "background": "一念生则四时华，一念灭即百花杀。",
+            "type": "",
+            "typeDes": "",
+            "distance": 1800,
+            "cd": 7000,
+            "consume": "",
+            "maxLevel": 5,
+            "addition1List": [
+                2.08
+            ]
+        },
+        {
+            "skillId": 20003001,
+            "name": "破定技·大音希声",
+            "icon": "SKILLL_YH_QUYU",
+            "des": "在鼠标指定区域招出玉灵幻象，持续造成范围伤害。\\n\\n###招出玉灵幻象，持续造成范围伤害。\\n",
+            "background": "听之不闻名曰希，不可得闻之音也。",
+            "type": "",
+            "typeDes": "",
+            "distance": 1800,
+            "cd": 8000,
+            "consume": "玉灵30点",
+            "maxLevel": 4,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20004001,
+            "name": "踏雪拂云",
+            "icon": "SKILLL_YH_SHUNSHEN",
+            "des": "瞬身向前突进，可有效打击目标定力，并造成中量单体伤害\\n<font color ='#C0E0AB'>踏雪：7秒内再次施展，可以回到初始位置(超过30米时失效)</font>\\n<font color ='#C0E0AB'>连击：命中目标时，使用裁玉三问可以造成大量伤害</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###瞬身向前突进，并造成中量单体伤害\\n。\\n<font color ='#C0E0AB'>踏雪：7秒内再次施展，可以回到初始位置(超过30米时失效)</font>\\n<font color ='#C0E0AB'>连击：命中目标时，使用裁玉三问可以造成大量伤害</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n",
+            "background": "惟振袖以拂云兮，聊踏雪而归去。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20004301,
+            "name": "踏雪拂云",
+            "icon": "SKILLL_YH_SHUNSHEN",
+            "des": "瞬身向前突进，可有效打击目标定力，并造成中量单体伤害\\n<font color ='#C0E0AB'>踏雪：7秒内再次施展，可以回到初始位置(超过30米时失效)</font>\\n<font color ='#C0E0AB'>连击：命中目标时，使用裁玉三问可以造成大量伤害</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###瞬身向前突进，并造成中量单体伤害\\n。\\n<font color ='#C0E0AB'>踏雪：7秒内再次施展，可以回到初始位置(超过30米时失效)</font>\\n<font color ='#C0E0AB'>连击：命中目标时，使用裁玉三问可以造成大量伤害</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n",
+            "background": "惟振袖以拂云兮，聊踏雪而归去。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20004401,
+            "name": "踏雪拂云",
+            "icon": "SKILLL_YH_SHUNSHEN",
+            "des": "瞬身向前突进，可有效打击目标定力，并造成中量单体伤害\\n<font color ='#C0E0AB'>踏雪：7秒内再次施展，可以回到初始位置(超过30米时失效)</font>\\n<font color ='#C0E0AB'>连击：命中目标时，使用裁玉三问可以造成大量伤害</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###瞬身向前突进，并造成中量单体伤害\\n。\\n<font color ='#C0E0AB'>踏雪：7秒内再次施展，可以回到初始位置(超过30米时失效)</font>\\n<font color ='#C0E0AB'>连击：命中目标时，使用裁玉三问可以造成大量伤害</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n",
+            "background": "惟振袖以拂云兮，聊踏雪而归去。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20004501,
+            "name": "裁玉三问",
+            "icon": "SKILLL_YH_PUGONG",
+            "des": "此招共有三式，连续施放可以打出连招。\\n对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>漱玉：第三段命中目标时，刷新漱玉诀调息时间</font>\\n###连按3次，可造成3次少量的群体伤害。\\n<font color ='#C0E0AB'>漱玉：第三段命中目标时，刷新漱玉诀调息时间</font>",
+            "background": "日月安属，列星安陈。煌煌遂古，我之何来。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.31,
+                0.64
+            ]
+        },
+        {
+            "skillId": 20005001,
+            "name": "裁玉三问",
+            "icon": "SKILLL_YH_PUGONG",
+            "des": "此招共有三式，连续施放可以打出连招。\\n对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>漱玉：第三段命中目标时，刷新漱玉诀调息时间</font>\\n###连按3次，可造成3次少量的群体伤害。\\n<font color ='#C0E0AB'>漱玉：第三段命中目标时，刷新漱玉诀调息时间</font>",
+            "background": "日月安属，列星安陈。煌煌遂古，我之何来。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0.128,
+                0.128,
+                0.31
+            ]
+        },
+        {
+            "skillId": 20006001,
+            "name": "解控技·归去来兮",
+            "icon": "SKILLL_YH_JIEKONG",
+            "des": "向后撤退固定距离，将周围目标幻定，持续2秒。\\n<font color ='#C0E0AB'>反击：可以在被压制时使用</font>\\n<font color ='#C0E0AB'>免疫：在后撤过程中，免疫大部分伤害和控制效果</font>\\n###向后撤退，将周围目标幻定。\\n<font color ='#C0E0AB'>反击：可以在被压制时使用</font>\\n<font color ='#C0E0AB'>免疫：在后撤过程中，免疫大部分伤害和控制效果</font>",
+            "background": "归去来兮容与，聊乘化兮无疑。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 25000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20007001,
+            "name": "漱玉诀",
+            "icon": "SKILLL_YH_JUXING",
+            "des": "群体招式，对前方矩形区域内目标造成中量伤害。\\n<font color ='#C0E0AB'>玉灵：命中目标时，获得30点玉灵</font>\\n<font color ='#C0E0AB'>随心：在大音希声释放后，如果漱玉诀命中目标，玉灵幻象将自动跟随目标造成伤害。</font>\\n<font color ='#C0E0AB'>势沉：只命中一个目标时造成额外100%伤害。</font>\\n###群体招式，造成中量伤害。\\n<font color ='#C0E0AB'>玉灵：命中目标时，获得30点玉灵</font>\\n<font color ='#C0E0AB'>随心：在大音希声释放后，如果漱玉诀命中目标，玉灵幻象将自动跟随目标造成伤害。</font>\\n<font color ='#C0E0AB'>势沉：只命中一个目标时造成额外100%伤害。</font>",
+            "background": "沧浪既清，漱玉其鸣。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 6000,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20009001,
+            "name": "天地醉心",
+            "icon": "SKILLL_YH_FUZHU",
+            "des": "吹起玉笛，鼓舞友人，20秒内令其功力向内收敛，会心伤害逐渐增加，最多增加70%。\\n\\n<font color ='#C0E0AB'>二段：持续期间内再次施展，自身和队友周围造成一次范围攻击。</font>\\n<font color ='#C0E0AB'>反击：二段可以在被压制时使用，解除压制状态。</font>\\n###吹起玉笛，鼓舞友人，20秒内令其功力向内收敛，会心伤害逐渐增加，最多增加70%。\\n\\n<font color ='#C0E0AB'>二段：持续期间内再次施展，自身和队友周围造成一次范围攻击。</font>\\n<font color ='#C0E0AB'>反击：二段可以在被压制时使用，解除压制状态。</font>",
+            "background": "烟霞横眼，天地醉心。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 50000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20009101,
+            "name": "天地醉心",
+            "icon": "SKILLL_YH_FUZHU",
+            "des": "吹起玉笛，鼓舞友人，20秒内令其功力向内收敛，会心伤害逐渐增加，最多增加70%。\\n\\n<font color ='#C0E0AB'>二段：持续期间内再次施展，自身和队友周围造成一次范围攻击。</font>\\n<font color ='#C0E0AB'>反击：二段可以在被压制时使用，解除压制状态。</font>\\n###吹起玉笛，鼓舞友人，20秒内令其功力向内收敛，会心伤害逐渐增加，最多增加70%。\\n\\n<font color ='#C0E0AB'>二段：持续期间内再次施展，自身和队友周围造成一次范围攻击。</font>\\n<font color ='#C0E0AB'>反击：二段可以在被压制时使用，解除压制状态。</font>",
+            "background": "烟霞横眼，天地醉心。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20011001,
+            "name": "入梦引",
+            "icon": "SKILLL_YH_KONGZHI",
+            "des": "控制技，激活目标体内醉心花致幻成分，束缚目标。\\n<font color ='#43dfd9'>此技能需要选中目标才能施放。</font>\\n###控制技，激活目标体内醉心花致幻成分，束缚目标。\\n<font color ='#43dfd9'>此技能需要选中目标才能施放。</font>",
+            "background": "醉心为引， 魂魄入梦。真如幻境，皆由心生。",
+            "type": "",
+            "typeDes": "",
+            "distance": 1800,
+            "cd": 30000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0,
+                0
+            ]
+        },
+        {
+            "skillId": 20012001,
+            "name": "花间酌",
+            "icon": "SKILLL_YH_GEDANG",
+            "des": "反制技，蓄劲期间受到攻击，可以免受此次伤害。\\n<font color ='#C0E0AB'>格反：格反近身攻击时，目标将被幻定，持续2秒。</font>\\n###反制技，蓄劲期间受到攻击，可以免受此次伤害。\\n<font color ='#C0E0AB'>格反：格反近身攻击时，目标将被幻定，持续2秒。</font>",
+            "background": "花间独酌，且任从容。邀月相待，何人与共。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20013001,
+            "name": "移花接玉",
+            "icon": "SKILLL_YH_DAZHAO",
+            "des": "催动目标体内醉心花致幻成分，造成1秒压制，并创造一个敌方的玉灵幻象，持续5秒。\\n只有自身和队友可对幻象造成伤害。\\n\\n<font color ='#C0E0AB'>共受：幻象受到伤害时，本体会同时受到100%伤害。</font>\\n<font color ='#C0E0AB'>继承：对玩家施展时，玉灵幻象会继承目标连招攻击目标。</font>\\n###催动目标体内醉心花致幻成分，造成1秒压制，创造一个目标镜像分身。\\n只有自身和队友可对幻象造成伤害。\\n<font color ='#C0E0AB'>共受：幻象受到伤害时，本体会同时受到100%伤害。</font>\\n<font color ='#C0E0AB'>继承：对玩家施展时，玉灵幻象会继承目标连招攻击目标。</font>",
+            "background": "皎皎明玉，青春何极。移花接玉，神鬼莫敌。",
+            "type": "",
+            "typeDes": "",
+            "distance": 1000,
+            "cd": 60000,
+            "consume": "玉灵70点",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20014001,
+            "name": "杀意·沧溟九歌",
+            "icon": "SKILLL_RPG_LongJuanFeng",
+            "des": "消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>\\n###消耗杀意造成多段范围伤害。\\n<font color ='#C0E0AB'>可以使用快捷键<font color ='#FC6565'>“~”</font>发动</font>",
+            "background": "诸仙群玉，泛彼沧溟。九天之际，踏歌而行。",
+            "type": "重华技",
+            "typeDes": "重华乱舞",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "杀意500点",
+            "maxLevel": 1,
+            "addition1List": [
+                0,
+                0.3,
+                0.5,
+                1.5
+            ]
+        },
+        {
+            "skillId": 20015003,
+            "name": "寒山幽梦(开启)",
+            "icon": "SKILLL_YH_CHUIDI",
+            "des": "使用后进入吹笛行走模式，再次使用可关闭。\\n###使用后进入吹笛行走模式，再次使用可关闭。",
+            "background": "兰烬落罢，寒山梦杳。夜船吹笛，细雨潇潇。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 3,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20015004,
+            "name": "寒山幽梦(关闭)",
+            "icon": "SKILLL_YH_CHUIDI",
+            "des": "使用后进入吹笛行走模式，再次使用可关闭。\\n###使用后进入吹笛行走模式，再次使用可关闭。",
+            "background": "兰烬落罢，寒山梦杳。夜船吹笛，细雨潇潇。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 4,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20010001,
+            "name": "天水明玉",
+            "icon": "SKILLL_YH_BEIDONG",
+            "des": "攻击目标时，有几率将目标内力吸取，为自身所用。\\n天水明玉重数越高，可吸取的内力种类越多。\\n###攻击目标时，有几率将目标内力吸取，为自身所用。",
+            "background": "君子无故，玉不去身。",
+            "type": "内功",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 0,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20010021,
+            "name": "红尘勿扰·一",
+            "icon": "SKILLL_YH_SIDLE_01",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒弟子，形神兼备",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 21,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20010022,
+            "name": "红尘勿扰·二",
+            "icon": "SKILLL_YH_SIDLE_02",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒剑秀，英姿飒爽",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 22,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20010023,
+            "name": "红尘勿扰·三",
+            "icon": "SKILLL_YH_SIDLE_03",
+            "des": "表情技能\\n###做出表情动作",
+            "background": "八荒才俊，侠骨柔肠",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 15000,
+            "consume": "",
+            "maxLevel": 23,
+            "addition1List": [
+                0
+            ]
+        },
+        {
+            "skillId": 20017001,
+            "name": "天峰五云剑",
+            "icon": "SKILLL_HS_DantiTaolu_Entrance_Lv1",
+            "des": "此招共有五式，连续施放可以打出连招。\\n对目标造成共计[CastGroup]点伤害并压制目标，最后一招击飞目标。\\n<font color ='#C0E0AB'>获得剑意：完整施放该技能可以获得一格剑意</font>\\n<font color ='#C0E0AB'>无痕：处于<font color ='#FC6565'>无痕剑意</font>状态时施展，可移除无痕剑意造成额外100%伤害。</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按5次，可造成5次中量的单体伤害。\\n<font color ='#C0E0AB'>获得剑意：完整施放该技能可以获得一格剑意</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "太白山有五峰，连延百里，此招亦五剑连环，绵绵不绝。",
+            "type": "招式",
+            "typeDes": "太白剑诀",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 1,
+            "addition1List": [
+                0.1,
+                0.15,
+                0.2,
+                0.25,
+                0.3
+            ]
+        },
+        {
+            "skillId": 20017008,
+            "name": "云龙五现",
+            "icon": "SKILLL_SW_WuLianJi_Entrance_Lv1",
+            "des": "此招共有五式，连续施放可以打出连招。造成总计[CastGroup]*1.2482点伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体目标使用时最后一击替换为重击，造成100%额外伤害。</font>\\n<font color ='#C0E0AB'>战意：技能命中后，可使下次天龙扑月在一段时间内瞬发。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###此招共有五式，连续施放可以打出连招。造成总计[CastGroup]*1.2482点伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>金刚碎：对霸体目标使用时最后一击替换为重击，造成100%额外伤害。</font>\\n<font color ='#C0E0AB'>战意：技能命中后，可使下次天龙扑月在一段时间内瞬发。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "遨游四海，纵吟九霄，金鳞利爪，吐雾吞云。",
+            "type": "连招",
+            "typeDes": "铁血征尘",
+            "distance": 0,
+            "cd": 18000,
+            "consume": "",
+            "maxLevel": 8,
+            "addition1List": [
+                0.1,
+                0.15,
+                0.2,
+                0.3,
+                0
+            ]
+        },
+        {
+            "skillId": 20017016,
+            "name": "龙吟三破",
+            "icon": "SKILLL_GB_DantiTaolu_Entrance",
+            "des": "此招共有三式，连续施放可以打出连招，命中时增加25力。\\n对目标造成多段打击总计[CastGroup]点伤害并压制目标，最后一掌将目标击退。\\n<font color ='#C0E0AB'>力：力满时施放，可将目标拉至身旁施放，伤害提升50%。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按3次，可造成3次中量的单体伤害。\\n<font color ='#C0E0AB'>力：力满时施放，可将目标拉至身旁施放，伤害提升50%。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "长啸摧肝胆，龙虎不相逢。",
+            "type": "力系",
+            "typeDes": "降龙伏虎",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 16,
+            "addition1List": [
+                0.1,
+                0.2,
+                0.3,
+                0.8
+            ]
+        },
+        {
+            "skillId": 20017021,
+            "name": "星雨飞花",
+            "icon": "SKILLL_TM_DantiTaolu_Entrance",
+            "des": "此招共有三式，连续施放可以打出连招。\\n对目标造成共计[CastGroup]点伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按3次，可造成3次中量的单体伤害。\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "长河漫漫飞星雨，朵朵飞花淡墨痕。",
+            "type": "连招",
+            "typeDes": "暗青落雨",
+            "distance": 0,
+            "cd": 16000,
+            "consume": "",
+            "maxLevel": 21,
+            "addition1List": [
+                0.3,
+                0.4,
+                0.7
+            ]
+        },
+        {
+            "skillId": 20017025,
+            "name": "凤凰决杀",
+            "icon": "SKILLL_WD_DantiCombo_Entrance",
+            "des": "此招共有六式，连续施放可以打出连招，对目标造成共计[CastGroup]点伤害并压制目标。\\n<font color ='#C0E0AB'>噬魂：最后一段攻击会对敌人植入噬魂蛊，在一段时间后爆裂造成伤害</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###此招共有六式，连续施放可以打出连招，对目标造成共计[CastGroup]点伤害并压制目标。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>噬魂：最后一段攻击会对敌人植入噬魂蛊，在一段时间后爆裂造成伤害</font>",
+            "background": "耀而烈，舞而决。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 18000,
+            "consume": "",
+            "maxLevel": 25,
+            "addition1List": [
+                0.1,
+                0.15,
+                0.2,
+                0.25,
+                0,
+                0.4
+            ]
+        },
+        {
+            "skillId": 20017033,
+            "name": "琴心三叠",
+            "icon": "SKILLL_TX_DanTiTaoLu_A07",
+            "des": "此招共有三式，连续施放可以打出连招，对目标造成共计[CastGroup]点伤害并压制目标。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n###此招共有三式，连续施放可以打出连招，对目标造成共计[CastGroup]点伤害并压制目标。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n",
+            "background": "白波九道流雪山，琴心三叠妆初成。",
+            "type": "招式",
+            "typeDes": "琴心三叠",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 33,
+            "addition1List": [
+                0.3,
+                0.4,
+                0.7
+            ]
+        },
+        {
+            "skillId": 20017037,
+            "name": "微明生灭",
+            "icon": "SKILLL_ZW_5Combo_Entrance",
+            "des": "5段单体套路，造成总计[CastGroup]点伤害。\\n<font color ='#C0E0AB'>驱影：连击中途可施放<font color ='#FC6565'>驱影</font>，替换自身完成剩余打击</font>\\n<font color ='#C0E0AB'>冲盈：开启<font color ='#FC6565'>冲盈</font>后，驱影发动合击，造成额外100%伤害，消耗3层阳</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按5次，可造成5次大量单体伤害\\n<font color ='#C0E0AB'>驱影：连击中途可施放<font color ='#FC6565'>驱影</font>，替换自身完成剩余打击</font>\\n<font color ='#C0E0AB'>冲盈：开启<font color ='#FC6565'>冲盈</font>后，驱影发动合击，造成额外100%伤害，消耗3层阳</font>\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "万物无以生，将恐灭；柔弱胜刚强，是谓微明",
+            "type": "招式",
+            "typeDes": "驱影逐形",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 37,
+            "addition1List": [
+                0.15,
+                0.2,
+                0.25,
+                0.3,
+                0.5
+            ]
+        },
+        {
+            "skillId": 20017043,
+            "name": "斩血海",
+            "icon": "SKILLL_SD_Zhanxuehai",
+            "des": "此招共有四式，连续施放可以打出连招。\\n对前方区域造成总共[CastGroup]点范围伤害。\\n<font color ='#C0E0AB'>沧海：沧海状态下，最大射程增加15米</font>。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按4次，可造成4次大量的单体伤害。\\n<font color ='#C0E0AB'>沧海：沧海状态下，最大射程增加15米</font>。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "血海无量，江湖无涯。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 43,
+            "addition1List": [
+                0.15,
+                0.25,
+                0.3,
+                0
+            ]
+        },
+        {
+            "skillId": 20017049,
+            "name": "五韵昭华",
+            "icon": "SKILLL_YH_WULIAN",
+            "des": "此招共有五式，连续施放可以打出连招。\\n对目标造成共计[CastGroup]点伤害并压制目标。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>蓄劲：第三段蓄劲时间越长，第四段造成的伤害越高。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连按5次，可造成中量的单体伤害。\\n<font color ='#C0E0AB'>云体：可在低空使用。</font>\\n<font color ='#C0E0AB'>蓄劲：第三段蓄劲时间越长，第四段造成的伤害越高。</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "念彼昆仑，贻我昭华。碧天云海，五韵行之。",
+            "type": "",
+            "typeDes": "",
+            "distance": 0,
+            "cd": 20000,
+            "consume": "",
+            "maxLevel": 49,
+            "addition1List": [
+                0,
+                0.15,
+                0.25,
+                0.3,
+                0.7
+            ]
+        },
+        {
+            "skillId": 20021001,
+            "name": "怒梅·喋血",
+            "icon": "SKILLL_YH_SMHJ_02",
+            "des": "连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>\\n###连续施放可以和师妹一起打出连招\\n对目标造成共计[CastGroup]点伤害并压制目标\\n<font color ='#C0E0AB'>云体：可在低空使用</font>\\n<font color ='#43dfd9'>此技能需要选中目标才能施放</font>",
+            "background": "为了正义而战！",
+            "type": "连招",
+            "typeDes": "",
+            "distance": 1800,
+            "cd": 120000,
+            "consume": "",
+            "maxLevel": 30,
+            "addition1List": [
+                0,
+                0.39,
+                0.975,
+                1.56,
+                1.95
+            ]
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 import merge from 'lodash/merge';
 
 import {
+  BATCH_SET_EQUIPS,
   CLEAR_CURRENT_CONFIG,
   CLEAR_CURRENT_POS,
   COPY_SET, RESET_ALL,
@@ -9,7 +10,8 @@ import {
   SELECT_EQUIP,
   SELECT_JIANGXIN,
   SELECT_LONGZHU,
-  SELECT_SET
+  SELECT_SET,
+
 } from '../actions';
 
 let singleEquipInitState = {
@@ -61,7 +63,8 @@ export default function(state = initState, action) {
   case SELECT_AFFIX:
   case SELECT_EQUIP:
   case CLEAR_CURRENT_POS:
-  case CLEAR_CURRENT_CONFIG: {
+  case CLEAR_CURRENT_CONFIG:
+  case BATCH_SET_EQUIPS: {
     let current = state.current;
     let set = state.sets[current];
     let newSet = singleEquipReducer(set, action);
@@ -109,7 +112,6 @@ function singleEquipReducer(state, action) {
   }
   // 选择精工等级
   case SELECT_ENHANCE: {
-    console.log(23333);
     const {equipPosId, level} = action.payload;
     return {
       ...state,
@@ -180,7 +182,13 @@ function singleEquipReducer(state, action) {
   case CLEAR_CURRENT_CONFIG: {
     return {...singleEquipInitState};
   }
+  // 批量设置
+  case BATCH_SET_EQUIPS: {
+    // 使用空白的合并即可
+    return {...singleEquipInitState, ...action.payload.batchData};
+  }
   default:
     return state;
   }
+
 }

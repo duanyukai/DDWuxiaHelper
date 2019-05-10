@@ -5,8 +5,10 @@ import Viewer from './viewer';
 
 import './css/app.css';
 import {Helmet} from "react-helmet";
+import TextAd from "../../_commons/ad/components/text_ad";
+import BannerAd from "../../_commons/ad/components/banner_ad";
 
-let panoramaBaseUrl = 'https://wuxia-tools-assets-1251080372.cos.ap-shanghai.myqcloud.com/panorama/regular/';
+let panoramaBaseUrl = 'https://wuxia-tools-assets-1251080372.file.myqcloud.com/panorama/regular/';
 
 let panoramaData = [
   {name: '天香谷', url: 'tianxianggu.png'},
@@ -40,6 +42,7 @@ class PanoramaViewer extends Component {
         <Grid>
           <Row>
             <Col lg={12}>
+              <TextAd />
               <Panel bsStyle="success">
                 <Panel.Heading>天刀全景图-美图欣赏</Panel.Heading>
                 <Panel.Body>
@@ -77,6 +80,7 @@ class PanoramaViewer extends Component {
                   <Viewer url={panoramaBaseUrl + panoramaData[this.state.curPanoIndex].url} />
                 </Panel.Body>
               </Panel>
+              <BannerAd />
             </Col>
           </Row>
         </Grid>

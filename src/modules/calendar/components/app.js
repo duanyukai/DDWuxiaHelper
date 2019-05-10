@@ -16,6 +16,8 @@ import RadioGroup from './RadioGroup';
 
 import ChangyanComment from '../../changyan/changyan_comment';
 import {Helmet} from 'react-helmet';
+import TextAd from "../../_commons/ad/components/text_ad";
+import BannerAd from "../../_commons/ad/components/banner_ad";
 
 class CalendarApp extends Component {
   constructor(props) {
@@ -68,6 +70,7 @@ class CalendarApp extends Component {
           <meta name="description" content="本工具包含现实时间、天涯时刻对照的模拟时钟，及未来时间吉凶预测时间轴.时间精确到秒，方便文士乐伶绘画、建房求风水等需求。" />
           <meta name="viewport" content="width=device-width"/>
         </Helmet>
+        <TextAd />
         <Grid>
           <Row>
             <Col md={12} lg={10} lgOffset={1}>
@@ -200,8 +203,8 @@ class CalendarApp extends Component {
                       <tr><td>子时</td><td>23:00:00~00:59:59</td><td>04分48秒</td><td>02:04:48</td><td>06:04:48</td><td>10:04:48</td><td>14:04:48</td><td>18:04:48</td><td>22:04:48</td><td>黑夜</td></tr>
                       <tr><td>丑时</td><td>01:00:00~02:59:59</td><td>07分12秒</td><td>02:09:36</td><td>06:09:36</td><td>10:09:36</td><td>14:09:36</td><td>18:09:36</td><td>22:09:36</td><td>黑夜</td></tr>
                       <tr><td>寅时</td><td>03:00:00~04:59:59</td><td>09分36秒</td><td>02:16:48</td><td>06:16:48</td><td>10:16:48</td><td>14:16:48</td><td>18:16:48</td><td>22:16:48</td><td>黑夜</td></tr>
-                      <tr><td>卯时</td><td>05:00:00~06:59:59</td><td>24分00秒</td><td>03:26:24</td><td>07:26:24</td><td>11:26:24</td><td>15:26:24</td><td>19:26:24</td><td>23:26:24</td><td>日出</td></tr>
-                      <tr><td>辰时</td><td>07:00:00~08:59:59</td><td>40分48秒</td><td>03:50:24</td><td>07:50:24</td><td>11:50:24</td><td>15:50:24</td><td>19:50:24</td><td>23:50:24</td><td>白天</td></tr>
+                      <tr><td>卯时</td><td>05:00:00~06:59:59</td><td>24分00秒</td><td>02:26:24</td><td>06:26:24</td><td>10:26:24</td><td>14:26:24</td><td>19:26:24</td><td>23:26:24</td><td>日出</td></tr>
+                      <tr><td>辰时</td><td>07:00:00~08:59:59</td><td>40分48秒</td><td>02:50:24</td><td>06:50:24</td><td>10:50:24</td><td>14:50:24</td><td>19:50:24</td><td>23:50:24</td><td>白天</td></tr>
                       <tr><td>巳时</td><td>09:00:00~10:59:59</td><td>24分00秒</td><td>03:31:12</td><td>07:31:12</td><td>11:31:12</td><td>15:31:12</td><td>19:31:12</td><td>23:31:12</td><td>白天</td></tr>
                       <tr><td>午时</td><td>11:00:00~12:59:59</td><td>07分12秒</td><td>03:55:12</td><td>07:55:12</td><td>11:55:12</td><td>15:55:12</td><td>19:55:12</td><td>23:55:12</td><td>白天</td></tr>
                       <tr><td>未时</td><td>13:00:00~14:59:59</td><td>14分24秒</td><td>04:02:24</td><td>08:02:24</td><td>12:02:24</td><td>16:02:24</td><td>20:02:24</td><td>00:02:24</td><td>白天</td></tr>
@@ -614,15 +617,7 @@ class CalendarApp extends Component {
             </Col>
           </Row>
         </Grid>
-        {/*<Grid>*/}
-        {/*<Row>*/}
-        {/*<Col xs={12} md={10} mdOffset={1}>*/}
-        {/*<Panel>*/}
-        {/*<ChangyanComment sourceId='calendar' />*/}
-        {/*</Panel>*/}
-        {/*</Col>*/}
-        {/*</Row>*/}
-        {/*</Grid>*/}
+        <BannerAd />
       </div>
     );
   }

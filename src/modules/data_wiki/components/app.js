@@ -1,53 +1,67 @@
 import React, { Component } from 'react';
-import {Button, ButtonGroup, Col, Grid, PageHeader, Panel, Row, Table} from 'react-bootstrap';
 
 import './css/app.css';
-import {Link} from 'react-router-dom';
+import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
+const imgPath = require.context('../../portal/assets/imgs/', true);
+import Loadable from "react-loadable";
+import Loading from '../../tiandao_ui/components/loading';
+import NotFoundPage from '../../portal/components/404';
 
-class PanoramaViewer extends Component {
-  constructor(props) {
-    super(props);
+const WikiPortal = Loadable({
+  loader: () => import('./portal.js'),
+  loading: () => <Loading />
+});
 
-    this.state = {
-      curPanoIndex: 0
-    };
-  }
+const GemWiki = Loadable({
+  loader: () => import('../modules/gem/gem.js'),
+  loading: () => <Loading />
+});
 
-  componentDidMount() {
-  }
-  
+const AffixWiki = Loadable({
+  loader: () => import('../modules/affix/affix.js'),
+  loading: () => <Loading />
+});
+
+const ItemWiki = Loadable({
+  loader: () => import('../modules/item/item.js'),
+  loading: () => <Loading />
+});
+
+const YouliWiki = Loadable({
+  loader: () => import('../modules/youli/youli.js'),
+  loading: () => <Loading />
+});
+const SkillWiki = Loadable({
+  loader: () => import('../modules/skill/skill.js'),
+  loading: () => <Loading />
+});
+
+class DataWikiRouter extends Component {
   render() {
     return(
-      <div styleName='container'>
+      <div>
         <Helmet defer={false}>
           <meta charSet="utf-8" />
           <title>天刀数据百科 | 段段天刀综合助手</title>
           <meta name="keywords" content="天刀数据百科" />
           <meta name="viewport" content="width=device-width"/>
         </Helmet>
-        <Grid>
-          <Row>
-            <Col lg={12}>
-              <Panel bsStyle="success">
-                <Panel.Heading>天刀数据百科</Panel.Heading>
-                <Panel.Body>
-                  数据百科持续制作中，更多内容敬请期待！
-                  <p>
-                    目前已有数据内容如下：
-                  </p>
-                  <p style={{fontSize: 14}}>
-                    <Link to="/data-wiki/gem">砭石百科</Link>{' '}
-                    <Link to="/data-wiki/affix">词缀百科</Link>
-                  </p>
-                </Panel.Body>
-              </Panel>
-            </Col>
-          </Row>
-        </Grid>
+
+        <div>
+          <Switch>
+            <Route path='/data' exact component={WikiPortal}/>
+            <Route path='/data/gem' component={GemWiki}/>
+            <Route path='/data/affix' component={AffixWiki}/>
+            <Route path='/data/item' component={ItemWiki}/>
+            <Route path='/data/tour/:id?/:name?' component={YouliWiki}/>
+            <Route path='/data/skill' component={SkillWiki}/>
+            <Route component={NotFoundPage}/>
+          </Switch>
+        </div>
       </div>
     );
   }
 }
 
-export default PanoramaViewer;
+export default DataWikiRouter;

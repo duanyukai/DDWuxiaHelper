@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import { PersistGate } from 'redux-persist/integration/react'
+import { PersistGate } from 'redux-persist/integration/react';
 import App from './components/app';
-import configStore from './utils/config_store'
+import configStore from './utils/config_store';
 
 class Root extends Component {
   constructor(props) {

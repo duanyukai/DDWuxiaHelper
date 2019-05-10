@@ -56,13 +56,14 @@ class JiangxinContainer extends Component {
     let from = this.state. jiangxinCalcFrom;
     let to = this.state. jiangxinCalcTo;
     if(to > from) {
-      let exp = range(from, to).reduce((total, current) => {
+      // todo 如从4到6级，则计算5、6的和即可
+      let exp = range(from + 1, to + 1).reduce((total, current) => {
         total += jiangxinCostData[current].exp;
         return total;
       }, 0);
       let suiyin = exp * 250;
-      let cailiao = Math.ceil(exp / 10);
-      this.setState({jiangxinCost: `消耗顶级材料${cailiao}个*，碎银${suiyinFormat(suiyin)}`});
+      let cailiao = Math.ceil(exp / 20);
+      this.setState({jiangxinCost: `需经验${exp}点，无损材料${cailiao}个*，碎银${suiyinFormat(suiyin)}`});
     } else {
       this.setState({jiangxinCost: '结束等级请填写大于开始等级的数值'});
     }
@@ -80,14 +81,14 @@ class JiangxinContainer extends Component {
     return(
       <div>
         温馨提示：此处琢磨等级可任意配置，不与装备联通，方便您切换装备或单纯模拟琢磨使用。属性计算时，将根据琢磨等级是否超出装备最大琢磨等级来确定是否生效。
+        另外，PVE装备不受此数值影响。
         <Select
           defaultValue={1}
           value={this.props.equipData[this.props.currentPos].jiangxinLV}
           showSearch
           size="large"
           style={{ width: '100%' }}
-          placeholder="选择该部位的装备"
-          optionFilterProp="children"
+          optionFilterProp="value"
           onChange={(value) => this.selectJiangxin(value)}
         >
           {jiangxinOptions}
@@ -99,7 +100,7 @@ class JiangxinContainer extends Component {
           value={null}
           style={{ width: '100%' }}
           placeholder="快速设置全套装备琢磨等级"
-          optionFilterProp="children"
+          optionFilterProp="value"
           onSelect={(value) => this.selectAllJiangxin(value)}
         >
           {range(51).map(i => <Select.Option key={i} value={i}>琢磨{i}级</Select.Option>)}

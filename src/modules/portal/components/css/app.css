@@ -35,15 +35,16 @@
 }
 
 .main {
-    max-width: 1200px;
+    max-width: 1140px;
     margin: 10px auto;
     padding: 10px;
 
 }
 
 .news-ul {
+    margin-left: 11px;
     padding: 2px;
-    column-count: 3;
+    column-count: 2;
 }
 
 @media all and (max-width: 800px) {
@@ -58,7 +59,7 @@
     }
 }
 
-.news-li {
+.news-ul li {
     width: 100%;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -73,13 +74,18 @@
     border-radius: 3px;
 }
 
-.news-link {
+.news-ul li a {
     color: #0e3049;
 }
 
-.news-link:hover {
+.news-ul li a:hover {
     text-decoration: underline;
     color: #0e77ca;
+}
+
+.shouyou-img {
+    width: 100%;
+    max-width: 360px;
 }
 
 .tool-card-wrapper {
@@ -94,8 +100,8 @@
 }
 
 .heading {
-    font-size: 32px;
-    margin: 8px 25px;
+    font-size: 24px;
+    margin: 8px 11px;
     padding: 10px 0;
     border-bottom: 1px solid #ccc;
 }
@@ -103,7 +109,7 @@
 .flex-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: stretch;
 }
 

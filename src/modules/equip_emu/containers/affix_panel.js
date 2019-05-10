@@ -120,7 +120,7 @@ class AffixContainer extends Component {
         该属性及匠心值基本上是该品低级和中级词缀数据的平均数。另外，部分紫薯有功力平衡（虚功力）。
         </p>
         <p>
-          关于词缀数据大全，您可参考<Link to="/data-wiki/affix" target="_blank">这里</Link>。
+          关于词缀数据大全，您可参考<Link to="/data/affix" target="_blank">这里</Link>。
         </p>
       </div>
     );

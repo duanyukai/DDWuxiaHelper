@@ -6,7 +6,6 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 const paths = {
   DIST: path.resolve(__dirname, 'dist'),
   SRC: path.resolve(__dirname, 'src'),
-  // publicPath: 'https://wuxia-tools-main-server-1251080372.file.myqcloud.com/',
   publicPath: '/'
 };
 
@@ -43,6 +42,7 @@ module.exports = {
     publicPath: paths.publicPath
   },
   devServer: {
+
     historyApiFallback: true,
     disableHostCheck: true
   },
@@ -66,11 +66,14 @@ module.exports = {
             loader: 'babel-loader',
             options: {
               presets: [
-                ['env', {
-                  targets: {
-                    browsers: ['last 2 versions', '> 2%']
+                [
+                  '@babel/preset-env',
+                  {
+                    targets: {
+                      browsers: ['last 2 versions', '> 2%']
+                    }
                   }
-                }]
+                ]
               ],
               plugins: [
                 'transform-react-jsx',
@@ -92,7 +95,15 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           'style-loader',
-          'css-loader?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              importLoaders: 1,
+              localIdentName: '[path]___[name]__[local]___[hash:base64:5]'
+            }
+          },
+          // 'css-loader?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]',
           // 'postcss-loader',
           // 'sass-loader',
         ]
@@ -140,6 +151,6 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', '.mjs'],
   },
 };

@@ -23,3 +23,9 @@ chrome-user-data
 *.swp
 *.swo
 secrets/
+playground/装备数据/img_output
+playground/魅力数据/img_output
+prerendered/
+prerendered.tar.gz
+dist/
+dist_old/

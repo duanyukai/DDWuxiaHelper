@@ -3,14 +3,12 @@ import './css/single_equip_settings.css';
 import {connect} from 'react-redux';
 import {copySet, selectEquipPos, selectSet} from '../actions';
 
-import setData from '../assets/json/equip_set.json';
-import enhanceCostData from '../assets/json/enhance_cost.json';
-import enhancePropData from '../assets/json/enhance_props.json';
-
 import {Radio} from 'antd';
 import Select from 'antd/es/select/index';
 import Button from 'antd/es/button/button';
 import Popconfirm from 'antd/es/popconfirm/index';
+
+import ImportEquipContainer from './import_equip_panel';
 
 class SlotConfigContainer extends Component {
 
@@ -83,6 +81,7 @@ class SlotConfigContainer extends Component {
         }} okText="确认" cancelText="取消">
           <Button>确定</Button>
         </Popconfirm>
+        <ImportEquipContainer />
       </div>
     );
   }

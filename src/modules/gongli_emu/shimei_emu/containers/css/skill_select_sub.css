@@ -1,0 +1,37 @@
+.checkbox-btn-group-item {
+    margin-top: 2px;
+}
+
+/*勾选框*/
+.checkbox-btn-group-item > *:first-child {
+    border: 1px solid #bcbcbc;
+    background: #ececec;
+    height: 48px;
+    vertical-align: top;
+    line-height: 48px;
+    padding: 0 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.checkbox-btn-group-item > span {
+    height: 48px;
+    border: 1px solid #bcbcbc;
+    display: inline-block;
+    line-height: 48px;
+    vertical-align: top;
+    border-left: none;
+    border-right: none;
+}
+
+/*按钮*/
+.checkbox-btn-group-item > *:last-child {
+    border-radius: 0 5px 5px 0;
+    height: 48px;
+}
+
+/*图标*/
+.checkbox-btn-group-item img {
+    margin: 1px 0;
+    border: 2px solid #aa0;
+    border-radius: 50%;
+}
