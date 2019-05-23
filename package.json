@@ -51,7 +51,7 @@
     "uglifyjs-webpack-plugin": "^2.1.1",
     "url-loader": "^1.0.1",
     "webpack": "^4.16.5",
-    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.5",
     "xml2js": "^0.4.19"
