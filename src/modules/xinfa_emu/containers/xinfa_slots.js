@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import WuxiaPanel from '../../tiandao_ui/panel';
-import {changeXinfaConfig, fetchXinfaList, placeXinfaSlot, selectXinfa} from "../actions";
-import {connect} from "react-redux";
-import range from "lodash/range";
+import {changeXinfaConfig, fetchXinfaList, placeXinfaSlot, selectXinfa} from '../actions';
+import {connect} from 'react-redux';
+import range from 'lodash/range';
 
 const xinfaPicPath = require.context('../assets/imgs/xinfa_icon', true);
 import xinfaBgBlank from '../assets/imgs/ui/xinfa_bg_blank.png';
-import {Button, ButtonGroup, Glyphicon} from "react-bootstrap";
 
 import './css/xinfa_slots.css';
+import {Button, ButtonGroup} from 'react-bootstrap';
 
 class XinfaSlotsPanel extends Component {
 
@@ -37,7 +36,7 @@ class XinfaSlotsPanel extends Component {
         >
           {arr[1]}
         </Button>
-      )
+      );
     });
   }
 
@@ -60,18 +59,19 @@ class XinfaSlotsPanel extends Component {
             styleName='xinfa-slot-close'
             onClick={() => this.props.placeXinfaSlot(index, null)}
           >
-            <Glyphicon glyph='remove' />
+            {/*<Glyphicon glyph='remove' />  todo remove*/}
+            x
           </span>
         </div>
       );
-    })
+    });
   }
 
 
   render() {
     return(
       <div>
-      {/*<WuxiaPanel title='心法槽配置'>*/}
+        {/*<WuxiaPanel title='心法槽配置'>*/}
         <div style={{textAlign: 'center'}}>
           <div style={{fontWeight: 'bold'}}>切换配置</div>
           <ButtonGroup styleName='switch-button-group'>
@@ -90,7 +90,7 @@ class XinfaSlotsPanel extends Component {
           <p style={{fontSize: '14px'}}>目前尚为测试版，恳请您加群反馈</p>
           <p style={{fontSize: '14px'}}>交流群：660695387<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=9b2aeed4e33ce89f62f35e6d009b9a6cbf8f6aac9090387cf841d3deb5bdcc58"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="天刀助手交流wuxia.tools " title="天刀助手交流wuxia.tools " /></a></p>
         </div>
-      {/*</WuxiaPanel>*/}
+        {/*</WuxiaPanel>*/}
       </div>
     );
   }

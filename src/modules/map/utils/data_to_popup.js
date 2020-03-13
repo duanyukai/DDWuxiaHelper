@@ -1,5 +1,5 @@
 import React from 'react';
-import {Table, Well} from 'react-bootstrap';
+import {Table} from 'react-bootstrap';
 
 import '../components/css/map.css';
 
@@ -9,7 +9,7 @@ function mouseEnterFocus(e) {
 }
 
 export function dataToPopup(data) {
-  switch(data.markerType) {
+  switch(data.markerCategory) {
   // 墨宝
   case 'mobao':
     let mobaoData = data.posData;
@@ -20,7 +20,7 @@ export function dataToPopup(data) {
           <input type="text" defaultValue={mobaoData.x.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>,{' '}
           <input type="text" defaultValue={mobaoData.y.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>
         </h3>
-        <Table styleName='mobao-table' striped condensed hover>
+        <Table styleName='mobao-table' striped size="sm" hover>
           <tbody>
             <tr><th>墨宝名称</th><td colSpan={3}>{mobaoData.data.mobaoName}</td></tr>
             <tr><th>墨宝描述</th><td colSpan={3}>{mobaoData.data.des}</td></tr>
@@ -58,7 +58,7 @@ export function dataToPopup(data) {
           <input type="text" defaultValue={seaCollectData.x.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 70}}/>,{' '}
           <input type="text" defaultValue={seaCollectData.y.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 70}}/>
         </h3>
-        <Table styleName='sea-collect-table' striped condensed hover>
+        <Table styleName='sea-collect-table' striped size="sm" hover>
           <tbody>
             <tr><td>图鉴星级</td><td>{seaCollectData.data.star}</td></tr>
             <tr><td>图鉴类型</td><td>{seaCollectData.data.type}</td></tr>
@@ -103,6 +103,44 @@ export function dataToPopup(data) {
           <input type="text" defaultValue={dataoshaData.x.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>,{' '}
           <input type="text" defaultValue={dataoshaData.y.toFixed(0)} onMouseEnter={mouseEnterFocus} style={{width: 60}}/>
         </h3>
+      </div>
+    );
+  case 'cook':
+    let cookData = data.posData;
+    return (
+      <div>
+        <h3>{cookData.areaId}</h3>
+        <h3>{cookData.name}</h3>
+        <h3>{cookData.x}</h3>
+        <h3>{cookData.y}</h3>
+
+      </div>
+    );
+  case 'yaji':
+    let yajiData = data.posData;
+    return (
+      <div>
+        <h3>{yajiData.name}</h3>
+        <h3>{yajiData.x}</h3>
+        <h3>{yajiData.y}</h3>
+
+      </div>
+    );
+  case 'teleport':
+    let tpData = data.posData;
+    return (
+      <div>
+        <h3>前往 {tpData.name}</h3>
+        <h4>{tpData.x}, {tpData.y}</h4>
+      </div>
+    );
+  case 'shiguangjianying':
+    let sgjyData = data.posData;
+    return (
+      <div>
+        <h3>{sgjyData.name}</h3>
+        <h5>{sgjyData.x}, {sgjyData.y}</h5>
+        <p>{sgjyData.des}</p>
       </div>
     );
   default:

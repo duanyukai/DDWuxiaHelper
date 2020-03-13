@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import './css/404.css';
 import Helmet from 'react-helmet';
-import Link from "react-router-dom/es/Link";
+import {Link} from "react-router-dom";
 
 class NotFoundPage extends Component {
 

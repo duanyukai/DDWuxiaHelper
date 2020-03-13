@@ -1,0 +1,107 @@
+.menu {
+    padding: 0 20px;
+    border-bottom: solid 1px #000;
+    /*overflow: auto;*/
+    /*box-shadow: 0 0 30px #f3f1f1;*/
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 46px;
+    background: rgb(0, 21, 41);
+    overflow: hidden;
+}
+
+.menu__logo {
+    width: 200px;
+    float: left;
+}
+
+.menu__logo a {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+.menu__logo a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px 20px;
+}
+
+.menu__container :global .ant-menu-item {
+    padding: 0 5px;
+}
+
+.menu__container :global .ant-menu-submenu-title {
+    padding: 0 15px;
+}
+
+.menu__container :global .ant-menu-item a,
+.menu__container :global .ant-menu-submenu-title a {
+    padding: 0 15px;
+}
+
+.menu__container :global .ant-menu-horizontal {
+    border-bottom: none;
+}
+
+.menu__container .menu_left {
+    float: left;
+}
+
+.menu__container .menu_left :global .ant-menu {
+    /*background: rgb(34, 34, 34);*/
+}
+
+.menu__container .menu_right {
+    float: right;
+}
+
+.menu__mobile-button {
+    float: right;
+    height: 32px;
+    padding: 6px;
+    margin-top: 8px;
+    display: none !important; /* use of important to overwrite ant-btn */
+    background: #3e91f7;
+}
+
+.menu_drawer :global .ant-drawer-wrapper-body {
+    padding: 0 !important;
+    background: rgb(0, 21, 41);
+    margin-top: 46px;
+}
+
+.menu_drawer :global .ant-drawer-body {
+    padding: 0;
+}
+
+/* align header of Drawer with header of page */
+.menu_drawer :global .ant-drawer-header {
+    padding: 14px 24px !important;
+}
+
+@media (max-width: 767px) {
+    .menu__mobile-button {
+        display: inline-block !important;
+    }
+
+    .menu_left,
+    .menu_right {
+        display: none;
+    }
+
+    .menu__logo a {
+        margin-left: -20px;
+    }
+
+    .menu__container :global .ant-menu-item,
+    .menu__container :global .ant-menu-submenu-title {
+        padding: 1px 20px;
+    }
+
+    .menu__logo a {
+        padding: 10px 20px;
+    }
+}

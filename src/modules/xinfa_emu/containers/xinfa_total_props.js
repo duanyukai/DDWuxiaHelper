@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import {
-  Button, ButtonGroup, Dropdown, Glyphicon, MenuItem, Modal, Tab, Tabs
+  Button, ButtonGroup, Dropdown, Glyphicon, DropdownItem, Modal, Tab, Tabs
 } from 'react-bootstrap';
 
 import './css/xinfa_config.css';

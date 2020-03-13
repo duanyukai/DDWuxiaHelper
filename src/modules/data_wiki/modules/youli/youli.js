@@ -9,7 +9,7 @@ import Select from 'antd/es/select';
 import Spin from 'antd/es/spin';
 import Collapse from 'antd/es/collapse/Collapse';
 import Table from 'antd/es/table/Table';
-import Link from 'react-router-dom/es/Link';
+import { Link } from 'react-router-dom';
 import Redirect from 'react-router-dom/es/Redirect';
 import ButtonGroup from 'antd/es/button/button-group';
 import Button from 'antd/es/button/button';

@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import Button from 'react-bootstrap/lib/Button'
-import ButtonGroup from 'react-bootstrap/lib/ButtonGroup'
+import React, { Component } from 'react';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import {Button} from 'react-bootstrap';
 
 /**
  * A ButtonGroup whose buttons act like a radio button.
@@ -21,7 +21,7 @@ class RadioGroup extends Component {
       {options.map(option =>
         <Button
           key={option[0]}
-          bsStyle={option[0] == value ? 'primary' : 'default'}
+          variant={option[0] == value ? 'primary' : 'default'}
           children={option[1]}
           disabled={disabled}
           name={name}
@@ -29,7 +29,7 @@ class RadioGroup extends Component {
           value={option[0]}
         />
       )}
-    </ButtonGroup>
+    </ButtonGroup>;
   }
 }
 

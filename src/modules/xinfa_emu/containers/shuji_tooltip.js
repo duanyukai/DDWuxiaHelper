@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import {connect} from "react-redux";
-import onClickOutside from "react-onclickoutside";
+import {connect} from 'react-redux';
+import onClickOutside from 'react-onclickoutside';
 import range from 'lodash/range';
-import {Button, Col, Row, Table} from "react-bootstrap";
 
-import { chongxue, fastBrkthruShuji } from "../actions/index";
+import { chongxue, fastBrkthruShuji } from '../actions/index';
 
 import propsMap from '../assets/json/propAbbrMapName.json';
 
@@ -12,6 +11,8 @@ const shujiPicPath = require.context('../assets/imgs/shuji_icon/compressed', tru
 const gemPngPicPath = require.context('../assets/imgs/gem_icon_png', true);
 
 import './css/shuji_tooltip.css';
+import {Col, Row} from "antd";
+import {Button} from 'react-bootstrap';
 
 class ShujiTooltip extends Component {
 
@@ -177,13 +178,13 @@ class ShujiTooltip extends Component {
       });
       shujiList[shujiId].children.forEach((childId) => {
         dfs(childId);
-      })
+      });
     }
     dfs(this.props.shujiId);
     // 去除数组第一个元素
     shujiIdLevelList = shujiIdLevelList.slice(1);
 
-    console.log("list",shujiIdLevelList);
+    console.log('list',shujiIdLevelList);
 
     this.props.fastBrkthruShuji(
       this.props.xinfaData.name,
@@ -225,8 +226,8 @@ class ShujiTooltip extends Component {
               <Button
                 onClick={(e) => this.singleBreak(i + 1, e)}
                 disabled={false}
-                bsSize="xsmall"
-                bsStyle='primary'
+                size="sm"
+                variant='primary'
                 styleName="chongxue-btn"
               >
                 点
@@ -245,100 +246,100 @@ class ShujiTooltip extends Component {
   render() {
     if(this.props.shuji.types) {
       switch(this.props.type) {
-        case 'shuji':
-          return (
-            <div>
-              <div styleName='tooltip' style={{
-                top: this.props.top - 20,
-                visibility: this.props.visibility
-              }}>
-                <Row xs={12}>
-                  <Col xs={12} sm={4}>
-                    <div styleName='tooltip-basic-info'>
-                      {/*基本信息*/}
-                      <h3>{this.props.shuji.name}</h3>
-                      {
-                        this.props.shuji.isGemShuji ?
-                          <img styleName='shuji-info-img' src={gemPngPicPath('./' + this.props.shuji.levels[0].gem.name + '.png', true)} />
-                          :
-                          <img styleName='shuji-info-img' src={shujiPicPath('./' + this.props.shuji.types[0] + '.svg', true)} />
-                      }
-                      <p>
+      case 'shuji':
+        return (
+          <div>
+            <div styleName='tooltip' style={{
+              top: this.props.top - 20,
+              visibility: this.props.visibility
+            }}>
+              <Row xs={24}>
+                <Col xs={24} sm={8}>
+                  <div styleName='tooltip-basic-info'>
+                    {/*基本信息*/}
+                    <h3>{this.props.shuji.name}</h3>
+                    {
+                      this.props.shuji.isGemShuji ?
+                        <img styleName='shuji-info-img' src={gemPngPicPath('./' + this.props.shuji.levels[0].gem.name + '.png', true)} />
+                        :
+                        <img styleName='shuji-info-img' src={shujiPicPath('./' + this.props.shuji.types[0] + '.svg', true)} />
+                    }
+                    <p>
                         当前点满 {this.props.curLevelBrkthruData[this.props.shujiId] || 0} 重
-                      </p>
-                    </div>
-                  </Col>
-                  <Col xs={12} sm={8}>
-                    <Table bordered condensed>
-                      <thead>
+                    </p>
+                  </div>
+                </Col>
+                <Col xs={24} sm={16}>
+                  <table styleName="tooltip-table">
+                    <thead>
                       <tr>
                         <th>重</th>
                         <th>单重修为</th>
                         <th>累计修为</th>
                         {/*该枢机的属性*/}
                         {range(this.props.shuji.types.length).map((index) => {
-                          return <th key={index}>{propsMap[this.props.shuji.types[index]]}</th>
+                          return <th key={index}>{propsMap[this.props.shuji.types[index]]}</th>;
                         })}
                         { this.state.canBreak && this.state.canSingleBreak &&
                           <th>点至(含)</th>
                         }
                       </tr>
-                      </thead>
-                      <tbody>
+                    </thead>
+                    <tbody>
                       {this.renderLevels()}
-                      </tbody>
-                    </Table>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col md={12}>
-                    { this.state.canBreak && this.state.canSingleCancelAll &&
+                    </tbody>
+                  </table>
+                </Col>
+              </Row>
+              <Row>
+                <Col md={24}>
+                  { this.state.canBreak && this.state.canSingleCancelAll &&
                     <Button
-                      bsStyle='primary'
-                      bsSize='xsmall'
+                        variant='primary'
+                      size='sm'
                       onClick={this.singleCancel}
                     >
                       清空此枢机
                     </Button>
-                    }{' '}
-                    { this.state.canBreak && this.state.canFastBreak &&
-                    <Button bsSize='xsmall' bsStyle='primary'
-                            onClick={(e) => this.fastBreak(1, e)}
+                  }{' '}
+                  { this.state.canBreak && this.state.canFastBreak &&
+                    <Button size='sm' variant='primary'
+                      onClick={(e) => this.fastBreak(1, e)}
                     >
                       点满此枢机（含）及前方枢机（各穴位点一重）
                     </Button>
-                    }{' '}
-                    { this.state.canBreak && this.state.canFastBreak &&
-                    <Button bsSize='xsmall' bsStyle='primary'
+                  }{' '}
+                  { this.state.canBreak && this.state.canFastBreak &&
+                    <Button size='sm' variant='primary'
                       onClick={(e) => this.fastBreak(-1, e)}
                     >
                       点满此枢机（含）及前方枢机（各穴位全点满）
                     </Button>
-                    }{' '}
-                    { this.state.canBreak && this.state.canFastCancel &&
-                    <Button bsSize='xsmall' bsStyle='primary'
+                  }{' '}
+                  { this.state.canBreak && this.state.canFastCancel &&
+                    <Button size='sm' variant='primary'
                       onClick={this.fastCancel}
                     >
                       清空此枢机（不含）及后方枢机
                     </Button>
-                    }{' '}
+                  }{' '}
 
-                  </Col>
-                </Row>
-              </div>
-              <div styleName='tooltip-arrow'
-                   style={{
-                     top: this.props.top - 20,
-                     left: this.props.left - 10,
-                     visibility: this.props.visibility
-                   }}
-              />
+                </Col>
+              </Row>
             </div>
-          );
-        case 'stone':
-          return (
-            <div>石头</div>
-          );
+            <div styleName='tooltip-arrow'
+              style={{
+                top: this.props.top - 20,
+                left: this.props.left - 10,
+                visibility: this.props.visibility
+              }}
+            />
+          </div>
+        );
+      case 'stone':
+        return (
+          <div>石头</div>
+        );
       }
     }else{
       return null;

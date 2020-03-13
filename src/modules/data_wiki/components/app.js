@@ -36,6 +36,10 @@ const SkillWiki = Loadable({
   loader: () => import('../modules/skill/skill.js'),
   loading: () => <Loading />
 });
+const CookWiki = Loadable({
+  loader: () => import('../modules/cook/cook.js'),
+  loading: () => <Loading />
+});
 
 class DataWikiRouter extends Component {
   render() {
@@ -56,6 +60,7 @@ class DataWikiRouter extends Component {
             <Route path='/data/item' component={ItemWiki}/>
             <Route path='/data/tour/:id?/:name?' component={YouliWiki}/>
             <Route path='/data/skill' component={SkillWiki}/>
+            <Route path='/data/cook' component={CookWiki}/>
             <Route component={NotFoundPage}/>
           </Switch>
         </div>

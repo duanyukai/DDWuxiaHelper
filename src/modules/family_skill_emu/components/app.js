@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, ButtonGroup, Checkbox, Col, Grid, Panel, Row, Tab, Table, Tabs} from 'react-bootstrap';
+import {Button, ButtonGroup, FormCheck, Col, Container, Card, Row, Tab, Table, Tabs} from 'react-bootstrap';
 import Slider from 'rc-slider';
 const createSliderWithTooltip = Slider.createSliderWithTooltip;
 const Range = createSliderWithTooltip(Slider.Range);
@@ -49,10 +49,9 @@ class FamilySkillEmuApp extends Component {
   renderSkillBtn(i) {
     let buttons = techData.filter((t) => t.skillType === i).map(({skillId, skillName}) => {
       return(
-        <Button
+        <button
           key={skillId}
-          styleName='appCss.skill-btn'
-          bsStyle={this.state.curSkillId === skillId ? 'primary' : 'default'}
+          styleName={`appCss.skill-btn${this.state.curSkillId === skillId ? ' appCss.skill-btn-active' : ''}`}
           onClick={() => {
             let maxLength = techData.filter((t) => t.skillId === skillId)[0].levels.length;
             let range = this.state.range;
@@ -64,14 +63,10 @@ class FamilySkillEmuApp extends Component {
           }}
         >
           {skillName}
-        </Button>
+        </button>
       );
     });
-    return(
-      <ButtonGroup>
-        {buttons}
-      </ButtonGroup>
-    );
+    return buttons;
   }
 
   renderRangeSelection() {
@@ -136,12 +131,12 @@ class FamilySkillEmuApp extends Component {
             <meta name="viewport" content="width=device-width"/>
           </Helmet>
           <TextAd />
-          <Grid>
+          <Container>
             <Row>
-              <Col md={12} lg={10} lgOffset={1}>
-                <Panel bsStyle="success">
-                  <Panel.Heading>帮派技能模拟器</Panel.Heading>
-                  <Panel.Body>
+              <Col md={12} lg={{ span: 10, offset: 1 }}>
+                <Card>
+                  <Card.Header>帮派技能模拟器</Card.Header>
+                  <Card.Body>
                     <h3>说明</h3>
                     <p>
                       有模拟器问题或游戏内容问题都欢迎加QQ群（660695387）讨论 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=09cd891efd94c6a9077cb7c517241fa747ee131a8e20502bd89a3152e4a43370"><img src="//pub.idqqimg.com/wpa/images/group.png" /></a>。
@@ -150,7 +145,7 @@ class FamilySkillEmuApp extends Component {
                     <h3>选择始末等级 <small>{range[0]}级开始，{range[1]}级结束</small></h3>
                     {this.renderRangeSelection()}
                     <h3>提升属性及消耗</h3>
-                    <Table styleName='appCss.props-table' bordered condensed striped hover responsive>
+                    <Table styleName='appCss.props-table' bordered size="sm" striped hover responsive>
                       <tbody>
                         <tr><td>技能名称</td><td>{curSkill.skillName}</td></tr>
                         <tr><td>说明</td><td>{curSkill.mainDes}</td></tr>
@@ -169,12 +164,13 @@ class FamilySkillEmuApp extends Component {
                       </tbody>
                     </Table>
                     <h2>可视化部分</h2>
-                    <Checkbox
+                    <FormCheck
+                      type="checkbox"
                       checked={this.state.log}
                       onChange={() => this.setState({log: !this.state.log})}
                     >
                       坐标对数化（属性、消耗数值变化巨大时可开启）
-                    </Checkbox>
+                    </FormCheck>
                     <h3>属性增长可视化<small>高亮为所选部分</small></h3>
                     <BarChart
                       data={firstPropData}
@@ -212,11 +208,11 @@ class FamilySkillEmuApp extends Component {
                       log={this.state.log}
                       format={(x) => x}
                     />
-                  </Panel.Body>
-                </Panel>
+                  </Card.Body>
+                </Card>
               </Col>
             </Row>
-          </Grid>
+          </Container>
           <BannerAd />
         </div>
       );

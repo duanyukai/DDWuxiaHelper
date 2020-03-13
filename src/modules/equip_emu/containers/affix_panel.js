@@ -11,7 +11,7 @@ import {suiyinFormat} from '../utils/string_format';
 import Cascader from 'antd/es/cascader/index';
 
 import './css/affix_panel.css';
-import Link from "react-router-dom/es/Link";
+import {Link} from "react-router-dom";
 
 class AffixContainer extends Component {
 

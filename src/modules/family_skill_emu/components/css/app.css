@@ -7,7 +7,22 @@
 }
 
 .skill-btn {
-    margin: 10px 0;
+    margin: 10px 0 0;
+    background: #fff;
+    border: 1px solid #bbb;
+    border-right-width: 0;
+    white-space: nowrap;
+    padding: 4px 8px;
+    display: inline-block;
+}
+
+.skill-btn-active {
+    background: #286090;
+    color: #fff;
+}
+
+.skill-btn:last-child {
+    border-right: 1px solid #bbb;
 }
 
 .props-table tr td:first-child {

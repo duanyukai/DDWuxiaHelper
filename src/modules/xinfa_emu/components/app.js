@@ -4,18 +4,16 @@ import XinfaConfig from '../containers/xinfa_config';
 import XinfaList from '../containers/xinfa_list';
 import XinfaProps from '../containers/xinfa_props';
 import XinfaShuji from '../containers/xinfa_shuji';
-import {Col, Grid, Panel, Row} from 'react-bootstrap';
 
 import WuxiaPanel from '../../tiandao_ui/panel';
-
-import {translate} from 'react-i18next';
 
 import './css/app.css';
 import XinfaSlotsPanel from '../containers/xinfa_slots';
 import XinfaTotalPropsPanel from '../containers/xinfa_total_props';
 import { Helmet } from 'react-helmet';
-import BannerAd from "../../_commons/ad/components/banner_ad";
-import TextAd from "../../_commons/ad/components/text_ad";
+import BannerAd from '../../_commons/ad/components/banner_ad';
+import TextAd from '../../_commons/ad/components/text_ad';
+import {Col, Row} from 'antd';
 
 class XinfaEmuApp extends Component {
   render() {
@@ -29,10 +27,10 @@ class XinfaEmuApp extends Component {
           <meta name="viewport" content="width=1024"/>
         </Helmet>
         <div styleName='emu-container'>
-          <Grid>
+          <div style={{maxWidth: 1200, margin: '0 auto'}}>
             <Row>
-              <Col xs={12} lg={10} lgOffset={1}>
-                <Col xs={12} style={{padding: '0'}}>
+              <Col xs={24} lg={{span: 20, offset: 2}}>
+                <Col xs={24} style={{padding: '0'}}>
                   <TextAd />
                   <WuxiaPanel title='测试版说明'>
                     本心法模拟器还在积极更新、测试中，由于时间紧迫，可能会有数据、UI等方面的bug，恳请您积极反馈问题，段段也会争取早日发布正式版。
@@ -51,39 +49,39 @@ class XinfaEmuApp extends Component {
                   </WuxiaPanel>
                 </Col>
                 <Row>
-                  <Col xs={12} sm={4} style={{padding: '3px'}}>
+                  <Col xs={24} sm={8} style={{padding: '3px'}}>
                     <XinfaTotalPropsPanel />
                   </Col>
-                  <Col xs={12} sm={8} style={{padding: '3px'}}>
-                    <Col xs={12}  style={{padding: 0}}>
+                  <Col xs={24} sm={16} style={{padding: '3px'}}>
+                    <Col xs={24}  style={{padding: 0}}>
                       <WuxiaPanel title='心法配置'>
                         <Row>
-                          <Col xs={12} sm={6}>
+                          <Col xs={24} sm={12}>
                             <XinfaSlotsPanel />
                           </Col>
-                          <Col xs={12} sm={6}>
+                          <Col xs={24} sm={12}>
                             <XinfaConfig />
                           </Col>
                         </Row>
                       </WuxiaPanel>
                     </Col>
-                    <Col xs={12}  style={{padding: 0}}>
+                    <Col xs={24}  style={{padding: 0}}>
                       <XinfaList />
                     </Col>
                   </Col>
                 </Row>
                 <Row>
-                  <Col xs={12} sm={4} style={{padding: '3px'}}>
+                  <Col xs={24} sm={8} style={{padding: '3px'}}>
                     <XinfaProps />
 
                   </Col>
-                  <Col xs={12} sm={8} style={{padding: '3px'}}>
+                  <Col xs={24} sm={16} style={{padding: '3px'}}>
                     <XinfaShuji />
                   </Col>
                 </Row>
               </Col>
             </Row>
-          </Grid>
+          </div>
           <BannerAd />
         </div>
       </div>

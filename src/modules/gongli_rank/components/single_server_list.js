@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, Col, Grid, PageHeader, Panel, Row, Table} from 'react-bootstrap';
+import {Button, Col, Container, Card, Row, Table} from 'react-bootstrap';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import moment from 'moment';
@@ -8,7 +8,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import {Helmet} from 'react-helmet';
 
 import serverList from '../assets/json/server.json';
-import Link from 'react-router-dom/es/Link';
+import { Link } from 'react-router-dom';
 
 class SingleServerList extends Component {
   constructor(props) {
@@ -73,9 +73,9 @@ class SingleServerList extends Component {
 
     return(
       <Col md={12}>
-        <Panel bsStyle='success'>
-          <Panel.Body>
-            <Table striped bordered condensed hover>
+        <Card>
+          <Card.Body>
+            <Table striped bordered size="sm" hover>
               <thead>
                 <tr>
                   <th>服务器排名</th>
@@ -88,8 +88,8 @@ class SingleServerList extends Component {
                 {rankList}
               </tbody>
             </Table>
-          </Panel.Body>
-        </Panel>
+          </Card.Body>
+        </Card>
       </Col>
     );
   }
@@ -104,11 +104,11 @@ class SingleServerList extends Component {
           <meta name="description" content="天刀功力排行榜给您提供每日的所有天刀服务器的最新功力排名数据，同时支持选择日期查询历史功力排名。" />
           <meta name="viewport" content="width=device-width"/>
         </Helmet>
-        <Grid>
+        <Container>
           <Row>
             <Col xs={12}>
               <Col md={6}>
-                <PageHeader>天刀功力排行榜<small><Link to="/rank">返回功力榜首页</Link></small></PageHeader>
+                <div>天刀功力排行榜<small><Link to="/rank">返回功力榜首页</Link></small></div>
                 <h3>日期选择</h3>
                 <h3>{this.state.date.format('YYYY-MM-DD')}</h3>
                 <DatePicker
@@ -126,11 +126,11 @@ class SingleServerList extends Component {
           </Row>
           <Row>
             <Col xs={12}>
-              <PageHeader>{serverList[this.state.serverId]}服务器功力排行榜</PageHeader>
+              <div>{serverList[this.state.serverId]}服务器功力排行榜</div>
               {this.renderSingleServerAll()}
             </Col>
           </Row>
-        </Grid>
+        </Container>
       </div>
     );
   }

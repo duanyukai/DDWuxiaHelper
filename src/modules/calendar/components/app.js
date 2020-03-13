@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import range from 'lodash/range';
 import {
-  Checkbox,
-  Col, DropdownButton, Grid, MenuItem, Panel, Row,
+  FormCheck,
+  Col, DropdownButton, Container, DropdownItem, Card, Row,
   Table
 } from 'react-bootstrap';
 import Timeline from './timeline';
@@ -71,12 +71,12 @@ class CalendarApp extends Component {
           <meta name="viewport" content="width=device-width"/>
         </Helmet>
         <TextAd />
-        <Grid>
+        <Container>
           <Row>
-            <Col md={12} lg={10} lgOffset={1}>
-              <Panel bsStyle='success'>
-                <Panel.Heading>天涯时刻吉凶预测系统</Panel.Heading>
-                <Panel.Body>
+            <Col md={12} lg={{ span: 10, offset: 1 }}>
+              <Card>
+                <Card.Header>天涯时刻吉凶预测系统</Card.Header>
+                <Card.Body>
                   <Row>
                     <Col md={6}>
                       <h3>现实时间模拟时钟</h3>
@@ -117,23 +117,24 @@ class CalendarApp extends Component {
                       value={this.state.timezoneSign}
                     />{' '}
                     <DropdownButton
-                      bsStyle='default'
+                      variant='default'
                       title={this.state.timezoneValue}
                       id='timezone-dropdown'
                     >
                       {
                         range(13).map((i) => (
-                          <MenuItem
+                          <DropdownItem
                             eventKey={i}
                             key={i}
                             onSelect={(e) => this.setState({
                               timezoneValue: e
                             })}
-                          >{i}</MenuItem>
+                          >{i}</DropdownItem>
                         ))
                       }
                     </DropdownButton>{' '}
-                    <Checkbox
+                    <FormCheck
+                      type="checkbox"
                       checked={this.state.showSecondHand}
                       onChange={(e) => this.setState({
                         showSecondHand: e.target.checked
@@ -141,8 +142,9 @@ class CalendarApp extends Component {
                       style={{display: 'inline-block'}}
                     >
                       显示秒针（卡顿时可关闭）
-                    </Checkbox>{' '}
-                    <Checkbox
+                    </FormCheck>{' '}
+                    <FormCheck
+                      type="checkbox"
                       checked={this.state.useTransition}
                       onChange={(e) => this.setState({
                         useTransition: e.target.checked
@@ -150,19 +152,19 @@ class CalendarApp extends Component {
                       style={{display: 'inline-block'}}
                     >
                       使用动画效果（卡顿时可关闭）
-                    </Checkbox>
+                    </FormCheck>
                   </div>
                   <hr />
                   <h4>使用帮助</h4>
                   <p>本工具上方分别为现实时间、游戏时间为主的模拟时钟，刻度圈皆是以游戏内十二时辰为准。通过此工具可方便地得知当前时间。</p>
                   <p>下方时间轴工具分为吉凶预测轴和游戏时间轴，鼠标停留可以显示具体的吉凶信息和游戏时辰的精确到秒的开始与结束时间。</p>
-                </Panel.Body>
-              </Panel>
+                </Card.Body>
+              </Card>
             </Col>
-            <Col md={12} lg={10} lgOffset={1}>
-              <Panel bsStyle='success'>
-                <Panel.Heading>天刀游戏现实时间对照表（精确到秒）</Panel.Heading>
-                <Panel.Body>
+            <Col md={12} lg={{ span: 10, offset: 1 }}>
+              <Card variant='success'>
+                <Card.Header>天刀游戏现实时间对照表（精确到秒）</Card.Header>
+                <Card.Body>
                   <h4>说明</h4>
                   <hr styleName='header-hr' />
                   <p>
@@ -184,7 +186,7 @@ class CalendarApp extends Component {
                   </p>
                   <h4>数据</h4>
                   <hr styleName='header-hr' />
-                  <Table striped bordered condensed responsive hover>
+                  <Table striped bordered size="sm" responsive hover>
                     <thead>
                       <tr>
                         <th>时辰</th>
@@ -214,13 +216,13 @@ class CalendarApp extends Component {
                       <tr><td>亥时</td><td>21:00:00~22:59:59</td><td>09分36秒</td><td>05:55:12</td><td>09:55:12</td><td>13:55:12</td><td>17:55:12</td><td>21:55:12</td><td>01:55:12</td><td>黑夜</td></tr>
                     </tbody>
                   </Table>
-                </Panel.Body>
-              </Panel>
+                </Card.Body>
+              </Card>
             </Col>
-            <Col md={12} lg={10} lgOffset={1}>
-              <Panel bsStyle='success'>
-                <Panel.Heading>天刀吉凶黄历循环表（匹配移花最新版本）</Panel.Heading>
-                <Panel.Body>
+            <Col md={12} lg={{ span: 10, offset: 1 }}>
+              <Card>
+                <Card.Header>天刀吉凶黄历循环表（匹配移花最新版本）</Card.Header>
+                <Card.Body>
                   <h4>说明</h4>
                   <hr styleName='header-hr' />
                   <p>
@@ -239,7 +241,7 @@ class CalendarApp extends Component {
                   <h4>数据</h4>
                   <hr styleName='header-hr' />
                   <div style={{height: '500px', overflowY: 'scroll'}}>
-                    <Table striped bordered condensed responsive hover>
+                    <Table striped bordered size="sm" responsive hover>
                       <thead>
                         <tr>
                           <th>id</th>
@@ -612,11 +614,11 @@ class CalendarApp extends Component {
                       </tbody>
                     </Table>
                   </div>
-                </Panel.Body>
-              </Panel>
+                </Card.Body>
+              </Card>
             </Col>
           </Row>
-        </Grid>
+        </Container>
         <BannerAd />
       </div>
     );

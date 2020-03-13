@@ -37,6 +37,17 @@
     height: 60px;
 }
 
+.tooltip-table th {
+    border: 1px solid #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tooltip-table td {
+    border: 1px solid #fff;
+    text-align: center;
+}
+
 .level-table-current {
     background: rgba(100,100,100,0.7);
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, ButtonGroup, Col, Grid, PageHeader, Panel, Row, Table} from "react-bootstrap";
+import {Button, ButtonGroup, Col, Container, Card, Row, Table} from "react-bootstrap";
 
 import Viewer from './viewer';
 
@@ -39,13 +39,13 @@ class PanoramaViewer extends Component {
           <meta name="description" content="天刀全景图分享及制作方法分享，带给你全景美图视觉体验。" />
           <meta name="viewport" content="width=device-width"/>
         </Helmet>
-        <Grid>
+        <Container>
           <Row>
             <Col lg={12}>
               <TextAd />
-              <Panel bsStyle="success">
-                <Panel.Heading>天刀全景图-美图欣赏</Panel.Heading>
-                <Panel.Body>
+              <Card>
+                <Card.Header>天刀全景图-美图欣赏</Card.Header>
+                <Card.Body>
                   <h3>说明</h3>
                   <p>
                     本工具是一个在线的全景图浏览工具，您可以在这里体验媲美游戏中效果的全景体验。全屏以及使用手机借助陀螺仪可使效果更佳。
@@ -78,12 +78,12 @@ class PanoramaViewer extends Component {
                     </div>
                   </div>
                   <Viewer url={panoramaBaseUrl + panoramaData[this.state.curPanoIndex].url} />
-                </Panel.Body>
-              </Panel>
+                </Card.Body>
+              </Card>
               <BannerAd />
             </Col>
           </Row>
-        </Grid>
+        </Container>
       </div>
     );
   }

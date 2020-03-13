@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import WuxiaPanel from '../../tiandao_ui/panel';
-import {Button, Dropdown, MenuItem, Modal, Tab, Tabs} from "react-bootstrap";
+import {Button, Dropdown, DropdownItem, Modal, Tab, Tabs} from "react-bootstrap";
 import {changeXinfaConfig, copyConfig, placeXinfaSlot, removeAllLocalData, selectXinfa} from "../actions";
 import {connect} from "react-redux";
 import i18next from 'i18next';
@@ -14,16 +14,16 @@ const ConfigSelector = (props) => {
   let digits = ['壹', '贰', '叁', '肆', '伍'];
   return(
     <span>
-      <Dropdown id='config-selector'>
-        <Dropdown.Toggle bsStyle='primary' bsSize='small'>{digits[props.index]}</Dropdown.Toggle>
+      <Dropdown id='config-selector' style={{display: 'inline-block'}}>
+        <Dropdown.Toggle variant='primary' size='sm'>{digits[props.index]}</Dropdown.Toggle>
         <Dropdown.Menu styleName='config-selector-menu'>
           {
             digits.map((name, i) => (
-              <MenuItem
+              <DropdownItem
                 eventKey={i}
                 key={i}
                 onSelect={() => props.setIndex(i)}
-              >{name}</MenuItem>
+              >{name}</DropdownItem>
             ))
           }
         </Dropdown.Menu>
@@ -207,8 +207,8 @@ class XinfaConfigPanel extends Component {
       {/*<WuxiaPanel title='心法配置'>*/}
         {/*语言选择*/}
         <div style={{margin: '4px'}}>
-          <Dropdown id='config-selector' pullRight>
-            <Dropdown.Toggle bsStyle='danger' bsSize='small'>Change Language</Dropdown.Toggle>
+          <Dropdown id='config-selector'>
+            <Dropdown.Toggle bg='danger' size='sm'>Change Language</Dropdown.Toggle>
             <Dropdown.Menu>
               {
                 [
@@ -216,11 +216,11 @@ class XinfaConfigPanel extends Component {
                   {name: 'Korean(한국어)', id: 'kr'},
                   {name: 'English', id: 'en'},
                 ].map(({name, id}, i) => (
-                  <MenuItem
+                  <DropdownItem
                     eventKey={i}
                     key={i}
                     onSelect={() => i18next.changeLanguage(id)}
-                  >{name}</MenuItem>
+                  >{name}</DropdownItem>
                 ))
               }
             </Dropdown.Menu>
@@ -229,13 +229,13 @@ class XinfaConfigPanel extends Component {
         </div>
         <div styleName='school-config-btn'>
           <Button
-            bsStyle='primary' block
+            variant='primary' block
             onClick={this.handleSchoolConfigShow}
           >
             门派、加成设置
           </Button>
           <Button
-            bsStyle='primary' block
+            variant='primary' block
             onClick={this.handleSchoolConfigShow}
           >
             裸基础面板设置(敬请期待)
@@ -257,7 +257,7 @@ class XinfaConfigPanel extends Component {
             index={this.state.configCopyTo}
             setIndex={(i) => this.setState({configCopyTo: i})}
           />
-          <Button bsStyle='success' bsSize='small' onClick={this.handleConfigCopy}>复制</Button>
+          <Button variant='success' size='sm' onClick={this.handleConfigCopy}>复制</Button>
         </div>
         比较心法配置属性：
         <div style={{textAlign: 'center'}}>
@@ -271,10 +271,10 @@ class XinfaConfigPanel extends Component {
             index={this.state.configDiffTo}
             setIndex={(i) => this.setState({configDiffTo: i})}
           />
-          <Button bsStyle='success' bsSize='small' onClick={this.handleConfigDiff}>比较</Button>
+          <Button variant='success' size='sm' onClick={this.handleConfigDiff}>比较</Button>
         </div>
         <div styleName='remove-data-div'>
-          <Button bsStyle='danger' bsSize='xsmall'
+          <Button variant='danger' size='small'
                   onClick={this.handleRemoveAll}
           >
             清空本地所有数据

@@ -1,8 +1,14 @@
 [
-  {"id": "mobao", "name": "墨宝踩点", "data": "mobao.json"},
+  {"id": "mobao", "name": "墨宝踩点", "data": "mobao.json", "category":  "身份玩法", "defaultDetailedLevel": 4, "defaultShow": true, "showIndex": 10},
   {"id": "house", "name": "家园坐标", "data": "house.json"},
   {"id": "sea_collect", "name": "航海图鉴", "data": "sea_collect.json"},
   {"id": "hhz_baoxiang", "name": "海河州宝箱", "data": "hhz_baoxiang.json"},
   {"id": "hhz_wuzi", "name": "帮战物资", "data": "hhz_wuzi.json"},
-  {"id": "dataosha", "name": "一代宗师", "data": "dataosha.json"}
+  {"id": "dataosha", "name": "一代宗师", "data": "dataosha.json"},
+  {"id": "cook", "name": "厨师食材", "data": "cook.json"},
+  {"id": "yaji", "name": "雅集答题", "data": "yaji.json"},
+  {"id": "teleport", "name": "传送点", "data": "teleport.json"},
+  {"id": "shiguangjianying", "name": "时光剪影系列成就", "data": "shiguangjianying.json"},
+  {"id": "hanghaitujian_all", "name": "航海图鉴采集点全坐标", "data": "hanghaitujian_all.json"},
+  {"id": "home_teleport", "name": "家园传送点", "data": "home_teleport.json"}
 ]

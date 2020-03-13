@@ -1,0 +1,220 @@
+.header {
+    margin: 0 auto;
+    padding: 20px 0 0;
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+.material-num-checkbox-wrapper {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.material-num-checkbox {
+    min-width: 75px;
+    white-space: nowrap;
+}
+
+.cook-tabs {
+
+}
+
+.cook-tabs :global .ant-tabs-bar {
+    margin-bottom: 0;
+}
+
+.cook-tabs :global .ant-tabs-nav-wrap {
+    margin: 0 auto -1px;
+    max-width: 1000px;
+}
+
+.cook-tab-content {
+    background: #f0f2f5;
+    padding: 15px;
+}
+
+.filter-panel {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 15px;
+    background: #fff;
+    border-radius: 2px;
+    padding: 24px;
+    border: 1px solid #dfdfdf;
+}
+
+.main-table-panel {
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: 24px;
+    border: 1px solid #dfdfdf;
+}
+
+/* recipe-box 相关样式 */
+.recipe-box {
+    width: 500px;
+    border-width: 37px;
+    border-style: solid;
+    border-color: initial;
+    border-image: url(https://wuxia-tools-assets-1251080372.cos.ap-shanghai.myqcloud.com/ui/cook/box_bg.png) 37 37 fill repeat;
+    margin: 0 auto;
+    text-align: center;
+    user-select: none;
+}
+.a-block-top {
+    text-align: center;
+    font-weight: bold;
+    color: #564728;
+    font-size: 17px;
+}
+
+.a-block-bottom {
+    text-align: center;
+    font-weight: bold;
+    color: #564728;
+    padding: 10px 0 0;
+}
+
+.title span {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.title-block, .crit-food {
+    display: flex;
+    margin: 0 0 10px;
+}
+.title-img-wrapper {
+    flex: 130px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+}
+.title-img-bg {
+    width: 171px;
+    height: 162px;
+    margin: -6px -15px;
+}
+.title-img {
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.name-des {
+    flex: auto;
+    text-align: left;
+    padding: 5px;
+    margin: 5px ;
+    border-width: 10px 10px;
+    color: #564728;
+    border-style: solid;
+    border-image: url("https://wuxia-tools-assets-1251080372.cos.ap-shanghai.myqcloud.com/ui/cook/vague_bg.png") 20 20 fill stretch;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "华文中宋", "微软雅黑";
+    text-align: center;
+    display: inline-block;
+    padding: 0 20px;
+    min-width: 140px;
+    color: #dfdfdf;
+    text-shadow: 1px 1px 1px #000;
+    margin: 5px ;
+    border-width: 3px 8px;
+    border-style: solid;
+    border-image: url("https://wuxia-tools-assets-1251080372.cos.ap-shanghai.myqcloud.com/ui/cook/product_title_bg.png") 3 8 fill stretch;
+}
+.title-prop {
+    border-bottom: 1px solid #aaa;
+    display: block;
+}
+.prop-block {
+    display: flex;
+}
+.prop-base {
+    flex: 3;
+}
+.prop-base div {
+    display: inline-block;
+    width: 171px;
+    border-width: 3px 8px;
+    border-style: solid;
+    border-image: url("https://wuxia-tools-assets-1251080372.cos.ap-shanghai.myqcloud.com/ui/cook/title_brush.png") 3 8 fill stretch;
+}
+.prop-limit {
+    flex: 7;
+    margin: 5px auto;
+}
+.prop-limit table {
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #888;
+    border-collapse: collapse;
+    background: rgba(0,0,0,0.1);
+    color: #564728;
+}
+.prop-limit table td {
+    text-align: center;
+    padding: 1px 3px;
+    border: 1px solid #888;
+}
+.prop-limit td.table-head {
+    font-weight: bold;
+    background: rgba(0,0,0,0.2);
+}
+.prop-limit tr td:nth-child(2) {
+    border-right-style: double;
+    border-right-width: 5px;
+}
+.material {
+    display: flex;
+}
+.material-item {
+    flex: 1;
+}
+.material-img-wrapper {
+    position: relative;
+    width: 76px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.material-img-bg {
+
+}
+
+.material-img {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 auto;
+}
+.material-img-type {
+    position: absolute;
+    top: 4px;
+    left: -18px;
+}
+.material-name {
+    display: block;
+    font-size: 13px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    padding: 2px 6px;
+    background-image: linear-gradient(to right, rgba(81,61,53,0), rgba(81,61,53,0.8),rgba(81,61,53,0.8), rgba(81,61,53,0));
+}
+
+.des {
+
+}

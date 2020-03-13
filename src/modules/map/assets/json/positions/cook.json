@@ -1,0 +1,4548 @@
+{
+    "icons": [
+        {
+            "type": "text",
+            "content": "糯",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "牛",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "排",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "菇",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "冬",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "笋",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "菜",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "豉",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "果",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "茶",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "芋",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "菇",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "笋",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "菜",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "薯",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "货",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "补",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "面",
+            "borderColor": "#FF0000"
+        },
+        {
+            "type": "text",
+            "content": "调",
+            "borderColor": "#FF0000"
+        }
+    ],
+    "positions": {
+        "DY": [
+            {
+                "type": "circle",
+                "mapId": 10002,
+                "areaId": 80396,
+                "x": 1068.82,
+                "y": 2997.52,
+                "z": 30.52,
+                "range": 128.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10002,
+                "areaId": 80395,
+                "x": 803.71,
+                "y": 3329.22,
+                "z": 66.41,
+                "range": 244,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10002,
+                "areaId": 80393,
+                "x": 1236.23,
+                "y": 745.36,
+                "z": 6.21,
+                "range": 503.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "rect",
+                "mapId": 10002,
+                "areaId": 80392,
+                "x": 2544.79,
+                "y": 1944.86,
+                "z": 43.26,
+                "range": 3,
+                "width": 31.5,
+                "height": 145.5
+            },
+            {
+                "type": "rect",
+                "mapId": 10002,
+                "areaId": 80392,
+                "x": 2258.21,
+                "y": 1870.82,
+                "z": 13.8,
+                "range": 17.5,
+                "width": 228,
+                "height": 51
+            },
+            {
+                "type": "circle",
+                "mapId": 10002,
+                "areaId": 80392,
+                "x": 2003.46,
+                "y": 2001.29,
+                "z": 12.84,
+                "range": 190,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "rect",
+                "mapId": 10002,
+                "areaId": 80392,
+                "x": 1583.52,
+                "y": 1929.2,
+                "z": 20.72,
+                "range": 3,
+                "width": 125,
+                "height": 179.5
+            },
+            {
+                "type": "circle",
+                "mapId": 10002,
+                "areaId": 80392,
+                "x": 1305.47,
+                "y": 2188.4,
+                "z": 20.51,
+                "range": 178,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10002,
+                "areaId": 80392,
+                "x": 1086.39,
+                "y": 3164.53,
+                "z": 23.02,
+                "range": 245.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10002,
+                "areaId": 80389,
+                "x": 1122.75,
+                "y": 3348.05,
+                "z": 24.15,
+                "range": 14.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10002,
+                "areaId": 80389,
+                "x": 1110.85,
+                "y": 3286.83,
+                "z": 24.24,
+                "range": 10,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10002,
+                "areaId": 80387,
+                "x": 819.3,
+                "y": 3313.06,
+                "z": 66.59,
+                "range": 109.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10002,
+                "areaId": 80391,
+                "x": 2867.24,
+                "y": 2301.59,
+                "z": 26.2,
+                "range": 219,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10002,
+                "areaId": 80397,
+                "x": 1498.55,
+                "y": 1340.66,
+                "z": 108.38,
+                "range": 154.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 2998.02,
+                "y": 2263.32
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1540.78,
+                "y": 533.69
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1535.1,
+                "y": 553.01
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1999.48,
+                "y": 1992.62
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 2007.47,
+                "y": 1992
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 2006.42,
+                "y": 1990.11
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 2004.54,
+                "y": 1992.96
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 2000.92,
+                "y": 1998.19
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1998.41,
+                "y": 2001.96
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 2005.34,
+                "y": 1997.01
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 2007.3,
+                "y": 1993.89
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1625.71,
+                "y": 1938.33
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1623.1,
+                "y": 1940.67
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1619.15,
+                "y": 1943.88
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1612.83,
+                "y": 1949.36
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1608.78,
+                "y": 1949.61
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1611.61,
+                "y": 1953.67
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1603.25,
+                "y": 1954.11
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1619.81,
+                "y": 1947.84
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 881.91,
+                "y": 2834.1
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 876.53,
+                "y": 2832.54
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 877.56,
+                "y": 2837.77
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 873.7,
+                "y": 2840.3
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 872.13,
+                "y": 2834.22
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 870.34,
+                "y": 2839.49
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 864.76,
+                "y": 2838.94
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 868.28,
+                "y": 2844.05
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1054.14,
+                "y": 3204.73
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1058.2,
+                "y": 3201.66
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1067.65,
+                "y": 3188.37
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1066,
+                "y": 3201.79
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 690.51,
+                "y": 3199.85
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 693.94,
+                "y": 3180.56
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 770.48,
+                "y": 3193.65
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 770.42,
+                "y": 3162.71
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 919.13,
+                "y": 3147.52
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 935.71,
+                "y": 3128.29
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 991.12,
+                "y": 3197.99
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1010.54,
+                "y": 3226.49
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 2997.57,
+                "y": 2229.3
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 2904.73,
+                "y": 2182.15
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 2975.17,
+                "y": 2258.8
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 1533.03,
+                "y": 2059.87
+            }
+        ],
+        "JN": [
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80568,
+                "x": 997.32,
+                "y": 2624.17,
+                "z": 70.84,
+                "range": 20,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80568,
+                "x": 1027.94,
+                "y": 2627.73,
+                "z": 73.87,
+                "range": 20,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "rect",
+                "mapId": 10011,
+                "areaId": 80568,
+                "x": 1011.31,
+                "y": 2783.85,
+                "z": 77.9,
+                "range": 20,
+                "width": 57.5,
+                "height": 11.5
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80568,
+                "x": 1093.07,
+                "y": 2667.84,
+                "z": 93.09,
+                "range": 15,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80568,
+                "x": 1158.35,
+                "y": 2868.79,
+                "z": 114.26,
+                "range": 23,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80568,
+                "x": 1147.76,
+                "y": 2831.85,
+                "z": 114.95,
+                "range": 10.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80568,
+                "x": 1151.95,
+                "y": 2903.4,
+                "z": 114.27,
+                "range": 15.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80577,
+                "x": 1200.36,
+                "y": 1180.08,
+                "z": 89.52,
+                "range": 88,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80577,
+                "x": 1105.11,
+                "y": 2049.39,
+                "z": 104.4,
+                "range": 61.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80577,
+                "x": 1057.08,
+                "y": 2152.23,
+                "z": 96.55,
+                "range": 56,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80577,
+                "x": 1129.48,
+                "y": 2127.39,
+                "z": 111.21,
+                "range": 35,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80577,
+                "x": 1280.52,
+                "y": 2058.76,
+                "z": 140.45,
+                "range": 98,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80577,
+                "x": 1324.59,
+                "y": 2182.57,
+                "z": 98.99,
+                "range": 32.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80578,
+                "x": 905.72,
+                "y": 2668.62,
+                "z": 49.82,
+                "range": 102,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80578,
+                "x": 1726.73,
+                "y": 2836.75,
+                "z": 203.98,
+                "range": 49,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80574,
+                "x": 1090.82,
+                "y": 2105.11,
+                "z": 96.81,
+                "range": 131,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80574,
+                "x": 1331.52,
+                "y": 2073.31,
+                "z": 136.43,
+                "range": 143,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "rect",
+                "mapId": 10011,
+                "areaId": 80574,
+                "x": 1595.41,
+                "y": 2168.75,
+                "z": 122.95,
+                "range": 143,
+                "width": 57.5,
+                "height": 210
+            },
+            {
+                "type": "circle",
+                "mapId": 10011,
+                "areaId": 80571,
+                "x": 1150.66,
+                "y": 2757.67,
+                "z": 108,
+                "range": 179,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 2,
+                "name": "一袋排骨",
+                "x": 2301.91,
+                "y": 2411.22
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 713.3,
+                "y": 2459.08
+            },
+            {
+                "type": "point",
+                "icon": 8,
+                "name": "一袋鲜果",
+                "x": 808.02,
+                "y": 2630.11
+            },
+            {
+                "type": "point",
+                "icon": 8,
+                "name": "一袋鲜果",
+                "x": 704.74,
+                "y": 2453.91
+            },
+            {
+                "type": "point",
+                "icon": 8,
+                "name": "一袋鲜果",
+                "x": 2314.83,
+                "y": 2418.22
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1144.57,
+                "y": 2671.18
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1135.59,
+                "y": 2677.35
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1128.19,
+                "y": 2664.22
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1121.26,
+                "y": 2671.93
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1112.97,
+                "y": 2654.91
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1180.33,
+                "y": 2639.78
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1187.87,
+                "y": 2647.95
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1196.44,
+                "y": 2637.59
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1202.72,
+                "y": 2647.69
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1171.93,
+                "y": 2646.2
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 821.5,
+                "y": 2613.66
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 771.46,
+                "y": 2622.62
+            }
+        ],
+        "HZ": [
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80728,
+                "x": 1131.19,
+                "y": 2481.53,
+                "z": 100.99,
+                "range": 6,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80728,
+                "x": 1024.73,
+                "y": 2468.81,
+                "z": 100.23,
+                "range": 6,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80728,
+                "x": 3141.51,
+                "y": 1784.49,
+                "z": 100.35,
+                "range": 131.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80739,
+                "x": 1127.04,
+                "y": 1738.99,
+                "z": 99.89,
+                "range": 100.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80739,
+                "x": 895.07,
+                "y": 1963.45,
+                "z": 100.28,
+                "range": 102.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80739,
+                "x": 1137.82,
+                "y": 2413.35,
+                "z": 94.02,
+                "range": 125,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80739,
+                "x": 964,
+                "y": 2490.79,
+                "z": 99.9,
+                "range": 167,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80739,
+                "x": 2762.17,
+                "y": 2087.47,
+                "z": 101,
+                "range": 71,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80739,
+                "x": 1963.12,
+                "y": 1796.9,
+                "z": 98.26,
+                "range": 51.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80740,
+                "x": 2473.33,
+                "y": 1615,
+                "z": 125.26,
+                "range": 102.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80740,
+                "x": 2156.16,
+                "y": 2003.15,
+                "z": 102.29,
+                "range": 182,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10010,
+                "areaId": 80743,
+                "x": 1898.19,
+                "y": 2644.99,
+                "z": 117.03,
+                "range": 81.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 2885.49,
+                "y": 2398.46
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 2876.14,
+                "y": 2415.2
+            }
+        ],
+        "JH": [
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80499,
+                "x": 2806.29,
+                "y": 3526.99,
+                "z": 106.83,
+                "range": 89,
+                "width": 93.5,
+                "height": 52.5
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2145.84,
+                "y": 3088.98,
+                "z": 90.11,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2098.89,
+                "y": 3072.12,
+                "z": 88.25,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2089.96,
+                "y": 3090.78,
+                "z": 91.53,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2078.51,
+                "y": 3152.34,
+                "z": 98.31,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2058.23,
+                "y": 3113.93,
+                "z": 92.88,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2145.13,
+                "y": 3088.98,
+                "z": 90.11,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2136.57,
+                "y": 3155.66,
+                "z": 95.11,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2137.27,
+                "y": 3155.66,
+                "z": 95.06,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2136.57,
+                "y": 2969.16,
+                "z": 91.97,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2137.27,
+                "y": 2969.16,
+                "z": 91.96,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2108.83,
+                "y": 2912.72,
+                "z": 93.26,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2109.39,
+                "y": 2908.35,
+                "z": 93.2,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2062.49,
+                "y": 2982.16,
+                "z": 91.92,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2075.48,
+                "y": 2901.94,
+                "z": 93.78,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2034.83,
+                "y": 2902.38,
+                "z": 94.04,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2008.13,
+                "y": 2966.07,
+                "z": 97.53,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2195.24,
+                "y": 2858.74,
+                "z": 93.52,
+                "range": 45,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2266.01,
+                "y": 2890.68,
+                "z": 92.23,
+                "range": 30,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2284.58,
+                "y": 2848.02,
+                "z": 92.55,
+                "range": 30,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2310.29,
+                "y": 2986.03,
+                "z": 88.24,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2265.15,
+                "y": 3000.25,
+                "z": 88.59,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80493,
+                "x": 2341.7,
+                "y": 3007.54,
+                "z": 91.12,
+                "range": 40,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80496,
+                "x": 2716.7,
+                "y": 3613.83,
+                "z": 109.77,
+                "range": 48,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80496,
+                "x": 2270.52,
+                "y": 2690.76,
+                "z": 94.65,
+                "range": 85,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80496,
+                "x": 1406.41,
+                "y": 1724.25,
+                "z": 79.29,
+                "range": 124,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10001,
+                "areaId": 80496,
+                "x": 1819.59,
+                "y": 3416.43,
+                "z": 156.51,
+                "range": 101,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 2478.06,
+                "y": 1668.16
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 2250.85,
+                "y": 2681.77
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 2238.77,
+                "y": 2665.59
+            },
+            {
+                "type": "point",
+                "icon": 2,
+                "name": "一袋排骨",
+                "x": 2761.52,
+                "y": 3645.42
+            },
+            {
+                "type": "point",
+                "icon": 2,
+                "name": "一袋排骨",
+                "x": 2232.97,
+                "y": 2665.5
+            },
+            {
+                "type": "point",
+                "icon": 4,
+                "name": "一袋冬瓜",
+                "x": 2225.67,
+                "y": 2674.9
+            },
+            {
+                "type": "point",
+                "icon": 6,
+                "name": "一袋青菜",
+                "x": 2221.08,
+                "y": 2634.26
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 2476.57,
+                "y": 1668.95
+            },
+            {
+                "type": "point",
+                "icon": 9,
+                "name": "一袋茶叶",
+                "x": 2750.1,
+                "y": 3656.34
+            },
+            {
+                "type": "point",
+                "icon": 9,
+                "name": "一袋茶叶",
+                "x": 2232.44,
+                "y": 2635.04
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1651.19,
+                "y": 3406.82
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1656.99,
+                "y": 3412.97
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1661.27,
+                "y": 3421.73
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1642.21,
+                "y": 3432.93
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 1996.18,
+                "y": 2530.83
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 1996.3,
+                "y": 2519.49
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 1996.41,
+                "y": 2525.66
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 2165.27,
+                "y": 2819.74
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 2158.69,
+                "y": 2823.71
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 2151.69,
+                "y": 2825.94
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 2292.1,
+                "y": 2653.63
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 2284.34,
+                "y": 2619.32
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 2723.34,
+                "y": 3654.14
+            }
+        ],
+        "BS": [
+            {
+                "type": "circle",
+                "mapId": 10005,
+                "areaId": 80312,
+                "x": 576.54,
+                "y": 1238.28,
+                "z": 350.16,
+                "range": 118.78209961,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10005,
+                "areaId": 80312,
+                "x": 374.11,
+                "y": 1235.18,
+                "z": 290.06,
+                "range": 80.12080078,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10005,
+                "areaId": 80312,
+                "x": 535.92,
+                "y": 1397.63,
+                "z": 350.02,
+                "range": 66.33459961,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10005,
+                "areaId": 80312,
+                "x": 458.18,
+                "y": 1310.75,
+                "z": 293.78,
+                "range": 57.74319824,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10005,
+                "areaId": 80323,
+                "x": 1950.34,
+                "y": 3334.07,
+                "z": 405.65,
+                "range": 140,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10005,
+                "areaId": 80321,
+                "x": 2841.67,
+                "y": 2117.22,
+                "z": 69.48,
+                "range": 198.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10005,
+                "areaId": 80321,
+                "x": 2262.31,
+                "y": 3145.43,
+                "z": 384.1,
+                "range": 150.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1889.8,
+                "y": 3521.53
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1905.01,
+                "y": 3536.3
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1879.61,
+                "y": 3496.28
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1862.14,
+                "y": 3485.53
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1957.51,
+                "y": 3311.42
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1972.28,
+                "y": 3256.83
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1887.99,
+                "y": 3356.15
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1938.3,
+                "y": 905.92
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1936.84,
+                "y": 898.51
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1943.19,
+                "y": 900.2
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1950.52,
+                "y": 904.31
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1938.49,
+                "y": 891
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1952.67,
+                "y": 895.22
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1946.26,
+                "y": 890.39
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1956.73,
+                "y": 888.58
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1892.73,
+                "y": 1809.86
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1885.85,
+                "y": 1799.56
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1862.44,
+                "y": 1813.01
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1872.81,
+                "y": 1826.77
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1871.68,
+                "y": 1806.82
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1888.46,
+                "y": 1792.09
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1896.45,
+                "y": 1800.39
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1900.65,
+                "y": 1813.22
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1844.64,
+                "y": 3388.36
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1844.45,
+                "y": 3395.11
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 924.92,
+                "y": 879.83
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 935.02,
+                "y": 891.16
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 486.16,
+                "y": 1434.01
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 502.21,
+                "y": 1434.66
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 485.12,
+                "y": 1448.22
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 599.38,
+                "y": 1284.99
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 600.11,
+                "y": 1274.47
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 2087.64,
+                "y": 3291.24
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 2082.02,
+                "y": 3300.07
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 2085.1,
+                "y": 3300.01
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 1705.31,
+                "y": 2209.48
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 3532.16,
+                "y": 1294.32
+            }
+        ],
+        "QC": [
+            {
+                "type": "rect",
+                "mapId": 10009,
+                "areaId": 80254,
+                "x": 1680.2,
+                "y": 1783.93,
+                "z": 211.25,
+                "range": 60.5,
+                "width": 166.5,
+                "height": 37
+            },
+            {
+                "type": "circle",
+                "mapId": 10009,
+                "areaId": 80267,
+                "x": 1838.23,
+                "y": 1001.61,
+                "z": 38.5,
+                "range": 141.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 1515.57,
+                "y": 423.76
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 2008,
+                "y": 590.3
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 2976.82,
+                "y": 1810.76
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 2640.1,
+                "y": 2410.76
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 1794.03,
+                "y": 1013.26
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 1526.14,
+                "y": 452.6
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 2653.74,
+                "y": 2410.73
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 1793.42,
+                "y": 1012.35
+            }
+        ],
+        "JINGH": [
+            {
+                "type": "circle",
+                "mapId": 10003,
+                "areaId": 80205,
+                "x": 780,
+                "y": 2385.79,
+                "z": 66.91,
+                "range": 582,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10003,
+                "areaId": 80205,
+                "x": 1814.55,
+                "y": 893.94,
+                "z": 117.03,
+                "range": 155,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10003,
+                "areaId": 80205,
+                "x": 2029.63,
+                "y": 1461.73,
+                "z": 150.33,
+                "range": 291.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10003,
+                "areaId": 80203,
+                "x": 3346.1,
+                "y": 1153.75,
+                "z": 39.25,
+                "range": 82.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10003,
+                "areaId": 80203,
+                "x": 1297.63,
+                "y": 3052.63,
+                "z": 80.84,
+                "range": 127,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 3297.57,
+                "y": 1073.62
+            },
+            {
+                "type": "point",
+                "icon": 2,
+                "name": "一袋排骨",
+                "x": 3327.27,
+                "y": 1094.71
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 906.75,
+                "y": 3292.44
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 3300.94,
+                "y": 1165.09
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 2276.92,
+                "y": 2537.85
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1900.2,
+                "y": 1465.32
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1909.81,
+                "y": 1462.07
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1897.92,
+                "y": 1445.08
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1779.3,
+                "y": 1040.07
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1773.5,
+                "y": 1042.02
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1762.15,
+                "y": 1036.21
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 975.39,
+                "y": 685.87
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 984.91,
+                "y": 694.43
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 976.97,
+                "y": 607.81
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 966.49,
+                "y": 612.97
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1109.74,
+                "y": 2092.38
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1178.82,
+                "y": 2147.36
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1234.72,
+                "y": 2118.9
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1111.55,
+                "y": 2165.23
+            },
+            {
+                "type": "point",
+                "icon": 12,
+                "name": "竹笋",
+                "x": 1139.63,
+                "y": 2099.96
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1536.54,
+                "y": 1674.99
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1540.48,
+                "y": 1678.15
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1537.05,
+                "y": 1669.03
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1539.63,
+                "y": 1670.79
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1537.02,
+                "y": 1663.05
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1543.72,
+                "y": 1671.2
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1533.42,
+                "y": 1655.13
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1538.78,
+                "y": 1658.45
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1921.09,
+                "y": 1087.14
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1918.08,
+                "y": 1083.6
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1915.02,
+                "y": 1081.3
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1917.16,
+                "y": 1076.23
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1922.41,
+                "y": 1075.39
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1920.03,
+                "y": 1079.61
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1911.24,
+                "y": 1077.58
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1924.82,
+                "y": 1079.38
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 3287.76,
+                "y": 1133.6
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 2624.1,
+                "y": 677.12
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 3327.11,
+                "y": 816.12
+            }
+        ],
+        "YD": [
+            {
+                "type": "circle",
+                "mapId": 10006,
+                "areaId": 80227,
+                "x": 1125.17,
+                "y": 1660.73,
+                "z": 256.1,
+                "range": 265.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10006,
+                "areaId": 80227,
+                "x": 2206.26,
+                "y": 1245.74,
+                "z": 44.3,
+                "range": 292.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10006,
+                "areaId": 80226,
+                "x": 661.97,
+                "y": 2036.01,
+                "z": 154.56,
+                "range": 225,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10006,
+                "areaId": 80226,
+                "x": 2810.52,
+                "y": 468.37,
+                "z": 154.94,
+                "range": 225,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 743.12,
+                "y": 1870.23
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 778.87,
+                "y": 1867.55
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 2572.34,
+                "y": 1462.29
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 998.59,
+                "y": 2310.25
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 721.23,
+                "y": 1870.1
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 1843.4,
+                "y": 1390.28
+            },
+            {
+                "type": "point",
+                "icon": 8,
+                "name": "一袋鲜果",
+                "x": 655.64,
+                "y": 1905.41
+            }
+        ],
+        "KF": [
+            {
+                "type": "circle",
+                "mapId": 10012,
+                "areaId": 80425,
+                "x": 1451.85,
+                "y": 1846.69,
+                "z": 36.12,
+                "range": 98.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10012,
+                "areaId": 80425,
+                "x": 1454.52,
+                "y": 888.69,
+                "z": 28.5,
+                "range": 80.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10012,
+                "areaId": 80425,
+                "x": 1358.4,
+                "y": 996.94,
+                "z": 31.79,
+                "range": 49.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10012,
+                "areaId": 80424,
+                "x": 3164.56,
+                "y": 2775.25,
+                "z": 20.94,
+                "range": 53,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10012,
+                "areaId": 80424,
+                "x": 1206.14,
+                "y": 1772.33,
+                "z": 60.17,
+                "range": 102.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 1615.62,
+                "y": 1235.95
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 2310.43,
+                "y": 336.79
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 1475.11,
+                "y": 884.17
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 1616.52,
+                "y": 1236.04
+            },
+            {
+                "type": "point",
+                "icon": 2,
+                "name": "一袋排骨",
+                "x": 1616.42,
+                "y": 1237.23
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1648.77,
+                "y": 1505.15
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1651.87,
+                "y": 1512.6
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1641.88,
+                "y": 1517.45
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1655.55,
+                "y": 1522.35
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1648.84,
+                "y": 1529.18
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1665.01,
+                "y": 1524.78
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1661.87,
+                "y": 1530.68
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1655.54,
+                "y": 1538.36
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1280.78,
+                "y": 1869.82
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1286.76,
+                "y": 1869.41
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1285.37,
+                "y": 1875.56
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1282.71,
+                "y": 1882.21
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1294.06,
+                "y": 1884.56
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1294.23,
+                "y": 1875.85
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1281.57,
+                "y": 1861.27
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1273.46,
+                "y": 1874.59
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 2123.78,
+                "y": 242.54
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 2130.35,
+                "y": 240.21
+            },
+            {
+                "type": "point",
+                "icon": 14,
+                "name": "土豆",
+                "x": 2137.66,
+                "y": 237.19
+            }
+        ],
+        "XZ": [
+            {
+                "type": "circle",
+                "mapId": 10007,
+                "areaId": 80181,
+                "x": 2047.29,
+                "y": 2258.34,
+                "z": 614.07,
+                "range": 90.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 2097.83,
+                "y": 2139.79
+            },
+            {
+                "type": "point",
+                "icon": 2,
+                "name": "一袋排骨",
+                "x": 2117.41,
+                "y": 2168.8
+            },
+            {
+                "type": "point",
+                "icon": 4,
+                "name": "一袋冬瓜",
+                "x": 2027.98,
+                "y": 2237.06
+            },
+            {
+                "type": "point",
+                "icon": 6,
+                "name": "一袋青菜",
+                "x": 2008.19,
+                "y": 2170.75
+            },
+            {
+                "type": "point",
+                "icon": 8,
+                "name": "一袋鲜果",
+                "x": 2108.99,
+                "y": 2213.89
+            },
+            {
+                "type": "point",
+                "icon": 9,
+                "name": "一袋茶叶",
+                "x": 2104.61,
+                "y": 2229.2
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 2087.34,
+                "y": 1938.7
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 2079.27,
+                "y": 1943.41
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 2089.31,
+                "y": 1946.78
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 2084.82,
+                "y": 1951.85
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 2076.78,
+                "y": 1953
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 2091.55,
+                "y": 1955.29
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 2082.23,
+                "y": 1958.55
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 2079.04,
+                "y": 1931.39
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1285.73,
+                "y": 3165.55
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1293.88,
+                "y": 3161.49
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1298.18,
+                "y": 3153.81
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1288.07,
+                "y": 3156.56
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1294.07,
+                "y": 3154.59
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1285.47,
+                "y": 3150.55
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1292.16,
+                "y": 3147.78
+            },
+            {
+                "type": "point",
+                "icon": 10,
+                "name": "芋头",
+                "x": 1281.73,
+                "y": 3159.7
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 345.39,
+                "y": 3134.44
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 582.03,
+                "y": 2040.44
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 1376.25,
+                "y": 1054.76
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 1497.4,
+                "y": 657.03
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 2078.98,
+                "y": 2279.61
+            }
+        ],
+        "XH": [
+            {
+                "type": "circle",
+                "mapId": 10013,
+                "areaId": 80434,
+                "x": 2320.8,
+                "y": 1785.07,
+                "z": 17.09,
+                "range": 174.5,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 1373.61,
+                "y": 1148.97
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 1808.16,
+                "y": 2422.84
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 1809.49,
+                "y": 2427.77
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 1429.74,
+                "y": 1988.48
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 1173.88,
+                "y": 1871.93
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 1174.7,
+                "y": 1871.74
+            },
+            {
+                "type": "point",
+                "icon": 4,
+                "name": "一袋冬瓜",
+                "x": 1913.49,
+                "y": 1781.14
+            },
+            {
+                "type": "point",
+                "icon": 6,
+                "name": "一袋青菜",
+                "x": 1929.28,
+                "y": 1793
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 1440.57,
+                "y": 2004.37
+            },
+            {
+                "type": "point",
+                "icon": 9,
+                "name": "一袋茶叶",
+                "x": 1965.75,
+                "y": 1791.72
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1419.54,
+                "y": 945.34
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1412.63,
+                "y": 947.2
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1409.15,
+                "y": 955.28
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1423.52,
+                "y": 936.45
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1407.12,
+                "y": 947.09
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1404.01,
+                "y": 954.29
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1399.55,
+                "y": 948.54
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1394.13,
+                "y": 953.1
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1406.73,
+                "y": 1184.28
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1398.23,
+                "y": 1185.33
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1404.49,
+                "y": 1178.55
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1411.98,
+                "y": 1176.33
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1420.54,
+                "y": 1180.97
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1416.71,
+                "y": 1189.14
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1408.68,
+                "y": 1192.9
+            },
+            {
+                "type": "point",
+                "icon": 11,
+                "name": "香菇",
+                "x": 1411.56,
+                "y": 1186.88
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 1895.69,
+                "y": 1945.41
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 2486.37,
+                "y": 1806.75
+            }
+        ],
+        "YY": [
+            {
+                "type": "circle",
+                "mapId": 10004,
+                "areaId": 80257,
+                "x": 2275.09,
+                "y": 1005.77,
+                "z": 108.08,
+                "range": 113,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "circle",
+                "mapId": 10004,
+                "areaId": 80257,
+                "x": 2950.35,
+                "y": 2324.42,
+                "z": 127.1,
+                "range": 109,
+                "width": 3,
+                "height": 3
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 3013.99,
+                "y": 2284.94
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 2903.43,
+                "y": 2352.68
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 2877.25,
+                "y": 2316.47
+            },
+            {
+                "type": "point",
+                "icon": 6,
+                "name": "一袋青菜",
+                "x": 2937.93,
+                "y": 2304.66
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 3047.65,
+                "y": 2290.39
+            },
+            {
+                "type": "point",
+                "icon": 8,
+                "name": "一袋鲜果",
+                "x": 2877.2,
+                "y": 2372.63
+            },
+            {
+                "type": "point",
+                "icon": 9,
+                "name": "一袋茶叶",
+                "x": 2992.63,
+                "y": 2292.24
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1944.03,
+                "y": 1184.56
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1946.79,
+                "y": 1192.19
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1950.96,
+                "y": 1186.33
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1953.6,
+                "y": 1191.73
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1955.06,
+                "y": 1185.05
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1958.02,
+                "y": 1191.74
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1961.11,
+                "y": 1186.61
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1939.78,
+                "y": 1189.43
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1979.8,
+                "y": 1093.88
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1976.63,
+                "y": 1095.88
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1980.6,
+                "y": 1097.86
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1976.71,
+                "y": 1099.48
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1979.7,
+                "y": 1102.4
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1977.72,
+                "y": 1104.15
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1972.9,
+                "y": 1097.11
+            },
+            {
+                "type": "point",
+                "icon": 13,
+                "name": "青菜",
+                "x": 1973.59,
+                "y": 1100.54
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 2945.45,
+                "y": 2285.64
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 3050.03,
+                "y": 2336.42
+            }
+        ],
+        "HHZ": [
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 378.54,
+                "y": 877.43
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 370.91,
+                "y": 917.8
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 353.68,
+                "y": 957.48
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 340.66,
+                "y": 995.86
+            },
+            {
+                "type": "point",
+                "icon": 0,
+                "name": "一袋糯米",
+                "x": 324.74,
+                "y": 1028.75
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 311.35,
+                "y": 1056.41
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 306.67,
+                "y": 1106.81
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 305.76,
+                "y": 1072.56
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 329.27,
+                "y": 1007.03
+            },
+            {
+                "type": "point",
+                "icon": 1,
+                "name": "一袋牛肉",
+                "x": 343.42,
+                "y": 973.58
+            },
+            {
+                "type": "point",
+                "icon": 2,
+                "name": "一袋排骨",
+                "x": 362.58,
+                "y": 930.49
+            },
+            {
+                "type": "point",
+                "icon": 2,
+                "name": "一袋排骨",
+                "x": 378.62,
+                "y": 884.73
+            },
+            {
+                "type": "point",
+                "icon": 2,
+                "name": "一袋排骨",
+                "x": 314.48,
+                "y": 1044.56
+            },
+            {
+                "type": "point",
+                "icon": 2,
+                "name": "一袋排骨",
+                "x": 327.7,
+                "y": 1073.6
+            },
+            {
+                "type": "point",
+                "icon": 2,
+                "name": "一袋排骨",
+                "x": 312.25,
+                "y": 1138.46
+            },
+            {
+                "type": "point",
+                "icon": 3,
+                "name": "一袋香菇",
+                "x": 309.08,
+                "y": 1123.92
+            },
+            {
+                "type": "point",
+                "icon": 3,
+                "name": "一袋香菇",
+                "x": 319.47,
+                "y": 1102
+            },
+            {
+                "type": "point",
+                "icon": 3,
+                "name": "一袋香菇",
+                "x": 314.29,
+                "y": 1079.59
+            },
+            {
+                "type": "point",
+                "icon": 3,
+                "name": "一袋香菇",
+                "x": 323.13,
+                "y": 1060.19
+            },
+            {
+                "type": "point",
+                "icon": 3,
+                "name": "一袋香菇",
+                "x": 360.88,
+                "y": 976.96
+            },
+            {
+                "type": "point",
+                "icon": 4,
+                "name": "一袋冬瓜",
+                "x": 368.09,
+                "y": 950.75
+            },
+            {
+                "type": "point",
+                "icon": 4,
+                "name": "一袋冬瓜",
+                "x": 381.15,
+                "y": 930.44
+            },
+            {
+                "type": "point",
+                "icon": 4,
+                "name": "一袋冬瓜",
+                "x": 396.7,
+                "y": 914.87
+            },
+            {
+                "type": "point",
+                "icon": 4,
+                "name": "一袋冬瓜",
+                "x": 392.18,
+                "y": 882.05
+            },
+            {
+                "type": "point",
+                "icon": 4,
+                "name": "一袋冬瓜",
+                "x": 397.7,
+                "y": 887.85
+            },
+            {
+                "type": "point",
+                "icon": 5,
+                "name": "一袋竹笋",
+                "x": 375.07,
+                "y": 907.88
+            },
+            {
+                "type": "point",
+                "icon": 5,
+                "name": "一袋竹笋",
+                "x": 351.41,
+                "y": 966.23
+            },
+            {
+                "type": "point",
+                "icon": 5,
+                "name": "一袋竹笋",
+                "x": 337.08,
+                "y": 1023.37
+            },
+            {
+                "type": "point",
+                "icon": 5,
+                "name": "一袋竹笋",
+                "x": 329.44,
+                "y": 1045.6
+            },
+            {
+                "type": "point",
+                "icon": 5,
+                "name": "一袋竹笋",
+                "x": 320.77,
+                "y": 1131.33
+            },
+            {
+                "type": "point",
+                "icon": 6,
+                "name": "一袋青菜",
+                "x": 306.22,
+                "y": 1146.77
+            },
+            {
+                "type": "point",
+                "icon": 6,
+                "name": "一袋青菜",
+                "x": 302.21,
+                "y": 1099.04
+            },
+            {
+                "type": "point",
+                "icon": 6,
+                "name": "一袋青菜",
+                "x": 313.43,
+                "y": 1066.42
+            },
+            {
+                "type": "point",
+                "icon": 6,
+                "name": "一袋青菜",
+                "x": 324.51,
+                "y": 1014.03
+            },
+            {
+                "type": "point",
+                "icon": 6,
+                "name": "一袋青菜",
+                "x": 344.18,
+                "y": 984.25
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 359.62,
+                "y": 937.79
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 367.99,
+                "y": 911.69
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 379.75,
+                "y": 872.65
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 319.66,
+                "y": 1028.96
+            },
+            {
+                "type": "point",
+                "icon": 7,
+                "name": "一袋豆豉",
+                "x": 303.65,
+                "y": 1080.43
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 518.84,
+                "y": 1660.65
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 508.13,
+                "y": 1675.91
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 500.7,
+                "y": 1672.45
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 515.98,
+                "y": 1696.99
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 532.34,
+                "y": 1697.85
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 519.94,
+                "y": 1684.84
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 542.05,
+                "y": 1691.01
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 530.13,
+                "y": 1673.68
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 486,
+                "y": 1697.21
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 470.86,
+                "y": 1684.28
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 454.56,
+                "y": 1693.22
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 470.35,
+                "y": 1709.92
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 452.56,
+                "y": 1710.46
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 480.03,
+                "y": 1732.39
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 498.03,
+                "y": 1727.63
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 500.22,
+                "y": 1713.82
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 485,
+                "y": 1749.05
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 464.35,
+                "y": 1742.96
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 429.07,
+                "y": 1734.11
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 403.78,
+                "y": 1743.94
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 420.1,
+                "y": 1754.33
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 411.16,
+                "y": 1768.22
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 389.03,
+                "y": 1760.79
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 453.22,
+                "y": 1770.82
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 447.73,
+                "y": 1788.07
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 431.76,
+                "y": 1770.46
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 434.29,
+                "y": 1803.32
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 417.61,
+                "y": 1795.71
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 418.76,
+                "y": 1663.78
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 411,
+                "y": 1685.76
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 406.53,
+                "y": 1698.31
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 383.77,
+                "y": 1687.45
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 393.51,
+                "y": 1670.88
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 369.36,
+                "y": 1715.7
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 335.57,
+                "y": 1705.31
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 353.91,
+                "y": 1698.91
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 355.35,
+                "y": 1674.88
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 329.07,
+                "y": 1674.96
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 521.98,
+                "y": 1655.67
+            },
+            {
+                "type": "point",
+                "icon": 15,
+                "name": "沉没的货物",
+                "x": 516.91,
+                "y": 1653.48
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 376.38,
+                "y": 902.27
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 380.67,
+                "y": 897.88
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 349.71,
+                "y": 1022.24
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 359.31,
+                "y": 1025.52
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 350.8,
+                "y": 1013.69
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 361.16,
+                "y": 1017.52
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 385.26,
+                "y": 893.05
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 379.6,
+                "y": 854.79
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 386.71,
+                "y": 849.32
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 394.89,
+                "y": 856.29
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 370.95,
+                "y": 831.95
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 462.8,
+                "y": 887.87
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 453.58,
+                "y": 925.73
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 445.41,
+                "y": 960.07
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 425.81,
+                "y": 961.83
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 406.46,
+                "y": 849.24
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 439.23,
+                "y": 855.55
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 366.24,
+                "y": 718.84
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 383.9,
+                "y": 720.67
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 416.42,
+                "y": 687.47
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 412.53,
+                "y": 658.13
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 418.43,
+                "y": 637.96
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 444.37,
+                "y": 670.13
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 475.18,
+                "y": 601.25
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 484.97,
+                "y": 669.04
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 507.88,
+                "y": 635.74
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 517.76,
+                "y": 692.17
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 562.41,
+                "y": 587.29
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 586.76,
+                "y": 600.34
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 583,
+                "y": 617.89
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 586.88,
+                "y": 563.76
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 577.97,
+                "y": 547.98
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 583.75,
+                "y": 543.7
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 579.54,
+                "y": 522.2
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 587.9,
+                "y": 479.47
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 582.68,
+                "y": 481.83
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 579.69,
+                "y": 465.99
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1480.99,
+                "y": 534.88
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1503.18,
+                "y": 533.98
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1507.61,
+                "y": 585.84
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1489.04,
+                "y": 581.73
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1545.3,
+                "y": 582.59
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1560.89,
+                "y": 617.45
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1589.67,
+                "y": 619.37
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1597.81,
+                "y": 653.41
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1614.25,
+                "y": 660.99
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1598.34,
+                "y": 677.58
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1628.63,
+                "y": 541.36
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1647.9,
+                "y": 591.37
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1691.07,
+                "y": 604.26
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1713.82,
+                "y": 641.01
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1691.11,
+                "y": 649.82
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1687.38,
+                "y": 632.86
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1711.61,
+                "y": 685.52
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1691.17,
+                "y": 685.43
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1645.74,
+                "y": 738.01
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1695.58,
+                "y": 723.16
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1420.69,
+                "y": 961.3
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1412.17,
+                "y": 975.12
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1359.16,
+                "y": 949.42
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1386.05,
+                "y": 1012.24
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1350.13,
+                "y": 1055.66
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1280.15,
+                "y": 1035.47
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1231.96,
+                "y": 1081.15
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1276.84,
+                "y": 1079.81
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1249.6,
+                "y": 1108.55
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1332.75,
+                "y": 1103.75
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1468,
+                "y": 1218.69
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1472.23,
+                "y": 1187.65
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1458.47,
+                "y": 1224.09
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1471.32,
+                "y": 1275.42
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1491.63,
+                "y": 1187.59
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1363.63,
+                "y": 1258.41
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1359.11,
+                "y": 1306.18
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1366.2,
+                "y": 1133.98
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1387.25,
+                "y": 1248.46
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1422.54,
+                "y": 1278.55
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1724.65,
+                "y": 1425.42
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1719.72,
+                "y": 1446.11
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1671.3,
+                "y": 1428.64
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1660.64,
+                "y": 1394.3
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1622.43,
+                "y": 1407.01
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1640.97,
+                "y": 1499.37
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1513.91,
+                "y": 1507.23
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1526.2,
+                "y": 1392.81
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1513.27,
+                "y": 1566.91
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1450.64,
+                "y": 1498.65
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1489.6,
+                "y": 1586.8
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1445.39,
+                "y": 1570.97
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1473.88,
+                "y": 1625.96
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1462.27,
+                "y": 1658.97
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1448.56,
+                "y": 1718.86
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1433.74,
+                "y": 1682.78
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1405.23,
+                "y": 1731.4
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1373.4,
+                "y": 1716.03
+            },
+            {
+                "type": "point",
+                "icon": 16,
+                "name": "遗落的补给物资",
+                "x": 1393.3,
+                "y": 1697.4
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 316.85,
+                "y": 1165.99
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 314.34,
+                "y": 1115.1
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 321.68,
+                "y": 1080.89
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 324.6,
+                "y": 1038.47
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 355.55,
+                "y": 994.98
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 368.6,
+                "y": 960.68
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 386.95,
+                "y": 912.25
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 405.44,
+                "y": 871.59
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 379.59,
+                "y": 843.15
+            },
+            {
+                "type": "point",
+                "icon": 17,
+                "name": "一袋面粉",
+                "x": 337.07,
+                "y": 989.74
+            },
+            {
+                "type": "point",
+                "icon": 18,
+                "name": "一袋调料",
+                "x": 372.27,
+                "y": 1184.79
+            },
+            {
+                "type": "point",
+                "icon": 18,
+                "name": "一袋调料",
+                "x": 339.76,
+                "y": 1166.56
+            },
+            {
+                "type": "point",
+                "icon": 18,
+                "name": "一袋调料",
+                "x": 328.54,
+                "y": 1086.26
+            },
+            {
+                "type": "point",
+                "icon": 18,
+                "name": "一袋调料",
+                "x": 347.83,
+                "y": 1040.29
+            },
+            {
+                "type": "point",
+                "icon": 18,
+                "name": "一袋调料",
+                "x": 379.05,
+                "y": 942.24
+            },
+            {
+                "type": "point",
+                "icon": 18,
+                "name": "一袋调料",
+                "x": 410.17,
+                "y": 881.64
+            },
+            {
+                "type": "point",
+                "icon": 18,
+                "name": "一袋调料",
+                "x": 372.06,
+                "y": 844.3
+            },
+            {
+                "type": "point",
+                "icon": 18,
+                "name": "一袋调料",
+                "x": 369.99,
+                "y": 824.88
+            },
+            {
+                "type": "point",
+                "icon": 18,
+                "name": "一袋调料",
+                "x": 352.82,
+                "y": 1175.62
+            },
+            {
+                "type": "point",
+                "icon": 18,
+                "name": "一袋调料",
+                "x": 336.13,
+                "y": 1059.09
+            }
+        ]
+    }
+}

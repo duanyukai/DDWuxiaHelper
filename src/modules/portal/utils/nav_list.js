@@ -97,6 +97,14 @@ const dataWikiList = [
     img: 'youli.png'
   },
   {
+    path: '/data/cook',
+    title: '厨师食材配方大全',
+    desc: <p>
+      111
+    </p>,
+    img: 'youli.png'
+  },
+  {
     path: '/data/gem',
     title: '砭石数据汇总',
     desc: <p>

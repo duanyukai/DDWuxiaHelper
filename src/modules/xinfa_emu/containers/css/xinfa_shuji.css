@@ -191,7 +191,7 @@
     white-space: normal;
 }
 
-.skill-dropdown-menu li:hover .skill-dropdown-item-des {
+.skill-dropdown-menu a:hover .skill-dropdown-item-des {
     display: block;
     /*flex-flow: wrap;*/
     /*height: 100%;*/

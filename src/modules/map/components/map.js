@@ -1,4 +1,3 @@
-// import 'hidpi-canvas/dist/hidpi-canvas.min';
 import {canvasHiDPIPolyfill, canvasHiDPIRestore} from '../../../utils/canvas-hidpi-polyfill/canvas_hidpi_polyfill';
 
 import React, { Component } from 'react';
@@ -7,20 +6,17 @@ import L from 'leaflet';
 import './css/map.css';
 
 import mapsProps from '../assets/json/maps_props.json';
-import {gamePosToImgPos} from '../utils/pos_conv';
-
-import {dataToPosList} from '../utils/data_to_pos';
-import {dataToPopup} from '../utils/data_to_popup';
-import markerTypeList from '../assets/json/marker_types.json';
-
-const mapPosPath = require.context('../assets/json/positions', true);
-const iconPath = require.context('../assets/imgs/icons', true);
+import {gamePosToImgPos, imgPosToGamePos} from '../utils/pos_conv';
 
 // 地图标志json
-import mapPosNameList from '../assets/json/positions/location_name.json';
-import polylabel from 'polylabel';
-// 地图行政区划json
-const regionGeoJson = require.context('../assets/json/region_geojson', true);
+import {renderMapGeoJSON} from '../utils/map_geo_render';
+import {updatePosMarker} from '../utils/map_place_name_render';
+import {createCanvasTiles} from '../utils/map_tile_render';
+import {renderMapGeoClick} from '../utils/map_geo_click_render';
+import {dataToPopup} from '../utils/data_to_popup';
+
+// // 地图行政区划json ddd todo
+// const regionGeoJson = require.context('../assets/json/region_geojson', true);
 
 class WuxiaLeafletMap extends Component {
   constructor(props) {
@@ -29,21 +25,67 @@ class WuxiaLeafletMap extends Component {
       lat: 0,
       lng: 0,
       zoom: 4,
+      cursorPos: {x: 0, y: 0}
     };
-
-    this.updatePosMarker = this.updatePosMarker.bind(this);
   }
 
   componentWillReceiveProps(newProps) {
-    // 地图切换
+    console.log(newProps);
+    let mapId = newProps.currentMapId;
+    let {x, y, zoom} = newProps;
+    // 地图、坐标、marker切换相关
     if(this.props.currentMapId !== newProps.currentMapId) {
-      let mapId = newProps.currentMapId;
+      // 切换了大地图
       // 改变地图
-      this.changeMap(mapId);
+      this.changeMap(mapId, x, y, zoom);
+      console.log('切换大地图');
+    } else {
+      // 地图没变，但是坐标、marker相关变动
+      // 坐标变动
+      if (this.props.x !== newProps.x || this.props.y !== newProps.y || this.props.zoom !== newProps.zoom) {
+        // 没切换大地图，仅切换坐标或缩放
+        let _mapCenter = this.lfMap.unproject(gamePosToImgPos(mapId, [x || 2048, y || 2048]), mapsProps[mapId].maxZoom);
+        this.lfMap.setView(_mapCenter, zoom);
+        console.log('切换视角');
+      }
     }
+    // 开启显示的marker变动
+    if (newProps.markerData && this.props.markerData !== newProps.markerData) {
+      // 首先关闭当前marker并删除
+      if (this.openedMarker) {
+        this.openedMarker.closePopup();
+      }
+      // 然后直接根据marker内容，新建marker并打开
+      // // 直接模拟发送点击事件即可 todo 这样不行因为有遮挡，触发不到准确的marker
+      // let clickLatLng = this.lfMap.unproject(gamePosToImgPos(mapId, [x || 2048, y || 2048]), mapsProps[mapId].maxZoom);
+      // this.tileLayer.fireEvent('click', {
+      //   latlng: clickLatLng
+      // });
+      // 老实新建marker
+      // 点击添加一个临时无大小marker
+      let myIcon = L.divIcon({className: 'marker-div-icon', html: ''});
+      let center = this.lfMap.unproject(gamePosToImgPos(mapId, [x || 2048, y || 2048]), mapsProps[mapId].maxZoom);
+      let marker = L.marker(center, {icon: myIcon}).addTo(this.lfMap);
+      // popup内容
+      let popupDOM = dataToPopup({
+        markerCategory: newProps.markerData.markerCategory,
+        posData: newProps.markerData
+      }); // todo 包的这一层现在处理的比较乱
+      let popupDOMWrapper = document.createElement('div');
+      ReactDOM.render(popupDOM, popupDOMWrapper);
+      marker.bindPopup(popupDOMWrapper, {
+        className: 'popup-content'
+      });
+      // 保存marker，以便在切换地图时删除
+      this.openedMarker = marker;
+      // todo trick 打开marker
+      setTimeout(()=> {
+        marker.openPopup();
+      }, 0);
+    }
+
     // 标志显示切换
     if(this.props.showState !== newProps.showState) {
-      // this.createCanvasTiles();
       this.markerCanvasLayer.redraw();
     }
     // 大地标显示切换
@@ -51,7 +93,6 @@ class WuxiaLeafletMap extends Component {
       this.lfMap.getPane('marker-top-pane').style.display = newProps.showPosMarker ? '' : 'none';
     }
   }
-
 
   componentDidMount() {
     // 开启高分屏适配
@@ -63,7 +104,8 @@ class WuxiaLeafletMap extends Component {
       crs: L.CRS.Simple,
       zoomControl: false,
       attributionControl: false,
-      detectRetina: true,
+      detectRetina: false,
+      // renderer: L.canvas(), // todo 优先使用canvas，开启后和高分屏适配冲突，暂时不开
       // fadeAnimation: false
     });
     // 初始化地图属性
@@ -74,39 +116,45 @@ class WuxiaLeafletMap extends Component {
     this.lfMap.setView(_mapCenter, 1);
     // 初始化地图canvas用的pane
     this.lfMap.createPane('canvas-marker-pane');
-    this.lfMap.getPane('canvas-marker-pane').style.zIndex = 450;
-    // 初始化地名用底部marker pane
+    this.lfMap.getPane('canvas-marker-pane').style.zIndex = '450';
+    // 初始化地名用底部marker pane，此pane放置geoJsonLayer，以及可点击区域的地名
     this.lfMap.createPane('marker-bottom-pane');
-    this.lfMap.getPane('marker-bottom-pane').style.zIndex = 350;
+    this.lfMap.getPane('marker-bottom-pane').style.zIndex = '350';
     // 初始化大地标marker pane
     this.lfMap.createPane('marker-top-pane');
-    this.lfMap.getPane('marker-top-pane').style.zIndex = 455;
+    this.lfMap.getPane('marker-top-pane').style.zIndex = '455';
+    // 初始化可点击区域用pane，此pane放置geoClickLayer
+    this.lfMap.createPane('geo-click-pane');
+    this.lfMap.getPane('geo-click-pane').style.zIndex = '460';
+
     // 初始化第一张地图
-    this.changeMap(this.props.currentMapId);
+    this.changeMap(this.props.currentMapId, this.props.x, this.props.y, this.props.zoom);
   }
 
   componentWillUnmount() {
     canvasHiDPIRestore();
   }
 
-  getPixelRatio(context) {
-    let backingStore = context.backingStorePixelRatio ||
-      context.webkitBackingStorePixelRatio ||
-      context.mozBackingStorePixelRatio ||
-      context.msBackingStorePixelRatio ||
-      context.oBackingStorePixelRatio ||
-      context.backingStorePixelRatio || 1;
+  // // 获取屏幕像素比例，用于适配高分屏图片绘制错位问题
+  // getPixelRatio(context) {
+  //   let backingStore = context.backingStorePixelRatio ||
+  //     context.webkitBackingStorePixelRatio ||
+  //     context.mozBackingStorePixelRatio ||
+  //     context.msBackingStorePixelRatio ||
+  //     context.oBackingStorePixelRatio ||
+  //     context.backingStorePixelRatio || 1;
+  //
+  //   return (window.devicePixelRatio || 1) / backingStore;
+  // }
 
-    return (window.devicePixelRatio || 1) / backingStore;
-  }
-
-  changeMap(mapId) {
+  // 切换地图，需要更新所有图层
+  changeMap(mapId, x, y, zoom) {
     let self = this;
     let mapProps = mapsProps[mapId];
-    // 计算地图基本属性
-    // todo
+    // 调用父级切换地图函数，同步地图数据 todo
+    this.props.changeMap(mapId);
 
-    // 删除旧图层
+    // 删除所有旧图层
     if(this.posNameMarkerLayer)
       this.lfMap.removeLayer(this.posNameMarkerLayer);
     if(this.tileLayer)
@@ -115,82 +163,50 @@ class WuxiaLeafletMap extends Component {
       this.lfMap.removeLayer(this.markerCanvasLayer);
     if(this.regionGeo)
       this.lfMap.removeLayer(this.regionGeo);
+    if(this.clickGeo) {
+      this.lfMap.removeLayer(this.clickGeo);
+    }
     if(this.geojsonMarkersLayer)
       this.lfMap.removeLayer(this.geojsonMarkersLayer);
+    if(this.geoClickLayer) {
+      this.lfMap.removeLayer(this.geoClickLayer);
+    }
+    // 关闭已经打开的marker
+    if (this.openedMarker)
+      this.openedMarker.closePopup();
 
     // 更新地图图层
-    // 地图边缘
+    // 更新地图边缘
     let _mapBounds = new L.LatLngBounds(
       this.lfMap.unproject([0, mapProps.imgSize[1]], mapProps.maxZoom),
       this.lfMap.unproject([mapProps.imgSize[0], 0], mapProps.maxZoom));
     // this.lfMap.setMaxBounds(_mapBounds);
-    this.lfMap.setMaxBounds(null);  // todo marker越界
+    this.lfMap.setMaxBounds(null);  // todo marker越界暂不处理，防止popup越界
     // 地图缩放
     this.lfMap.setMinZoom(2);
     this.lfMap.setMaxZoom(mapProps.maxZoom + 3);
-    // 地图中心视角
+    // 地图中心视角，根据初始参数自动放缩
     // let _mapCenter = this.lfMap.unproject(gamePosToImgPos(mapId, mapProps.initView), mapProps.maxZoom);
-    let _mapCenter = this.lfMap.unproject(gamePosToImgPos(mapId, [
-      (mapProps.correspond[0].gamePosX + mapProps.correspond[1].gamePosX) / 2,
-      (mapProps.correspond[0].gamePosY + mapProps.correspond[1].gamePosY) / 2
-    ]), mapProps.maxZoom); // todo 更好的初始展现
-    this.lfMap.setView(_mapCenter, 3); // todo zoom
-    // 添加行政区划 todo
-    try {
-      let regionGeo = regionGeoJson(`./geojson_${mapId}.json`, true);
-      let geojsonMarkers = [];
-      this.regionGeo = L.geoJson(regionGeo, {
-        // interactive: false,
-        style: {
-          weight: 2,
-          opacity: 1,
-          color: 'white',
-          dashArray: '3',
-          fillColor: '#000',
-          fillOpacity: 0
-        },
-        coordsToLatLng: function(coords) {
-          return self.lfMap.unproject([coords[0] * 4 + 1024, coords[1] * 4], mapProps.maxZoom);
-        },
-        onEachFeature: function(feature, layer) {
-          function highlightFeature(e) {
-            let layer = e.target;
-            layer.setStyle({weight: 5});
-          }
-          function resetHighlight(e) {
-            let layer = e.target;
-            layer.setStyle({weight: 2});
-          }
-          layer.on({
-            mouseover: highlightFeature,
-            mouseout: resetHighlight,
-          });
-          // 计算不可达极坐标，放置标签
-          let coordsList = feature.geometry.coordinates;
-          console.log(feature.properties.regionName, coordsList);
-          let coords = polylabel(coordsList, 1.0);
-          console.log(coords);
-          // 增加标签
-          let geojsonMarker = L.marker(self.lfMap.unproject([coords[0] * 4 + 1024, coords[1] * 4], mapProps.maxZoom), {
-            pane: 'marker-bottom-pane',
-            icon: L.divIcon({
-              className: 'geojson-marker-text',
-              html: feature.properties.regionName || '',
-              iconSize: [100, 16],
-            })
-          });
-          geojsonMarkers.push(geojsonMarker);
-        }
-      });
-      this.regionGeo.addTo(this.lfMap);
-      this.geojsonMarkersLayer = L.layerGroup(geojsonMarkers);
-      this.geojsonMarkersLayer.addTo(this.lfMap);
-    } catch(e) {
-      console.log(e);
-      console.log(`地图ID：${mapId}，暂无地区数据`);
+    let _mapCenter;
+    if (x && y && zoom) {
+      // 切换到指定视角
+      console.log('changemap 切换到指定视角');
+      _mapCenter = this.lfMap.unproject(gamePosToImgPos(mapId, [x, y]), mapProps.maxZoom);
+      this.lfMap.setView(_mapCenter, zoom);
+    } else {
+      _mapCenter = this.lfMap.unproject(gamePosToImgPos(mapId, [
+        (mapProps.correspond[0].gamePosX + mapProps.correspond[1].gamePosX) / 2,
+        (mapProps.correspond[0].gamePosY + mapProps.correspond[1].gamePosY) / 2
+      ]), mapProps.maxZoom);
+      this.lfMap.setView(_mapCenter, 3);
     }
 
-    // 地图图层
+    // 添加行政区划geojson，属不动图层需置于最底层，切换地图时加载一次即可
+    renderMapGeoJSON(self, mapId);
+    // 添加地图城市geojson，可点击切换地图，需置于最顶层
+    renderMapGeoClick(self, mapId);
+
+    // 添加地图瓦片图层
     this.tileLayer = L.tileLayer(
       `http://tiles.wuxia.tools/${mapId}/{z}/{x}/{y}.png`, {
         minZoom: 2,
@@ -204,246 +220,47 @@ class WuxiaLeafletMap extends Component {
         detectRetina:false
       }).addTo(this.lfMap);
 
-    // 切换矢量坐标名称事件监听器
+    // 添加地图移动结束监听，修改网址中的hash
+    if (this.moveEndHandler)
+      this.lfMap.off('moveend', this.moveEndHandler);
+    this.moveEndHandler = function() {
+      let imgPos = self.lfMap.project(self.lfMap.getCenter(), mapProps.maxZoom);
+      let gamePos = imgPosToGamePos(mapId, [imgPos.x, imgPos.y]);
+      // // 直接修改，不再使用
+      // window.location.hash = `#${mapId}(${gamePos.x},${gamePos.y},${self.lfMap.getZoom()})`;
+      // 修改父控件的x和y，在外面修改
+      self.props.changePos(gamePos.x, gamePos.y, self.lfMap.getZoom());
+    };
+    this.lfMap.on('moveend', this.moveEndHandler);
+
+    // 添加地图指针移动监听，用于显示当前所指位置
+    if (this.mouseMoveHandler)
+      this.lfMap.off('mousemove', this.mouseMoveHandler);
+    this.mouseMoveHandler = function (e) {
+      let imgPos = self.lfMap.project(e.latlng, mapProps.maxZoom);
+      let gamePos = imgPosToGamePos(mapId, [imgPos.x, imgPos.y]);
+      console.log('鼠标指针坐标', gamePos);
+    };
+    this.lfMap.on('mousemove', this.mouseMoveHandler);
+
+    // 切换矢量大地标坐标名称事件监听器，用于更新显示细节层级
     // 移除已经存在的事件监听器
     if(this.posMarkerHandler)
       this.lfMap.off('zoomend', this.posMarkerHandler);
     this.posMarkerHandler = function () {
-      self.updatePosMarker(mapId);
+      updatePosMarker(self, mapId);
     };
     this.lfMap.on('zoomend', this.posMarkerHandler);
-
-    // 初始调用
+    // 初始调用渲染大地标
     this.posMarkerHandler();
 
     // canvas图层
-    this.createCanvasTiles(mapId);
-  }
+    createCanvasTiles(self, mapId);
 
-  updatePosMarker(mapId) {
-    let mapProps = mapsProps[mapId];
-    let zoomLevel = this.lfMap.getZoom();
-    // 更新dom marker
-    let markers = [];
-    if(mapPosNameList[mapId]) {
-      mapPosNameList[mapId].forEach(({x, y, name, des, level}) => {
-        let icon = L.divIcon({
-          className: 'pos-name-marker',
-          html: name,
-          iconAnchor: [25, 25]
-        });
-        if(level < zoomLevel - 1) {
-          let marker = L.marker(
-            this.lfMap.unproject(gamePosToImgPos(mapId, [x, y]), mapProps.maxZoom)
-            ,{
-              pane: 'marker-top-pane',
-              icon: icon
-            });
-          markers.push(marker);
-        }
-      });
-      // 更新显示级别，需要移除旧marker
-      if(this.posNameMarkerLayer)
-        this.lfMap.removeLayer(this.posNameMarkerLayer);
-      this.posNameMarkerLayer = L.layerGroup(markers);
-      this.lfMap.addLayer(this.posNameMarkerLayer);
-    }
-  }
-
-  createCanvasTiles(mapId) {
-    let self = this;
-    let mapProps = mapsProps[mapId];
-
-    // 保存引用，延迟删除用以防闪烁
-    let oldMarkerCanvasLayer = this.markerCanvasLayer;
-    if(this.markerCanvasLayer)
-      this.lfMap.removeLayer(this.markerCanvasLayer);
-
-    // 更新坐标canvas图层
-    this.markerCanvasLayer = new L.GridLayer({
-      tileSize: 256,
-      pane: 'canvas-marker-pane'
-    });
-
-    this.markerCanvasLayer.createTile = function(coords, done) {
-      let tile = L.DomUtil.create('canvas', 'leaflet-tile');
-      let hitTile = L.DomUtil.create('canvas', 'hit-tile');
-
-      let tileSize = this.getTileSize();
-      tile.width = tileSize.x; tile.height = tileSize.y;
-      hitTile.width = tileSize.x; hitTile.height = tileSize.y;
-
-      let ctx = tile.getContext('2d');
-      let hitCtx = hitTile.getContext('2d');
-
-      // 初始化hitCtx
-      hitCtx.fillStyle = 'rgb(255,255,255)';
-      hitCtx.fillRect(0, 0, tileSize.x, tileSize.y);
-
-      // 该tile左上角的像素坐标（与zoom有关）
-      let nwPoint = coords.scaleBy(tileSize);
-      let sePoint = {
-        x: nwPoint.x + tileSize.x,
-        y: nwPoint.y + tileSize.y
-      };
-      let factor = Math.pow(2, mapProps.maxZoom - coords.z);
-      // 缩放至原始图片的像素坐标
-      nwPoint.x *= factor; nwPoint.y *= factor;
-      sePoint.x *= factor; sePoint.y *= factor;
-
-      // 测试用
-      // ctx.strokeStyle = 'rgba(255, 255, 255, 0.3)';
-      // ctx.beginPath();ctx.moveTo(0, 0);ctx.lineTo(tileSize.x-1, 0);ctx.lineTo(tileSize.x-1, tileSize.y-1);ctx.lineTo(0, tileSize.y-1);ctx.closePath();ctx.stroke();
-
-      // 底部水印
-      ctx.save();
-      ctx.translate(128, 128);
-      ctx.rotate(-Math.PI/4);
-      ctx.textAlign = 'center';
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
-      ctx.font='14px Microsoft Yahei';
-      ctx.fillText('段段天刀地图助手', 0, -10);
-      ctx.fillText('www.wuxia.tools', 0, 10);
-      ctx.restore();
-
-      // 测试墨宝坐标
-      let tileData = [];
-      let drawPromises = [];
-      let markerIndex = 0;
-
-      markerTypeList.forEach(({id, name, data}) => {
-        let markerType = id;
-        // 根据是否显示择情获取
-        if(!self.props.showState[id].show)
-          return;
-        // 获取数据
-        let posData = mapPosPath('./' + data, true);
-        // 获取所有需要的icon
-        let iconPromiseList = [];
-        let iconList = posData['icons'].map(({fileName, x, y, anchorX, anchorY}) => {
-          let img = new Image();
-          img.src = iconPath(`./${fileName}`, true);
-          iconPromiseList.push(new Promise(function (resolve) {
-            img.addEventListener('load', function() {
-              resolve();
-            }, false);
-          }));
-          return {
-            img,
-            x, y,
-            anchorX, anchorY
-          };
-        });
-
-        // icon全部加载完毕后执行
-        drawPromises.push(Promise.all(iconPromiseList).then(() => {
-          // 显示所有marker
-          dataToPosList(id, posData, mapId).forEach((posData) => {
-            let xy = gamePosToImgPos(mapId, [posData.x, posData.y]);
-
-            // 判断是否在本tile中，四个方向扩大20px（右侧显示标记，左侧检测扩大75px）
-            if(xy.x >= nwPoint.x - 75 && xy.x <= sePoint.x + 20 && xy.y >= nwPoint.y - 20 && xy.y <= sePoint.y + 20) {
-              let relX = (xy.x - nwPoint.x) / factor;
-              let relY = (xy.y - nwPoint.y) / factor;
-
-              // 地图放大级别高时，绘制详细信息 //todo zoom, logoSize
-              if(coords.z >= 4 && self.props.showState[id].showDetail) {
-                // 双行数据
-                let text1 = `${posData.name}`;
-                let text2 = `${Math.floor(posData.x)},${Math.floor(posData.y)}`;
-                let textWidth = Math.max(ctx.measureText(text1).width, ctx.measureText(text2).width);
-                textWidth = 70; // todo 检测宽度有bug
-                ctx.fillStyle = 'rgba(0,0,0,0.6)';
-                ctx.fillRect(relX, relY - 16, textWidth + 16, 32);
-                ctx.textBaseline = 'middle';
-                ctx.fillStyle = '#fff';
-                ctx.font='14px Microsoft Yahei';
-                ctx.fillText(text1, relX + 16, relY - 8);
-                ctx.fillText(text2, relX + 16, relY + 8);
-
-                // 增加点击检测
-                hitCtx.fillStyle = `#${('000000' + Number(markerIndex).toString(16)).slice(-6)}`;
-                hitCtx.fillRect(relX, relY - 16, textWidth + 16, 32);
-              }
-
-              // 绘制logo
-              let ratio = self.getPixelRatio(ctx);
-              let iconData =  iconList[posData.icon];
-              ctx.drawImage(iconData.img, (relX - iconData.anchorX) * ratio, (relY - iconData.anchorY) * ratio, iconData.x * ratio, iconData.y * ratio);
-
-              hitCtx.fillStyle = `#${('000000' + Number(markerIndex).toString(16)).slice(-6)}`;
-              hitCtx.fillRect(relX - iconData.anchorX, relY - iconData.anchorY, iconData.x, iconData.y);
-
-
-              // todo 数据在data里
-              tileData.push({
-                markerType,
-                relX, relY,
-                imgX: xy.x, imgY: xy.y,
-                posData: posData
-              });
-              markerIndex++;
-            }
-          });
-        }));
-      });
-
-      // 增加点击事件
-      tile.addEventListener('click', (e) => {
-        // 判断位置
-        let ratio = self.getPixelRatio(ctx);
-        let x = e.offsetX * ratio;
-        let y = e.offsetY * ratio;
-
-        let pixel = hitCtx.getImageData(x, y, 1, 1).data;
-        let index = (pixel[0] * 256 + pixel[1]) * 256 + pixel[2];
-        if(index !== 256 * 256 * 256 - 1) {
-          // 点击添加一个临时无大小marker
-          let myIcon = L.divIcon({className: 'marker-div-icon', html: ''});
-          // todo zoom
-          let marker = L.marker(self.lfMap.unproject([tileData[index].imgX, tileData[index].imgY], mapProps.maxZoom), {icon: myIcon}).addTo(self.lfMap);
-          // popup内容
-          let popupDOM = dataToPopup(tileData[index]);
-          let popupDOMWrapper = document.createElement('div');
-          ReactDOM.render(popupDOM, popupDOMWrapper);
-          marker.bindPopup(popupDOMWrapper, {
-            className: 'popup-content'
-          });
-          // todo hack
-          setTimeout(()=> {
-            marker.openPopup();
-          }, 0);
-
-        }
-      });
-
-      // 增加鼠标移动事件，更新指针样式
-      tile.addEventListener('mousemove', (e) => {
-        let ratio = self.getPixelRatio(ctx);
-        let x = e.offsetX * ratio;
-        let y = e.offsetY * ratio;
-        const pixel = hitCtx.getImageData(x, y, 1, 1).data;
-        if(pixel[0] === 255 && pixel[1] === 255 && pixel[2] === 255) {
-          tile.style.cursor = 'inherit';
-        } else {
-          tile.style.cursor = 'pointer';
-        }
-      });
-
-      Promise.all(drawPromises).then(() => {
-        done(null, tile);
-      });
-      return tile;
-    };
-    // 添加新图层
-    this.lfMap.addLayer(this.markerCanvasLayer);
-
-    // 最后移除存在的图层，防闪烁
-    setTimeout(() => {
-      if(oldMarkerCanvasLayer)
-        self.lfMap.removeLayer(oldMarkerCanvasLayer);
-    }, 100);
-
+    // // 更新地图时更新hash
+    // let imgPos = self.lfMap.project(self.lfMap.getCenter(), 4);  // todo zoom 4是正好对应原图像素
+    // let gamePos = imgPosToGamePos(mapId, [imgPos.x, imgPos.y]);
+    // window.location.hash = `#${mapId}(${gamePos.x},${gamePos.y},${self.lfMap.getZoom()})`;
   }
 
   render() {
@@ -453,6 +270,9 @@ class WuxiaLeafletMap extends Component {
           styleName = 'map-wrapper'
           ref={(m) => this.lfMapDOM = m}
         />
+        <div style={{position: 'fixed', bottom: '0', left: '0', width: '100%', height: '30px', background: 'white', zIndex: '1000'}}>
+          {this.state.cursorPos.x}, {this.state.cursorPos.y}
+        </div>
       </div>
     );
   }

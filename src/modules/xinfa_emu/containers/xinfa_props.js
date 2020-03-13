@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import {connect} from "react-redux";
-import {Button, ButtonGroup, Modal, Tab, Table, Tabs} from "react-bootstrap";
+import {connect} from 'react-redux';
+import {Button, ButtonGroup, Modal, Tab, Table, Tabs} from 'react-bootstrap';
 
 import PropsTable from '../components/props_table';
 import WuxiaPanel from '../../tiandao_ui/panel';
 import './css/xinfa_props.css';
 import {calcXinfaProps, calcGongli, calcZhanli, calcSchoolProps, calcAdditionProps} from '../utils/calcProps';
-import {numberWithCommas} from "../utils/displayUtils";
+import {numberWithCommas} from '../utils/displayUtils';
 
 const gemPngPicPath = require.context('../assets/imgs/gem_icon_png', true);
 
@@ -57,7 +57,7 @@ class XinfaProps extends Component {
     return (
       <div>
         <Modal show={this.state.showGemModal} onHide={() => this.setState({showGemModal: false})}
-               styleName='wuxia-modal-wrapper'>
+          styleName='wuxia-modal-wrapper'>
           <Modal.Body styleName='wuxia-modal'>
             <WuxiaPanel title='砭石需求' closeBtn onClose={() => this.setState({showGemModal: false})}>
               <div styleName='gem-panel'>
@@ -86,7 +86,7 @@ class XinfaProps extends Component {
                         >{stone.stoneName}</span>
                         <span styleName='gem-des'>（{stone.stoneLevel}级，第{stone.brkthruLevel}重{stone.shujiId}号枢机）</span>
                       </div>
-                    )
+                    );
                   }) :
                   '无砭石需求'
                 }
@@ -123,8 +123,8 @@ class XinfaProps extends Component {
         </div>
         <div>
           <Button
-            block bsStyle='primary'
-            onClick={() => {this.setState({showGemModal: true})}}
+            block variant='primary'
+            onClick={() => {this.setState({showGemModal: true});}}
           >
             显示所需砭石
           </Button>

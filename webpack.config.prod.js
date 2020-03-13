@@ -203,7 +203,6 @@ module.exports = function(env) {
             }
             // 'css-loader?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]',
             // 'postcss-loader',
-            // 'sass-loader',
           ]
         }, {
           test: /\.(sa|sc|c)ss$/,
@@ -212,7 +211,6 @@ module.exports = function(env) {
             MiniCssExtractPlugin.loader,
             'css-loader',
             // 'postcss-loader',
-            // 'sass-loader',
           ]
         },
         {

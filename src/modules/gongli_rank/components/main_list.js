@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Button, Col, Grid, PageHeader, Panel, Row, Table} from 'react-bootstrap';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import moment from 'moment';
@@ -9,8 +8,8 @@ import {Helmet} from 'react-helmet';
 
 import areaList from '../assets/json/area.json';
 import serverList from '../assets/json/server.json';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import Link from 'react-router-dom/es/Link';
+import { Link } from 'react-router-dom';
+import {Button, Card, Col, Row, Table} from 'antd';
 
 class MainList extends Component {
   constructor(props) {
@@ -56,7 +55,7 @@ class MainList extends Component {
 
   handleDateChange(date) {
     this.setState({
-      date: date
+      date: moment(date)
     }, () => {
       this.updateRankData();
     });
@@ -79,26 +78,23 @@ class MainList extends Component {
     }
 
     return(
-      <Col md={12}>
-        <Panel bsStyle='success'>
-          <Panel.Heading>全大区功力排行榜</Panel.Heading>
-          <Panel.Body>
-            <Table striped bordered condensed hover>
-              <thead>
-                <tr>
-                  <th>服务器</th>
-                  <th>服务器排名</th>
-                  <th>昵称</th>
-                  <th>门派</th>
-                  <th>功力</th>
-                </tr>
-              </thead>
-              <tbody>
-                {rankList}
-              </tbody>
-            </Table>
-          </Panel.Body>
-        </Panel>
+      <Col md={24}>
+        <Card title="全大区功力排行榜">
+          <table>
+            <thead>
+              <tr>
+                <th>服务器</th>
+                <th>服务器排名</th>
+                <th>昵称</th>
+                <th>门派</th>
+                <th>功力</th>
+              </tr>
+            </thead>
+            <tbody>
+              {rankList}
+            </tbody>
+          </table>
+        </Card>
       </Col>
     );
   }
@@ -129,28 +125,25 @@ class MainList extends Component {
           }
 
           return(
-            <Col md={6} lg={4} key={serverName}>
-              <Panel bsStyle='success'>
-                <Panel.Heading>{serverName}</Panel.Heading>
-                <Panel.Body>
-                  <Table striped bordered condensed hover>
-                    <thead>
-                      <tr>
-                        <th>#</th>
-                        <th>昵称</th>
-                        <th>门派</th>
-                        <th>功力</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {rankList}
-                    </tbody>
-                  </Table>
-                  <div>
-                    <Link to={`/rank/${serverId}`}><Button bsStyle='success'>查看更多</Button></Link>
-                  </div>
-                </Panel.Body>
-              </Panel>
+            <Col md={12} lg={8} key={serverName}>
+              <Card title={serverName}>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>昵称</th>
+                      <th>门派</th>
+                      <th>功力</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {rankList}
+                  </tbody>
+                </table>
+                <div>
+                  <Link to={`/rank/${serverId}`}><Button type="primary">查看更多</Button></Link>
+                </div>
+              </Card>
             </Col>
           );
         });
@@ -177,37 +170,35 @@ class MainList extends Component {
           <meta name="viewport" content="width=device-width"/>
         </Helmet>
 
-        <Grid>
-          <Row>
-            <Col xs={12}>
-              <Col md={6}>
-                <PageHeader>天刀功力排行榜</PageHeader>
-                <h3>日期选择</h3>
-                <h3>{this.state.date.format('YYYY-MM-DD')}</h3>
-                <DatePicker selected={this.state.date.toDate()}
-                  onChange={this.handleDateChange}
-                  maxDate={moment().add(0, 'days').toDate()}
-                  locale='zh-cn'
-                  readOnly
-                  inline
-                />
-                <h3>说明</h3>
-                <p>本工具记录了2018年2月以来每一天凌晨1点到3点期间抓取的功力排行榜。可以查询区服历史功力排行以及单角色历史排行。
-                  受到服务器维护等情况影响，期间有若干天数据缺失还请谅解。由于抓取数据不稳定，功力排行榜出现数据异常时可联系反馈给站长段段解决。</p>
-              </Col>
-              <Col md={6}>
-                <PageHeader>全大区功力排行榜Top20</PageHeader>
-                {this.renderTop20List()}
-              </Col>
+        <Row>
+          <Col xs={24}>
+            <Col md={12}>
+              <div>天刀功力排行榜</div>
+              <h3>日期选择</h3>
+              <h3>{this.state.date.format('YYYY-MM-DD')}</h3>
+              <DatePicker selected={this.state.date.toDate()}
+                onChange={this.handleDateChange}
+                maxDate={moment().add(0, 'days').toDate()}
+                locale='zh-cn'
+                readOnly
+                inline
+              />
+              <h3>说明</h3>
+              <p>本工具记录了2018年2月以来每一天凌晨1点到3点期间抓取的功力排行榜。可以查询区服历史功力排行以及单角色历史排行。
+                受到服务器维护等情况影响，期间有若干天数据缺失还请谅解。由于抓取数据不稳定，功力排行榜出现数据异常时可联系反馈给站长段段解决。</p>
             </Col>
-          </Row>
-          <Row>
-            <Col xs={12}>
-              <PageHeader>各大区各服功力排行榜</PageHeader>
-              {this.renderServerTop10List()}
+            <Col md={12}>
+              <div>全大区功力排行榜Top20</div>
+              {this.renderTop20List()}
             </Col>
-          </Row>
-        </Grid>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={24}>
+            <div>各大区各服功力排行榜</div>
+            {this.renderServerTop10List()}
+          </Col>
+        </Row>
       </div>
     );
   }

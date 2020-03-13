@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './css/panel.css';
-import {Glyphicon} from "react-bootstrap";
 
 export default (props) => {
   return (
@@ -17,7 +16,7 @@ export default (props) => {
         styleName='close-btn'
         onClick={props.onClose}
       >
-        <Glyphicon glyph='remove' />
+        x
       </div>
       }
 

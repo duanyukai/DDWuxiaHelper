@@ -4,6 +4,10 @@
     box-shadow: none;
 }
 
+.wuxia-modal-wrapper :global .modal-dialog {
+    max-width: 560px;
+}
+
 .wuxia-modal {
     background: transparent;
 }

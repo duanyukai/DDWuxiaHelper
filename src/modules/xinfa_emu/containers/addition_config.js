@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import {Button, ButtonGroup, Dropdown, MenuItem, Table} from "react-bootstrap";
 import range from 'lodash/range';
 import {
   setFiveDimAdditionProps
-} from "../actions";
-import {connect} from "react-redux";
+} from '../actions';
+import {connect} from 'react-redux';
 
 import './css/addition_config.css';
 
 import additionPercentageTable from '../assets/json/addition_percentage_table.json';
 import chenghaoList from '../assets/json/addition_id_list.json';
+import {Button, ButtonGroup, Dropdown} from 'react-bootstrap';
 
 class AdditionConfig extends Component {
   constructor(props) {
@@ -38,7 +38,7 @@ class AdditionConfig extends Component {
             ].map(({id, name, enabled}) => {
               let schoolId;
               try {
-                schoolId = this.props.additionConfig.schoolId || 'TB'
+                schoolId = this.props.additionConfig.schoolId || 'TB';
               } catch(e) {
                 schoolId = 'TB';
               }
@@ -46,7 +46,7 @@ class AdditionConfig extends Component {
                 <Button
                   key={id}
                   disabled={!enabled}
-                  bsStyle={schoolId === id ? 'default' : 'primary'}
+                  variant={schoolId === id ? 'default' : 'primary'}
                   onClick={() => {
                     let newConfig = { ...this.props.additionConfig };
                     newConfig.schoolId = id;
@@ -59,7 +59,7 @@ class AdditionConfig extends Component {
             })
           }
         </ButtonGroup>
-        <Table styleName='chenghao-table'>
+        <table styleName='chenghao-table'>
           <thead>
             <tr>
               <th>加成</th>
@@ -88,11 +88,11 @@ class AdditionConfig extends Component {
                   return(
                     <td key={dimId}>
                       <Dropdown id={`shenbing-selector-${dimId}`}>
-                        <Dropdown.Toggle bsStyle='primary' bsSize='xsmall'>{currentLevelData['title']},<br /> +{this.toPercentage(currentLevelData[dimId])}</Dropdown.Toggle>
+                        <Dropdown.Toggle variant='primary' size='sm'>{currentLevelData['title']},<br /> +{this.toPercentage(currentLevelData[dimId])}</Dropdown.Toggle>
                         <Dropdown.Menu styleName='config-selector-menu'>
                           {
                             shenbingLevelList.map((shenbingData, i) => (
-                              <MenuItem
+                              <Dropdown.Item
                                 eventKey={i}
                                 key={i}
                                 onSelect={() => {
@@ -102,7 +102,7 @@ class AdditionConfig extends Component {
                                   newConfig['shenbingLevels'][dimId] = i;
                                   this.props.setFiveDimAdditionProps(newConfig);
                                 }}
-                              >{shenbingData['title']}, {shenbingData['des']}</MenuItem>
+                              >{shenbingData['title']}, {shenbingData['des']}</Dropdown.Item>
                             ))
                           }
                         </Dropdown.Menu>
@@ -124,11 +124,11 @@ class AdditionConfig extends Component {
                   <tr key={i}>
                     <td>
                       <Dropdown id={`${stateId}-selector`}>
-                        <Dropdown.Toggle bsStyle='primary' bsSize='small' style={{minWidth: '105px'}}>{btnTitle}<br />{additionPercentageTable[dataId][level]['title']}</Dropdown.Toggle>
+                        <Dropdown.Toggle variant='primary' size='sm' style={{minWidth: '105px'}}>{btnTitle}<br />{additionPercentageTable[dataId][level]['title']}</Dropdown.Toggle>
                         <Dropdown.Menu styleName='config-selector-menu'>
                           {
                             additionPercentageTable[dataId].map((data, i) => (
-                              <MenuItem
+                              <Dropdown.Item
                                 eventKey={i}
                                 key={i}
                                 onSelect={() => {
@@ -136,7 +136,7 @@ class AdditionConfig extends Component {
                                   newConfig[stateId] = i;
                                   this.props.setFiveDimAdditionProps(newConfig);
                                 }}
-                              >{data['title']}, {data['des']}</MenuItem>
+                              >{data['title']}, {data['des']}</Dropdown.Item>
                             ))
                           }
                         </Dropdown.Menu>
@@ -180,7 +180,7 @@ class AdditionConfig extends Component {
               }
             </tr>
           </tbody>
-        </Table>
+        </table>
       </div>
     );
   }

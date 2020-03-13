@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import range from 'lodash/range';
-import Chart from '../../../../../node_modules/chart.js/src/chart';
+import Chart from 'chart.js';
 class BarChart extends Component {
   constructor(props) {
     super(props);

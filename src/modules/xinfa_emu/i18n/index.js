@@ -1,22 +1,17 @@
 import i18next from 'i18next';
-// import LanguageDetector from 'i18next-browser-languagedetector';
-// todo 暂时不启用语言
+import { initReactI18next } from 'react-i18next';
+
 import zh_cn from './zh-cn.json';
 import ko_kr from './ko-kr.json';
 
 i18next
   // .use(LanguageDetector)
+  .use(initReactI18next)
   .init({
     fallbackLng: 'zh',
+    lng: 'zh',
     debug: true,
     resources: {
-      en: {
-        translation: {
-          age: { label: 'Age', },
-          home: { label: 'Home', },
-          name: { label: 'Name111', },
-        },
-      },
       'zh': zh_cn,
       'kr': ko_kr
     },
@@ -32,6 +27,5 @@ i18next
       nsMode: 'default'
     }
   });
-
 
 export default i18next;

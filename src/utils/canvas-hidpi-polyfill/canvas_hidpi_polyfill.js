@@ -20,7 +20,10 @@ let CanvasFuncList = [
   'createLinearGradient',
   'stroke',
   'fillText',
-  'strokeText'
+  'strokeText',
+  'drawImage',  // dd 新增drawImage支持
+  'getImageData',  // dd 新增getImageData支持
+  'ellipse'
 ];
 
 let HTMLCanvasElementPrototypeBackup = {};
@@ -102,7 +105,10 @@ export function canvasHiDPIPolyfill() {
         'rect': 'all',
         'translate': 'all',
         'createRadialGradient': 'all',
-        'createLinearGradient': 'all'
+        'createLinearGradient': 'all',
+        'drawImage': [1,2,3,4],  // dd 增加对drawImage的支持
+        'getImageData': 'all',  // dd 增加对getImageData的支持
+        'ellipse': [0,1,2,3]  // dd 增加对ellipse的支持
       };
 
     if (pixelRatio === 1) return;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, Col, Grid, PageHeader, Panel, Row, Table} from 'react-bootstrap';
+import {Button, Col, Container, Card, Row, Table} from 'react-bootstrap';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import moment from 'moment';
@@ -8,7 +8,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import {Helmet} from 'react-helmet';
 
 import serverList from '../assets/json/server.json';
-import Link from 'react-router-dom/es/Link';
+import { Link } from 'react-router-dom';
 
 class SingleRoleList extends Component {
   constructor(props) {
@@ -79,9 +79,9 @@ class SingleRoleList extends Component {
 
     return(
       <Col md={12}>
-        <Panel bsStyle='success'>
-          <Panel.Body>
-            <Table striped bordered condensed hover>
+        <Card>
+          <Card.Body>
+            <Table striped bordered size="sm" hover>
               <thead>
                 <tr>
                   <th>日期</th>
@@ -95,8 +95,8 @@ class SingleRoleList extends Component {
                 {rankList}
               </tbody>
             </Table>
-          </Panel.Body>
-        </Panel>
+          </Card.Body>
+        </Card>
       </Col>
     );
   }
@@ -130,10 +130,10 @@ class SingleRoleList extends Component {
           <meta name="description" content="天刀功力排行榜给您提供每日的所有天刀服务器的最新功力排名数据，同时支持选择日期查询历史功力排名。" />
           <meta name="viewport" content="width=device-width"/>
         </Helmet>
-        <Grid>
+        <Container>
           <Row>
             <Col xs={12}>
-              <PageHeader>天刀功力排行榜<small><Link to="/rank">返回功力榜首页</Link></small></PageHeader>
+              <div>天刀功力排行榜<small><Link to="/rank">返回功力榜首页</Link></small></div>
               <h3>日期选择</h3>
               <h3>{this.state.startDate.format('YYYY-MM-DD')}至{this.state.endDate.format('YYYY-MM-DD')}</h3>
               <h3>说明</h3>
@@ -166,11 +166,11 @@ class SingleRoleList extends Component {
           </Row>
           <Row>
             <Col xs={12}>
-              <PageHeader>{serverList[this.state.serverId]}“{this.state.roleName}”玩家功力历史数据</PageHeader>
+              <div>{serverList[this.state.serverId]}“{this.state.roleName}”玩家功力历史数据</div>
               {this.renderSingleServerAll()}
             </Col>
           </Row>
-        </Grid>
+        </Container>
       </div>
     );
   }

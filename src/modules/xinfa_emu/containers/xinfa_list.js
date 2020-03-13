@@ -10,7 +10,7 @@ const xinfaPicPath = require.context('../assets/imgs/xinfa_icon', true);
 import xinfaBgBlank from '../assets/imgs/ui/xinfa_bg_blank.png';
 
 import './css/xinfa_list.css';
-import {Button, ButtonGroup, Dropdown, DropdownButton, Glyphicon, MenuItem} from "react-bootstrap";
+import {Button, ButtonGroup, Dropdown, DropdownButton, Glyphicon, DropdownItem} from "react-bootstrap";
 import range from "lodash/range";
 
 class XinfaList extends Component {
@@ -48,23 +48,23 @@ class XinfaList extends Component {
             <span styleName='xinfa-name'>{xinfa.name}</span>
             <span styleName='xinfa-level'>
               顺序[{
-              this.props.curBrkthruData[xinfa.name] ?
+                this.props.curBrkthruData[xinfa.name] ?
                 this.props.curBrkthruData[xinfa.name].fulfilledLevel + 1 : 0
               }]重
             </span>
             <span styleName='xinfa-placement'>
-              <Dropdown bsSize='xsmall' id={`${xinfa.name}-dropdown`}>
-                <Dropdown.Toggle bsStyle='primary'>放置心法</Dropdown.Toggle>
+              <Dropdown size='sm' id={`${xinfa.name}-dropdown`}>
+                <Dropdown.Toggle variant='primary' size="sm">放置心法</Dropdown.Toggle>
                 <Dropdown.Menu styleName='select-slot-dropdown-menu'>
                   {
                     ['心法槽·壹 100%', '心法槽·贰 60%', '心法槽·叁 30%', '心法槽·肆 10%'].map((name, i) => (
-                      <MenuItem eventKey={name} key={name}
+                      <DropdownItem eventKey={name} key={name}
                         onSelect={(e) => {
                           this.placeXinfaSlot(i, xinfa.name);
                         }}
                       >
                         {name}
-                      </MenuItem>
+                      </DropdownItem>
                     ))
                   }
                 </Dropdown.Menu>

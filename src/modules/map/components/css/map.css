@@ -38,6 +38,38 @@
     height: auto !important;
 }
 
+:global .click-pos-name-marker {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
+:global .click-pos-name-marker span {
+    display: block;
+    border-style: solid;
+    border-width: 17px 21px 19px;
+    -moz-border-image: url(../../assets/imgs/icons/pos_border.png) 17 21 19 repeat;
+    -webkit-border-image: url(../../assets/imgs/icons/pos_border.png) 17 21 19 repeat;
+    -o-border-image: url(../../assets/imgs/icons/pos_border.png) 17 21 19 repeat;
+    border-image: url(../../assets/imgs/icons/pos_border.png) 17 21 19 fill repeat;
+    width: 56px !important;
+    padding: 7px 0;
+    /*min-height: 80px;*/
+    font-size: 14px !important;
+    line-height: 14px;
+    font-weight: bold;
+    text-orientation: upright;
+    height: auto !important;
+}
+
+:global .click-pos-name-marker img {
+    max-width: 70px;
+    max-height: 70px;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+
 /*.mobao-table td:first-child {*/
     /*font-weight: bold;*/
     /*text-align: center;*/

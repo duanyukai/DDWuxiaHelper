@@ -6,7 +6,7 @@ import WuxiaPanel from '../../tiandao_ui/panel';
 import ShujiTooltip from './shuji_tooltip';
 
 import shujiBg from '../assets/imgs/ui/shuji_bg.svg';
-import {Button, ButtonGroup, Dropdown, MenuItem, OverlayTrigger, Tooltip} from 'react-bootstrap';
+import {Button, ButtonGroup, Dropdown, DropdownItem, OverlayTrigger, Tooltip} from 'react-bootstrap';
 
 import { fastFulFillLevels, fastBrkthruShuji, chongxue } from '../actions/index';
 
@@ -19,7 +19,7 @@ const skillPicPath = require.context('../assets/imgs/skill_icon', true);
 
 import qianxiuPropsBase from '../assets/json/qianxiu/qianxiu_props_base.json';
 import qianxiuPointList from '../assets/json/qianxiu/qianxiu_123.json';
-import {selectQianxiuLevel, selectSkillLevel} from "../actions";
+import {selectQianxiuLevel, selectSkillLevel} from '../actions';
 
 // 枢机在SVG中的坐标，每一行是一层，中心第0层
 let shujiPos = [
@@ -85,7 +85,7 @@ class XinfaShuji extends Component {
   changeToolTipVisibility(v) {
     this.setState({
       toolTipVisibility: v
-    })
+    });
   }
 
   renderReinforce() {
@@ -102,7 +102,7 @@ class XinfaShuji extends Component {
             />
           </OverlayTrigger>
         );
-      })
+      });
     } else {
       return null;
     }
@@ -192,7 +192,7 @@ class XinfaShuji extends Component {
           </text>
         </g>
       );
-      }
+    }
     );
     // console.log(shujis);
     return shujis;
@@ -283,11 +283,11 @@ class XinfaShuji extends Component {
               styleName={glow ? 'shuji-line' : 'shuji-line-dark'}
             >
               <line x1={shujiPos[shujiId][0]} y1={shujiPos[shujiId][1]}
-                    x2={shujiPos[centerId][0]} y2={shujiPos[centerId][1]}
+                x2={shujiPos[centerId][0]} y2={shujiPos[centerId][1]}
 
               />
               <line x1={shujiPos[centerId][0]} y1={shujiPos[centerId][1]}
-                    x2={shujiPos[childId][0]} y2={shujiPos[childId][1]}
+                x2={shujiPos[childId][0]} y2={shujiPos[childId][1]}
               />
             </g>
           );
@@ -346,12 +346,12 @@ class XinfaShuji extends Component {
           <div key={skill.name} styleName='xinfa-skill'>
             <img src={skillPicPath('./' + skill.name + '.jpg', true)} styleName='xinfa-skill-img'/>
             <span>{skill.name}</span>
-            <Dropdown bsSize='xsmall' id={`${skill.name}-dropdown`} dropup>
-              <Dropdown.Toggle bsStyle='primary' noCaret>{this.props.skillLevelsData[skillName] || 0}重</Dropdown.Toggle>
+            <Dropdown size='sm' id={`${skill.name}-dropdown`} drop="up">
+              <Dropdown.Toggle variant='primary'>{this.props.skillLevelsData[skillName] || 0}重</Dropdown.Toggle>
               <Dropdown.Menu styleName='skill-dropdown-menu'>
                 {
                   skill.levels.map((level, i) => (
-                    <MenuItem eventKey={i} key={i}
+                    <DropdownItem eventKey={i} key={i}
                       onSelect={(e) => this.props.selectSkillLevel(xinfaName, skillName, i)}
                     >
                       <div>第{i}重</div>
@@ -361,7 +361,7 @@ class XinfaShuji extends Component {
                         <div>总消耗修为：{level.xiuweiSum || 0}</div>
                         { level.shayi && <div>消耗杀意：{level.shayi}</div>}
                       </div>
-                    </MenuItem>
+                    </DropdownItem>
                   )).reverse()
                 }
               </Dropdown.Menu>
@@ -393,7 +393,7 @@ class XinfaShuji extends Component {
           });
           shujiList[shujiId].children.forEach((childId) => {
             dfs(childId);
-          })
+          });
         }
         dfs(0);
         this.props.fastBrkthruShuji(
@@ -427,33 +427,33 @@ class XinfaShuji extends Component {
       // 计算高亮显示属性
       let highlight = 0;
       switch (type) {
-        case 'chongxue':
-          if(level <= this.props.fulfilledLevel) {
-            highlight = 2;
-          } else if(level === this.props.fulfilledLevel + 1) {
-            highlight = 1;
-          }
-          break;
-        case 'view':
-          if(level === this.state.curLevel) {
-            highlight = 3;
-          }
-          break;
+      case 'chongxue':
+        if(level <= this.props.fulfilledLevel) {
+          highlight = 2;
+        } else if(level === this.props.fulfilledLevel + 1) {
+          highlight = 1;
+        }
+        break;
+      case 'view':
+        if(level === this.state.curLevel) {
+          highlight = 3;
+        }
+        break;
       }
       let color;
       switch (highlight) {
-        case 1:
-          color = '#196194';
-          break;
-        case 2:
-          color = '#2180c4';
-          break;
-        case 3:
-          color = '#439edf';
-          break;
-        default:
-          color = '';
-          break;
+      case 1:
+        color = '#196194';
+        break;
+      case 2:
+        color = '#2180c4';
+        break;
+      case 3:
+        color = '#439edf';
+        break;
+      default:
+        color = '';
+        break;
       }
       return (
         <Button key={level} onClick={theOnClick} styleName='view-btn-regular' style={{
@@ -474,40 +474,38 @@ class XinfaShuji extends Component {
       {name: '根骨', id: 'gg'},
       {name: '洞察', id: 'dc'},
       {name: '身法', id: 'sf'}
-      ].map(({name, id: dimId}, i) => {
-        let curLevel = this.props.qianxiuData[dimId];
-        let xinfaName = this.props.xinfaData.name;
-        let qianxiuBaseProp = qianxiuPropsBase[xinfaName][i];
-        return(
-          <span key={dimId}>
-            <span>{name}</span>{' '}
-            <Dropdown
-              bsSize='xsmall'
-              id={`${dimId}-dropdown`}
-              dropup
-              pullRight
-            >
-              <Dropdown.Toggle bsStyle='primary'>
-                {`lv${curLevel}, +${curLevel * qianxiuBaseProp}`}
-              </Dropdown.Toggle>
-              <Dropdown.Menu styleName='qianxiu-dropdown-menu'>
-                {
-                  range(maxLevel + 1).map((level) => (
-                    <MenuItem
-                      eventKey={level}
-                      key={level}
-                      onSelect={(e) => this.props.selectQianxiuLevel(xinfaName, dimId, level)}
-                    >
+    ].map(({name, id: dimId}, i) => {
+      let curLevel = this.props.qianxiuData[dimId];
+      let xinfaName = this.props.xinfaData.name;
+      let qianxiuBaseProp = qianxiuPropsBase[xinfaName][i];
+      return(
+        <span key={dimId}>
+          <span>{name}</span>{' '}
+          <Dropdown
+            style={{display: 'inline-block'}}
+            id={`${dimId}-dropdown`}
+          >
+            <Dropdown.Toggle variant='primary' size="sm">
+              {`lv${curLevel}, +${curLevel * qianxiuBaseProp}`}
+            </Dropdown.Toggle>
+            <Dropdown.Menu styleName='qianxiu-dropdown-menu'>
+              {
+                range(maxLevel + 1).map((level) => (
+                  <DropdownItem
+                    eventKey={level}
+                    key={level}
+                    onSelect={(e) => this.props.selectQianxiuLevel(xinfaName, dimId, level)}
+                  >
                       lv {String('00' + level).slice(-2)},
-                      {name}+{String('000' + qianxiuBaseProp * level).slice(-3)},
+                    {name}+{String('000' + qianxiuBaseProp * level).slice(-3)},
                       累计 {String('00000' + qianxiuPointList[level][1]).slice(-5)} 潜修点
-                    </MenuItem>
-                  )).reverse()
-                }
-              </Dropdown.Menu>
-            </Dropdown>{' '}
-          </span>
-        );
+                  </DropdownItem>
+                )).reverse()
+              }
+            </Dropdown.Menu>
+          </Dropdown>{' '}
+        </span>
+      );
     });
   }
 
@@ -553,7 +551,7 @@ class XinfaShuji extends Component {
                   // })
                   // 仅显示心法概述
                   this.props.xinfaData.simpleDes.split('\\n')[0].replace('。', '。$').split('\$').map((item, key) => {
-                    return <span key={key}>{item}<br/></span>
+                    return <span key={key}>{item}<br/></span>;
                   })
                 }
               </div>

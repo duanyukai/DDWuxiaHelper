@@ -11,6 +11,11 @@
     width: 20%;
 }
 
+.prop-table td {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
 .prop-table td:nth-child(n) {
     text-align: center;
 }

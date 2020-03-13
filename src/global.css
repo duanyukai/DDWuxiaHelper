@@ -85,3 +85,27 @@ html {
 :global table.dd-table :global .light{
     background-color: #fff;
 }
+
+/* bootstrap 4 样式兼容3 */
+:global .btn {
+    white-space: nowrap;
+}
+
+:global .btn.btn-primary {
+    font-size: 12px;
+    background: #286090;
+    border: 1px solid #2d6a93;
+}
+
+:global .btn.btn-default {
+    font-size: 12px;
+    background: #fff;
+}
+
+:global .dropdown-menu :global .drop-item {
+    font-size: 12px;
+}
+
+:global .dropdown-item {
+    font-size: 12px;
+}

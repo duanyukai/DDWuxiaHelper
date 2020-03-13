@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Loadable from 'react-loadable';
 import Cookies from 'js-cookie';
+import { hot } from 'react-hot-loader';
 
 import {
   BrowserRouter,
@@ -11,7 +12,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.css';
 import 'antd/dist/antd.css';
 
-import {Button, Nav, Navbar, NavDropdown, NavItem, Modal, Collapse, Well} from "react-bootstrap";
+import {Button, Nav, Navbar, NavDropdown, NavItem, Modal, Collapse} from "react-bootstrap";
 import {LinkContainer} from "react-router-bootstrap";
 
 import pay from '../assets/imgs/pay.png';
@@ -30,6 +31,7 @@ import Drawer from "antd/es/drawer";
 
 import changelogMd from 'raw-loader!../../CHANGELOG.md';
 import ReactMarkdown from "react-markdown";
+import GlobalNavbar from "./global_navbar";
 
 const XinfaEmu = Loadable({
   loader: () => import('./xinfa_emu/index'),
@@ -141,36 +143,37 @@ class Index extends Component {
             <meta name="description" content="段段天刀综合助手是一款针对“天涯明月刀”网游的综合工具，包括最新最准确的天刀心法模拟器、天刀地图助手、时辰吉凶表、帮派技能模拟器、数据百科(小师妹游历玩法数据大全、物品数据、词缀数据)等。" />
             <meta name="viewport" content="width=device-width"/>
           </Helmet>
-          <Navbar id="global-navbar" inverse collapseOnSelect fixedTop>
-            <Navbar.Header>
-              <Navbar.Brand>
-                <Link to='/'>段段天刀综合助手</Link>
-              </Navbar.Brand>
-              <Navbar.Toggle/>
-            </Navbar.Header>
-            <Navbar.Collapse>
-              <Nav>
-                {/*<LinkContainer to='/'><NavItem eventKey={1}>首页</NavItem></LinkContainer>*/}
-                <LinkContainer to='/xinfa'><NavItem eventKey={2}>心法模拟器</NavItem></LinkContainer>
-                <LinkContainer to='/shimei'><NavItem eventKey={5}>小师妹模拟器</NavItem></LinkContainer>
-                <LinkContainer to='/map'><NavItem eventKey={3}>地图助手</NavItem></LinkContainer>
-                <LinkContainer to='/equip'><NavItem eventKey={3.3}>装备模拟器</NavItem></LinkContainer>
-                <LinkContainer to='/calendar'><NavItem eventKey={4}>天涯吉凶时刻</NavItem></LinkContainer>
-                <LinkContainer to='/data'><NavItem eventKey={6}>数据百科</NavItem></LinkContainer>
-                <NavDropdown eventKey={7} title='其他功能' id='others-nav-dropdown'>
-                  <LinkContainer to='/family-tech'><NavItem eventKey={7.3}>帮派技能模拟器</NavItem></LinkContainer>
-                  <LinkContainer to='/rank'><NavItem eventKey={7.1}>功力排行榜</NavItem></LinkContainer>
-                  <LinkContainer to='/panorama'><NavItem eventKey={7.2}>天刀全景图</NavItem></LinkContainer>
-                </NavDropdown>
-              </Nav>
-              <Nav pullRight>
-                <NavItem
-                  eventKey={1}
-                  onClick={() => this.setState({showModal20180501: true})}
-                ><b styleName="appCss.donate-link">联系与捐助</b></NavItem>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+          {/*<Navbar id="global-navbar" inverse collapseOnSelect fixedTop>*/}
+          {/*  <Navbar.Header>*/}
+          {/*    <Navbar.Brand>*/}
+          {/*      <Link to='/'>段段天刀综合助手</Link>*/}
+          {/*    </Navbar.Brand>*/}
+          {/*    <Navbar.Toggle/>*/}
+          {/*  </Navbar.Header>*/}
+          {/*  <Navbar.Collapse>*/}
+          {/*    <Nav>*/}
+          {/*      /!*<LinkContainer to='/'><NavItem eventKey={1}>首页</NavItem></LinkContainer>*!/*/}
+          {/*      <LinkContainer to='/xinfa'><NavItem eventKey={2}>心法模拟器</NavItem></LinkContainer>*/}
+          {/*      <LinkContainer to='/shimei'><NavItem eventKey={5}>小师妹模拟器</NavItem></LinkContainer>*/}
+          {/*      <LinkContainer to='/map'><NavItem eventKey={3}>地图助手</NavItem></LinkContainer>*/}
+          {/*      <LinkContainer to='/equip'><NavItem eventKey={3.3}>装备模拟器</NavItem></LinkContainer>*/}
+          {/*      <LinkContainer to='/calendar'><NavItem eventKey={4}>天涯吉凶时刻</NavItem></LinkContainer>*/}
+          {/*      <LinkContainer to='/data'><NavItem eventKey={6}>数据百科</NavItem></LinkContainer>*/}
+          {/*      <NavDropdown eventKey={7} title='其他功能' id='others-nav-dropdown'>*/}
+          {/*        <LinkContainer to='/family-tech'><NavItem eventKey={7.3}>帮派技能模拟器</NavItem></LinkContainer>*/}
+          {/*        <LinkContainer to='/rank'><NavItem eventKey={7.1}>功力排行榜</NavItem></LinkContainer>*/}
+          {/*        <LinkContainer to='/panorama'><NavItem eventKey={7.2}>天刀全景图</NavItem></LinkContainer>*/}
+          {/*      </NavDropdown>*/}
+          {/*    </Nav>*/}
+          {/*    <Nav pullRight>*/}
+          {/*      <NavItem*/}
+          {/*        eventKey={1}*/}
+          {/*        onClick={() => this.setState({showModal20180501: true})}*/}
+          {/*      ><b styleName="appCss.donate-link">联系与捐助</b></NavItem>*/}
+          {/*    </Nav>*/}
+          {/*  </Navbar.Collapse>*/}
+          {/*</Navbar>*/}
+          <GlobalNavbar />
           <div styleName="appCss.changelog-wrapper">
             <div styleName="appCss.changelog-wrapper-2">
               <div
@@ -214,12 +217,12 @@ class Index extends Component {
                 <p>
                   同时段段将秉持最初的服务思想，为大家制作<b>免费使用</b>的各种走心好用的工具。当然也离不开大家的帮助。近日网站访问流量骤增，服务器压力也较大。您可以从以下方式来帮助我：
                 </p>
-                <Button bsStyle="primary" onClick={() => this.setState({ open: !this.state.open })}>
+                <Button variant="primary" onClick={() => this.setState({ open: !this.state.open })}>
                   点击展开
                 </Button>
                 <Collapse in={this.state.open}>
                   <div>
-                    <Well>
+                    <div>
                       <dl>
                         <dt><b>1.在github上为本项目star一下~</b></dt>
                         <dd>本项目为开源项目，地址<a target="_blank"  href="https://github.com/duanyukai/DDWuxiaHelper">https://github.com/duanyukai/DDWuxiaHelper</a>，虽然时间紧，代码写的比较随意比较烂，但是你的Star是我最大的动力！</dd>
@@ -229,13 +232,13 @@ class Index extends Component {
                         <dd>段段现在还是一个0收入的读研的程序猿，您可以通过下方二维码为我捐助，捐助可以匿名或注明ID，并且我会考虑是否可以做一个捐助列表放在网站上。</dd>
                         <img style={{width: '100%'}} src={pay} />
                       </dl>
-                    </Well>
+                    </div>
                   </div>
                 </Collapse>
               </Modal.Body>
               <Modal.Footer>
-                <Button bsStyle="primary" onClick={() => this.setState({showModal20180501: false})}>本次关闭</Button>
-                <Button bsStyle="primary" onClick={() => {
+                <Button variant="primary" onClick={() => this.setState({showModal20180501: false})}>本次关闭</Button>
+                <Button variant="primary" onClick={() => {
                   Cookies.set('showModal20180501', true, { expires: 365 });
                   this.setState({showModal20180501: false})
                 }}>不再显示<small>（页面右上角可重新打开）</small></Button>
@@ -243,7 +246,7 @@ class Index extends Component {
             </Modal>
           </div>
           {/*Router*/}
-          <div style={{marginTop: "50px"}}>
+          <div style={{marginTop: 46}}>
             <Switch>
               <Route exact path='/' component={Home}/>
               <Route path='/xinfa' component={XinfaEmu}/>
@@ -299,4 +302,5 @@ class Index extends Component {
   }
 }
 
-export default Index;
+// export default Index;
+export default process.env.NODE_ENV === 'development' ? hot(module)(Index) : Index;

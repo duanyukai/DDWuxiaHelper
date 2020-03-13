@@ -46,7 +46,7 @@
 }
 
 .map-btn-matrix-1 {
-    
+    display: inline-block;
 }
 
 
@@ -73,7 +73,7 @@
 
 /* Decorations */
 .map-btn-matrix-1 {
-    margin: 20px;
+    margin: 10px 20px 0;
 }
 
 /* media query menu 宽度 */
@@ -90,3 +90,92 @@
     top: 7px;
 }
 
+.map-btn {
+    border: none;
+    background: none;
+    padding: 4px 8px;
+    text-align: center;
+    width: 75px;
+}
+
+.map-btn-active {
+    background: #286090;
+    color: #fff;
+}
+
+.search-result-wrapper {
+    overflow-y: scroll;
+    max-height: calc(100vh - 200px);
+    min-height: 200px;
+}
+
+.search-result-item {
+    text-align: left;
+    border-bottom: 1px dashed #ccc;
+    padding: 4px 12px;
+    user-select: none;
+}
+
+.search-result-item .name {
+    font-weight: bold;
+    min-width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.search-result-item .map {
+    font-weight: normal;
+    min-width: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 7px;
+    font-size: 16px;
+}
+
+.search-result-item .x {
+    font-weight: bold;
+    font-family: Courier, monospace;
+    min-width: 50px;
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    top: 7px;
+    font-size: 16px;
+}
+
+.search-result-item .y {
+    font-weight: bold;
+    font-family: Courier, monospace;
+    min-width: 50px;
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    top: 7px;
+    font-size: 16px;
+}
+
+.search-result-item .category {
+    font-weight: normal;
+    min-width: 100px;
+    display: inline-block;
+    text-align: center;
+    color: #777;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+.search-result-item .des {
+    font-weight: normal;
+    display: inline-block;
+    text-align: left;
+    color: #777;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.search-result-item:hover {
+    background: #ddd;
+    cursor: pointer;
+}

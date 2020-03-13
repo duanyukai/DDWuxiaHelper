@@ -1,23 +1,26 @@
 {
   "ZY": {
+    "chineseName": "中原",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
     "correspond": [
-      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
-      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+      {"imgPosX": 0, "imgPosY": 0, "gamePosX": 0, "gamePosY": 2048},
+      {"imgPosX": 4096, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
     ]
   },
   "DH": {
+    "chineseName": "东海",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
     "correspond": [
-      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 4096},
-      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 4096, "gamePosY": 0}
+      {"imgPosX": 1024, "imgPosY": 0, "gamePosX": 0, "gamePosY": 65536},
+      {"imgPosX": 3072, "imgPosY": 2048, "gamePosX": 65536, "gamePosY": 0}
     ]
   },
   "NH": {
+    "chineseName": "南海",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -27,6 +30,7 @@
     ]
   },
   "HZ": {
+    "chineseName": "杭州",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -36,6 +40,7 @@
     ]
   },
   "JN": {
+    "chineseName": "江南",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -45,6 +50,7 @@
     ]
   },
   "DY": {
+    "chineseName": "东越",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -54,6 +60,7 @@
     ]
   },
   "JH": {
+    "chineseName": "九华",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -63,6 +70,7 @@
     ]
   },
   "XH": {
+    "chineseName": "徐海",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -72,6 +80,7 @@
     ]
   },
   "KF": {
+    "chineseName": "开封",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -81,6 +90,7 @@
     ]
   },
   "QC": {
+    "chineseName": "秦川",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -90,6 +100,7 @@
     ]
   },
   "YY": {
+    "chineseName": "燕云",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -99,6 +110,7 @@
     ]
   },
   "BS": {
+    "chineseName": "巴蜀",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -108,6 +120,7 @@
     ]
   },
   "XZ": {
+    "chineseName": "襄州",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -117,6 +130,7 @@
     ]
   },
   "JINGH": {
+    "chineseName": "荆湖",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -126,6 +140,7 @@
     ]
   },
   "YD": {
+    "chineseName": "云滇",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -135,6 +150,7 @@
     ]
   },
   "HHZ": {
+    "chineseName": "海河洲",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -144,6 +160,7 @@
     ]
   },
   "JJD": {
+    "chineseName": "极境岛",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -153,6 +170,7 @@
     ]
   },
   "SLWZ": {
+    "chineseName": "松林",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -162,6 +180,7 @@
     ]
   },
   "CZGY": {
+    "chineseName": "长洲",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -171,6 +190,7 @@
     ]
   },
   "CTG": {
+    "chineseName": "嘲天宫",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -180,6 +200,7 @@
     ]
   },
   "QLZY": {
+    "chineseName": "龙渊",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -190,6 +211,7 @@
   },
 
   "QTG": {
+    "chineseName": "钱塘港",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [15415, 57961],
@@ -199,6 +221,7 @@
     ]
   },
   "JYG": {
+    "chineseName": "江洋港",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [7492, 53492],
@@ -208,6 +231,7 @@
     ]
   },
   "QZG": {
+    "chineseName": "泉州港",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [7615, 46014],
@@ -217,6 +241,7 @@
     ]
   },
   "WHJ": {
+    "chineseName": "望海岬",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [21717, 49908],
@@ -226,6 +251,7 @@
     ]
   },
   "LLD": {
+    "chineseName": "灵鹿岛",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [27772, 56356],
@@ -235,6 +261,7 @@
     ]
   },
   "TYYC": {
+    "chineseName": "天涯盐场",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [13095, 40294],
@@ -244,6 +271,7 @@
     ]
   },
   "CLD": {
+    "chineseName": "沧浪岛",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [38025, 60323],
@@ -253,6 +281,7 @@
     ]
   },
   "YLD": {
+    "chineseName": "幽灵岛",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [40384, 52005],
@@ -262,6 +291,7 @@
     ]
   },
   "BKS": {
+    "chineseName": "宝矿山",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [52000, 54515],
@@ -271,6 +301,7 @@
     ]
   },
   "LHFD": {
+    "chineseName": "琅嬛福地",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [19438, 27509],
@@ -280,6 +311,7 @@
     ]
   },
   "DCH": {
+    "chineseName": "大沧海",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [8914, 19704],
@@ -289,6 +321,7 @@
     ]
   },
   "DHYW": {
+    "chineseName": "东海玉涡",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [23445, 11589],
@@ -300,6 +333,7 @@
 
 
   "YDZS": {
+    "chineseName": "一代宗师",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -309,6 +343,7 @@
     ]
   },
   "YH": {
+    "chineseName": "移花岛",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
@@ -318,6 +353,7 @@
     ]
   },
   "TSS": {
+    "chineseName": "太室山",
     "imgSize": [4096, 2048],
     "maxZoom": 4,
     "initView": [2000, 2000],
